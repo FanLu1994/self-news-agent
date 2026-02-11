@@ -1,0 +1,37 @@
+{
+  "name": "ai-news-agent",
+  "version": "1.0.0",
+  "description": "AI-powered news aggregation and summarization agent using pi-ai and pi-coding-agent with GLM-4",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "example:basic": "tsx examples/basic-usage.ts",
+    "example:advanced": "tsx examples/advanced-usage.ts"
+  },
+  "keywords": [
+    "ai",
+    "news",
+    "agent",
+    "glm-4",
+    "hackernews",
+    "rss",
+    "llm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@mariozechner/pi-ai": "^0.52.9",
+    "@mariozechner/pi-coding-agent": "^0.52.9",
+    "@sinclair/typebox": "^0.34.15",
+    "dotenv": "^16.4.7",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
