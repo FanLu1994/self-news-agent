@@ -26,6 +26,7 @@ export type TimeRange = '1d' | '3d' | '7d';
  * 总结风格
  */
 export type SummaryStyle = 'brief' | 'detailed' | 'keywords';
+export type SourceType = 'hn' | 'rss' | 'twitter' | 'github';
 
 /**
  * 新闻文章接口
@@ -36,6 +37,7 @@ export interface NewsArticle {
   summary: string;
   url: string;
   source: string;
+  sourceType: SourceType;
   author?: string;
   publishedAt: string;
   category: NewsCategory;
@@ -43,6 +45,14 @@ export interface NewsArticle {
   score?: number;          // HackerNews 评分
   commentCount?: number;   // 评论数量
   tags?: string[];
+}
+
+export interface DigestAnalysis {
+  title: string;
+  overview: string;
+  highlights: string[];
+  keywords: string[];
+  generatedAt: string;
 }
 
 /**

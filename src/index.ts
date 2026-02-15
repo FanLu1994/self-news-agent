@@ -8,20 +8,34 @@
  */
 
 import { runNewsAgent } from './agent.js';
+import { runDigestPipeline } from './digest.js';
+import { runTelegramBotChat } from './telegram-chat.js';
 
 /**
  * 主函数
  */
 async function main() {
-  // 从命令行获取查询参数
-  // 用法: npm start "你的查询"
   const args = process.argv.slice(2);
-  const query = args.join(' ') || getDefaultQuery();
-
-  console.log('启动 AI 新闻 Agent...\n');
+  const useAgent = args.includes('--agent');
+  const useDigest = args.includes('--digest');
+  const cleanedArgs = args.filter(arg => arg !== '--agent' && arg !== '--telegram' && arg !== '--digest');
+  const query = cleanedArgs.join(' ') || getDefaultQuery();
 
   try {
-    await runNewsAgent(query);
+    if (useAgent) {
+      console.log('启动 AI 新闻 Agent 模式...\n');
+      await runNewsAgent(query);
+      return;
+    }
+
+    if (useDigest) {
+      console.log('启动新闻聚合流水线模式...\n');
+      await runDigestPipeline();
+      return;
+    }
+
+    console.log('启动 Telegram 对话模式...\n');
+    await runTelegramBotChat();
   } catch (error) {
     console.error('致命错误:', error);
     process.exit(1);

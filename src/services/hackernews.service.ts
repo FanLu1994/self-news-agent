@@ -167,6 +167,7 @@ export class HackerNewsService {
       summary,
       url: item.url || `https://news.ycombinator.com/item?id=${item.id}`,
       source: 'HackerNews',
+      sourceType: 'hn',
       author: item.by,
       publishedAt: new Date(item.time * 1000).toISOString(),
       category: 'ai', // 默认分类，后续可以细化
@@ -247,6 +248,7 @@ export class HackerNewsService {
         summary: hit.story_text?.substring(0, 200) || hit.title,
         url: hit.url || `https://news.ycombinator.com/item?id=${hit.objectID}`,
         source: 'HackerNews',
+        sourceType: 'hn' as const,
         author: hit.author,
         publishedAt: new Date(hit.created_at).toISOString(),
         category: 'ai' as const,

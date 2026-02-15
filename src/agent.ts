@@ -13,9 +13,9 @@
  */
 
 import { Agent } from '@mariozechner/pi-agent-core';
-import { getModel } from '@mariozechner/pi-ai';
 import { fetchNewsTool } from './tools/fetch-news.tool.js';
 import { summarizeNewsTool } from './tools/summarize-news.tool.js';
+import { getConfiguredModel } from './model.js';
 import 'dotenv/config';
 
 /**
@@ -23,21 +23,8 @@ import 'dotenv/config';
  * 
  * 教学要点：Agent 初始化和配置
  */
-export function createNewsAgent() {
-  // 验证 API Key
-  if (!process.env.ZAI_API_KEY) {
-    console.warn('\n⚠️  WARNING: ZAI_API_KEY not found in environment variables!');
-    console.warn('Please create a .env file with your GLM-4.7 API key.');
-    console.warn('Get your API key at: https://open.bigmodel.cn/\n');
-    console.warn('Example .env file:');
-    console.warn('ZAI_API_KEY=your_api_key_here\n');
-  }
-
-  // 教学要点：Agent 初始化配置
-  const agent = new Agent({
-    initialState: {
-      // 教学要点：系统提示词 - 定义 Agent 的角色、能力和行为
-      systemPrompt: `你是一个由智谱 AI 的 GLM-4.7 驱动的 AI 新闻研究助手。
+function getSystemPrompt(modelProvider: string, modelName: string): string {
+  return `你是一个由 ${modelProvider}/${modelName} 驱动的 AI 新闻研究助手。
 
 🎯 你的角色：
 帮助用户发现、分析和理解来自全球的最新 AI 和技术新闻。
@@ -50,7 +37,7 @@ export function createNewsAgent() {
    - 筛选条件：类别（ai/ml/nlp/cv/robotics）、语言（en/zh/all）、时间范围（1d/3d/7d）
    - 返回：包含标题、摘要、来源、URL 的结构化文章列表
 
-2. **summarize_news**：使用 GLM-4.7 AI 模型分析新闻
+2. **summarize_news**：使用当前配置的大模型分析新闻
    - 识别主要话题和关键趋势
    - 突出技术突破和行业影响
    - 提供未来影响和区域洞察
@@ -59,41 +46,24 @@ export function createNewsAgent() {
 📋 你的工作流程：
 当用户询问新闻时：
 1. 使用 fetch_news 根据用户请求获取相关文章
-2. 自动使用 summarize_news 通过 GLM-4.7 分析文章
+2. 自动使用 summarize_news 分析文章
 3. 以清晰、结构良好的格式呈现洞察
 4. 突出最重要的发展及其意义
 
-💡 可用类别：
-- **ai**：通用人工智能、大语言模型、AGI
-- **ml**：机器学习算法、训练技术、研究
-- **nlp**：自然语言处理、文本生成、翻译
-- **cv**：计算机视觉、图像识别、生成式图像
-- **robotics**：机器人、自主系统、自动化
-- **all**：所有类别组合
+记住：你是一位专家分析师。要有洞察力、准确，并帮助用户理解快速发展的 AI 领域。所有输出都使用中文。`;
+}
 
-🌍 语言支持：
-- **en**：来自 HackerNews 的英文新闻（高质量技术社区）
-- **zh**：来自主要科技媒体的中文新闻（机器之心、新智元等）
-- **all**：双语（默认：约 70% 英文，30% 中文）
+export function createNewsAgent() {
+  const { model, config: modelConfig } = getConfiguredModel();
 
-⏰ 时间范围：
-- **1d**：过去 24 小时（突发新闻）
-- **3d**：过去 3 天（最近发展）
-- **7d**：过去一周（综合概览，默认）
+  // 教学要点：Agent 初始化配置
+  const agent = new Agent({
+    initialState: {
+      // 教学要点：系统提示词 - 定义 Agent 的角色、能力和行为
+      systemPrompt: getSystemPrompt(modelConfig.provider, modelConfig.model),
 
-📊 你的输出应该：
-✓ 信息丰富且具有分析性
-✓ 突出重大突破和趋势
-✓ 清晰解释技术概念
-✓ 提供背景和影响
-✓ 区分国际和中国特定的发展
-✓ 在提出主张时引用具体文章
-✓ 以结构良好的格式呈现信息
-
-记住：你是一位专家分析师。要有洞察力、准确，并帮助用户理解快速发展的 AI 领域。所有输出都使用中文。`,
-
-      // 教学要点：配置 LLM 模型 (GLM-4.7)
-      model: getModel('zai', 'glm-4.7'),
+      // 教学要点：配置 LLM 模型
+      model,
       
       // 教学要点：思维链配置 (如果模型支持)
       // thinkingLevel: 'medium',
@@ -190,7 +160,7 @@ function handleToolResult(event: any) {
       console.log(`   Language: ${event.details.language}`);
       console.log(`   Time range: ${event.details.timeRange}`);
       if (event.details.distribution) {
-        console.log(`   Distribution: ${event.details.distribution.english} EN, ${event.details.distribution.chinese} ZH`);
+        console.log(`   Distribution: ${event.details.distribution.english} EN, ${event.details.distribution.chinese} ZH, ${event.details.distribution.twitter || 0} X, ${event.details.distribution.github || 0} GH`);
       }
     } else if (event.toolName === 'summarize_news') {
       console.log(`   Articles analyzed: ${event.details.articlesAnalyzed}`);
@@ -209,11 +179,13 @@ function handleToolResult(event: any) {
  * 教学要点：Agent 使用示例
  */
 export async function runNewsAgent(query: string) {
+  const { config: modelConfig } = getConfiguredModel();
   console.log('╔════════════════════════════════════════════════════════════════════╗');
-  console.log('║           🤖 AI News Agent (Powered by GLM-4.7)                  ║');
+  console.log('║                🤖 AI News Agent (Multi-LLM)                      ║');
   console.log('╚════════════════════════════════════════════════════════════════════╝\n');
   
   console.log(`📝 User Query: ${query}\n`);
+  console.log(`🧠 Model: ${modelConfig.provider}/${modelConfig.model}\n`);
   console.log('─'.repeat(70));
   console.log();
 
@@ -231,4 +203,28 @@ export async function runNewsAgent(query: string) {
     console.error(error);
     process.exit(1);
   }
+}
+
+export async function askNewsAgent(query: string): Promise<string> {
+  const { model, config: modelConfig } = getConfiguredModel();
+  const agent = new Agent({
+    initialState: {
+      systemPrompt: getSystemPrompt(modelConfig.provider, modelConfig.model),
+      model,
+      tools: [fetchNewsTool, summarizeNewsTool],
+      messages: []
+    }
+  });
+
+  let responseText = '';
+  agent.subscribe((event) => {
+    if (event.type !== 'message_update') return;
+    const msgEvent = event.assistantMessageEvent;
+    if (msgEvent?.type === 'text_delta') {
+      responseText += msgEvent.delta;
+    }
+  });
+
+  await agent.prompt(query);
+  return responseText.trim() || '暂时没有可返回的结果。';
 }

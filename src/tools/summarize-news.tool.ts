@@ -13,8 +13,9 @@
  */
 
 import { Type } from '@sinclair/typebox';
-import { StringEnum, getModel, complete } from '@mariozechner/pi-ai';
+import { StringEnum } from '@mariozechner/pi-ai';
 import type { Tool, Context } from '@mariozechner/pi-ai';
+import { completeWithFallback, getConfiguredModel } from '../model.js';
 
 /**
  * 新闻总结工具定义
@@ -47,8 +48,10 @@ export const summarizeNewsTool: Tool = {
       throw new Error('Operation cancelled by user');
     }
 
+    const { config: modelConfig } = getConfiguredModel();
+
     onUpdate?.({
-      content: [{ type: 'text', text: '🤖 初始化 GLM-4.7 分析...' }],
+      content: [{ type: 'text', text: `🤖 初始化 ${modelConfig.provider}/${modelConfig.model} 分析...` }],
       details: { progress: 10 }
     });
 
@@ -65,13 +68,10 @@ export const summarizeNewsTool: Tool = {
     }
 
     const articleCount = newsJson.articles.length;
-    console.log(`  使用 GLM-4.7 分析 ${articleCount} 篇文章...`);
-
-    // 教学要点：配置 GLM-4.7 模型
-    const model = getModel('zai', 'glm-4.7');
+    console.log(`  使用 ${modelConfig.provider}/${modelConfig.model} 分析 ${articleCount} 篇文章...`);
 
     onUpdate?.({
-      content: [{ type: 'text', text: `🧠 GLM-4.7 正在分析 ${articleCount} 篇文章...` }],
+      content: [{ type: 'text', text: `🧠 ${modelConfig.provider}/${modelConfig.model} 正在分析 ${articleCount} 篇文章...` }],
       details: { progress: 30 }
     });
 
@@ -95,11 +95,13 @@ export const summarizeNewsTool: Tool = {
 
     try {
       // 教学要点：使用 complete() 调用 LLM
-      console.log('  调用 GLM-4.7...');
-      const response = await complete(model, context);
+      console.log(`  调用 ${modelConfig.provider}/${modelConfig.model}...`);
+      const completion = await completeWithFallback(context);
+      const response = completion.response;
+      const usedConfig = completion.config;
 
       onUpdate?.({
-        content: [{ type: 'text', text: '✓ GLM-4.7 分析完成' }],
+        content: [{ type: 'text', text: `✓ ${usedConfig.provider}/${usedConfig.model} 分析完成` }],
         details: { progress: 90 }
       });
 
@@ -110,6 +112,7 @@ export const summarizeNewsTool: Tool = {
         .join('\n');
 
       console.log(`  分析完成。长度：${analysisText.length} 字符`);
+      console.log(`  实际使用模型：${usedConfig.provider}/${usedConfig.model}`);
 
       // 教学要点：提取 Token 使用统计
       const usage = response.usage;
@@ -121,7 +124,7 @@ export const summarizeNewsTool: Tool = {
       formattedOutput += `**分析日期**：${new Date().toLocaleString('zh-CN')}\n`;
       formattedOutput += `**分析文章数**：${articleCount}\n`;
       formattedOutput += `**总结风格**：${params.style}\n`;
-      formattedOutput += `**AI 模型**：GLM-4.7（智谱 AI）\n\n`;
+      formattedOutput += `**AI 模型**：${usedConfig.provider}/${usedConfig.model}\n\n`;
       formattedOutput += `---\n\n`;
       formattedOutput += analysisText;
       formattedOutput += `\n\n---\n\n`;
@@ -148,17 +151,17 @@ export const summarizeNewsTool: Tool = {
             total: usage.totalTokens || 0,
             cost: typeof usage.cost === 'number' ? usage.cost : (usage.cost?.total || 0)
           },
-          model: 'glm-4.7',
-          provider: 'zai'
+          model: usedConfig.model,
+          provider: usedConfig.provider
         }
       };
 
     } catch (error) {
-      console.error('❌ GLM-4.7 分析错误:', error);
+      console.error('❌ 模型分析错误:', error);
       
       // 详细的错误信息
       const errorMessage = error instanceof Error ? error.message : '未知错误';
-      throw new Error(`GLM-4.7 分析失败：${errorMessage}\n\n请检查：\n1. .env 中正确设置了 ZAI_API_KEY\n2. API 密钥有足够的配额\n3. 网络连接稳定`);
+      throw new Error(`${modelConfig.provider}/${modelConfig.model} 分析失败：${errorMessage}\n\n请检查：\n1. .env 中设置了对应厂商 API Key\n2. API 密钥有足够的配额\n3. 网络连接稳定`);
     }
   },
 

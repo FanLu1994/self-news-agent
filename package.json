@@ -6,6 +6,8 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "tsx src/index.ts",
+    "start:telegram": "tsx src/index.ts --telegram",
+    "start:digest": "tsx src/index.ts --digest",
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "example:basic": "tsx examples/basic-usage.ts",

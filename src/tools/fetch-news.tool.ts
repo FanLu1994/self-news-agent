@@ -16,7 +16,9 @@ import { StringEnum } from '@mariozechner/pi-ai';
 import type { Tool } from '@mariozechner/pi-ai';
 import { hackerNewsService } from '../services/hackernews.service.js';
 import { rssService } from '../services/rss.service.js';
-import type { NewsArticle, Language } from '../types/news.types.js';
+import { twitterService } from '../services/twitter.service.js';
+import { githubTrendingService } from '../services/github-trending.service.js';
+import type { NewsArticle } from '../types/news.types.js';
 
 /**
  * 新闻获取工具定义
@@ -50,6 +52,23 @@ export const fetchNewsTool: Tool = {
     timeRange: StringEnum(['1d', '3d', '7d'] as const, {
       description: '时间范围：1d（过去一天）、3d（过去3天）、7d（过去一周）',
       default: '7d'
+    }),
+
+    keywords: Type.Array(Type.String({
+      minLength: 1
+    }), {
+      description: '关键词列表，用于过滤新闻内容，例如 ["agent", "openai", "deep learning"]',
+      default: []
+    }),
+
+    includeTwitter: Type.Boolean({
+      description: '是否包含 Twitter/X 热点内容（需要配置 X_BEARER_TOKEN）',
+      default: true
+    }),
+
+    includeGithubTrending: Type.Boolean({
+      description: '是否包含 GitHub Trending 热门仓库',
+      default: true
     })
   }),
 
@@ -70,9 +89,14 @@ export const fetchNewsTool: Tool = {
 
     try {
       const { category, language, limit, timeRange } = params;
+      const keywords: string[] = Array.isArray(params.keywords) ? params.keywords : [];
+      const includeTwitter = params.includeTwitter !== false;
+      const includeGithubTrending = params.includeGithubTrending !== false;
       
       let hnArticles: NewsArticle[] = [];
       let rssArticles: NewsArticle[] = [];
+      let twitterArticles: NewsArticle[] = [];
+      let githubArticles: NewsArticle[] = [];
 
       // 根据语言选择数据源
       const shouldFetchHN = language === 'en' || language === 'all';
@@ -116,15 +140,50 @@ export const fetchNewsTool: Tool = {
         });
 
         fetchPromises.push(
-          rssService.fetchChineseNews({
+          rssService.fetchNews({
+            feeds: (process.env.RSS_FEEDS || '').split(',').map(v => v.trim()).filter(Boolean),
             limit: rssLimit,
-            timeRange
+            timeRange,
+            keywords
           }).then(articles => {
             rssArticles = articles;
             console.log(`  ✓ RSS Feeds: ${articles.length} articles`);
           }).catch(error => {
             console.error('  ❌ RSS error:', error);
             rssArticles = [];
+          })
+        );
+      }
+
+      if (includeTwitter) {
+        fetchPromises.push(
+          twitterService.fetchHotTweets({
+            bearerToken: process.env.X_BEARER_TOKEN,
+            keywords,
+            limit: Math.ceil(limit * 0.5),
+            timeRange
+          }).then(articles => {
+            twitterArticles = articles;
+            console.log(`  ✓ Twitter/X: ${articles.length} posts`);
+          }).catch(error => {
+            console.error('  ❌ Twitter/X error:', error);
+            twitterArticles = [];
+          })
+        );
+      }
+
+      if (includeGithubTrending) {
+        fetchPromises.push(
+          githubTrendingService.fetchTrending({
+            languages: (process.env.GITHUB_TRENDING_LANGUAGES || '').split(',').map(v => v.trim()).filter(Boolean),
+            limit: Math.ceil(limit * 0.5),
+            timeRange
+          }).then(articles => {
+            githubArticles = articles;
+            console.log(`  ✓ GitHub Trending: ${articles.length} repos`);
+          }).catch(error => {
+            console.error('  ❌ GitHub Trending error:', error);
+            githubArticles = [];
           })
         );
       }
@@ -138,7 +197,15 @@ export const fetchNewsTool: Tool = {
       });
 
       // 合并结果
-      let allArticles = [...hnArticles, ...rssArticles];
+      let allArticles = [...hnArticles, ...rssArticles, ...twitterArticles, ...githubArticles];
+
+      if (keywords.length > 0) {
+        const lowerKeywords = keywords.map(keyword => keyword.toLowerCase());
+        allArticles = allArticles.filter(article => {
+          const text = `${article.title} ${article.summary} ${(article.tags || []).join(' ')}`.toLowerCase();
+          return lowerKeywords.some(keyword => text.includes(keyword));
+        });
+      }
 
       // 按发布时间排序（最新的在前）
       allArticles.sort((a, b) => 
@@ -164,7 +231,9 @@ export const fetchNewsTool: Tool = {
         },
         distribution: {
           english: hnArticles.length,
-          chinese: rssArticles.length
+          chinese: rssArticles.length,
+          twitter: twitterArticles.length,
+          github: githubArticles.length
         },
         articles: allArticles.map(article => ({
           id: article.id,
@@ -172,6 +241,7 @@ export const fetchNewsTool: Tool = {
           summary: article.summary,
           url: article.url,
           source: article.source,
+          sourceType: article.sourceType,
           author: article.author,
           publishedAt: article.publishedAt,
           language: article.language,
@@ -184,7 +254,7 @@ export const fetchNewsTool: Tool = {
       // 生成可读的输出文本
       let outputText = `# 新闻获取结果\n\n`;
       outputText += `**总计**：${allArticles.length} 篇文章\n`;
-      outputText += `**分布**：${hnArticles.length} 篇英文，${rssArticles.length} 篇中文\n`;
+      outputText += `**分布**：${hnArticles.length} 篇英文，${rssArticles.length} 篇中文，${twitterArticles.length} 条推文，${githubArticles.length} 个仓库\n`;
       outputText += `**时间范围**：${timeRange}\n\n`;
       
       outputText += `## 文章列表\n\n`;
@@ -219,8 +289,11 @@ export const fetchNewsTool: Tool = {
           timeRange,
           distribution: {
             english: hnArticles.length,
-            chinese: rssArticles.length
+            chinese: rssArticles.length,
+            twitter: twitterArticles.length,
+            github: githubArticles.length
           },
+          keywords,
           rawData: JSON.stringify(output)  // 供后续工具使用
         }
       };
