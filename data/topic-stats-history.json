@@ -1,0 +1,19 @@
+[
+  {
+    "date": "2026-02-19",
+    "total": 119,
+    "byTopic": {
+      "AI": 47,
+      "Frontend": 5,
+      "Backend": 2,
+      "DevOps": 1,
+      "Data": 13,
+      "Security": 2,
+      "Cloud": 1,
+      "Mobile": 1,
+      "Startup": 1,
+      "OpenSource": 2,
+      "Other": 44
+    }
+  }
+]
