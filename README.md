@@ -9,6 +9,7 @@
 
 **核心功能**：
 - 🔍 从 HackerNews 和中文科技媒体获取最新 AI/科技新闻
+- 🌐 支持 Ve2x、Linux.do、Reddit、Product Hunt 多源抓取
 - 🤖 支持 GLM / OpenAI / Claude / Gemini 等多模型 API 分析总结
 - 🌍 支持中英双语新闻源
 - 📊 提供详细的趋势分析和行业洞察
@@ -16,7 +17,21 @@
 - 🐦 支持从 X/Twitter 获取关键词热点（可选）
 - ⚙️ 关键词、RSS 源、时间窗口等可通过环境变量配置
 - 📮 支持将摘要推送到 Telegram（可选）
+- ✉️ 支持摘要生成后邮件推送（Resend，可选）
 - 📰 自动生成可订阅的 RSS 摘要文件
+- 📝 自动生成 `docs/daily/YYYY-MM-DD.md` 并回写 README 最新摘要与话题趋势
+
+<!-- digest:latest:start -->
+## 最新简报
+
+等待首次生成...
+<!-- digest:latest:end -->
+
+<!-- digest:trend:start -->
+## 话题趋势
+
+等待首次生成...
+<!-- digest:trend:end -->
 
 **教学价值**：
 - ✅ 学习如何定义和实现自定义工具（Tool）
@@ -55,6 +70,8 @@ pi-agent/
 
 ## 🚀 快速开始
 
+完整配置流程见：`docs/configuration-guide.md`
+
 ### 1. 环境要求
 
 - Node.js >= 18.0.0
@@ -85,8 +102,11 @@ ZHIPU_API_KEY=your_actual_api_key_here
 ### 4. 运行 Agent
 
 ```bash
-# 默认：运行聚合流水线（抓取 -> AI 分析 -> Telegram(可选) -> 生成 RSS）
-npm start
+# 运行聚合流水线（抓取 -> AI 分析 -> Markdown/README -> 推送）
+npm run start:digest
+
+# 每日两次调度执行（默认 09:00,18:00）
+npm run start:schedule
 
 # 运行对话式 Agent 模式
 npm start -- --agent "获取最新的大模型和AI应用相关新闻"
@@ -103,6 +123,29 @@ npm run example:basic
 # 运行高级示例
 npm run example:advanced
 ```
+
+---
+
+## ⏰ GitHub Actions 定时运行
+
+已提供工作流：`.github/workflows/digest-schedule.yml`
+
+- 定时：每天 `09:00`、`18:00`（北京时间，GitHub 使用 UTC 的 `01:00`、`10:00`）
+- 支持手动触发：`workflow_dispatch`
+- 执行后会自动提交更新的 `README.md`、`docs/daily`、`data`、`output`
+
+请在仓库 `Settings -> Secrets and variables -> Actions` 中配置至少以下 Secrets：
+
+- `ZAI_API_KEY`（或你实际使用的模型 API Key）
+- `LLM_PROVIDER`、`LLM_MODEL`
+- `TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`（如果需要 Telegram 推送）
+- `EMAIL_ENABLED`、`RESEND_API_KEY`、`EMAIL_FROM`、`EMAIL_TO`（如果需要邮件推送）
+
+可选 Secrets（不配则走代码默认值）：
+
+- `NEWS_KEYWORDS`、`RSS_FEEDS`、`VE2X_FEEDS`、`LINUX_DO_FEEDS`、`REDDIT_FEEDS`、`PRODUCT_HUNT_FEEDS`
+- `INCLUDE_GITHUB_TRENDING`、`INCLUDE_VE2X`、`INCLUDE_LINUX_DO`、`INCLUDE_REDDIT`、`INCLUDE_PRODUCT_HUNT`、`INCLUDE_TWITTER`
+- `GITHUB_TRENDING_LANGUAGES`、`X_BEARER_TOKEN`、`X_KEYWORDS`
 
 ---
 

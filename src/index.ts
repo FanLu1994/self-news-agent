@@ -9,6 +9,8 @@
 
 import { runNewsAgent } from './agent.js';
 import { runDigestPipeline } from './digest.js';
+import { loadConfig } from './config.js';
+import { schedulerService } from './services/scheduler.service.js';
 import { runTelegramBotChat } from './telegram-chat.js';
 
 /**
@@ -18,7 +20,8 @@ async function main() {
   const args = process.argv.slice(2);
   const useAgent = args.includes('--agent');
   const useDigest = args.includes('--digest');
-  const cleanedArgs = args.filter(arg => arg !== '--agent' && arg !== '--telegram' && arg !== '--digest');
+  const useSchedule = args.includes('--schedule');
+  const cleanedArgs = args.filter(arg => !['--agent', '--telegram', '--digest', '--schedule'].includes(arg));
   const query = cleanedArgs.join(' ') || getDefaultQuery();
 
   try {
@@ -31,6 +34,18 @@ async function main() {
     if (useDigest) {
       console.log('启动新闻聚合流水线模式...\n');
       await runDigestPipeline();
+      return;
+    }
+
+    if (useSchedule) {
+      const config = loadConfig();
+      console.log('启动定时调度模式...\n');
+      console.log(`执行时间: ${config.scheduleTimes.join(', ')} (${config.scheduleTimezone})`);
+      await schedulerService.runTwiceDaily({
+        times: config.scheduleTimes,
+        timezone: config.scheduleTimezone,
+        task: runDigestPipeline
+      });
       return;
     }
 

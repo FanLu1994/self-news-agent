@@ -1,0 +1,76 @@
+name: Self News Digest Schedule
+
+on:
+  schedule:
+    # 09:00 / 18:00 Asia/Shanghai = 01:00 / 10:00 UTC
+    - cron: '0 1,10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run digest pipeline
+        env:
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_CANDIDATES: ${{ secrets.LLM_CANDIDATES }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GOOGLE_GENERATIVE_AI_API_KEY }}
+          NEWS_KEYWORDS: ${{ secrets.NEWS_KEYWORDS }}
+          X_KEYWORDS: ${{ secrets.X_KEYWORDS }}
+          MAX_ITEMS_PER_SOURCE: ${{ secrets.MAX_ITEMS_PER_SOURCE }}
+          NEWS_TIME_RANGE: ${{ secrets.NEWS_TIME_RANGE }}
+          SUMMARY_STYLE: ${{ secrets.SUMMARY_STYLE }}
+          RSS_FEEDS: ${{ secrets.RSS_FEEDS }}
+          VE2X_FEEDS: ${{ secrets.VE2X_FEEDS }}
+          LINUX_DO_FEEDS: ${{ secrets.LINUX_DO_FEEDS }}
+          REDDIT_FEEDS: ${{ secrets.REDDIT_FEEDS }}
+          PRODUCT_HUNT_FEEDS: ${{ secrets.PRODUCT_HUNT_FEEDS }}
+          INCLUDE_GITHUB_TRENDING: ${{ secrets.INCLUDE_GITHUB_TRENDING }}
+          INCLUDE_VE2X: ${{ secrets.INCLUDE_VE2X }}
+          INCLUDE_LINUX_DO: ${{ secrets.INCLUDE_LINUX_DO }}
+          INCLUDE_REDDIT: ${{ secrets.INCLUDE_REDDIT }}
+          INCLUDE_PRODUCT_HUNT: ${{ secrets.INCLUDE_PRODUCT_HUNT }}
+          INCLUDE_TWITTER: ${{ secrets.INCLUDE_TWITTER }}
+          GITHUB_TRENDING_LANGUAGES: ${{ secrets.GITHUB_TRENDING_LANGUAGES }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OUTPUT_RSS_PATH: output/news-digest.xml
+          OUTPUT_DAILY_DIR: docs/daily
+          TOPIC_STATS_PATH: data/topic-stats-history.json
+          README_PATH: README.md
+          UPDATE_README: 'true'
+          EMAIL_ENABLED: ${{ secrets.EMAIL_ENABLED }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: npm run start:digest
+
+      - name: Commit and push generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore(digest): update daily digest [skip ci]"
+          git push

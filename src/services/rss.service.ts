@@ -1,5 +1,5 @@
 import Parser from 'rss-parser';
-import type { NewsArticle, RSSFeedItem, TimeRange } from '../types/news.types.js';
+import type { NewsArticle, RSSFeedItem, SourceType, TimeRange } from '../types/news.types.js';
 
 interface FetchRssOptions {
   feeds: string[];
@@ -12,13 +12,32 @@ interface RSSFeedConfig {
   name: string;
   url: string;
   language: 'zh' | 'en';
+  sourceType: SourceType;
+  source?: string;
+  category?: NewsArticle['category'];
 }
 
 const DEFAULT_FEED_CONFIGS: RSSFeedConfig[] = [
-  { name: '机器之心', url: 'https://www.jiqizhixin.com/rss', language: 'zh' },
-  { name: 'MIT Technology Review', url: 'https://www.technologyreview.com/feed/', language: 'en' },
-  { name: 'HN Frontpage RSS', url: 'https://hnrss.org/frontpage', language: 'en' }
+  { name: '机器之心', url: 'https://www.jiqizhixin.com/rss', language: 'zh', sourceType: 'rss', source: '机器之心', category: 'ai' },
+  { name: 'MIT Technology Review', url: 'https://www.technologyreview.com/feed/', language: 'en', sourceType: 'rss', source: 'MIT Technology Review', category: 'ai' },
+  { name: 'HN Frontpage RSS', url: 'https://hnrss.org/frontpage', language: 'en', sourceType: 'rss', source: 'HN Frontpage RSS', category: 'all' }
 ];
+
+export interface CustomRssFeedConfig {
+  name: string;
+  url: string;
+  language?: 'zh' | 'en';
+  sourceType: SourceType;
+  source?: string;
+  category?: NewsArticle['category'];
+}
+
+export interface FetchCustomRssOptions {
+  feeds: CustomRssFeedConfig[];
+  limit: number;
+  timeRange: TimeRange;
+  keywords: string[];
+}
 
 function inferFeedLanguage(url: string): 'zh' | 'en' {
   const zhHints = ['jiqizhixin', 'csdn', 'rsshub', '.cn', 'zhihu'];
@@ -47,7 +66,10 @@ export class RSSService {
       return {
         name: `RSS-${index + 1}`,
         url: feedUrl,
-        language: inferFeedLanguage(feedUrl)
+        language: inferFeedLanguage(feedUrl),
+        sourceType: 'rss',
+        source: `RSS-${index + 1}`,
+        category: 'all'
       };
     });
   }
@@ -80,11 +102,11 @@ export class RSSService {
       title: item.title,
       summary,
       url: item.link,
-      source: config.name,
-      sourceType: 'rss',
+      source: config.source || config.name,
+      sourceType: config.sourceType,
       author: item.creator,
       publishedAt: Number.isNaN(publishDate.getTime()) ? new Date().toISOString() : publishDate.toISOString(),
-      category: 'ai',
+      category: config.category || 'all',
       language: config.language,
       tags: item.categories || []
     };
@@ -125,6 +147,32 @@ export class RSSService {
 
   async fetchNews(options: FetchRssOptions): Promise<NewsArticle[]> {
     const configs = this.buildFeedConfigs(options.feeds);
+    const chunks = await Promise.all(configs.map(config => this.fetchFeed(config)));
+
+    let allArticles = chunks.flat();
+    allArticles = allArticles.filter(article => this.isWithinTimeRange(article, options.timeRange));
+    allArticles = allArticles.filter(article => this.matchKeywords(article, options.keywords));
+
+    allArticles.sort((a, b) =>
+      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+    );
+
+    allArticles = this.deduplicateArticles(allArticles);
+    return allArticles.slice(0, options.limit);
+  }
+
+  async fetchNewsFromConfigs(options: FetchCustomRssOptions): Promise<NewsArticle[]> {
+    if (options.feeds.length === 0) return [];
+
+    const configs: RSSFeedConfig[] = options.feeds.map(feed => ({
+      name: feed.name,
+      url: feed.url,
+      language: feed.language || inferFeedLanguage(feed.url),
+      sourceType: feed.sourceType,
+      source: feed.source || feed.name,
+      category: feed.category || 'all'
+    }));
+
     const chunks = await Promise.all(configs.map(config => this.fetchFeed(config)));
 
     let allArticles = chunks.flat();

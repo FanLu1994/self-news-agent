@@ -26,7 +26,20 @@ export type TimeRange = '1d' | '3d' | '7d';
  * 总结风格
  */
 export type SummaryStyle = 'brief' | 'detailed' | 'keywords';
-export type SourceType = 'hn' | 'rss' | 'twitter' | 'github';
+export type SourceType = 'hn' | 'rss' | 'twitter' | 'github' | 've2x' | 'linuxdo' | 'reddit' | 'producthunt';
+
+export type TopicCategory =
+  | 'AI'
+  | 'Frontend'
+  | 'Backend'
+  | 'DevOps'
+  | 'Data'
+  | 'Security'
+  | 'Cloud'
+  | 'Mobile'
+  | 'Startup'
+  | 'OpenSource'
+  | 'Other';
 
 /**
  * 新闻文章接口
@@ -53,6 +66,18 @@ export interface DigestAnalysis {
   highlights: string[];
   keywords: string[];
   generatedAt: string;
+}
+
+export interface TopicClassification {
+  articleId: string;
+  topic: TopicCategory;
+  confidence: number;
+}
+
+export interface TopicStatsDay {
+  date: string;
+  total: number;
+  byTopic: Record<TopicCategory, number>;
 }
 
 /**
