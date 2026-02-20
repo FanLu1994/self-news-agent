@@ -5,13 +5,13 @@
     <link>https://example.com/self-news-agent</link>
     <description></description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 20 Feb 2026 01:33:05 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 10:11:00 GMT</lastBuildDate>
     <item>
         <title>AI 新闻摘要</title>
         <link>https://example.com/self-news-agent</link>
         <description></description>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-20T01:33:05.501Z</guid>
+        <pubDate>Fri, 20 Feb 2026 10:11:00 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-20T10:11:00.045Z</guid>
       </item>
     <item>
         <title>rowboatlabs/rowboat</title>
@@ -19,7 +19,7 @@
         <description>Open-source AI coworker, with memory | 近期热门</description>
         <author>rowboatlabs</author>
         <category>github</category>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 10:10:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-rowboatlabs-rowboat</guid>
       </item>
 <item>
@@ -28,7 +28,7 @@
         <description>Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension. | 近期热门</description>
         <author>sponsors</author>
         <category>github</category>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 10:10:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-sponsors-steipete</guid>
       </item>
 <item>
@@ -37,7 +37,7 @@
         <description>Chrome DevTools for coding agents | 近期热门</description>
         <author>ChromeDevTools</author>
         <category>github</category>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 10:10:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-chromedevtools-chrome-devtools-mcp</guid>
       </item>
 <item>
@@ -46,7 +46,7 @@
         <description>Agentic AI Infrastructure for magnifying HUMAN capabilities. | 近期热门</description>
         <author>sponsors</author>
         <category>github</category>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 10:10:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-sponsors-danielmiessler</guid>
       </item>
 <item>
@@ -55,7 +55,7 @@
         <description>AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI libraries, Slack bot, vLLM pods | 近期热门</description>
         <author>sponsors</author>
         <category>github</category>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 10:10:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-sponsors-badlogic</guid>
       </item>
 <item>
@@ -64,7 +64,7 @@
         <description>Generative UI SDK for React | 近期热门</description>
         <author>tambo-ai</author>
         <category>github</category>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 10:10:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-tambo-ai-tambo</guid>
       </item>
 <item>
@@ -73,7 +73,7 @@
         <description>The memory-first coding agent | 近期热门</description>
         <author>letta-ai</author>
         <category>github</category>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 10:10:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-letta-ai-letta-code</guid>
       </item>
 <item>
@@ -82,7 +82,7 @@
         <description>Database diagrams editor that allows you to visualize and design your DB with a single query. | 近期热门</description>
         <author>chartdb</author>
         <category>github</category>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 10:10:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-chartdb-chartdb</guid>
       </item>
 <item>
@@ -91,7 +91,7 @@
         <description>Open Cyber Threat Intelligence Platform | 近期热门</description>
         <author>OpenCTI-Platform</author>
         <category>github</category>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 10:10:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-opencti-platform-opencti</guid>
       </item>
 <item>
@@ -100,7 +100,7 @@
         <description>Open-source media request and discovery manager for Jellyfin, Plex, and Emby. | 近期热门</description>
         <author>seerr-team</author>
         <category>github</category>
-        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 10:10:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-seerr-team-seerr</guid>
       </item>
   </channel>
