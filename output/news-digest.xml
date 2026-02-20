@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>AI 新闻摘要 (2026/2/19)</title>
+    <title>AI 新闻摘要 (2026/2/20)</title>
     <link>https://example.com/self-news-agent</link>
     <description></description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 Feb 2026 10:15:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 01:33:05 GMT</lastBuildDate>
     <item>
         <title>AI 新闻摘要</title>
         <link>https://example.com/self-news-agent</link>
         <description></description>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-19T10:15:09.377Z</guid>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-20T01:33:05.501Z</guid>
       </item>
     <item>
+        <title>rowboatlabs/rowboat</title>
+        <link>https://github.com/rowboatlabs/rowboat</link>
+        <description>Open-source AI coworker, with memory | 近期热门</description>
+        <author>rowboatlabs</author>
+        <category>github</category>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-rowboatlabs-rowboat</guid>
+      </item>
+<item>
         <title>sponsors/steipete</title>
         <link>https://github.com/sponsors/steipete</link>
         <description>Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension. | 近期热门</description>
         <author>sponsors</author>
         <category>github</category>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-sponsors-steipete</guid>
-      </item>
-<item>
-        <title>sponsors/danielmiessler</title>
-        <link>https://github.com/sponsors/danielmiessler</link>
-        <description>Agentic AI Infrastructure for magnifying HUMAN capabilities. | 近期热门</description>
-        <author>sponsors</author>
-        <category>github</category>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-sponsors-danielmiessler</guid>
       </item>
 <item>
         <title>ChromeDevTools/chrome-devtools-mcp</title>
@@ -37,17 +37,17 @@
         <description>Chrome DevTools for coding agents | 近期热门</description>
         <author>ChromeDevTools</author>
         <category>github</category>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-chromedevtools-chrome-devtools-mcp</guid>
       </item>
 <item>
-        <title>tambo-ai/tambo</title>
-        <link>https://github.com/tambo-ai/tambo</link>
-        <description>Generative UI SDK for React | 近期热门</description>
-        <author>tambo-ai</author>
+        <title>sponsors/danielmiessler</title>
+        <link>https://github.com/sponsors/danielmiessler</link>
+        <description>Agentic AI Infrastructure for magnifying HUMAN capabilities. | 近期热门</description>
+        <author>sponsors</author>
         <category>github</category>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-tambo-ai-tambo</guid>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-sponsors-danielmiessler</guid>
       </item>
 <item>
         <title>sponsors/badlogic</title>
@@ -55,8 +55,17 @@
         <description>AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI libraries, Slack bot, vLLM pods | 近期热门</description>
         <author>sponsors</author>
         <category>github</category>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-sponsors-badlogic</guid>
+      </item>
+<item>
+        <title>tambo-ai/tambo</title>
+        <link>https://github.com/tambo-ai/tambo</link>
+        <description>Generative UI SDK for React | 近期热门</description>
+        <author>tambo-ai</author>
+        <category>github</category>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-tambo-ai-tambo</guid>
       </item>
 <item>
         <title>letta-ai/letta-code</title>
@@ -64,7 +73,7 @@
         <description>The memory-first coding agent | 近期热门</description>
         <author>letta-ai</author>
         <category>github</category>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-letta-ai-letta-code</guid>
       </item>
 <item>
@@ -73,8 +82,17 @@
         <description>Database diagrams editor that allows you to visualize and design your DB with a single query. | 近期热门</description>
         <author>chartdb</author>
         <category>github</category>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-chartdb-chartdb</guid>
+      </item>
+<item>
+        <title>OpenCTI-Platform/opencti</title>
+        <link>https://github.com/OpenCTI-Platform/opencti</link>
+        <description>Open Cyber Threat Intelligence Platform | 近期热门</description>
+        <author>OpenCTI-Platform</author>
+        <category>github</category>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-opencti-platform-opencti</guid>
       </item>
 <item>
         <title>seerr-team/seerr</title>
@@ -82,26 +100,8 @@
         <description>Open-source media request and discovery manager for Jellyfin, Plex, and Emby. | 近期热门</description>
         <author>seerr-team</author>
         <category>github</category>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
+        <pubDate>Fri, 20 Feb 2026 01:33:05 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-seerr-team-seerr</guid>
-      </item>
-<item>
-        <title>EveryInc/compound-engineering-plugin</title>
-        <link>https://github.com/EveryInc/compound-engineering-plugin</link>
-        <description>Official Claude Code compound engineering plugin | 近期热门</description>
-        <author>EveryInc</author>
-        <category>github</category>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-everyinc-compound-engineering-plugin</guid>
-      </item>
-<item>
-        <title>element-hq/element-web</title>
-        <link>https://github.com/element-hq/element-web</link>
-        <description>A glossy Matrix collaboration client for the web. | 近期热门</description>
-        <author>element-hq</author>
-        <category>github</category>
-        <pubDate>Thu, 19 Feb 2026 10:15:09 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-element-hq-element-web</guid>
       </item>
   </channel>
 </rss>
