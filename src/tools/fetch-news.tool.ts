@@ -26,7 +26,7 @@ import type { NewsArticle } from '../types/news.types.js';
 export const fetchNewsTool: Tool = {
   name: 'fetch_news',
   
-  description: `从 HackerNews 和中文科技媒体 RSS 源获取 AI 和技术新闻。
+  description: `从 HackerNews、中文科技媒体 RSS、X/Twitter（可选）和 GitHub Trending（可选）获取 AI 和技术新闻。
 支持按类别、语言、时间范围和文章数量进行筛选。
 返回包含标题、摘要、来源和 URL 的结构化新闻文章列表。`,
 

@@ -1,6 +1,6 @@
 # Self News Agent 配置流程文档
 
-本文档用于从 0 到 1 完成项目配置，并启用 GitHub Actions 定时运行。
+本文档用于从 0 到 1 完成项目配置，并通过外部调度（如 GitHub Actions）定时执行。
 
 ## 1. 前置条件
 
@@ -53,6 +53,8 @@ npm run start:digest
   - `INCLUDE_REDDIT=true`
   - `INCLUDE_PRODUCT_HUNT=true`
   - `INCLUDE_GITHUB_TRENDING=true`
+  - `GITHUB_TRENDING_LANGUAGES=typescript,python,rust,go`（可选，逗号分隔）
+  - `GITHUB_TOKEN=`（可选，建议配置，用于提升 GitHub API 回退请求的速率限制）
   - `INCLUDE_TWITTER=false`（启用时需配置 `X_BEARER_TOKEN`）
 - 内容过滤
   - `NEWS_KEYWORDS=` 留空表示不过滤
@@ -102,6 +104,7 @@ npm run start:digest
 - 模型扩展：`OPENAI_API_KEY`、`ANTHROPIC_API_KEY`、`GOOGLE_GENERATIVE_AI_API_KEY`、`LLM_CANDIDATES`
 - 数据源参数：`NEWS_KEYWORDS`、`RSS_FEEDS`、`VE2X_FEEDS`、`LINUX_DO_FEEDS`、`REDDIT_FEEDS`、`PRODUCT_HUNT_FEEDS`
 - 开关：`INCLUDE_GITHUB_TRENDING`、`INCLUDE_VE2X`、`INCLUDE_LINUX_DO`、`INCLUDE_REDDIT`、`INCLUDE_PRODUCT_HUNT`、`INCLUDE_TWITTER`
+- GitHub Trending：`GITHUB_TRENDING_LANGUAGES`、`GITHUB_TOKEN`
 - X：`X_BEARER_TOKEN`、`X_KEYWORDS`
 - Telegram：`TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`
 - Email：`EMAIL_ENABLED`、`RESEND_API_KEY`、`EMAIL_FROM`、`EMAIL_TO`
@@ -128,6 +131,10 @@ npm run start:digest
   - 检查 Actions 写权限是否为 `Read and write`
 - 没有抓到某些来源
   - 检查对应 `INCLUDE_*` 开关及 feed 地址
+- GitHub Trending 数量偏少或偶发失败
+  - 检查 `INCLUDE_GITHUB_TRENDING=true`
+  - 检查 `GITHUB_TRENDING_LANGUAGES` 是否填写了有效语言（如 `typescript,python,rust,go`）
+  - 建议配置 `GITHUB_TOKEN`，避免未认证请求的速率限制
 - 邮件未发送
   - 检查 `EMAIL_ENABLED=true` 且 Resend 三项参数齐全
 - README 未更新

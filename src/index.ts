@@ -7,11 +7,7 @@
  * 3. Agent 启动
  */
 
-import { runNewsAgent } from './agent.js';
 import { runDigestPipeline } from './digest.js';
-import { loadConfig } from './config.js';
-import { schedulerService } from './services/scheduler.service.js';
-import { runTelegramBotChat } from './telegram-chat.js';
 
 /**
  * 主函数
@@ -20,12 +16,12 @@ async function main() {
   const args = process.argv.slice(2);
   const useAgent = args.includes('--agent');
   const useDigest = args.includes('--digest');
-  const useSchedule = args.includes('--schedule');
-  const cleanedArgs = args.filter(arg => !['--agent', '--telegram', '--digest', '--schedule'].includes(arg));
+  const cleanedArgs = args.filter(arg => !['--agent', '--telegram', '--digest'].includes(arg));
   const query = cleanedArgs.join(' ') || getDefaultQuery();
 
   try {
     if (useAgent) {
+      const { runNewsAgent } = await import('./agent.js');
       console.log('启动 AI 新闻 Agent 模式...\n');
       await runNewsAgent(query);
       return;
@@ -37,18 +33,7 @@ async function main() {
       return;
     }
 
-    if (useSchedule) {
-      const config = loadConfig();
-      console.log('启动定时调度模式...\n');
-      console.log(`执行时间: ${config.scheduleTimes.join(', ')} (${config.scheduleTimezone})`);
-      await schedulerService.runTwiceDaily({
-        times: config.scheduleTimes,
-        timezone: config.scheduleTimezone,
-        task: runDigestPipeline
-      });
-      return;
-    }
-
+    const { runTelegramBotChat } = await import('./telegram-chat.js');
     console.log('启动 Telegram 对话模式...\n');
     await runTelegramBotChat();
   } catch (error) {

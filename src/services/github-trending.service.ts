@@ -16,6 +16,17 @@ interface TrendingRepo {
   url: string;
 }
 
+interface GitHubSearchItem {
+  full_name: string;
+  html_url: string;
+  description: string | null;
+  stargazers_count: number;
+  language: string | null;
+  owner?: {
+    login?: string;
+  };
+}
+
 function decodeHtml(text: string): string {
   return text
     .replace(/&amp;/g, '&')
@@ -41,23 +52,27 @@ function extractNumber(text: string): number | undefined {
 }
 
 function parseTrendingRepos(html: string): TrendingRepo[] {
-  const articleRegex = /<article class="Box-row"[\s\S]*?<\/article>/g;
+  const articleRegex = /<article[^>]*class="[^"]*Box-row[^"]*"[\s\S]*?<\/article>/g;
   const blocks = html.match(articleRegex) || [];
 
   return blocks.map(block => {
-    const repoLinkMatch = block.match(/href="\/([^/"\s]+)\/([^/"\s]+)"/);
+    const repoLinkMatch =
+      block.match(/<h2[^>]*>[\s\S]*?<a[^>]*href="\/([^/"\s]+)\/([^/"\s]+)"/i) ||
+      block.match(/href="\/([^/"\s]+)\/([^/"\s]+)"/);
     const owner = repoLinkMatch?.[1] || '';
     const repo = repoLinkMatch?.[2] || '';
     const url = owner && repo ? `https://github.com/${owner}/${repo}` : 'https://github.com/trending';
 
-    const descMatch = block.match(/<p[^>]*class="col-9 color-fg-muted my-1 pr-4"[^>]*>([\s\S]*?)<\/p>/);
+    const descMatch = block.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
     const description = descMatch ? stripTags(descMatch[1]) : `${owner}/${repo}`;
 
-    const langMatch = block.match(/itemprop="programmingLanguage">\s*([^<]+)\s*</);
+    const langMatch =
+      block.match(/itemprop="programmingLanguage">\s*([^<]+)\s*</i) ||
+      block.match(/<span[^>]*>\s*([A-Za-z+#.\-]+)\s*<\/span>/i);
     const language = langMatch ? stripTags(langMatch[1]) : undefined;
 
     const starsTotalMatch = block.match(/href="\/[^/"\s]+\/[^/"\s]+\/stargazers"[^>]*>\s*([\d,]+)\s*<\/a>/);
-    const starsTodayMatch = block.match(/(\d[\d,]*)\s+stars\s+today/i);
+    const starsTodayMatch = block.match(/(\d[\d,]*)\s+stars?\s+today/i);
 
     return {
       owner,
@@ -72,19 +87,62 @@ function parseTrendingRepos(html: string): TrendingRepo[] {
 }
 
 export class GitHubTrendingService {
+  private buildHeaders(includeApiVersion = false): Record<string, string> {
+    const headers: Record<string, string> = {
+      'User-Agent': 'Mozilla/5.0 (compatible; self-news-agent/1.0)',
+      'Accept-Language': 'en-US,en;q=0.9'
+    };
+    if (includeApiVersion) {
+      headers.Accept = 'application/vnd.github+json';
+      headers['X-GitHub-Api-Version'] = '2022-11-28';
+    }
+    if (process.env.GITHUB_TOKEN) {
+      headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+    }
+    return headers;
+  }
+
   private async fetchTrendingPage(language: string, since: 'daily' | 'weekly'): Promise<string> {
     const normalizedLanguage = language.trim().toLowerCase();
     const base = normalizedLanguage ? `https://github.com/trending/${encodeURIComponent(normalizedLanguage)}` : 'https://github.com/trending';
     const url = `${base}?since=${since}`;
     const response = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; self-news-agent/1.0)'
-      }
+      headers: this.buildHeaders()
     });
     if (!response.ok) {
       throw new Error(`GitHub trending request failed: ${response.status}`);
     }
     return response.text();
+  }
+
+  private async fetchTrendingBySearchApi(language: string, limit: number, timeRange: TimeRange): Promise<TrendingRepo[]> {
+    const normalizedLanguage = language.trim().toLowerCase();
+    const lookbackDays = timeRange === '1d' ? 1 : timeRange === '3d' ? 3 : 7;
+    const from = new Date(Date.now() - lookbackDays * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+    const langQualifier = normalizedLanguage ? `+language:${encodeURIComponent(normalizedLanguage)}` : '';
+    const perPage = Math.max(1, Math.min(50, limit));
+    const query = `created:>=${from}${langQualifier}`;
+    const url = `https://api.github.com/search/repositories?q=${query}&sort=stars&order=desc&per_page=${perPage}`;
+    const response = await fetch(url, {
+      headers: this.buildHeaders(true)
+    });
+    if (!response.ok) {
+      throw new Error(`GitHub search fallback request failed: ${response.status}`);
+    }
+
+    const payload = await response.json() as { items?: GitHubSearchItem[] };
+    const items = Array.isArray(payload.items) ? payload.items : [];
+    return items.map(item => {
+      const [owner = '', repo = ''] = (item.full_name || '').split('/');
+      return {
+        owner: owner || item.owner?.login || '',
+        repo,
+        description: (item.description || `${item.full_name} trending repository`).trim(),
+        language: item.language || undefined,
+        starsTotal: item.stargazers_count,
+        url: item.html_url || `https://github.com/${item.full_name}`
+      };
+    }).filter(repo => repo.owner && repo.repo);
   }
 
   async fetchTrending(options: FetchTrendingOptions): Promise<NewsArticle[]> {
@@ -95,10 +153,18 @@ export class GitHubTrendingService {
       languages.map(async language => {
         try {
           const html = await this.fetchTrendingPage(language, since);
-          return parseTrendingRepos(html);
+          const parsed = parseTrendingRepos(html);
+          if (parsed.length > 0) return parsed;
+          console.warn(`GitHub trending parsed 0 repos for "${language || 'all'}", fallback to search API.`);
+          return this.fetchTrendingBySearchApi(language, options.limit, options.timeRange);
         } catch (error) {
-          console.error(`Failed to fetch GitHub trending for "${language || 'all'}":`, error);
-          return [];
+          console.error(`Failed to fetch GitHub trending page for "${language || 'all'}":`, error);
+          try {
+            return await this.fetchTrendingBySearchApi(language, options.limit, options.timeRange);
+          } catch (fallbackError) {
+            console.error(`Failed to fetch GitHub search fallback for "${language || 'all'}":`, fallbackError);
+            return [];
+          }
         }
       })
     );

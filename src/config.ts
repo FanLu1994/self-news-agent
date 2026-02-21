@@ -26,8 +26,6 @@ export interface AppConfig {
   topicStatsPath: string;
   readmePath: string;
   updateReadme: boolean;
-  scheduleTimes: string[];
-  scheduleTimezone: string;
   emailEnabled: boolean;
   emailProvider: 'resend';
   resendApiKey?: string;
@@ -101,7 +99,6 @@ export function loadConfig(): AppConfig {
   const keywords = splitCsv(process.env.NEWS_KEYWORDS);
   const xKeywords = splitCsv(process.env.X_KEYWORDS);
   const ghLanguages = splitCsv(process.env.GITHUB_TRENDING_LANGUAGES);
-  const scheduleTimes = splitCsv(process.env.DIGEST_SCHEDULE_TIMES);
 
   return {
     keywords: keywords.length > 0 ? keywords : DEFAULT_KEYWORDS,
@@ -129,8 +126,6 @@ export function loadConfig(): AppConfig {
     topicStatsPath: process.env.TOPIC_STATS_PATH || 'data/topic-stats-history.json',
     readmePath: process.env.README_PATH || 'README.md',
     updateReadme: parseBoolean(process.env.UPDATE_README, true),
-    scheduleTimes: scheduleTimes.length > 0 ? scheduleTimes : ['09:00', '18:00'],
-    scheduleTimezone: process.env.SCHEDULE_TIMEZONE || 'Asia/Shanghai',
     emailEnabled: parseBoolean(process.env.EMAIL_ENABLED, false),
     emailProvider: 'resend',
     resendApiKey: process.env.RESEND_API_KEY,

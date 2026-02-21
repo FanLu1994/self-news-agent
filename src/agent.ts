@@ -33,7 +33,7 @@ function getSystemPrompt(modelProvider: string, modelName: string): string {
 你可以使用两个强大的工具：
 
 1. **fetch_news**：获取实时 AI/技术新闻文章
-   - 数据源：HackerNews（英文）+ 中文科技媒体 RSS 源
+   - 数据源：HackerNews（英文）+ 中文科技媒体 RSS + GitHub Trending（可选）+ X/Twitter（可选）
    - 筛选条件：类别（ai/ml/nlp/cv/robotics）、语言（en/zh/all）、时间范围（1d/3d/7d）
    - 返回：包含标题、摘要、来源、URL 的结构化文章列表
 
