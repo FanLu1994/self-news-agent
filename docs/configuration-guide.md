@@ -69,7 +69,7 @@ npm run telegram
   - `INCLUDE_PRODUCT_HUNT=true`
   - `INCLUDE_GITHUB_TRENDING=true`
   - `GITHUB_TRENDING_LANGUAGES=typescript,python,rust,go`（可选，逗号分隔）
-  - `GITHUB_TOKEN=ghp_xxx`（**强烈建议配置**，GitHub Trending 使用 API，无 token 时速率限制仅 60 次/小时）
+  - `GITHUB_TOKEN`（可选，用于提高其他 GitHub API 调用的速率限制）
   - `INCLUDE_TWITTER=false`（启用时需配置 `X_BEARER_TOKEN`）
 - 内容过滤
   - `NEWS_KEYWORDS=` 留空表示不过滤
@@ -150,7 +150,7 @@ npm run telegram
 - GitHub Trending 数量偏少或偶发失败
   - 检查 `INCLUDE_GITHUB_TRENDING=true`
   - 检查 `GITHUB_TRENDING_LANGUAGES` 是否填写了有效语言（如 `typescript,python,rust,go`）
-  - 建议配置 `GITHUB_TOKEN`，避免未认证请求的速率限制
+  - 爬虫方式偶尔可能因网络波动失败，已内置重试机制
 - 邮件未发送
   - 检查 `EMAIL_ENABLED=true` 且 Resend 三项参数齐全
 - README 未更新

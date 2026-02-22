@@ -149,8 +149,9 @@ npm run telegram
 - `LLM_PROVIDER`（默认：`openai`）
 - `LLM_MODEL`（默认：`deepseek-chat`）
 
-**GitHub Trending（推荐）**：
-- `GITHUB_TOKEN`（使用 API 获取 Trending，无 token 速率限制低）
+**GitHub Trending（可选）**：
+- `GITHUB_TOKEN`（提高其他 GitHub API 调用的速率限制）
+- `GITHUB_TRENDING_LANGUAGES`
 
 **Telegram 推送（推荐）**：
 - `TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`
