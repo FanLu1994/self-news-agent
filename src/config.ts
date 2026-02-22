@@ -1,6 +1,41 @@
 import 'dotenv/config';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 
-export interface AppConfig {
+interface AppConfig {
+  keywords: {
+    news: string;
+    x: string;
+  };
+  fetch: {
+    maxItemsPerSource: number;
+    timeRange: '1d' | '3d' | '7d';
+    summaryStyle: 'brief' | 'detailed' | 'keywords';
+  };
+  sources: {
+    rss: { enabled: boolean; feeds: string[] };
+    ve2x: { enabled: boolean; feeds: string[] };
+    linuxDo: { enabled: boolean; feeds: string[] };
+    reddit: { enabled: boolean; feeds: string[] };
+    productHunt: { enabled: boolean; feeds: string[] };
+    twitter: { enabled: boolean };
+    githubTrending: { enabled: boolean };
+    hackerNews: { enabled: boolean };
+  };
+  output: {
+    rssPath: string;
+    dailyDir: string;
+    topicStatsPath: string;
+    readmePath: string;
+    updateReadme: boolean;
+  };
+  push: {
+    telegram: { enabled: boolean };
+    email: { enabled: boolean; from: string; to: string };
+  };
+}
+
+interface ParsedConfig {
   keywords: string[];
   rssFeeds: string[];
   ve2xFeeds: string[];
@@ -51,90 +86,121 @@ function parseSummaryStyle(value: string | undefined): 'brief' | 'detailed' | 'k
   return 'detailed';
 }
 
-function parsePositiveInt(value: string | undefined, fallback: number): number {
-  if (!value) return fallback;
-  const parsed = Number.parseInt(value, 10);
-  return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback;
-}
-
-function parseBoolean(value: string | undefined, fallback: boolean): boolean {
-  if (value === undefined) return fallback;
-  const normalized = value.trim().toLowerCase();
-  if (['1', 'true', 'yes', 'on'].includes(normalized)) return true;
-  if (['0', 'false', 'no', 'off'].includes(normalized)) return false;
+function parsePositiveInt(value: number | undefined, fallback: number): number {
+  if (typeof value === 'number' && Number.isFinite(value) && value > 0) return value;
   return fallback;
 }
 
-const DEFAULT_RSS_FEEDS = [
-  'https://www.jiqizhixin.com/rss',
-  'https://www.technologyreview.com/feed/',
-  'https://hnrss.org/frontpage'
-];
+function parseBoolean(value: boolean | undefined, fallback: boolean): boolean {
+  return typeof value === 'boolean' ? value : fallback;
+}
 
-const DEFAULT_VE2X_FEEDS = [
-  'https://www.v2ex.com/index.xml'
-];
+/**
+ * 加载 config.json 配置文件
+ */
+function loadJsonConfig(): AppConfig {
+  const configPath = resolve(process.cwd(), 'config.json');
+  try {
+    const content = readFileSync(configPath, 'utf-8');
+    return JSON.parse(content);
+  } catch (error) {
+    console.warn(`Failed to load config.json, using defaults: ${error}`);
+    return {
+      keywords: { news: '', x: 'ai,llm,agent' },
+      fetch: {
+        maxItemsPerSource: 20,
+        timeRange: '7d',
+        summaryStyle: 'detailed'
+      },
+      sources: {
+        rss: { enabled: false, feeds: [] },
+        ve2x: { enabled: true, feeds: ['https://www.v2ex.com/index.xml'] },
+        linuxDo: { enabled: true, feeds: ['https://linux.do/latest.rss'] },
+        reddit: {
+          enabled: true,
+          feeds: [
+            'https://www.reddit.com/r/artificial/.rss',
+            'https://www.reddit.com/r/MachineLearning/.rss',
+            'https://www.reddit.com/r/deeplearning/.rss',
+            'https://www.reddit.com/r/LocalLLaMA/.rss',
+            'https://www.reddit.com/r/OpenAI/.rss',
+            'https://www.reddit.com/r/compsci/.rss'
+          ]
+        },
+        productHunt: { enabled: true, feeds: ['https://www.producthunt.com/feed'] },
+        twitter: { enabled: false },
+        githubTrending: { enabled: true },
+        hackerNews: { enabled: true }
+      },
+      output: {
+        rssPath: 'output/news-digest.xml',
+        dailyDir: 'docs/daily',
+        topicStatsPath: 'data/topic-stats-history.json',
+        readmePath: 'README.md',
+        updateReadme: true
+      },
+      push: {
+        telegram: { enabled: false },
+        email: { enabled: false, from: 'Self News <digest@yourdomain.com>', to: 'you@example.com' }
+      }
+    };
+  }
+}
 
-const DEFAULT_LINUX_DO_FEEDS = [
-  'https://linux.do/latest.rss'
-];
+export function loadConfig(): ParsedConfig {
+  const json = loadJsonConfig();
 
-const DEFAULT_REDDIT_FEEDS = [
-  'https://www.reddit.com/r/artificial/.rss',
-  'https://www.reddit.com/r/MachineLearning/.rss',
-  'https://www.reddit.com/r/deeplearning/.rss',
-  'https://www.reddit.com/r/LocalLLaMA/.rss',
-  'https://www.reddit.com/r/OpenAI/.rss',
-  'https://www.reddit.com/r/CharacterAI/.rss',
-  'https://www.reddit.com/r/compsci/.rss'
-];
-
-const DEFAULT_PRODUCT_HUNT_FEEDS = [
-  'https://www.producthunt.com/feed'
-];
-
-const DEFAULT_KEYWORDS: string[] = [];
-
-export function loadConfig(): AppConfig {
-  const rssFeeds = splitCsv(process.env.RSS_FEEDS);
-  const ve2xFeeds = splitCsv(process.env.VE2X_FEEDS);
-  const linuxDoFeeds = splitCsv(process.env.LINUX_DO_FEEDS);
-  const redditFeeds = splitCsv(process.env.REDDIT_FEEDS);
-  const productHuntFeeds = splitCsv(process.env.PRODUCT_HUNT_FEEDS);
-  const keywords = splitCsv(process.env.NEWS_KEYWORDS);
-  const xKeywords = splitCsv(process.env.X_KEYWORDS);
-  const ghLanguages = splitCsv(process.env.GITHUB_TRENDING_LANGUAGES);
+  // 环境变量覆盖（优先级更高）
+  const keywords = splitCsv(process.env.NEWS_KEYWORDS || json.keywords.news);
+  const xKeywords = splitCsv(process.env.X_KEYWORDS || json.keywords.x);
 
   return {
-    keywords: keywords.length > 0 ? keywords : DEFAULT_KEYWORDS,
-    rssFeeds: rssFeeds.length > 0 ? rssFeeds : DEFAULT_RSS_FEEDS,
-    ve2xFeeds: ve2xFeeds.length > 0 ? ve2xFeeds : DEFAULT_VE2X_FEEDS,
-    linuxDoFeeds: linuxDoFeeds.length > 0 ? linuxDoFeeds : DEFAULT_LINUX_DO_FEEDS,
-    redditFeeds: redditFeeds.length > 0 ? redditFeeds : DEFAULT_REDDIT_FEEDS,
-    productHuntFeeds: productHuntFeeds.length > 0 ? productHuntFeeds : DEFAULT_PRODUCT_HUNT_FEEDS,
+    // 关键字
+    keywords: keywords.length > 0 ? keywords : splitCsv(json.keywords.news),
+    xQueryKeywords: xKeywords.length > 0 ? xKeywords : splitCsv(json.keywords.x),
+
+    // 数据源
+    rssFeeds: json.sources.rss.feeds,
+    ve2xFeeds: json.sources.ve2x.feeds,
+    linuxDoFeeds: json.sources.linuxDo.feeds,
+    redditFeeds: json.sources.reddit.feeds,
+    productHuntFeeds: json.sources.productHunt.feeds,
+
+    // Twitter
     xBearerToken: process.env.X_BEARER_TOKEN,
-    xQueryKeywords: xKeywords.length > 0 ? xKeywords : (keywords.length > 0 ? keywords : DEFAULT_KEYWORDS),
-    githubTrendingLanguages: ghLanguages.length > 0 ? ghLanguages : ['typescript', 'python', 'rust'],
-    includeGithubTrending: parseBoolean(process.env.INCLUDE_GITHUB_TRENDING, true),
-    includeVe2x: parseBoolean(process.env.INCLUDE_VE2X, true),
-    includeLinuxDo: parseBoolean(process.env.INCLUDE_LINUX_DO, true),
-    includeReddit: parseBoolean(process.env.INCLUDE_REDDIT, true),
-    includeProductHunt: parseBoolean(process.env.INCLUDE_PRODUCT_HUNT, true),
-    includeTwitter: parseBoolean(process.env.INCLUDE_TWITTER, false),
-    maxItemsPerSource: parsePositiveInt(process.env.MAX_ITEMS_PER_SOURCE, 20),
-    timeRange: parseTimeRange(process.env.NEWS_TIME_RANGE),
-    summaryStyle: parseSummaryStyle(process.env.SUMMARY_STYLE),
+
+    // GitHub Trending（不再使用语言参数）
+    githubTrendingLanguages: [],
+
+    // 开关
+    includeGithubTrending: json.sources.githubTrending.enabled,
+    includeVe2x: json.sources.ve2x.enabled,
+    includeLinuxDo: json.sources.linuxDo.enabled,
+    includeReddit: json.sources.reddit.enabled,
+    includeProductHunt: json.sources.productHunt.enabled,
+    includeTwitter: json.sources.twitter.enabled,
+
+    // 抓取配置
+    maxItemsPerSource: parsePositiveInt(json.fetch.maxItemsPerSource, 20),
+    timeRange: parseTimeRange(json.fetch.timeRange),
+    summaryStyle: parseSummaryStyle(json.fetch.summaryStyle),
+
+    // Telegram
     telegramBotToken: process.env.TELEGRAM_BOT_TOKEN,
     telegramChatId: process.env.TELEGRAM_CHAT_ID,
-    outputRssPath: process.env.OUTPUT_RSS_PATH || 'output/news-digest.xml',
-    outputDailyDir: process.env.OUTPUT_DAILY_DIR || 'docs/daily',
-    topicStatsPath: process.env.TOPIC_STATS_PATH || 'data/topic-stats-history.json',
-    readmePath: process.env.README_PATH || 'README.md',
-    updateReadme: parseBoolean(process.env.UPDATE_README, true),
-    emailEnabled: parseBoolean(process.env.EMAIL_ENABLED, false),
-    emailProvider: 'resend',
+
+    // 输出路径
+    outputRssPath: process.env.OUTPUT_RSS_PATH || json.output.rssPath,
+    outputDailyDir: process.env.OUTPUT_DAILY_DIR || json.output.dailyDir,
+    topicStatsPath: process.env.TOPIC_STATS_PATH || json.output.topicStatsPath,
+    readmePath: process.env.README_PATH || json.output.readmePath,
+    updateReadme: parseBoolean(process.env.UPDATE_README !== undefined ? process.env.UPDATE_README === 'true' : undefined, json.output.updateReadme),
+
+    // Email
+    emailEnabled: process.env.EMAIL_ENABLED === 'true' || json.push.email.enabled,
+    emailProvider: 'resend' as const,
     resendApiKey: process.env.RESEND_API_KEY,
-    emailFrom: process.env.EMAIL_FROM,
-    emailTo: process.env.EMAIL_TO
+    emailFrom: process.env.EMAIL_FROM || json.push.email.from,
+    emailTo: process.env.EMAIL_TO || json.push.email.to
   };
 }

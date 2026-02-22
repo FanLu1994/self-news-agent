@@ -1,0 +1,71 @@
+{
+  "$schema": "./config.schema.json",
+  "keywords": {
+    "news": "",
+    "x": "ai,llm,agent,coding,developer"
+  },
+  "fetch": {
+    "maxItemsPerSource": 20,
+    "timeRange": "7d",
+    "summaryStyle": "detailed"
+  },
+  "sources": {
+    "rss": {
+      "enabled": false,
+      "feeds": [
+        "https://www.jiqizhixin.com/rss",
+        "https://www.technologyreview.com/feed/",
+        "https://hnrss.org/frontpage"
+      ]
+    },
+    "ve2x": {
+      "enabled": true,
+      "feeds": ["https://www.v2ex.com/index.xml"]
+    },
+    "linuxDo": {
+      "enabled": true,
+      "feeds": ["https://linux.do/latest.rss"]
+    },
+    "reddit": {
+      "enabled": true,
+      "feeds": [
+        "https://www.reddit.com/r/artificial/.rss",
+        "https://www.reddit.com/r/MachineLearning/.rss",
+        "https://www.reddit.com/r/deeplearning/.rss",
+        "https://www.reddit.com/r/LocalLLaMA/.rss",
+        "https://www.reddit.com/r/OpenAI/.rss",
+        "https://www.reddit.com/r/compsci/.rss"
+      ]
+    },
+    "productHunt": {
+      "enabled": true,
+      "feeds": ["https://www.producthunt.com/feed"]
+    },
+    "twitter": {
+      "enabled": false
+    },
+    "githubTrending": {
+      "enabled": true
+    },
+    "hackerNews": {
+      "enabled": true
+    }
+  },
+  "output": {
+    "rssPath": "output/news-digest.xml",
+    "dailyDir": "docs/daily",
+    "topicStatsPath": "data/topic-stats-history.json",
+    "readmePath": "README.md",
+    "updateReadme": true
+  },
+  "push": {
+    "telegram": {
+      "enabled": false
+    },
+    "email": {
+      "enabled": false,
+      "from": "Self News <digest@yourdomain.com>",
+      "to": "you@example.com"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "keywords": {
+      "type": "object",
+      "properties": {
+        "news": { "type": "string", "description": "News keywords filter (comma-separated, empty = no filter)" },
+        "x": { "type": "string", "description": "X/Twitter search keywords (comma-separated)" }
+      }
+    },
+    "fetch": {
+      "type": "object",
+      "properties": {
+        "maxItemsPerSource": { "type": "number", "default": 20 },
+        "timeRange": { "type": "string", "enum": ["1d", "3d", "7d"], "default": "7d" },
+        "summaryStyle": { "type": "string", "enum": ["brief", "detailed", "keywords"], "default": "detailed" }
+      }
+    },
+    "sources": {
+      "type": "object",
+      "properties": {
+        "rss": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean" },
+            "feeds": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "ve2x": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean" },
+            "feeds": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "linuxDo": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean" },
+            "feeds": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "reddit": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean" },
+            "feeds": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "productHunt": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean" },
+            "feeds": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "twitter": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean" }
+          }
+        },
+        "githubTrending": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean" }
+          }
+        },
+        "hackerNews": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean" }
+          }
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "rssPath": { "type": "string", "default": "output/news-digest.xml" },
+        "dailyDir": { "type": "string", "default": "docs/daily" },
+        "topicStatsPath": { "type": "string", "default": "data/topic-stats-history.json" },
+        "readmePath": { "type": "string", "default": "README.md" },
+        "updateReadme": { "type": "boolean", "default": true }
+      }
+    },
+    "push": {
+      "type": "object",
+      "properties": {
+        "telegram": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean", "default": false }
+          }
+        },
+        "email": {
+          "type": "object",
+          "properties": {
+            "enabled": { "type": "boolean", "default": false },
+            "from": { "type": "string" },
+            "to": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}
