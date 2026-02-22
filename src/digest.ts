@@ -158,17 +158,45 @@ export async function runDigestPipeline(): Promise<void> {
     });
   }
 
-  // 助理风格的推送消息
-  const telegramText = [
-    `🤖 ${toReadableText(analysis.title)}`,
+  // 构建完整的报告内容（用于 Telegram 和 Email）
+  const fullReport = [
+    `🤖 ${toReadableText(analysis.title)} - ${dailyDate}`,
     '',
     toReadableText(analysis.overview),
     '',
     '⭐ 值得关注:',
-    ...analysis.highlights.slice(0, 6).map((h, idx) => `${idx + 1}. ${toReadableText(h).split('\n')[0]}`),
+    '',
+    ...analysis.highlights.map((h, idx) => `${idx + 1}. ${toReadableText(h)}`),
+  ];
+
+  // 添加洞察与深度（如果有）
+  if (analysis.sourceHighlights) {
+    fullReport.push(
+      '',
+      '💡 洞察与深度:',
+      '',
+      toReadableText(analysis.sourceHighlights)
+    );
+  }
+
+  // 添加话题统计
+  const topicSummary = Object.entries(todayTopicStats.byTopic)
+    .filter(([, count]) => count > 0)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([topic, count]) => `- ${topic}: ${count}`)
+    .join('\n');
+
+  fullReport.push(
+    '',
+    '📊 话题分布:',
+    '',
+    topicSummary,
     '',
     `📄 完整报告: ${docUrl}`
-  ].join('\n');
+  );
+
+  const telegramText = fullReport.join('\n');
 
   try {
     await telegramService.sendMessage({
@@ -188,16 +216,7 @@ export async function runDigestPipeline(): Promise<void> {
       from: config.emailFrom,
       to: config.emailTo,
       subject: `🤖 每日精选 - ${dailyDate}`,
-      text: [
-        `${toReadableText(analysis.title)}`,
-        '',
-        toReadableText(analysis.overview),
-        '',
-        '⭐ 值得关注:',
-        ...analysis.highlights.slice(0, 8).map((item, idx) => `${idx + 1}. ${toReadableText(item)}`),
-        '',
-        `📄 完整报告: ${docUrl}`
-      ].join('\n')
+      text: fullReport.join('\n')
     });
   } catch (error) {
     console.error('Email push failed:', error);
