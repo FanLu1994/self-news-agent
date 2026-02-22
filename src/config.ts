@@ -35,7 +35,7 @@ interface AppConfig {
   };
 }
 
-interface ParsedConfig {
+export interface ParsedConfig {
   keywords: string[];
   rssFeeds: string[];
   ve2xFeeds: string[];

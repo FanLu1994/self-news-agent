@@ -10,33 +10,51 @@ import { readmeService } from './services/readme.service.js';
 import { rssOutputService } from './services/rss-output.service.js';
 import { rssService } from './services/rss.service.js';
 import { telegramService } from './services/telegram.service.js';
+import { toReadableText } from './text-format.js';
 import { topicService } from './services/topic.service.js';
 import { topicStatsService } from './services/topic-stats.service.js';
 import { twitterService } from './services/twitter.service.js';
+import { dedupArticles, matchesKeywords } from './utils/article-utils.js';
 import type { NewsArticle } from './types/news.types.js';
-
-function matchesKeywords(article: NewsArticle, keywords: string[]): boolean {
-  if (keywords.length === 0) return true;
-  const text = `${article.title} ${article.summary} ${(article.tags || []).join(' ')}`.toLowerCase();
-  return keywords.some(keyword => text.includes(keyword.toLowerCase()));
-}
-
-function dedupArticles(articles: NewsArticle[]): NewsArticle[] {
-  const seen = new Set<string>();
-  const result: NewsArticle[] = [];
-  for (const article of articles) {
-    const normalizedTitle = article.title.toLowerCase().replace(/[^\w\s\u4e00-\u9fa5]/g, '').trim();
-    const normalizedUrl = article.url.split('?')[0].trim().toLowerCase();
-    const key = `${normalizedTitle}|${normalizedUrl}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    result.push(article);
-  }
-  return result;
-}
+import type { ParsedConfig } from './config.js';
+import type { SourceType } from './types/news.types.js';
 
 function toDateString(value: Date): string {
   return value.toISOString().slice(0, 10);
+}
+
+function buildRssFeedConfig(
+  feeds: string[],
+  name: string,
+  sourceType: SourceType,
+  language: 'zh' | 'en'
+): CustomRssFeedConfig[] {
+  return feeds.map(url => ({
+    name,
+    source: name,
+    sourceType,
+    url,
+    language,
+    category: 'all' as const
+  }));
+}
+
+function fetchRssIfEnabled(
+  enabled: boolean,
+  feeds: string[],
+  name: string,
+  sourceType: SourceType,
+  language: 'zh' | 'en',
+  keywords: string[],
+  config: Pick<ParsedConfig, 'maxItemsPerSource' | 'timeRange'>
+): Promise<NewsArticle[]> {
+  if (!enabled || feeds.length === 0) return Promise.resolve([]);
+  return rssService.fetchNewsFromConfigs({
+    feeds: buildRssFeedConfig(feeds, name, sourceType, language),
+    limit: config.maxItemsPerSource,
+    timeRange: config.timeRange,
+    keywords
+  });
 }
 
 export async function runDigestPipeline(): Promise<void> {
@@ -71,66 +89,10 @@ export async function runDigestPipeline(): Promise<void> {
           limit: config.maxItemsPerSource
         })
       : Promise.resolve([]),
-    config.includeVe2x
-      ? rssService.fetchNewsFromConfigs({
-          feeds: config.ve2xFeeds.map(feed => ({
-            name: 'Ve2x',
-            source: 'Ve2x',
-            sourceType: 've2x' as const,
-            url: feed,
-            language: 'zh',
-            category: 'all'
-          })),
-          limit: config.maxItemsPerSource,
-          timeRange: config.timeRange,
-          keywords: []
-        })
-      : Promise.resolve([]),
-    config.includeLinuxDo
-      ? rssService.fetchNewsFromConfigs({
-          feeds: config.linuxDoFeeds.map(feed => ({
-            name: 'Linux.do',
-            source: 'Linux.do',
-            sourceType: 'linuxdo' as const,
-            url: feed,
-            language: 'zh',
-            category: 'all'
-          })),
-          limit: config.maxItemsPerSource,
-          timeRange: config.timeRange,
-          keywords: []
-        })
-      : Promise.resolve([]),
-    config.includeReddit
-      ? rssService.fetchNewsFromConfigs({
-          feeds: config.redditFeeds.map(feed => ({
-            name: 'Reddit',
-            source: 'Reddit',
-            sourceType: 'reddit' as const,
-            url: feed,
-            language: 'en',
-            category: 'all'
-          })),
-          limit: config.maxItemsPerSource,
-          timeRange: config.timeRange,
-          keywords: config.keywords
-        })
-      : Promise.resolve([]),
-    config.includeProductHunt
-      ? rssService.fetchNewsFromConfigs({
-          feeds: config.productHuntFeeds.map(feed => ({
-            name: 'Product Hunt',
-            source: 'Product Hunt',
-            sourceType: 'producthunt' as const,
-            url: feed,
-            language: 'en',
-            category: 'all'
-          })),
-          limit: config.maxItemsPerSource,
-          timeRange: config.timeRange,
-          keywords: []
-        })
-      : Promise.resolve([])
+    fetchRssIfEnabled(config.includeVe2x, config.ve2xFeeds, 'Ve2x', 've2x', 'zh', [], config),
+    fetchRssIfEnabled(config.includeLinuxDo, config.linuxDoFeeds, 'Linux.do', 'linuxdo', 'zh', [], config),
+    fetchRssIfEnabled(config.includeReddit, config.redditFeeds, 'Reddit', 'reddit', 'en', config.keywords, config),
+    fetchRssIfEnabled(config.includeProductHunt, config.productHuntFeeds, 'Product Hunt', 'producthunt', 'en', [], config)
   ]);
 
   let allArticles = [
@@ -163,6 +125,14 @@ export async function runDigestPipeline(): Promise<void> {
   const topicHistory = await topicStatsService.upsertDay(config.topicStatsPath, todayTopicStats);
   const trend = topicStatsService.buildTrendSummary(topicHistory);
 
+  const generatedAt = new Date(analysis.generatedAt || Date.now());
+  const timeSegment = generatedAt.toISOString().slice(11, 19).replace(/:/g, '-');
+  const msSegment = String(generatedAt.getMilliseconds()).padStart(3, '0');
+  const dailyFileName = `${dailyDate}-${timeSegment}-${msSegment}.md`;
+  const dailyDocPath = join(config.outputDailyDir, dailyFileName);
+  const githubDocsBase = 'https://github.com/FanLu1994/self-news-agent/tree/main/docs/daily';
+  const docUrl = `${githubDocsBase}/${dailyFileName}`;
+
   const previewArticles = allArticles.slice(0, 10);
   const rssXml = rssOutputService.buildXml({
     analysis,
@@ -170,7 +140,6 @@ export async function runDigestPipeline(): Promise<void> {
     channelTitle: `${analysis.title} (${new Date().toLocaleDateString('zh-CN')})`
   });
   await rssOutputService.writeToFile(config.outputRssPath, rssXml);
-  const dailyDocPath = join(config.outputDailyDir, `${dailyDate}.md`);
   await markdownOutputService.writeDailyMarkdown({
     path: dailyDocPath,
     date: dailyDate,
@@ -190,14 +159,14 @@ export async function runDigestPipeline(): Promise<void> {
   }
 
   const telegramText = [
-    `【${analysis.title}】`,
+    `【${toReadableText(analysis.title)}】`,
     '',
-    analysis.overview,
+    toReadableText(analysis.overview),
     '',
     '重点：',
-    ...analysis.highlights.map((h, idx) => `${idx + 1}. ${h}`),
+    ...analysis.highlights.map((h, idx) => `${idx + 1}. ${toReadableText(h)}`),
     '',
-    `Markdown 已生成：${dailyDocPath}`,
+    `Markdown 已生成：${docUrl}`,
     `RSS 已生成：${config.outputRssPath}`
   ].join('\n');
 
@@ -220,14 +189,14 @@ export async function runDigestPipeline(): Promise<void> {
       to: config.emailTo,
       subject: `Self News Digest - ${dailyDate}`,
       text: [
-        `标题: ${analysis.title}`,
+        `标题: ${toReadableText(analysis.title)}`,
         '',
-        analysis.overview,
+        toReadableText(analysis.overview),
         '',
         '重点:',
-        ...analysis.highlights.map((item, idx) => `${idx + 1}. ${item}`),
+        ...analysis.highlights.map((item, idx) => `${idx + 1}. ${toReadableText(item)}`),
         '',
-        `完整文档: ${dailyDocPath}`
+        `完整文档: ${docUrl}`
       ].join('\n')
     });
   } catch (error) {

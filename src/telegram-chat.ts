@@ -1,6 +1,7 @@
 import { askNewsAgent } from './agent.js';
 import { loadConfig } from './config.js';
 import { telegramService } from './services/telegram.service.js';
+import { toReadableText } from './text-format.js';
 
 function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -66,7 +67,7 @@ export async function runTelegramBotChat(): Promise<void> {
         }
 
         const answer = await askNewsAgent(text);
-        const chunks = splitLongMessage(answer);
+        const chunks = splitLongMessage(toReadableText(answer));
 
         for (let i = 0; i < chunks.length; i += 1) {
           await telegramService.sendMessage({

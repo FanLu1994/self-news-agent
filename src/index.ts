@@ -9,32 +9,33 @@
 
 import { runDigestPipeline } from './digest.js';
 
-/**
- * 主函数
- */
+const FLAG_AGENT = '--agent';
+const FLAG_DIGEST = '--digest';
+const FLAG_TELEGRAM = '--telegram';
+
+function parseQuery(args: string[]): string {
+  const cleaned = args.filter(arg => ![FLAG_AGENT, FLAG_DIGEST, FLAG_TELEGRAM].includes(arg));
+  return cleaned.join(' ').trim() || getDefaultQuery();
+}
+
 async function main() {
   const args = process.argv.slice(2);
-  const useAgent = args.includes('--agent');
-  const useDigest = args.includes('--digest');
-  const cleanedArgs = args.filter(arg => !['--agent', '--telegram', '--digest'].includes(arg));
-  const query = cleanedArgs.join(' ') || getDefaultQuery();
 
   try {
-    if (useAgent) {
+    if (args.includes(FLAG_AGENT)) {
       const { runNewsAgent } = await import('./agent.js');
       console.log('启动 AI 新闻 Agent 模式...\n');
-      await runNewsAgent(query);
+      await runNewsAgent(parseQuery(args));
       process.exit(0);
     }
 
-    if (useDigest) {
+    if (args.includes(FLAG_DIGEST)) {
       console.log('启动新闻聚合流水线模式...\n');
       await runDigestPipeline();
       console.log('\n✅ 流水线完成，程序退出');
       process.exit(0);
     }
 
-    // Telegram 聊天模式需要保持运行，不退出
     const { runTelegramBotChat } = await import('./telegram-chat.js');
     console.log('启动 Telegram 对话模式...\n');
     await runTelegramBotChat();
@@ -60,11 +61,7 @@ function getDefaultQuery(): string {
   return defaultQueries[randomIndex];
 }
 
-// 运行主函数
 main().catch(error => {
   console.error('未处理的错误:', error);
   process.exit(1);
-}).then(() => {
-  // 确保在所有情况下都退出（除了 Telegram 聊天模式）
-  // Telegram 模式会自己处理进程生命周期
 });

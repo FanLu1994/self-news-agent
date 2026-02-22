@@ -1,5 +1,6 @@
 import Parser from 'rss-parser';
 import type { NewsArticle, RSSFeedItem, SourceType, TimeRange } from '../types/news.types.js';
+import { dedupArticles, matchesKeywords } from '../utils/article-utils.js';
 
 interface FetchRssOptions {
   feeds: string[];
@@ -125,39 +126,19 @@ export class RSSService {
     return now - articleTime <= ranges[timeRange];
   }
 
-  private matchKeywords(article: NewsArticle, keywords: string[]): boolean {
-    if (keywords.length === 0) return true;
-    const searchText = `${article.title} ${article.summary} ${(article.tags || []).join(' ')}`.toLowerCase();
-    return keywords.some(keyword => searchText.includes(keyword.toLowerCase()));
-  }
-
-  private deduplicateArticles(articles: NewsArticle[]): NewsArticle[] {
-    const seen = new Set<string>();
-    const result: NewsArticle[] = [];
-
-    for (const article of articles) {
-      const normalizedTitle = article.title.toLowerCase().replace(/[^\w\s\u4e00-\u9fa5]/g, '').trim();
-      if (!normalizedTitle || seen.has(normalizedTitle)) continue;
-      seen.add(normalizedTitle);
-      result.push(article);
-    }
-
-    return result;
-  }
-
   async fetchNews(options: FetchRssOptions): Promise<NewsArticle[]> {
     const configs = this.buildFeedConfigs(options.feeds);
     const chunks = await Promise.all(configs.map(config => this.fetchFeed(config)));
 
     let allArticles = chunks.flat();
     allArticles = allArticles.filter(article => this.isWithinTimeRange(article, options.timeRange));
-    allArticles = allArticles.filter(article => this.matchKeywords(article, options.keywords));
+    allArticles = allArticles.filter(article => matchesKeywords(article, options.keywords));
 
     allArticles.sort((a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     );
 
-    allArticles = this.deduplicateArticles(allArticles);
+    allArticles = dedupArticles(allArticles);
     return allArticles.slice(0, options.limit);
   }
 
@@ -177,13 +158,13 @@ export class RSSService {
 
     let allArticles = chunks.flat();
     allArticles = allArticles.filter(article => this.isWithinTimeRange(article, options.timeRange));
-    allArticles = allArticles.filter(article => this.matchKeywords(article, options.keywords));
+    allArticles = allArticles.filter(article => matchesKeywords(article, options.keywords));
 
     allArticles.sort((a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     );
 
-    allArticles = this.deduplicateArticles(allArticles);
+    allArticles = dedupArticles(allArticles);
     return allArticles.slice(0, options.limit);
   }
 

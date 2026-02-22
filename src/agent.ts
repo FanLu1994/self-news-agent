@@ -207,17 +207,7 @@ export async function runNewsAgent(query: string) {
 }
 
 export async function askNewsAgent(query: string): Promise<string> {
-  const modelConfig = getConfiguredModel();
-  const model = getPiAiModel();
-  const agent = new Agent({
-    initialState: {
-      systemPrompt: getSystemPrompt(modelConfig.provider, modelConfig.model),
-      model,
-      tools: [fetchNewsTool, summarizeNewsTool],
-      messages: []
-    }
-  });
-
+  const agent = createNewsAgent();
   let responseText = '';
   agent.subscribe((event) => {
     if (event.type !== 'message_update') return;
@@ -226,7 +216,6 @@ export async function askNewsAgent(query: string): Promise<string> {
       responseText += msgEvent.delta;
     }
   });
-
   await agent.prompt(query);
   return responseText.trim() || '暂时没有可返回的结果。';
 }

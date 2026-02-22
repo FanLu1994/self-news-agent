@@ -14,11 +14,12 @@
 import { Type } from '@sinclair/typebox';
 import { StringEnum } from '@mariozechner/pi-ai';
 import type { Tool } from '@mariozechner/pi-ai';
+import { githubTrendingService } from '../services/github-trending.service.js';
 import { hackerNewsService } from '../services/hackernews.service.js';
 import { rssService } from '../services/rss.service.js';
 import { twitterService } from '../services/twitter.service.js';
-import { githubTrendingService } from '../services/github-trending.service.js';
 import type { NewsArticle } from '../types/news.types.js';
+import { matchesKeywords } from '../utils/article-utils.js';
 
 /**
  * 新闻获取工具定义
@@ -200,11 +201,7 @@ export const fetchNewsTool: Tool = {
       let allArticles = [...hnArticles, ...rssArticles, ...twitterArticles, ...githubArticles];
 
       if (keywords.length > 0) {
-        const lowerKeywords = keywords.map(keyword => keyword.toLowerCase());
-        allArticles = allArticles.filter(article => {
-          const text = `${article.title} ${article.summary} ${(article.tags || []).join(' ')}`.toLowerCase();
-          return lowerKeywords.some(keyword => text.includes(keyword));
-        });
+        allArticles = allArticles.filter(article => matchesKeywords(article, keywords));
       }
 
       // 按发布时间排序（最新的在前）
