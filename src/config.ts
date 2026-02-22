@@ -80,8 +80,13 @@ const DEFAULT_LINUX_DO_FEEDS = [
 ];
 
 const DEFAULT_REDDIT_FEEDS = [
-  'https://www.reddit.com/r/programming/.rss',
-  'https://www.reddit.com/r/MachineLearning/.rss'
+  'https://www.reddit.com/r/artificial/.rss',
+  'https://www.reddit.com/r/MachineLearning/.rss',
+  'https://www.reddit.com/r/deeplearning/.rss',
+  'https://www.reddit.com/r/LocalLLaMA/.rss',
+  'https://www.reddit.com/r/OpenAI/.rss',
+  'https://www.reddit.com/r/CharacterAI/.rss',
+  'https://www.reddit.com/r/compsci/.rss'
 ];
 
 const DEFAULT_PRODUCT_HUNT_FEEDS = [
