@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>AI Agent与代码工具爆发，开源生态加速演进 (2026/2/22)</title>
+    <title>AI Agent生态爆发、基础设施革新与互联网环境演变 (2026/2/22)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>近期AI领域显著聚焦于Agent（智能体）与代码辅助工具。GitHub Trending上，全自动渗透测试系统Pentagi、Anthropic的Claude Code及Cloudflare的Agents框架备受关注，显示出Agent技术在安全与开发场景的落地加速。同时，北航开源的Code2Bench评测框架及LLM推理失败研究，反映出行业在追求高性能的同时，正日益重视模型评测基准与安全性问题。</description>
+    <description>近期技术社区动态呈现出以**AI Agent**为核心的全面爆发态势，同时伴随着底层基础设施的深刻变革和互联网生态的警醒反思。在GitHub趋势榜上，AI Agent相关项目占据主导，涵盖渗透测试、技能框架、代码助手、部署平台等多个维度，显示出开发者正从工具使用转向构建复杂的自主智能体系统。技术栈上，TypeScript、Go、Python是构建这些前沿项目的主要语言。HackerNews的讨论则更加多元和批判性：一方面关注AI Agent的具体实践（如Claude Code使用心法、MCP与CLI之争），另一方面深入探讨了AI带来的信任危机（如《互联网正变成“黑暗森林”》）、硬件级创新（如单张RTX 3090运行700亿参数模型）以及数据存储的可靠性等根本问题。与此同时，来自个人博客（RSS源）的内容提供了宝贵的平衡视角，既有对Go语言新版本升级陷阱的深度技术复盘，也有对AI时代设计师角色的思考，更有对生活本质（爱与创造）的哲学性探讨，反映了技术人在狂热浪潮中的自省。政策与经济层面，关税调整、芯片价格战等新闻也提示着技术发展所处的宏观环境正在变化。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Feb 2026 05:46:19 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 06:20:27 GMT</lastBuildDate>
     <item>
-        <title>AI Agent与代码工具爆发，开源生态加速演进</title>
+        <title>AI Agent生态爆发、基础设施革新与互联网环境演变</title>
         <link>https://example.com/self-news-agent</link>
-        <description>近期AI领域显著聚焦于Agent（智能体）与代码辅助工具。GitHub Trending上，全自动渗透测试系统Pentagi、Anthropic的Claude Code及Cloudflare的Agents框架备受关注，显示出Agent技术在安全与开发场景的落地加速。同时，北航开源的Code2Bench评测框架及LLM推理失败研究，反映出行业在追求高性能的同时，正日益重视模型评测基准与安全性问题。</description>
-        <pubDate>Sun, 22 Feb 2026 05:46:19 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-22T05:46:03.956Z</guid>
+        <description>近期技术社区动态呈现出以**AI Agent**为核心的全面爆发态势，同时伴随着底层基础设施的深刻变革和互联网生态的警醒反思。在GitHub趋势榜上，AI Agent相关项目占据主导，涵盖渗透测试、技能框架、代码助手、部署平台等多个维度，显示出开发者正从工具使用转向构建复杂的自主智能体系统。技术栈上，TypeScript、Go、Python是构建这些前沿项目的主要语言。HackerNews的讨论则更加多元和批判性：一方面关注AI Agent的具体实践（如Claude Code使用心法、MCP与CLI之争），另一方面深入探讨了AI带来的信任危机（如《互联网正变成“黑暗森林”》）、硬件级创新（如单张RTX 3090运行700亿参数模型）以及数据存储的可靠性等根本问题。与此同时，来自个人博客（RSS源）的内容提供了宝贵的平衡视角，既有对Go语言新版本升级陷阱的深度技术复盘，也有对AI时代设计师角色的思考，更有对生活本质（爱与创造）的哲学性探讨，反映了技术人在狂热浪潮中的自省。政策与经济层面，关税调整、芯片价格战等新闻也提示着技术发展所处的宏观环境正在变化。</description>
+        <pubDate>Sun, 22 Feb 2026 06:20:27 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-22T06:20:06.992Z</guid>
       </item>
     <item>
         <title>vxcontrol/pentagi</title>
@@ -19,7 +19,7 @@
         <description>Star vxcontrol / pentagi ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 今日 +2118 stars</description>
         <author>vxcontrol</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:45:59 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 06:19:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vxcontrol-pentagi</guid>
       </item>
 <item>
@@ -28,7 +28,7 @@
         <description>Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works. | 今日 +772 stars</description>
         <author>obra</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:45:59 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 06:19:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-obra-superpowers</guid>
       </item>
 <item>
@@ -37,8 +37,26 @@
         <description>Star HandsOnLLM / Hands-On-Large-Language-Models Official code repo for the O&apos;Reilly Book - &quot;Hands-On Large Language Models&quot; | 今日 +355 stars</description>
         <author>HandsOnLLM</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:45:59 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 06:19:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-handsonllm-hands-on-large-language-models</guid>
+      </item>
+<item>
+        <title>Stremio/stremio-web</title>
+        <link>https://github.com/Stremio/stremio-web</link>
+        <description>Star Stremio / stremio-web Stremio - Freedom to Stream | 今日 +301 stars</description>
+        <author>Stremio</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:19:18 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-stremio-stremio-web</guid>
+      </item>
+<item>
+        <title>huggingface/skills</title>
+        <link>https://github.com/huggingface/skills</link>
+        <description>huggingface/skills | 今日 +247 stars</description>
+        <author>huggingface</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:19:18 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-huggingface-skills</guid>
       </item>
 <item>
         <title>anthropics/claude-code</title>
@@ -46,7 +64,7 @@
         <description>Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 今日 +222 stars</description>
         <author>anthropics</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:45:59 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 06:19:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-anthropics-claude-code</guid>
       </item>
 <item>
@@ -55,8 +73,17 @@
         <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +132 stars</description>
         <author>abhigyanpatwari</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:45:59 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 06:19:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-abhigyanpatwari-gitnexus</guid>
+      </item>
+<item>
+        <title>hiddify/hiddify-app</title>
+        <link>https://github.com/hiddify/hiddify-app</link>
+        <description>Star hiddify / hiddify-app Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | 今日 +132 stars</description>
+        <author>hiddify</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:19:18 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-hiddify-hiddify-app</guid>
       </item>
 <item>
         <title>RichardAtCT/claude-code-telegram</title>
@@ -64,44 +91,17 @@
         <description>Star RichardAtCT / claude-code-telegram A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence. | 今日 +109 stars</description>
         <author>RichardAtCT</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:45:59 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 06:19:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-richardatct-claude-code-telegram</guid>
       </item>
 <item>
-        <title>cloudflare/agents</title>
-        <link>https://github.com/cloudflare/agents</link>
-        <description>Star cloudflare / agents Build and deploy AI Agents on Cloudflare | 今日 +65 stars</description>
-        <author>cloudflare</author>
+        <title>stan-smith/FossFLOW</title>
+        <link>https://github.com/stan-smith/FossFLOW</link>
+        <description>Sponsor Star stan-smith / FossFLOW Make beautiful isometric infrastructure diagrams | 今日 +74 stars</description>
+        <author>stan-smith</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:45:59 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-cloudflare-agents</guid>
-      </item>
-<item>
-        <title>MCPs are dead - CLIs won</title>
-        <link>https://news.ycombinator.com/item?id=47108138</link>
-        <description>Even Peter Steinberger who created OpenClaw said as much on Lex Fridman&amp;#x27;s podcast (https:&amp;#x2F;&amp;#x2F;www.youtube.com&amp;#x2F;watch?v=YFjfBk8HI5o around 2:38:59).The whole premise of MCPs was that...</description>
-        <author>umairnadeem123</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 04:24:36 GMT</pubDate>
-        <guid isPermaLink="false">hn-47108138</guid>
-      </item>
-<item>
-        <title>Your Disk Just Lied to You – and Your Checksums Said Everything Was Fine</title>
-        <link>https://medium.com/@jingyuzhou/your-disk-just-lied-to-you-and-your-checksums-said-everything-was-fine-40e471f40129</link>
-        <description>Your Disk Just Lied to You – and Your Checksums Said Everything Was Fine</description>
-        <author>tanelpoder</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 02:45:13 GMT</pubDate>
-        <guid isPermaLink="false">hn-47107601</guid>
-      </item>
-<item>
-        <title>Palantir&apos;s secret weapon isn&apos;t AI – it&apos;s Ontology. An open-source deep dive</title>
-        <link>https://github.com/Leading-AI-IO/palantir-ontology-strategy</link>
-        <description>Palantir&apos;s secret weapon isn&apos;t AI – it&apos;s Ontology. An open-source deep dive</description>
-        <author>leading-AI</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 02:29:06 GMT</pubDate>
-        <guid isPermaLink="false">hn-47107512</guid>
+        <pubDate>Sun, 22 Feb 2026 06:19:18 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-stan-smith-fossflow</guid>
       </item>
   </channel>
 </rss>

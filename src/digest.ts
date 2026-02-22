@@ -41,7 +41,7 @@ function toDateString(value: Date): string {
 
 export async function runDigestPipeline(): Promise<void> {
   const config = loadConfig();
-  const llm = getConfiguredModel().config;
+  const llm = getConfiguredModel();
   console.log('开始执行新闻聚合流程...');
   console.log(`关键词: ${config.keywords.join(', ')}`);
   console.log(`模型: ${llm.provider}/${llm.model}`);

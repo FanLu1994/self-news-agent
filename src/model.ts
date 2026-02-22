@@ -22,31 +22,33 @@ function parseCandidates(raw: string | undefined): ModelConfig[] {
     .filter(item => item.provider && item.model);
 }
 
-/**
- * 为 DeepSeek 设置自定义 baseUrl
- */
-function applyDeepSeekBaseUrl(model: any): any {
-  // 如果使用 openai provider 且模型是 deepseek-chat，设置 DeepSeek API 的 baseUrl
-  if (model?.id === 'deepseek-chat' || model?.id?.startsWith('deepseek-')) {
-    const customBaseUrl = process.env.OPENAI_BASE_URL || 'https://api.deepseek.com';
-    // 创建一个新的模型对象，覆盖 baseUrl
-    return { ...model, baseUrl: customBaseUrl };
-  }
-  return model;
+export function getConfiguredModel(): ModelConfig {
+  return {
+    provider: process.env.LLM_PROVIDER || 'openai',
+    model: process.env.LLM_MODEL || 'deepseek-chat'
+  };
 }
 
-export function getConfiguredModel(): { model: ReturnType<typeof getModel>; config: ModelConfig } {
-  const provider = process.env.LLM_PROVIDER || 'openai';
-  const modelName = process.env.LLM_MODEL || 'deepseek-chat';
+/**
+ * 获取 pi-ai 模型对象（用于 Agent 等需要实际模型对象的场景）
+ */
+export function getPiAiModel() {
+  const config = getConfiguredModel();
 
-  // 获取模型并应用 DeepSeek baseUrl
-  let model = getModel(provider, modelName);
-  model = applyDeepSeekBaseUrl(model);
+  // DeepSeek 需要特殊处理，因为 pi-ai 不直接支持
+  if (config.provider === 'openai' && config.model === 'deepseek-chat') {
+    // DeepSeek 通过 completeWithFallback 直接调用，这里返回 null
+    // Agent 模式会使用备用模型
+    const candidates = getModelCandidates().filter(
+      c => !(c.provider === config.provider && c.model === config.model)
+    );
+    const fallback = candidates[0];
+    if (fallback) {
+      return getModel(fallback.provider, fallback.model);
+    }
+  }
 
-  return {
-    model,
-    config: { provider, model: modelName }
-  };
+  return getModel(config.provider, config.model);
 }
 
 export function getModelCandidates(): ModelConfig[] {
@@ -67,21 +69,91 @@ export async function completeWithFallback(context: Context): Promise<{
   config: ModelConfig;
 }> {
   const primary = getConfiguredModel();
-  const candidates = [primary.config, ...getModelCandidates().filter(item =>
-    !(item.provider === primary.config.provider && item.model === primary.config.model)
+  const candidates = [primary, ...getModelCandidates().filter(item =>
+    !(item.provider === primary.provider && item.model === primary.model)
   )];
 
+  console.log(`\n🔧 LLM 配置:`);
+  console.log(`  主模型: ${primary.provider}:${primary.model}`);
+  console.log(`  备用模型: ${candidates.slice(1).map(c => `${c.provider}:${c.model}`).join(', ')}`);
+
   let lastError: unknown;
-  for (const candidate of candidates) {
+  for (const [index, candidate] of candidates.entries()) {
     try {
-      let model = getModel(candidate.provider, candidate.model);
-      model = applyDeepSeekBaseUrl(model);
-      const response = await complete(model, context);
+      console.log(`\n  📡 尝试模型 ${index + 1}/${candidates.length}: ${candidate.provider}:${candidate.model}`);
+
+      let response: any;
+
+      // DeepSeek 使用自定义 API
+      if (candidate.provider === 'openai' && candidate.model === 'deepseek-chat') {
+        const baseUrl = process.env.OPENAI_BASE_URL || 'https://api.deepseek.com';
+        const apiKey = process.env.OPENAI_API_KEY;
+        console.log(`    使用 DeepSeek API: ${baseUrl}`);
+
+        const apiResponse = await fetch(`${baseUrl}/chat/completions`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${apiKey}`
+          },
+          body: JSON.stringify({
+            model: 'deepseek-chat',
+            messages: context.messages.map((m: any) => ({
+              role: m.role,
+              content: m.content
+            })),
+            stream: false
+          })
+        });
+
+        if (!apiResponse.ok) {
+          const errorText = await apiResponse.text();
+          throw new Error(`DeepSeek API error: ${apiResponse.status} ${errorText}`);
+        }
+
+        const data = await apiResponse.json();
+        response = {
+          content: [{
+            type: 'text',
+            text: data.choices[0]?.message?.content || ''
+          }],
+          usage: data.usage
+        };
+      } else {
+        // 其他模型使用 pi-ai 的 complete
+        let model = getModel(candidate.provider, candidate.model);
+        model = applyDeepSeekBaseUrl(model);
+
+        console.log(`    模型 ID: ${model?.id || 'N/A'}`);
+        console.log(`    模型 baseUrl: ${model?.baseUrl || 'N/A'}`);
+
+        response = await complete(model, context);
+      }
+
+      console.log(`    ✅ 成功!`);
+      console.log(`    响应 blocks: ${response.content?.length || 0}`);
+
+      // 检查响应内容
+      const textBlocks = response.content?.filter((b: any) => b.type === 'text') || [];
+      console.log(`    文本 blocks: ${textBlocks.length}`);
+      if (textBlocks.length > 0) {
+        const firstText = textBlocks[0].text || '';
+        console.log(`    首个 block 长度: ${firstText.length}`);
+        console.log(`    首个 block 预览: ${firstText.slice(0, 200)}...`);
+      }
+
       return { response, config: candidate };
     } catch (error) {
+      console.log(`    ❌ 失败: ${error instanceof Error ? error.message : String(error)}`);
+      if (error instanceof Error && error.stack) {
+        console.log(`    Stack: ${error.stack.split('\n').slice(0, 3).join('\n')}`);
+      }
       lastError = error;
     }
   }
+
+  console.error(`\n❌ 所有模型都失败了:`);
+  console.error(`  最后错误: ${lastError instanceof Error ? lastError.message : String(lastError)}`);
 
   throw lastError instanceof Error ? lastError : new Error('No available model candidate succeeded.');
 }

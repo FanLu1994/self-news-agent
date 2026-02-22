@@ -48,7 +48,7 @@ export const summarizeNewsTool: Tool = {
       throw new Error('Operation cancelled by user');
     }
 
-    const { config: modelConfig } = getConfiguredModel();
+    const modelConfig = getConfiguredModel();
 
     onUpdate?.({
       content: [{ type: 'text', text: `🤖 初始化 ${modelConfig.provider}/${modelConfig.model} 分析...` }],

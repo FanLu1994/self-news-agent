@@ -15,7 +15,7 @@
 import { Agent } from '@mariozechner/pi-agent-core';
 import { fetchNewsTool } from './tools/fetch-news.tool.js';
 import { summarizeNewsTool } from './tools/summarize-news.tool.js';
-import { getConfiguredModel } from './model.js';
+import { getConfiguredModel, getPiAiModel } from './model.js';
 import 'dotenv/config';
 
 /**
@@ -54,7 +54,8 @@ function getSystemPrompt(modelProvider: string, modelName: string): string {
 }
 
 export function createNewsAgent() {
-  const { model, config: modelConfig } = getConfiguredModel();
+  const modelConfig = getConfiguredModel();
+  const model = getPiAiModel();
 
   // 教学要点：Agent 初始化配置
   const agent = new Agent({
@@ -179,7 +180,7 @@ function handleToolResult(event: any) {
  * 教学要点：Agent 使用示例
  */
 export async function runNewsAgent(query: string) {
-  const { config: modelConfig } = getConfiguredModel();
+  const modelConfig = getConfiguredModel();
   console.log('╔════════════════════════════════════════════════════════════════════╗');
   console.log('║                🤖 AI News Agent (Multi-LLM)                      ║');
   console.log('╚════════════════════════════════════════════════════════════════════╝\n');
@@ -206,7 +207,8 @@ export async function runNewsAgent(query: string) {
 }
 
 export async function askNewsAgent(query: string): Promise<string> {
-  const { model, config: modelConfig } = getConfiguredModel();
+  const modelConfig = getConfiguredModel();
+  const model = getPiAiModel();
   const agent = new Agent({
     initialState: {
       systemPrompt: getSystemPrompt(modelConfig.provider, modelConfig.model),

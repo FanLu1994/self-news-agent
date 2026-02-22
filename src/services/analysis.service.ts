@@ -112,6 +112,11 @@ export class AnalysisService {
   async analyze(options: AnalyzeOptions): Promise<AnalyzeResult> {
     const { articles, style, queryKeywords } = options;
 
+    console.log(`\n🤖 开始 AI 分析...`);
+    console.log(`  文章数量: ${articles.length}`);
+    console.log(`  风格: ${style}`);
+    console.log(`  关键词: ${queryKeywords.join(', ') || '无'}`);
+
     // 构建详细的文章摘要
     const articlesSummary = this.buildArticlesSummary(articles, 100);
     const sourceGroupsSummary = this.buildSourceGroupsSummary(articles);
@@ -129,6 +134,8 @@ export class AnalysisService {
       queryKeywords
     });
 
+    console.log(`  Prompt 长度: ${prompt.length} 字符`);
+
     const context: Context = {
       systemPrompt: `你是专业的新闻编辑与产业分析师，擅长：
 1. 从多源资讯中抽取关键事实并总结趋势
@@ -140,7 +147,7 @@ export class AnalysisService {
 - 标题：简洁有力，体现核心主题
 - 概览：300-500字，全面覆盖主要动态
 - 要点：8-12个，每个要点要有实质性内容，包含具体技术/产品/事件
-- 话题分析：列出主要话题及讨论热度
+- 话题分析：列出主要话题及热度
 - 来源亮点：各来源的特色内容
 
 输出格式必须是纯文本，不要 JSON 格式。`,
@@ -153,17 +160,40 @@ export class AnalysisService {
       ]
     };
 
-    const { response } = await completeWithFallback(context);
-    const rawText = response.content
-      .filter(block => block.type === 'text')
-      .map(block => block.text)
-      .join('\n')
-      .trim();
+    try {
+      const { response } = await completeWithFallback(context);
+      const rawText = response.content
+        .filter(block => block.type === 'text')
+        .map(block => block.text)
+        .join('\n')
+        .trim();
 
-    // 解析结果
-    const analysis = this.parseAnalysisResult(rawText, queryKeywords);
+      console.log(`  响应长度: ${rawText.length} 字符`);
+      console.log(`  响应预览:\n${rawText.slice(0, 500)}...`);
 
-    return { analysis, rawText };
+      // 解析结果
+      const analysis = this.parseAnalysisResult(rawText, queryKeywords);
+
+      console.log(`  解析结果:`);
+      console.log(`    标题: ${analysis.title}`);
+      console.log(`    概览长度: ${analysis.overview.length} 字`);
+      console.log(`    要点数量: ${analysis.highlights.length}`);
+
+      return { analysis, rawText };
+    } catch (error) {
+      console.error(`❌ AI 分析失败:`, error);
+
+      // 降级到基础摘要
+      const fallbackAnalysis: DigestAnalysis = {
+        title: 'AI & 技术日报',
+        overview: `获取到 ${articles.length} 篇文章。来源分布：${this.groupBySource(articles).size} 个。`,
+        highlights: articles.slice(0, 8).map(a => `[${a.source}] ${a.title}`),
+        keywords: queryKeywords,
+        generatedAt: new Date().toISOString()
+      };
+
+      return { analysis: fallbackAnalysis, rawText: fallbackAnalysis.overview };
+    }
   }
 
   /**
@@ -225,39 +255,97 @@ export class AnalysisService {
   }
 
   /**
-   * 解析分析结果
+   * 解析分析结果 - 改进版，更宽松的解析
    */
   private parseAnalysisResult(rawText: string, queryKeywords: string[]): DigestAnalysis {
-    // 提取标题
-    const titleMatch = rawText.match(/## 标题\n+([^\n]+)/);
-    const title = titleMatch?.[1]?.trim() || 'AI & 技术日报';
+    console.log(`  🔍 解析 AI 响应...`);
 
-    // 提取概览
-    const overviewMatch = rawText.match(/## 概览\n+([\s\S]*?)(?=\n##|\n\n重点内容|$)/);
-    const overview = overviewMatch?.[1]?.trim() || rawText.slice(0, 500);
+    // 尝试提取标题
+    let title = 'AI & 技术日报';
+    const titlePatterns = [
+      /## 标题\s*\n+([^\n]+)/,
+      /标题[：:]\s*([^\n]+)/,
+      /^#{1,2}\s+(.+)/
+    ];
+    for (const pattern of titlePatterns) {
+      const match = rawText.match(pattern);
+      if (match && match[1]) {
+        title = match[1].trim();
+        break;
+      }
+    }
+
+    // 尝试提取概览
+    let overview = '';
+    const overviewPatterns = [
+      /## 概览\s*\n+([\s\S]*?)(?=\n##|\n\n重点内容|\n\n重点|# |\n概览[：:])/,
+      /概览[：:]\s*\n+([\s\S]*?)(?=\n##|\n\n重点内容|\n\n重点|# )/,
+      /概览[：:]\s*([^\n]+(?:\n|$))/
+    ];
+    for (const pattern of overviewPatterns) {
+      const match = rawText.match(pattern);
+      if (match && match[1]) {
+        overview = match[1].trim();
+        break;
+      }
+    }
+
+    // 如果没找到概览，使用前 500 字符
+    if (!overview) {
+      overview = rawText.slice(0, 500);
+    }
 
     // 提取重点内容
-    const highlightsMatch = rawText.match(/## 重点内容\n+([\s\S]*?)(?=\n##|\n\n话题分析|$)/);
-    const highlightsText = highlightsMatch?.[1] || rawText;
-    const highlights = this.extractBulletPoints(highlightsText);
+    const highlights = this.extractBulletPoints(rawText);
 
     // 提取话题分析
-    const topicsMatch = rawText.match(/## 话题分析\n+([\s\S]*?)(?=\n##|\n\n来源亮点|$)/);
-    const topicsText = topicsMatch?.[1] || '';
+    let topicsAnalysis: string | null = null;
+    const topicsPatterns = [
+      /## 话题分析\s*\n+([\s\S]*?)(?=\n##|\n\n来源亮点|\n\n##|$)/,
+      /话题分析[：:]\s*\n+([\s\S]*?)(?=\n##|\n\n来源亮点|\n\n##|$)/,
+      /话题[：:]\s*\n+([\s\S]*?)(?=\n##|\n\n来源|\n\n|$)/
+    ];
+    for (const pattern of topicsPatterns) {
+      const match = rawText.match(pattern);
+      if (match && match[1]) {
+        topicsAnalysis = match[1].trim();
+        break;
+      }
+    }
 
     // 提取来源亮点
-    const sourcesMatch = rawText.match(/## 来源亮点\n+([\s\S]*?)$/);
-    const sourcesText = sourcesMatch?.[1] || '';
+    let sourceHighlights: string | null = null;
+    const sourcesPatterns = [
+      /## 来源亮点\s*\n+([\s\S]*?)$/,
+      /来源亮点[：:]\s*\n+([\s\S]*?)$/,
+      /来源[：:]\s*\n+([\s\S]*?)$/
+    ];
+    for (const pattern of sourcesPatterns) {
+      const match = rawText.match(pattern);
+      if (match && match[1]) {
+        sourceHighlights = match[1].trim();
+        break;
+      }
+    }
 
-    return {
+    const analysis: DigestAnalysis = {
       title,
       overview,
-      highlights: highlights.slice(0, 12),
+      highlights: highlights.slice(0, 15),
       keywords: queryKeywords,
-      topicsAnalysis: topicsText || null,
-      sourceHighlights: sourcesText || null,
+      topicsAnalysis,
+      sourceHighlights,
       generatedAt: new Date().toISOString()
-    } as DigestAnalysis;
+    };
+
+    console.log(`    ✓ 解析完成`);
+    console.log(`    - 标题: ${title}`);
+    console.log(`    - 概览: ${overview.slice(0, 50)}... (${overview.length}字)`);
+    console.log(`    - 要点: ${highlights.length} 个`);
+    console.log(`    - 话题分析: ${topicsAnalysis ? '有' : '无'}`);
+    console.log(`    - 来源亮点: ${sourceHighlights ? '有' : '无'}`);
+
+    return analysis;
   }
 
   /**
@@ -270,8 +358,8 @@ export class AnalysisService {
     for (const line of lines) {
       const trimmed = line.trim();
       // 匹配列表项：- 开头，或数字. 开头
-      if (trimmed.match(/^[-•·]\s+\S/) || trimmed.match(/^\d+[.、]\s*\S/)) {
-        bullets.push(trimmed.replace(/^[-•·]\s+/, '').replace(/^\d+[.、]\s*/, ''));
+      if (trimmed.match(/^[-•·▪\-\*]\s+\S/) || trimmed.match(/^[\d]+\.\s+\S/) || trimmed.match(/^[\d]+[、．]\s*\S/)) {
+        bullets.push(trimmed.replace(/^[-•·▪\-\*]\s+/, '').replace(/^[\d]+[、．]\s*/, ''));
       }
     }
 

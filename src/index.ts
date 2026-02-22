@@ -24,15 +24,17 @@ async function main() {
       const { runNewsAgent } = await import('./agent.js');
       console.log('启动 AI 新闻 Agent 模式...\n');
       await runNewsAgent(query);
-      return;
+      process.exit(0);
     }
 
     if (useDigest) {
       console.log('启动新闻聚合流水线模式...\n');
       await runDigestPipeline();
-      return;
+      console.log('\n✅ 流水线完成，程序退出');
+      process.exit(0);
     }
 
+    // Telegram 聊天模式需要保持运行，不退出
     const { runTelegramBotChat } = await import('./telegram-chat.js');
     console.log('启动 Telegram 对话模式...\n');
     await runTelegramBotChat();
@@ -62,4 +64,7 @@ function getDefaultQuery(): string {
 main().catch(error => {
   console.error('未处理的错误:', error);
   process.exit(1);
+}).then(() => {
+  // 确保在所有情况下都退出（除了 Telegram 聊天模式）
+  // Telegram 模式会自己处理进程生命周期
 });
