@@ -163,10 +163,8 @@ export class GitHubTrendingService {
   /**
    * 获取 Trending 页面 HTML
    */
-  private async fetchTrendingPage(language: string, since: 'daily' | 'weekly'): Promise<string> {
-    const normalizedLanguage = language.trim().toLowerCase();
-    const base = normalizedLanguage ? `https://github.com/trending/${encodeURIComponent(normalizedLanguage)}` : 'https://github.com/trending';
-    const url = `${base}?since=${since}`;
+  private async fetchTrendingPage(): Promise<string> {
+    const url = 'https://github.com/trending';
 
     try {
       const response = await fetchWithRetry(url, {
@@ -176,90 +174,77 @@ export class GitHubTrendingService {
       return response.text();
     } catch (error) {
       const errorMsg = error instanceof Error ? error.message : String(error);
-      throw new Error(`Failed to fetch GitHub trending page for "${language || 'all'}": ${errorMsg}`);
+      throw new Error(`Failed to fetch GitHub trending page: ${errorMsg}`);
     }
   }
 
   async fetchTrending(options: FetchTrendingOptions): Promise<NewsArticle[]> {
-    const since = options.timeRange === '7d' ? 'weekly' : 'daily';
-    const languages = options.languages.length > 0 ? options.languages : [''];
+    try {
+      const html = await this.fetchTrendingPage();
+      const repos = parseTrendingRepos(html);
 
-    // 并发获取所有语言的 Trending 页面
-    const results = await Promise.allSettled(
-      languages.map(async language => {
-        try {
-          const html = await this.fetchTrendingPage(language, since);
-          return parseTrendingRepos(html);
-        } catch (error) {
-          const errorMsg = error instanceof Error ? error.message : String(error);
-          console.error(`GitHub trending fetch failed for "${language || 'all'}": ${errorMsg}`);
-          return [];
+      // 去重
+      const seen = new Set<string>();
+      const uniqueRepos: TrendingRepo[] = [];
+      for (const repo of repos) {
+        const key = `${repo.owner}/${repo.repo}`.toLowerCase();
+        if (!seen.has(key)) {
+          seen.add(key);
+          uniqueRepos.push(repo);
         }
-      })
-    );
-
-    // 合并成功的结果
-    const repos = results
-      .filter((result): result is PromiseFulfilledResult<TrendingRepo[]> => result.status === 'fulfilled')
-      .flatMap(result => result.value);
-
-    // 去重
-    const seen = new Set<string>();
-    const uniqueRepos: TrendingRepo[] = [];
-    for (const repo of repos) {
-      const key = `${repo.owner}/${repo.repo}`.toLowerCase();
-      if (!seen.has(key)) {
-        seen.add(key);
-        uniqueRepos.push(repo);
       }
-    }
 
-    // 按 starsToday 排序（如果没有则按 starsTotal）
-    uniqueRepos.sort((a, b) => {
-      const aStars = a.starsToday ?? a.starsTotal ?? 0;
-      const bStars = b.starsToday ?? b.starsTotal ?? 0;
-      return bStars - aStars;
-    });
-
-    // 限制数量
-    const items = uniqueRepos.slice(0, options.limit);
-
-    const now = new Date().toISOString();
-
-    // 转换为 NewsArticle
-    const articles: NewsArticle[] = items.map(repo => {
-      const language = repo.language || undefined;
-      const topic = language ? `${language} 热门项目` : 'GitHub 热门项目';
-      const starsText = repo.starsToday ? `今日 +${repo.starsToday} stars` : '近期热门';
-      const totalText = repo.starsTotal ? `总 ${repo.starsTotal} stars` : '';
-
-      return {
-        id: `gh-trending-${repo.owner}-${repo.repo}`.toLowerCase(),
-        title: `${repo.owner}/${repo.repo}`,
-        summary: `${repo.description} | ${starsText}${totalText ? ` | ${totalText}` : ''}`,
-        url: repo.url,
-        source: 'GitHub Trending',
-        sourceType: 'github' as const,
-        author: repo.owner,
-        publishedAt: now,
-        category: 'all' as const,
-        language: 'en' as const,
-        score: repo.starsToday ?? repo.starsTotal ?? 0,
-        tags: [topic, language || 'unknown'].filter(Boolean)
-      } as NewsArticle;
-    });
-
-    // 调试输出
-    if (process.env.DEBUG === 'true') {
-      console.log('\n📊 GitHub Trending 爬虫抓取结果:');
-      console.log(`获取到 ${articles.length} 个仓库`);
-      articles.forEach((article, i) => {
-        console.log(`  ${i + 1}. ${article.title} | ${article.tags[0]} | ⭐ ${article.score}`);
+      // 按 starsToday 排序
+      uniqueRepos.sort((a, b) => {
+        const aStars = a.starsToday ?? a.starsTotal ?? 0;
+        const bStars = b.starsToday ?? b.starsTotal ?? 0;
+        return bStars - aStars;
       });
-      console.log('');
-    }
 
-    return articles;
+      // 限制数量
+      const items = uniqueRepos.slice(0, options.limit);
+
+      const now = new Date().toISOString();
+
+      // 转换为 NewsArticle
+      const articles: NewsArticle[] = items.map(repo => {
+        const language = repo.language || undefined;
+        const topic = language ? `${language} 热门项目` : 'GitHub 热门项目';
+        const starsText = repo.starsToday ? `今日 +${repo.starsToday} stars` : '近期热门';
+        const totalText = repo.starsTotal ? `总 ${repo.starsTotal} stars` : '';
+
+        return {
+          id: `gh-trending-${repo.owner}-${repo.repo}`.toLowerCase(),
+          title: `${repo.owner}/${repo.repo}`,
+          summary: `${repo.description} | ${starsText}${totalText ? ` | ${totalText}` : ''}`,
+          url: repo.url,
+          source: 'GitHub Trending',
+          sourceType: 'github' as const,
+          author: repo.owner,
+          publishedAt: now,
+          category: 'all' as const,
+          language: 'en' as const,
+          score: repo.starsToday ?? repo.starsTotal ?? 0,
+          tags: [topic, language || 'unknown'].filter(Boolean)
+        } as NewsArticle;
+      });
+
+      // 调试输出
+      if (process.env.DEBUG === 'true') {
+        console.log('\n📊 GitHub Trending 爬虫抓取结果:');
+        console.log(`获取到 ${articles.length} 个仓库`);
+        articles.forEach((article, i) => {
+          console.log(`  ${i + 1}. ${article.title} | ${article.tags[0]} | ⭐ ${article.score}`);
+        });
+        console.log('');
+      }
+
+      return articles;
+    } catch (error) {
+      const errorMsg = error instanceof Error ? error.message : String(error);
+      console.error(`GitHub trending fetch failed: ${errorMsg}`);
+      return [];
+    }
   }
 }
 

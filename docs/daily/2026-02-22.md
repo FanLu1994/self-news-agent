@@ -1,57 +1,67 @@
 # 每日新闻简报 - 2026-02-22
 
-生成时间: 2026/2/22 13:22:00
+生成时间: 2026/2/22 13:37:03
 
 ## 摘要
 
-近期新闻显示，AI领域正加速向智能体和代码辅助方向发展。GitHub上涌现出多个AI Agent框架和代码审查工具，如LocalAgent和Auto-Review-ClaudeMCP，强调本地运行和自动化工作流。学术界关注LLM推理能力及动态评测基准，业界则探索AI与现有系统的深度集成，如Apple的设备端Agent和Palantir的本体论策略。同时，AI生成内容的负面影响及信任机制构建也成为讨论焦点。
+今日GitHub Trending与HackerNews重点关注AI Agent与代码工具的发展。谷歌Gemini CLI、Cloudflare Agents及Databricks AI Dev Kit等Agent工具热度高涨，显示开发者对自动化与智能交互的需求。同时，PostHog集成AI辅助调试，GitNexus提供代码知识图谱，Apple研究设备端Agent。代码大模型评测与AI信任框架也成讨论焦点，行业正从模型能力向工具整合与实战应用深化。
 
 ## 今日重点
 
-1. GitHub上涌现多个AI Agent及代码审查工具，如LocalAgent、axon和Auto-Review-ClaudeMCP，侧重本地运行、知识图谱集成和自动化QA。
-2. Apple研究人员开发设备端AI Agent，可直接与应用交互；Pika推出AI Selves数字分身功能，深化个性化AI体验。
-3. 北航开源Code2Bench评测基准，旨在解决代码大模型刷分问题；业界发布Human Root of Trust框架，关注Agent问责制与信任机制。
+1. 谷歌、Cloudflare等推出开源AI Agent工具，推动自动化与交互体验升级
+2. PostHog、GitNexus等项目集成AI辅助调试与代码知识图谱，提升开发效率
+3. Apple研究设备端AI Agent，行业关注代码大模型评测与AI信任框架
 
 ## 话题统计
 
-- AI: 21
-- Other: 4
-- Security: 2
+- AI: 17
+- Other: 5
+- Security: 4
+- OpenSource: 2
+- Data: 1
+- Cloud: 1
+- Mobile: 1
 
 ## 来源明细
 
 ## GitHub Trending
 
-1. [CraftyGeezer/Kalshi-Polymarket-Ai-bot](https://github.com/CraftyGeezer/Kalshi-Polymarket-Ai-bot)
-   - 核心观点: No description | ⭐ 454 stars | 📅 今天创建
-   - 发布时间: 2026/2/22 13:21:48
-2. [nguyenduchoai/bizclaw](https://github.com/nguyenduchoai/bizclaw)
-   - 核心观点: No description | ⭐ 41 stars | 📅 昨天创建
-   - 发布时间: 2026/2/22 13:21:48
-3. [binhanchen25-arch/agent_plus](https://github.com/binhanchen25-arch/agent_plus)
-   - 核心观点: No description | ⭐ 23 stars | 📅 今天创建
-   - 发布时间: 2026/2/22 13:21:48
-4. [harshkedia177/axon](https://github.com/harshkedia177/axon)
-   - 核心观点: Graph-powered code intelligence engine — indexes codebases into a knowledge graph, exposed via MCP tools for AI agents and a CLI for developers. | ⭐ 22 stars | 📅 今天创建
-   - 发布时间: 2026/2/22 13:21:48
-5. [CalvinSturm/LocalAgent](https://github.com/CalvinSturm/LocalAgent)
-   - 核心观点: Local-runtime agent loop with tool calling, focused on safe defaults and pragmatic control. | ⭐ 17 stars | 📅 昨天创建
-   - 发布时间: 2026/2/22 13:21:48
-6. [endyii/immich-ai-describe](https://github.com/endyii/immich-ai-describe)
-   - 核心观点: Automatically describe Immich photos using local Ollama vision models | ⭐ 15 stars | 📅 今天创建
-   - 发布时间: 2026/2/22 13:21:48
-7. [IskanderAl/Auto-Review-ClaudeMCP](https://github.com/IskanderAl/Auto-Review-ClaudeMCP)
-   - 核心观点: A Python MCP (Model Context Protocol) server that connects Claude Desktop to GitHub Pull Requests. It fetches PR diffs, filters out binary and asset files (Unity `.meta`, images, audio, shaders, etc.), and gives Claude only the actual code to review.  Built as a QA automation tool to speed up pull request reviews using AI. | ⭐ 15 stars | 📅 今天创建
-   - 发布时间: 2026/2/22 13:21:48
-8. [laiso/xpaper](https://github.com/laiso/xpaper)
-   - 核心观点: A Chrome extension that turns your X (Twitter) timeline into an AI-curated newsletter.  | ⭐ 14 stars | 📅 今天创建
-   - 发布时间: 2026/2/22 13:21:48
-9. [iamlibie/unlimited-ai-platform](https://github.com/iamlibie/unlimited-ai-platform)
-   - 核心观点: 基于 Next.js 15 + Prisma + NextAuth 的数据库驱动 AI 对话平台，支持模型渠道、角色市场、扩展库与计费管理。 | ⭐ 12 stars | 📅 昨天创建
-   - 发布时间: 2026/2/22 13:21:48
-10. [mikeyobrien/pi-gemini-agent](https://github.com/mikeyobrien/pi-gemini-agent)
-   - 核心观点: No description | ⭐ 10 stars | 📅 昨天创建
-   - 发布时间: 2026/2/22 13:21:48
+1. [PostHog/posthog](https://github.com/PostHog/posthog)
+   - 核心观点: Star PostHog / posthog 🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack. | 今日 +317 stars
+   - 发布时间: 2026/2/22 13:37:00
+2. [google-research/timesfm](https://github.com/google-research/timesfm)
+   - 核心观点: Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | 今日 +306 stars
+   - 发布时间: 2026/2/22 13:37:00
+3. [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
+   - 核心观点: Star google-gemini / gemini-cli An open-source AI agent that brings the power of Gemini directly into your terminal. | 今日 +140 stars
+   - 发布时间: 2026/2/22 13:37:00
+4. [usestrix/strix](https://github.com/usestrix/strix)
+   - 核心观点: Star usestrix / strix Open-source AI hackers to find and fix your app’s vulnerabilities. | 今日 +137 stars
+   - 发布时间: 2026/2/22 13:37:00
+5. [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus)
+   - 核心观点: Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +132 stars
+   - 发布时间: 2026/2/22 13:37:00
+6. [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
+   - 核心观点: Sponsor Star clash-verge-rev / clash-verge-rev A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience | 今日 +129 stars
+   - 发布时间: 2026/2/22 13:37:00
+7. [RichardAtCT/claude-code-telegram](https://github.com/RichardAtCT/claude-code-telegram)
+   - 核心观点: Star RichardAtCT / claude-code-telegram A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence. | 今日 +109 stars
+   - 发布时间: 2026/2/22 13:37:00
+8. [databricks-solutions/ai-dev-kit](https://github.com/databricks-solutions/ai-dev-kit)
+   - 核心观点: Star databricks-solutions / ai-dev-kit Databricks Toolkit for Coding Agents provided by Field Engineering | 今日 +108 stars
+   - 发布时间: 2026/2/22 13:37:00
+9. [block/goose](https://github.com/block/goose)
+   - 核心观点: Star block / goose an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | 今日 +89 stars
+   - 发布时间: 2026/2/22 13:37:00
+10. [deuxfleurs-org/garage](https://github.com/deuxfleurs-org/garage)
+   - 核心观点: Star deuxfleurs-org / garage (Mirror) S3-compatible object store for small self-hosted geo-distributed deployments. Main repo: https://git.deuxfleurs.fr/Deuxfleurs/garage | 今日 +82 stars
+   - 发布时间: 2026/2/22 13:37:00
+11. [cloudflare/agents](https://github.com/cloudflare/agents)
+   - 核心观点: Star cloudflare / agents Build and deploy AI Agents on Cloudflare | 今日 +65 stars
+   - 发布时间: 2026/2/22 13:37:00
+12. [zed-industries/zed](https://github.com/zed-industries/zed)
+   - 核心观点: Sponsor Star zed-industries / zed Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | 今日 +59 stars
+   - 发布时间: 2026/2/22 13:37:00
 
 ## HackerNews
 
@@ -76,30 +86,36 @@
 7. [Show HN: AI writes code – humans fix it](https://humansfix.ai)
    - 核心观点: Show HN: AI writes code – humans fix it
    - 发布时间: 2026/2/22 06:57:02
-8. [Toyota Mirai hydrogen car depreciation: 65% value loss in a year](https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/)
+8. [How Taalas "prints" LLM onto a chip?](https://www.anuragk.com/blog/posts/Taalas.html)
+   - 核心观点: How Taalas "prints" LLM onto a chip?
+   - 发布时间: 2026/2/22 03:07:20
+9. [Toyota Mirai hydrogen car depreciation: 65% value loss in a year](https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/)
    - 核心观点: Toyota Mirai hydrogen car depreciation: 65% value loss in a year
    - 发布时间: 2026/2/22 02:09:24
-9. [Trump raises tariffs to 15% day after Supreme Court ruling](https://www.bbc.co.uk/news/articles/cn8z48xwqn3o)
+10. [Trump raises tariffs to 15% day after Supreme Court ruling](https://www.bbc.co.uk/news/articles/cn8z48xwqn3o)
    - 核心观点: Trump raises tariffs to 15% day after Supreme Court ruling
    - 发布时间: 2026/2/22 00:24:28
-10. [CXMT has been offering DDR4 chips at about half the prevailing market rate](https://www.koreaherald.com/article/10679206)
+11. [CXMT has been offering DDR4 chips at about half the prevailing market rate](https://www.koreaherald.com/article/10679206)
    - 核心观点: CXMT has been offering DDR4 chips at about half the prevailing market rate
    - 发布时间: 2026/2/21 22:32:16
-11. [The Human Root of Trust – public domain framework for agent accountability](https://humanrootoftrust.org/)
+12. [The Human Root of Trust – public domain framework for agent accountability](https://humanrootoftrust.org/)
    - 核心观点: I&#x27;ve spent my career at the intersection of identity, trust, and distributed systems. The thing I keep thinking about: every digital system we&#x27;ve built assumes a human is on the other end. B...
    - 发布时间: 2026/2/21 22:01:45
-12. [zclaw: personal AI assistant in under 888 KB, running on an ESP32](https://github.com/tnm/zclaw)
+13. [zclaw: personal AI assistant in under 888 KB, running on an ESP32](https://github.com/tnm/zclaw)
    - 核心观点: zclaw: personal AI assistant in under 888 KB, running on an ESP32
    - 发布时间: 2026/2/21 20:37:52
-13. [Instant AI Response](https://chatjimmy.ai/)
+14. [Instant AI Response](https://chatjimmy.ai/)
    - 核心观点: Instant AI Response
    - 发布时间: 2026/2/21 17:42:04
-14. [Large Language Model Reasoning Failures](https://arxiv.org/abs/2602.06176)
+15. [Large Language Model Reasoning Failures](https://arxiv.org/abs/2602.06176)
    - 核心观点: Large Language Model Reasoning Failures
    - 发布时间: 2026/2/21 16:56:00
-15. [AI uBlock Blacklist](https://github.com/alvi-se/ai-ublock-blacklist)
+16. [AI uBlock Blacklist](https://github.com/alvi-se/ai-ublock-blacklist)
    - 核心观点: AI uBlock Blacklist
    - 发布时间: 2026/2/21 16:10:49
+17. [The UK tourist with a valid visa detained by ICE for six weeks](https://www.theguardian.com/us-news/2026/feb/21/karen-newton-valid-visa-detained-ice)
+   - 核心观点: The UK tourist with a valid visa detained by ICE for six weeks
+   - 发布时间: 2026/2/21 14:28:22
 
 ## 机器之心
 

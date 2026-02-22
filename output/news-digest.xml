@@ -3,105 +3,105 @@
   <channel>
     <title>AI Agent与代码工具成热点 (2026/2/22)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>近期新闻显示，AI领域正加速向智能体和代码辅助方向发展。GitHub上涌现出多个AI Agent框架和代码审查工具，如LocalAgent和Auto-Review-ClaudeMCP，强调本地运行和自动化工作流。学术界关注LLM推理能力及动态评测基准，业界则探索AI与现有系统的深度集成，如Apple的设备端Agent和Palantir的本体论策略。同时，AI生成内容的负面影响及信任机制构建也成为讨论焦点。</description>
+    <description>今日GitHub Trending与HackerNews重点关注AI Agent与代码工具的发展。谷歌Gemini CLI、Cloudflare Agents及Databricks AI Dev Kit等Agent工具热度高涨，显示开发者对自动化与智能交互的需求。同时，PostHog集成AI辅助调试，GitNexus提供代码知识图谱，Apple研究设备端Agent。代码大模型评测与AI信任框架也成讨论焦点，行业正从模型能力向工具整合与实战应用深化。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Feb 2026 05:22:05 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 05:37:08 GMT</lastBuildDate>
     <item>
         <title>AI Agent与代码工具成热点</title>
         <link>https://example.com/self-news-agent</link>
-        <description>近期新闻显示，AI领域正加速向智能体和代码辅助方向发展。GitHub上涌现出多个AI Agent框架和代码审查工具，如LocalAgent和Auto-Review-ClaudeMCP，强调本地运行和自动化工作流。学术界关注LLM推理能力及动态评测基准，业界则探索AI与现有系统的深度集成，如Apple的设备端Agent和Palantir的本体论策略。同时，AI生成内容的负面影响及信任机制构建也成为讨论焦点。</description>
-        <pubDate>Sun, 22 Feb 2026 05:22:05 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-22T05:22:00.269Z</guid>
+        <description>今日GitHub Trending与HackerNews重点关注AI Agent与代码工具的发展。谷歌Gemini CLI、Cloudflare Agents及Databricks AI Dev Kit等Agent工具热度高涨，显示开发者对自动化与智能交互的需求。同时，PostHog集成AI辅助调试，GitNexus提供代码知识图谱，Apple研究设备端Agent。代码大模型评测与AI信任框架也成讨论焦点，行业正从模型能力向工具整合与实战应用深化。</description>
+        <pubDate>Sun, 22 Feb 2026 05:37:08 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-22T05:37:03.351Z</guid>
       </item>
     <item>
-        <title>CraftyGeezer/Kalshi-Polymarket-Ai-bot</title>
-        <link>https://github.com/CraftyGeezer/Kalshi-Polymarket-Ai-bot</link>
-        <description>No description | ⭐ 454 stars | 📅 今天创建</description>
-        <author>CraftyGeezer</author>
+        <title>PostHog/posthog</title>
+        <link>https://github.com/PostHog/posthog</link>
+        <description>Star PostHog / posthog 🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack. | 今日 +317 stars</description>
+        <author>PostHog</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:21:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-1163317794</guid>
+        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-posthog-posthog</guid>
       </item>
 <item>
-        <title>nguyenduchoai/bizclaw</title>
-        <link>https://github.com/nguyenduchoai/bizclaw</link>
-        <description>No description | ⭐ 41 stars | 📅 昨天创建</description>
-        <author>nguyenduchoai</author>
+        <title>google-research/timesfm</title>
+        <link>https://github.com/google-research/timesfm</link>
+        <description>Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | 今日 +306 stars</description>
+        <author>google-research</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:21:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-1163099480</guid>
+        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-google-research-timesfm</guid>
       </item>
 <item>
-        <title>binhanchen25-arch/agent_plus</title>
-        <link>https://github.com/binhanchen25-arch/agent_plus</link>
-        <description>No description | ⭐ 23 stars | 📅 今天创建</description>
-        <author>binhanchen25-arch</author>
+        <title>google-gemini/gemini-cli</title>
+        <link>https://github.com/google-gemini/gemini-cli</link>
+        <description>Star google-gemini / gemini-cli An open-source AI agent that brings the power of Gemini directly into your terminal. | 今日 +140 stars</description>
+        <author>google-gemini</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:21:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-1163142965</guid>
+        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-google-gemini-gemini-cli</guid>
       </item>
 <item>
-        <title>harshkedia177/axon</title>
-        <link>https://github.com/harshkedia177/axon</link>
-        <description>Graph-powered code intelligence engine — indexes codebases into a knowledge graph, exposed via MCP tools for AI agents and a CLI for developers. | ⭐ 22 stars | 📅 今天创建</description>
-        <author>harshkedia177</author>
+        <title>usestrix/strix</title>
+        <link>https://github.com/usestrix/strix</link>
+        <description>Star usestrix / strix Open-source AI hackers to find and fix your app’s vulnerabilities. | 今日 +137 stars</description>
+        <author>usestrix</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:21:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-1163168741</guid>
+        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-usestrix-strix</guid>
       </item>
 <item>
-        <title>CalvinSturm/LocalAgent</title>
-        <link>https://github.com/CalvinSturm/LocalAgent</link>
-        <description>Local-runtime agent loop with tool calling, focused on safe defaults and pragmatic control. | ⭐ 17 stars | 📅 昨天创建</description>
-        <author>CalvinSturm</author>
+        <title>abhigyanpatwari/GitNexus</title>
+        <link>https://github.com/abhigyanpatwari/GitNexus</link>
+        <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +132 stars</description>
+        <author>abhigyanpatwari</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:21:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-1163001528</guid>
+        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-abhigyanpatwari-gitnexus</guid>
       </item>
 <item>
-        <title>endyii/immich-ai-describe</title>
-        <link>https://github.com/endyii/immich-ai-describe</link>
-        <description>Automatically describe Immich photos using local Ollama vision models | ⭐ 15 stars | 📅 今天创建</description>
-        <author>endyii</author>
+        <title>clash-verge-rev/clash-verge-rev</title>
+        <link>https://github.com/clash-verge-rev/clash-verge-rev</link>
+        <description>Sponsor Star clash-verge-rev / clash-verge-rev A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience | 今日 +129 stars</description>
+        <author>clash-verge-rev</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:21:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-1163380197</guid>
+        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-clash-verge-rev-clash-verge-rev</guid>
       </item>
 <item>
-        <title>IskanderAl/Auto-Review-ClaudeMCP</title>
-        <link>https://github.com/IskanderAl/Auto-Review-ClaudeMCP</link>
-        <description>A Python MCP (Model Context Protocol) server that connects Claude Desktop to GitHub Pull Requests. It fetches PR diffs, filters out binary and asset files (Unity `.meta`, images, audio, shaders, etc.), and gives Claude only the actual code to review.  Built as a QA automation tool to speed up pull request reviews using AI. | ⭐ 15 stars | 📅 今天创建</description>
-        <author>IskanderAl</author>
+        <title>RichardAtCT/claude-code-telegram</title>
+        <link>https://github.com/RichardAtCT/claude-code-telegram</link>
+        <description>Star RichardAtCT / claude-code-telegram A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence. | 今日 +109 stars</description>
+        <author>RichardAtCT</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:21:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-1163198639</guid>
+        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-richardatct-claude-code-telegram</guid>
       </item>
 <item>
-        <title>laiso/xpaper</title>
-        <link>https://github.com/laiso/xpaper</link>
-        <description>A Chrome extension that turns your X (Twitter) timeline into an AI-curated newsletter.  | ⭐ 14 stars | 📅 今天创建</description>
-        <author>laiso</author>
+        <title>databricks-solutions/ai-dev-kit</title>
+        <link>https://github.com/databricks-solutions/ai-dev-kit</link>
+        <description>Star databricks-solutions / ai-dev-kit Databricks Toolkit for Coding Agents provided by Field Engineering | 今日 +108 stars</description>
+        <author>databricks-solutions</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:21:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-1163287764</guid>
+        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-databricks-solutions-ai-dev-kit</guid>
       </item>
 <item>
-        <title>iamlibie/unlimited-ai-platform</title>
-        <link>https://github.com/iamlibie/unlimited-ai-platform</link>
-        <description>基于 Next.js 15 + Prisma + NextAuth 的数据库驱动 AI 对话平台，支持模型渠道、角色市场、扩展库与计费管理。 | ⭐ 12 stars | 📅 昨天创建</description>
-        <author>iamlibie</author>
+        <title>block/goose</title>
+        <link>https://github.com/block/goose</link>
+        <description>Star block / goose an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | 今日 +89 stars</description>
+        <author>block</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:21:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-1163090887</guid>
+        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-block-goose</guid>
       </item>
 <item>
-        <title>mikeyobrien/pi-gemini-agent</title>
-        <link>https://github.com/mikeyobrien/pi-gemini-agent</link>
-        <description>No description | ⭐ 10 stars | 📅 昨天创建</description>
-        <author>mikeyobrien</author>
+        <title>deuxfleurs-org/garage</title>
+        <link>https://github.com/deuxfleurs-org/garage</link>
+        <description>Star deuxfleurs-org / garage (Mirror) S3-compatible object store for small self-hosted geo-distributed deployments. Main repo: https://git.deuxfleurs.fr/Deuxfleurs/garage | 今日 +82 stars</description>
+        <author>deuxfleurs-org</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:21:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-1163092288</guid>
+        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-deuxfleurs-org-garage</guid>
       </item>
   </channel>
 </rss>
