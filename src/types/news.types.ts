@@ -65,6 +65,8 @@ export interface DigestAnalysis {
   overview: string;
   highlights: string[];
   keywords: string[];
+  topicsAnalysis?: string | null;
+  sourceHighlights?: string | null;
   generatedAt: string;
 }
 
