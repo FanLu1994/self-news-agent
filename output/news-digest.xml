@@ -5,103 +5,108 @@
     <link>https://example.com/self-news-agent</link>
     <description></description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Feb 2026 10:04:23 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 11:55:33 GMT</lastBuildDate>
     <item>
         <title>AI &amp; 技术日报</title>
         <link>https://example.com/self-news-agent</link>
         <description></description>
-        <pubDate>Sun, 22 Feb 2026 10:04:23 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-22T10:04:23.402Z</guid>
+        <pubDate>Sun, 22 Feb 2026 11:55:33 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-22T11:55:32.682Z</guid>
       </item>
     <item>
         <title>vxcontrol/pentagi</title>
         <link>https://github.com/vxcontrol/pentagi</link>
-        <description>Star vxcontrol / pentagi ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 今日 +2118 stars</description>
+        <description>Star vxcontrol / pentagi ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 今日 +1599 stars</description>
         <author>vxcontrol</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 10:04:10 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vxcontrol-pentagi</guid>
       </item>
 <item>
-        <title>obra/superpowers</title>
-        <link>https://github.com/obra/superpowers</link>
-        <description>Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works. | 今日 +772 stars</description>
-        <author>obra</author>
+        <title>x1xhlol/system-prompts-and-models-of-ai-tools</title>
+        <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
+        <description>Sponsor Star x1xhlol / system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models | 今日 +914 stars</description>
+        <author>x1xhlol</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 10:04:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-obra-superpowers</guid>
-      </item>
-<item>
-        <title>HandsOnLLM/Hands-On-Large-Language-Models</title>
-        <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
-        <description>Star HandsOnLLM / Hands-On-Large-Language-Models Official code repo for the O&apos;Reilly Book - &quot;Hands-On Large Language Models&quot; | 今日 +355 stars</description>
-        <author>HandsOnLLM</author>
-        <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 10:04:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-handsonllm-hands-on-large-language-models</guid>
-      </item>
-<item>
-        <title>Stremio/stremio-web</title>
-        <link>https://github.com/Stremio/stremio-web</link>
-        <description>Star Stremio / stremio-web Stremio - Freedom to Stream | 今日 +301 stars</description>
-        <author>Stremio</author>
-        <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 10:04:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-stremio-stremio-web</guid>
-      </item>
-<item>
-        <title>huggingface/skills</title>
-        <link>https://github.com/huggingface/skills</link>
-        <description>huggingface/skills | 今日 +247 stars</description>
-        <author>huggingface</author>
-        <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 10:04:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-huggingface-skills</guid>
+        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-x1xhlol-system-prompts-and-models-of-ai-tools</guid>
       </item>
 <item>
         <title>anthropics/claude-code</title>
         <link>https://github.com/anthropics/claude-code</link>
-        <description>Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 今日 +222 stars</description>
+        <description>Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 今日 +500 stars</description>
         <author>anthropics</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 10:04:10 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-anthropics-claude-code</guid>
       </item>
 <item>
         <title>abhigyanpatwari/GitNexus</title>
         <link>https://github.com/abhigyanpatwari/GitNexus</link>
-        <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +132 stars</description>
+        <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +419 stars</description>
         <author>abhigyanpatwari</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 10:04:10 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-abhigyanpatwari-gitnexus</guid>
-      </item>
-<item>
-        <title>hiddify/hiddify-app</title>
-        <link>https://github.com/hiddify/hiddify-app</link>
-        <description>Star hiddify / hiddify-app Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | 今日 +132 stars</description>
-        <author>hiddify</author>
-        <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 10:04:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hiddify-hiddify-app</guid>
-      </item>
-<item>
-        <title>RichardAtCT/claude-code-telegram</title>
-        <link>https://github.com/RichardAtCT/claude-code-telegram</link>
-        <description>Star RichardAtCT / claude-code-telegram A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence. | 今日 +109 stars</description>
-        <author>RichardAtCT</author>
-        <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 10:04:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-richardatct-claude-code-telegram</guid>
       </item>
 <item>
         <title>stan-smith/FossFLOW</title>
         <link>https://github.com/stan-smith/FossFLOW</link>
-        <description>Sponsor Star stan-smith / FossFLOW Make beautiful isometric infrastructure diagrams | 今日 +74 stars</description>
+        <description>Sponsor Star stan-smith / FossFLOW Make beautiful isometric infrastructure diagrams | 今日 +342 stars</description>
         <author>stan-smith</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 10:04:10 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-stan-smith-fossflow</guid>
+      </item>
+<item>
+        <title>huggingface/skills</title>
+        <link>https://github.com/huggingface/skills</link>
+        <description>huggingface/skills | 今日 +323 stars</description>
+        <author>huggingface</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-huggingface-skills</guid>
+      </item>
+<item>
+        <title>cloudflare/agents</title>
+        <link>https://github.com/cloudflare/agents</link>
+        <description>Star cloudflare / agents Build and deploy AI Agents on Cloudflare | 今日 +263 stars</description>
+        <author>cloudflare</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-cloudflare-agents</guid>
+      </item>
+<item>
+        <title>Stremio/stremio-web</title>
+        <link>https://github.com/Stremio/stremio-web</link>
+        <description>Star Stremio / stremio-web Stremio - Freedom to Stream | 今日 +251 stars</description>
+        <author>Stremio</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-stremio-stremio-web</guid>
+      </item>
+<item>
+        <title>OpenBB-finance/OpenBB</title>
+        <link>https://github.com/OpenBB-finance/OpenBB</link>
+        <description>Sponsor Star OpenBB-finance / OpenBB Financial data platform for analysts, quants and AI agents. | 今日 +148 stars</description>
+        <author>OpenBB-finance</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-openbb-finance-openbb</guid>
+      </item>
+<item>
+        <title>关于CPA里的认证文件过期的问题</title>
+        <link>https://linux.do/t/topic/1635886</link>
+        <description>社区里发了很多codex的CPA的认证文件，直接导入CPA使用，然后用着用着都开始出现：
+{
+    &quot;message&quot;: &quot;Your refresh token has already been used to generate a new access token. Please try signing in again.&quot;,
+    &quot;type&quot;: &quot;invalid_request_error&quot;,
+    &quot;param&quot;: null,
+    &quot;code&quot;: &quot;refr...</description>
+        <author>xiaoyutx</author>
+        <category>linuxdo</category>
+        <pubDate>Sun, 22 Feb 2026 11:54:33 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-835252007</guid>
       </item>
   </channel>
 </rss>

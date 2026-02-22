@@ -52,19 +52,19 @@
   },
   {
     "date": "2026-02-22",
-    "total": 69,
+    "total": 66,
     "byTopic": {
-      "AI": 33,
-      "Frontend": 3,
+      "AI": 35,
+      "Frontend": 2,
       "Backend": 1,
       "DevOps": 1,
-      "Data": 3,
+      "Data": 1,
       "Security": 0,
-      "Cloud": 0,
+      "Cloud": 1,
       "Mobile": 2,
       "Startup": 0,
       "OpenSource": 0,
-      "Other": 26
+      "Other": 23
     }
   }
 ]
