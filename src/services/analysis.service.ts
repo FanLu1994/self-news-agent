@@ -112,10 +112,7 @@ export class AnalysisService {
   async analyze(options: AnalyzeOptions): Promise<AnalyzeResult> {
     const { articles, style, queryKeywords } = options;
 
-    console.log(`\n🤖 开始 AI 分析...`);
-    console.log(`  文章数量: ${articles.length}`);
-    console.log(`  风格: ${style}`);
-    console.log(`  关键词: ${queryKeywords.join(', ') || '无'}`);
+    console.log(`\n🤖 开始 AI 分析... (${articles.length} 篇文章)`);
 
     // 构建详细的文章摘要
     const articlesSummary = this.buildArticlesSummary(articles, 100);
@@ -133,8 +130,6 @@ export class AnalysisService {
       style,
       queryKeywords
     });
-
-    console.log(`  Prompt 长度: ${prompt.length} 字符`);
 
     const context: Context = {
       systemPrompt: `你是专业的新闻编辑与产业分析师，擅长：
@@ -168,17 +163,10 @@ export class AnalysisService {
         .join('\n')
         .trim();
 
-      console.log(`  响应长度: ${rawText.length} 字符`);
-      console.log(`  响应预览:\n${rawText.slice(0, 500)}...`);
+      console.log(`  ✅ 分析完成 (${rawText.length} 字符)`);
 
       // 解析结果
       const analysis = this.parseAnalysisResult(rawText, queryKeywords);
-
-      console.log(`  解析结果:`);
-      console.log(`    标题: ${analysis.title}`);
-      console.log(`    概览长度: ${analysis.overview.length} 字`);
-      console.log(`    要点数量: ${analysis.highlights.length}`);
-
       return { analysis, rawText };
     } catch (error) {
       console.error(`❌ AI 分析失败:`, error);
@@ -328,7 +316,7 @@ export class AnalysisService {
       }
     }
 
-    const analysis: DigestAnalysis = {
+    return {
       title,
       overview,
       highlights: highlights.slice(0, 15),
@@ -337,15 +325,6 @@ export class AnalysisService {
       sourceHighlights,
       generatedAt: new Date().toISOString()
     };
-
-    console.log(`    ✓ 解析完成`);
-    console.log(`    - 标题: ${title}`);
-    console.log(`    - 概览: ${overview.slice(0, 50)}... (${overview.length}字)`);
-    console.log(`    - 要点: ${highlights.length} 个`);
-    console.log(`    - 话题分析: ${topicsAnalysis ? '有' : '无'}`);
-    console.log(`    - 来源亮点: ${sourceHighlights ? '有' : '无'}`);
-
-    return analysis;
   }
 
   /**

@@ -59,12 +59,12 @@
       "Backend": 2,
       "DevOps": 1,
       "Data": 1,
-      "Security": 0,
+      "Security": 1,
       "Cloud": 0,
       "Mobile": 0,
       "Startup": 0,
       "OpenSource": 0,
-      "Other": 8
+      "Other": 7
     }
   }
 ]
