@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>AI &amp; 技术日报 (2026/2/22)</title>
+    <title>AI代理与编程工具井喷，开源社区活跃，技术应用与争议并存 (2026/2/22)</title>
     <link>https://example.com/self-news-agent</link>
-    <description></description>
+    <description>近期技术社区动态呈现出以AI代理（Agent）和智能编程工具为核心的强烈趋势，同时伴随着开源项目的繁荣、技术应用的深度探索以及相关的行业争议。在GitHub趋势榜上，**完全自主的AI代理系统**（如pentagi）和**终端智能编程工具**（如Claude Code）获得极高关注，标志着AI正从辅助工具向能够执行复杂任务的自主系统演进。开源领域，从基础设施图表工具（FossFLOW）到金融数据平台（OpenBB），再到AI代理部署框架（Cloudflare Agents），显示出AI技术与各垂直领域深度融合的态势。
+
+开发者社区（如V2EX、Linux.do）的讨论则更侧重于**实践与应用**：一方面，开发者积极利用Claude等高级模型进行硬核开发（如编写ARM64 VMP）、生成视频内容、甚至构建商业系统，展现了AI生产力的巨大潜力；另一方面，也对AI编程工具（Claude Code, OpenClaw替代品）的适用边界、API服务（如智谱GLM Coding Plan）的规则透明度、以及模型使用中的具体问题（如CPA认证过期）进行了深入交流。此外，AI生成内容的泛滥（如利用“胡言乱语”进行SEO排名）及其引发的伦理、质量问题也开始受到关注。政策与产业层面，涉及微软的公关风波、特朗普关税政策、长鑫存储的市场策略等新闻，提示技术发展所处的复杂外部环境。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Feb 2026 11:55:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 12:02:10 GMT</lastBuildDate>
     <item>
-        <title>AI &amp; 技术日报</title>
+        <title>AI代理与编程工具井喷，开源社区活跃，技术应用与争议并存</title>
         <link>https://example.com/self-news-agent</link>
-        <description></description>
-        <pubDate>Sun, 22 Feb 2026 11:55:33 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-22T11:55:32.682Z</guid>
+        <description>近期技术社区动态呈现出以AI代理（Agent）和智能编程工具为核心的强烈趋势，同时伴随着开源项目的繁荣、技术应用的深度探索以及相关的行业争议。在GitHub趋势榜上，**完全自主的AI代理系统**（如pentagi）和**终端智能编程工具**（如Claude Code）获得极高关注，标志着AI正从辅助工具向能够执行复杂任务的自主系统演进。开源领域，从基础设施图表工具（FossFLOW）到金融数据平台（OpenBB），再到AI代理部署框架（Cloudflare Agents），显示出AI技术与各垂直领域深度融合的态势。
+
+开发者社区（如V2EX、Linux.do）的讨论则更侧重于**实践与应用**：一方面，开发者积极利用Claude等高级模型进行硬核开发（如编写ARM64 VMP）、生成视频内容、甚至构建商业系统，展现了AI生产力的巨大潜力；另一方面，也对AI编程工具（Claude Code, OpenClaw替代品）的适用边界、API服务（如智谱GLM Coding Plan）的规则透明度、以及模型使用中的具体问题（如CPA认证过期）进行了深入交流。此外，AI生成内容的泛滥（如利用“胡言乱语”进行SEO排名）及其引发的伦理、质量问题也开始受到关注。政策与产业层面，涉及微软的公关风波、特朗普关税政策、长鑫存储的市场策略等新闻，提示技术发展所处的复杂外部环境。</description>
+        <pubDate>Sun, 22 Feb 2026 12:02:10 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-22T12:01:34.802Z</guid>
       </item>
     <item>
         <title>vxcontrol/pentagi</title>
@@ -19,7 +23,7 @@
         <description>Star vxcontrol / pentagi ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 今日 +1599 stars</description>
         <author>vxcontrol</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 12:00:15 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vxcontrol-pentagi</guid>
       </item>
 <item>
@@ -28,7 +32,7 @@
         <description>Sponsor Star x1xhlol / system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models | 今日 +914 stars</description>
         <author>x1xhlol</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 12:00:15 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-x1xhlol-system-prompts-and-models-of-ai-tools</guid>
       </item>
 <item>
@@ -37,7 +41,7 @@
         <description>Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 今日 +500 stars</description>
         <author>anthropics</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 12:00:15 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-anthropics-claude-code</guid>
       </item>
 <item>
@@ -46,7 +50,7 @@
         <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +419 stars</description>
         <author>abhigyanpatwari</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 12:00:15 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-abhigyanpatwari-gitnexus</guid>
       </item>
 <item>
@@ -55,7 +59,7 @@
         <description>Sponsor Star stan-smith / FossFLOW Make beautiful isometric infrastructure diagrams | 今日 +342 stars</description>
         <author>stan-smith</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 12:00:15 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-stan-smith-fossflow</guid>
       </item>
 <item>
@@ -64,7 +68,7 @@
         <description>huggingface/skills | 今日 +323 stars</description>
         <author>huggingface</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 12:00:15 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-huggingface-skills</guid>
       </item>
 <item>
@@ -73,7 +77,7 @@
         <description>Star cloudflare / agents Build and deploy AI Agents on Cloudflare | 今日 +263 stars</description>
         <author>cloudflare</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 12:00:15 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-cloudflare-agents</guid>
       </item>
 <item>
@@ -82,7 +86,7 @@
         <description>Star Stremio / stremio-web Stremio - Freedom to Stream | 今日 +251 stars</description>
         <author>Stremio</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 12:00:15 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-stremio-stremio-web</guid>
       </item>
 <item>
@@ -91,22 +95,26 @@
         <description>Sponsor Star OpenBB-finance / OpenBB Financial data platform for analysts, quants and AI agents. | 今日 +148 stars</description>
         <author>OpenBB-finance</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 11:55:18 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 12:00:15 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-openbb-finance-openbb</guid>
       </item>
 <item>
-        <title>关于CPA里的认证文件过期的问题</title>
-        <link>https://linux.do/t/topic/1635886</link>
-        <description>社区里发了很多codex的CPA的认证文件，直接导入CPA使用，然后用着用着都开始出现：
-{
-    &quot;message&quot;: &quot;Your refresh token has already been used to generate a new access token. Please try signing in again.&quot;,
-    &quot;type&quot;: &quot;invalid_request_error&quot;,
-    &quot;param&quot;: null,
-    &quot;code&quot;: &quot;refr...</description>
-        <author>xiaoyutx</author>
-        <category>linuxdo</category>
-        <pubDate>Sun, 22 Feb 2026 11:54:33 GMT</pubDate>
-        <guid isPermaLink="false">rss-0-835252007</guid>
+        <title>[分享创造] GitData.AI: 一个智能体原生的 Git 协作平台</title>
+        <link>https://www.v2ex.com/t/1193485#reply0</link>
+        <description>三年后，我们终于把 GitData 做出来了。
+三年时间，很长。
+长到足够让一个想法被反复质疑、被现实打磨、被无数个凌晨推翻重来。
+也长到足够让你慢慢看清一件事：有些事情，如果不自己做出来，心里会一直放不下。
+今天，GitData.AI 正式上线测试了。
+https://gitdata.ai
+它不是一时兴起的产品，也不是为了追逐某个风口。
+它更像是一种执念——关于 Git ，关于协作，关于智能体时代到底应该如何构建新的基础设施。
+过去 20 年，Git 改变了软件开发。
+它让...</description>
+        <author>Ve2x</author>
+        <category>ve2x</category>
+        <pubDate>Sun, 22 Feb 2026 11:59:17 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-77709812</guid>
       </item>
   </channel>
 </rss>
