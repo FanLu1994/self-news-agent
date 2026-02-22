@@ -100,7 +100,13 @@ function parseTrendingRepos(html: string): TrendingRepo[] {
   const articleRegex = /<article[^>]*class="[^"]*Box-row[^"]*"[\s\S]*?<\/article>/g;
   const blocks = html.match(articleRegex) || [];
 
-  return blocks.map(block => {
+  // 调试：输出匹配结果
+  if (process.env.DEBUG === 'true') {
+    console.log(`\n🔍 GitHub Trending 解析调试:`);
+    console.log(`  HTML 中匹配到 ${blocks.length} 个 article 块`);
+  }
+
+  const repos = blocks.map(block => {
     // 提取 owner/repo
     const repoLinkMatch =
       block.match(/<h2[^>]*>[\s\S]*?<a[^>]*href="\/([^/"\s]+)\/([^/"\s]+)"/i) ||
@@ -136,7 +142,21 @@ function parseTrendingRepos(html: string): TrendingRepo[] {
       starsTotal,
       url
     };
-  }).filter(item => item.owner && item.repo);
+  });
+
+  // 过滤有效的仓库
+  const validRepos = repos.filter(item => item.owner && item.repo);
+
+  // 调试：输出解析结果
+  if (process.env.DEBUG === 'true') {
+    console.log(`  成功解析 ${validRepos.length} 个仓库`);
+    const failed = blocks.length - validRepos.length;
+    if (failed > 0) {
+      console.log(`  解析失败 ${failed} 个块`);
+    }
+  }
+
+  return validRepos;
 }
 
 /**
@@ -171,7 +191,17 @@ export class GitHubTrendingService {
         headers: this.buildHeaders()
       });
 
-      return response.text();
+      const html = await response.text();
+
+      // 调试：输出 HTML 大小
+      if (process.env.DEBUG === 'true') {
+        console.log(`\n📥 GitHub Trending 页面抓取:`);
+        console.log(`  URL: ${url}`);
+        console.log(`  HTML 大小: ${html.length} 字符`);
+        console.log(`  HTTP 状态: ${response.status}`);
+      }
+
+      return html;
     } catch (error) {
       const errorMsg = error instanceof Error ? error.message : String(error);
       throw new Error(`Failed to fetch GitHub trending page: ${errorMsg}`);
@@ -232,7 +262,8 @@ export class GitHubTrendingService {
       // 调试输出
       if (process.env.DEBUG === 'true') {
         console.log('\n📊 GitHub Trending 爬虫抓取结果:');
-        console.log(`获取到 ${articles.length} 个仓库`);
+        console.log(`  最终返回: ${articles.length} 个仓库`);
+        console.log(`  请求限制: ${options.limit}`);
         articles.forEach((article, i) => {
           console.log(`  ${i + 1}. ${article.title} | ${article.tags[0]} | ⭐ ${article.score}`);
         });
