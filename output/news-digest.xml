@@ -1,115 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>AI技术深入硬件与伦理，互联网生态面临信任与兼容性挑战 (2026/2/22)</title>
+    <title>AI代理与开发工具井喷，互联网生态面临安全与信任新挑战 (2026/2/22)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>近期技术新闻呈现多维度深度发展的态势，人工智能（AI）依然是绝对核心，但其焦点已从单纯的应用层面向底层硬件、开发范式、系统信任乃至社会影响等更基础、更宏观的领域延伸。在硬件与系统层面，出现了旨在彻底革新AI计算范式的尝试，如通过NVMe直连GPU绕过CPU运行大模型，以及将大型语言模型（LLM）“打印”到专用芯片上，这预示着对算力效率和成本极致的追求。同时，轻量化、本地化AI成为重要趋势，苹果研发在设备端运行的AI代理，以及能在ESP32微控制器上运行的个人AI助手，展示了AI向边缘和终端设备渗透的强大动力。
+    <description>近期技术社区动态呈现出以AI代理（AI Agent）为核心的强烈趋势，同时伴随着对互联网生态安全、数据可靠性及技术伦理的深度反思。在GitHub趋势榜上，**自主AI代理系统**成为最大亮点，vxcontrol/pentagi项目凭借其宣称的能执行复杂渗透测试任务的“全自主AI代理系统”单日获星超2100，引发对AI自动化攻击能力的关注。与此同时，以Claude Code为代表的**AI编程助手工具生态**迅速扩展，出现了终端集成版、Telegram机器人版等多种形态，展示了AI深度融入开发工作流的进程。Cloudflare、Hugging Face等大厂也纷纷推出各自的AI代理构建平台（cloudflare/agents, huggingface/skills），标志着AI代理正从概念探索进入平台化、工具化落地阶段。
 
-在开发与工具领域，围绕AI辅助编程的实践与反思并存。既有开发者分享如何高效利用Claude Code进行“规划与执行分离”的实用经验，也有对MCP（模型上下文协议）等新兴范式生命力的质疑，认为传统的命令行界面（CLI）仍不可替代。另一方面，经典编程语言生态的演进也引发关注，Go 1.26版本因`go mod init`的默认降级行为引发的兼容性风波，凸显了在生态系统快速进化中维护开发者体验与向后兼容的复杂平衡。
-
-互联网的整体环境正被深刻讨论。有观点将当前的互联网比喻为“黑暗森林”，而AI则扮演着其中的“猎手”，指向信息生态的恶化与AI在其中可能起的推波助澜作用。与之呼应的是，出现了专门针对AI生成内容的“AI uBlock黑名单”项目，以及探讨“人类信任之根”和代理责任制的框架，反映了业界对构建可信数字系统的迫切需求。此外，数据存储的可靠性（硬盘欺骗问题）、企业核心技术（Palantir的本体论战略）以及地缘科技竞争（长鑫存储的芯片定价）等议题，共同勾勒出一个技术深度整合、同时又充满不确定性和反思的行业图景。</description>
+另一方面，HackerNews的讨论揭示了技术繁荣背后的隐忧。**数据存储安全**受到质疑，有文章指出硬盘可能静默欺骗用户而校验和却显示正常。**互联网信息环境**被形容为“黑暗森林”，AI既是猎手也可能加剧这一趋势。企业伦理问题浮现，如微软被指在ICC邮件风波中让发言人担责。此外，**硬件与底层创新**持续进行，如尝试通过NVMe直连GPU运行大模型、将LLM“打印”到芯片上，以及苹果研发在设备端运行、可交互应用的AI代理，体现了去中心化和效率提升的追求。Go语言社区则因1.26版本发布后的模块初始化降级问题引发讨论，反映了技术演进中兼容性与开发者体验的挑战。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Feb 2026 06:30:09 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 06:37:48 GMT</lastBuildDate>
     <item>
-        <title>AI技术深入硬件与伦理，互联网生态面临信任与兼容性挑战</title>
+        <title>AI代理与开发工具井喷，互联网生态面临安全与信任新挑战</title>
         <link>https://example.com/self-news-agent</link>
-        <description>近期技术新闻呈现多维度深度发展的态势，人工智能（AI）依然是绝对核心，但其焦点已从单纯的应用层面向底层硬件、开发范式、系统信任乃至社会影响等更基础、更宏观的领域延伸。在硬件与系统层面，出现了旨在彻底革新AI计算范式的尝试，如通过NVMe直连GPU绕过CPU运行大模型，以及将大型语言模型（LLM）“打印”到专用芯片上，这预示着对算力效率和成本极致的追求。同时，轻量化、本地化AI成为重要趋势，苹果研发在设备端运行的AI代理，以及能在ESP32微控制器上运行的个人AI助手，展示了AI向边缘和终端设备渗透的强大动力。
+        <description>近期技术社区动态呈现出以AI代理（AI Agent）为核心的强烈趋势，同时伴随着对互联网生态安全、数据可靠性及技术伦理的深度反思。在GitHub趋势榜上，**自主AI代理系统**成为最大亮点，vxcontrol/pentagi项目凭借其宣称的能执行复杂渗透测试任务的“全自主AI代理系统”单日获星超2100，引发对AI自动化攻击能力的关注。与此同时，以Claude Code为代表的**AI编程助手工具生态**迅速扩展，出现了终端集成版、Telegram机器人版等多种形态，展示了AI深度融入开发工作流的进程。Cloudflare、Hugging Face等大厂也纷纷推出各自的AI代理构建平台（cloudflare/agents, huggingface/skills），标志着AI代理正从概念探索进入平台化、工具化落地阶段。
 
-在开发与工具领域，围绕AI辅助编程的实践与反思并存。既有开发者分享如何高效利用Claude Code进行“规划与执行分离”的实用经验，也有对MCP（模型上下文协议）等新兴范式生命力的质疑，认为传统的命令行界面（CLI）仍不可替代。另一方面，经典编程语言生态的演进也引发关注，Go 1.26版本因`go mod init`的默认降级行为引发的兼容性风波，凸显了在生态系统快速进化中维护开发者体验与向后兼容的复杂平衡。
-
-互联网的整体环境正被深刻讨论。有观点将当前的互联网比喻为“黑暗森林”，而AI则扮演着其中的“猎手”，指向信息生态的恶化与AI在其中可能起的推波助澜作用。与之呼应的是，出现了专门针对AI生成内容的“AI uBlock黑名单”项目，以及探讨“人类信任之根”和代理责任制的框架，反映了业界对构建可信数字系统的迫切需求。此外，数据存储的可靠性（硬盘欺骗问题）、企业核心技术（Palantir的本体论战略）以及地缘科技竞争（长鑫存储的芯片定价）等议题，共同勾勒出一个技术深度整合、同时又充满不确定性和反思的行业图景。</description>
-        <pubDate>Sun, 22 Feb 2026 06:30:09 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-22T06:29:59.207Z</guid>
+另一方面，HackerNews的讨论揭示了技术繁荣背后的隐忧。**数据存储安全**受到质疑，有文章指出硬盘可能静默欺骗用户而校验和却显示正常。**互联网信息环境**被形容为“黑暗森林”，AI既是猎手也可能加剧这一趋势。企业伦理问题浮现，如微软被指在ICC邮件风波中让发言人担责。此外，**硬件与底层创新**持续进行，如尝试通过NVMe直连GPU运行大模型、将LLM“打印”到芯片上，以及苹果研发在设备端运行、可交互应用的AI代理，体现了去中心化和效率提升的追求。Go语言社区则因1.26版本发布后的模块初始化降级问题引发讨论，反映了技术演进中兼容性与开发者体验的挑战。</description>
+        <pubDate>Sun, 22 Feb 2026 06:37:48 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-22T06:37:33.966Z</guid>
       </item>
     <item>
-        <title>微软在国际刑事法院邮件风波中让发言人背锅。</title>
-        <link>https://www.theregister.com/2026/02/18/microsoft_asks_uk_parliament_to_correct_record/</link>
-        <description>微软在国际刑事法院邮件风波中让发言人背锅。</description>
-        <author>abdelhousni</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 05:41:25 GMT</pubDate>
-        <guid isPermaLink="false">hn-47108542</guid>
+        <title>vxcontrol/pentagi</title>
+        <link>https://github.com/vxcontrol/pentagi</link>
+        <description>Star vxcontrol / pentagi ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 今日 +2118 stars</description>
+        <author>vxcontrol</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:35:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vxcontrol-pentagi</guid>
       </item>
 <item>
-        <title>MCPs已死 - CLI永存</title>
-        <link>https://news.ycombinator.com/item?id=47108138</link>
-        <description>就连创建OpenClaw的彼得·斯坦伯格也在莱克斯·弗里德曼的播客中如此表示（https://www.youtube.com/watch?v=YFjfBk8HI5o 约2小时38分59秒处）。MCP的整个前提是……</description>
-        <author>umairnadeem123</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 04:24:36 GMT</pubDate>
-        <guid isPermaLink="false">hn-47108138</guid>
+        <title>obra/superpowers</title>
+        <link>https://github.com/obra/superpowers</link>
+        <description>Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works. | 今日 +772 stars</description>
+        <author>obra</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:35:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-obra-superpowers</guid>
       </item>
 <item>
-        <title>你的硬盘刚刚欺骗了你——而你的校验和却显示一切正常</title>
-        <link>https://medium.com/@jingyuzhou/your-disk-just-lied-to-you-and-your-checksums-said-everything-was-fine-40e471f40129</link>
-        <description>你的硬盘刚刚对你撒谎——而你的校验和却显示一切正常</description>
-        <author>tanelpoder</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 02:45:13 GMT</pubDate>
-        <guid isPermaLink="false">hn-47107601</guid>
+        <title>HandsOnLLM/Hands-On-Large-Language-Models</title>
+        <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
+        <description>Star HandsOnLLM / Hands-On-Large-Language-Models Official code repo for the O&apos;Reilly Book - &quot;Hands-On Large Language Models&quot; | 今日 +355 stars</description>
+        <author>HandsOnLLM</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:35:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-handsonllm-hands-on-large-language-models</guid>
       </item>
 <item>
-        <title>Palantir的秘密武器并非人工智能——而是本体论。一次开源深度解析</title>
-        <link>https://github.com/Leading-AI-IO/palantir-ontology-strategy</link>
-        <description>Palantir的秘密武器并非人工智能——而是本体论。一次开源深度解析。</description>
-        <author>leading-AI</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 02:29:06 GMT</pubDate>
-        <guid isPermaLink="false">hn-47107512</guid>
+        <title>Stremio/stremio-web</title>
+        <link>https://github.com/Stremio/stremio-web</link>
+        <description>Star Stremio / stremio-web Stremio - Freedom to Stream | 今日 +301 stars</description>
+        <author>Stremio</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:35:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-stremio-stremio-web</guid>
       </item>
 <item>
-        <title>互联网正演变为一片黑暗森林——而人工智能是其中的猎手。</title>
-        <link>https://opennhp.org/blog/the-internet-is-becoming-a-dark-forest.html</link>
-        <description>互联网正演变为一片黑暗森林——而人工智能则是猎手。</description>
-        <author>windcbf</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 01:15:38 GMT</pubDate>
-        <guid isPermaLink="false">hn-47107039</guid>
+        <title>huggingface/skills</title>
+        <link>https://github.com/huggingface/skills</link>
+        <description>huggingface/skills | 今日 +247 stars</description>
+        <author>huggingface</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:35:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-huggingface-skills</guid>
       </item>
 <item>
-        <title>苹果研究人员开发出可在设备上运行的AI代理，可代用户与应用交互</title>
-        <link>https://9to5mac.com/2026/02/20/apple-researchers-develop-on-device-ai-agent-that-interacts-with-apps-for-you/</link>
-        <description>苹果研究人员开发出可在设备上运行的AI代理，可代用户与应用交互</description>
-        <author>brandonb</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 00:51:23 GMT</pubDate>
-        <guid isPermaLink="false">hn-47106866</guid>
+        <title>anthropics/claude-code</title>
+        <link>https://github.com/anthropics/claude-code</link>
+        <description>Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 今日 +222 stars</description>
+        <author>anthropics</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:35:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-anthropics-claude-code</guid>
       </item>
 <item>
-        <title>多亏了人工智能的胡言乱语，我在谷歌上排名第一 [视频]</title>
-        <link>https://www.youtube.com/watch?v=6uKZ84zwJI0</link>
-        <description>多亏了AI的胡言乱语，我在谷歌上排名第一 [视频]</description>
-        <author>basilikum</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 00:46:51 GMT</pubDate>
-        <guid isPermaLink="false">hn-47106829</guid>
+        <title>abhigyanpatwari/GitNexus</title>
+        <link>https://github.com/abhigyanpatwari/GitNexus</link>
+        <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +132 stars</description>
+        <author>abhigyanpatwari</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:35:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-abhigyanpatwari-gitnexus</guid>
       </item>
 <item>
-        <title>我如何使用Claude Code：规划与执行的分离</title>
-        <link>https://boristane.com/blog/how-i-use-claude-code/</link>
-        <description>我如何使用Claude Code：规划与执行的分离</description>
-        <author>vinhnx</author>
-        <category>hn</category>
-        <pubDate>Sun, 22 Feb 2026 00:29:05 GMT</pubDate>
-        <guid isPermaLink="false">hn-47106686</guid>
+        <title>hiddify/hiddify-app</title>
+        <link>https://github.com/hiddify/hiddify-app</link>
+        <description>Star hiddify / hiddify-app Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | 今日 +132 stars</description>
+        <author>hiddify</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:35:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-hiddify-hiddify-app</guid>
       </item>
 <item>
-        <title>“你装了 Go 1.26，却写不了 Go 1.26 的代码？”——复盘 go mod init 的降级风波</title>
-        <link>https://tonybai.com/2026/02/22/go-1-26-go-mod-init-downgrade-collision-review/</link>
-        <description>本文永久链接 – https://tonybai.com/2026/02/22/go-1-26-go-mod-init-downgrade-collision-review 大家好，我是Tony Bai。 2026年2月，Go 1.26 带着众多瞩目的新特性（如期待已久的 new(expr) 语法糖、全面启用的 Green Tea GC）正式发布。你兴奋地更新了本地的工具链，迫不及待地打开终端，想要体验一把用 new(42) 直接初始化指针的快感。 你熟练地敲下： $ mkd...</description>
-        <author>bigwhite</author>
-        <category>rss</category>
-        <pubDate>Sun, 22 Feb 2026 00:06:42 GMT</pubDate>
-        <guid isPermaLink="false">rss-0-1887873145</guid>
+        <title>RichardAtCT/claude-code-telegram</title>
+        <link>https://github.com/RichardAtCT/claude-code-telegram</link>
+        <description>Star RichardAtCT / claude-code-telegram A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence. | 今日 +109 stars</description>
+        <author>RichardAtCT</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:35:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-richardatct-claude-code-telegram</guid>
       </item>
 <item>
-        <title>为什么Claude是一个Electron应用？</title>
-        <link>https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html</link>
-        <description>为什么Claude是一个Electron应用？</description>
-        <author>dbreunig</author>
-        <category>hn</category>
-        <pubDate>Sat, 21 Feb 2026 21:28:13 GMT</pubDate>
-        <guid isPermaLink="false">hn-47104973</guid>
+        <title>stan-smith/FossFLOW</title>
+        <link>https://github.com/stan-smith/FossFLOW</link>
+        <description>Sponsor Star stan-smith / FossFLOW Make beautiful isometric infrastructure diagrams | 今日 +74 stars</description>
+        <author>stan-smith</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Feb 2026 06:35:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-stan-smith-fossflow</guid>
       </item>
   </channel>
 </rss>

@@ -69,7 +69,7 @@
   },
   "push": {
     "telegram": {
-      "enabled": false
+      "enabled": true
     },
     "email": {
       "enabled": false,
