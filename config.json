@@ -6,7 +6,7 @@
   },
   "fetch": {
     "maxItemsPerSource": 20,
-    "timeRange": "7d",
+    "timeRange": "1d",
     "summaryStyle": "detailed"
   },
   "sources": {
