@@ -50,7 +50,7 @@ export class RSSService {
 
   constructor() {
     this.parser = new Parser({
-      timeout: 10000,
+      timeout: 30000,
       headers: {
         'User-Agent': 'Mozilla/5.0 (compatible; AI News Agent/1.1)'
       }
