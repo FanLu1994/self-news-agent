@@ -158,16 +158,16 @@ export async function runDigestPipeline(): Promise<void> {
     });
   }
 
+  // 助理风格的推送消息
   const telegramText = [
-    `【${toReadableText(analysis.title)}】`,
+    `🤖 ${toReadableText(analysis.title)}`,
     '',
     toReadableText(analysis.overview),
     '',
-    '重点：',
-    ...analysis.highlights.map((h, idx) => `${idx + 1}. ${toReadableText(h)}`),
+    '⭐ 值得关注:',
+    ...analysis.highlights.slice(0, 6).map((h, idx) => `${idx + 1}. ${toReadableText(h).split('\n')[0]}`),
     '',
-    `Markdown 已生成：${docUrl}`,
-    `RSS 已生成：${config.outputRssPath}`
+    `📄 完整报告: ${docUrl}`
   ].join('\n');
 
   try {
@@ -187,16 +187,16 @@ export async function runDigestPipeline(): Promise<void> {
       apiKey: config.resendApiKey,
       from: config.emailFrom,
       to: config.emailTo,
-      subject: `Self News Digest - ${dailyDate}`,
+      subject: `🤖 每日精选 - ${dailyDate}`,
       text: [
-        `标题: ${toReadableText(analysis.title)}`,
+        `${toReadableText(analysis.title)}`,
         '',
         toReadableText(analysis.overview),
         '',
-        '重点:',
-        ...analysis.highlights.map((item, idx) => `${idx + 1}. ${toReadableText(item)}`),
+        '⭐ 值得关注:',
+        ...analysis.highlights.slice(0, 8).map((item, idx) => `${idx + 1}. ${toReadableText(item)}`),
         '',
-        `完整文档: ${docUrl}`
+        `📄 完整报告: ${docUrl}`
       ].join('\n')
     });
   } catch (error) {

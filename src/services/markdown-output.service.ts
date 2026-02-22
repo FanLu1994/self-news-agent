@@ -27,63 +27,81 @@ export class MarkdownOutputService {
   buildDailyMarkdown(options: WriteDailyMarkdownOptions): string {
     const grouped = groupBySource(options.articles);
 
-    // 构建来源明细部分
-    const sourceSections = Object.entries(grouped).map(([source, items]) => {
-      const lines = items.slice(0, 20).map((item, idx) =>
-        `${idx + 1}. [${item.title}](${item.url})\n   - 核心观点: ${item.summary}\n   - 发布时间: ${formatDateTime(item.publishedAt)}`
-      );
-      return `## ${source}\n\n${lines.join('\n')}`;
-    }).join('\n\n');
-
-    // 构建话题统计
-    const topicSummary = Object.entries(options.topicStats.byTopic)
-      .filter(([, count]) => count > 0)
-      .sort((a, b) => b[1] - a[1])
-      .map(([topic, count]) => `- ${topic}: ${count}`)
-      .join('\n');
-
     // 构建完整内容
     const sections: string[] = [
       `# ${options.analysis.title} - ${options.date}`,
       '',
       `生成时间: ${formatDateTime(options.analysis.generatedAt)}`,
       '',
-      '## 📋 摘要',
-      '',
-      options.analysis.overview,
-      '',
-      '## 🔥 重点内容',
-      '',
-      ...options.analysis.highlights.map((item, index) => `${index + 1}. ${item}`)
     ];
 
-    // 添加话题分析（如果有）
-    if (options.analysis.topicsAnalysis) {
+    // 如果有概览，添加概览
+    if (options.analysis.overview) {
       sections.push(
+        '## 📝 助理简报',
         '',
-        '## 💬 话题分析',
-        '',
-        options.analysis.topicsAnalysis
+        options.analysis.overview,
+        ''
       );
     }
 
-    // 添加来源亮点（如果有）
+    // 添加重点推荐
+    if (options.analysis.highlights.length > 0) {
+      sections.push(
+        '## ⭐ 重点推荐',
+        '',
+        ...options.analysis.highlights.map((item, index) =>
+          typeof item === 'string'
+            ? `${index + 1}. ${item}`
+            : `${index + 1}. ${JSON.stringify(item)}`
+        ),
+        ''
+      );
+    }
+
+    // 添加趋势洞察/深度阅读（如果有）
     if (options.analysis.sourceHighlights) {
       sections.push(
+        '## 💡 洞察与深度',
         '',
-        '## 📰 来源亮点',
-        '',
-        options.analysis.sourceHighlights
+        options.analysis.sourceHighlights,
+        ''
       );
     }
 
+    // 添加话题统计
+    const topicSummary = Object.entries(options.topicStats.byTopic)
+      .filter(([, count]) => count > 0)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 10)
+      .map(([topic, count]) => `- ${topic}: ${count}`)
+      .join('\n');
+
     sections.push(
+      '---',
       '',
-      '## 📊 话题统计',
+      '## 📊 话题分布',
       '',
       topicSummary || '- Other: 0',
-      '',
-      '## 📂 来源明细',
+      ''
+    );
+
+    // 构建来源明细（放在最后，作为参考）
+    const sourceSections = Object.entries(grouped)
+      .filter(([_, items]) => items.length > 0)
+      .sort((a, b) => b[1].length - a[1].length) // 按数量排序
+      .map(([source, items]) => {
+        const lines = items.slice(0, 15).map((item, idx) =>
+          `${idx + 1}. [${item.title}](${item.url})\n` +
+          `   - 摘要: ${item.summary}\n` +
+          `   - 时间: ${formatDateTime(item.publishedAt)}`
+        );
+        return `### ${source} (${items.length}篇)\n\n${lines.join('\n')}`;
+      })
+      .join('\n\n');
+
+    sections.push(
+      '## 📂 完整来源',
       '',
       sourceSections
     );
