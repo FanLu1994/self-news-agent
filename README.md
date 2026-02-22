@@ -1,82 +1,105 @@
 # 每日新闻简报 - 2026-02-22
 
-生成时间: 2026/2/22 14:23:04
+生成时间: 2026/2/22 14:26:51
 
 ## 摘要
 
-近期技术社区动态呈现出以**AI Agent**为核心的生态爆发式增长，同时伴随着底层计算、存储基础设施的深刻反思与革新。在GitHub趋势榜上，**自主AI智能体**项目成为绝对焦点，涵盖渗透测试、软件开发、代码助手等多个垂直领域，显示出AI正从辅助工具向能够执行复杂任务的自主系统演进。技术栈上，TypeScript、Go、Python是构建这些前沿项目的主要语言。HackerNews的讨论则更为多元和批判性：一方面，围绕AI Agent的实现范式（如MCP与CLI之争）、部署方式（端侧与云端）和硬件极限（单卡运行大模型）展开深入探讨；另一方面，对AI泛滥导致的互联网信息质量下降（“黑暗森林”）、数据存储可靠性危机等潜在问题表示担忧。此外，来自个人博客（RSS源）的内容提供了宝贵的行业内部视角，如Cursor设计团队对AI时代设计工作的思考，以及Go语言重大版本更新引发的实际开发问题复盘。整体来看，技术社区既在狂热地推动AI Agent的实用化落地，也在冷静地审视其带来的技术挑战、社会影响及伦理责任。
+本周的资讯呈现出技术深度与人文思考交织的图景。人工智能领域持续火热，但焦点从单纯的模型能力转向了工具集成、硬件优化和伦理反思。**Cursor** 作为明星AI编程工具，其设计哲学和团队管理经验被深度剖析，揭示了AI时代人机协作的新范式。同时，**苹果**和**Taalas**等公司展示了AI在边缘设备（on-device）和专用芯片上运行的趋势，追求更低延迟与更高能效。另一方面，AI的负面影响引发担忧，包括其作为“猎手”加剧互联网“黑暗森林”效应、生成内容污染搜索引擎，以及由此催生的“AI uBlock”屏蔽工具。
+
+硬件与底层技术方面，存在显著的安全警示与创新突破。有文章揭露了**硬盘可能静默欺骗用户而校验和却无法察觉**的严重安全问题。同时，中国**长鑫存储**以低价策略冲击DDR4市场，而**丰田Mirai氢燃料电池车**的巨额贬值则反映了新能源技术路线的市场挑战。在开发工具领域，**Go 1.26** 因模块初始化默认行为的变更引发了一场影响广泛的“降级风波”，凸显了向后兼容性对开发者体验的极端重要性。
+
+此外，来自个人博客（RSS-75）的系列内容提供了宝贵的非技术视角，充满了对中年生活、爱与创造、阅读与思考的深刻反思，与技术世界的快速迭代形成鲜明对比，提醒人们在追求技术进步时勿忘生活本质。
 
 ## 今日重点
 
-1. 1.  **全自主AI安全攻击智能体诞生**：GitHub趋势榜首项目 `vxcontrol/pentagi` 是一个用Go编写的、能够执行复杂渗透测试任务的**全自主AI智能体系统**，单日获星超2100，标志着AI在网络安全攻防领域的应用进入新阶段。
-2. 2.  **AI智能体框架与开发方法论成熟**：`obra/superpowers`（技能框架）和 `cloudflare/agents`（部署平台）等项目获得高关注，表明AI Agent的开发正从零散工具向标准化、工程化的**框架和平台**演进。
-3. 3.  **AI编码助手进入终端与社交平台**：Anthropic推出的 `claude-code` 作为终端内的智能编码工具受追捧，而其衍生的Telegram机器人 `RichardAtCT/claude-code-telegram` 则展示了AI编程助手向**移动化、场景化**发展的趋势。
-4. 4.  **大模型推理硬件极限被突破**：HackerNews上展示的项目 `xaskasdf/ntransformer` 实现了将**Llama 3.1 70B模型在单张RTX 3090显卡上运行**，通过NVMe直连GPU绕过CPU/RAM，是边缘计算和低成本推理的重要探索。
-5. 5.  **苹果布局端侧AI交互智能体**：苹果研究人员开发了**在设备端运行的AI智能体**，可直接与手机应用程序交互为用户执行任务，体现了大厂对隐私保护、低延迟的端侧AI战略的重视。
-6. 6.  **AI对互联网生态的负面影响引发警惕**：文章《互联网正变成“黑暗森林”，而AI是猎人》及视频《我靠AI废话登上谷歌榜首》尖锐指出，AI生成内容（AIGC）泛滥正在污染搜索引擎和公共信息空间，降低信息获取质量与信任度。
-7. 7.  **基础软件与硬件的可靠性危机**：《你的硬盘欺骗了你》一文揭示，即便校验和正常，**现代存储设备仍可能出现静默数据错误**，这对依赖数据完整性的系统和备份策略提出了根本性质疑。
-8. 8.  **Go语言重大版本更新引发工具链冲突**：技术博客详细复盘了Go 1.26发布后，因`go mod init`命令的**向后兼容性设计导致版本意外降级**的问题，反映了主流语言在激进创新与生态稳定之间的平衡挑战。
-9. 9.  **AI时代的设计哲学变革**：Cursor设计负责人在访谈中指出，在AI辅助编程时代，**设计师的角色需从“画按钮”转向定义产品逻辑、用户体验和AI交互流程**，揭示了职业能力的转型方向。
-10. 10. **AI治理与信任框架初现**：《人类信任之根》项目提出了一个**用于智能体问责制的公共领域框架**，强调数字系统必须考虑非人类实体（AI）的行为与责任，是AI伦理治理的前沿思考。
-11. **AI智能体（Agent）**：**热度极高**。涵盖框架、应用、部署、伦理，是绝对核心话题。
-12. **AI编程辅助工具**：**热度高**。以Claude Code为代表，讨论其使用模式、集成方式及影响。
-13. **大模型与推理优化**：**热度中高**。关注模型运行效率、硬件突破及专用芯片（如Taalas）。
-14. **编程语言与工具链**：**热度中**。聚焦Go 1.26新特性及实际使用问题，TypeScript在AI项目中的广泛应用。
-15. **互联网信息生态与AI**：**热度中**。警惕AI生成内容对搜索、内容质量的破坏，讨论应对策略（如AI屏蔽列表）。
+1. 1.  **AI编程工具的人机协作哲学**：Cursor设计负责人Ryo Lu在访谈中阐述，其4人设计团队管理着估值293亿美元的产品，核心在于利用Cursor自身（AI）构建Cursor的“递归飞轮”。他强调最强程序员也只能同时有效管理4个AI Agent，并指出未来设计师若只会画按钮将面临危机。
+2. 2.  **AI代理走向设备端**：苹果研究人员开发出可在设备端运行的AI代理，能代用户与应用程序交互。这体现了AI应用向隐私保护、低延迟和离线可用的方向发展。
+3. 3.  **AI硬件化与性能突破**：有项目展示通过NVMe直连GPU绕过CPU，在单张RTX 3090上运行Llama 3.1 70B模型；同时，Taalas公司技术可将大型语言模型（LLM）“打印”到专用芯片上，旨在实现极致的推理效率。
+4. 4.  **互联网生态的“AI黑暗森林”理论**：有观点认为，互联网因垃圾邮件、AI生成内容、监控和攻击而演变为“黑暗森林”，AI在其中扮演了自动化“猎手”的角色，迫使普通用户更加隐匿。
+5. 5.  **AI内容污染与反制**：有视频内容展示了如何利用AI生成的“胡言乱语”内容在谷歌搜索中排名第一，暴露了搜索引擎排名算法被滥用的风险。作为反制，社区出现了专门屏蔽AI生成内容的“AI uBlock黑名单”项目。
+6. 6.  **硬盘的静默数据欺骗风险**：一篇技术文章揭示了现代硬盘可能存在一种高级故障模式，即向主机报告成功写入数据，但实际上数据并未正确存储或存储在了错误位置，而常规的校验和验证无法发现此问题，对数据完整性构成严重威胁。
+7. 7.  **Go语言重大版本兼容性风波**：Go 1.26发布后，其 `go mod init` 命令的默认行为改变，导致在特定目录名（如“go1.26”）下初始化模块时自动降级到旧版本，造成开发者“装了新版本却写不了新版本代码”的困惑，引发社区对默认行为和向后兼容性的广泛讨论。
+8. 8.  **企业级AI的核心：本体论而非算法**：对Palantir的分析指出，其成功的关键并非前沿AI算法，而是其构建和维护的复杂“本体论”（Ontology）系统，该系统用于对海量异构数据进行统一建模、关联和理解，是AI有效应用的基础。
+9. 9.  **科技巨头的公关与责任**：微软被指在国际刑事法院的邮件安全风波中，试图让发言人承担沟通责任，以修正向英国议会提供的信息，涉及企业问责与透明度问题。
+10. 10. **个人反思与技术生活的平衡**：系列个人博客“最近惦念”表达了中年阶段对生活重心的思考，强调“爱与创造”的核心价值，并反思在和平年代人们面对压力、痛苦和成长时所缺失的韧性，提供了与技术狂热不同的冷静视角。
+11. **人工智能（AI）应用与影响**：热度极高。涉及AI编程工具（Cursor）、AI代理（苹果）、AI硬件（Taalas， NVMe直连）、AI生成内容滥用、AI与互联网生态、AI屏蔽工具等。
+12. **软件开发与工具**：热度高。核心事件是Go 1.26的模块降级风波，涉及向后兼容性、开发者体验。同时MCP（模型上下文协议）与CLI之争、Claude Code使用心法等也属此类。
+13. **硬件与安全**：热度中。包括硬盘数据安全、国产存储芯片市场策略、氢能源汽车市场表现、GPU直接访问技术等。
+14. **企业动态与政策**：热度中。涉及微软公关事件、特朗普关税政策、Palantir技术解析。
+15. **生活哲学与个人成长**：热度中（集中于特定来源）。主题为中年感悟、爱与创造、阅读与思考，是技术资讯中的人文补充。
 
 ## 话题统计
 
-- AI: 25
-- Other: 7
-- Frontend: 2
-- Backend: 2
-- DevOps: 1
-- Data: 1
+- AI: 15
+- Other: 8
+- Frontend: 1
+- Backend: 1
 - Security: 1
 
 ## 来源明细
 
-## GitHub Trending
+## HackerNews
 
-1. [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)
-   - 核心观点: Star vxcontrol / pentagi ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 今日 +2118 stars
-   - 发布时间: 2026/2/22 14:22:22
-2. [obra/superpowers](https://github.com/obra/superpowers)
-   - 核心观点: Sponsor Star obra / superpowers An agentic skills framework & software development methodology that works. | 今日 +772 stars
-   - 发布时间: 2026/2/22 14:22:22
-3. [HandsOnLLM/Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)
-   - 核心观点: Star HandsOnLLM / Hands-On-Large-Language-Models Official code repo for the O'Reilly Book - "Hands-On Large Language Models" | 今日 +355 stars
-   - 发布时间: 2026/2/22 14:22:22
-4. [Stremio/stremio-web](https://github.com/Stremio/stremio-web)
-   - 核心观点: Star Stremio / stremio-web Stremio - Freedom to Stream | 今日 +301 stars
-   - 发布时间: 2026/2/22 14:22:22
-5. [huggingface/skills](https://github.com/huggingface/skills)
-   - 核心观点: huggingface/skills | 今日 +247 stars
-   - 发布时间: 2026/2/22 14:22:22
-6. [anthropics/claude-code](https://github.com/anthropics/claude-code)
-   - 核心观点: Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 今日 +222 stars
-   - 发布时间: 2026/2/22 14:22:22
-7. [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus)
-   - 核心观点: Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +132 stars
-   - 发布时间: 2026/2/22 14:22:22
-8. [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app)
-   - 核心观点: Star hiddify / hiddify-app Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | 今日 +132 stars
-   - 发布时间: 2026/2/22 14:22:22
-9. [RichardAtCT/claude-code-telegram](https://github.com/RichardAtCT/claude-code-telegram)
-   - 核心观点: Star RichardAtCT / claude-code-telegram A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence. | 今日 +109 stars
-   - 发布时间: 2026/2/22 14:22:22
-10. [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW)
-   - 核心观点: Sponsor Star stan-smith / FossFLOW Make beautiful isometric infrastructure diagrams | 今日 +74 stars
-   - 发布时间: 2026/2/22 14:22:22
-11. [cloudflare/agents](https://github.com/cloudflare/agents)
-   - 核心观点: Star cloudflare / agents Build and deploy AI Agents on Cloudflare | 今日 +65 stars
-   - 发布时间: 2026/2/22 14:22:22
-12. [ggml-org/ggml](https://github.com/ggml-org/ggml)
-   - 核心观点: Star ggml-org / ggml Tensor library for machine learning | 今日 +47 stars
-   - 发布时间: 2026/2/22 14:22:22
-13. [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
-   - 核心观点: Star PowerShell / PowerShell PowerShell for every system! | 今日 +13 stars
-   - 发布时间: 2026/2/22 14:22:22
+1. [微软在国际刑事法院邮件风波中让发言人背锅。](https://www.theregister.com/2026/02/18/microsoft_asks_uk_parliament_to_correct_record/)
+   - 核心观点: 微软在国际刑事法院邮件风波中让发言人背锅。
+   - 发布时间: 2026/2/22 13:41:25
+2. [MCPs已死 - CLI将胜出](https://news.ycombinator.com/item?id=47108138)
+   - 核心观点: 就连创建OpenClaw的彼得·斯坦伯格也在莱克斯·弗里德曼的播客中如此表示（https://www.youtube.com/watch?v=YFjfBk8HI5o 约2:38:59处）。MCP的整个前提是……
+   - 发布时间: 2026/2/22 12:24:36
+3. [你的硬盘刚刚欺骗了你——而你的校验和却显示一切正常](https://medium.com/@jingyuzhou/your-disk-just-lied-to-you-and-your-checksums-said-everything-was-fine-40e471f40129)
+   - 核心观点: 你的硬盘刚刚欺骗了你——而你的校验和却显示一切正常
+   - 发布时间: 2026/2/22 10:45:13
+4. [Palantir的秘密武器并非AI——而是本体论。一次开源深度解析。](https://github.com/Leading-AI-IO/palantir-ontology-strategy)
+   - 核心观点: Palantir的秘密武器并非人工智能——而是本体论。一次开源深度解析
+   - 发布时间: 2026/2/22 10:29:06
+5. [互联网正演变为一片黑暗森林——而人工智能则是猎手。](https://opennhp.org/blog/the-internet-is-becoming-a-dark-forest.html)
+   - 核心观点: 互联网正演变为一片黑暗森林——而人工智能是其中的猎手。
+   - 发布时间: 2026/2/22 09:15:38
+6. [苹果研究人员开发出可在设备上运行的AI代理，可代用户与应用交互](https://9to5mac.com/2026/02/20/apple-researchers-develop-on-device-ai-agent-that-interacts-with-apps-for-you/)
+   - 核心观点: 苹果研究人员开发出可在设备上运行的AI代理，可代用户与应用程序交互
+   - 发布时间: 2026/2/22 08:51:23
+7. [多亏了人工智能的胡言乱语，我在谷歌上排名第一 [视频]](https://www.youtube.com/watch?v=6uKZ84zwJI0)
+   - 核心观点: 多亏了人工智能的胡言乱语，我在谷歌上排名第一 [视频]
+   - 发布时间: 2026/2/22 08:46:51
+8. [我如何使用Claude Code：规划与执行的分离](https://boristane.com/blog/how-i-use-claude-code/)
+   - 核心观点: 我如何使用Claude Code：规划与执行的分离
+   - 发布时间: 2026/2/22 08:29:05
+9. [为什么Claude是一个Electron应用？](https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html)
+   - 核心观点: 为什么Claude是一个Electron应用？
+   - 发布时间: 2026/2/22 05:28:13
+10. [展示HN：通过NVMe直连GPU绕过CPU，在单张RTX 3090上运行Llama 3.1 70B模型](https://github.com/xaskasdf/ntransformer)
+   - 核心观点: 大家好，我最近涉足了一些复古游戏领域，并在一些实验过程中遇到了以下问题："是否有可能绕过CPU/内存直接运行Transformer模型，c..."
+   - 发布时间: 2026/2/22 04:57:30
+11. [Taalas如何将LLM“打印”到芯片上？](https://www.anuragk.com/blog/posts/Taalas.html)
+   - 核心观点: Taalas如何将LLM“打印”到芯片上？
+   - 发布时间: 2026/2/22 03:07:20
+12. [丰田Mirai氢燃料电池车贬值情况：一年内价值缩水65%](https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/)
+   - 核心观点: 丰田Mirai氢燃料电池车贬值情况：一年内价值缩水65%
+   - 发布时间: 2026/2/22 02:09:24
+13. [最高法院裁决次日 特朗普将关税提高至15%](https://www.bbc.co.uk/news/articles/cn8z48xwqn3o)
+   - 核心观点: 最高法院裁决次日 特朗普将关税提高至15%
+   - 发布时间: 2026/2/22 00:24:28
+14. [长鑫存储一直以大约市场主流价格的一半提供DDR4芯片。](https://www.koreaherald.com/article/10679206)
+   - 核心观点: 长鑫存储一直以大约市场主流价格的一半提供DDR4芯片。
+   - 发布时间: 2026/2/21 22:32:16
+15. [人类信任之根——代理责任制的公共领域框架](https://humanrootoftrust.org/)
+   - 核心观点: 我的职业生涯始终聚焦于身份、信任与分布式系统的交叉领域。我不断思考的问题是：我们构建的每一个数字系统都默认另一端连接着人类。
+   - 发布时间: 2026/2/21 22:01:45
+16. [克里斯·拉特纳：Claude C 编译器](https://www.modular.com/blog/the-claude-c-compiler-what-it-reveals-about-the-future-of-software)
+   - 核心观点: 克里斯·拉特纳：Claude C 编译器
+   - 发布时间: 2026/2/21 21:05:42
+17. [zclaw：个人AI助手，体积不足888 KB，运行于ESP32平台](https://github.com/tnm/zclaw)
+   - 核心观点: zclaw：个人AI助手，体积小于888 KB，运行于ESP32平台
+   - 发布时间: 2026/2/21 20:37:52
+18. [即时AI响应](https://chatjimmy.ai/)
+   - 核心观点: 即时AI响应
+   - 发布时间: 2026/2/21 17:42:04
+19. [大型语言模型推理失败](https://arxiv.org/abs/2602.06176)
+   - 核心观点: 大型语言模型推理失败
+   - 发布时间: 2026/2/21 16:56:00
+20. [AI uBlock 黑名单](https://github.com/alvi-se/ai-ublock-blacklist)
+   - 核心观点: AI uBlock 黑名单
+   - 发布时间: 2026/2/21 16:10:49
 
 ## RSS-75
 
@@ -126,69 +149,6 @@ Feb.16
 狻猊 suan ni
 2026春晚倒计时，格力电器、蒙牛、问界、娃哈哈、汾酒、格力空调、追觅x2、红花郎、豆包大模型和...
    - 发布时间: 2026/2/22 13:07:27
-
-## HackerNews
-
-1. [MCPs are dead - CLIs won](https://news.ycombinator.com/item?id=47108138)
-   - 核心观点: Even Peter Steinberger who created OpenClaw said as much on Lex Fridman&#x27;s podcast (https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=YFjfBk8HI5o around 2:38:59).The whole premise of MCPs was that...
-   - 发布时间: 2026/2/22 12:24:36
-2. [Your Disk Just Lied to You – and Your Checksums Said Everything Was Fine](https://medium.com/@jingyuzhou/your-disk-just-lied-to-you-and-your-checksums-said-everything-was-fine-40e471f40129)
-   - 核心观点: Your Disk Just Lied to You – and Your Checksums Said Everything Was Fine
-   - 发布时间: 2026/2/22 10:45:13
-3. [Palantir's secret weapon isn't AI – it's Ontology. An open-source deep dive](https://github.com/Leading-AI-IO/palantir-ontology-strategy)
-   - 核心观点: Palantir's secret weapon isn't AI – it's Ontology. An open-source deep dive
-   - 发布时间: 2026/2/22 10:29:06
-4. [The Internet Is Becoming a Dark Forest – and AI Is the Hunter](https://opennhp.org/blog/the-internet-is-becoming-a-dark-forest.html)
-   - 核心观点: The Internet Is Becoming a Dark Forest – and AI Is the Hunter
-   - 发布时间: 2026/2/22 09:15:38
-5. [Apple researchers develop on-device AI agent that interacts with apps for you](https://9to5mac.com/2026/02/20/apple-researchers-develop-on-device-ai-agent-that-interacts-with-apps-for-you/)
-   - 核心观点: Apple researchers develop on-device AI agent that interacts with apps for you
-   - 发布时间: 2026/2/22 08:51:23
-6. [I'm #1 on Google thanks to AI bullshit [video]](https://www.youtube.com/watch?v=6uKZ84zwJI0)
-   - 核心观点: I'm #1 on Google thanks to AI bullshit [video]
-   - 发布时间: 2026/2/22 08:46:51
-7. [How I use Claude Code: Separation of planning and execution](https://boristane.com/blog/how-i-use-claude-code/)
-   - 核心观点: How I use Claude Code: Separation of planning and execution
-   - 发布时间: 2026/2/22 08:29:05
-8. [Why is Claude an Electron app?](https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html)
-   - 核心观点: Why is Claude an Electron app?
-   - 发布时间: 2026/2/22 05:28:13
-9. [Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU](https://github.com/xaskasdf/ntransformer)
-   - 核心观点: Hi everyone, I&#x27;m kinda involved in some retrogaming and with some experiments I ran into the following question: &quot;It would be possible to run transformer models bypassing the cpu&#x2F;ram, c...
-   - 发布时间: 2026/2/22 04:57:30
-10. [How Taalas "prints" LLM onto a chip?](https://www.anuragk.com/blog/posts/Taalas.html)
-   - 核心观点: How Taalas "prints" LLM onto a chip?
-   - 发布时间: 2026/2/22 03:07:20
-11. [Toyota Mirai hydrogen car depreciation: 65% value loss in a year](https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/)
-   - 核心观点: Toyota Mirai hydrogen car depreciation: 65% value loss in a year
-   - 发布时间: 2026/2/22 02:09:24
-12. [Trump raises tariffs to 15% day after Supreme Court ruling](https://www.bbc.co.uk/news/articles/cn8z48xwqn3o)
-   - 核心观点: Trump raises tariffs to 15% day after Supreme Court ruling
-   - 发布时间: 2026/2/22 00:24:28
-13. [CXMT has been offering DDR4 chips at about half the prevailing market rate](https://www.koreaherald.com/article/10679206)
-   - 核心观点: CXMT has been offering DDR4 chips at about half the prevailing market rate
-   - 发布时间: 2026/2/21 22:32:16
-14. [The Human Root of Trust – public domain framework for agent accountability](https://humanrootoftrust.org/)
-   - 核心观点: I&#x27;ve spent my career at the intersection of identity, trust, and distributed systems. The thing I keep thinking about: every digital system we&#x27;ve built assumes a human is on the other end. B...
-   - 发布时间: 2026/2/21 22:01:45
-15. [Chris Lattner: Claude C Compiler](https://www.modular.com/blog/the-claude-c-compiler-what-it-reveals-about-the-future-of-software)
-   - 核心观点: Chris Lattner: Claude C Compiler
-   - 发布时间: 2026/2/21 21:05:42
-16. [zclaw: personal AI assistant in under 888 KB, running on an ESP32](https://github.com/tnm/zclaw)
-   - 核心观点: zclaw: personal AI assistant in under 888 KB, running on an ESP32
-   - 发布时间: 2026/2/21 20:37:52
-17. [Instant AI Response](https://chatjimmy.ai/)
-   - 核心观点: Instant AI Response
-   - 发布时间: 2026/2/21 17:42:04
-18. [Large Language Model Reasoning Failures](https://arxiv.org/abs/2602.06176)
-   - 核心观点: Large Language Model Reasoning Failures
-   - 发布时间: 2026/2/21 16:56:00
-19. [AI uBlock Blacklist](https://github.com/alvi-se/ai-ublock-blacklist)
-   - 核心观点: AI uBlock Blacklist
-   - 发布时间: 2026/2/21 16:10:49
-20. [The UK tourist with a valid visa detained by ICE for six weeks](https://www.theguardian.com/us-news/2026/feb/21/karen-newton-valid-visa-detained-ice)
-   - 核心观点: The UK tourist with a valid visa detained by ICE for six weeks
-   - 发布时间: 2026/2/21 14:28:22
 
 ## RSS-47
 

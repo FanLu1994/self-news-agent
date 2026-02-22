@@ -10,6 +10,7 @@
  */
 
 import type { HNItem, NewsArticle, TimeRange } from '../types/news.types.js';
+import { translationService } from './translation.service.js';
 
 /**
  * HackerNews API 基础 URL
@@ -245,8 +246,9 @@ export class HackerNewsService {
   async fetchAINews(options: {
     limit: number;
     timeRange: TimeRange;
+    translate?: boolean;  // 是否自动翻译
   }): Promise<NewsArticle[]> {
-    const { limit, timeRange } = options;
+    const { limit, timeRange, translate = true } = options;
 
     // 获取更多 IDs 以便过滤后仍有足够的文章
     const fetchLimit = Math.min(limit * 5, 200);
@@ -274,10 +276,17 @@ export class HackerNewsService {
     filteredItems.sort((a, b) => (b.score || 0) - (a.score || 0));
 
     // 转换为 NewsArticle 并限制数量
-    const articles = filteredItems
+    let articles = filteredItems
       .slice(0, limit)
       .map(item => this.convertToArticle(item))
       .filter((article): article is NewsArticle => article !== null);
+
+    // 自动翻译
+    if (translate && articles.length > 0) {
+      console.log(`  🌐 正在翻译 ${articles.length} 篇 HN 文章...`);
+      articles = await translationService.translateArticles(articles, 'zh');
+      console.log(`  ✅ 翻译完成`);
+    }
 
     return articles;
   }

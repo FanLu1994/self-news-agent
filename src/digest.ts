@@ -49,7 +49,8 @@ export async function runDigestPipeline(): Promise<void> {
   const [hnArticles, rssArticles, twitterArticles, githubArticles, ve2xArticles, linuxDoArticles, redditArticles, productHuntArticles] = await Promise.all([
     hackerNewsService.fetchAINews({
       limit: config.maxItemsPerSource,
-      timeRange: config.timeRange
+      timeRange: config.timeRange,
+      translate: true  // 自动翻译 HN 文章
     }),
     rssService.fetchNews({
       feeds: config.rssFeeds,
