@@ -151,7 +151,6 @@ npm run telegram
 
 **GitHub Trending（可选）**：
 - `GITHUB_TOKEN`（提高其他 GitHub API 调用的速率限制）
-- `GITHUB_TRENDING_LANGUAGES`
 
 **Telegram 推送（推荐）**：
 - `TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`

@@ -54,7 +54,6 @@ jobs:
           INCLUDE_REDDIT: ${{ secrets.INCLUDE_REDDIT }}
           INCLUDE_PRODUCT_HUNT: ${{ secrets.INCLUDE_PRODUCT_HUNT }}
           INCLUDE_TWITTER: ${{ secrets.INCLUDE_TWITTER }}
-          GITHUB_TRENDING_LANGUAGES: ${{ secrets.GITHUB_TRENDING_LANGUAGES }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
