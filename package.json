@@ -5,13 +5,9 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "start": "tsx src/index.ts",
-    "start:telegram": "tsx src/index.ts --telegram",
-    "start:digest": "tsx src/index.ts --digest",
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "example:basic": "tsx examples/basic-usage.ts",
-    "example:advanced": "tsx examples/advanced-usage.ts"
+    "start": "tsx src/index.ts --digest",
+    "telegram": "tsx src/index.ts --telegram",
+    "build": "tsc"
   },
   "keywords": [
     "ai",

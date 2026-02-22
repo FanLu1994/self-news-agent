@@ -29,11 +29,13 @@ jobs:
 
       - name: Run digest pipeline
         env:
-          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          # LLM Configuration (DeepSeek by default)
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
           LLM_CANDIDATES: ${{ secrets.LLM_CANDIDATES }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GOOGLE_GENERATIVE_AI_API_KEY }}
           NEWS_KEYWORDS: ${{ secrets.NEWS_KEYWORDS }}
@@ -65,7 +67,7 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        run: npm run start:digest
+        run: npm start
 
       - name: Commit and push generated files
         run: |

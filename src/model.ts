@@ -22,11 +22,29 @@ function parseCandidates(raw: string | undefined): ModelConfig[] {
     .filter(item => item.provider && item.model);
 }
 
+/**
+ * 为 DeepSeek 设置自定义 baseUrl
+ */
+function applyDeepSeekBaseUrl(model: any): any {
+  // 如果使用 openai provider 且模型是 deepseek-chat，设置 DeepSeek API 的 baseUrl
+  if (model?.id === 'deepseek-chat' || model?.id?.startsWith('deepseek-')) {
+    const customBaseUrl = process.env.OPENAI_BASE_URL || 'https://api.deepseek.com';
+    // 创建一个新的模型对象，覆盖 baseUrl
+    return { ...model, baseUrl: customBaseUrl };
+  }
+  return model;
+}
+
 export function getConfiguredModel(): { model: ReturnType<typeof getModel>; config: ModelConfig } {
-  const provider = process.env.LLM_PROVIDER || 'zai';
-  const modelName = process.env.LLM_MODEL || 'glm-4.7';
+  const provider = process.env.LLM_PROVIDER || 'openai';
+  const modelName = process.env.LLM_MODEL || 'deepseek-chat';
+
+  // 获取模型并应用 DeepSeek baseUrl
+  let model = getModel(provider, modelName);
+  model = applyDeepSeekBaseUrl(model);
+
   return {
-    model: getModel(provider, modelName),
+    model,
     config: { provider, model: modelName }
   };
 }
@@ -36,6 +54,7 @@ export function getModelCandidates(): ModelConfig[] {
   if (envCandidates.length > 0) return envCandidates;
 
   return [
+    { provider: 'openai', model: 'deepseek-chat' },
     { provider: 'zai', model: 'glm-4.7' },
     { provider: 'openai', model: 'gpt-4o' },
     { provider: 'anthropic', model: 'claude-sonnet-4-20250514' },
@@ -47,15 +66,17 @@ export async function completeWithFallback(context: Context): Promise<{
   response: Awaited<ReturnType<typeof complete>>;
   config: ModelConfig;
 }> {
-  const primary = getConfiguredModel().config;
-  const candidates = [primary, ...getModelCandidates().filter(item =>
-    !(item.provider === primary.provider && item.model === primary.model)
+  const primary = getConfiguredModel();
+  const candidates = [primary.config, ...getModelCandidates().filter(item =>
+    !(item.provider === primary.config.provider && item.model === primary.config.model)
   )];
 
   let lastError: unknown;
   for (const candidate of candidates) {
     try {
-      const response = await complete(getModel(candidate.provider, candidate.model), context);
+      let model = getModel(candidate.provider, candidate.model);
+      model = applyDeepSeekBaseUrl(model);
+      const response = await complete(model, context);
       return { response, config: candidate };
     } catch (error) {
       lastError = error;

@@ -1,6 +1,6 @@
 /**
  * HackerNews API 服务
- * 
+ *
  * 教学要点：
  * 1. HTTP API 调用封装
  * 2. 异步数据获取
@@ -23,34 +23,82 @@ const AI_KEYWORDS = [
   // 通用 AI
   'ai', 'artificial intelligence', 'machine learning', 'ml', 'deep learning',
   'neural network', 'transformer', 'llm', 'large language model',
-  
+
   // 模型和技术
   'gpt', 'chatgpt', 'claude', 'gemini', 'llama', 'mistral', 'palm',
   'bert', 'dalle', 'midjourney', 'stable diffusion', 'diffusion model',
-  
+
   // NLP
   'nlp', 'natural language processing', 'text generation', 'sentiment analysis',
   'translation', 'embedding', 'tokenization',
-  
+
   // CV
   'computer vision', 'cv', 'image recognition', 'object detection',
   'face recognition', 'ocr', 'image generation',
-  
+
   // ML 技术
   'reinforcement learning', 'supervised learning', 'unsupervised learning',
   'transfer learning', 'fine-tuning', 'rag', 'retrieval augmented',
-  
+
   // 框架和工具
   'pytorch', 'tensorflow', 'huggingface', 'langchain', 'openai',
   'anthropic', 'google ai', 'deepmind', 'openrouter',
-  
+
   // 机器人和自动化
   'robotics', 'autonomous', 'self-driving', 'automation',
-  
+
   // 中文关键词
   '人工智能', '机器学习', '深度学习', '神经网络', '大模型',
   '自然语言处理', '计算机视觉', '智能体', 'agent'
 ];
+
+/**
+ * 带重试的 fetch
+ */
+async function fetchWithRetry(
+  url: string,
+  options: RequestInit = {},
+  maxRetries: number = 3
+): Promise<Response> {
+  let lastError: Error | undefined;
+
+  for (let attempt = 0; attempt < maxRetries; attempt++) {
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 10000); // 10秒超时
+
+      const response = await fetch(url, {
+        ...options,
+        signal: controller.signal
+      });
+
+      clearTimeout(timeoutId);
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      return response;
+    } catch (error) {
+      lastError = error as Error;
+      // 如果是最后一次尝试，或者错误不是网络相关，直接抛出
+      if (attempt === maxRetries - 1) {
+        throw lastError;
+      }
+      // 等待一段时间后重试（指数退避）
+      await sleep(Math.pow(2, attempt) * 1000);
+    }
+  }
+
+  throw lastError || new Error('Fetch failed after retries');
+}
+
+/**
+ * 延迟函数
+ */
+function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 /**
  * HackerNews 服务类
@@ -61,10 +109,7 @@ export class HackerNewsService {
    */
   async fetchTopStories(limit: number = 50): Promise<number[]> {
     try {
-      const response = await fetch(`${HN_API_BASE}/topstories.json`);
-      if (!response.ok) {
-        throw new Error(`HN API error: ${response.status}`);
-      }
+      const response = await fetchWithRetry(`${HN_API_BASE}/topstories.json`);
       const ids: number[] = await response.json();
       return ids.slice(0, limit);
     } catch (error) {
@@ -78,10 +123,7 @@ export class HackerNewsService {
    */
   async fetchBestStories(limit: number = 50): Promise<number[]> {
     try {
-      const response = await fetch(`${HN_API_BASE}/beststories.json`);
-      if (!response.ok) {
-        throw new Error(`HN API error: ${response.status}`);
-      }
+      const response = await fetchWithRetry(`${HN_API_BASE}/beststories.json`);
       const ids: number[] = await response.json();
       return ids.slice(0, limit);
     } catch (error) {
@@ -95,25 +137,41 @@ export class HackerNewsService {
    */
   async fetchItem(id: number): Promise<HNItem | null> {
     try {
-      const response = await fetch(`${HN_API_BASE}/item/${id}.json`);
-      if (!response.ok) {
-        return null;
-      }
+      const response = await fetchWithRetry(`${HN_API_BASE}/item/${id}.json`);
       const item: HNItem = await response.json();
       return item;
     } catch (error) {
-      console.error(`Error fetching HN item ${id}:`, error);
+      // 静默失败，不影响其他 items
       return null;
     }
   }
 
   /**
-   * 批量获取 Items 详情
+   * 批量获取 Items 详情（使用 allSettled 避免单个失败影响整体）
    */
   async fetchItems(ids: number[]): Promise<HNItem[]> {
-    const promises = ids.map(id => this.fetchItem(id));
-    const items = await Promise.all(promises);
-    return items.filter((item): item is HNItem => item !== null);
+    // 分批处理，避免过多并发请求
+    const batchSize = 20;
+    const results: HNItem[] = [];
+
+    for (let i = 0; i < ids.length; i += batchSize) {
+      const batch = ids.slice(i, i + batchSize);
+      const promises = batch.map(id => this.fetchItem(id));
+      const settled = await Promise.allSettled(promises);
+
+      for (const result of settled) {
+        if (result.status === 'fulfilled' && result.value !== null) {
+          results.push(result.value);
+        }
+      }
+
+      // 批次之间稍作延迟，避免请求过快
+      if (i + batchSize < ids.length) {
+        await sleep(100);
+      }
+    }
+
+    return results;
   }
 
   /**
@@ -126,7 +184,7 @@ export class HackerNewsService {
     ].join(' ');
 
     // 检查是否包含任何 AI 关键词
-    return AI_KEYWORDS.some(keyword => 
+    return AI_KEYWORDS.some(keyword =>
       searchText.includes(keyword.toLowerCase())
     );
   }
@@ -157,7 +215,7 @@ export class HackerNewsService {
     }
 
     // 生成摘要（从标题或文本）
-    const summary = item.text 
+    const summary = item.text
       ? item.text.substring(0, 200).replace(/<[^>]*>/g, '') + '...'
       : item.title;
 
@@ -180,7 +238,7 @@ export class HackerNewsService {
 
   /**
    * 获取 AI 相关新闻
-   * 
+   *
    * @param options 获取选项
    * @returns AI 相关的新闻文章列表
    */
@@ -206,7 +264,7 @@ export class HackerNewsService {
     const items = await this.fetchItems(allIds);
 
     // 过滤：AI 相关 + 时间范围 + 是 story 类型
-    const filteredItems = items.filter(item => 
+    const filteredItems = items.filter(item =>
       item.type === 'story' &&
       this.isAIRelated(item) &&
       this.isWithinTimeRange(item, timeRange)

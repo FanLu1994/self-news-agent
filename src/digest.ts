@@ -183,9 +183,8 @@ export async function runDigestPipeline(): Promise<void> {
       readmePath: config.readmePath,
       date: dailyDate,
       analysis,
-      docPath: dailyDocPath.replace(/\\/g, '/'),
-      todayTopicStats,
-      trend
+      articles: allArticles,
+      topicStats: todayTopicStats
     });
   }
 

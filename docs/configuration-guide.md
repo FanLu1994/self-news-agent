@@ -6,7 +6,7 @@
 
 - GitHub 仓库已创建并可推送
 - Node.js 20+
-- 可用的大模型 API Key（如 ZAI/OpenAI/Anthropic/Google 之一）
+- 可用的大模型 API Key（推荐 DeepSeek，免费或低成本）
 
 ## 2. 本地初始化
 
@@ -25,15 +25,23 @@ cp .env.example .env
 3. 至少配置以下字段（本地运行必需）
 
 ```env
-ZAI_API_KEY=你的key
-LLM_PROVIDER=zai
-LLM_MODEL=glm-4.7
+# DeepSeek API（默认，推荐）
+OPENAI_API_KEY=sk-your-deepseek-api-key
+OPENAI_BASE_URL=https://api.deepseek.com
+LLM_PROVIDER=openai
+LLM_MODEL=deepseek-chat
+
+# 或使用其他模型（可选）
+# ZAI_API_KEY=你的key
+# LLM_PROVIDER=zai
+# LLM_MODEL=glm-4.7
 ```
 
 4. 首次手动执行
 
+**工作流模式：**
 ```bash
-npm run start:digest
+npm start
 ```
 
 执行成功后，会生成或更新：
@@ -41,7 +49,14 @@ npm run start:digest
 - `docs/daily/YYYY-MM-DD.md`
 - `data/topic-stats-history.json`
 - `output/news-digest.xml`
-- `README.md`（自动更新最新摘要与趋势区块）
+- `README.md`（自动更新为最新新闻内容）
+
+**Telegram 对话模式（可选）：**
+```bash
+npm run telegram
+```
+
+启动后可通过 Bot 随时询问新闻问题，需配置 `TELEGRAM_BOT_TOKEN` 和 `TELEGRAM_CHAT_ID`。
 
 ## 3. 功能开关配置
 
@@ -54,7 +69,7 @@ npm run start:digest
   - `INCLUDE_PRODUCT_HUNT=true`
   - `INCLUDE_GITHUB_TRENDING=true`
   - `GITHUB_TRENDING_LANGUAGES=typescript,python,rust,go`（可选，逗号分隔）
-  - `GITHUB_TOKEN=`（可选，建议配置，用于提升 GitHub API 回退请求的速率限制）
+  - `GITHUB_TOKEN=ghp_xxx`（**强烈建议配置**，GitHub Trending 使用 API，无 token 时速率限制仅 60 次/小时）
   - `INCLUDE_TWITTER=false`（启用时需配置 `X_BEARER_TOKEN`）
 - 内容过滤
   - `NEWS_KEYWORDS=` 留空表示不过滤
@@ -64,7 +79,7 @@ npm run start:digest
   - `OUTPUT_DAILY_DIR=docs/daily`
   - `TOPIC_STATS_PATH=data/topic-stats-history.json`
   - `OUTPUT_RSS_PATH=output/news-digest.xml`
-- 推送
+- 推送（默认启用 Telegram）
   - Telegram：`TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`
   - 邮件（Resend）：`EMAIL_ENABLED=true`、`RESEND_API_KEY`、`EMAIL_FROM`、`EMAIL_TO`
 
@@ -106,8 +121,9 @@ npm run start:digest
 - 开关：`INCLUDE_GITHUB_TRENDING`、`INCLUDE_VE2X`、`INCLUDE_LINUX_DO`、`INCLUDE_REDDIT`、`INCLUDE_PRODUCT_HUNT`、`INCLUDE_TWITTER`
 - GitHub Trending：`GITHUB_TRENDING_LANGUAGES`、`GITHUB_TOKEN`
 - X：`X_BEARER_TOKEN`、`X_KEYWORDS`
-- Telegram：`TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`
-- Email：`EMAIL_ENABLED`、`RESEND_API_KEY`、`EMAIL_FROM`、`EMAIL_TO`
+- 推送（Telegram 已默认支持）：
+  - `TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`
+  - Email（可选）：`EMAIL_ENABLED`、`RESEND_API_KEY`、`EMAIL_FROM`、`EMAIL_TO`
 
 ## 5. 手动验证流程
 
@@ -138,10 +154,10 @@ npm run start:digest
 - 邮件未发送
   - 检查 `EMAIL_ENABLED=true` 且 Resend 三项参数齐全
 - README 未更新
-  - 确认 `UPDATE_README=true`，且 README 中保留 marker 区块
+  - 确认 `UPDATE_README=true`
 
 ## 7. 推荐上线顺序
 
-1. 本地跑通 `npm run start:digest`  
-2. 配置 Secrets 并手动触发一次 Actions  
-3. 观察 1-2 天定时结果后，再开启邮件/Telegram 推送
+1. 本地跑通 `npm start`
+2. 配置 Secrets（包含 Telegram 推送配置）并手动触发一次 Actions
+3. 观察 1-2 天定时结果后，按需开启邮件推送
