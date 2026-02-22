@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>AI Agent与代码工具成热点 (2026/2/22)</title>
+    <title>AI Agent与代码生成工具成焦点 (2026/2/22)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今日GitHub Trending与HackerNews重点关注AI Agent与代码工具的发展。谷歌Gemini CLI、Cloudflare Agents及Databricks AI Dev Kit等Agent工具热度高涨，显示开发者对自动化与智能交互的需求。同时，PostHog集成AI辅助调试，GitNexus提供代码知识图谱，Apple研究设备端Agent。代码大模型评测与AI信任框架也成讨论焦点，行业正从模型能力向工具整合与实战应用深化。</description>
+    <description>本期新闻数据显示，AI Agent在代码开发和系统交互领域的应用显著加速。GitHub趋势中，全自动渗透测试系统Pentagi和Anthropic的Claude Code终端工具备受关注，同时Cloudflare和Apple也在积极推进Agent部署与端侧交互。学术界与业界则关注代码模型评测（Code2Bench）、底层芯片化（Taalas）及AI信任框架，显示出技术向垂直化和安全化发展的趋势。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Feb 2026 05:37:08 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 05:40:27 GMT</lastBuildDate>
     <item>
-        <title>AI Agent与代码工具成热点</title>
+        <title>AI Agent与代码生成工具成焦点</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今日GitHub Trending与HackerNews重点关注AI Agent与代码工具的发展。谷歌Gemini CLI、Cloudflare Agents及Databricks AI Dev Kit等Agent工具热度高涨，显示开发者对自动化与智能交互的需求。同时，PostHog集成AI辅助调试，GitNexus提供代码知识图谱，Apple研究设备端Agent。代码大模型评测与AI信任框架也成讨论焦点，行业正从模型能力向工具整合与实战应用深化。</description>
-        <pubDate>Sun, 22 Feb 2026 05:37:08 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-22T05:37:03.351Z</guid>
+        <description>本期新闻数据显示，AI Agent在代码开发和系统交互领域的应用显著加速。GitHub趋势中，全自动渗透测试系统Pentagi和Anthropic的Claude Code终端工具备受关注，同时Cloudflare和Apple也在积极推进Agent部署与端侧交互。学术界与业界则关注代码模型评测（Code2Bench）、底层芯片化（Taalas）及AI信任框架，显示出技术向垂直化和安全化发展的趋势。</description>
+        <pubDate>Sun, 22 Feb 2026 05:40:27 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-22T05:40:05.247Z</guid>
       </item>
     <item>
-        <title>PostHog/posthog</title>
-        <link>https://github.com/PostHog/posthog</link>
-        <description>Star PostHog / posthog 🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack. | 今日 +317 stars</description>
-        <author>PostHog</author>
+        <title>vxcontrol/pentagi</title>
+        <link>https://github.com/vxcontrol/pentagi</link>
+        <description>Star vxcontrol / pentagi ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 今日 +2118 stars</description>
+        <author>vxcontrol</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-posthog-posthog</guid>
+        <pubDate>Sun, 22 Feb 2026 05:39:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vxcontrol-pentagi</guid>
       </item>
 <item>
-        <title>google-research/timesfm</title>
-        <link>https://github.com/google-research/timesfm</link>
-        <description>Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | 今日 +306 stars</description>
-        <author>google-research</author>
+        <title>obra/superpowers</title>
+        <link>https://github.com/obra/superpowers</link>
+        <description>Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works. | 今日 +772 stars</description>
+        <author>obra</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-google-research-timesfm</guid>
+        <pubDate>Sun, 22 Feb 2026 05:39:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-obra-superpowers</guid>
       </item>
 <item>
-        <title>google-gemini/gemini-cli</title>
-        <link>https://github.com/google-gemini/gemini-cli</link>
-        <description>Star google-gemini / gemini-cli An open-source AI agent that brings the power of Gemini directly into your terminal. | 今日 +140 stars</description>
-        <author>google-gemini</author>
+        <title>HandsOnLLM/Hands-On-Large-Language-Models</title>
+        <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
+        <description>Star HandsOnLLM / Hands-On-Large-Language-Models Official code repo for the O&apos;Reilly Book - &quot;Hands-On Large Language Models&quot; | 今日 +355 stars</description>
+        <author>HandsOnLLM</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-google-gemini-gemini-cli</guid>
+        <pubDate>Sun, 22 Feb 2026 05:39:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-handsonllm-hands-on-large-language-models</guid>
       </item>
 <item>
-        <title>usestrix/strix</title>
-        <link>https://github.com/usestrix/strix</link>
-        <description>Star usestrix / strix Open-source AI hackers to find and fix your app’s vulnerabilities. | 今日 +137 stars</description>
-        <author>usestrix</author>
+        <title>anthropics/claude-code</title>
+        <link>https://github.com/anthropics/claude-code</link>
+        <description>Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 今日 +222 stars</description>
+        <author>anthropics</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-usestrix-strix</guid>
+        <pubDate>Sun, 22 Feb 2026 05:39:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-anthropics-claude-code</guid>
       </item>
 <item>
         <title>abhigyanpatwari/GitNexus</title>
@@ -55,17 +55,8 @@
         <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +132 stars</description>
         <author>abhigyanpatwari</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 05:39:48 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-abhigyanpatwari-gitnexus</guid>
-      </item>
-<item>
-        <title>clash-verge-rev/clash-verge-rev</title>
-        <link>https://github.com/clash-verge-rev/clash-verge-rev</link>
-        <description>Sponsor Star clash-verge-rev / clash-verge-rev A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience | 今日 +129 stars</description>
-        <author>clash-verge-rev</author>
-        <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-clash-verge-rev-clash-verge-rev</guid>
       </item>
 <item>
         <title>RichardAtCT/claude-code-telegram</title>
@@ -73,35 +64,44 @@
         <description>Star RichardAtCT / claude-code-telegram A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence. | 今日 +109 stars</description>
         <author>RichardAtCT</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 05:39:48 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-richardatct-claude-code-telegram</guid>
       </item>
 <item>
-        <title>databricks-solutions/ai-dev-kit</title>
-        <link>https://github.com/databricks-solutions/ai-dev-kit</link>
-        <description>Star databricks-solutions / ai-dev-kit Databricks Toolkit for Coding Agents provided by Field Engineering | 今日 +108 stars</description>
-        <author>databricks-solutions</author>
+        <title>cloudflare/agents</title>
+        <link>https://github.com/cloudflare/agents</link>
+        <description>Star cloudflare / agents Build and deploy AI Agents on Cloudflare | 今日 +65 stars</description>
+        <author>cloudflare</author>
         <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-databricks-solutions-ai-dev-kit</guid>
+        <pubDate>Sun, 22 Feb 2026 05:39:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-cloudflare-agents</guid>
       </item>
 <item>
-        <title>block/goose</title>
-        <link>https://github.com/block/goose</link>
-        <description>Star block / goose an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | 今日 +89 stars</description>
-        <author>block</author>
-        <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-block-goose</guid>
+        <title>Your Disk Just Lied to You – and Your Checksums Said Everything Was Fine</title>
+        <link>https://medium.com/@jingyuzhou/your-disk-just-lied-to-you-and-your-checksums-said-everything-was-fine-40e471f40129</link>
+        <description>Your Disk Just Lied to You – and Your Checksums Said Everything Was Fine</description>
+        <author>tanelpoder</author>
+        <category>hn</category>
+        <pubDate>Sun, 22 Feb 2026 02:45:13 GMT</pubDate>
+        <guid isPermaLink="false">hn-47107601</guid>
       </item>
 <item>
-        <title>deuxfleurs-org/garage</title>
-        <link>https://github.com/deuxfleurs-org/garage</link>
-        <description>Star deuxfleurs-org / garage (Mirror) S3-compatible object store for small self-hosted geo-distributed deployments. Main repo: https://git.deuxfleurs.fr/Deuxfleurs/garage | 今日 +82 stars</description>
-        <author>deuxfleurs-org</author>
-        <category>github</category>
-        <pubDate>Sun, 22 Feb 2026 05:37:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-deuxfleurs-org-garage</guid>
+        <title>Palantir&apos;s secret weapon isn&apos;t AI – it&apos;s Ontology. An open-source deep dive</title>
+        <link>https://github.com/Leading-AI-IO/palantir-ontology-strategy</link>
+        <description>Palantir&apos;s secret weapon isn&apos;t AI – it&apos;s Ontology. An open-source deep dive</description>
+        <author>leading-AI</author>
+        <category>hn</category>
+        <pubDate>Sun, 22 Feb 2026 02:29:06 GMT</pubDate>
+        <guid isPermaLink="false">hn-47107512</guid>
+      </item>
+<item>
+        <title>The Internet Is Becoming a Dark Forest – and AI Is the Hunter</title>
+        <link>https://opennhp.org/blog/the-internet-is-becoming-a-dark-forest.html</link>
+        <description>The Internet Is Becoming a Dark Forest – and AI Is the Hunter</description>
+        <author>windcbf</author>
+        <category>hn</category>
+        <pubDate>Sun, 22 Feb 2026 01:15:38 GMT</pubDate>
+        <guid isPermaLink="false">hn-47107039</guid>
       </item>
   </channel>
 </rss>
