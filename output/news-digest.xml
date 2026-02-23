@@ -3,33 +3,15 @@
   <channel>
     <title>6-8 件事 (2026/2/23)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈挺热闹的，尤其是AI和开发领域。我帮你筛了一遍，发现有几个方向特别值得你留意：
-
-1.  **AI编程代理（AI Coding Agent）** 今天绝对是主角，好几个明星项目都在更新，比如Claude Code、Stripe的Minions，还有关于“程序员会不会消失”的讨论，热度很高。
-2.  **AI Agent生态系统** 不止是编程，像Cloudflare、网易都在发布或套壳自己的AI Agent平台，感觉这个赛道越来越拥挤了。
-3.  **Go语言** 有两篇深度文章刷屏了，一篇讲金融基础设施从Rust转Go，另一篇复盘Cloudflare那个著名的“一行Go代码导致6小时瘫痪”的事故，对系统开发者很有启发。
-4.  **开源大模型** 关于GLM-5是不是“最强开源非多模态模型”的讨论挺技术向的，适合关注模型进展的你。
-5.  **开发者工具新趋势** 有几个项目很有意思，比如本地优先的Linux微虚拟机、基于DuckDB的数据湖服务，还有让AI帮你读新闻的工具，都挺有创意的。
-6.  **一些“搞七捻三”的趣闻** 比如有人意外控制了7000台扫地机器人、在40MB二进制文件里藏后门让AI找，虽然不那么“正经”，但展现了技术有趣和硬核的一面。
-
----</description>
+    <description>嘿，今天的技术圈挺热闹的，尤其是围绕 **AI 编程代理（AI Coding Agent）** 和 **AI 基础设施** 的讨论特别多。感觉“AI 如何改变开发方式”这个话题已经从概念走向了具体的工具和实战。另外，有几篇关于 **Go 语言** 的深度文章也很有料，从实战角度探讨了技术选型。如果你关心 AI 和开发，今天的内容应该能给你不少启发。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Feb 2026 01:35:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 10:20:24 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈挺热闹的，尤其是AI和开发领域。我帮你筛了一遍，发现有几个方向特别值得你留意：
-
-1.  **AI编程代理（AI Coding Agent）** 今天绝对是主角，好几个明星项目都在更新，比如Claude Code、Stripe的Minions，还有关于“程序员会不会消失”的讨论，热度很高。
-2.  **AI Agent生态系统** 不止是编程，像Cloudflare、网易都在发布或套壳自己的AI Agent平台，感觉这个赛道越来越拥挤了。
-3.  **Go语言** 有两篇深度文章刷屏了，一篇讲金融基础设施从Rust转Go，另一篇复盘Cloudflare那个著名的“一行Go代码导致6小时瘫痪”的事故，对系统开发者很有启发。
-4.  **开源大模型** 关于GLM-5是不是“最强开源非多模态模型”的讨论挺技术向的，适合关注模型进展的你。
-5.  **开发者工具新趋势** 有几个项目很有意思，比如本地优先的Linux微虚拟机、基于DuckDB的数据湖服务，还有让AI帮你读新闻的工具，都挺有创意的。
-6.  **一些“搞七捻三”的趣闻** 比如有人意外控制了7000台扫地机器人、在40MB二进制文件里藏后门让AI找，虽然不那么“正经”，但展现了技术有趣和硬核的一面。
-
----</description>
-        <pubDate>Mon, 23 Feb 2026 01:35:14 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-23T01:34:39.990Z</guid>
+        <description>嘿，今天的技术圈挺热闹的，尤其是围绕 **AI 编程代理（AI Coding Agent）** 和 **AI 基础设施** 的讨论特别多。感觉“AI 如何改变开发方式”这个话题已经从概念走向了具体的工具和实战。另外，有几篇关于 **Go 语言** 的深度文章也很有料，从实战角度探讨了技术选型。如果你关心 AI 和开发，今天的内容应该能给你不少启发。</description>
+        <pubDate>Mon, 23 Feb 2026 10:20:24 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-23T10:19:39.233Z</guid>
       </item>
     <item>
         <title>vxcontrol/pentagi</title>
@@ -37,7 +19,7 @@
         <description>Star vxcontrol / pentagi ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 今日 +1579 stars</description>
         <author>vxcontrol</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 01:33:18 GMT</pubDate>
+        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vxcontrol-pentagi</guid>
       </item>
 <item>
@@ -46,7 +28,7 @@
         <description>Sponsor Star x1xhlol / system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models | 今日 +1134 stars</description>
         <author>x1xhlol</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 01:33:18 GMT</pubDate>
+        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-x1xhlol-system-prompts-and-models-of-ai-tools</guid>
       </item>
 <item>
@@ -55,7 +37,7 @@
         <description>Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 今日 +503 stars</description>
         <author>anthropics</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 01:33:18 GMT</pubDate>
+        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-anthropics-claude-code</guid>
       </item>
 <item>
@@ -64,7 +46,7 @@
         <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +424 stars</description>
         <author>abhigyanpatwari</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 01:33:18 GMT</pubDate>
+        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-abhigyanpatwari-gitnexus</guid>
       </item>
 <item>
@@ -73,7 +55,7 @@
         <description>huggingface/skills | 今日 +364 stars</description>
         <author>huggingface</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 01:33:18 GMT</pubDate>
+        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-huggingface-skills</guid>
       </item>
 <item>
@@ -82,7 +64,7 @@
         <description>Sponsor Star stan-smith / FossFLOW Make beautiful isometric infrastructure diagrams | 今日 +340 stars</description>
         <author>stan-smith</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 01:33:18 GMT</pubDate>
+        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-stan-smith-fossflow</guid>
       </item>
 <item>
@@ -91,7 +73,7 @@
         <description>Star cloudflare / agents Build and deploy AI Agents on Cloudflare | 今日 +257 stars</description>
         <author>cloudflare</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 01:33:18 GMT</pubDate>
+        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-cloudflare-agents</guid>
       </item>
 <item>
@@ -100,7 +82,7 @@
         <description>Star Stremio / stremio-web Stremio - Freedom to Stream | 今日 +247 stars</description>
         <author>Stremio</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 01:33:18 GMT</pubDate>
+        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-stremio-stremio-web</guid>
       </item>
 <item>
@@ -109,19 +91,21 @@
         <description>Sponsor Star OpenBB-finance / OpenBB Financial data platform for analysts, quants and AI agents. | 今日 +188 stars</description>
         <author>OpenBB-finance</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 01:33:18 GMT</pubDate>
+        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-openbb-finance-openbb</guid>
       </item>
 <item>
-        <title>记初四·定南客家古城一游</title>
-        <link>https://linux.do/t/topic/1636914</link>
-        <description>未入迎阳（门），即见明十二帝像悬墙而示，以证大明威仪。
+        <title>天翼云，GLM5 编程套餐！！！！ 不是标题党</title>
+        <link>https://linux.do/t/topic/1638424</link>
+        <description>不过我没找到具体的介绍页
+问客服，跟我说要发工单找技术解决。
+是不是过年让人加班只糊了一个广告图，系统还没弄出来呢？
 1 个帖子 - 1 位参与者
 阅读完整话题...</description>
-        <author>陶渊明</author>
+        <author>shock</author>
         <category>linuxdo</category>
-        <pubDate>Mon, 23 Feb 2026 01:32:08 GMT</pubDate>
-        <guid isPermaLink="false">rss-0-835221474</guid>
+        <pubDate>Mon, 23 Feb 2026 10:17:33 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-835166666</guid>
       </item>
   </channel>
 </rss>
