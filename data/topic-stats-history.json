@@ -66,5 +66,39 @@
       "OpenSource": 2,
       "Other": 19
     }
+  },
+  {
+    "date": "2026-02-23",
+    "total": 76,
+    "byTopic": {
+      "AI": 30,
+      "Frontend": 2,
+      "Backend": 1,
+      "DevOps": 5,
+      "Data": 1,
+      "Security": 2,
+      "Cloud": 2,
+      "Mobile": 3,
+      "Startup": 1,
+      "OpenSource": 1,
+      "Other": 28
+    }
+  },
+  {
+    "date": "2026-02-24",
+    "total": 94,
+    "byTopic": {
+      "AI": 52,
+      "Frontend": 2,
+      "Backend": 3,
+      "DevOps": 2,
+      "Data": 1,
+      "Security": 3,
+      "Cloud": 0,
+      "Mobile": 2,
+      "Startup": 4,
+      "OpenSource": 2,
+      "Other": 23
+    }
   }
 ]
