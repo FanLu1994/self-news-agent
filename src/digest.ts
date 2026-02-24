@@ -189,7 +189,10 @@ export async function runDigestPipeline(): Promise<void> {
     '',
     '⭐ 值得关注:',
     '',
-    ...analysis.highlights.map((h, idx) => `${idx + 1}. ${toReadableText(h)}`),
+    ...analysis.highlights.map((h, idx) => {
+      const text = toReadableText(h);
+      return `${idx + 1}. ${text}`;
+    }).join('\n\n'),
   ];
 
   // 添加洞察与深度（如果有）
@@ -212,9 +215,13 @@ export async function runDigestPipeline(): Promise<void> {
 
   fullReport.push(
     '',
+    '---',
+    '',
     '📊 话题分布:',
     '',
     topicSummary,
+    '',
+    '---',
     '',
     `📄 完整报告: ${docUrl}`
   );
