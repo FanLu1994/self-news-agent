@@ -1,111 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/2/23)</title>
+    <title>6-8 件事 (2026/2/24)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈挺热闹的，尤其是围绕 **AI 编程代理（AI Coding Agent）** 和 **AI 基础设施** 的讨论特别多。感觉“AI 如何改变开发方式”这个话题已经从概念走向了具体的工具和实战。另外，有几篇关于 **Go 语言** 的深度文章也很有料，从实战角度探讨了技术选型。如果你关心 AI 和开发，今天的内容应该能给你不少启发。</description>
+    <description>嘿，开工大吉！今天的技术圈挺热闹的，我帮你筛了一遍，发现有几个方向特别值得你留意：
+
+1.  **AI 代理（Agent）工具生态正在爆发**：今天好几个热门项目都围绕如何构建、部署和增强 AI 代理，感觉这是开发者们当前最热衷的领域。
+2.  **RAG（检索增强生成）技术有了新思路**：有个项目提出了“无需向量”的推理式 RAG，如果真能简化架构，对开发者会是件好事。
+3.  **大模型公司动态频繁**：Anthropic 那边有些关于模型“蒸馏”的争议和声明，还有高盛对 AI 经济贡献的“冷水”报告，都挺有话题性。
+4.  **一些实用的开发工具更新了**：比如 Cloudflare 正式推出了 AI Agents 平台，还有新的 Postgres 扩展工具，能解决实际的工程问题。
+5.  **前端/全栈领域有值得一看的新项目**：一个连接 Aria2 和 WebDAV 的媒体管理工具，思路很实用。
+6.  **关于“AI 与开源”的讨论**：有观点认为 AI 正在伤害开源生态，这个话题对于关注技术发展的开发者来说值得思考。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Feb 2026 10:20:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 01:35:19 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈挺热闹的，尤其是围绕 **AI 编程代理（AI Coding Agent）** 和 **AI 基础设施** 的讨论特别多。感觉“AI 如何改变开发方式”这个话题已经从概念走向了具体的工具和实战。另外，有几篇关于 **Go 语言** 的深度文章也很有料，从实战角度探讨了技术选型。如果你关心 AI 和开发，今天的内容应该能给你不少启发。</description>
-        <pubDate>Mon, 23 Feb 2026 10:20:24 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-23T10:19:39.233Z</guid>
+        <description>嘿，开工大吉！今天的技术圈挺热闹的，我帮你筛了一遍，发现有几个方向特别值得你留意：
+
+1.  **AI 代理（Agent）工具生态正在爆发**：今天好几个热门项目都围绕如何构建、部署和增强 AI 代理，感觉这是开发者们当前最热衷的领域。
+2.  **RAG（检索增强生成）技术有了新思路**：有个项目提出了“无需向量”的推理式 RAG，如果真能简化架构，对开发者会是件好事。
+3.  **大模型公司动态频繁**：Anthropic 那边有些关于模型“蒸馏”的争议和声明，还有高盛对 AI 经济贡献的“冷水”报告，都挺有话题性。
+4.  **一些实用的开发工具更新了**：比如 Cloudflare 正式推出了 AI Agents 平台，还有新的 Postgres 扩展工具，能解决实际的工程问题。
+5.  **前端/全栈领域有值得一看的新项目**：一个连接 Aria2 和 WebDAV 的媒体管理工具，思路很实用。
+6.  **关于“AI 与开源”的讨论**：有观点认为 AI 正在伤害开源生态，这个话题对于关注技术发展的开发者来说值得思考。</description>
+        <pubDate>Tue, 24 Feb 2026 01:35:19 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-24T01:34:39.723Z</guid>
       </item>
     <item>
-        <title>vxcontrol/pentagi</title>
-        <link>https://github.com/vxcontrol/pentagi</link>
-        <description>Star vxcontrol / pentagi ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | 今日 +1579 stars</description>
-        <author>vxcontrol</author>
-        <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vxcontrol-pentagi</guid>
-      </item>
-<item>
         <title>x1xhlol/system-prompts-and-models-of-ai-tools</title>
         <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
-        <description>Sponsor Star x1xhlol / system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models | 今日 +1134 stars</description>
+        <description>Sponsor Star x1xhlol / system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models | 今日 +2454 stars</description>
         <author>x1xhlol</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
+        <pubDate>Tue, 24 Feb 2026 01:33:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-x1xhlol-system-prompts-and-models-of-ai-tools</guid>
-      </item>
-<item>
-        <title>anthropics/claude-code</title>
-        <link>https://github.com/anthropics/claude-code</link>
-        <description>Star anthropics / claude-code Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | 今日 +503 stars</description>
-        <author>anthropics</author>
-        <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-anthropics-claude-code</guid>
-      </item>
-<item>
-        <title>abhigyanpatwari/GitNexus</title>
-        <link>https://github.com/abhigyanpatwari/GitNexus</link>
-        <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +424 stars</description>
-        <author>abhigyanpatwari</author>
-        <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-abhigyanpatwari-gitnexus</guid>
       </item>
 <item>
         <title>huggingface/skills</title>
         <link>https://github.com/huggingface/skills</link>
-        <description>huggingface/skills | 今日 +364 stars</description>
+        <description>huggingface/skills | 今日 +1451 stars</description>
         <author>huggingface</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
+        <pubDate>Tue, 24 Feb 2026 01:33:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-huggingface-skills</guid>
+      </item>
+<item>
+        <title>VectifyAI/PageIndex</title>
+        <link>https://github.com/VectifyAI/PageIndex</link>
+        <description>Star VectifyAI / PageIndex 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG | 今日 +624 stars</description>
+        <author>VectifyAI</author>
+        <category>github</category>
+        <pubDate>Tue, 24 Feb 2026 01:33:02 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vectifyai-pageindex</guid>
+      </item>
+<item>
+        <title>OpenBB-finance/OpenBB</title>
+        <link>https://github.com/OpenBB-finance/OpenBB</link>
+        <description>Sponsor Star OpenBB-finance / OpenBB Financial data platform for analysts, quants and AI agents. | 今日 +470 stars</description>
+        <author>OpenBB-finance</author>
+        <category>github</category>
+        <pubDate>Tue, 24 Feb 2026 01:33:02 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-openbb-finance-openbb</guid>
+      </item>
+<item>
+        <title>abhigyanpatwari/GitNexus</title>
+        <link>https://github.com/abhigyanpatwari/GitNexus</link>
+        <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +467 stars</description>
+        <author>abhigyanpatwari</author>
+        <category>github</category>
+        <pubDate>Tue, 24 Feb 2026 01:33:02 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-abhigyanpatwari-gitnexus</guid>
       </item>
 <item>
         <title>stan-smith/FossFLOW</title>
         <link>https://github.com/stan-smith/FossFLOW</link>
-        <description>Sponsor Star stan-smith / FossFLOW Make beautiful isometric infrastructure diagrams | 今日 +340 stars</description>
+        <description>Sponsor Star stan-smith / FossFLOW Make beautiful isometric infrastructure diagrams | 今日 +430 stars</description>
         <author>stan-smith</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
+        <pubDate>Tue, 24 Feb 2026 01:33:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-stan-smith-fossflow</guid>
       </item>
 <item>
         <title>cloudflare/agents</title>
         <link>https://github.com/cloudflare/agents</link>
-        <description>Star cloudflare / agents Build and deploy AI Agents on Cloudflare | 今日 +257 stars</description>
+        <description>Star cloudflare / agents Build and deploy AI Agents on Cloudflare | 今日 +318 stars</description>
         <author>cloudflare</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
+        <pubDate>Tue, 24 Feb 2026 01:33:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-cloudflare-agents</guid>
+      </item>
+<item>
+        <title>f/prompts.chat</title>
+        <link>https://github.com/f/prompts.chat</link>
+        <description>Sponsor Star f / prompts.chat a.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. | 今日 +295 stars</description>
+        <author>f</author>
+        <category>github</category>
+        <pubDate>Tue, 24 Feb 2026 01:33:02 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-f-prompts.chat</guid>
       </item>
 <item>
         <title>Stremio/stremio-web</title>
         <link>https://github.com/Stremio/stremio-web</link>
-        <description>Star Stremio / stremio-web Stremio - Freedom to Stream | 今日 +247 stars</description>
+        <description>Star Stremio / stremio-web Stremio - Freedom to Stream | 今日 +272 stars</description>
         <author>Stremio</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
+        <pubDate>Tue, 24 Feb 2026 01:33:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-stremio-stremio-web</guid>
       </item>
 <item>
-        <title>OpenBB-finance/OpenBB</title>
-        <link>https://github.com/OpenBB-finance/OpenBB</link>
-        <description>Sponsor Star OpenBB-finance / OpenBB Financial data platform for analysts, quants and AI agents. | 今日 +188 stars</description>
-        <author>OpenBB-finance</author>
+        <title>muratcankoylan/Agent-Skills-for-Context-Engineering</title>
+        <link>https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering</link>
+        <description>Sponsor Star muratcankoylan / Agent-Skills-for-Context-Engineering A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. | 今日 +178 stars</description>
+        <author>muratcankoylan</author>
         <category>github</category>
-        <pubDate>Mon, 23 Feb 2026 10:18:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-openbb-finance-openbb</guid>
-      </item>
-<item>
-        <title>天翼云，GLM5 编程套餐！！！！ 不是标题党</title>
-        <link>https://linux.do/t/topic/1638424</link>
-        <description>不过我没找到具体的介绍页
-问客服，跟我说要发工单找技术解决。
-是不是过年让人加班只糊了一个广告图，系统还没弄出来呢？
-1 个帖子 - 1 位参与者
-阅读完整话题...</description>
-        <author>shock</author>
-        <category>linuxdo</category>
-        <pubDate>Mon, 23 Feb 2026 10:17:33 GMT</pubDate>
-        <guid isPermaLink="false">rss-0-835166666</guid>
+        <pubDate>Tue, 24 Feb 2026 01:33:02 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-muratcankoylan-agent-skills-for-context-engineering</guid>
       </item>
   </channel>
 </rss>
