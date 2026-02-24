@@ -14,7 +14,8 @@ import { toReadableText } from './text-format.js';
 import { topicService } from './services/topic.service.js';
 import { topicStatsService } from './services/topic-stats.service.js';
 import { twitterService } from './services/twitter.service.js';
-import { dedupArticles, matchesKeywords } from './utils/article-utils.js';
+import { historyService } from './services/history.service.js';
+import { dedupArticles, matchesKeywords, dedupWithHistory, type HistoricalArticle } from './utils/article-utils.js';
 import type { NewsArticle } from './types/news.types.js';
 import type { ParsedConfig } from './config.js';
 import type { SourceType } from './types/news.types.js';
@@ -95,6 +96,13 @@ export async function runDigestPipeline(): Promise<void> {
     fetchRssIfEnabled(config.includeProductHunt, config.productHuntFeeds, 'Product Hunt', 'producthunt', 'en', [], config)
   ]);
 
+  // 读取历史记录用于去重
+  console.log('\n📜 读取历史记录...');
+  const historicalArticles = await historyService.getHistoricalArticles(
+    config.outputDailyDir,
+    7 // 获取最近 7 天的历史记录
+  );
+
   let allArticles = [
     ...hnArticles,
     ...rssArticles,
@@ -106,7 +114,22 @@ export async function runDigestPipeline(): Promise<void> {
     ...productHuntArticles
   ];
   allArticles = allArticles.filter(article => matchesKeywords(article, config.keywords));
+
+  // 先进行批次内去重
+  console.log(`  📊 去重前: ${allArticles.length} 篇`);
   allArticles = dedupArticles(allArticles);
+  console.log(`  📊 批次内去重后: ${allArticles.length} 篇`);
+
+  // 与历史记录去重
+  if (historicalArticles.length > 0) {
+    const dedupResult = dedupWithHistory(allArticles, historicalArticles);
+    allArticles = dedupResult.articles;
+    console.log(`  📊 与历史记录去重后: ${allArticles.length} 篇`);
+    console.log(`  🗑️  过滤了 ${dedupResult.filteredCount} 篇重复文章（来自 ${dedupResult.historicalCount} 篇历史记录）`);
+  } else {
+    console.log(`  📝 未找到历史记录，跳过历史去重`);
+  }
+
   allArticles.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
   if (allArticles.length === 0) {
@@ -231,7 +254,7 @@ export async function runDigestPipeline(): Promise<void> {
   console.log(`- Product Hunt: ${productHuntArticles.length}`);
   console.log(`- Twitter/X: ${twitterArticles.length}`);
   console.log(`- GitHub Trending: ${githubArticles.length}`);
-  console.log(`- 合并后: ${allArticles.length}`);
+  console.log(`- 最终输出: ${allArticles.length} 篇（已去重）`);
   console.log(`- 输出 Markdown: ${dailyDocPath}`);
   console.log(`- 话题统计: ${config.topicStatsPath}`);
   console.log(`- 输出 RSS: ${config.outputRssPath}`);
