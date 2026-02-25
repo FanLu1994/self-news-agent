@@ -1,107 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/2/24)</title>
+    <title>6-8 件事 (2026/2/25)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天 GitHub Trending 几乎被 AI 项目“霸榜”了，从 AI 代理框架到提示词工程，再到一些很酷的开发工具，热度很高。同时，社区里关于 LLM 提示词结构、多 Agent 系统实践的深度讨论也很有价值。还有几篇关于技术选型（比如 Go vs Node.js）和开发实战（如 API 工具、剪贴板工具）的内容，对开发者很实用。</description>
+    <description>嘿，今天的技术圈还挺热闹的，我帮你筛了一遍。除了常规的 GitHub 趋势项目，有几个点特别值得跟你聊聊：
+
+1.  **AI 开发工具又有新玩家**：一个叫 `superpowers` 的“智能体技能框架”在 GitHub 上爆火，一天涨了上千星，看起来是想解决 AI 在实际开发中“落地难”的问题。
+2.  **Claude 进化到“遛狗模式”**：听起来有点搞笑，但其实是说 Claude Code 现在支持远程任务监控了，移动办公更方便，AI 编程助手越来越“贴身”了。
+3.  **Rust 的“出圈”时刻**：因为 Ubuntu 宣布全面拥抱 Rust，有文章在讨论这是否意味着 Rust 正从极客玩具走向主流基础设施，这对关注系统编程和未来趋势的开发者是个重要信号。
+4.  **多 Agent 编排框架成热点**：不止一个项目在解决如何让多个 AI 智能体高效协作的问题，从 `Routa` 到 `Emdash`，这可能是 AI 应用开发的下一个关键点。
+5.  **前端安全新动向**：Firefox 148 引入了一个叫 `setHTML` 的新 API 来替代有风险的 `innerHTML`，旨在从浏览器层面提供更强的 XSS 防护，开发者可以关注一下。
+6.  **一些有趣的“左右互搏”**：有开发者分享用 GPT 写文档，再用 Claude 来审查和挑刺，效果意外地好。这种组合使用 AI 的思路很实用。
+7.  **向量数据库新选择**：一个用 Rust 写的高性能向量数据库 `ruvector` 出现在趋势榜，定位是 AI 和智能体系统，看来这块的需求和竞争都在升温。
+8.  **“用 AI 重建 Next.js”**：Cloudflare 团队分享他们如何在一周内用 AI 辅助重建了一个类 Next.js 的框架，虽然是个实验，但展示了 AI 在复杂工程中的潜力。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 24 Feb 2026 10:19:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 01:35:06 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天 GitHub Trending 几乎被 AI 项目“霸榜”了，从 AI 代理框架到提示词工程，再到一些很酷的开发工具，热度很高。同时，社区里关于 LLM 提示词结构、多 Agent 系统实践的深度讨论也很有价值。还有几篇关于技术选型（比如 Go vs Node.js）和开发实战（如 API 工具、剪贴板工具）的内容，对开发者很实用。</description>
-        <pubDate>Tue, 24 Feb 2026 10:19:10 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-24T10:18:21.828Z</guid>
+        <description>嘿，今天的技术圈还挺热闹的，我帮你筛了一遍。除了常规的 GitHub 趋势项目，有几个点特别值得跟你聊聊：
+
+1.  **AI 开发工具又有新玩家**：一个叫 `superpowers` 的“智能体技能框架”在 GitHub 上爆火，一天涨了上千星，看起来是想解决 AI 在实际开发中“落地难”的问题。
+2.  **Claude 进化到“遛狗模式”**：听起来有点搞笑，但其实是说 Claude Code 现在支持远程任务监控了，移动办公更方便，AI 编程助手越来越“贴身”了。
+3.  **Rust 的“出圈”时刻**：因为 Ubuntu 宣布全面拥抱 Rust，有文章在讨论这是否意味着 Rust 正从极客玩具走向主流基础设施，这对关注系统编程和未来趋势的开发者是个重要信号。
+4.  **多 Agent 编排框架成热点**：不止一个项目在解决如何让多个 AI 智能体高效协作的问题，从 `Routa` 到 `Emdash`，这可能是 AI 应用开发的下一个关键点。
+5.  **前端安全新动向**：Firefox 148 引入了一个叫 `setHTML` 的新 API 来替代有风险的 `innerHTML`，旨在从浏览器层面提供更强的 XSS 防护，开发者可以关注一下。
+6.  **一些有趣的“左右互搏”**：有开发者分享用 GPT 写文档，再用 Claude 来审查和挑刺，效果意外地好。这种组合使用 AI 的思路很实用。
+7.  **向量数据库新选择**：一个用 Rust 写的高性能向量数据库 `ruvector` 出现在趋势榜，定位是 AI 和智能体系统，看来这块的需求和竞争都在升温。
+8.  **“用 AI 重建 Next.js”**：Cloudflare 团队分享他们如何在一周内用 AI 辅助重建了一个类 Next.js 的框架，虽然是个实验，但展示了 AI 在复杂工程中的潜力。
+
+---</description>
+        <pubDate>Wed, 25 Feb 2026 01:35:06 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-25T01:34:30.861Z</guid>
       </item>
     <item>
-        <title>x1xhlol/system-prompts-and-models-of-ai-tools</title>
-        <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
-        <description>Sponsor Star x1xhlol / system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models | 今日 +2454 stars</description>
-        <author>x1xhlol</author>
+        <title>D4Vinci/Scrapling</title>
+        <link>https://github.com/D4Vinci/Scrapling</link>
+        <description>Sponsor Star D4Vinci / Scrapling 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! | 今日 +1970 stars</description>
+        <author>D4Vinci</author>
         <category>github</category>
-        <pubDate>Tue, 24 Feb 2026 10:16:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-x1xhlol-system-prompts-and-models-of-ai-tools</guid>
+        <pubDate>Wed, 25 Feb 2026 01:32:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-d4vinci-scrapling</guid>
       </item>
 <item>
-        <title>huggingface/skills</title>
-        <link>https://github.com/huggingface/skills</link>
-        <description>huggingface/skills | 今日 +1451 stars</description>
-        <author>huggingface</author>
+        <title>obra/superpowers</title>
+        <link>https://github.com/obra/superpowers</link>
+        <description>Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works. | 今日 +1195 stars</description>
+        <author>obra</author>
         <category>github</category>
-        <pubDate>Tue, 24 Feb 2026 10:16:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-huggingface-skills</guid>
+        <pubDate>Wed, 25 Feb 2026 01:32:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-obra-superpowers</guid>
       </item>
 <item>
-        <title>VectifyAI/PageIndex</title>
-        <link>https://github.com/VectifyAI/PageIndex</link>
-        <description>Star VectifyAI / PageIndex 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG | 今日 +624 stars</description>
-        <author>VectifyAI</author>
+        <title>LadybirdBrowser/ladybird</title>
+        <link>https://github.com/LadybirdBrowser/ladybird</link>
+        <description>Star LadybirdBrowser / ladybird Truly independent web browser | 今日 +236 stars</description>
+        <author>LadybirdBrowser</author>
         <category>github</category>
-        <pubDate>Tue, 24 Feb 2026 10:16:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vectifyai-pageindex</guid>
+        <pubDate>Wed, 25 Feb 2026 01:32:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ladybirdbrowser-ladybird</guid>
       </item>
 <item>
-        <title>OpenBB-finance/OpenBB</title>
-        <link>https://github.com/OpenBB-finance/OpenBB</link>
-        <description>Sponsor Star OpenBB-finance / OpenBB Financial data platform for analysts, quants and AI agents. | 今日 +470 stars</description>
-        <author>OpenBB-finance</author>
+        <title>HunxByts/GhostTrack</title>
+        <link>https://github.com/HunxByts/GhostTrack</link>
+        <description>Star HunxByts / GhostTrack Useful tool to track location or mobile number | 今日 +145 stars</description>
+        <author>HunxByts</author>
         <category>github</category>
-        <pubDate>Tue, 24 Feb 2026 10:16:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-openbb-finance-openbb</guid>
+        <pubDate>Wed, 25 Feb 2026 01:32:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-hunxbyts-ghosttrack</guid>
       </item>
 <item>
-        <title>abhigyanpatwari/GitNexus</title>
-        <link>https://github.com/abhigyanpatwari/GitNexus</link>
-        <description>Sponsor Star abhigyanpatwari / GitNexus GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | 今日 +467 stars</description>
-        <author>abhigyanpatwari</author>
+        <title>GVCLab/PersonaLive</title>
+        <link>https://github.com/GVCLab/PersonaLive</link>
+        <description>Star GVCLab / PersonaLive [CVPR 2026] PersonaLive! : Expressive Portrait Image Animation for Live Streaming | 今日 +73 stars</description>
+        <author>GVCLab</author>
         <category>github</category>
-        <pubDate>Tue, 24 Feb 2026 10:16:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-abhigyanpatwari-gitnexus</guid>
+        <pubDate>Wed, 25 Feb 2026 01:32:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-gvclab-personalive</guid>
       </item>
 <item>
-        <title>stan-smith/FossFLOW</title>
-        <link>https://github.com/stan-smith/FossFLOW</link>
-        <description>Sponsor Star stan-smith / FossFLOW Make beautiful isometric infrastructure diagrams | 今日 +430 stars</description>
-        <author>stan-smith</author>
+        <title>ruvnet/ruvector</title>
+        <link>https://github.com/ruvnet/ruvector</link>
+        <description>Star ruvnet / ruvector RuVector is a high performance vector and graph database built in Rust for AI, agentic systems, and real time analytics. It combines HNSW search, dynamic minimum cut coherence, graph intelligence, and self learning memory into one unified engine for scalable, low latency reasoning and structured retrieval. | 今日 +41 stars</description>
+        <author>ruvnet</author>
         <category>github</category>
-        <pubDate>Tue, 24 Feb 2026 10:16:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-stan-smith-fossflow</guid>
+        <pubDate>Wed, 25 Feb 2026 01:32:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ruvnet-ruvector</guid>
       </item>
 <item>
-        <title>cloudflare/agents</title>
-        <link>https://github.com/cloudflare/agents</link>
-        <description>Star cloudflare / agents Build and deploy AI Agents on Cloudflare | 今日 +318 stars</description>
-        <author>cloudflare</author>
+        <title>openemr/openemr</title>
+        <link>https://github.com/openemr/openemr</link>
+        <description>Sponsor Star openemr / openemr The most popular open source electronic health records and medical practice management solution. | 今日 +13 stars</description>
+        <author>openemr</author>
         <category>github</category>
-        <pubDate>Tue, 24 Feb 2026 10:16:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-cloudflare-agents</guid>
+        <pubDate>Wed, 25 Feb 2026 01:32:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-openemr-openemr</guid>
       </item>
 <item>
-        <title>f/prompts.chat</title>
-        <link>https://github.com/f/prompts.chat</link>
-        <description>Sponsor Star f / prompts.chat f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. | 今日 +295 stars</description>
-        <author>f</author>
-        <category>github</category>
-        <pubDate>Tue, 24 Feb 2026 10:16:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-f-prompts.chat</guid>
+        <title>我怎么又老了</title>
+        <link>https://linux.do/t/topic/1644009</link>
+        <description>啊啊啊w……
+
+
+
+早上没找到平底锅，尝试用烤箱烤鸡蛋，然后碗很难受……
+1 个帖子 - 1 位参与者
+阅读完整话题...</description>
+        <author>stevessr backup</author>
+        <category>linuxdo</category>
+        <pubDate>Wed, 25 Feb 2026 01:32:32 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-834366210</guid>
       </item>
 <item>
-        <title>Stremio/stremio-web</title>
-        <link>https://github.com/Stremio/stremio-web</link>
-        <description>Star Stremio / stremio-web Stremio - Freedom to Stream | 今日 +272 stars</description>
-        <author>Stremio</author>
-        <category>github</category>
-        <pubDate>Tue, 24 Feb 2026 10:16:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-stremio-stremio-web</guid>
+        <title>[问与答] 电脑微信什么时候能双开</title>
+        <link>https://www.v2ex.com/t/1193871#reply0</link>
+        <description>[问与答] 电脑微信什么时候能双开</description>
+        <author>Ve2x</author>
+        <category>ve2x</category>
+        <pubDate>Wed, 25 Feb 2026 01:31:10 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-1577163789</guid>
       </item>
 <item>
-        <title>muratcankoylan/Agent-Skills-for-Context-Engineering</title>
-        <link>https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering</link>
-        <description>Sponsor Star muratcankoylan / Agent-Skills-for-Context-Engineering A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. | 今日 +178 stars</description>
-        <author>muratcankoylan</author>
-        <category>github</category>
-        <pubDate>Tue, 24 Feb 2026 10:16:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-muratcankoylan-agent-skills-for-context-engineering</guid>
+        <title>开源了一个热搜聚合推送工具 HotPush，热点自动推送到 Telegram/企业微信/飞书，不用再挨个刷平台了</title>
+        <link>https://linux.do/t/topic/1643995</link>
+        <description>你是不是也这样：每天在微博、知乎、B站、L站之间来回切换，就为了看看今天有什么热点？
+刚好我也是，后来烦了，干脆写了个工具——把一个个平台的热榜聚合到一起，新热点自动推送到你的 Telegram / 邮箱，不用主动去刷，热点自己来找你。
+先体验一下
+在线演示：https://hotpush.dawenzaist.de5.net
+测试账号：test / test123
+截图
+
+
+
+推送能力
+这是这个项目最核心的部分：
+7 种推送渠道：Telegram、Discord、企业微信、...</description>
+        <author>大蚊仔丶</author>
+        <category>linuxdo</category>
+        <pubDate>Wed, 25 Feb 2026 01:30:19 GMT</pubDate>
+        <guid isPermaLink="false">rss-1-834387077</guid>
       </item>
   </channel>
 </rss>
