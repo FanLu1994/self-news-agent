@@ -1,6 +1,6 @@
 import Parser from 'rss-parser';
 import type { NewsArticle, RSSFeedItem, SourceType, TimeRange } from '../types/news.types.js';
-import { dedupArticles, matchesKeywords } from '../utils/article-utils.js';
+import { matchesKeywords } from '../utils/article-utils.js';
 
 interface FetchRssOptions {
   feeds: string[];
@@ -138,7 +138,6 @@ export class RSSService {
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     );
 
-    allArticles = dedupArticles(allArticles);
     return allArticles.slice(0, options.limit);
   }
 
@@ -164,7 +163,6 @@ export class RSSService {
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     );
 
-    allArticles = dedupArticles(allArticles);
     return allArticles.slice(0, options.limit);
   }
 

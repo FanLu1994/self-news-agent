@@ -12,7 +12,7 @@
     "fetch": {
       "type": "object",
       "properties": {
-        "maxItemsPerSource": { "type": "number", "default": 20 },
+        "maxItemsPerSource": { "type": "number", "minimum": 1, "maximum": 20, "default": 20 },
         "timeRange": { "type": "string", "enum": ["1d", "3d", "7d"], "default": "7d" },
         "summaryStyle": { "type": "string", "enum": ["brief", "detailed", "keywords"], "default": "detailed" }
       }
@@ -64,7 +64,8 @@
         "githubTrending": {
           "type": "object",
           "properties": {
-            "enabled": { "type": "boolean" }
+            "enabled": { "type": "boolean" },
+            "languages": { "type": "array", "items": { "type": "string" } }
           }
         },
         "hackerNews": {

@@ -131,7 +131,7 @@ TELEGRAM_CHAT_ID=你的chat_id
 ```json
 {
   "fetch": {
-    "maxItemsPerSource": 50,  // 增加到每个来源 50 篇
+    "maxItemsPerSource": 20,  // 每个来源最多 20 篇（超过会被限制为 20）
     "timeRange": "3d"         // 改为 3 天内的内容
   }
 }

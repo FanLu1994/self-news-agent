@@ -1,5 +1,6 @@
 import Parser from 'rss-parser';
 import type { NewsArticle, TimeRange } from '../types/news.types.js';
+import { translationService } from './translation.service.js';
 
 interface ProductHuntPost {
   name: string;
@@ -19,9 +20,22 @@ interface ProductHuntFeedItem {
   content?: string;
   contentSnippet?: string;
   categories?: string[];
+  thumbnail?: string;
+  votes?: string;
+  comments?: string;
   'media:thumbnail'?: string;
   'ph:votes'?: string;
   'ph:comments'?: string;
+}
+
+function decodeHtmlEntities(text: string): string {
+  return text
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ');
 }
 
 /**
@@ -48,56 +62,88 @@ export class ProductHuntService {
   }
 
   /**
-   * 从 Product Hunt Atom feed 的 content 中提取 tagline
-   * Atom 格式：第一个 <p> 为产品标语，第二个 <p> 为 Discussion | Link
+   * 清理 feed 文本
    */
-  private extractTaglineFromContent(content: string | undefined): string {
-    if (!content) return '';
-    // 匹配第一个 <p>...</p> 或 &lt;p&gt;...&lt;/p&gt;（实体编码）
-    const match =
-      content.match(/<p[^>]*>([\s\S]*?)<\/p>/i) ??
-      content.match(/&lt;p[^&]*&gt;([\s\S]*?)&lt;\/p&gt;/i);
-    if (match) {
-      return match[1]
-        .replace(/<[^>]+>/g, '')
-        .replace(/&[^;]+;/g, ' ')
-        .replace(/\s+/g, ' ')
-        .trim();
-    }
-    // 回退：contentSnippet 可能把 "Discussion | Link" 也包含进来，取第一个有意义段落
-    const beforeDiscussion = content.split(/Discussion|Link/i)[0];
-    return beforeDiscussion.replace(/<[^>]+>/g, '').replace(/&[^;]+;/g, ' ').replace(/\s+/g, ' ').trim();
+  private normalizeFeedText(text: string): string {
+    const decoded = decodeHtmlEntities(text);
+    return decoded
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  /**
+   * 从 Product Hunt Atom feed 中提取段落文本
+   */
+  private extractParagraphs(content: string | undefined): string[] {
+    if (!content) return [];
+
+    const decoded = decodeHtmlEntities(content);
+    const paragraphMatches = decoded.match(/<p[^>]*>[\s\S]*?<\/p>/gi) || [];
+
+    const paragraphs = paragraphMatches
+      .map(paragraph => this.normalizeFeedText(paragraph))
+      .map(paragraph => paragraph.replace(/^[-:|]\s*/, '').trim())
+      .filter(Boolean)
+      .filter(paragraph => !/^\s*(discussion|link)\s*(\||$)/i.test(paragraph));
+
+    if (paragraphs.length > 0) return paragraphs;
+
+    const plain = this.normalizeFeedText(content);
+    if (!plain) return [];
+
+    const fallback = plain
+      .split(/\s*\|\s*|\s*[•·]\s*/g)
+      .map(segment => segment.trim())
+      .filter(Boolean)
+      .filter(segment => !/^(discussion|link)$/i.test(segment));
+
+    return fallback;
+  }
+
+  /**
+   * 清理翻译输出，去除模型常见附加前缀/引号
+   */
+  private normalizeTranslatedText(text: string): string {
+    return text
+      .replace(/^翻译[:：]\s*/i, '')
+      .replace(/^["'“”‘’]+|["'“”‘’]+$/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
   }
 
   /**
    * 从 Product Hunt Atom feed 解析产品
-   * Atom 格式：title 仅为产品名，tagline 在 content 第一个 <p> 中
    */
-  private parseProductHuntItem(item: any): ProductHuntPost | null {
+  private parseProductHuntItem(item: ProductHuntFeedItem): ProductHuntPost | null {
     if (!item.title || !item.link) return null;
 
-    // Atom 格式：title 仅为产品名
     const name = item.title.trim();
+    const paragraphs = this.extractParagraphs(item.content || item.contentSnippet);
+    const snippet = item.contentSnippet ? this.normalizeFeedText(item.contentSnippet) : '';
 
-    // 从 content 第一个 <p> 提取 tagline（产品标语）
-    const tagline = this.extractTaglineFromContent(item.content || item.contentSnippet);
-    const description = tagline;
+    // 常见格式：第一段为 tagline，第二段可能是更完整介绍
+    const tagline = paragraphs[0] || snippet || '';
+    let description = paragraphs[1] || snippet || tagline;
+    if (!description) description = tagline;
 
     // 提取投票数和评论数
-    const votes = item.votes ? parseInt(String(item.votes), 10) : undefined;
-    const comments = item.comments ? parseInt(String(item.comments), 10) : undefined;
+    const votesRaw = item.votes ?? item['ph:votes'];
+    const commentsRaw = item.comments ?? item['ph:comments'];
+    const votes = votesRaw ? parseInt(String(votesRaw), 10) : undefined;
+    const comments = commentsRaw ? parseInt(String(commentsRaw), 10) : undefined;
 
     // 提取分类/话题
-    const topics = item.categories || [];
+    const topics = (item.categories || []).map(topic => this.normalizeFeedText(topic)).filter(Boolean);
 
     return {
       name,
       tagline,
-      description: description.slice(0, 300),
+      description: description.slice(0, 500),
       url: item.link,
       votes,
       comments,
-      thumbnail: item.thumbnail || undefined,
+      thumbnail: item.thumbnail || item['media:thumbnail'] || undefined,
       topics
     };
   }
@@ -134,9 +180,68 @@ export class ProductHuntService {
   }
 
   /**
+   * 翻译 Product Hunt 产品信息（名称保持原文，仅翻译标语和描述）
+   */
+  async translateProducts(
+    products: ProductHuntPost[],
+    to: 'zh' | 'en' = 'zh'
+  ): Promise<ProductHuntPost[]> {
+    const translated: ProductHuntPost[] = [];
+
+    for (const product of products) {
+      const translateText = async (text: string): Promise<string> => {
+        if (!text.trim()) return text;
+        const result = await translationService.translate({
+          text,
+          from: 'en', // Product Hunt 以英文为主，避免自动检测失准导致漏翻
+          to
+        });
+        return this.normalizeTranslatedText(result.translatedText || text);
+      };
+
+      const translatedTagline = product.tagline
+        ? await translateText(product.tagline)
+        : product.tagline;
+
+      const translatedDescription = product.description
+        ? (
+            product.description.trim() === product.tagline.trim()
+              ? translatedTagline
+              : await translateText(product.description)
+          )
+        : product.description;
+
+      const translatedTopics: string[] = [];
+      for (const topic of product.topics || []) {
+        const translatedTopic = await translateText(topic);
+        translatedTopics.push(translatedTopic || topic);
+      }
+
+      const taglineResult = product.tagline
+        ? { translatedText: translatedTagline }
+        : null;
+      const descriptionResult = product.description
+        ? { translatedText: translatedDescription }
+        : null;
+
+      translated.push({
+        ...product,
+        tagline: taglineResult?.translatedText || product.tagline,
+        description: descriptionResult?.translatedText || product.description,
+        topics: translatedTopics.length > 0 ? translatedTopics : product.topics
+      });
+
+      // 避免请求过快
+      await new Promise(resolve => setTimeout(resolve, 200));
+    }
+
+    return translated;
+  }
+
+  /**
    * 将 Product Hunt 产品转换为 NewsArticle 格式
    */
-  toArticles(products: ProductHuntPost[]): NewsArticle[] {
+  toArticles(products: ProductHuntPost[], language: 'zh' | 'en' = 'en'): NewsArticle[] {
     const now = new Date().toISOString();
 
     return products.map((product, index) => {
@@ -148,6 +253,7 @@ export class ProductHuntService {
       const mainTopic = product.topics && product.topics.length > 0
         ? product.topics[0]
         : 'Product Hunt';
+      const topicTags = product.topics ? product.topics.slice(0, 3) : [];
 
       return {
         id: `ph-${Date.now()}-${index}`,
@@ -159,9 +265,9 @@ export class ProductHuntService {
         author: product.name,
         publishedAt: now,
         category: 'all',
-        language: 'en',
+        language,
         score: product.votes || 0,
-        tags: [mainTopic, 'Product Hunt', ...product.topics.slice(0, 3)].filter(Boolean)
+        tags: [mainTopic, 'Product Hunt', ...topicTags].filter(Boolean)
       } as NewsArticle;
     });
   }
@@ -183,6 +289,7 @@ export class ProductHuntService {
       lines.push(
         `**${p.name}**`,
         p.tagline || '',
+        p.description && p.description !== p.tagline ? p.description : '',
         stats ? `_${stats}_` : '',
         p.url,
         ''

@@ -1,6 +1,7 @@
 import type { NewsArticle, TimeRange } from '../types/news.types.js';
 
 interface FetchTrendingOptions {
+  token?: string;
   languages: string[];
   timeRange: TimeRange;
   limit: number;
@@ -159,8 +160,87 @@ function parseTrendingRepos(html: string): TrendingRepo[] {
   return validRepos;
 }
 
+/** 配置语言/话题映射到 GitHub API 查询 */
+const LANG_TO_QUERY: Record<string, string> = {
+  python: 'language:Python',
+  javascript: 'language:JavaScript',
+  js: 'language:JavaScript',
+  typescript: 'language:TypeScript',
+  ts: 'language:TypeScript',
+  go: 'language:Go',
+  csharp: 'language:C#',
+  'c#': 'language:C#',
+  rust: 'language:Rust',
+  vue: 'topic:vue',
+  react: 'topic:react'
+};
+
+function toApiQuery(lang: string): string {
+  return LANG_TO_QUERY[lang.toLowerCase()] || `language:${lang}`;
+}
+
+interface GhApiRepo {
+  full_name: string;
+  description: string | null;
+  html_url: string;
+  stargazers_count: number;
+  language: string | null;
+  owner: { login: string };
+}
+
 /**
- * GitHub Trending 服务（爬虫方式）
+ * 通过 GitHub API 按语言/话题获取热门仓库
+ */
+async function fetchByApi(
+  token: string,
+  languages: string[],
+  limit: number,
+  fetchWithRetryFn: typeof fetchWithRetry
+): Promise<TrendingRepo[]> {
+  const allRepos: TrendingRepo[] = [];
+  const perLang = Math.max(2, Math.ceil(limit / languages.length));
+
+  for (const lang of languages) {
+    const query = toApiQuery(lang);
+    const since = new Date();
+    since.setDate(since.getDate() - 7);
+    const created = since.toISOString().slice(0, 10);
+    const q = `${query} created:>${created} stars:>10`;
+    const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(q)}&sort=stars&order=desc&per_page=${perLang}`;
+
+    try {
+      const res = await fetchWithRetryFn(url, {
+        headers: {
+          Accept: 'application/vnd.github.v3+json',
+          Authorization: `Bearer ${token}`
+        }
+      });
+      const data = (await res.json()) as { items?: GhApiRepo[] };
+      const items = data.items || [];
+
+      for (const r of items) {
+        const [owner, repo] = r.full_name.split('/');
+        allRepos.push({
+          owner,
+          repo,
+          description: r.description || '',
+          language: r.language || undefined,
+          starsTotal: r.stargazers_count,
+          url: r.html_url
+        });
+      }
+    } catch (e) {
+      console.warn(`GitHub API fetch failed for ${lang}:`, e instanceof Error ? e.message : e);
+    }
+    await sleep(300);
+  }
+
+  allRepos.sort((a, b) => (b.starsTotal ?? 0) - (a.starsTotal ?? 0));
+  return allRepos.slice(0, limit);
+}
+
+/**
+ * GitHub Trending 服务（API + token 或爬虫回退）
  */
 export class GitHubTrendingService {
   private buildHeaders(): Record<string, string> {
@@ -210,29 +290,29 @@ export class GitHubTrendingService {
 
   async fetchTrending(options: FetchTrendingOptions): Promise<NewsArticle[]> {
     try {
-      const html = await this.fetchTrendingPage();
-      const repos = parseTrendingRepos(html);
+      let repos: TrendingRepo[];
 
-      // 去重
-      const seen = new Set<string>();
-      const uniqueRepos: TrendingRepo[] = [];
-      for (const repo of repos) {
-        const key = `${repo.owner}/${repo.repo}`.toLowerCase();
-        if (!seen.has(key)) {
-          seen.add(key);
-          uniqueRepos.push(repo);
-        }
+      if (options.token && options.languages.length > 0) {
+        repos = await fetchByApi(
+          options.token,
+          options.languages,
+          options.limit,
+          fetchWithRetry
+        );
+      } else {
+        const html = await this.fetchTrendingPage();
+        repos = parseTrendingRepos(html);
       }
 
       // 按 starsToday 排序
-      uniqueRepos.sort((a, b) => {
+      repos.sort((a, b) => {
         const aStars = a.starsToday ?? a.starsTotal ?? 0;
         const bStars = b.starsToday ?? b.starsTotal ?? 0;
         return bStars - aStars;
       });
 
       // 限制数量
-      const items = uniqueRepos.slice(0, options.limit);
+      const items = repos.slice(0, options.limit);
 
       const now = new Date().toISOString();
 

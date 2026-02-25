@@ -19,7 +19,7 @@ interface AppConfig {
     reddit: { enabled: boolean; feeds: string[] };
     productHunt: { enabled: boolean; feeds: string[] };
     twitter: { enabled: boolean };
-    githubTrending: { enabled: boolean };
+    githubTrending: { enabled: boolean; languages?: string[] };
     hackerNews: { enabled: boolean };
   };
   output: {
@@ -44,6 +44,7 @@ export interface ParsedConfig {
   productHuntFeeds: string[];
   xBearerToken?: string;
   xQueryKeywords: string[];
+  githubToken?: string;
   githubTrendingLanguages: string[];
   includeGithubTrending: boolean;
   includeVe2x: boolean;
@@ -169,8 +170,12 @@ export function loadConfig(): ParsedConfig {
     // Twitter
     xBearerToken: process.env.X_BEARER_TOKEN,
 
-    // GitHub Trending（不再使用语言参数）
-    githubTrendingLanguages: [],
+    // GitHub Trending（token 仅从 env GH_TOKEN 读取，语言从 config 配置）
+    githubToken: process.env.GH_TOKEN,
+    githubTrendingLanguages:
+      json.sources.githubTrending?.languages && Array.isArray(json.sources.githubTrending.languages)
+        ? json.sources.githubTrending.languages
+        : ['python', 'javascript', 'typescript', 'go', 'csharp', 'rust', 'vue', 'react'],
 
     // 开关
     includeGithubTrending: json.sources.githubTrending.enabled,
@@ -181,7 +186,7 @@ export function loadConfig(): ParsedConfig {
     includeTwitter: json.sources.twitter.enabled,
 
     // 抓取配置
-    maxItemsPerSource: parsePositiveInt(json.fetch.maxItemsPerSource, 20),
+    maxItemsPerSource: Math.min(parsePositiveInt(json.fetch.maxItemsPerSource, 20), 20),
     timeRange: parseTimeRange(json.fetch.timeRange),
     summaryStyle: parseSummaryStyle(json.fetch.summaryStyle),
 

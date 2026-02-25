@@ -259,8 +259,8 @@ export class HackerNewsService {
       this.fetchBestStories(fetchLimit)
     ]);
 
-    // 合并并去重
-    const allIds = Array.from(new Set([...topIds, ...bestIds]));
+    // 合并两个榜单
+    const allIds = [...topIds, ...bestIds];
 
     // 获取详情
     const items = await this.fetchItems(allIds);

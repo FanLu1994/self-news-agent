@@ -54,7 +54,8 @@
       "enabled": false
     },
     "githubTrending": {
-      "enabled": true
+      "enabled": true,
+      "languages": ["python", "javascript", "typescript", "go", "csharp", "rust", "vue", "react"]
     },
     "hackerNews": {
       "enabled": true

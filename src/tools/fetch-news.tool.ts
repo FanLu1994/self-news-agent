@@ -93,6 +93,7 @@ export const fetchNewsTool: Tool = {
       const keywords: string[] = Array.isArray(params.keywords) ? params.keywords : [];
       const includeTwitter = params.includeTwitter !== false;
       const includeGithubTrending = params.includeGithubTrending !== false;
+      const perSourceLimit = 20;
       
       let hnArticles: NewsArticle[] = [];
       let rssArticles: NewsArticle[] = [];
@@ -104,12 +105,14 @@ export const fetchNewsTool: Tool = {
       const shouldFetchRSS = language === 'zh' || language === 'all';
 
       // 计算每个源应该获取的数量
-      const hnLimit = shouldFetchHN && shouldFetchRSS 
+      const hnLimitRaw = shouldFetchHN && shouldFetchRSS 
         ? Math.ceil(limit * 0.7)  // 70% 英文
         : limit;
-      const rssLimit = shouldFetchHN && shouldFetchRSS
+      const rssLimitRaw = shouldFetchHN && shouldFetchRSS
         ? Math.ceil(limit * 0.3)  // 30% 中文
         : limit;
+      const hnLimit = Math.min(hnLimitRaw, perSourceLimit);
+      const rssLimit = Math.min(rssLimitRaw, perSourceLimit);
 
       // 并行获取数据
       const fetchPromises: Promise<void>[] = [];
@@ -161,7 +164,7 @@ export const fetchNewsTool: Tool = {
           twitterService.fetchHotTweets({
             bearerToken: process.env.X_BEARER_TOKEN,
             keywords,
-            limit: Math.ceil(limit * 0.5),
+            limit: Math.min(Math.ceil(limit * 0.5), perSourceLimit),
             timeRange
           }).then(articles => {
             twitterArticles = articles;
@@ -177,7 +180,7 @@ export const fetchNewsTool: Tool = {
         fetchPromises.push(
           githubTrendingService.fetchTrending({
             languages: (process.env.GITHUB_TRENDING_LANGUAGES || '').split(',').map(v => v.trim()).filter(Boolean),
-            limit: Math.ceil(limit * 0.5),
+            limit: Math.min(Math.ceil(limit * 0.5), perSourceLimit),
             timeRange
           }).then(articles => {
             githubArticles = articles;

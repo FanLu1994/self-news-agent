@@ -55,6 +55,7 @@ jobs:
           INCLUDE_PRODUCT_HUNT: ${{ secrets.INCLUDE_PRODUCT_HUNT }}
           INCLUDE_TWITTER: ${{ secrets.INCLUDE_TWITTER }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           OUTPUT_RSS_PATH: output/news-digest.xml
