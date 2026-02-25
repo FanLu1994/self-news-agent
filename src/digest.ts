@@ -6,6 +6,7 @@ import { emailService } from './services/email.service.js';
 import { githubTrendingService } from './services/github-trending.service.js';
 import { hackerNewsService } from './services/hackernews.service.js';
 import { markdownOutputService } from './services/markdown-output.service.js';
+import { productHuntService } from './services/product-hunt.service.js';
 import { readmeService } from './services/readme.service.js';
 import { rssOutputService } from './services/rss-output.service.js';
 import { rssService } from './services/rss.service.js';
@@ -65,7 +66,20 @@ export async function runDigestPipeline(): Promise<void> {
   console.log(`关键词: ${config.keywords.join(', ')}`);
   console.log(`模型: ${llm.provider}/${llm.model}`);
 
-  const [hnArticles, rssArticles, twitterArticles, githubArticles, ve2xArticles, linuxDoArticles, redditArticles, productHuntArticles] = await Promise.all([
+  // 获取 Product Hunt 产品（使用专门的服务）
+  let productHuntProducts: Awaited<ReturnType<typeof productHuntService.fetchTopProducts>> = [];
+  let productHuntArticles: NewsArticle[] = [];
+
+  if (config.includeProductHunt && config.productHuntFeeds.length > 0) {
+    productHuntProducts = await productHuntService.fetchTopProducts({
+      feedUrl: config.productHuntFeeds[0],
+      limit: config.maxItemsPerSource,
+      timeRange: config.timeRange
+    });
+    productHuntArticles = productHuntService.toArticles(productHuntProducts);
+  }
+
+  const [hnArticles, rssArticles, twitterArticles, githubArticles, ve2xArticles, linuxDoArticles, redditArticles] = await Promise.all([
     hackerNewsService.fetchAINews({
       limit: config.maxItemsPerSource,
       timeRange: config.timeRange,
@@ -92,8 +106,7 @@ export async function runDigestPipeline(): Promise<void> {
       : Promise.resolve([]),
     fetchRssIfEnabled(config.includeVe2x, config.ve2xFeeds, 'Ve2x', 've2x', 'zh', [], config),
     fetchRssIfEnabled(config.includeLinuxDo, config.linuxDoFeeds, 'Linux.do', 'linuxdo', 'zh', [], config),
-    fetchRssIfEnabled(config.includeReddit, config.redditFeeds, 'Reddit', 'reddit', 'en', config.keywords, config),
-    fetchRssIfEnabled(config.includeProductHunt, config.productHuntFeeds, 'Product Hunt', 'producthunt', 'en', [], config)
+    fetchRssIfEnabled(config.includeReddit, config.redditFeeds, 'Reddit', 'reddit', 'en', config.keywords, config)
   ]);
 
   // 读取历史记录用于去重
@@ -188,12 +201,14 @@ export async function runDigestPipeline(): Promise<void> {
     toReadableText(analysis.overview),
     '',
     '⭐ 值得关注:',
-    '',
-    ...analysis.highlights.map((h, idx) => {
-      const text = toReadableText(h);
-      return `${idx + 1}. ${text}`;
-    }).join('\n\n'),
+    ''
   ];
+
+  // 添加每一条值得关注的新闻
+  for (const [idx, h] of analysis.highlights.entries()) {
+    fullReport.push(`${idx + 1}. ${toReadableText(h)}`);
+    fullReport.push('');  // 每一条新闻后加一个空行
+  }
 
   // 添加洞察与深度（如果有）
   if (analysis.sourceHighlights) {
@@ -203,6 +218,21 @@ export async function runDigestPipeline(): Promise<void> {
       '',
       toReadableText(analysis.sourceHighlights)
     );
+  }
+
+  // 添加 Product Hunt 热门产品（如果有）
+  if (productHuntProducts.length > 0) {
+    const phText = productHuntService.generateRecommendationText(productHuntProducts);
+    if (phText) {
+      fullReport.push(
+        '',
+        '---',
+        '',
+        '🚀 Product Hunt 热门产品:',
+        '',
+        phText
+      );
+    }
   }
 
   // 添加话题统计

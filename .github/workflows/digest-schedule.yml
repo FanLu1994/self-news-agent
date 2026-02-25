@@ -2,8 +2,8 @@ name: Self News Digest Schedule
 
 on:
   schedule:
-    # 09:00 / 18:00 Asia/Shanghai = 01:00 / 10:00 UTC
-    - cron: '0 1,10 * * *'
+    # 10:20 Asia/Shanghai = 02:20 UTC
+    - cron: '20 2 * * *'
   workflow_dispatch:
 
 permissions:

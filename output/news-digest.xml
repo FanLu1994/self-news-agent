@@ -3,143 +3,42 @@
   <channel>
     <title>6-8 件事 (2026/2/25)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈还挺热闹的，我帮你筛了一遍，发现有几个方向特别值得你留意：
-
-1.  **AI 开发框架/智能体生态有新玩家**：GitHub Trending 上有个叫 `superpowers` 的框架热度飙升，主打“能工作的智能体技能框架”，看起来是想解决 AI 在实际开发中的落地问题。
-2.  **AI 安全与商业化的拉扯进入白热化**：Anthropic（Claude 的母公司）的新闻炸了锅，他们可能放弃核心安全承诺，并与美国军方有接触。这关系到未来 AI 模型的开放程度和伦理边界，是行业大事。
-3.  **“用 AI 重建 XX”成为新潮流**：有团队声称用 AI 在一周内重建了 Next.js，虽然具体成色待考，但这股“AI 辅助甚至主导开发”的风潮已经刮起来了，值得开发者关注。
-4.  **开源 AI 模型继续“卷”**：不仅有新的开源语音转文本模型宣称超越 Whisper，还有新的智能体开发环境发布，工具链越来越丰富。
-5.  **Rust 的“主流化”时刻**：有深度文章分析了 Ubuntu 全面拥抱 Rust 的意义，认为这是 Rust 跨越“鸿沟”、进入主流开发的关键信号，对系统编程和性能敏感领域影响深远。
-6.  **开发者的“AI 副驾”选择与烦恼**：社区里在讨论各种 AI 编程工具（如 GLM Coding Plan、Augment Code 的关闭），也有帖子吐槽同事过度依赖 AI 写代码带来的问题，非常真实。
-7.  **向量数据库与高性能计算**：一个用 Rust 写的实时、自学习的向量图神经网络数据库上了趋势，这类基础设施是 AI 应用（尤其是 RAG）的基石。
-
----</description>
+    <description>嘿，今天的技术圈信息挺有意思的。我帮你筛了一下，发现 Product Hunt 上 AI 应用很活跃，特别是那些能把 AI 能力直接嵌入到我们日常工具（比如 WhatsApp）里的产品，感觉越来越实用了。另外，有个关于域名的“避坑”提醒也值得开发者们留意，能省去不少麻烦。整体来看，AI 正从“玩具”变成真正提升效率的“工作伙伴”，这个趋势很明显。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 25 Feb 2026 10:20:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 14:09:44 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈还挺热闹的，我帮你筛了一遍，发现有几个方向特别值得你留意：
-
-1.  **AI 开发框架/智能体生态有新玩家**：GitHub Trending 上有个叫 `superpowers` 的框架热度飙升，主打“能工作的智能体技能框架”，看起来是想解决 AI 在实际开发中的落地问题。
-2.  **AI 安全与商业化的拉扯进入白热化**：Anthropic（Claude 的母公司）的新闻炸了锅，他们可能放弃核心安全承诺，并与美国军方有接触。这关系到未来 AI 模型的开放程度和伦理边界，是行业大事。
-3.  **“用 AI 重建 XX”成为新潮流**：有团队声称用 AI 在一周内重建了 Next.js，虽然具体成色待考，但这股“AI 辅助甚至主导开发”的风潮已经刮起来了，值得开发者关注。
-4.  **开源 AI 模型继续“卷”**：不仅有新的开源语音转文本模型宣称超越 Whisper，还有新的智能体开发环境发布，工具链越来越丰富。
-5.  **Rust 的“主流化”时刻**：有深度文章分析了 Ubuntu 全面拥抱 Rust 的意义，认为这是 Rust 跨越“鸿沟”、进入主流开发的关键信号，对系统编程和性能敏感领域影响深远。
-6.  **开发者的“AI 副驾”选择与烦恼**：社区里在讨论各种 AI 编程工具（如 GLM Coding Plan、Augment Code 的关闭），也有帖子吐槽同事过度依赖 AI 写代码带来的问题，非常真实。
-7.  **向量数据库与高性能计算**：一个用 Rust 写的实时、自学习的向量图神经网络数据库上了趋势，这类基础设施是 AI 应用（尤其是 RAG）的基石。
-
----</description>
-        <pubDate>Wed, 25 Feb 2026 10:20:32 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-25T10:19:41.376Z</guid>
+        <description>嘿，今天的技术圈信息挺有意思的。我帮你筛了一下，发现 Product Hunt 上 AI 应用很活跃，特别是那些能把 AI 能力直接嵌入到我们日常工具（比如 WhatsApp）里的产品，感觉越来越实用了。另外，有个关于域名的“避坑”提醒也值得开发者们留意，能省去不少麻烦。整体来看，AI 正从“玩具”变成真正提升效率的“工作伙伴”，这个趋势很明显。</description>
+        <pubDate>Wed, 25 Feb 2026 14:09:44 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-25T14:09:41.293Z</guid>
       </item>
     <item>
-        <title>D4Vinci/Scrapling</title>
-        <link>https://github.com/D4Vinci/Scrapling</link>
-        <description>Sponsor Star D4Vinci / Scrapling 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! | 今日 +1970 stars</description>
-        <author>D4Vinci</author>
-        <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 10:17:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-d4vinci-scrapling</guid>
+        <title>RamAIn - Read and write WhatsApp messages with Claude</title>
+        <link>https://www.producthunt.com/products/ramain</link>
+        <description>Read and write WhatsApp messages with Claude</description>
+        <author>RamAIn</author>
+        <category>producthunt</category>
+        <pubDate>Wed, 25 Feb 2026 14:08:11 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772028491324-5</guid>
       </item>
 <item>
-        <title>obra/superpowers</title>
-        <link>https://github.com/obra/superpowers</link>
-        <description>Sponsor Star obra / superpowers An agentic skills framework &amp; software development methodology that works. | 今日 +1195 stars</description>
-        <author>obra</author>
-        <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 10:17:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-obra-superpowers</guid>
+        <title>Yuma Social AI - Put your ecommerce social media on auto-pilot</title>
+        <link>https://www.producthunt.com/products/yuma-social-ai</link>
+        <description>Put your ecommerce social media on auto-pilot</description>
+        <author>Yuma Social AI</author>
+        <category>producthunt</category>
+        <pubDate>Wed, 25 Feb 2026 14:08:11 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772028491324-6</guid>
       </item>
 <item>
-        <title>LadybirdBrowser/ladybird</title>
-        <link>https://github.com/LadybirdBrowser/ladybird</link>
-        <description>Star LadybirdBrowser / ladybird Truly independent web browser | 今日 +236 stars</description>
-        <author>LadybirdBrowser</author>
-        <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 10:17:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ladybirdbrowser-ladybird</guid>
-      </item>
-<item>
-        <title>HunxByts/GhostTrack</title>
-        <link>https://github.com/HunxByts/GhostTrack</link>
-        <description>Star HunxByts / GhostTrack Useful tool to track location or mobile number | 今日 +145 stars</description>
-        <author>HunxByts</author>
-        <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 10:17:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hunxbyts-ghosttrack</guid>
-      </item>
-<item>
-        <title>GVCLab/PersonaLive</title>
-        <link>https://github.com/GVCLab/PersonaLive</link>
-        <description>Star GVCLab / PersonaLive [CVPR 2026] PersonaLive! : Expressive Portrait Image Animation for Live Streaming | 今日 +73 stars</description>
-        <author>GVCLab</author>
-        <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 10:17:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-gvclab-personalive</guid>
-      </item>
-<item>
-        <title>ruvnet/ruvector</title>
-        <link>https://github.com/ruvnet/ruvector</link>
-        <description>Star ruvnet / ruvector RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust. | 今日 +41 stars</description>
-        <author>ruvnet</author>
-        <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 10:17:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ruvnet-ruvector</guid>
-      </item>
-<item>
-        <title>openemr/openemr</title>
-        <link>https://github.com/openemr/openemr</link>
-        <description>Sponsor Star openemr / openemr The most popular open source electronic health records and medical practice management solution. | 今日 +13 stars</description>
-        <author>openemr</author>
-        <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 10:17:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-openemr-openemr</guid>
-      </item>
-<item>
-        <title>看完《辐射2》了，拷打codex搓了一个哔哔小子</title>
-        <link>https://linux.do/t/topic/1646946</link>
-        <description>辐射电视剧这两季质量都不错的捏！推荐观看
-
-
-哔哔小子：
-
-
-pipboy.hy2.dev
-  
-Create Next App
-Generated by create next app
-
-
-
-            
-1 个帖子 - 1 位参与者
-阅读完整话题...</description>
-        <author>Finn</author>
-        <category>linuxdo</category>
-        <pubDate>Wed, 25 Feb 2026 10:16:52 GMT</pubDate>
-        <guid isPermaLink="false">rss-0-834297858</guid>
-      </item>
-<item>
-        <title>上个号不知道为啥被封了</title>
-        <link>https://linux.do/t/topic/1646945</link>
-        <description>伤心了一晚上，是不是自己说错话了，还是因为开了浏览器广告屏蔽插件…
-2 个帖子 - 2 位参与者
-阅读完整话题...</description>
-        <author>gzq</author>
-        <category>linuxdo</category>
-        <pubDate>Wed, 25 Feb 2026 10:16:50 GMT</pubDate>
-        <guid isPermaLink="false">rss-1-834297859</guid>
-      </item>
-<item>
-        <title>与女朋友感情问题</title>
-        <link>https://linux.do/t/topic/1646944</link>
-        <description>我跟女朋友相处三年了，感情一直很好。我家庭条件比她好一些，她家的家庭条件也不差. 我自己本来其实不太想结婚。以前她也同意不结婚。最近两年她家里面催的紧了。她又很焦虑，年底开始催着我订婚。我也同意了，答应她再处一年，年底订婚。结果年底我们又拌嘴。她父母给她找了一个相亲对象，这次她同意见面了。我当时非常后悔，第二天早上就去她家找她父母想要挽回。结果她态度非常坚决，说是高富帅，她很喜欢。无果，他们本地的规矩是见面就小订，然后大订，最后订婚结婚。这次是小订。
-我后来多次道歉她态度也很...</description>
-        <author>CcCx</author>
-        <category>linuxdo</category>
-        <pubDate>Wed, 25 Feb 2026 10:16:39 GMT</pubDate>
-        <guid isPermaLink="false">rss-2-834297860</guid>
+        <title>切勿购买 .online 域名</title>
+        <link>https://www.0xsid.com/blog/online-tld-is-pain</link>
+        <description>切勿购买 .online 域名</description>
+        <author>ssiddharth</author>
+        <category>hn</category>
+        <pubDate>Wed, 25 Feb 2026 13:31:17 GMT</pubDate>
+        <guid isPermaLink="false">hn-47151233</guid>
       </item>
   </channel>
 </rss>

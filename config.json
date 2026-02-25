@@ -1,7 +1,7 @@
 {
   "$schema": "./config.schema.json",
   "keywords": {
-    "news": "",
+    "news": "ai,llm,agent,coding,code",
     "x": "ai,llm,agent,coding"
   },
   "fetch": {

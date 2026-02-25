@@ -2,7 +2,10 @@ import { writeFile } from 'node:fs/promises';
 import type { DigestAnalysis, TopicStatsDay, NewsArticle } from '../types/news.types.js';
 
 function formatDateTime(date: string): string {
-  return new Date(date).toLocaleString('zh-CN', { hour12: false });
+  return new Date(date).toLocaleString('zh-CN', {
+    hour12: false,
+    timeZone: 'Asia/Shanghai'
+  });
 }
 
 function groupBySource(articles: NewsArticle[]): Record<string, NewsArticle[]> {
