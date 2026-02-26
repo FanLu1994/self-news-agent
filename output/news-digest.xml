@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/2/25)</title>
+    <title>6-8 件事 (2026/2/26)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术资讯里，AI 和编程工具依然是绝对的主角。我发现好几个项目都围绕一个核心痛点展开：**如何让 AI 编程助手（Agent）变得更强大、更易用、更可控**。从帮你快速找到最佳编码模型，到为 AI Agent 打造专属的通信和监控工具，开发者们正在构建下一代“AI 协作者”的基础设施。同时，也有关于 AI 如何颠覆传统开发流程的实战案例，值得一看。</description>
+    <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的干货不少。我帮你筛了一遍，发现几个特别有意思的：有能让 AI 智能体“看见”整个互联网的工具，有重新定义代码协作的平台，还有帮你快速找到最强编程模型的方法。另外，社区里关于如何用 AI 高效写代码、对齐设计图的讨论也很火热，看来大家正在从“能用”向“好用”深挖。最后，还有个技术巧妙地解决了 AI 编码助手上下文爆炸的问题，非常实用。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 25 Feb 2026 14:57:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 03:21:04 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术资讯里，AI 和编程工具依然是绝对的主角。我发现好几个项目都围绕一个核心痛点展开：**如何让 AI 编程助手（Agent）变得更强大、更易用、更可控**。从帮你快速找到最佳编码模型，到为 AI Agent 打造专属的通信和监控工具，开发者们正在构建下一代“AI 协作者”的基础设施。同时，也有关于 AI 如何颠覆传统开发流程的实战案例，值得一看。</description>
-        <pubDate>Wed, 25 Feb 2026 14:57:28 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-25T14:57:14.927Z</guid>
+        <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的干货不少。我帮你筛了一遍，发现几个特别有意思的：有能让 AI 智能体“看见”整个互联网的工具，有重新定义代码协作的平台，还有帮你快速找到最强编程模型的方法。另外，社区里关于如何用 AI 高效写代码、对齐设计图的讨论也很火热，看来大家正在从“能用”向“好用”深挖。最后，还有个技术巧妙地解决了 AI 编码助手上下文爆炸的问题，非常实用。</description>
+        <pubDate>Thu, 26 Feb 2026 03:21:04 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-26T03:20:49.117Z</guid>
       </item>
     <item>
+        <title>Panniantong/Agent-Reach</title>
+        <link>https://github.com/Panniantong/Agent-Reach</link>
+        <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. | 近期热门 | 总 1042 stars</description>
+        <author>Panniantong</author>
+        <category>github</category>
+        <pubDate>Thu, 26 Feb 2026 03:19:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-panniantong-agent-reach</guid>
+      </item>
+<item>
+        <title>better-auth/better-hub</title>
+        <link>https://github.com/better-auth/better-hub</link>
+        <description>Re-imagining code collaboration for humans and agents | 近期热门 | 总 415 stars</description>
+        <author>better-auth</author>
+        <category>github</category>
+        <pubDate>Thu, 26 Feb 2026 03:19:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-better-auth-better-hub</guid>
+      </item>
+<item>
         <title>vava-nessa/free-coding-models</title>
         <link>https://github.com/vava-nessa/free-coding-models</link>
-        <description>Find the fastest coding LLM models in seconds | 近期热门 | 总 336 stars</description>
+        <description>Find the fastest coding LLM models in seconds | 近期热门 | 总 361 stars</description>
         <author>vava-nessa</author>
         <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
+        <pubDate>Thu, 26 Feb 2026 03:19:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vava-nessa-free-coding-models</guid>
       </item>
 <item>
         <title>GreatScott/enveil</title>
         <link>https://github.com/GreatScott/enveil</link>
-        <description>ENVeil: Hide .env secrets from prAIng eyes: secrets live in local encrypted stores (per project) and are injected directly into apps at runtime, never touching disk as plaintext. | 近期热门 | 总 332 stars</description>
+        <description>ENVeil: Hide .env secrets from prAIng eyes: secrets live in local encrypted stores (per project) and are injected directly into apps at runtime, never touching disk as plaintext. | 近期热门 | 总 350 stars</description>
         <author>GreatScott</author>
         <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
+        <pubDate>Thu, 26 Feb 2026 03:19:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-greatscott-enveil</guid>
-      </item>
-<item>
-        <title>vikasprogrammer/walkie</title>
-        <link>https://github.com/vikasprogrammer/walkie</link>
-        <description>P2P communication for AI agents. No server. No setup. Just talk. | 近期热门 | 总 206 stars</description>
-        <author>vikasprogrammer</author>
-        <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vikasprogrammer-walkie</guid>
       </item>
 <item>
         <title>quailyquaily/aqua</title>
         <link>https://github.com/quailyquaily/aqua</link>
-        <description>Aqua, a cli message tool for AI agents  | 近期热门 | 总 185 stars</description>
+        <description>Aqua, a cli message tool for AI agents  | 近期热门 | 总 195 stars</description>
         <author>quailyquaily</author>
         <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
+        <pubDate>Thu, 26 Feb 2026 03:19:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-quailyquaily-aqua</guid>
       </item>
 <item>
-        <title>wesm/agentsview</title>
-        <link>https://github.com/wesm/agentsview</link>
-        <description>Fast local coding agent session viewer for Claude, Codex, Gemini, with analytics dashboard and full text search | 近期热门 | 总 147 stars</description>
-        <author>wesm</author>
-        <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wesm-agentsview</guid>
-      </item>
-<item>
-        <title>daggerhashimoto/openclaw-nerve</title>
-        <link>https://github.com/daggerhashimoto/openclaw-nerve</link>
-        <description>Self-hosted web UI for AI agents — voice chat, live workspace editing, charts, cron scheduling. Built for OpenClaw. | 近期热门 | 总 87 stars</description>
-        <author>daggerhashimoto</author>
-        <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-daggerhashimoto-openclaw-nerve</guid>
-      </item>
-<item>
-        <title>Ask - AI编码代理的内存基础设施</title>
-        <link>https://www.producthunt.com/products/ask-7</link>
+        <title>Notion Custom Agents - 在Notion中你能做的任何事情，你的代理都能为你完成。</title>
+        <link>https://www.producthunt.com/products/notion</link>
         <description>讨论 | 链接</description>
-        <author>Ask</author>
+        <author>Notion Custom Agents</author>
         <category>producthunt</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:30 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772031330245-0</guid>
+        <pubDate>Thu, 26 Feb 2026 03:19:01 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772075941368-0</guid>
       </item>
 <item>
-        <title>RamAIn - 使用Claude读写WhatsApp消息</title>
-        <link>https://www.producthunt.com/products/ramain</link>
+        <title>VibePad - 使用游戏手柄在沙发上控制AI编码助手</title>
+        <link>https://www.producthunt.com/products/vibepad</link>
         <description>讨论 | 链接</description>
-        <author>RamAIn</author>
+        <author>VibePad</author>
         <category>producthunt</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:30 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772031330245-5</guid>
+        <pubDate>Thu, 26 Feb 2026 03:19:01 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772075941368-5</guid>
       </item>
 <item>
-        <title>Mercury 2 - 专为即时生产AI打造的最快推理LLM。</title>
+        <title>Orca - 通过AI在浏览器中畅玩、修改和托管《我的世界》。</title>
+        <link>https://www.producthunt.com/products/orca-3</link>
+        <description>讨论 | 链接</description>
+        <author>Orca</author>
+        <category>producthunt</category>
+        <pubDate>Thu, 26 Feb 2026 03:19:01 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772075941368-7</guid>
+      </item>
+<item>
+        <title>Thinglo - 从任何应用保存任何内容——AI整理、私密、即时。</title>
+        <link>https://www.producthunt.com/products/thinglo-save-anything-lose-nothing</link>
+        <description>讨论 | 链接</description>
+        <author>Thinglo</author>
+        <category>producthunt</category>
+        <pubDate>Thu, 26 Feb 2026 03:19:01 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772075941368-9</guid>
+      </item>
+<item>
+        <title>Mercury 2 - 专为即时生产AI打造的最快推理大语言模型</title>
         <link>https://www.producthunt.com/products/mercury-412</link>
         <description>讨论 | 链接</description>
         <author>Mercury 2</author>
         <category>producthunt</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:30 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772031330245-9</guid>
-      </item>
-<item>
-        <title>Yuma Social AI - 将您的电子商务社交媒体置于自动运行模式</title>
-        <link>https://www.producthunt.com/products/yuma-social-ai</link>
-        <description>讨论 | 链接</description>
-        <author>Yuma Social AI</author>
-        <category>producthunt</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:30 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772031330245-10</guid>
+        <pubDate>Thu, 26 Feb 2026 03:19:01 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772075941368-10</guid>
       </item>
   </channel>
 </rss>
