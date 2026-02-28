@@ -1,107 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/2/27)</title>
+    <title>6-8 件事 (2026/2/28)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的信息流简直是为你定制的！AI Agent 领域非常热闹，有好几个新的开源框架和工具冒出来，都在解决让 Agent 更实用、更强大的问题。同时，关于 AI 编程工具（比如 Claude Code 和 Codex）的实际使用体验和技巧讨论也很多，看来大家已经从“尝鲜”进入到“深度使用和优化”阶段了。另外，还有两篇关于 AI 安全的有趣研究，揭示了 LLM 可能被“隐形字符”欺骗，这个角度挺新奇的。</description>
+    <description>嘿，今天的信息流里，关于 AI 编程和智能体的内容特别多，感觉整个开发者社区都在热烈讨论和实践。我帮你筛了一遍，发现有几个方向特别值得你留意：
+
+1.  **AI 编程代理（AI Coding Agent）** 依然是绝对的热点，今天有好几个新的开源项目发布，都在解决如何让多个 AI 代理协同工作、管理它们的记忆和状态。
+2.  **“氛围编程”（Vibe Coding）的反思** 开始出现，有文章在探讨如何从零散的 AI 辅助编码，升级到更系统化的“智能体驱动的软件工程”。
+3.  **本地/离线 AI 编码工具** 的讨论很活跃，特别是关于 Claude Code 的使用体验、JetBrains 插件选择，以及如何统计各工具 Token 消耗的工具。
+4.  一些新的**开源 AI 网关和操作系统**项目冒头，旨在统一管理不同的 LLM 和智能体，看起来是解决当前生态碎片化的一个尝试。
+5.  在模型层面，关于 **Qwen 系列编码模型** 的讨论很多，社区在积极对比不同参数规模的性能，这对选择本地部署的编码模型很有参考价值。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 27 Feb 2026 03:19:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 03:09:49 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的信息流简直是为你定制的！AI Agent 领域非常热闹，有好几个新的开源框架和工具冒出来，都在解决让 Agent 更实用、更强大的问题。同时，关于 AI 编程工具（比如 Claude Code 和 Codex）的实际使用体验和技巧讨论也很多，看来大家已经从“尝鲜”进入到“深度使用和优化”阶段了。另外，还有两篇关于 AI 安全的有趣研究，揭示了 LLM 可能被“隐形字符”欺骗，这个角度挺新奇的。</description>
-        <pubDate>Fri, 27 Feb 2026 03:19:47 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-27T03:19:16.225Z</guid>
+        <description>嘿，今天的信息流里，关于 AI 编程和智能体的内容特别多，感觉整个开发者社区都在热烈讨论和实践。我帮你筛了一遍，发现有几个方向特别值得你留意：
+
+1.  **AI 编程代理（AI Coding Agent）** 依然是绝对的热点，今天有好几个新的开源项目发布，都在解决如何让多个 AI 代理协同工作、管理它们的记忆和状态。
+2.  **“氛围编程”（Vibe Coding）的反思** 开始出现，有文章在探讨如何从零散的 AI 辅助编码，升级到更系统化的“智能体驱动的软件工程”。
+3.  **本地/离线 AI 编码工具** 的讨论很活跃，特别是关于 Claude Code 的使用体验、JetBrains 插件选择，以及如何统计各工具 Token 消耗的工具。
+4.  一些新的**开源 AI 网关和操作系统**项目冒头，旨在统一管理不同的 LLM 和智能体，看起来是解决当前生态碎片化的一个尝试。
+5.  在模型层面，关于 **Qwen 系列编码模型** 的讨论很多，社区在积极对比不同参数规模的性能，这对选择本地部署的编码模型很有参考价值。</description>
+        <pubDate>Sat, 28 Feb 2026 03:09:49 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-02-28T03:08:58.257Z</guid>
       </item>
     <item>
         <title>RightNow-AI/openfang</title>
         <link>https://github.com/RightNow-AI/openfang</link>
-        <description>Open-source Agent Operating System | 近期热门 | 总 2139 stars</description>
+        <description>Open-source Agent Operating System | 近期热门 | 总 4002 stars</description>
         <author>RightNow-AI</author>
         <category>github</category>
-        <pubDate>Fri, 27 Feb 2026 03:17:25 GMT</pubDate>
+        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-rightnow-ai-openfang</guid>
       </item>
 <item>
         <title>Panniantong/Agent-Reach</title>
         <link>https://github.com/Panniantong/Agent-Reach</link>
-        <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. | 近期热门 | 总 1910 stars</description>
+        <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. | 近期热门 | 总 2399 stars</description>
         <author>Panniantong</author>
         <category>github</category>
-        <pubDate>Fri, 27 Feb 2026 03:17:25 GMT</pubDate>
+        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-panniantong-agent-reach</guid>
       </item>
 <item>
         <title>win4r/memory-lancedb-pro</title>
         <link>https://github.com/win4r/memory-lancedb-pro</link>
-        <description>Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI | 近期热门 | 总 504 stars</description>
+        <description>Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI | 近期热门 | 总 618 stars</description>
         <author>win4r</author>
         <category>github</category>
-        <pubDate>Fri, 27 Feb 2026 03:17:25 GMT</pubDate>
+        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-win4r-memory-lancedb-pro</guid>
       </item>
 <item>
         <title>GreatScott/enject</title>
         <link>https://github.com/GreatScott/enject</link>
-        <description>enject: Hide .env secrets from prAIng eyes: secrets live in local encrypted stores (per project) and are injected directly into apps at runtime, never touching disk as plaintext. | 近期热门 | 总 380 stars</description>
+        <description>enject: Hide .env secrets from prAIng eyes: secrets live in local encrypted stores (per project) and are injected directly into apps at runtime, never touching disk as plaintext. | 近期热门 | 总 395 stars</description>
         <author>GreatScott</author>
         <category>github</category>
-        <pubDate>Fri, 27 Feb 2026 03:17:25 GMT</pubDate>
+        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-greatscott-enject</guid>
       </item>
 <item>
-        <title>quailyquaily/aqua</title>
-        <link>https://github.com/quailyquaily/aqua</link>
-        <description>Aqua, a cli message tool for AI agents  | 近期热门 | 总 213 stars</description>
-        <author>quailyquaily</author>
+        <title>nextlevelbuilder/goclaw</title>
+        <link>https://github.com/nextlevelbuilder/goclaw</link>
+        <description>Multi-agent AI gateway with teams, delegation &amp; orchestration. Single Go binary, 11+ LLM providers, 5 channels. | 近期热门 | 总 239 stars</description>
+        <author>nextlevelbuilder</author>
         <category>github</category>
-        <pubDate>Fri, 27 Feb 2026 03:17:25 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-quailyquaily-aqua</guid>
+        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nextlevelbuilder-goclaw</guid>
+      </item>
+<item>
+        <title>bcurts/agentchattr</title>
+        <link>https://github.com/bcurts/agentchattr</link>
+        <description>Local chat server for real-time autonomous coordination between AI coding agents and humans | 近期热门 | 总 196 stars</description>
+        <author>bcurts</author>
+        <category>github</category>
+        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-bcurts-agentchattr</guid>
       </item>
 <item>
         <title>storozhenko98/beehive</title>
         <link>https://github.com/storozhenko98/beehive</link>
-        <description>Orchestrate coding agents across isolated git workspaces | 近期热门 | 总 35 stars</description>
+        <description>Orchestrate coding agents across isolated git workspaces | 近期热门 | 总 46 stars</description>
         <author>storozhenko98</author>
         <category>github</category>
-        <pubDate>Fri, 27 Feb 2026 03:17:25 GMT</pubDate>
+        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-storozhenko98-beehive</guid>
       </item>
 <item>
-        <title>Rover by rtrvr.ai - 只需一个脚本标签，即可将您的网站转变为AI代理。</title>
-        <link>https://www.producthunt.com/products/rtrvr-ai</link>
+        <title>Superset - 在您的机器上运行一支由Claude Code、Codex等组成的代码大军</title>
+        <link>https://www.producthunt.com/products/superset-5</link>
         <description>讨论 | 链接</description>
-        <author>Rover by rtrvr.ai</author>
+        <author>Superset</author>
         <category>producthunt</category>
-        <pubDate>Fri, 27 Feb 2026 03:17:20 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772162240457-1</guid>
+        <pubDate>Sat, 28 Feb 2026 03:06:24 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772247984770-0</guid>
       </item>
 <item>
-        <title>Wordwand - AI无处不在，随你键入。十倍提升你的生产力。</title>
-        <link>https://www.producthunt.com/products/wordwand</link>
+        <title>Alkemi - 您在Slack中的AI数据队友</title>
+        <link>https://www.producthunt.com/products/alkemi</link>
         <description>讨论 | 链接</description>
-        <author>Wordwand</author>
+        <author>Alkemi</author>
         <category>producthunt</category>
-        <pubDate>Fri, 27 Feb 2026 03:17:20 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772162240457-2</guid>
+        <pubDate>Sat, 28 Feb 2026 03:06:24 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772247984770-3</guid>
       </item>
 <item>
-        <title>CodeWords UI - 让您的自动化流程焕发生机</title>
-        <link>https://www.producthunt.com/products/codewords</link>
+        <title>Mastra Code - 永不压缩的AI编码代理</title>
+        <link>https://www.producthunt.com/products/mastra</link>
         <description>讨论 | 链接</description>
-        <author>CodeWords UI</author>
+        <author>Mastra Code</author>
         <category>producthunt</category>
-        <pubDate>Fri, 27 Feb 2026 03:17:20 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772162240457-3</guid>
-      </item>
-<item>
-        <title>Zavi AI - Voice to Action OS - 能在每个应用中打字、编辑、查看并执行操作的语音助手。</title>
-        <link>https://www.producthunt.com/products/zavi-ai-voice-talk-to-text</link>
-        <description>讨论 | 链接</description>
-        <author>Zavi AI - Voice to Action OS</author>
-        <category>producthunt</category>
-        <pubDate>Fri, 27 Feb 2026 03:17:20 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772162240457-5</guid>
+        <pubDate>Sat, 28 Feb 2026 03:06:24 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772247984770-4</guid>
       </item>
   </channel>
 </rss>
