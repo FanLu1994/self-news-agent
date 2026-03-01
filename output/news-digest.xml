@@ -1,119 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/2/28)</title>
+    <title>6-8 件事 (2026/3/1)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的信息流里，关于 AI 编程和智能体的内容特别多，感觉整个开发者社区都在热烈讨论和实践。我帮你筛了一遍，发现有几个方向特别值得你留意：
+    <description>嘿，今天的技术资讯里，AI 编程和智能体（Agent）绝对是主角，感觉整个圈子都在围绕“如何让 AI 更好地帮我们写代码、做项目”打转。我帮你挑出了几件特别值得你留意的事：
 
-1.  **AI 编程代理（AI Coding Agent）** 依然是绝对的热点，今天有好几个新的开源项目发布，都在解决如何让多个 AI 代理协同工作、管理它们的记忆和状态。
-2.  **“氛围编程”（Vibe Coding）的反思** 开始出现，有文章在探讨如何从零散的 AI 辅助编码，升级到更系统化的“智能体驱动的软件工程”。
-3.  **本地/离线 AI 编码工具** 的讨论很活跃，特别是关于 Claude Code 的使用体验、JetBrains 插件选择，以及如何统计各工具 Token 消耗的工具。
-4.  一些新的**开源 AI 网关和操作系统**项目冒头，旨在统一管理不同的 LLM 和智能体，看起来是解决当前生态碎片化的一个尝试。
-5.  在模型层面，关于 **Qwen 系列编码模型** 的讨论很多，社区在积极对比不同参数规模的性能，这对选择本地部署的编码模型很有参考价值。</description>
+1.  **开源 AI 操作系统和智能体框架**又上新了，有号称“Agent 操作系统”的，也有能帮智能体“看见”整个互联网的，开发者工具生态越来越热闹。
+2.  **AI 编码代理（Coding Agent）** 是热议焦点，既有新产品发布，也有关于它们如何影响开源未来的深度讨论，甚至还有教你“压榨” Claude Code 性能的技巧。
+3.  **Claude Code / Codex 等开发工具**的**实用技巧和问题**在社区里讨论非常热烈，比如怎么管理上下文、保存对话、连接其他平台，都是实打实的“生产力痛点”。
+4.  有篇文章提出了一个挺有意思的**趋势观察**：当 AI 编码代理开始大量接管 GitHub 项目时，开源社区会变成什么样？值得思考。
+5.  一个能**将 Claude Code 上下文消耗降低 98% 的 MCP 服务器**技术方案被多次提及，这对于重度使用 AI 编程工具的人来说可能是“神器”。
+6.  一些**新的 AI 辅助开发产品**在 Product Hunt 上亮相，比如永不压缩上下文的编码代理、能在本地运行多个 AI 编码模型的平台等。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 28 Feb 2026 03:09:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 03:28:05 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的信息流里，关于 AI 编程和智能体的内容特别多，感觉整个开发者社区都在热烈讨论和实践。我帮你筛了一遍，发现有几个方向特别值得你留意：
+        <description>嘿，今天的技术资讯里，AI 编程和智能体（Agent）绝对是主角，感觉整个圈子都在围绕“如何让 AI 更好地帮我们写代码、做项目”打转。我帮你挑出了几件特别值得你留意的事：
 
-1.  **AI 编程代理（AI Coding Agent）** 依然是绝对的热点，今天有好几个新的开源项目发布，都在解决如何让多个 AI 代理协同工作、管理它们的记忆和状态。
-2.  **“氛围编程”（Vibe Coding）的反思** 开始出现，有文章在探讨如何从零散的 AI 辅助编码，升级到更系统化的“智能体驱动的软件工程”。
-3.  **本地/离线 AI 编码工具** 的讨论很活跃，特别是关于 Claude Code 的使用体验、JetBrains 插件选择，以及如何统计各工具 Token 消耗的工具。
-4.  一些新的**开源 AI 网关和操作系统**项目冒头，旨在统一管理不同的 LLM 和智能体，看起来是解决当前生态碎片化的一个尝试。
-5.  在模型层面，关于 **Qwen 系列编码模型** 的讨论很多，社区在积极对比不同参数规模的性能，这对选择本地部署的编码模型很有参考价值。</description>
-        <pubDate>Sat, 28 Feb 2026 03:09:49 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-28T03:08:58.257Z</guid>
+1.  **开源 AI 操作系统和智能体框架**又上新了，有号称“Agent 操作系统”的，也有能帮智能体“看见”整个互联网的，开发者工具生态越来越热闹。
+2.  **AI 编码代理（Coding Agent）** 是热议焦点，既有新产品发布，也有关于它们如何影响开源未来的深度讨论，甚至还有教你“压榨” Claude Code 性能的技巧。
+3.  **Claude Code / Codex 等开发工具**的**实用技巧和问题**在社区里讨论非常热烈，比如怎么管理上下文、保存对话、连接其他平台，都是实打实的“生产力痛点”。
+4.  有篇文章提出了一个挺有意思的**趋势观察**：当 AI 编码代理开始大量接管 GitHub 项目时，开源社区会变成什么样？值得思考。
+5.  一个能**将 Claude Code 上下文消耗降低 98% 的 MCP 服务器**技术方案被多次提及，这对于重度使用 AI 编程工具的人来说可能是“神器”。
+6.  一些**新的 AI 辅助开发产品**在 Product Hunt 上亮相，比如永不压缩上下文的编码代理、能在本地运行多个 AI 编码模型的平台等。</description>
+        <pubDate>Sun, 01 Mar 2026 03:28:05 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-01T03:27:35.036Z</guid>
       </item>
     <item>
         <title>RightNow-AI/openfang</title>
         <link>https://github.com/RightNow-AI/openfang</link>
-        <description>Open-source Agent Operating System | 近期热门 | 总 4002 stars</description>
+        <description>Open-source Agent Operating System | 近期热门 | 总 5835 stars</description>
         <author>RightNow-AI</author>
         <category>github</category>
-        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
+        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-rightnow-ai-openfang</guid>
       </item>
 <item>
         <title>Panniantong/Agent-Reach</title>
         <link>https://github.com/Panniantong/Agent-Reach</link>
-        <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. | 近期热门 | 总 2399 stars</description>
+        <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. | 近期热门 | 总 3093 stars</description>
         <author>Panniantong</author>
         <category>github</category>
-        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
+        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-panniantong-agent-reach</guid>
+      </item>
+<item>
+        <title>agentscope-ai/CoPaw</title>
+        <link>https://github.com/agentscope-ai/CoPaw</link>
+        <description>Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities. | 近期热门 | 总 2216 stars</description>
+        <author>agentscope-ai</author>
+        <category>github</category>
+        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-agentscope-ai-copaw</guid>
+      </item>
+<item>
+        <title>taigrr/spank</title>
+        <link>https://github.com/taigrr/spank</link>
+        <description>Slap your MacBook, it yells back. Uses Apple Silicon accelerometer via IOKit HID. | 近期热门 | 总 780 stars</description>
+        <author>taigrr</author>
+        <category>github</category>
+        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-taigrr-spank</guid>
       </item>
 <item>
         <title>win4r/memory-lancedb-pro</title>
         <link>https://github.com/win4r/memory-lancedb-pro</link>
-        <description>Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI | 近期热门 | 总 618 stars</description>
+        <description>Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI | 近期热门 | 总 697 stars</description>
         <author>win4r</author>
         <category>github</category>
-        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
+        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-win4r-memory-lancedb-pro</guid>
       </item>
 <item>
-        <title>GreatScott/enject</title>
-        <link>https://github.com/GreatScott/enject</link>
-        <description>enject: Hide .env secrets from prAIng eyes: secrets live in local encrypted stores (per project) and are injected directly into apps at runtime, never touching disk as plaintext. | 近期热门 | 总 395 stars</description>
-        <author>GreatScott</author>
+        <title>ForLoopCodes/contextplus</title>
+        <link>https://github.com/ForLoopCodes/contextplus</link>
+        <description>Semantic Intelligence for Large-Scale Engineering. Context+ is an MCP server designed for developers who demand 99% accuracy. By combining Tree-sitter AST parsing, Spectral Clustering, and Obsidian-style linking, Context+ turns a massive codebase into a searchable, hierarchical feature graph. | 近期热门 | 总 617 stars</description>
+        <author>ForLoopCodes</author>
         <category>github</category>
-        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-greatscott-enject</guid>
+        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-forloopcodes-contextplus</guid>
       </item>
 <item>
-        <title>nextlevelbuilder/goclaw</title>
-        <link>https://github.com/nextlevelbuilder/goclaw</link>
-        <description>Multi-agent AI gateway with teams, delegation &amp; orchestration. Single Go binary, 11+ LLM providers, 5 channels. | 近期热门 | 总 239 stars</description>
-        <author>nextlevelbuilder</author>
+        <title>3DCF-Labs/safepilot</title>
+        <link>https://github.com/3DCF-Labs/safepilot</link>
+        <description>AI assistant that executes real work, safely. | 近期热门 | 总 375 stars</description>
+        <author>3DCF-Labs</author>
         <category>github</category>
-        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nextlevelbuilder-goclaw</guid>
-      </item>
-<item>
-        <title>bcurts/agentchattr</title>
-        <link>https://github.com/bcurts/agentchattr</link>
-        <description>Local chat server for real-time autonomous coordination between AI coding agents and humans | 近期热门 | 总 196 stars</description>
-        <author>bcurts</author>
-        <category>github</category>
-        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-bcurts-agentchattr</guid>
+        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-3dcf-labs-safepilot</guid>
       </item>
 <item>
         <title>storozhenko98/beehive</title>
         <link>https://github.com/storozhenko98/beehive</link>
-        <description>Orchestrate coding agents across isolated git workspaces | 近期热门 | 总 46 stars</description>
+        <description>Orchestrate coding agents across isolated git workspaces | 近期热门 | 总 47 stars</description>
         <author>storozhenko98</author>
         <category>github</category>
-        <pubDate>Sat, 28 Feb 2026 03:06:30 GMT</pubDate>
+        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-storozhenko98-beehive</guid>
       </item>
 <item>
-        <title>Superset - 在您的机器上运行一支由Claude Code、Codex等组成的代码大军</title>
-        <link>https://www.producthunt.com/products/superset-5</link>
-        <description>讨论 | 链接</description>
-        <author>Superset</author>
-        <category>producthunt</category>
-        <pubDate>Sat, 28 Feb 2026 03:06:24 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772247984770-0</guid>
+        <title>KanaiyaKatarmal/VerticalSliceArchitectureTemplate</title>
+        <link>https://github.com/KanaiyaKatarmal/VerticalSliceArchitectureTemplate</link>
+        <description> | 近期热门 | 总 26 stars</description>
+        <author>KanaiyaKatarmal</author>
+        <category>github</category>
+        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kanaiyakatarmal-verticalslicearchitecturetemplate</guid>
       </item>
 <item>
-        <title>Alkemi - 您在Slack中的AI数据队友</title>
-        <link>https://www.producthunt.com/products/alkemi</link>
+        <title>Google AI Edge Gallery - 将设备端函数调用引入iPhone</title>
+        <link>https://www.producthunt.com/products/google</link>
         <description>讨论 | 链接</description>
-        <author>Alkemi</author>
+        <author>Google AI Edge Gallery</author>
         <category>producthunt</category>
-        <pubDate>Sat, 28 Feb 2026 03:06:24 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772247984770-3</guid>
-      </item>
-<item>
-        <title>Mastra Code - 永不压缩的AI编码代理</title>
-        <link>https://www.producthunt.com/products/mastra</link>
-        <description>讨论 | 链接</description>
-        <author>Mastra Code</author>
-        <category>producthunt</category>
-        <pubDate>Sat, 28 Feb 2026 03:06:24 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772247984770-4</guid>
+        <pubDate>Sun, 01 Mar 2026 03:25:37 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772335537500-0</guid>
       </item>
   </channel>
 </rss>
