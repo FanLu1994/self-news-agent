@@ -1,121 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/1)</title>
+    <title>6-8 件事 (2026/3/2)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术资讯里，AI 编程和智能体（Agent）绝对是主角，感觉整个圈子都在围绕“如何让 AI 更好地帮我们写代码、做项目”打转。我帮你挑出了几件特别值得你留意的事：
-
-1.  **开源 AI 操作系统和智能体框架**又上新了，有号称“Agent 操作系统”的，也有能帮智能体“看见”整个互联网的，开发者工具生态越来越热闹。
-2.  **AI 编码代理（Coding Agent）** 是热议焦点，既有新产品发布，也有关于它们如何影响开源未来的深度讨论，甚至还有教你“压榨” Claude Code 性能的技巧。
-3.  **Claude Code / Codex 等开发工具**的**实用技巧和问题**在社区里讨论非常热烈，比如怎么管理上下文、保存对话、连接其他平台，都是实打实的“生产力痛点”。
-4.  有篇文章提出了一个挺有意思的**趋势观察**：当 AI 编码代理开始大量接管 GitHub 项目时，开源社区会变成什么样？值得思考。
-5.  一个能**将 Claude Code 上下文消耗降低 98% 的 MCP 服务器**技术方案被多次提及，这对于重度使用 AI 编程工具的人来说可能是“神器”。
-6.  一些**新的 AI 辅助开发产品**在 Product Hunt 上亮相，比如永不压缩上下文的编码代理、能在本地运行多个 AI 编码模型的平台等。</description>
+    <description>嘿，今天的信息流里，关于 AI 和编程工具的内容特别多，感觉整个社区都在热烈讨论怎么用 AI 来提升开发效率。我帮你挑出了几件最值得你关注的事：首先是几个新的开源 AI Agent 项目，看起来在易用性和功能上都有新想法；然后是关于 Claude Code 和 OpenCode 的实用讨论，很多开发者都在分享自己的使用心得和踩坑经验；最后，还有几篇关于如何将 AI 深度融入工作流的深度分享，非常实在。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 01 Mar 2026 03:28:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 03:21:07 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术资讯里，AI 编程和智能体（Agent）绝对是主角，感觉整个圈子都在围绕“如何让 AI 更好地帮我们写代码、做项目”打转。我帮你挑出了几件特别值得你留意的事：
-
-1.  **开源 AI 操作系统和智能体框架**又上新了，有号称“Agent 操作系统”的，也有能帮智能体“看见”整个互联网的，开发者工具生态越来越热闹。
-2.  **AI 编码代理（Coding Agent）** 是热议焦点，既有新产品发布，也有关于它们如何影响开源未来的深度讨论，甚至还有教你“压榨” Claude Code 性能的技巧。
-3.  **Claude Code / Codex 等开发工具**的**实用技巧和问题**在社区里讨论非常热烈，比如怎么管理上下文、保存对话、连接其他平台，都是实打实的“生产力痛点”。
-4.  有篇文章提出了一个挺有意思的**趋势观察**：当 AI 编码代理开始大量接管 GitHub 项目时，开源社区会变成什么样？值得思考。
-5.  一个能**将 Claude Code 上下文消耗降低 98% 的 MCP 服务器**技术方案被多次提及，这对于重度使用 AI 编程工具的人来说可能是“神器”。
-6.  一些**新的 AI 辅助开发产品**在 Product Hunt 上亮相，比如永不压缩上下文的编码代理、能在本地运行多个 AI 编码模型的平台等。</description>
-        <pubDate>Sun, 01 Mar 2026 03:28:05 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-01T03:27:35.036Z</guid>
+        <description>嘿，今天的信息流里，关于 AI 和编程工具的内容特别多，感觉整个社区都在热烈讨论怎么用 AI 来提升开发效率。我帮你挑出了几件最值得你关注的事：首先是几个新的开源 AI Agent 项目，看起来在易用性和功能上都有新想法；然后是关于 Claude Code 和 OpenCode 的实用讨论，很多开发者都在分享自己的使用心得和踩坑经验；最后，还有几篇关于如何将 AI 深度融入工作流的深度分享，非常实在。</description>
+        <pubDate>Mon, 02 Mar 2026 03:21:07 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-02T03:20:32.720Z</guid>
       </item>
     <item>
         <title>RightNow-AI/openfang</title>
         <link>https://github.com/RightNow-AI/openfang</link>
-        <description>Open-source Agent Operating System | 近期热门 | 总 5835 stars</description>
+        <description>Open-source Agent Operating System | 近期热门 | 总 7788 stars</description>
         <author>RightNow-AI</author>
         <category>github</category>
-        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
+        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-rightnow-ai-openfang</guid>
-      </item>
-<item>
-        <title>Panniantong/Agent-Reach</title>
-        <link>https://github.com/Panniantong/Agent-Reach</link>
-        <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. | 近期热门 | 总 3093 stars</description>
-        <author>Panniantong</author>
-        <category>github</category>
-        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-panniantong-agent-reach</guid>
       </item>
 <item>
         <title>agentscope-ai/CoPaw</title>
         <link>https://github.com/agentscope-ai/CoPaw</link>
-        <description>Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities. | 近期热门 | 总 2216 stars</description>
+        <description>Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities. | 近期热门 | 总 3657 stars</description>
         <author>agentscope-ai</author>
         <category>github</category>
-        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
+        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-agentscope-ai-copaw</guid>
       </item>
 <item>
-        <title>taigrr/spank</title>
-        <link>https://github.com/taigrr/spank</link>
-        <description>Slap your MacBook, it yells back. Uses Apple Silicon accelerometer via IOKit HID. | 近期热门 | 总 780 stars</description>
-        <author>taigrr</author>
+        <title>Panniantong/Agent-Reach</title>
+        <link>https://github.com/Panniantong/Agent-Reach</link>
+        <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. | 近期热门 | 总 3510 stars</description>
+        <author>Panniantong</author>
         <category>github</category>
-        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-taigrr-spank</guid>
-      </item>
-<item>
-        <title>win4r/memory-lancedb-pro</title>
-        <link>https://github.com/win4r/memory-lancedb-pro</link>
-        <description>Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI | 近期热门 | 总 697 stars</description>
-        <author>win4r</author>
-        <category>github</category>
-        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-win4r-memory-lancedb-pro</guid>
+        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-panniantong-agent-reach</guid>
       </item>
 <item>
         <title>ForLoopCodes/contextplus</title>
         <link>https://github.com/ForLoopCodes/contextplus</link>
-        <description>Semantic Intelligence for Large-Scale Engineering. Context+ is an MCP server designed for developers who demand 99% accuracy. By combining Tree-sitter AST parsing, Spectral Clustering, and Obsidian-style linking, Context+ turns a massive codebase into a searchable, hierarchical feature graph. | 近期热门 | 总 617 stars</description>
+        <description>Semantic Intelligence for Large-Scale Engineering. Context+ is an MCP server designed for developers who demand 99% accuracy. By combining Tree-sitter AST parsing, Spectral Clustering, and Obsidian-style linking, Context+ turns a massive codebase into a searchable, hierarchical feature graph. | 近期热门 | 总 1083 stars</description>
         <author>ForLoopCodes</author>
         <category>github</category>
-        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
+        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-forloopcodes-contextplus</guid>
+      </item>
+<item>
+        <title>win4r/memory-lancedb-pro</title>
+        <link>https://github.com/win4r/memory-lancedb-pro</link>
+        <description>Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI | 近期热门 | 总 771 stars</description>
+        <author>win4r</author>
+        <category>github</category>
+        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-win4r-memory-lancedb-pro</guid>
       </item>
 <item>
         <title>3DCF-Labs/safepilot</title>
         <link>https://github.com/3DCF-Labs/safepilot</link>
-        <description>AI assistant that executes real work, safely. | 近期热门 | 总 375 stars</description>
+        <description>AI assistant that executes real work, safely. | 近期热门 | 总 378 stars</description>
         <author>3DCF-Labs</author>
         <category>github</category>
-        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
+        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-3dcf-labs-safepilot</guid>
       </item>
 <item>
-        <title>storozhenko98/beehive</title>
-        <link>https://github.com/storozhenko98/beehive</link>
-        <description>Orchestrate coding agents across isolated git workspaces | 近期热门 | 总 47 stars</description>
-        <author>storozhenko98</author>
+        <title>geekjourneyx/jina-cli</title>
+        <link>https://github.com/geekjourneyx/jina-cli</link>
+        <description>A lightweight CLI tool wrapping Jina AI Reader API for AI Agents. Fetch and parse any URL into LLM-friendly   formats (Markdown/Text/HTML). Perfect for reading X(Twitter), blogs, and news sites. | 近期热门 | 总 154 stars</description>
+        <author>geekjourneyx</author>
         <category>github</category>
-        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-storozhenko98-beehive</guid>
+        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-geekjourneyx-jina-cli</guid>
       </item>
 <item>
-        <title>KanaiyaKatarmal/VerticalSliceArchitectureTemplate</title>
-        <link>https://github.com/KanaiyaKatarmal/VerticalSliceArchitectureTemplate</link>
-        <description> | 近期热门 | 总 26 stars</description>
-        <author>KanaiyaKatarmal</author>
+        <title>siewers/shield-commander</title>
+        <link>https://github.com/siewers/shield-commander</link>
+        <description>A desktop app for managing NVIDIA Shield devices over ADB — monitor processes, install/uninstall apps, and view system details | 近期热门 | 总 30 stars</description>
+        <author>siewers</author>
         <category>github</category>
-        <pubDate>Sun, 01 Mar 2026 03:25:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kanaiyakatarmal-verticalslicearchitecturetemplate</guid>
+        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-siewers-shield-commander</guid>
       </item>
 <item>
-        <title>Google AI Edge Gallery - 将设备端函数调用引入iPhone</title>
-        <link>https://www.producthunt.com/products/google</link>
+        <title>lyimoexiao/komari-theme-naive</title>
+        <link>https://github.com/lyimoexiao/komari-theme-naive</link>
+        <description>基于 Vue 3 + Vite + UnoCSS + Naive UI 的 Komari 主题 | 近期热门 | 总 28 stars</description>
+        <author>lyimoexiao</author>
+        <category>github</category>
+        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lyimoexiao-komari-theme-naive</guid>
+      </item>
+<item>
+        <title>OpenAI WebSocket Mode for Responses API - 持久化AI代理。速度提升高达40%。</title>
+        <link>https://www.producthunt.com/products/openai-websocket-mode-for-responses-api</link>
         <description>讨论 | 链接</description>
-        <author>Google AI Edge Gallery</author>
+        <author>OpenAI WebSocket Mode for Responses API</author>
         <category>producthunt</category>
-        <pubDate>Sun, 01 Mar 2026 03:25:37 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772335537500-0</guid>
+        <pubDate>Mon, 02 Mar 2026 03:18:14 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772421494362-3</guid>
       </item>
   </channel>
 </rss>
