@@ -1,107 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/2)</title>
+    <title>6-8 件事 (2026/3/3)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的信息流里，关于 AI 和编程工具的内容特别多，感觉整个社区都在热烈讨论怎么用 AI 来提升开发效率。我帮你挑出了几件最值得你关注的事：首先是几个新的开源 AI Agent 项目，看起来在易用性和功能上都有新想法；然后是关于 Claude Code 和 OpenCode 的实用讨论，很多开发者都在分享自己的使用心得和踩坑经验；最后，还有几篇关于如何将 AI 深度融入工作流的深度分享，非常实在。</description>
+    <description>嘿，今天的技术资讯圈挺热闹的，尤其是围绕“AI编程”和“Agent（智能体）”这两个你关心的主题。我帮你梳理了一下，发现有几个特别值得你留意的动态：
+
+1.  **AI编码代理的“桥梁”工具火了**：有个叫 `cc-connect` 的项目，能让你把 Claude Code、Codex 这些本地AI编程助手直接接到飞书、钉钉、微信里用，解决了在手机上或工作流中不方便使用的问题，社区讨论度很高。
+2.  **开源AI编程助手生态有新玩家**：`Context+` 项目号称能为大规模工程提供99%准确度的语义智能，听起来像是面向企业级开发的“增强版”AI编程工具。
+3.  **本地模型在“编码”能力上又有新突破**：社区里在热烈讨论 Qwen 3.5 系列小模型（特别是0.8B到9B的版本）的编码表现，甚至有人做了专门的“编码能力排行榜”，对于想本地部署轻量级编码助手的人来说是重要参考。
+4.  **AI代理的“安全”和“管控”成为焦点**：出现了像 `CtrlAI` 这样的“透明代理护栏”产品，以及 `safepilot` 这种强调安全执行的AI助手，说明大家开始认真考虑AI代理在实际工作中可能带来的风险了。
+5.  **关于“AI编程工作流”的实战讨论很多**：社区里有很多开发者分享他们使用 Claude Code、Codex 的真实体验，包括费用（token消耗）、配置技巧和遇到的坑，这些实战经验非常宝贵。
+6.  **一个有趣的底层思考**：有人提出了一个为LLM设计的编程语言 `Vera`，它的目标用户是AI而不是人，这可能会改变未来“AI生成代码”的方式。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 02 Mar 2026 03:21:07 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 03:23:36 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的信息流里，关于 AI 和编程工具的内容特别多，感觉整个社区都在热烈讨论怎么用 AI 来提升开发效率。我帮你挑出了几件最值得你关注的事：首先是几个新的开源 AI Agent 项目，看起来在易用性和功能上都有新想法；然后是关于 Claude Code 和 OpenCode 的实用讨论，很多开发者都在分享自己的使用心得和踩坑经验；最后，还有几篇关于如何将 AI 深度融入工作流的深度分享，非常实在。</description>
-        <pubDate>Mon, 02 Mar 2026 03:21:07 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-02T03:20:32.720Z</guid>
+        <description>嘿，今天的技术资讯圈挺热闹的，尤其是围绕“AI编程”和“Agent（智能体）”这两个你关心的主题。我帮你梳理了一下，发现有几个特别值得你留意的动态：
+
+1.  **AI编码代理的“桥梁”工具火了**：有个叫 `cc-connect` 的项目，能让你把 Claude Code、Codex 这些本地AI编程助手直接接到飞书、钉钉、微信里用，解决了在手机上或工作流中不方便使用的问题，社区讨论度很高。
+2.  **开源AI编程助手生态有新玩家**：`Context+` 项目号称能为大规模工程提供99%准确度的语义智能，听起来像是面向企业级开发的“增强版”AI编程工具。
+3.  **本地模型在“编码”能力上又有新突破**：社区里在热烈讨论 Qwen 3.5 系列小模型（特别是0.8B到9B的版本）的编码表现，甚至有人做了专门的“编码能力排行榜”，对于想本地部署轻量级编码助手的人来说是重要参考。
+4.  **AI代理的“安全”和“管控”成为焦点**：出现了像 `CtrlAI` 这样的“透明代理护栏”产品，以及 `safepilot` 这种强调安全执行的AI助手，说明大家开始认真考虑AI代理在实际工作中可能带来的风险了。
+5.  **关于“AI编程工作流”的实战讨论很多**：社区里有很多开发者分享他们使用 Claude Code、Codex 的真实体验，包括费用（token消耗）、配置技巧和遇到的坑，这些实战经验非常宝贵。
+6.  **一个有趣的底层思考**：有人提出了一个为LLM设计的编程语言 `Vera`，它的目标用户是AI而不是人，这可能会改变未来“AI生成代码”的方式。</description>
+        <pubDate>Tue, 03 Mar 2026 03:23:36 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-03T03:22:38.540Z</guid>
       </item>
     <item>
-        <title>RightNow-AI/openfang</title>
-        <link>https://github.com/RightNow-AI/openfang</link>
-        <description>Open-source Agent Operating System | 近期热门 | 总 7788 stars</description>
-        <author>RightNow-AI</author>
-        <category>github</category>
-        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-rightnow-ai-openfang</guid>
-      </item>
-<item>
-        <title>agentscope-ai/CoPaw</title>
-        <link>https://github.com/agentscope-ai/CoPaw</link>
-        <description>Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities. | 近期热门 | 总 3657 stars</description>
-        <author>agentscope-ai</author>
-        <category>github</category>
-        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-agentscope-ai-copaw</guid>
-      </item>
-<item>
-        <title>Panniantong/Agent-Reach</title>
-        <link>https://github.com/Panniantong/Agent-Reach</link>
-        <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. | 近期热门 | 总 3510 stars</description>
-        <author>Panniantong</author>
-        <category>github</category>
-        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-panniantong-agent-reach</guid>
-      </item>
-<item>
         <title>ForLoopCodes/contextplus</title>
         <link>https://github.com/ForLoopCodes/contextplus</link>
-        <description>Semantic Intelligence for Large-Scale Engineering. Context+ is an MCP server designed for developers who demand 99% accuracy. By combining Tree-sitter AST parsing, Spectral Clustering, and Obsidian-style linking, Context+ turns a massive codebase into a searchable, hierarchical feature graph. | 近期热门 | 总 1083 stars</description>
+        <description>Semantic Intelligence for Large-Scale Engineering. Context+ is an MCP server designed for developers who demand 99% accuracy. By combining Tree-sitter AST parsing, Spectral Clustering, and Obsidian-style linking, Context+ turns a massive codebase into a searchable, hierarchical feature graph. | 近期热门 | 总 1197 stars</description>
         <author>ForLoopCodes</author>
         <category>github</category>
-        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
+        <pubDate>Tue, 03 Mar 2026 03:20:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-forloopcodes-contextplus</guid>
       </item>
 <item>
-        <title>win4r/memory-lancedb-pro</title>
-        <link>https://github.com/win4r/memory-lancedb-pro</link>
-        <description>Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI | 近期热门 | 总 771 stars</description>
-        <author>win4r</author>
+        <title>World-Open-Graph/br-acc</title>
+        <link>https://github.com/World-Open-Graph/br-acc</link>
+        <description>World Transparency Graph public codebase (🚧 website in progress) | 近期热门 | 总 1068 stars</description>
+        <author>World-Open-Graph</author>
         <category>github</category>
-        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-win4r-memory-lancedb-pro</guid>
+        <pubDate>Tue, 03 Mar 2026 03:20:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-world-open-graph-br-acc</guid>
+      </item>
+<item>
+        <title>open-pencil/open-pencil</title>
+        <link>https://github.com/open-pencil/open-pencil</link>
+        <description>AI-native design editor. Open-source Figma alternative. | 近期热门 | 总 610 stars</description>
+        <author>open-pencil</author>
+        <category>github</category>
+        <pubDate>Tue, 03 Mar 2026 03:20:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-open-pencil-open-pencil</guid>
       </item>
 <item>
         <title>3DCF-Labs/safepilot</title>
         <link>https://github.com/3DCF-Labs/safepilot</link>
-        <description>AI assistant that executes real work, safely. | 近期热门 | 总 378 stars</description>
+        <description>AI assistant that executes real work, safely. | 近期热门 | 总 381 stars</description>
         <author>3DCF-Labs</author>
         <category>github</category>
-        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
+        <pubDate>Tue, 03 Mar 2026 03:20:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-3dcf-labs-safepilot</guid>
       </item>
 <item>
         <title>geekjourneyx/jina-cli</title>
         <link>https://github.com/geekjourneyx/jina-cli</link>
-        <description>A lightweight CLI tool wrapping Jina AI Reader API for AI Agents. Fetch and parse any URL into LLM-friendly   formats (Markdown/Text/HTML). Perfect for reading X(Twitter), blogs, and news sites. | 近期热门 | 总 154 stars</description>
+        <description>A lightweight CLI tool wrapping Jina AI Reader API for AI Agents. Fetch and parse any URL into LLM-friendly   formats (Markdown/Text/HTML). Perfect for reading X(Twitter), blogs, and news sites. | 近期热门 | 总 189 stars</description>
         <author>geekjourneyx</author>
         <category>github</category>
-        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
+        <pubDate>Tue, 03 Mar 2026 03:20:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-geekjourneyx-jina-cli</guid>
+      </item>
+<item>
+        <title>chenhg5/cc-connect</title>
+        <link>https://github.com/chenhg5/cc-connect</link>
+        <description>Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. | 近期热门 | 总 159 stars</description>
+        <author>chenhg5</author>
+        <category>github</category>
+        <pubDate>Tue, 03 Mar 2026 03:20:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-chenhg5-cc-connect</guid>
+      </item>
+<item>
+        <title>lovisdotio/falsprite</title>
+        <link>https://github.com/lovisdotio/falsprite</link>
+        <description>  Generate animated sprite sheets from a text prompt. Powered by Nano-banana-2, BRIA &amp; OpenRouter on fal.ai, one API key. | 近期热门 | 总 139 stars</description>
+        <author>lovisdotio</author>
+        <category>github</category>
+        <pubDate>Tue, 03 Mar 2026 03:20:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lovisdotio-falsprite</guid>
+      </item>
+<item>
+        <title>ellipticmarketing/modelrelay</title>
+        <link>https://github.com/ellipticmarketing/modelrelay</link>
+        <description>Local router that benchmarks free coding models across providers and forwards requests to the best available model. Compatible with Opencode and Openclaw | 近期热门 | 总 84 stars</description>
+        <author>ellipticmarketing</author>
+        <category>github</category>
+        <pubDate>Tue, 03 Mar 2026 03:20:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ellipticmarketing-modelrelay</guid>
       </item>
 <item>
         <title>siewers/shield-commander</title>
         <link>https://github.com/siewers/shield-commander</link>
-        <description>A desktop app for managing NVIDIA Shield devices over ADB — monitor processes, install/uninstall apps, and view system details | 近期热门 | 总 30 stars</description>
+        <description>A desktop app for managing NVIDIA Shield devices over ADB — monitor processes, install/uninstall apps, and view system details | 近期热门 | 总 33 stars</description>
         <author>siewers</author>
         <category>github</category>
-        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
+        <pubDate>Tue, 03 Mar 2026 03:20:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-siewers-shield-commander</guid>
       </item>
 <item>
-        <title>lyimoexiao/komari-theme-naive</title>
-        <link>https://github.com/lyimoexiao/komari-theme-naive</link>
-        <description>基于 Vue 3 + Vite + UnoCSS + Naive UI 的 Komari 主题 | 近期热门 | 总 28 stars</description>
-        <author>lyimoexiao</author>
-        <category>github</category>
-        <pubDate>Mon, 02 Mar 2026 03:18:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lyimoexiao-komari-theme-naive</guid>
-      </item>
-<item>
-        <title>OpenAI WebSocket Mode for Responses API - 持久化AI代理。速度提升高达40%。</title>
-        <link>https://www.producthunt.com/products/openai-websocket-mode-for-responses-api</link>
+        <title>Expressive Mode for ElevenAgents - 根据上下文调整语调、时机与情感的AI语音代理</title>
+        <link>https://www.producthunt.com/products/expressive-mode-for-elevenagents-2</link>
         <description>讨论 | 链接</description>
-        <author>OpenAI WebSocket Mode for Responses API</author>
+        <author>Expressive Mode for ElevenAgents</author>
         <category>producthunt</category>
-        <pubDate>Mon, 02 Mar 2026 03:18:14 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772421494362-3</guid>
+        <pubDate>Tue, 03 Mar 2026 03:20:01 GMT</pubDate>
+        <guid isPermaLink="false">ph-1772508001490-0</guid>
       </item>
   </channel>
 </rss>
