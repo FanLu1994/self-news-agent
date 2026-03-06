@@ -95,8 +95,9 @@ export function createNewsAgent() {
 
       case 'error':
         // 错误处理
-        console.error(`\n❌ Agent Error: ${event.error.message}`);
-        if (event.error.stack) {
+        const errorMsg = event.error?.message || 'Unknown error';
+        console.error(`\n❌ Agent Error: ${errorMsg}`);
+        if (event.error?.stack) {
           console.error('Stack trace:', event.error.stack);
         }
         break;
@@ -121,7 +122,9 @@ function handleMessageUpdate(event: any) {
     
     case 'toolcall_delta':
       // 工具调用进度（部分参数）
-      const toolCall = msgEvent.partial.content[msgEvent.contentIndex];
+      const partialContent = msgEvent.partial?.content;
+      const contentIdx = msgEvent.contentIndex;
+      const toolCall = partialContent?.[contentIdx];
       if (toolCall && toolCall.type === 'toolCall') {
         // 可以在这里显示工具调用进度
         // console.log(`\n🔧 Calling tool: ${toolCall.name}...`);
@@ -131,7 +134,9 @@ function handleMessageUpdate(event: any) {
     case 'toolcall_end':
       // 教学要点：工具调用完成
       const completedTool = msgEvent.toolCall;
-      console.log(`\n✓ Tool "${completedTool.name}" completed`);
+      if (completedTool?.name) {
+        console.log(`\n✓ Tool "${completedTool.name}" completed`);
+      }
       
       // 可选：显示工具参数
       if (completedTool.arguments) {

@@ -114,7 +114,7 @@ export class TranslationService {
       }
 
       const data = await response.json();
-      const translatedText = data.choices[0]?.message?.content?.trim() || text;
+      const translatedText = data.choices?.[0]?.message?.content?.trim() || text;
 
       return {
         originalText: text,

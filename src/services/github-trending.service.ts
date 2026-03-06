@@ -219,7 +219,9 @@ async function fetchByApi(
       const items = data.items || [];
 
       for (const r of items) {
-        const [owner, repo] = r.full_name.split('/');
+        const parts = (r.full_name || '').split('/');
+        const owner = parts[0] || 'unknown';
+        const repo = parts[1] || 'unknown';
         allRepos.push({
           owner,
           repo,

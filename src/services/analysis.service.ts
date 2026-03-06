@@ -67,7 +67,7 @@ export class AnalysisService {
     return articles.map((article, idx) =>
       `【${idx + 1}】${article.title}\n` +
       `   来源: ${article.source}\n` +
-      `   简介: ${article.summary.slice(0, 150)}\n` +
+      `   简介: ${(article.summary || '').slice(0, 150)}\n` +
       `   链接: ${article.url}\n` +
       `   时间: ${article.publishedAt}`
     ).join('\n\n');
@@ -145,7 +145,7 @@ export class AnalysisService {
         title: '今日精选',
         overview: `从 ${articles.length} 篇内容中筛选出值得关注的信息。`,
         highlights: articles.slice(0, 6).map(a =>
-          `• [${a.source}] ${a.title}\n  ${a.summary.slice(0, 100)}`
+          `• [${a.source}] ${a.title}\n  ${(a.summary || '').slice(0, 100)}`
         ),
         keywords: queryKeywords,
         generatedAt: new Date().toISOString()

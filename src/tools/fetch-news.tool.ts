@@ -270,7 +270,7 @@ export const fetchNewsTool: Tool = {
           outputText += `\n`;
         }
         outputText += `   - 链接：${article.url}\n`;
-        outputText += `   - 摘要：${article.summary.substring(0, 150)}...\n\n`;
+        outputText += `   - 摘要：${(article.summary || '').substring(0, 150)}...\n\n`;
       });
 
       outputText += `\n---\n\n`;

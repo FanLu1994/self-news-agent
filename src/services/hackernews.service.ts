@@ -309,19 +309,19 @@ export class HackerNewsService {
       const data = await response.json();
       const hits = data.hits || [];
 
-      return hits.map((hit: any) => ({
+      return hits.filter((hit: any) => hit && hit.objectID).map((hit: any) => ({
         id: `hn-${hit.objectID}`,
-        title: hit.title || hit.story_title,
-        summary: hit.story_text?.substring(0, 200) || hit.title,
+        title: hit.title || hit.story_title || 'Untitled',
+        summary: (hit.story_text || hit.title || '').substring(0, 200),
         url: hit.url || `https://news.ycombinator.com/item?id=${hit.objectID}`,
         source: 'HackerNews',
         sourceType: 'hn' as const,
         author: hit.author,
-        publishedAt: new Date(hit.created_at).toISOString(),
+        publishedAt: hit.created_at ? new Date(hit.created_at).toISOString() : new Date().toISOString(),
         category: 'ai' as const,
         language: 'en' as const,
-        score: hit.points,
-        commentCount: hit.num_comments,
+        score: hit.points || 0,
+        commentCount: hit.num_comments || 0,
         tags: []
       }));
     } catch (error) {

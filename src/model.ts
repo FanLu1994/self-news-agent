@@ -106,7 +106,7 @@ export async function completeWithFallback(context: Context): Promise<{
         const response = {
           content: [{
             type: 'text',
-            text: data.choices[0]?.message?.content || ''
+            text: data.choices?.[0]?.message?.content || ''
           }],
           usage: data.usage
         };
