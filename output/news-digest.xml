@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/2/25)</title>
+    <title>6-8 件事 (2026/3/5)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术资讯里，AI 和编程工具依然是绝对的主角。我发现好几个项目都围绕一个核心痛点展开：**如何让 AI 编程助手（Agent）变得更强大、更易用、更可控**。从帮你快速找到最佳编码模型，到为 AI Agent 打造专属的通信和监控工具，开发者们正在构建下一代“AI 协作者”的基础设施。同时，也有关于 AI 如何颠覆传统开发流程的实战案例，值得一看。</description>
+    <description>嘿，今天的信息流里，关于 AI 编程和智能体的内容特别多，感觉大家都在忙着怎么让 AI 更好地帮自己写代码、管理项目。我发现有几个趋势：一是 **Codex** 这个工具讨论度超高，从配置、客户端到使用技巧，开发者们都在积极交流；二是 **AI Agent** 的落地应用更具体了，出现了不少连接不同工具、优化工作流的开源项目；三是 **AI 辅助编程** 正在从“提建议”走向“主动执行”，出现了能直接往代码库提 PR 的智能体。如果你也关注怎么用 AI 提升开发效率，今天有不少好东西。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 25 Feb 2026 14:57:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 03:20:18 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术资讯里，AI 和编程工具依然是绝对的主角。我发现好几个项目都围绕一个核心痛点展开：**如何让 AI 编程助手（Agent）变得更强大、更易用、更可控**。从帮你快速找到最佳编码模型，到为 AI Agent 打造专属的通信和监控工具，开发者们正在构建下一代“AI 协作者”的基础设施。同时，也有关于 AI 如何颠覆传统开发流程的实战案例，值得一看。</description>
-        <pubDate>Wed, 25 Feb 2026 14:57:28 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-02-25T14:57:14.927Z</guid>
+        <description>嘿，今天的信息流里，关于 AI 编程和智能体的内容特别多，感觉大家都在忙着怎么让 AI 更好地帮自己写代码、管理项目。我发现有几个趋势：一是 **Codex** 这个工具讨论度超高，从配置、客户端到使用技巧，开发者们都在积极交流；二是 **AI Agent** 的落地应用更具体了，出现了不少连接不同工具、优化工作流的开源项目；三是 **AI 辅助编程** 正在从“提建议”走向“主动执行”，出现了能直接往代码库提 PR 的智能体。如果你也关注怎么用 AI 提升开发效率，今天有不少好东西。</description>
+        <pubDate>Thu, 05 Mar 2026 03:20:18 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-05T03:19:31.277Z</guid>
       </item>
     <item>
-        <title>vava-nessa/free-coding-models</title>
-        <link>https://github.com/vava-nessa/free-coding-models</link>
-        <description>Find the fastest coding LLM models in seconds | 近期热门 | 总 336 stars</description>
-        <author>vava-nessa</author>
+        <title>googleworkspace/cli</title>
+        <link>https://github.com/googleworkspace/cli</link>
+        <description>Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | 近期热门 | 总 1825 stars</description>
+        <author>googleworkspace</author>
         <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vava-nessa-free-coding-models</guid>
+        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-googleworkspace-cli</guid>
       </item>
 <item>
-        <title>GreatScott/enveil</title>
-        <link>https://github.com/GreatScott/enveil</link>
-        <description>ENVeil: Hide .env secrets from prAIng eyes: secrets live in local encrypted stores (per project) and are injected directly into apps at runtime, never touching disk as plaintext. | 近期热门 | 总 332 stars</description>
-        <author>GreatScott</author>
+        <title>open-pencil/open-pencil</title>
+        <link>https://github.com/open-pencil/open-pencil</link>
+        <description>AI-native design editor. Open-source Figma alternative. | 近期热门 | 总 1399 stars</description>
+        <author>open-pencil</author>
         <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-greatscott-enveil</guid>
+        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-open-pencil-open-pencil</guid>
       </item>
 <item>
-        <title>vikasprogrammer/walkie</title>
-        <link>https://github.com/vikasprogrammer/walkie</link>
-        <description>P2P communication for AI agents. No server. No setup. Just talk. | 近期热门 | 总 206 stars</description>
-        <author>vikasprogrammer</author>
+        <title>ForLoopCodes/contextplus</title>
+        <link>https://github.com/ForLoopCodes/contextplus</link>
+        <description>Semantic Intelligence for Large-Scale Engineering. Context+ is an MCP server designed for developers who demand 99% accuracy. By combining RAG, Tree-sitter AST, Spectral Clustering, and Obsidian-style linking, Context+ turns a massive codebase into a searchable, hierarchical feature graph. | 近期热门 | 总 1350 stars</description>
+        <author>ForLoopCodes</author>
         <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vikasprogrammer-walkie</guid>
+        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-forloopcodes-contextplus</guid>
       </item>
 <item>
-        <title>quailyquaily/aqua</title>
-        <link>https://github.com/quailyquaily/aqua</link>
-        <description>Aqua, a cli message tool for AI agents  | 近期热门 | 总 185 stars</description>
-        <author>quailyquaily</author>
+        <title>paperclipai/paperclip</title>
+        <link>https://github.com/paperclipai/paperclip</link>
+        <description>Open-source orchestration for zero-human companies | 近期热门 | 总 1293 stars</description>
+        <author>paperclipai</author>
         <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-quailyquaily-aqua</guid>
+        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-paperclipai-paperclip</guid>
       </item>
 <item>
-        <title>wesm/agentsview</title>
-        <link>https://github.com/wesm/agentsview</link>
-        <description>Fast local coding agent session viewer for Claude, Codex, Gemini, with analytics dashboard and full text search | 近期热门 | 总 147 stars</description>
-        <author>wesm</author>
+        <title>World-Open-Graph/br-acc</title>
+        <link>https://github.com/World-Open-Graph/br-acc</link>
+        <description>World Transparency Graph public codebase (🚧 website in progress) | 近期热门 | 总 1246 stars</description>
+        <author>World-Open-Graph</author>
         <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wesm-agentsview</guid>
+        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-world-open-graph-br-acc</guid>
       </item>
 <item>
-        <title>daggerhashimoto/openclaw-nerve</title>
-        <link>https://github.com/daggerhashimoto/openclaw-nerve</link>
-        <description>Self-hosted web UI for AI agents — voice chat, live workspace editing, charts, cron scheduling. Built for OpenClaw. | 近期热门 | 总 87 stars</description>
-        <author>daggerhashimoto</author>
+        <title>LeoYeAI/openclaw-master-skills</title>
+        <link>https://github.com/LeoYeAI/openclaw-master-skills</link>
+        <description>🧠 Curated collection of 127+ best OpenClaw skills — weekly updated from skills.sh, GitHub &amp; ClaWHub. Powered by MyClaw.ai | 近期热门 | 总 993 stars</description>
+        <author>LeoYeAI</author>
         <category>github</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-daggerhashimoto-openclaw-nerve</guid>
+        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-leoyeai-openclaw-master-skills</guid>
       </item>
 <item>
-        <title>Ask - AI编码代理的内存基础设施</title>
-        <link>https://www.producthunt.com/products/ask-7</link>
-        <description>讨论 | 链接</description>
-        <author>Ask</author>
-        <category>producthunt</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:30 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772031330245-0</guid>
+        <title>chenhg5/cc-connect</title>
+        <link>https://github.com/chenhg5/cc-connect</link>
+        <description>Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. | 近期热门 | 总 357 stars</description>
+        <author>chenhg5</author>
+        <category>github</category>
+        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-chenhg5-cc-connect</guid>
       </item>
 <item>
-        <title>RamAIn - 使用Claude读写WhatsApp消息</title>
-        <link>https://www.producthunt.com/products/ramain</link>
-        <description>讨论 | 链接</description>
-        <author>RamAIn</author>
-        <category>producthunt</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:30 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772031330245-5</guid>
+        <title>geekjourneyx/jina-cli</title>
+        <link>https://github.com/geekjourneyx/jina-cli</link>
+        <description>A lightweight CLI tool wrapping Jina AI Reader API for AI Agents. Fetch and parse any URL into LLM-friendly   formats (Markdown/Text/HTML). Perfect for reading X(Twitter), blogs, and news sites. | 近期热门 | 总 209 stars</description>
+        <author>geekjourneyx</author>
+        <category>github</category>
+        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-geekjourneyx-jina-cli</guid>
       </item>
 <item>
-        <title>Mercury 2 - 专为即时生产AI打造的最快推理LLM。</title>
-        <link>https://www.producthunt.com/products/mercury-412</link>
-        <description>讨论 | 链接</description>
-        <author>Mercury 2</author>
-        <category>producthunt</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:30 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772031330245-9</guid>
+        <title>170-carry/codex-tools</title>
+        <link>https://github.com/170-carry/codex-tools</link>
+        <description>快捷切换codex 账号以及监控codex用量的工具 | 近期热门 | 总 206 stars</description>
+        <author>170-carry</author>
+        <category>github</category>
+        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-170-carry-codex-tools</guid>
       </item>
 <item>
-        <title>Yuma Social AI - 将您的电子商务社交媒体置于自动运行模式</title>
-        <link>https://www.producthunt.com/products/yuma-social-ai</link>
-        <description>讨论 | 链接</description>
-        <author>Yuma Social AI</author>
-        <category>producthunt</category>
-        <pubDate>Wed, 25 Feb 2026 14:55:30 GMT</pubDate>
-        <guid isPermaLink="false">ph-1772031330245-10</guid>
+        <title>liyupi/yupi-hot-monitor</title>
+        <link>https://github.com/liyupi/yupi-hot-monitor</link>
+        <description>2026 年编程导航 AI 编程实战新项目，基于 Node.js + Express + React + OpenRouter 的 AI 热点监控工具，支持多信息源聚合抓取（Twitter / Bing / HackerNews / B 站等 7+ 平台）、AI 查询扩展、AI 真假识别与相关性分析、WebSocket 实时推送、邮件通知、多维度筛选排序，并将热点监控能力封装为 Agent Skills 技能包。覆盖 Prisma + SQLite 数据库、Socket.io 实时通信、Axios + Cheerio 网页爬虫、OpenRouter 大模型接入、Aceternity UI 炫酷前端、node-cron 定时任务、VSCode Copilot Vibe Coding + MCP | 近期热门 | 总 60 stars</description>
+        <author>liyupi</author>
+        <category>github</category>
+        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-liyupi-yupi-hot-monitor</guid>
       </item>
   </channel>
 </rss>

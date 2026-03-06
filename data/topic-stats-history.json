@@ -117,5 +117,141 @@
       "OpenSource": 0,
       "Other": 0
     }
+  },
+  {
+    "date": "2026-02-26",
+    "total": 28,
+    "byTopic": {
+      "AI": 24,
+      "Frontend": 2,
+      "Backend": 1,
+      "DevOps": 0,
+      "Data": 0,
+      "Security": 1,
+      "Cloud": 0,
+      "Mobile": 0,
+      "Startup": 0,
+      "OpenSource": 0,
+      "Other": 0
+    }
+  },
+  {
+    "date": "2026-02-27",
+    "total": 50,
+    "byTopic": {
+      "AI": 40,
+      "Frontend": 0,
+      "Backend": 1,
+      "DevOps": 0,
+      "Data": 0,
+      "Security": 6,
+      "Cloud": 0,
+      "Mobile": 0,
+      "Startup": 0,
+      "OpenSource": 0,
+      "Other": 3
+    }
+  },
+  {
+    "date": "2026-02-28",
+    "total": 55,
+    "byTopic": {
+      "AI": 48,
+      "Frontend": 0,
+      "Backend": 0,
+      "DevOps": 1,
+      "Data": 1,
+      "Security": 1,
+      "Cloud": 0,
+      "Mobile": 1,
+      "Startup": 1,
+      "OpenSource": 0,
+      "Other": 2
+    }
+  },
+  {
+    "date": "2026-03-01",
+    "total": 49,
+    "byTopic": {
+      "AI": 41,
+      "Frontend": 1,
+      "Backend": 2,
+      "DevOps": 0,
+      "Data": 0,
+      "Security": 0,
+      "Cloud": 1,
+      "Mobile": 1,
+      "Startup": 0,
+      "OpenSource": 0,
+      "Other": 3
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "total": 35,
+    "byTopic": {
+      "AI": 27,
+      "Frontend": 3,
+      "Backend": 1,
+      "DevOps": 0,
+      "Data": 1,
+      "Security": 0,
+      "Cloud": 0,
+      "Mobile": 2,
+      "Startup": 0,
+      "OpenSource": 0,
+      "Other": 1
+    }
+  },
+  {
+    "date": "2026-03-03",
+    "total": 63,
+    "byTopic": {
+      "AI": 55,
+      "Frontend": 0,
+      "Backend": 0,
+      "DevOps": 0,
+      "Data": 0,
+      "Security": 0,
+      "Cloud": 1,
+      "Mobile": 4,
+      "Startup": 0,
+      "OpenSource": 3,
+      "Other": 0
+    }
+  },
+  {
+    "date": "2026-03-04",
+    "total": 39,
+    "byTopic": {
+      "AI": 31,
+      "Frontend": 0,
+      "Backend": 2,
+      "DevOps": 0,
+      "Data": 0,
+      "Security": 1,
+      "Cloud": 0,
+      "Mobile": 3,
+      "Startup": 0,
+      "OpenSource": 1,
+      "Other": 1
+    }
+  },
+  {
+    "date": "2026-03-05",
+    "total": 43,
+    "byTopic": {
+      "AI": 37,
+      "Frontend": 1,
+      "Backend": 1,
+      "DevOps": 1,
+      "Data": 0,
+      "Security": 0,
+      "Cloud": 0,
+      "Mobile": 1,
+      "Startup": 0,
+      "OpenSource": 0,
+      "Other": 2
+    }
   }
 ]
