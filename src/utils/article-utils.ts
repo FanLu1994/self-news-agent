@@ -14,7 +14,11 @@ import type { NewsArticle } from '../types/news.types.js';
  */
 export function matchesKeywords(article: NewsArticle, keywords: string[]): boolean {
   if (keywords.length === 0) return true;
-  const text = `${article.title} ${article.summary} ${(article.tags || []).join(' ')}`.toLowerCase();
+  // 安全处理 tags：确保每个元素都转换为字符串（某些 RSS 源的 categories 可能是对象）
+  const safeTags = (article.tags || []).map(tag =>
+    typeof tag === 'string' ? tag : String(tag)
+  );
+  const text = `${article.title} ${article.summary} ${safeTags.join(' ')}`.toLowerCase();
   return keywords.some(keyword => text.includes(keyword.toLowerCase()));
 }
 

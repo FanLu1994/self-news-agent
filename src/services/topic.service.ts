@@ -37,7 +37,11 @@ function emptyTopicCounts(): Record<TopicCategory, number> {
 }
 
 function heuristicTopic(article: NewsArticle): TopicCategory {
-  const text = `${article.title} ${article.summary} ${(article.tags || []).join(' ')}`.toLowerCase();
+  // 安全处理 tags：确保每个元素都转换为字符串
+  const safeTags = (article.tags || []).map(tag =>
+    typeof tag === 'string' ? tag : String(tag)
+  );
+  const text = `${article.title} ${article.summary} ${safeTags.join(' ')}`.toLowerCase();
   for (const item of TOPIC_KEYWORDS) {
     if (item.keywords.some(keyword => text.includes(keyword.toLowerCase()))) {
       return item.topic;

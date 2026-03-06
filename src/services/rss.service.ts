@@ -98,6 +98,11 @@ export class RSSService {
 
     const publishDate = item.pubDate ? new Date(item.pubDate) : new Date();
 
+    // 安全处理 categories：某些 RSS 源返回的可能是对象而非字符串
+    const safeTags = (item.categories || []).map(cat =>
+      typeof cat === 'string' ? cat : (cat as { name?: string })?.name ?? String(cat)
+    );
+
     return {
       id: `rss-${index}-${Math.abs(hashCode(item.link))}`,
       title: item.title,
@@ -109,7 +114,7 @@ export class RSSService {
       publishedAt: Number.isNaN(publishDate.getTime()) ? new Date().toISOString() : publishDate.toISOString(),
       category: config.category || 'all',
       language: config.language,
-      tags: item.categories || []
+      tags: safeTags
     };
   }
 
