@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/5)</title>
+    <title>6-8 件事 (2026/3/7)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的信息流里，关于 AI 编程和智能体的内容特别多，感觉大家都在忙着怎么让 AI 更好地帮自己写代码、管理项目。我发现有几个趋势：一是 **Codex** 这个工具讨论度超高，从配置、客户端到使用技巧，开发者们都在积极交流；二是 **AI Agent** 的落地应用更具体了，出现了不少连接不同工具、优化工作流的开源项目；三是 **AI 辅助编程** 正在从“提建议”走向“主动执行”，出现了能直接往代码库提 PR 的智能体。如果你也关注怎么用 AI 提升开发效率，今天有不少好东西。</description>
+    <description>嘿，今天的技术圈信息量不小，但根据你对 AI、LLM、Agent 和编程的兴趣，我帮你过滤了一下。今天的热点非常集中，几乎都围绕着 **AI 编程助手（特别是 Claude Code）** 和 **AI Agent 的实践与工具** 展开。既有让人兴奋的新工具，也有不少踩坑的实战讨论，还有关于未来趋势的思考，挺有意思的。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 05 Mar 2026 03:20:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 03:10:34 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的信息流里，关于 AI 编程和智能体的内容特别多，感觉大家都在忙着怎么让 AI 更好地帮自己写代码、管理项目。我发现有几个趋势：一是 **Codex** 这个工具讨论度超高，从配置、客户端到使用技巧，开发者们都在积极交流；二是 **AI Agent** 的落地应用更具体了，出现了不少连接不同工具、优化工作流的开源项目；三是 **AI 辅助编程** 正在从“提建议”走向“主动执行”，出现了能直接往代码库提 PR 的智能体。如果你也关注怎么用 AI 提升开发效率，今天有不少好东西。</description>
-        <pubDate>Thu, 05 Mar 2026 03:20:18 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-05T03:19:31.277Z</guid>
+        <description>嘿，今天的技术圈信息量不小，但根据你对 AI、LLM、Agent 和编程的兴趣，我帮你过滤了一下。今天的热点非常集中，几乎都围绕着 **AI 编程助手（特别是 Claude Code）** 和 **AI Agent 的实践与工具** 展开。既有让人兴奋的新工具，也有不少踩坑的实战讨论，还有关于未来趋势的思考，挺有意思的。</description>
+        <pubDate>Sat, 07 Mar 2026 03:10:34 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-07T03:10:03.173Z</guid>
       </item>
     <item>
         <title>googleworkspace/cli</title>
         <link>https://github.com/googleworkspace/cli</link>
-        <description>Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | 近期热门 | 总 1825 stars</description>
+        <description>Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | 近期热门 | 总 14331 stars</description>
         <author>googleworkspace</author>
         <category>github</category>
-        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <pubDate>Sat, 07 Mar 2026 03:08:09 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-googleworkspace-cli</guid>
-      </item>
-<item>
-        <title>open-pencil/open-pencil</title>
-        <link>https://github.com/open-pencil/open-pencil</link>
-        <description>AI-native design editor. Open-source Figma alternative. | 近期热门 | 总 1399 stars</description>
-        <author>open-pencil</author>
-        <category>github</category>
-        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-open-pencil-open-pencil</guid>
-      </item>
-<item>
-        <title>ForLoopCodes/contextplus</title>
-        <link>https://github.com/ForLoopCodes/contextplus</link>
-        <description>Semantic Intelligence for Large-Scale Engineering. Context+ is an MCP server designed for developers who demand 99% accuracy. By combining RAG, Tree-sitter AST, Spectral Clustering, and Obsidian-style linking, Context+ turns a massive codebase into a searchable, hierarchical feature graph. | 近期热门 | 总 1350 stars</description>
-        <author>ForLoopCodes</author>
-        <category>github</category>
-        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-forloopcodes-contextplus</guid>
       </item>
 <item>
         <title>paperclipai/paperclip</title>
         <link>https://github.com/paperclipai/paperclip</link>
-        <description>Open-source orchestration for zero-human companies | 近期热门 | 总 1293 stars</description>
+        <description>Open-source orchestration for zero-human companies | 近期热门 | 总 6103 stars</description>
         <author>paperclipai</author>
         <category>github</category>
-        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <pubDate>Sat, 07 Mar 2026 03:08:09 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-paperclipai-paperclip</guid>
+      </item>
+<item>
+        <title>phuryn/pm-skills</title>
+        <link>https://github.com/phuryn/pm-skills</link>
+        <description>PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth. | 近期热门 | 总 3385 stars</description>
+        <author>phuryn</author>
+        <category>github</category>
+        <pubDate>Sat, 07 Mar 2026 03:08:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-phuryn-pm-skills</guid>
+      </item>
+<item>
+        <title>elder-plinius/OBLITERATUS</title>
+        <link>https://github.com/elder-plinius/OBLITERATUS</link>
+        <description>obliterate the chains that bind you | 近期热门 | 总 1893 stars</description>
+        <author>elder-plinius</author>
+        <category>github</category>
+        <pubDate>Sat, 07 Mar 2026 03:08:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-elder-plinius-obliteratus</guid>
       </item>
 <item>
         <title>World-Open-Graph/br-acc</title>
         <link>https://github.com/World-Open-Graph/br-acc</link>
-        <description>World Transparency Graph public codebase (🚧 website in progress) | 近期热门 | 总 1246 stars</description>
+        <description>World Transparency Graph public codebase (🚧 website in progress) | 近期热门 | 总 1359 stars</description>
         <author>World-Open-Graph</author>
         <category>github</category>
-        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
+        <pubDate>Sat, 07 Mar 2026 03:08:09 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-world-open-graph-br-acc</guid>
       </item>
 <item>
-        <title>LeoYeAI/openclaw-master-skills</title>
-        <link>https://github.com/LeoYeAI/openclaw-master-skills</link>
-        <description>🧠 Curated collection of 127+ best OpenClaw skills — weekly updated from skills.sh, GitHub &amp; ClaWHub. Powered by MyClaw.ai | 近期热门 | 总 993 stars</description>
-        <author>LeoYeAI</author>
+        <title>vercel-labs/openreview</title>
+        <link>https://github.com/vercel-labs/openreview</link>
+        <description>An open-source, self-hosted AI code review bot powered by Vercel. | 近期热门 | 总 490 stars</description>
+        <author>vercel-labs</author>
         <category>github</category>
-        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-leoyeai-openclaw-master-skills</guid>
+        <pubDate>Sat, 07 Mar 2026 03:08:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vercel-labs-openreview</guid>
       </item>
 <item>
-        <title>chenhg5/cc-connect</title>
-        <link>https://github.com/chenhg5/cc-connect</link>
-        <description>Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms. | 近期热门 | 总 357 stars</description>
-        <author>chenhg5</author>
+        <title>ahmadawais/terminui</title>
+        <link>https://github.com/ahmadawais/terminui</link>
+        <description>Super fast double buffered toolkit for building terminal UIs. | 近期热门 | 总 471 stars</description>
+        <author>ahmadawais</author>
         <category>github</category>
-        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-chenhg5-cc-connect</guid>
+        <pubDate>Sat, 07 Mar 2026 03:08:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ahmadawais-terminui</guid>
       </item>
 <item>
-        <title>geekjourneyx/jina-cli</title>
-        <link>https://github.com/geekjourneyx/jina-cli</link>
-        <description>A lightweight CLI tool wrapping Jina AI Reader API for AI Agents. Fetch and parse any URL into LLM-friendly   formats (Markdown/Text/HTML). Perfect for reading X(Twitter), blogs, and news sites. | 近期热门 | 总 209 stars</description>
-        <author>geekjourneyx</author>
+        <title>yologdev/yoyo-evolve</title>
+        <link>https://github.com/yologdev/yoyo-evolve</link>
+        <description>A coding agent that evolves itself. One commit per day. | 近期热门 | 总 354 stars</description>
+        <author>yologdev</author>
         <category>github</category>
-        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-geekjourneyx-jina-cli</guid>
+        <pubDate>Sat, 07 Mar 2026 03:08:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yologdev-yoyo-evolve</guid>
       </item>
 <item>
-        <title>170-carry/codex-tools</title>
-        <link>https://github.com/170-carry/codex-tools</link>
-        <description>快捷切换codex 账号以及监控codex用量的工具 | 近期热门 | 总 206 stars</description>
-        <author>170-carry</author>
+        <title>FinPyromancerLog/xcode-claw</title>
+        <link>https://github.com/FinPyromancerLog/xcode-claw</link>
+        <description> | 近期热门 | 总 323 stars</description>
+        <author>FinPyromancerLog</author>
         <category>github</category>
-        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-170-carry-codex-tools</guid>
+        <pubDate>Sat, 07 Mar 2026 03:08:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-finpyromancerlog-xcode-claw</guid>
       </item>
 <item>
-        <title>liyupi/yupi-hot-monitor</title>
-        <link>https://github.com/liyupi/yupi-hot-monitor</link>
-        <description>2026 年编程导航 AI 编程实战新项目，基于 Node.js + Express + React + OpenRouter 的 AI 热点监控工具，支持多信息源聚合抓取（Twitter / Bing / HackerNews / B 站等 7+ 平台）、AI 查询扩展、AI 真假识别与相关性分析、WebSocket 实时推送、邮件通知、多维度筛选排序，并将热点监控能力封装为 Agent Skills 技能包。覆盖 Prisma + SQLite 数据库、Socket.io 实时通信、Axios + Cheerio 网页爬虫、OpenRouter 大模型接入、Aceternity UI 炫酷前端、node-cron 定时任务、VSCode Copilot Vibe Coding + MCP | 近期热门 | 总 60 stars</description>
-        <author>liyupi</author>
+        <title>heri1845/ai-meme-trading-bot</title>
+        <link>https://github.com/heri1845/ai-meme-trading-bot</link>
+        <description>Automated trading system for Solana and Base meme coins with AI-powered strategy evaluation. AI trading, AI prediction, AI trading, AI predictiction | 近期热门 | 总 163 stars</description>
+        <author>heri1845</author>
         <category>github</category>
-        <pubDate>Thu, 05 Mar 2026 03:17:11 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-liyupi-yupi-hot-monitor</guid>
+        <pubDate>Sat, 07 Mar 2026 03:08:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-heri1845-ai-meme-trading-bot</guid>
       </item>
   </channel>
 </rss>
