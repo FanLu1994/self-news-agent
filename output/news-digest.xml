@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/8)</title>
+    <title>6-8 件事 (2026/3/9)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术资讯圈挺热闹的，尤其是围绕“AI编程”这个主题。我帮你梳理了一下，发现几个特别值得你留意的动态：首先是**AI代码助手（特别是Claude Code）的生态正在爆发**，出现了不少新的工具和讨论；其次，关于**AI智能体（Agent）如何实际应用于研发和测试**也有新项目；最后，社区里开始深入探讨**AI生成代码带来的“验证债务”等隐性成本**，这个话题很有深度。下面我挑了几个最相关的和你分享。</description>
+    <description>嘿，今天的信息流里，关于 AI 编程和智能体的内容特别多，感觉整个开发者圈子都在热烈讨论怎么用 AI 来辅助甚至自动化编码工作。我帮你挑了几个最有意思的，比如有能帮你一键配置所有 AI 编码工具的神器，还有专门分析你用了多少 AI 编程的仪表盘。另外，关于不同编程语言在 AI 辅助下的表现，有一篇硬核测评也值得一看。社区里关于 Claude Code 和 Codex 的讨论也很热闹，看来大家正在摸索怎么更好地和这些 AI 编码伙伴协作。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 08 Mar 2026 03:21:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 03:23:27 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术资讯圈挺热闹的，尤其是围绕“AI编程”这个主题。我帮你梳理了一下，发现几个特别值得你留意的动态：首先是**AI代码助手（特别是Claude Code）的生态正在爆发**，出现了不少新的工具和讨论；其次，关于**AI智能体（Agent）如何实际应用于研发和测试**也有新项目；最后，社区里开始深入探讨**AI生成代码带来的“验证债务”等隐性成本**，这个话题很有深度。下面我挑了几个最相关的和你分享。</description>
-        <pubDate>Sun, 08 Mar 2026 03:21:04 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-08T03:20:30.720Z</guid>
+        <description>嘿，今天的信息流里，关于 AI 编程和智能体的内容特别多，感觉整个开发者圈子都在热烈讨论怎么用 AI 来辅助甚至自动化编码工作。我帮你挑了几个最有意思的，比如有能帮你一键配置所有 AI 编码工具的神器，还有专门分析你用了多少 AI 编程的仪表盘。另外，关于不同编程语言在 AI 辅助下的表现，有一篇硬核测评也值得一看。社区里关于 Claude Code 和 Codex 的讨论也很热闹，看来大家正在摸索怎么更好地和这些 AI 编码伙伴协作。</description>
+        <pubDate>Mon, 09 Mar 2026 03:23:27 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-09T03:22:47.547Z</guid>
       </item>
     <item>
-        <title>googleworkspace/cli</title>
-        <link>https://github.com/googleworkspace/cli</link>
-        <description>Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | 近期热门 | 总 15372 stars</description>
-        <author>googleworkspace</author>
-        <category>github</category>
-        <pubDate>Sun, 08 Mar 2026 03:18:29 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-googleworkspace-cli</guid>
-      </item>
-<item>
-        <title>paperclipai/paperclip</title>
-        <link>https://github.com/paperclipai/paperclip</link>
-        <description>Open-source orchestration for zero-human companies | 近期热门 | 总 8404 stars</description>
-        <author>paperclipai</author>
-        <category>github</category>
-        <pubDate>Sun, 08 Mar 2026 03:18:29 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-paperclipai-paperclip</guid>
-      </item>
-<item>
         <title>karpathy/autoresearch</title>
         <link>https://github.com/karpathy/autoresearch</link>
-        <description>AI agents running research on single-GPU nanochat training automatically | 近期热门 | 总 2669 stars</description>
+        <description>AI agents running research on single-GPU nanochat training automatically | 近期热门 | 总 9506 stars</description>
         <author>karpathy</author>
         <category>github</category>
-        <pubDate>Sun, 08 Mar 2026 03:18:29 GMT</pubDate>
+        <pubDate>Mon, 09 Mar 2026 03:20:33 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-karpathy-autoresearch</guid>
       </item>
 <item>
         <title>elder-plinius/OBLITERATUS</title>
         <link>https://github.com/elder-plinius/OBLITERATUS</link>
-        <description>OBLITERATE THE CHAINS THAT BIND YOU | 近期热门 | 总 2228 stars</description>
+        <description>OBLITERATE THE CHAINS THAT BIND YOU | 近期热门 | 总 2410 stars</description>
         <author>elder-plinius</author>
         <category>github</category>
-        <pubDate>Sun, 08 Mar 2026 03:18:29 GMT</pubDate>
+        <pubDate>Mon, 09 Mar 2026 03:20:33 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-elder-plinius-obliteratus</guid>
       </item>
 <item>
-        <title>LeoYeAI/openclaw-master-skills</title>
-        <link>https://github.com/LeoYeAI/openclaw-master-skills</link>
-        <description>🧠 Curated collection of 127+ best OpenClaw skills — weekly updated from skills.sh, GitHub &amp; ClaWHub. Powered by MyClaw.ai | 近期热门 | 总 1451 stars</description>
-        <author>LeoYeAI</author>
+        <title>viperrcrypto/Siftly</title>
+        <link>https://github.com/viperrcrypto/Siftly</link>
+        <description>Local Twitter/X bookmark organizer with AI categorization and mindmap visualization | 近期热门 | 总 1012 stars</description>
+        <author>viperrcrypto</author>
         <category>github</category>
-        <pubDate>Sun, 08 Mar 2026 03:18:29 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-leoyeai-openclaw-master-skills</guid>
+        <pubDate>Mon, 09 Mar 2026 03:20:33 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-viperrcrypto-siftly</guid>
       </item>
 <item>
-        <title>vercel-labs/openreview</title>
-        <link>https://github.com/vercel-labs/openreview</link>
-        <description>An open-source, self-hosted AI code review bot powered by Vercel. | 近期热门 | 总 646 stars</description>
-        <author>vercel-labs</author>
+        <title>tanishqkumar/ssd</title>
+        <link>https://github.com/tanishqkumar/ssd</link>
+        <description>A lightweight inference engine supporting speculative speculative decoding (SSD).  | 近期热门 | 总 714 stars</description>
+        <author>tanishqkumar</author>
         <category>github</category>
-        <pubDate>Sun, 08 Mar 2026 03:18:29 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vercel-labs-openreview</guid>
+        <pubDate>Mon, 09 Mar 2026 03:20:33 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-tanishqkumar-ssd</guid>
       </item>
 <item>
         <title>op7418/Claude-to-IM-skill</title>
         <link>https://github.com/op7418/Claude-to-IM-skill</link>
-        <description>Bridge Claude Code / Codex to IM platforms — chat with AI coding agents from Telegram, Discord, or Feishu/Lark. | 近期热门 | 总 503 stars</description>
+        <description>Bridge Claude Code / Codex to IM platforms — chat with AI coding agents from Telegram, Discord, or Feishu/Lark. | 近期热门 | 总 664 stars</description>
         <author>op7418</author>
         <category>github</category>
-        <pubDate>Sun, 08 Mar 2026 03:18:29 GMT</pubDate>
+        <pubDate>Mon, 09 Mar 2026 03:20:33 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-op7418-claude-to-im-skill</guid>
+      </item>
+<item>
+        <title>TinyAGI/fractals</title>
+        <link>https://github.com/TinyAGI/fractals</link>
+        <description>Fractals is a recursive task orchestrator for agent swarm | 近期热门 | 总 491 stars</description>
+        <author>TinyAGI</author>
+        <category>github</category>
+        <pubDate>Mon, 09 Mar 2026 03:20:33 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-tinyagi-fractals</guid>
+      </item>
+<item>
+        <title>bitman09/Rust-Politics-Sports-Polymarket-Trading-Bot</title>
+        <link>https://github.com/bitman09/Rust-Politics-Sports-Polymarket-Trading-Bot</link>
+        <description>A Rust bot for Polymarket that trades sports and politics (binary) markets by slug using a trailing stop strategy only. | 近期热门 | 总 320 stars</description>
+        <author>bitman09</author>
+        <category>github</category>
+        <pubDate>Mon, 09 Mar 2026 03:20:33 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-bitman09-rust-politics-sports-polymarket-trading-bot</guid>
       </item>
 <item>
         <title>FinPyromancerLog/xcode-claw</title>
@@ -82,7 +82,7 @@
         <description> | 近期热门 | 总 310 stars</description>
         <author>FinPyromancerLog</author>
         <category>github</category>
-        <pubDate>Sun, 08 Mar 2026 03:18:29 GMT</pubDate>
+        <pubDate>Mon, 09 Mar 2026 03:20:33 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-finpyromancerlog-xcode-claw</guid>
       </item>
 <item>
@@ -91,17 +91,17 @@
         <description>Automated trading system for Solana and Base meme coins with AI-powered strategy evaluation. AI trading, AI prediction, AI trading, AI predictiction | 近期热门 | 总 173 stars</description>
         <author>heri1845</author>
         <category>github</category>
-        <pubDate>Sun, 08 Mar 2026 03:18:29 GMT</pubDate>
+        <pubDate>Mon, 09 Mar 2026 03:20:33 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-heri1845-ai-meme-trading-bot</guid>
       </item>
 <item>
-        <title>f/agentlytics</title>
-        <link>https://github.com/f/agentlytics</link>
-        <description>Comprehensive analytics dashboard for AI coding agents — Cursor, Windsurf, Claude Code, VS Code Copilot, Zed, Antigravity, OpenCode, Command Code | 近期热门 | 总 54 stars</description>
-        <author>f</author>
+        <title>holysheep123/holysheep-cli</title>
+        <link>https://github.com/holysheep123/holysheep-cli</link>
+        <description>🐑 One command to configure all AI coding tools — Claude Code, Codex, Gemini CLI, Cursor, Aider &amp; more | 近期热门 | 总 131 stars</description>
+        <author>holysheep123</author>
         <category>github</category>
-        <pubDate>Sun, 08 Mar 2026 03:18:29 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-f-agentlytics</guid>
+        <pubDate>Mon, 09 Mar 2026 03:20:33 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-holysheep123-holysheep-cli</guid>
       </item>
   </channel>
 </rss>
