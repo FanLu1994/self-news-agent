@@ -1,62 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/12)</title>
+    <title>6-8 件事 (2026/3/13)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的内容特别多，感觉整个圈子都在讨论怎么让 AI 更好地帮我们写代码、管理项目。我帮你筛了一遍，发现几个亮点：一个是 Karpathy 大神的新项目，用 AI 智能体自动做研究，很硬核；另一个是各种围绕 “Claude Code” 和 “Codex” 的生态工具大爆发，从 CLI 工具到会话管理，大家都在想办法提升 AI 编程的体验和效率。还有，关于“AI 智能体 vs. 传统界面”的讨论也很有意思，有人预言未来万亿级用户的产品可能根本没有界面。</description>
+    <description>今天有几件事特别值得你留意：
+1.  **AI编程代理的“军备竞赛”**：OpenAI的Codex正在快速追赶Anthropic的Claude Code，使用量从5%追到了40%，竞争白热化。
+2.  **新的明星代码模型**：一个叫 **OmniCoder-9B** 的模型在社区里火了，它专门针对代理式编码（agentic coding）微调，据说在本地跑效果很棒，给用不起云端服务的人提供了新选择。
+3.  **工具生态在爆发**：出现了好几个帮你**管理和分析**AI编码代理（如Cursor、Claude Code）使用情况的新工具，比如数据面板、会话分析工具，说明大家开始关注使用效率和优化了。
+4.  **让所有软件都支持Agent**：有个叫 **CLI-Anything** 的项目很有意思，它想把所有命令行软件都变成Agent可以原生操作的对象，野心不小。
+5.  **本地桌面Agent的突破**：一个开源的桌面代理 **Understudy**，能通过看你的GUI操作来学习任务，然后自动执行，把Agent能力带到了本地日常应用层面。
+6.  **关于AI编程的深度思考**：有一篇从**安全防御和工程治理**角度分析AI生成代码的文章，视角很独特，值得开发者和管理者看看。
+7.  **社区热议实用问题**：社区里在热烈讨论Claude Code的配置、Codex的接入方式、公司不提供AI预算怎么办等非常实际的问题，反映了真实的采纳痛点。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 12 Mar 2026 03:21:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 03:21:08 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的内容特别多，感觉整个圈子都在讨论怎么让 AI 更好地帮我们写代码、管理项目。我帮你筛了一遍，发现几个亮点：一个是 Karpathy 大神的新项目，用 AI 智能体自动做研究，很硬核；另一个是各种围绕 “Claude Code” 和 “Codex” 的生态工具大爆发，从 CLI 工具到会话管理，大家都在想办法提升 AI 编程的体验和效率。还有，关于“AI 智能体 vs. 传统界面”的讨论也很有意思，有人预言未来万亿级用户的产品可能根本没有界面。</description>
-        <pubDate>Thu, 12 Mar 2026 03:21:15 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-12T03:20:43.690Z</guid>
+        <description>今天有几件事特别值得你留意：
+1.  **AI编程代理的“军备竞赛”**：OpenAI的Codex正在快速追赶Anthropic的Claude Code，使用量从5%追到了40%，竞争白热化。
+2.  **新的明星代码模型**：一个叫 **OmniCoder-9B** 的模型在社区里火了，它专门针对代理式编码（agentic coding）微调，据说在本地跑效果很棒，给用不起云端服务的人提供了新选择。
+3.  **工具生态在爆发**：出现了好几个帮你**管理和分析**AI编码代理（如Cursor、Claude Code）使用情况的新工具，比如数据面板、会话分析工具，说明大家开始关注使用效率和优化了。
+4.  **让所有软件都支持Agent**：有个叫 **CLI-Anything** 的项目很有意思，它想把所有命令行软件都变成Agent可以原生操作的对象，野心不小。
+5.  **本地桌面Agent的突破**：一个开源的桌面代理 **Understudy**，能通过看你的GUI操作来学习任务，然后自动执行，把Agent能力带到了本地日常应用层面。
+6.  **关于AI编程的深度思考**：有一篇从**安全防御和工程治理**角度分析AI生成代码的文章，视角很独特，值得开发者和管理者看看。
+7.  **社区热议实用问题**：社区里在热烈讨论Claude Code的配置、Codex的接入方式、公司不提供AI预算怎么办等非常实际的问题，反映了真实的采纳痛点。
+
+---</description>
+        <pubDate>Fri, 13 Mar 2026 03:21:08 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-13T03:19:51.193Z</guid>
       </item>
     <item>
-        <title>karpathy/autoresearch</title>
-        <link>https://github.com/karpathy/autoresearch</link>
-        <description>AI agents running research on single-GPU nanochat training automatically | 近期热门 | 总 26474 stars</description>
-        <author>karpathy</author>
-        <category>github</category>
-        <pubDate>Thu, 12 Mar 2026 03:18:45 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-karpathy-autoresearch</guid>
-      </item>
-<item>
         <title>HKUDS/CLI-Anything</title>
         <link>https://github.com/HKUDS/CLI-Anything</link>
-        <description>CLI-Anything: Making ALL Software Agent-Native | 近期热门 | 总 5813 stars</description>
+        <description>CLI-Anything: Making ALL Software Agent-Native | 近期热门 | 总 9246 stars</description>
         <author>HKUDS</author>
         <category>github</category>
-        <pubDate>Thu, 12 Mar 2026 03:18:45 GMT</pubDate>
+        <pubDate>Fri, 13 Mar 2026 03:17:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-hkuds-cli-anything</guid>
       </item>
 <item>
-        <title>tanweai/pua</title>
-        <link>https://github.com/tanweai/pua</link>
-        <description>你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 | 近期热门 | 总 3288 stars</description>
-        <author>tanweai</author>
+        <title>garrytan/gstack</title>
+        <link>https://github.com/garrytan/gstack</link>
+        <description>Use Garry Tan&apos;s exact Claude Code setup: 6 opinionated tools that serve as CEO, Eng Manager, Release Manager and QA Engineer | 近期热门 | 总 2974 stars</description>
+        <author>garrytan</author>
         <category>github</category>
-        <pubDate>Thu, 12 Mar 2026 03:18:45 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-tanweai-pua</guid>
+        <pubDate>Fri, 13 Mar 2026 03:17:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-garrytan-gstack</guid>
       </item>
 <item>
         <title>FreedomIntelligence/OpenClaw-Medical-Skills</title>
         <link>https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills</link>
-        <description>The largest open-source medical AI skills library for OpenClaw🦞. | 近期热门 | 总 1011 stars</description>
+        <description>The largest open-source medical AI skills library for OpenClaw🦞. | 近期热门 | 总 1085 stars</description>
         <author>FreedomIntelligence</author>
         <category>github</category>
-        <pubDate>Thu, 12 Mar 2026 03:18:45 GMT</pubDate>
+        <pubDate>Fri, 13 Mar 2026 03:17:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-freedomintelligence-openclaw-medical-skills</guid>
+      </item>
+<item>
+        <title>gsd-build/gsd-2</title>
+        <link>https://github.com/gsd-build/gsd-2</link>
+        <description>A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture | 近期热门 | 总 790 stars</description>
+        <author>gsd-build</author>
+        <category>github</category>
+        <pubDate>Fri, 13 Mar 2026 03:17:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-gsd-build-gsd-2</guid>
       </item>
 <item>
         <title>Rohit24567/HyperLiquid-Claw</title>
         <link>https://github.com/Rohit24567/HyperLiquid-Claw</link>
-        <description>Trade smarter, not harder. Hyperliquid Claw gives your AI assistant full access to Hyperliquid DEX | 近期热门 | 总 325 stars</description>
+        <description>Trade smarter, not harder. Hyperliquid Claw gives your AI assistant full access to Hyperliquid DEX | 近期热门 | 总 380 stars</description>
         <author>Rohit24567</author>
         <category>github</category>
-        <pubDate>Thu, 12 Mar 2026 03:18:45 GMT</pubDate>
+        <pubDate>Fri, 13 Mar 2026 03:17:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-rohit24567-hyperliquid-claw</guid>
+      </item>
+<item>
+        <title>f/agentlytics</title>
+        <link>https://github.com/f/agentlytics</link>
+        <description>Comprehensive analytics dashboard for AI coding agents — Cursor, Windsurf, Claude Code, VS Code Copilot, Zed, Antigravity, OpenCode, Command Code | 近期热门 | 总 312 stars</description>
+        <author>f</author>
+        <category>github</category>
+        <pubDate>Fri, 13 Mar 2026 03:17:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-f-agentlytics</guid>
+      </item>
+<item>
+        <title>f/agentlytics</title>
+        <link>https://github.com/f/agentlytics</link>
+        <description>Comprehensive analytics dashboard for AI coding agents — Cursor, Windsurf, Claude Code, VS Code Copilot, Zed, Antigravity, OpenCode, Command Code | 近期热门 | 总 312 stars</description>
+        <author>f</author>
+        <category>github</category>
+        <pubDate>Fri, 13 Mar 2026 03:17:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-f-agentlytics</guid>
       </item>
 <item>
         <title>holysheep123/holysheep-cli</title>
@@ -64,43 +100,25 @@
         <description>🐑 One command to configure all AI coding tools — Claude Code, Codex, Gemini CLI, Cursor, Aider &amp; more | 近期热门 | 总 305 stars</description>
         <author>holysheep123</author>
         <category>github</category>
-        <pubDate>Thu, 12 Mar 2026 03:18:45 GMT</pubDate>
+        <pubDate>Fri, 13 Mar 2026 03:17:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-holysheep123-holysheep-cli</guid>
-      </item>
-<item>
-        <title>f/agentlytics</title>
-        <link>https://github.com/f/agentlytics</link>
-        <description>Comprehensive analytics dashboard for AI coding agents — Cursor, Windsurf, Claude Code, VS Code Copilot, Zed, Antigravity, OpenCode, Command Code | 近期热门 | 总 299 stars</description>
-        <author>f</author>
-        <category>github</category>
-        <pubDate>Thu, 12 Mar 2026 03:18:45 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-f-agentlytics</guid>
-      </item>
-<item>
-        <title>f/agentlytics</title>
-        <link>https://github.com/f/agentlytics</link>
-        <description>Comprehensive analytics dashboard for AI coding agents — Cursor, Windsurf, Claude Code, VS Code Copilot, Zed, Antigravity, OpenCode, Command Code | 近期热门 | 总 299 stars</description>
-        <author>f</author>
-        <category>github</category>
-        <pubDate>Thu, 12 Mar 2026 03:18:45 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-f-agentlytics</guid>
       </item>
 <item>
         <title>nagisanzenin/skyclaw</title>
         <link>https://github.com/nagisanzenin/skyclaw</link>
-        <description>Hyper-lean &amp; blazing fast Claw that lives and self-sustain on the cloud... indefinitely | 近期热门 | 总 228 stars</description>
+        <description>Hyper-lean &amp; blazing fast Claw that lives and self-sustain on the cloud... indefinitely | 近期热门 | 总 253 stars</description>
         <author>nagisanzenin</author>
         <category>github</category>
-        <pubDate>Thu, 12 Mar 2026 03:18:45 GMT</pubDate>
+        <pubDate>Fri, 13 Mar 2026 03:17:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-nagisanzenin-skyclaw</guid>
       </item>
 <item>
         <title>mem9-ai/mem9</title>
         <link>https://github.com/mem9-ai/mem9</link>
-        <description> | 近期热门 | 总 216 stars</description>
+        <description> | 近期热门 | 总 230 stars</description>
         <author>mem9-ai</author>
         <category>github</category>
-        <pubDate>Thu, 12 Mar 2026 03:18:45 GMT</pubDate>
+        <pubDate>Fri, 13 Mar 2026 03:17:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mem9-ai-mem9</guid>
       </item>
   </channel>
