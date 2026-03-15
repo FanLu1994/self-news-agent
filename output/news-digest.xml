@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/14)</title>
+    <title>6-8 件事 (2026/3/15)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈依然是 AI 和编程工具的主场。我发现几个特别有意思的趋势：一是围绕 **AI Agent 的开发框架和运行时** 出现了不少新项目，感觉大家都在努力让 Agent 变得更“原生”、更强大。二是关于 **Claude Code 和 Codex 这类 AI 编程工具** 的讨论和实践非常多，从如何高效使用到如何管理多个会话，大家真是玩出花了。三是 **本地运行/微调 LLM 用于编程** 依然是个热门话题，很多人都在寻找能媲美云端顶级模型的本地方案。下面我给你挑了一些最对味的。</description>
+    <description>嘿，今天简直是 AI Agent 开发者的“装备更新日”！GitHub Trending 上冒出来一堆新工具，都在解决同一个核心问题：**如何给 AI 装上更强大的“手脚”和“眼睛”**，让它能操作浏览器、连接外部服务、甚至管理自己的代码仓库。同时，关于 Claude Code 的讨论也特别热，大家好像都在寻找最佳实践。如果你在搞 AI 编程或者智能体，今天这几个项目绝对值得你花十分钟看看。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Mar 2026 03:19:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 03:33:46 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈依然是 AI 和编程工具的主场。我发现几个特别有意思的趋势：一是围绕 **AI Agent 的开发框架和运行时** 出现了不少新项目，感觉大家都在努力让 Agent 变得更“原生”、更强大。二是关于 **Claude Code 和 Codex 这类 AI 编程工具** 的讨论和实践非常多，从如何高效使用到如何管理多个会话，大家真是玩出花了。三是 **本地运行/微调 LLM 用于编程** 依然是个热门话题，很多人都在寻找能媲美云端顶级模型的本地方案。下面我给你挑了一些最对味的。</description>
-        <pubDate>Sat, 14 Mar 2026 03:19:36 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-14T03:18:18.618Z</guid>
+        <description>嘿，今天简直是 AI Agent 开发者的“装备更新日”！GitHub Trending 上冒出来一堆新工具，都在解决同一个核心问题：**如何给 AI 装上更强大的“手脚”和“眼睛”**，让它能操作浏览器、连接外部服务、甚至管理自己的代码仓库。同时，关于 Claude Code 的讨论也特别热，大家好像都在寻找最佳实践。如果你在搞 AI 编程或者智能体，今天这几个项目绝对值得你花十分钟看看。</description>
+        <pubDate>Sun, 15 Mar 2026 03:33:46 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-15T03:32:55.146Z</guid>
       </item>
     <item>
-        <title>HKUDS/CLI-Anything</title>
-        <link>https://github.com/HKUDS/CLI-Anything</link>
-        <description>CLI-Anything: Making ALL Software Agent-Native | 近期热门 | 总 11930 stars</description>
-        <author>HKUDS</author>
-        <category>github</category>
-        <pubDate>Sat, 14 Mar 2026 03:15:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hkuds-cli-anything</guid>
-      </item>
-<item>
-        <title>tanweai/pua</title>
-        <link>https://github.com/tanweai/pua</link>
-        <description>你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  You are a P8-level engineer who once had high hopes placed on you. When Anthropic classified you at that level, their expectations were high. | 近期热门 | 总 6662 stars</description>
-        <author>tanweai</author>
-        <category>github</category>
-        <pubDate>Sat, 14 Mar 2026 03:15:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-tanweai-pua</guid>
-      </item>
-<item>
         <title>garrytan/gstack</title>
         <link>https://github.com/garrytan/gstack</link>
-        <description>Use Garry Tan&apos;s exact Claude Code setup: 6 opinionated tools that serve as CEO, Eng Manager, Release Manager and QA Engineer | 近期热门 | 总 6532 stars</description>
+        <description>Use Garry Tan&apos;s exact Claude Code setup: 6 opinionated tools that serve as CEO, Eng Manager, Release Manager and QA Engineer | 近期热门 | 总 10867 stars</description>
         <author>garrytan</author>
         <category>github</category>
-        <pubDate>Sat, 14 Mar 2026 03:15:27 GMT</pubDate>
+        <pubDate>Sun, 15 Mar 2026 03:30:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-garrytan-gstack</guid>
-      </item>
-<item>
-        <title>FreedomIntelligence/OpenClaw-Medical-Skills</title>
-        <link>https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills</link>
-        <description>The largest open-source medical AI skills library for OpenClaw🦞. | 近期热门 | 总 1126 stars</description>
-        <author>FreedomIntelligence</author>
-        <category>github</category>
-        <pubDate>Sat, 14 Mar 2026 03:15:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-freedomintelligence-openclaw-medical-skills</guid>
       </item>
 <item>
         <title>aiming-lab/MetaClaw</title>
         <link>https://github.com/aiming-lab/MetaClaw</link>
-        <description>Just talk to your agent — it learns and EVOLVES. | 近期热门 | 总 992 stars</description>
+        <description>Just talk to your agent — it learns and EVOLVES. | 近期热门 | 总 1154 stars</description>
         <author>aiming-lab</author>
         <category>github</category>
-        <pubDate>Sat, 14 Mar 2026 03:15:27 GMT</pubDate>
+        <pubDate>Sun, 15 Mar 2026 03:30:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-aiming-lab-metaclaw</guid>
+      </item>
+<item>
+        <title>pasky/chrome-cdp-skill</title>
+        <link>https://github.com/pasky/chrome-cdp-skill</link>
+        <description>Give your AI agent access to your live Chrome session — works out of the box, connects to tabs you already have open | 近期热门 | 总 1001 stars</description>
+        <author>pasky</author>
+        <category>github</category>
+        <pubDate>Sun, 15 Mar 2026 03:30:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-pasky-chrome-cdp-skill</guid>
+      </item>
+<item>
+        <title>knowsuchagency/mcp2cli</title>
+        <link>https://github.com/knowsuchagency/mcp2cli</link>
+        <description>Turn any MCP, OpenAPI, or GraphQL server into a CLI — at runtime, with zero codegen | 近期热门 | 总 964 stars</description>
+        <author>knowsuchagency</author>
+        <category>github</category>
+        <pubDate>Sun, 15 Mar 2026 03:30:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-knowsuchagency-mcp2cli</guid>
+      </item>
+<item>
+        <title>wanshuiyin/Auto-claude-code-research-in-sleep</title>
+        <link>https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep</link>
+        <description>ARIS ⚔️ (Auto-Research-In-Sleep) — Claude Code skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation via Codex MCP | 近期热门 | 总 924 stars</description>
+        <author>wanshuiyin</author>
+        <category>github</category>
+        <pubDate>Sun, 15 Mar 2026 03:30:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-wanshuiyin-auto-claude-code-research-in-sleep</guid>
       </item>
 <item>
         <title>Rohit24567/HyperLiquid-Claw</title>
         <link>https://github.com/Rohit24567/HyperLiquid-Claw</link>
-        <description>Trade smarter, not harder. Hyperliquid Claw gives your AI assistant full access to Hyperliquid DEX | 近期热门 | 总 424 stars</description>
+        <description>Trade smarter, not harder. Hyperliquid Claw gives your AI assistant full access to Hyperliquid DEX | 近期热门 | 总 447 stars</description>
         <author>Rohit24567</author>
         <category>github</category>
-        <pubDate>Sat, 14 Mar 2026 03:15:27 GMT</pubDate>
+        <pubDate>Sun, 15 Mar 2026 03:30:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-rohit24567-hyperliquid-claw</guid>
       </item>
 <item>
         <title>vasilytrofimchuk/domainsearcher-app</title>
         <link>https://github.com/vasilytrofimchuk/domainsearcher-app</link>
-        <description>Score and choose the best domain name for your startup — AI-powered generation, real-time availability, and multi-dimensional scoring (LEN, PRO, MEM, BRD, FIT). Free, no signup. | 近期热门 | 总 367 stars</description>
+        <description>Score and choose the best domain name for your startup — AI-powered generation, real-time availability, and multi-dimensional scoring (LEN, PRO, MEM, BRD, FIT). Free, no signup. | 近期热门 | 总 414 stars</description>
         <author>vasilytrofimchuk</author>
         <category>github</category>
-        <pubDate>Sat, 14 Mar 2026 03:15:27 GMT</pubDate>
+        <pubDate>Sun, 15 Mar 2026 03:30:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vasilytrofimchuk-domainsearcher-app</guid>
       </item>
 <item>
         <title>KeyID-AI/agent-kit</title>
         <link>https://github.com/KeyID-AI/agent-kit</link>
-        <description>Give Claude/Cursor email powers. 27 MCP tools — inbox, send, reply, contacts, search. Free, no signup. | 近期热门 | 总 312 stars</description>
+        <description>Give Claude/Cursor email powers. 27 MCP tools — inbox, send, reply, contacts, search. Free, no signup. | 近期热门 | 总 400 stars</description>
         <author>KeyID-AI</author>
         <category>github</category>
-        <pubDate>Sat, 14 Mar 2026 03:15:27 GMT</pubDate>
+        <pubDate>Sun, 15 Mar 2026 03:30:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-keyid-ai-agent-kit</guid>
-      </item>
-<item>
-        <title>nagisanzenin/skyclaw</title>
-        <link>https://github.com/nagisanzenin/skyclaw</link>
-        <description>Autonomous AI agent runtime in Rust. Treats the LLM as a finite brain — not a text generator — with procedural memory, resource-aware context management, and zero-downtime resilience. | 近期热门 | 总 271 stars</description>
-        <author>nagisanzenin</author>
-        <category>github</category>
-        <pubDate>Sat, 14 Mar 2026 03:15:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nagisanzenin-skyclaw</guid>
       </item>
 <item>
         <title>epiral/agent-clip</title>
         <link>https://github.com/epiral/agent-clip</link>
-        <description>AI Agent as a Pinix Clip — agentic loop with memory, tools, and vision | 近期热门 | 总 243 stars</description>
+        <description>AI Agent as a Pinix Clip — agentic loop with memory, tools, and vision | 近期热门 | 总 292 stars</description>
         <author>epiral</author>
         <category>github</category>
-        <pubDate>Sat, 14 Mar 2026 03:15:27 GMT</pubDate>
+        <pubDate>Sun, 15 Mar 2026 03:30:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-epiral-agent-clip</guid>
+      </item>
+<item>
+        <title>jimuzhe/tiez-clipboard</title>
+        <link>https://github.com/jimuzhe/tiez-clipboard</link>
+        <description>TieZ 是一款基于 Tauri 的跨平台剪贴板管理器 / A cross-platform clipboard manager with history, tags, sync, privacy protection, and fast daily workflows. | 近期热门 | 总 224 stars</description>
+        <author>jimuzhe</author>
+        <category>github</category>
+        <pubDate>Sun, 15 Mar 2026 03:30:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-jimuzhe-tiez-clipboard</guid>
       </item>
   </channel>
 </rss>
