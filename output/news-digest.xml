@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/17)</title>
+    <title>6-8 件事 (2026/3/18)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈依然围绕着 AI 和编程工具在高速运转。我帮你梳理了一下，发现几个特别有意思的点：首先是 **AI 编程助手（特别是 Claude Code）** 相关的讨论和工具非常多，从安全漏洞到用量监控，大家都很关心怎么用好它。其次是 **AI Agent（智能体）** 的生态越来越热闹了，不仅有新的开发框架，还有专门为它们设计的硬件发布。最后，关于 **代码生成的质量与速度** 的学术研究也浮出水面，这可能是每个开发者都应该思考的问题。</description>
+    <description>嘿，今天的技术资讯圈挺热闹的，尤其是围绕着你关心的 AI、LLM 和 Coding 这几个领域。我发现几个特别有意思的趋势：一是 **AI 编程助手（像 Claude Code、Cursor）的生态越来越丰富了**，出现了不少提升它们能力的插件和技能包；二是 **本地运行 AI 编码代理** 成了热门讨论话题，很多人都在寻找隐私友好、功能强大的方案；三是 **AI Agent（智能体）的开发** 正在从“手工作坊”走向更工程化、更安全的阶段。感觉整个领域正在从早期的兴奋尝试，进入更务实、更深入的构建阶段。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 17 Mar 2026 03:21:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 03:26:47 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈依然围绕着 AI 和编程工具在高速运转。我帮你梳理了一下，发现几个特别有意思的点：首先是 **AI 编程助手（特别是 Claude Code）** 相关的讨论和工具非常多，从安全漏洞到用量监控，大家都很关心怎么用好它。其次是 **AI Agent（智能体）** 的生态越来越热闹了，不仅有新的开发框架，还有专门为它们设计的硬件发布。最后，关于 **代码生成的质量与速度** 的学术研究也浮出水面，这可能是每个开发者都应该思考的问题。</description>
-        <pubDate>Tue, 17 Mar 2026 03:21:59 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-17T03:21:19.551Z</guid>
+        <description>嘿，今天的技术资讯圈挺热闹的，尤其是围绕着你关心的 AI、LLM 和 Coding 这几个领域。我发现几个特别有意思的趋势：一是 **AI 编程助手（像 Claude Code、Cursor）的生态越来越丰富了**，出现了不少提升它们能力的插件和技能包；二是 **本地运行 AI 编码代理** 成了热门讨论话题，很多人都在寻找隐私友好、功能强大的方案；三是 **AI Agent（智能体）的开发** 正在从“手工作坊”走向更工程化、更安全的阶段。感觉整个领域正在从早期的兴奋尝试，进入更务实、更深入的构建阶段。</description>
+        <pubDate>Wed, 18 Mar 2026 03:26:47 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-18T03:26:09.671Z</guid>
       </item>
     <item>
-        <title>garrytan/gstack</title>
-        <link>https://github.com/garrytan/gstack</link>
-        <description>Use Garry Tan&apos;s exact Claude Code setup: 10 opinionated tools that serve as CEO, Eng Manager, Release Manager, Doc Engineer, and QA | 近期热门 | 总 17570 stars</description>
-        <author>garrytan</author>
+        <title>aiming-lab/AutoResearchClaw</title>
+        <link>https://github.com/aiming-lab/AutoResearchClaw</link>
+        <description>Fully autonomous &amp; self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | 近期热门 | 总 4503 stars</description>
+        <author>aiming-lab</author>
         <category>github</category>
-        <pubDate>Tue, 17 Mar 2026 03:19:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-garrytan-gstack</guid>
-      </item>
-<item>
-        <title>THU-MAIC/OpenMAIC</title>
-        <link>https://github.com/THU-MAIC/OpenMAIC</link>
-        <description>Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click | 近期热门 | 总 2314 stars</description>
-        <author>THU-MAIC</author>
-        <category>github</category>
-        <pubDate>Tue, 17 Mar 2026 03:19:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-thu-maic-openmaic</guid>
+        <pubDate>Wed, 18 Mar 2026 03:23:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-aiming-lab-autoresearchclaw</guid>
       </item>
 <item>
         <title>calesthio/Crucix</title>
         <link>https://github.com/calesthio/Crucix</link>
-        <description>Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes. | 近期热门 | 总 2031 stars</description>
+        <description>Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes. | 近期热门 | 总 3170 stars</description>
         <author>calesthio</author>
         <category>github</category>
-        <pubDate>Tue, 17 Mar 2026 03:19:27 GMT</pubDate>
+        <pubDate>Wed, 18 Mar 2026 03:23:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-calesthio-crucix</guid>
       </item>
 <item>
         <title>pasky/chrome-cdp-skill</title>
         <link>https://github.com/pasky/chrome-cdp-skill</link>
-        <description>Give your AI agent access to your live Chrome session — works out of the box, connects to tabs you already have open | 近期热门 | 总 1903 stars</description>
+        <description>Give your AI agent access to your live Chrome session — works out of the box, connects to tabs you already have open | 近期热门 | 总 2080 stars</description>
         <author>pasky</author>
         <category>github</category>
-        <pubDate>Tue, 17 Mar 2026 03:19:27 GMT</pubDate>
+        <pubDate>Wed, 18 Mar 2026 03:23:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-pasky-chrome-cdp-skill</guid>
       </item>
 <item>
-        <title>aiming-lab/AutoResearchClaw</title>
-        <link>https://github.com/aiming-lab/AutoResearchClaw</link>
-        <description>Fully autonomous research from idea to paper. Chat an Idea. Get a Paper. Fully Autonomous. 🦞 | 近期热门 | 总 1585 stars</description>
-        <author>aiming-lab</author>
+        <title>Narcooo/inkos</title>
+        <link>https://github.com/Narcooo/inkos</link>
+        <description>Autonomous novel writing CLI agent — AI agents write, audit, and revise novels with human review gates | 近期热门 | 总 1476 stars</description>
+        <author>Narcooo</author>
         <category>github</category>
-        <pubDate>Tue, 17 Mar 2026 03:19:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-aiming-lab-autoresearchclaw</guid>
+        <pubDate>Wed, 18 Mar 2026 03:23:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-narcooo-inkos</guid>
       </item>
 <item>
         <title>Infatoshi/OpenSquirrel</title>
         <link>https://github.com/Infatoshi/OpenSquirrel</link>
-        <description>For people who get distracted by agents. A native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenCode side by side — because if you&apos;re going to be squirrely, you might as well optimize for it. | 近期热门 | 总 822 stars</description>
+        <description>For people who get distracted by agents. A native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenCode side by side — because if you&apos;re going to be squirrely, you might as well optimize for it. | 近期热门 | 总 996 stars</description>
         <author>Infatoshi</author>
         <category>github</category>
-        <pubDate>Tue, 17 Mar 2026 03:19:27 GMT</pubDate>
+        <pubDate>Wed, 18 Mar 2026 03:23:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-infatoshi-opensquirrel</guid>
-      </item>
-<item>
-        <title>RightNow-AI/autokernel</title>
-        <link>https://github.com/RightNow-AI/autokernel</link>
-        <description>Autoresearch for GPU kernels. Give it any PyTorch model, go to sleep, wake up to optimized Triton kernels. | 近期热门 | 总 662 stars</description>
-        <author>RightNow-AI</author>
-        <category>github</category>
-        <pubDate>Tue, 17 Mar 2026 03:19:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-rightnow-ai-autokernel</guid>
-      </item>
-<item>
-        <title>KeyID-AI/agent-kit</title>
-        <link>https://github.com/KeyID-AI/agent-kit</link>
-        <description>Give Claude/Cursor email powers. 27 MCP tools — inbox, send, reply, contacts, search. Free, no signup. | 近期热门 | 总 473 stars</description>
-        <author>KeyID-AI</author>
-        <category>github</category>
-        <pubDate>Tue, 17 Mar 2026 03:19:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-keyid-ai-agent-kit</guid>
       </item>
 <item>
         <title>nikmcfly/MiroFish-Offline</title>
         <link>https://github.com/nikmcfly/MiroFish-Offline</link>
-        <description>Offline multi-agent simulation &amp; prediction engine. English fork of MiroFish with Neo4j + Ollama local stack. | 近期热门 | 总 316 stars</description>
+        <description>Offline multi-agent simulation &amp; prediction engine. English fork of MiroFish with Neo4j + Ollama local stack. | 近期热门 | 总 532 stars</description>
         <author>nikmcfly</author>
         <category>github</category>
-        <pubDate>Tue, 17 Mar 2026 03:19:27 GMT</pubDate>
+        <pubDate>Wed, 18 Mar 2026 03:23:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-nikmcfly-mirofish-offline</guid>
       </item>
 <item>
-        <title>aidenybai/element-source</title>
-        <link>https://github.com/aidenybai/element-source</link>
-        <description>Get the source file location of any DOM element. Works with React, Vue, Svelte, Solid | 近期热门 | 总 269 stars</description>
-        <author>aidenybai</author>
+        <title>nikmcfly/MiroFish-Offline</title>
+        <link>https://github.com/nikmcfly/MiroFish-Offline</link>
+        <description>Offline multi-agent simulation &amp; prediction engine. English fork of MiroFish with Neo4j + Ollama local stack. | 近期热门 | 总 532 stars</description>
+        <author>nikmcfly</author>
         <category>github</category>
-        <pubDate>Tue, 17 Mar 2026 03:19:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-aidenybai-element-source</guid>
+        <pubDate>Wed, 18 Mar 2026 03:23:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nikmcfly-mirofish-offline</guid>
+      </item>
+<item>
+        <title>KeyID-AI/agent-kit</title>
+        <link>https://github.com/KeyID-AI/agent-kit</link>
+        <description>Give Claude/Cursor email powers. 27 MCP tools — inbox, send, reply, contacts, search. Free, no signup. | 近期热门 | 总 487 stars</description>
+        <author>KeyID-AI</author>
+        <category>github</category>
+        <pubDate>Wed, 18 Mar 2026 03:23:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-keyid-ai-agent-kit</guid>
+      </item>
+<item>
+        <title>LeDat98/NexusRAG</title>
+        <link>https://github.com/LeDat98/NexusRAG</link>
+        <description>Hybrid RAG system combining vector search, knowledge graph (LightRAG), and cross-encoder reranking — with Docling document parsing, visual intelligence (image/table captioning), agentic streaming chat, and inline citations. Powered by Gemini or local Ollama models. | 近期热门 | 总 171 stars</description>
+        <author>LeDat98</author>
+        <category>github</category>
+        <pubDate>Wed, 18 Mar 2026 03:23:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ledat98-nexusrag</guid>
+      </item>
+<item>
+        <title>matteorigodanza/cryto-trading-ai-assistant</title>
+        <link>https://github.com/matteorigodanza/cryto-trading-ai-assistant</link>
+        <description>AI guardian for manual crypto traders — risk monitoring, strategy validation &amp; emotional trading detection. No trade execution. | 近期热门 | 总 120 stars</description>
+        <author>matteorigodanza</author>
+        <category>github</category>
+        <pubDate>Wed, 18 Mar 2026 03:23:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-matteorigodanza-cryto-trading-ai-assistant</guid>
       </item>
   </channel>
 </rss>
