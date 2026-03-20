@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/19)</title>
+    <title>6-8 件事 (2026/3/20)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天 GitHub Trending 几乎被 AI Agent 和编程辅助工具“霸榜”了，从自动化研究到浏览器控制，各种新想法层出不穷。同时，社区里关于 **AI 编程的实用性、Agent 的设计陷阱** 以及 **Claude Code 的深度使用技巧** 的讨论非常热烈，不再是泛泛而谈，而是进入了更落地的阶段。另外，关于 AI 对程序员职业影响的思考也再次被提起，挺有共鸣的。</description>
+    <description>今天的信息流里，关于“如何用 AI 工具实际写代码”的讨论特别多，从工具选择、工作流搭建到具体问题吐槽，非常接地气。同时，AI 代理（Agent）的生态也在快速演进，出现了更垂直、更自动化的项目。还有两件行业大事值得留意：Anthropic 对开源竞品 OpenCode 采取法律行动，以及 OpenAI 收购了著名的 Python 工具公司 Astral（Ruff 和 UV 的创造者），这可能会影响未来的开发者工具格局。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 Mar 2026 03:27:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 03:20:30 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天 GitHub Trending 几乎被 AI Agent 和编程辅助工具“霸榜”了，从自动化研究到浏览器控制，各种新想法层出不穷。同时，社区里关于 **AI 编程的实用性、Agent 的设计陷阱** 以及 **Claude Code 的深度使用技巧** 的讨论非常热烈，不再是泛泛而谈，而是进入了更落地的阶段。另外，关于 AI 对程序员职业影响的思考也再次被提起，挺有共鸣的。</description>
-        <pubDate>Thu, 19 Mar 2026 03:27:09 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-19T03:26:27.366Z</guid>
+        <description>今天的信息流里，关于“如何用 AI 工具实际写代码”的讨论特别多，从工具选择、工作流搭建到具体问题吐槽，非常接地气。同时，AI 代理（Agent）的生态也在快速演进，出现了更垂直、更自动化的项目。还有两件行业大事值得留意：Anthropic 对开源竞品 OpenCode 采取法律行动，以及 OpenAI 收购了著名的 Python 工具公司 Astral（Ruff 和 UV 的创造者），这可能会影响未来的开发者工具格局。</description>
+        <pubDate>Fri, 20 Mar 2026 03:20:30 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-20T03:19:47.924Z</guid>
       </item>
     <item>
         <title>aiming-lab/AutoResearchClaw</title>
         <link>https://github.com/aiming-lab/AutoResearchClaw</link>
-        <description>Fully autonomous &amp; self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | 近期热门 | 总 6297 stars</description>
+        <description>Fully autonomous &amp; self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | 近期热门 | 总 6809 stars</description>
         <author>aiming-lab</author>
         <category>github</category>
-        <pubDate>Thu, 19 Mar 2026 03:24:07 GMT</pubDate>
+        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-aiming-lab-autoresearchclaw</guid>
       </item>
 <item>
         <title>calesthio/Crucix</title>
         <link>https://github.com/calesthio/Crucix</link>
-        <description>Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes. | 近期热门 | 总 4574 stars</description>
+        <description>Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes. | 近期热门 | 总 5200 stars</description>
         <author>calesthio</author>
         <category>github</category>
-        <pubDate>Thu, 19 Mar 2026 03:24:07 GMT</pubDate>
+        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-calesthio-crucix</guid>
-      </item>
-<item>
-        <title>pasky/chrome-cdp-skill</title>
-        <link>https://github.com/pasky/chrome-cdp-skill</link>
-        <description>Give your AI agent access to your live Chrome session — works out of the box, connects to tabs you already have open | 近期热门 | 总 2228 stars</description>
-        <author>pasky</author>
-        <category>github</category>
-        <pubDate>Thu, 19 Mar 2026 03:24:07 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-pasky-chrome-cdp-skill</guid>
       </item>
 <item>
         <title>jackwener/opencli</title>
         <link>https://github.com/jackwener/opencli</link>
-        <description>Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. | 近期热门 | 总 1939 stars</description>
+        <description>Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. | 近期热门 | 总 2541 stars</description>
         <author>jackwener</author>
         <category>github</category>
-        <pubDate>Thu, 19 Mar 2026 03:24:07 GMT</pubDate>
+        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-jackwener-opencli</guid>
       </item>
 <item>
         <title>HKUDS/ClawTeam</title>
         <link>https://github.com/HKUDS/ClawTeam</link>
-        <description>ClawTeam: Agent Swarm Intelligence (One Command → Full Automation) | 近期热门 | 总 1141 stars</description>
+        <description>ClawTeam: Agent Swarm Intelligence (One Command → Full Automation) | 近期热门 | 总 1726 stars</description>
         <author>HKUDS</author>
         <category>github</category>
-        <pubDate>Thu, 19 Mar 2026 03:24:07 GMT</pubDate>
+        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-hkuds-clawteam</guid>
       </item>
 <item>
         <title>Infatoshi/OpenSquirrel</title>
         <link>https://github.com/Infatoshi/OpenSquirrel</link>
-        <description>For people who get distracted by agents. A native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenCode side by side — because if you&apos;re going to be squirrely, you might as well optimize for it. | 近期热门 | 总 1094 stars</description>
+        <description>For people who get distracted by agents. A native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenCode side by side — because if you&apos;re going to be squirrely, you might as well optimize for it. | 近期热门 | 总 1137 stars</description>
         <author>Infatoshi</author>
         <category>github</category>
-        <pubDate>Thu, 19 Mar 2026 03:24:07 GMT</pubDate>
+        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-infatoshi-opensquirrel</guid>
       </item>
 <item>
         <title>Lum1104/Understand-Anything</title>
         <link>https://github.com/Lum1104/Understand-Anything</link>
-        <description>Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about. | 近期热门 | 总 913 stars</description>
+        <description>Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about (Multi-platform e.g., Codex are supported). | 近期热门 | 总 1091 stars</description>
         <author>Lum1104</author>
         <category>github</category>
-        <pubDate>Thu, 19 Mar 2026 03:24:07 GMT</pubDate>
+        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-lum1104-understand-anything</guid>
-      </item>
-<item>
-        <title>nikmcfly/MiroFish-Offline</title>
-        <link>https://github.com/nikmcfly/MiroFish-Offline</link>
-        <description>Offline multi-agent simulation &amp; prediction engine. English fork of MiroFish with Neo4j + Ollama local stack. | 近期热门 | 总 692 stars</description>
-        <author>nikmcfly</author>
-        <category>github</category>
-        <pubDate>Thu, 19 Mar 2026 03:24:07 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nikmcfly-mirofish-offline</guid>
       </item>
 <item>
         <title>lcoutodemos/clui-cc</title>
         <link>https://github.com/lcoutodemos/clui-cc</link>
-        <description>Clui CC — Command Line User Interface for Claude Code | 近期热门 | 总 667 stars</description>
+        <description>Clui CC — Command Line User Interface for Claude Code | 近期热门 | 总 832 stars</description>
         <author>lcoutodemos</author>
         <category>github</category>
-        <pubDate>Thu, 19 Mar 2026 03:24:07 GMT</pubDate>
+        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-lcoutodemos-clui-cc</guid>
       </item>
 <item>
-        <title>adammiribyan/zeroboot</title>
-        <link>https://github.com/adammiribyan/zeroboot</link>
-        <description>Sub-millisecond VM sandboxes for AI agents via copy-on-write forking | 近期热门 | 总 583 stars</description>
-        <author>adammiribyan</author>
+        <title>zerobootdev/zeroboot</title>
+        <link>https://github.com/zerobootdev/zeroboot</link>
+        <description>Sub-millisecond VM sandboxes for AI agents via copy-on-write forking | 近期热门 | 总 831 stars</description>
+        <author>zerobootdev</author>
         <category>github</category>
-        <pubDate>Thu, 19 Mar 2026 03:24:07 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-adammiribyan-zeroboot</guid>
+        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-zerobootdev-zeroboot</guid>
+      </item>
+<item>
+        <title>nikmcfly/MiroFish-Offline</title>
+        <link>https://github.com/nikmcfly/MiroFish-Offline</link>
+        <description>Offline multi-agent simulation &amp; prediction engine. English fork of MiroFish with Neo4j + Ollama local stack. | 近期热门 | 总 790 stars</description>
+        <author>nikmcfly</author>
+        <category>github</category>
+        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nikmcfly-mirofish-offline</guid>
+      </item>
+<item>
+        <title>liliMozi/openhanako</title>
+        <link>https://github.com/liliMozi/openhanako</link>
+        <description>A personal AI agent with memory, personality, and autonomy — built on Electron. | 近期热门 | 总 389 stars</description>
+        <author>liliMozi</author>
+        <category>github</category>
+        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lilimozi-openhanako</guid>
       </item>
   </channel>
 </rss>
