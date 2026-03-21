@@ -1,107 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/20)</title>
+    <title>6-8 件事 (2026/3/21)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息流里，关于“如何用 AI 工具实际写代码”的讨论特别多，从工具选择、工作流搭建到具体问题吐槽，非常接地气。同时，AI 代理（Agent）的生态也在快速演进，出现了更垂直、更自动化的项目。还有两件行业大事值得留意：Anthropic 对开源竞品 OpenCode 采取法律行动，以及 OpenAI 收购了著名的 Python 工具公司 Astral（Ruff 和 UV 的创造者），这可能会影响未来的开发者工具格局。</description>
+    <description>今天有几个亮点特别值得跟你聊聊：
+1.  **AI编程助手“开源化”趋势明显**：除了大家熟知的Claude Code、Cursor，现在有了一个完全开源的替代品 **OpenCode**，这可能会降低AI编程的门槛。
+2.  **AI Agent的“基础设施”在完善**：出现了专门为AI Agent设计的沙箱环境（zeroboot）和控制面板（OpenSquirrel），说明Agent正在从“玩具”向“生产工具”演进。
+3.  **Claude Code的深度玩法**：社区里有人分享了Claude Code的工程化实践心得，还有工具能把它变成命令行界面，这些都能显著提升实际使用效率。
+4.  **“技能/Skill”成为热点概念**：无论是AI技能管理器，还是讨论工作是否会被“技能化”，都指向一个趋势：如何模块化、复用AI能力是下一个关键点。
+5.  **代码理解与协作工具出新**：有工具能把任何代码库变成可交互的知识图谱，也有基于Git的本地AI协作工具，都在解决AI时代如何高效理解和处理代码的问题。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 20 Mar 2026 03:20:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 03:14:31 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息流里，关于“如何用 AI 工具实际写代码”的讨论特别多，从工具选择、工作流搭建到具体问题吐槽，非常接地气。同时，AI 代理（Agent）的生态也在快速演进，出现了更垂直、更自动化的项目。还有两件行业大事值得留意：Anthropic 对开源竞品 OpenCode 采取法律行动，以及 OpenAI 收购了著名的 Python 工具公司 Astral（Ruff 和 UV 的创造者），这可能会影响未来的开发者工具格局。</description>
-        <pubDate>Fri, 20 Mar 2026 03:20:30 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-20T03:19:47.924Z</guid>
+        <description>今天有几个亮点特别值得跟你聊聊：
+1.  **AI编程助手“开源化”趋势明显**：除了大家熟知的Claude Code、Cursor，现在有了一个完全开源的替代品 **OpenCode**，这可能会降低AI编程的门槛。
+2.  **AI Agent的“基础设施”在完善**：出现了专门为AI Agent设计的沙箱环境（zeroboot）和控制面板（OpenSquirrel），说明Agent正在从“玩具”向“生产工具”演进。
+3.  **Claude Code的深度玩法**：社区里有人分享了Claude Code的工程化实践心得，还有工具能把它变成命令行界面，这些都能显著提升实际使用效率。
+4.  **“技能/Skill”成为热点概念**：无论是AI技能管理器，还是讨论工作是否会被“技能化”，都指向一个趋势：如何模块化、复用AI能力是下一个关键点。
+5.  **代码理解与协作工具出新**：有工具能把任何代码库变成可交互的知识图谱，也有基于Git的本地AI协作工具，都在解决AI时代如何高效理解和处理代码的问题。</description>
+        <pubDate>Sat, 21 Mar 2026 03:14:31 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-21T03:13:55.462Z</guid>
       </item>
     <item>
         <title>aiming-lab/AutoResearchClaw</title>
         <link>https://github.com/aiming-lab/AutoResearchClaw</link>
-        <description>Fully autonomous &amp; self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | 近期热门 | 总 6809 stars</description>
+        <description>Fully autonomous &amp; self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | 近期热门 | 总 7144 stars</description>
         <author>aiming-lab</author>
         <category>github</category>
-        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
+        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-aiming-lab-autoresearchclaw</guid>
-      </item>
-<item>
-        <title>calesthio/Crucix</title>
-        <link>https://github.com/calesthio/Crucix</link>
-        <description>Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes. | 近期热门 | 总 5200 stars</description>
-        <author>calesthio</author>
-        <category>github</category>
-        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-calesthio-crucix</guid>
-      </item>
-<item>
-        <title>jackwener/opencli</title>
-        <link>https://github.com/jackwener/opencli</link>
-        <description>Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. | 近期热门 | 总 2541 stars</description>
-        <author>jackwener</author>
-        <category>github</category>
-        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-jackwener-opencli</guid>
       </item>
 <item>
         <title>HKUDS/ClawTeam</title>
         <link>https://github.com/HKUDS/ClawTeam</link>
-        <description>ClawTeam: Agent Swarm Intelligence (One Command → Full Automation) | 近期热门 | 总 1726 stars</description>
+        <description>ClawTeam: Agent Swarm Intelligence (One Command → Full Automation) | 近期热门 | 总 2126 stars</description>
         <author>HKUDS</author>
         <category>github</category>
-        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
+        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-hkuds-clawteam</guid>
-      </item>
-<item>
-        <title>Infatoshi/OpenSquirrel</title>
-        <link>https://github.com/Infatoshi/OpenSquirrel</link>
-        <description>For people who get distracted by agents. A native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenCode side by side — because if you&apos;re going to be squirrely, you might as well optimize for it. | 近期热门 | 总 1137 stars</description>
-        <author>Infatoshi</author>
-        <category>github</category>
-        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-infatoshi-opensquirrel</guid>
       </item>
 <item>
         <title>Lum1104/Understand-Anything</title>
         <link>https://github.com/Lum1104/Understand-Anything</link>
-        <description>Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about (Multi-platform e.g., Codex are supported). | 近期热门 | 总 1091 stars</description>
+        <description>Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about (Multi-platform e.g., Codex are supported). | 近期热门 | 总 1467 stars</description>
         <author>Lum1104</author>
         <category>github</category>
-        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
+        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-lum1104-understand-anything</guid>
-      </item>
-<item>
-        <title>lcoutodemos/clui-cc</title>
-        <link>https://github.com/lcoutodemos/clui-cc</link>
-        <description>Clui CC — Command Line User Interface for Claude Code | 近期热门 | 总 832 stars</description>
-        <author>lcoutodemos</author>
-        <category>github</category>
-        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lcoutodemos-clui-cc</guid>
       </item>
 <item>
         <title>zerobootdev/zeroboot</title>
         <link>https://github.com/zerobootdev/zeroboot</link>
-        <description>Sub-millisecond VM sandboxes for AI agents via copy-on-write forking | 近期热门 | 总 831 stars</description>
+        <description>Sub-millisecond VM sandboxes for AI agents via copy-on-write forking | 近期热门 | 总 1436 stars</description>
         <author>zerobootdev</author>
         <category>github</category>
-        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
+        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-zerobootdev-zeroboot</guid>
       </item>
 <item>
-        <title>nikmcfly/MiroFish-Offline</title>
-        <link>https://github.com/nikmcfly/MiroFish-Offline</link>
-        <description>Offline multi-agent simulation &amp; prediction engine. English fork of MiroFish with Neo4j + Ollama local stack. | 近期热门 | 总 790 stars</description>
-        <author>nikmcfly</author>
+        <title>cnlimiter/codex-manager</title>
+        <link>https://github.com/cnlimiter/codex-manager</link>
+        <description> | 近期热门 | 总 1248 stars</description>
+        <author>cnlimiter</author>
         <category>github</category>
-        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nikmcfly-mirofish-offline</guid>
+        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-cnlimiter-codex-manager</guid>
+      </item>
+<item>
+        <title>Infatoshi/OpenSquirrel</title>
+        <link>https://github.com/Infatoshi/OpenSquirrel</link>
+        <description>For people who get distracted by agents. A native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenCode side by side — because if you&apos;re going to be squirrely, you might as well optimize for it. | 近期热门 | 总 1188 stars</description>
+        <author>Infatoshi</author>
+        <category>github</category>
+        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-infatoshi-opensquirrel</guid>
+      </item>
+<item>
+        <title>lcoutodemos/clui-cc</title>
+        <link>https://github.com/lcoutodemos/clui-cc</link>
+        <description>Clui CC — Command Line User Interface for Claude Code | 近期热门 | 总 926 stars</description>
+        <author>lcoutodemos</author>
+        <category>github</category>
+        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lcoutodemos-clui-cc</guid>
       </item>
 <item>
         <title>liliMozi/openhanako</title>
         <link>https://github.com/liliMozi/openhanako</link>
-        <description>A personal AI agent with memory, personality, and autonomy — built on Electron. | 近期热门 | 总 389 stars</description>
+        <description>A personal AI agent with memory, personality, and autonomy — built on Electron. | 近期热门 | 总 445 stars</description>
         <author>liliMozi</author>
         <category>github</category>
-        <pubDate>Fri, 20 Mar 2026 03:17:54 GMT</pubDate>
+        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-lilimozi-openhanako</guid>
+      </item>
+<item>
+        <title>lightningpixel/modly</title>
+        <link>https://github.com/lightningpixel/modly</link>
+        <description>Desktop app to generate 3D models from images using local AI — runs entirely on your GPU | 近期热门 | 总 417 stars</description>
+        <author>lightningpixel</author>
+        <category>github</category>
+        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lightningpixel-modly</guid>
+      </item>
+<item>
+        <title>J-Pster/Psters_AI_Workflow</title>
+        <link>https://github.com/J-Pster/Psters_AI_Workflow</link>
+        <description>An auto-documenting, model-agnostic AI workflow for any project, framework, and language. It reduces hallucination and keeps delivery predictable: the developer controls the path, AI executes the steps, and project standards stay consistent. | 近期热门 | 总 235 stars</description>
+        <author>J-Pster</author>
+        <category>github</category>
+        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-j-pster-psters_ai_workflow</guid>
       </item>
   </channel>
 </rss>
