@@ -1,117 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/21)</title>
+    <title>6-8 件事 (2026/3/22)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天有几个亮点特别值得跟你聊聊：
-1.  **AI编程助手“开源化”趋势明显**：除了大家熟知的Claude Code、Cursor，现在有了一个完全开源的替代品 **OpenCode**，这可能会降低AI编程的门槛。
-2.  **AI Agent的“基础设施”在完善**：出现了专门为AI Agent设计的沙箱环境（zeroboot）和控制面板（OpenSquirrel），说明Agent正在从“玩具”向“生产工具”演进。
-3.  **Claude Code的深度玩法**：社区里有人分享了Claude Code的工程化实践心得，还有工具能把它变成命令行界面，这些都能显著提升实际使用效率。
-4.  **“技能/Skill”成为热点概念**：无论是AI技能管理器，还是讨论工作是否会被“技能化”，都指向一个趋势：如何模块化、复用AI能力是下一个关键点。
-5.  **代码理解与协作工具出新**：有工具能把任何代码库变成可交互的知识图谱，也有基于Git的本地AI协作工具，都在解决AI时代如何高效理解和处理代码的问题。</description>
+    <description>今天有几个亮点值得跟你聊聊：
+1.  **AI 编程与智能体（Agent）是绝对主角**：今天 GitHub Trending 和 Product Hunt 上，好几个热门项目都围绕着如何用 AI 或 Agent 来辅助甚至自动化编程任务，比如 ClawTeam 和 Replit Agent 4。
+2.  **Claude Code 生态很活跃**：围绕 Claude Code 的工具和讨论特别多，有新的命令行界面，有专门的 Agent 编排工具，还有关于风控的社区讨论，说明它正在成为开发者的一个重要“副驾驶”。
+3.  **“记忆”和“工作流”成为 Agent 进阶关键词**：有项目在解决 Agent 的记忆共享问题，也有项目在构建标准化的 AI 工作流，这都指向了让 AI 助手更稳定、更可预测的方向。
+4.  **本地/离线 AI 有新动向**：除了 Tinybox 这种硬件设备，还有能在本地 GPU 上跑 3D 模型生成的桌面应用，本地化部署的趋势在继续。
+5.  **社区讨论很“接地气”**：V2EX 和 Linux.do 上有很多关于 AI 编程工具（如反重力、Claude Code）的实际使用问题、体验分享和技巧交流，非常真实。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 21 Mar 2026 03:14:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 03:26:19 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天有几个亮点特别值得跟你聊聊：
-1.  **AI编程助手“开源化”趋势明显**：除了大家熟知的Claude Code、Cursor，现在有了一个完全开源的替代品 **OpenCode**，这可能会降低AI编程的门槛。
-2.  **AI Agent的“基础设施”在完善**：出现了专门为AI Agent设计的沙箱环境（zeroboot）和控制面板（OpenSquirrel），说明Agent正在从“玩具”向“生产工具”演进。
-3.  **Claude Code的深度玩法**：社区里有人分享了Claude Code的工程化实践心得，还有工具能把它变成命令行界面，这些都能显著提升实际使用效率。
-4.  **“技能/Skill”成为热点概念**：无论是AI技能管理器，还是讨论工作是否会被“技能化”，都指向一个趋势：如何模块化、复用AI能力是下一个关键点。
-5.  **代码理解与协作工具出新**：有工具能把任何代码库变成可交互的知识图谱，也有基于Git的本地AI协作工具，都在解决AI时代如何高效理解和处理代码的问题。</description>
-        <pubDate>Sat, 21 Mar 2026 03:14:31 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-21T03:13:55.462Z</guid>
+        <description>今天有几个亮点值得跟你聊聊：
+1.  **AI 编程与智能体（Agent）是绝对主角**：今天 GitHub Trending 和 Product Hunt 上，好几个热门项目都围绕着如何用 AI 或 Agent 来辅助甚至自动化编程任务，比如 ClawTeam 和 Replit Agent 4。
+2.  **Claude Code 生态很活跃**：围绕 Claude Code 的工具和讨论特别多，有新的命令行界面，有专门的 Agent 编排工具，还有关于风控的社区讨论，说明它正在成为开发者的一个重要“副驾驶”。
+3.  **“记忆”和“工作流”成为 Agent 进阶关键词**：有项目在解决 Agent 的记忆共享问题，也有项目在构建标准化的 AI 工作流，这都指向了让 AI 助手更稳定、更可预测的方向。
+4.  **本地/离线 AI 有新动向**：除了 Tinybox 这种硬件设备，还有能在本地 GPU 上跑 3D 模型生成的桌面应用，本地化部署的趋势在继续。
+5.  **社区讨论很“接地气”**：V2EX 和 Linux.do 上有很多关于 AI 编程工具（如反重力、Claude Code）的实际使用问题、体验分享和技巧交流，非常真实。</description>
+        <pubDate>Sun, 22 Mar 2026 03:26:19 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-22T03:25:51.216Z</guid>
       </item>
     <item>
-        <title>aiming-lab/AutoResearchClaw</title>
-        <link>https://github.com/aiming-lab/AutoResearchClaw</link>
-        <description>Fully autonomous &amp; self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | 近期热门 | 总 7144 stars</description>
-        <author>aiming-lab</author>
-        <category>github</category>
-        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-aiming-lab-autoresearchclaw</guid>
-      </item>
-<item>
         <title>HKUDS/ClawTeam</title>
         <link>https://github.com/HKUDS/ClawTeam</link>
-        <description>ClawTeam: Agent Swarm Intelligence (One Command → Full Automation) | 近期热门 | 总 2126 stars</description>
+        <description>ClawTeam: Agent Swarm Intelligence (One Command → Full Automation) | 近期热门 | 总 2511 stars</description>
         <author>HKUDS</author>
         <category>github</category>
-        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
+        <pubDate>Sun, 22 Mar 2026 03:23:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-hkuds-clawteam</guid>
-      </item>
-<item>
-        <title>Lum1104/Understand-Anything</title>
-        <link>https://github.com/Lum1104/Understand-Anything</link>
-        <description>Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about (Multi-platform e.g., Codex are supported). | 近期热门 | 总 1467 stars</description>
-        <author>Lum1104</author>
-        <category>github</category>
-        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lum1104-understand-anything</guid>
-      </item>
-<item>
-        <title>zerobootdev/zeroboot</title>
-        <link>https://github.com/zerobootdev/zeroboot</link>
-        <description>Sub-millisecond VM sandboxes for AI agents via copy-on-write forking | 近期热门 | 总 1436 stars</description>
-        <author>zerobootdev</author>
-        <category>github</category>
-        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-zerobootdev-zeroboot</guid>
-      </item>
-<item>
-        <title>cnlimiter/codex-manager</title>
-        <link>https://github.com/cnlimiter/codex-manager</link>
-        <description> | 近期热门 | 总 1248 stars</description>
-        <author>cnlimiter</author>
-        <category>github</category>
-        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-cnlimiter-codex-manager</guid>
-      </item>
-<item>
-        <title>Infatoshi/OpenSquirrel</title>
-        <link>https://github.com/Infatoshi/OpenSquirrel</link>
-        <description>For people who get distracted by agents. A native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenCode side by side — because if you&apos;re going to be squirrely, you might as well optimize for it. | 近期热门 | 总 1188 stars</description>
-        <author>Infatoshi</author>
-        <category>github</category>
-        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-infatoshi-opensquirrel</guid>
       </item>
 <item>
         <title>lcoutodemos/clui-cc</title>
         <link>https://github.com/lcoutodemos/clui-cc</link>
-        <description>Clui CC — Command Line User Interface for Claude Code | 近期热门 | 总 926 stars</description>
+        <description>Clui CC — Command Line User Interface for Claude Code | 近期热门 | 总 970 stars</description>
         <author>lcoutodemos</author>
         <category>github</category>
-        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
+        <pubDate>Sun, 22 Mar 2026 03:23:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-lcoutodemos-clui-cc</guid>
-      </item>
-<item>
-        <title>liliMozi/openhanako</title>
-        <link>https://github.com/liliMozi/openhanako</link>
-        <description>A personal AI agent with memory, personality, and autonomy — built on Electron. | 近期热门 | 总 445 stars</description>
-        <author>liliMozi</author>
-        <category>github</category>
-        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lilimozi-openhanako</guid>
       </item>
 <item>
         <title>lightningpixel/modly</title>
         <link>https://github.com/lightningpixel/modly</link>
-        <description>Desktop app to generate 3D models from images using local AI — runs entirely on your GPU | 近期热门 | 总 417 stars</description>
+        <description>Desktop app to generate 3D models from images using local AI — runs entirely on your GPU | 近期热门 | 总 514 stars</description>
         <author>lightningpixel</author>
         <category>github</category>
-        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
+        <pubDate>Sun, 22 Mar 2026 03:23:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-lightningpixel-modly</guid>
       </item>
 <item>
         <title>J-Pster/Psters_AI_Workflow</title>
         <link>https://github.com/J-Pster/Psters_AI_Workflow</link>
-        <description>An auto-documenting, model-agnostic AI workflow for any project, framework, and language. It reduces hallucination and keeps delivery predictable: the developer controls the path, AI executes the steps, and project standards stay consistent. | 近期热门 | 总 235 stars</description>
+        <description>An auto-documenting, model-agnostic AI workflow for any project, framework, and language. It reduces hallucination and keeps delivery predictable: the developer controls the path, AI executes the steps, and project standards stay consistent. | 近期热门 | 总 242 stars</description>
         <author>J-Pster</author>
         <category>github</category>
-        <pubDate>Sat, 21 Mar 2026 03:11:57 GMT</pubDate>
+        <pubDate>Sun, 22 Mar 2026 03:23:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-j-pster-psters_ai_workflow</guid>
+      </item>
+<item>
+        <title>outsourc-e/hermes-workspace</title>
+        <link>https://github.com/outsourc-e/hermes-workspace</link>
+        <description>Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector. Built for the Nous Research hackathon. | 近期热门 | 总 197 stars</description>
+        <author>outsourc-e</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Mar 2026 03:23:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-outsourc-e-hermes-workspace</guid>
+      </item>
+<item>
+        <title>dev-protocol/Polymarket-Trading-Bot-with-Synth-AI</title>
+        <link>https://github.com/dev-protocol/Polymarket-Trading-Bot-with-Synth-AI</link>
+        <description>Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot | 近期热门 | 总 186 stars</description>
+        <author>dev-protocol</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Mar 2026 03:23:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-dev-protocol-polymarket-trading-bot-with-synth-ai</guid>
+      </item>
+<item>
+        <title>Brunofancy/polymarket-copy-trading-bot-agent</title>
+        <link>https://github.com/Brunofancy/polymarket-copy-trading-bot-agent</link>
+        <description> | 近期热门 | 总 170 stars</description>
+        <author>Brunofancy</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Mar 2026 03:23:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-brunofancy-polymarket-copy-trading-bot-agent</guid>
+      </item>
+<item>
+        <title>phlx0/drift</title>
+        <link>https://github.com/phlx0/drift</link>
+        <description>Terminal screensaver that activates when you&apos;re idle — constellations, rain, particles &amp; braille   waves. Press any key to resume. | 近期热门 | 总 153 stars</description>
+        <author>phlx0</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Mar 2026 03:23:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-phlx0-drift</guid>
+      </item>
+<item>
+        <title>ShawnPana/aurl</title>
+        <link>https://github.com/ShawnPana/aurl</link>
+        <description>A command line tool for turning any API into a CLI command, supporting OpenAPI 3.0, OpenAPI 3.1, Swagger 2.0, and GraphQL. aurl auto-detects authentication, validates requests against the spec, and generates documentation from introspection. | 近期热门 | 总 134 stars</description>
+        <author>ShawnPana</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Mar 2026 03:23:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-shawnpana-aurl</guid>
+      </item>
+<item>
+        <title>SethGammon/Citadel</title>
+        <link>https://github.com/SethGammon/Citadel</link>
+        <description>Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, circuit breaker, and 6 production-quality skills. From solo developer to institutional scale. | 近期热门 | 总 116 stars</description>
+        <author>SethGammon</author>
+        <category>github</category>
+        <pubDate>Sun, 22 Mar 2026 03:23:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-sethgammon-citadel</guid>
       </item>
   </channel>
 </rss>
