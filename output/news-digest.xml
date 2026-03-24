@@ -1,119 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/23)</title>
+    <title>6-8 件事 (2026/3/24)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的内容特别多，感觉整个圈子都在围绕“如何让 AI 更好地帮我们写代码、做自动化”这件事打转。我帮你挑出了几件最有意思的：
-
-1.  **Agent 生态大爆发**：今天有好几个新工具，目标都是让不同的 AI 编程助手（比如 Claude Code, OpenClaw）能互相通信或者接入微信，感觉“AI 协作网络”正在形成。
-2.  **Claude Code 成为焦点**：围绕它的工具特别多，有用来存储对话的、安排定时任务的，甚至还有专门给它“联网”的插件，看来它已经成了一个重要的开发者平台。
-3.  **“Vibe Coding”引发讨论**：社区里在热烈讨论一种更随性、更依赖 AI 交互的开发模式，这或许代表了未来编程工作流的一种新趋势。
-4.  **大模型与编程语言之争**：有一篇观点鲜明的文章，探讨在 LLM 时代，Go 和 Rust 谁更适合开发 AI 智能体，挺有启发性。
-5.  **一些实用的“小神器”**：比如把任何 API 变成 CLI 命令的工具，还有让 AI 学会新编程语言的思路分享，都很接地气。</description>
+    <description>嘿，今天的技术圈信息流里，关于 AI 编程和智能体（Agent）的内容特别多，尤其是围绕 **Claude Code** 的生态工具爆发式增长，感觉开发者们都在疯狂地给它“装插件”来扩展能力。同时，关于 AI 如何影响编程本身、以及本地运行大模型的讨论也很热烈。我帮你筛出了几件最有意思的事，一起来看看。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Mar 2026 03:28:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 03:22:40 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的内容特别多，感觉整个圈子都在围绕“如何让 AI 更好地帮我们写代码、做自动化”这件事打转。我帮你挑出了几件最有意思的：
-
-1.  **Agent 生态大爆发**：今天有好几个新工具，目标都是让不同的 AI 编程助手（比如 Claude Code, OpenClaw）能互相通信或者接入微信，感觉“AI 协作网络”正在形成。
-2.  **Claude Code 成为焦点**：围绕它的工具特别多，有用来存储对话的、安排定时任务的，甚至还有专门给它“联网”的插件，看来它已经成了一个重要的开发者平台。
-3.  **“Vibe Coding”引发讨论**：社区里在热烈讨论一种更随性、更依赖 AI 交互的开发模式，这或许代表了未来编程工作流的一种新趋势。
-4.  **大模型与编程语言之争**：有一篇观点鲜明的文章，探讨在 LLM 时代，Go 和 Rust 谁更适合开发 AI 智能体，挺有启发性。
-5.  **一些实用的“小神器”**：比如把任何 API 变成 CLI 命令的工具，还有让 AI 学会新编程语言的思路分享，都很接地气。</description>
-        <pubDate>Mon, 23 Mar 2026 03:28:35 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-23T03:28:06.993Z</guid>
+        <description>嘿，今天的技术圈信息流里，关于 AI 编程和智能体（Agent）的内容特别多，尤其是围绕 **Claude Code** 的生态工具爆发式增长，感觉开发者们都在疯狂地给它“装插件”来扩展能力。同时，关于 AI 如何影响编程本身、以及本地运行大模型的讨论也很热烈。我帮你筛出了几件最有意思的事，一起来看看。</description>
+        <pubDate>Tue, 24 Mar 2026 03:22:40 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-24T03:21:55.740Z</guid>
       </item>
     <item>
-        <title>HKUDS/ClawTeam</title>
-        <link>https://github.com/HKUDS/ClawTeam</link>
-        <description>ClawTeam: Agent Swarm Intelligence (One Command → Full Automation) | 近期热门 | 总 2903 stars</description>
-        <author>HKUDS</author>
-        <category>github</category>
-        <pubDate>Mon, 23 Mar 2026 03:26:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hkuds-clawteam</guid>
-      </item>
-<item>
-        <title>MiniMax-AI/skills</title>
-        <link>https://github.com/MiniMax-AI/skills</link>
-        <description> | 近期热门 | 总 2094 stars</description>
-        <author>MiniMax-AI</author>
-        <category>github</category>
-        <pubDate>Mon, 23 Mar 2026 03:26:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-minimax-ai-skills</guid>
-      </item>
-<item>
         <title>louislva/claude-peers-mcp</title>
         <link>https://github.com/louislva/claude-peers-mcp</link>
-        <description>Allow all your Claude Codes to message each other ad-hoc! | 近期热门 | 总 643 stars</description>
+        <description>Allow all your Claude Codes to message each other ad-hoc! | 近期热门 | 总 965 stars</description>
         <author>louislva</author>
         <category>github</category>
-        <pubDate>Mon, 23 Mar 2026 03:26:03 GMT</pubDate>
+        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-louislva-claude-peers-mcp</guid>
-      </item>
-<item>
-        <title>lightningpixel/modly</title>
-        <link>https://github.com/lightningpixel/modly</link>
-        <description>Desktop app to generate 3D models from images using local AI — runs entirely on your GPU | 近期热门 | 总 584 stars</description>
-        <author>lightningpixel</author>
-        <category>github</category>
-        <pubDate>Mon, 23 Mar 2026 03:26:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lightningpixel-modly</guid>
-      </item>
-<item>
-        <title>wong2/weixin-agent-sdk</title>
-        <link>https://github.com/wong2/weixin-agent-sdk</link>
-        <description> | 近期热门 | 总 489 stars</description>
-        <author>wong2</author>
-        <category>github</category>
-        <pubDate>Mon, 23 Mar 2026 03:26:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wong2-weixin-agent-sdk</guid>
-      </item>
-<item>
-        <title>Brunofancy/polymarket-copy-trading-bot-agent</title>
-        <link>https://github.com/Brunofancy/polymarket-copy-trading-bot-agent</link>
-        <description> | 近期热门 | 总 183 stars</description>
-        <author>Brunofancy</author>
-        <category>github</category>
-        <pubDate>Mon, 23 Mar 2026 03:26:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-brunofancy-polymarket-copy-trading-bot-agent</guid>
       </item>
 <item>
         <title>eze-is/web-access</title>
         <link>https://github.com/eze-is/web-access</link>
-        <description>给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治 | 近期热门 | 总 181 stars</description>
+        <description>给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治 | 近期热门 | 总 813 stars</description>
         <author>eze-is</author>
         <category>github</category>
-        <pubDate>Mon, 23 Mar 2026 03:26:03 GMT</pubDate>
+        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-eze-is-web-access</guid>
       </item>
 <item>
-        <title>iflytek/astronclaw-tutorial</title>
-        <link>https://github.com/iflytek/astronclaw-tutorial</link>
-        <description>从零到工作流，掌握 AstronClaw（云端）与 Loomy（桌面）的 AI 助手实战教程 | A complete tutorial to master AstronClaw (cloud AI) &amp; Loomy (desktop AI) | 近期热门 | 总 168 stars</description>
-        <author>iflytek</author>
+        <title>leo-lilinxiao/codex-autoresearch</title>
+        <link>https://github.com/leo-lilinxiao/codex-autoresearch</link>
+        <description>Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept. | 近期热门 | 总 797 stars</description>
+        <author>leo-lilinxiao</author>
         <category>github</category>
-        <pubDate>Mon, 23 Mar 2026 03:26:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-iflytek-astronclaw-tutorial</guid>
+        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-leo-lilinxiao-codex-autoresearch</guid>
+      </item>
+<item>
+        <title>wong2/weixin-agent-sdk</title>
+        <link>https://github.com/wong2/weixin-agent-sdk</link>
+        <description> | 近期热门 | 总 774 stars</description>
+        <author>wong2</author>
+        <category>github</category>
+        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-wong2-weixin-agent-sdk</guid>
+      </item>
+<item>
+        <title>fastclaw-ai/weclaw</title>
+        <link>https://github.com/fastclaw-ai/weclaw</link>
+        <description>Connect to any agents with WeChat ClawBot. | 近期热门 | 总 493 stars</description>
+        <author>fastclaw-ai</author>
+        <category>github</category>
+        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-fastclaw-ai-weclaw</guid>
+      </item>
+<item>
+        <title>SethGammon/Citadel</title>
+        <link>https://github.com/SethGammon/Citadel</link>
+        <description>Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, circuit breaker, and 6 production-quality skills. From solo developer to institutional scale. | 近期热门 | 总 230 stars</description>
+        <author>SethGammon</author>
+        <category>github</category>
+        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-sethgammon-citadel</guid>
+      </item>
+<item>
+        <title>GTJasonMK/lessAI</title>
+        <link>https://github.com/GTJasonMK/lessAI</link>
+        <description> | 近期热门 | 总 198 stars</description>
+        <author>GTJasonMK</author>
+        <category>github</category>
+        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-gtjasonmk-lessai</guid>
       </item>
 <item>
         <title>phlx0/drift</title>
         <link>https://github.com/phlx0/drift</link>
-        <description>Terminal screensaver that activates when you&apos;re idle — constellations, rain, particles &amp; braille   waves. Press any key to resume. | 近期热门 | 总 164 stars</description>
+        <description>Terminal screensaver that activates when you&apos;re idle — constellations, rain, particles &amp; braille   waves. Press any key to resume. | 近期热门 | 总 190 stars</description>
         <author>phlx0</author>
         <category>github</category>
-        <pubDate>Mon, 23 Mar 2026 03:26:03 GMT</pubDate>
+        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-phlx0-drift</guid>
       </item>
 <item>
-        <title>ShawnPana/aurl</title>
-        <link>https://github.com/ShawnPana/aurl</link>
-        <description>A command line tool for turning any API into a CLI command, supporting OpenAPI 3.0, OpenAPI 3.1, Swagger 2.0, and GraphQL. aurl auto-detects authentication, validates requests against the spec, and generates documentation from introspection. | 近期热门 | 总 143 stars</description>
-        <author>ShawnPana</author>
+        <title>openilink/openilink-hub</title>
+        <link>https://github.com/openilink/openilink-hub</link>
+        <description>开源微信 Bot 管理平台 | Self-hosted WeChat Bot Management &amp; Message Relay | WebSocket + Webhook + AI Auto-reply | Passkey Login | 7 Language SDKs | 近期热门 | 总 166 stars</description>
+        <author>openilink</author>
         <category>github</category>
-        <pubDate>Mon, 23 Mar 2026 03:26:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-shawnpana-aurl</guid>
+        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-openilink-openilink-hub</guid>
+      </item>
+<item>
+        <title>excutflyingjoe7412/Roblox-Brainrot-Asset-2026</title>
+        <link>https://github.com/excutflyingjoe7412/Roblox-Brainrot-Asset-2026</link>
+        <description>Blox-Rot (2026) — Advanced Roblox Asset Stealer &amp; UGC Limiteds Autobuyer. Extract Skibidi Toilet models, Dragon meshes, and rare animations from any game. High-speed sniper for Dragon and Brainrot themed limited items. Professional Roblox developer utility. | 近期热门 | 总 66 stars</description>
+        <author>excutflyingjoe7412</author>
+        <category>github</category>
+        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-excutflyingjoe7412-roblox-brainrot-asset-2026</guid>
       </item>
   </channel>
 </rss>
