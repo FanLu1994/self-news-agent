@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/24)</title>
+    <title>6-8 件事 (2026/3/25)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈信息流里，关于 AI 编程和智能体（Agent）的内容特别多，尤其是围绕 **Claude Code** 的生态工具爆发式增长，感觉开发者们都在疯狂地给它“装插件”来扩展能力。同时，关于 AI 如何影响编程本身、以及本地运行大模型的讨论也很热烈。我帮你筛出了几件最有意思的事，一起来看看。</description>
+    <description>嘿，今天的技术圈信息量不小，我帮你筛了一遍。感觉核心都围绕在“AI编程”和“智能体（Agent）”这两个爆点上。有几个开源项目势头很猛，比如能让Claude Code互相通信的、还有Facebook搞的自进化智能体，都挺有想象力。另外，关于AI编码的实践讨论也很多，从具体的结对编程工具到宏观的“AI副业”焦虑，都挺反映当下开发者们的状态。还有件事得提醒你，一个流行的AI工具库（litellm）出了安全事件，用的话要小心。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 24 Mar 2026 03:22:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 03:25:20 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈信息流里，关于 AI 编程和智能体（Agent）的内容特别多，尤其是围绕 **Claude Code** 的生态工具爆发式增长，感觉开发者们都在疯狂地给它“装插件”来扩展能力。同时，关于 AI 如何影响编程本身、以及本地运行大模型的讨论也很热烈。我帮你筛出了几件最有意思的事，一起来看看。</description>
-        <pubDate>Tue, 24 Mar 2026 03:22:40 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-24T03:21:55.740Z</guid>
+        <description>嘿，今天的技术圈信息量不小，我帮你筛了一遍。感觉核心都围绕在“AI编程”和“智能体（Agent）”这两个爆点上。有几个开源项目势头很猛，比如能让Claude Code互相通信的、还有Facebook搞的自进化智能体，都挺有想象力。另外，关于AI编码的实践讨论也很多，从具体的结对编程工具到宏观的“AI副业”焦虑，都挺反映当下开发者们的状态。还有件事得提醒你，一个流行的AI工具库（litellm）出了安全事件，用的话要小心。</description>
+        <pubDate>Wed, 25 Mar 2026 03:25:20 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-25T03:24:50.607Z</guid>
       </item>
     <item>
         <title>louislva/claude-peers-mcp</title>
         <link>https://github.com/louislva/claude-peers-mcp</link>
-        <description>Allow all your Claude Codes to message each other ad-hoc! | 近期热门 | 总 965 stars</description>
+        <description>Allow all your Claude Codes to message each other ad-hoc! | 近期热门 | 总 1125 stars</description>
         <author>louislva</author>
         <category>github</category>
-        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <pubDate>Wed, 25 Mar 2026 03:22:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-louislva-claude-peers-mcp</guid>
-      </item>
-<item>
-        <title>eze-is/web-access</title>
-        <link>https://github.com/eze-is/web-access</link>
-        <description>给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治 | 近期热门 | 总 813 stars</description>
-        <author>eze-is</author>
-        <category>github</category>
-        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-eze-is-web-access</guid>
-      </item>
-<item>
-        <title>leo-lilinxiao/codex-autoresearch</title>
-        <link>https://github.com/leo-lilinxiao/codex-autoresearch</link>
-        <description>Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept. | 近期热门 | 总 797 stars</description>
-        <author>leo-lilinxiao</author>
-        <category>github</category>
-        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-leo-lilinxiao-codex-autoresearch</guid>
       </item>
 <item>
         <title>wong2/weixin-agent-sdk</title>
         <link>https://github.com/wong2/weixin-agent-sdk</link>
-        <description> | 近期热门 | 总 774 stars</description>
+        <description>微信Clawbot接入任意Agent | 近期热门 | 总 857 stars</description>
         <author>wong2</author>
         <category>github</category>
-        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <pubDate>Wed, 25 Mar 2026 03:22:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-wong2-weixin-agent-sdk</guid>
+      </item>
+<item>
+        <title>dou-jiang/codex-console</title>
+        <link>https://github.com/dou-jiang/codex-console</link>
+        <description>codex-console 是一个集成化控制台项目，支持任务管理、批量处理、数据导出、自动上传、日志查看与打包支持。 | 近期热门 | 总 813 stars</description>
+        <author>dou-jiang</author>
+        <category>github</category>
+        <pubDate>Wed, 25 Mar 2026 03:22:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-dou-jiang-codex-console</guid>
+      </item>
+<item>
+        <title>facebookresearch/HyperAgents</title>
+        <link>https://github.com/facebookresearch/HyperAgents</link>
+        <description>Self-referential self-improving agents that can optimize for any computable task | 近期热门 | 总 664 stars</description>
+        <author>facebookresearch</author>
+        <category>github</category>
+        <pubDate>Wed, 25 Mar 2026 03:22:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-facebookresearch-hyperagents</guid>
       </item>
 <item>
         <title>fastclaw-ai/weclaw</title>
         <link>https://github.com/fastclaw-ai/weclaw</link>
-        <description>Connect to any agents with WeChat ClawBot. | 近期热门 | 总 493 stars</description>
+        <description>Connect to any agents with WeChat ClawBot. | 近期热门 | 总 642 stars</description>
         <author>fastclaw-ai</author>
         <category>github</category>
-        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <pubDate>Wed, 25 Mar 2026 03:22:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-fastclaw-ai-weclaw</guid>
       </item>
 <item>
         <title>SethGammon/Citadel</title>
         <link>https://github.com/SethGammon/Citadel</link>
-        <description>Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, circuit breaker, and 6 production-quality skills. From solo developer to institutional scale. | 近期热门 | 总 230 stars</description>
+        <description>Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, circuit breaker, and 6 production-quality skills. From solo developer to institutional scale. | 近期热门 | 总 303 stars</description>
         <author>SethGammon</author>
         <category>github</category>
-        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <pubDate>Wed, 25 Mar 2026 03:22:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-sethgammon-citadel</guid>
       </item>
 <item>
-        <title>GTJasonMK/lessAI</title>
-        <link>https://github.com/GTJasonMK/lessAI</link>
-        <description> | 近期热门 | 总 198 stars</description>
-        <author>GTJasonMK</author>
+        <title>iflytek/astronclaw-tutorial</title>
+        <link>https://github.com/iflytek/astronclaw-tutorial</link>
+        <description>从零到工作流，掌握 AstronClaw（云端）与 Loomy（桌面）的 AI 助手实战教程 | A complete tutorial to master AstronClaw (cloud AI) &amp; Loomy (desktop AI) | 近期热门 | 总 267 stars</description>
+        <author>iflytek</author>
         <category>github</category>
-        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-gtjasonmk-lessai</guid>
+        <pubDate>Wed, 25 Mar 2026 03:22:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-iflytek-astronclaw-tutorial</guid>
       </item>
 <item>
-        <title>phlx0/drift</title>
-        <link>https://github.com/phlx0/drift</link>
-        <description>Terminal screensaver that activates when you&apos;re idle — constellations, rain, particles &amp; braille   waves. Press any key to resume. | 近期热门 | 总 190 stars</description>
-        <author>phlx0</author>
+        <title>samber/cc-skills-golang</title>
+        <link>https://github.com/samber/cc-skills-golang</link>
+        <description>🧑‍🎨 A collection of Golang agentic skills that works | 近期热门 | 总 251 stars</description>
+        <author>samber</author>
         <category>github</category>
-        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-phlx0-drift</guid>
+        <pubDate>Wed, 25 Mar 2026 03:22:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-samber-cc-skills-golang</guid>
       </item>
 <item>
         <title>openilink/openilink-hub</title>
         <link>https://github.com/openilink/openilink-hub</link>
-        <description>开源微信 Bot 管理平台 | Self-hosted WeChat Bot Management &amp; Message Relay | WebSocket + Webhook + AI Auto-reply | Passkey Login | 7 Language SDKs | 近期热门 | 总 166 stars</description>
+        <description>开源微信 Bot 管理平台 | Self-hosted WeChat Bot Management &amp; Message Relay | WebSocket + Webhook + AI Auto-reply | Passkey Login | 7 Language SDKs | 近期热门 | 总 218 stars</description>
         <author>openilink</author>
         <category>github</category>
-        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
+        <pubDate>Wed, 25 Mar 2026 03:22:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-openilink-openilink-hub</guid>
       </item>
 <item>
-        <title>excutflyingjoe7412/Roblox-Brainrot-Asset-2026</title>
-        <link>https://github.com/excutflyingjoe7412/Roblox-Brainrot-Asset-2026</link>
-        <description>Blox-Rot (2026) — Advanced Roblox Asset Stealer &amp; UGC Limiteds Autobuyer. Extract Skibidi Toilet models, Dragon meshes, and rare animations from any game. High-speed sniper for Dragon and Brainrot themed limited items. Professional Roblox developer utility. | 近期热门 | 总 66 stars</description>
-        <author>excutflyingjoe7412</author>
-        <category>github</category>
-        <pubDate>Tue, 24 Mar 2026 03:19:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-excutflyingjoe7412-roblox-brainrot-asset-2026</guid>
+        <title>Drift - AI代理以更快更可靠地运行机器人仿真</title>
+        <link>https://www.producthunt.com/products/drift-ai</link>
+        <description>讨论 | 链接</description>
+        <author>Drift</author>
+        <category>producthunt</category>
+        <pubDate>Wed, 25 Mar 2026 03:22:30 GMT</pubDate>
+        <guid isPermaLink="false">ph-1774408950143-3</guid>
       </item>
   </channel>
 </rss>
