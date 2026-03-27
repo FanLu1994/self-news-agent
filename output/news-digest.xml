@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/26)</title>
+    <title>6-8 件事 (2026/3/27)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术资讯里，AI Agent 和 Coding 工具依然是绝对的主角。我发现几个挺有意思的趋势：一是围绕 Claude Code 和 Codex 的生态工具越来越多，大家都在想办法让 AI 编程更顺手；二是 AI Agent 的“平民化”部署和托管服务开始涌现，门槛在降低；三是供应链安全（比如投毒事件）和 AI 生成代码的质量问题，成了大家讨论的热点，值得警惕。</description>
+    <description>嘿，今天的技术资讯里，AI Agent 和编程工具依然是绝对的主角。我发现几个挺有意思的点：一是围绕 `codex`（一个流行的 AI 编程工具）的讨论和工具特别多，从性能测试到使用技巧，社区非常活跃；二是“让多个 Agent 协同工作”成了新的热点，出现了好几个相关的开源项目和协议；三是用 AI 辅助或直接生成代码的实践案例越来越多，甚至有团队声称用 AI 一天重写了一个库，省了一大笔钱。如果你在搞 AI 编程或者想了解 Agent 的最新玩法，今天的内容应该能给你不少灵感。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 26 Mar 2026 03:30:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 03:32:40 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术资讯里，AI Agent 和 Coding 工具依然是绝对的主角。我发现几个挺有意思的趋势：一是围绕 Claude Code 和 Codex 的生态工具越来越多，大家都在想办法让 AI 编程更顺手；二是 AI Agent 的“平民化”部署和托管服务开始涌现，门槛在降低；三是供应链安全（比如投毒事件）和 AI 生成代码的质量问题，成了大家讨论的热点，值得警惕。</description>
-        <pubDate>Thu, 26 Mar 2026 03:30:32 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-26T03:29:50.724Z</guid>
+        <description>嘿，今天的技术资讯里，AI Agent 和编程工具依然是绝对的主角。我发现几个挺有意思的点：一是围绕 `codex`（一个流行的 AI 编程工具）的讨论和工具特别多，从性能测试到使用技巧，社区非常活跃；二是“让多个 Agent 协同工作”成了新的热点，出现了好几个相关的开源项目和协议；三是用 AI 辅助或直接生成代码的实践案例越来越多，甚至有团队声称用 AI 一天重写了一个库，省了一大笔钱。如果你在搞 AI 编程或者想了解 Agent 的最新玩法，今天的内容应该能给你不少灵感。</description>
+        <pubDate>Fri, 27 Mar 2026 03:32:40 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-27T03:31:55.239Z</guid>
       </item>
     <item>
+        <title>HKUDS/OpenSpace</title>
+        <link>https://github.com/HKUDS/OpenSpace</link>
+        <description>&quot;OpenSpace: Make Your Agents: Smarter, Low-Cost, Self-Evolving&quot; -- Community: https://open-space.cloud/ | 近期热门 | 总 1312 stars</description>
+        <author>HKUDS</author>
+        <category>github</category>
+        <pubDate>Fri, 27 Mar 2026 03:29:23 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-hkuds-openspace</guid>
+      </item>
+<item>
         <title>louislva/claude-peers-mcp</title>
         <link>https://github.com/louislva/claude-peers-mcp</link>
-        <description>Allow all your Claude Codes to message each other ad-hoc! | 近期热门 | 总 1207 stars</description>
+        <description>Allow all your Claude Codes to message each other ad-hoc! | 近期热门 | 总 1266 stars</description>
         <author>louislva</author>
         <category>github</category>
-        <pubDate>Thu, 26 Mar 2026 03:27:51 GMT</pubDate>
+        <pubDate>Fri, 27 Mar 2026 03:29:23 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-louislva-claude-peers-mcp</guid>
       </item>
 <item>
         <title>dou-jiang/codex-console</title>
         <link>https://github.com/dou-jiang/codex-console</link>
-        <description>codex-console 是一个集成化控制台项目，支持任务管理、批量处理、数据导出、自动上传、日志查看与打包支持。 | 近期热门 | 总 945 stars</description>
+        <description>codex-console 是一个集成化控制台项目，支持任务管理、批量处理、数据导出、自动上传、日志查看与打包支持。 | 近期热门 | 总 1057 stars</description>
         <author>dou-jiang</author>
         <category>github</category>
-        <pubDate>Thu, 26 Mar 2026 03:27:51 GMT</pubDate>
+        <pubDate>Fri, 27 Mar 2026 03:29:23 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-dou-jiang-codex-console</guid>
-      </item>
-<item>
-        <title>HKUDS/OpenSpace</title>
-        <link>https://github.com/HKUDS/OpenSpace</link>
-        <description>&quot;OpenSpace: Make Your Agents: Smarter, Low-Cost, Self-Evolving&quot; -- Community: https://open-space.cloud/ | 近期热门 | 总 942 stars</description>
-        <author>HKUDS</author>
-        <category>github</category>
-        <pubDate>Thu, 26 Mar 2026 03:27:51 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hkuds-openspace</guid>
-      </item>
-<item>
-        <title>wong2/weixin-agent-sdk</title>
-        <link>https://github.com/wong2/weixin-agent-sdk</link>
-        <description>微信Clawbot接入任意Agent | 近期热门 | 总 897 stars</description>
-        <author>wong2</author>
-        <category>github</category>
-        <pubDate>Thu, 26 Mar 2026 03:27:51 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wong2-weixin-agent-sdk</guid>
       </item>
 <item>
         <title>GAIR-NLP/daVinci-MagiHuman</title>
         <link>https://github.com/GAIR-NLP/daVinci-MagiHuman</link>
-        <description> | 近期热门 | 总 790 stars</description>
+        <description> | 近期热门 | 总 948 stars</description>
         <author>GAIR-NLP</author>
         <category>github</category>
-        <pubDate>Thu, 26 Mar 2026 03:27:51 GMT</pubDate>
+        <pubDate>Fri, 27 Mar 2026 03:29:23 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-gair-nlp-davinci-magihuman</guid>
+      </item>
+<item>
+        <title>wong2/weixin-agent-sdk</title>
+        <link>https://github.com/wong2/weixin-agent-sdk</link>
+        <description>微信Clawbot接入任意Agent | 近期热门 | 总 924 stars</description>
+        <author>wong2</author>
+        <category>github</category>
+        <pubDate>Fri, 27 Mar 2026 03:29:23 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-wong2-weixin-agent-sdk</guid>
       </item>
 <item>
         <title>fastclaw-ai/weclaw</title>
         <link>https://github.com/fastclaw-ai/weclaw</link>
-        <description>Connect to any agents with WeChat ClawBot. | 近期热门 | 总 710 stars</description>
+        <description>Connect to any agents with WeChat ClawBot. | 近期热门 | 总 780 stars</description>
         <author>fastclaw-ai</author>
         <category>github</category>
-        <pubDate>Thu, 26 Mar 2026 03:27:51 GMT</pubDate>
+        <pubDate>Fri, 27 Mar 2026 03:29:23 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-fastclaw-ai-weclaw</guid>
       </item>
 <item>
-        <title>SethGammon/Citadel</title>
-        <link>https://github.com/SethGammon/Citadel</link>
-        <description>Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, circuit breaker, and 6 production-quality skills. From solo developer to institutional scale. | 近期热门 | 总 329 stars</description>
-        <author>SethGammon</author>
+        <title>elder-plinius/G0DM0D3</title>
+        <link>https://github.com/elder-plinius/G0DM0D3</link>
+        <description>LIBERATED AI CHAT | 近期热门 | 总 538 stars</description>
+        <author>elder-plinius</author>
         <category>github</category>
-        <pubDate>Thu, 26 Mar 2026 03:27:51 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-sethgammon-citadel</guid>
+        <pubDate>Fri, 27 Mar 2026 03:29:23 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-elder-plinius-g0dm0d3</guid>
       </item>
 <item>
         <title>samber/cc-skills-golang</title>
         <link>https://github.com/samber/cc-skills-golang</link>
-        <description>🧑‍🎨 A collection of Golang agentic skills that works | 近期热门 | 总 322 stars</description>
+        <description>🧑‍🎨 A collection of Golang agentic skills that works | 近期热门 | 总 375 stars</description>
         <author>samber</author>
         <category>github</category>
-        <pubDate>Thu, 26 Mar 2026 03:27:51 GMT</pubDate>
+        <pubDate>Fri, 27 Mar 2026 03:29:23 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-samber-cc-skills-golang</guid>
       </item>
 <item>
         <title>openilink/openilink-hub</title>
         <link>https://github.com/openilink/openilink-hub</link>
-        <description>开源微信 Bot 管理平台 | Self-hosted WeChat Bot Management &amp; Message Relay | WebSocket + Webhook + AI Auto-reply | Passkey Login | 7 Language SDKs | 近期热门 | 总 239 stars</description>
+        <description>开源微信 Bot 管理平台 | Self-hosted WeChat Bot Management &amp; Message Relay | WebSocket + Webhook + AI Auto-reply | Passkey Login | 7 Language SDKs | 近期热门 | 总 253 stars</description>
         <author>openilink</author>
         <category>github</category>
-        <pubDate>Thu, 26 Mar 2026 03:27:51 GMT</pubDate>
+        <pubDate>Fri, 27 Mar 2026 03:29:23 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-openilink-openilink-hub</guid>
       </item>
 <item>
-        <title>OpenDemon/Pilipili-AutoVideo</title>
-        <link>https://github.com/OpenDemon/Pilipili-AutoVideo</link>
-        <description>🎬 全自动 AI 视频代理 · 一句话生成带字幕成片 · Fully Automated AI Video Agent · Local Deployment | 近期热门 | 总 73 stars</description>
-        <author>OpenDemon</author>
+        <title>yvgude/lean-ctx</title>
+        <link>https://github.com/yvgude/lean-ctx</link>
+        <description>Hybrid Context Optimizer — Shell Hook + MCP Server. Reduces LLM token consumption by 89-99%. Single Rust binary, zero dependencies. | 近期热门 | 总 230 stars</description>
+        <author>yvgude</author>
         <category>github</category>
-        <pubDate>Thu, 26 Mar 2026 03:27:51 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-opendemon-pilipili-autovideo</guid>
+        <pubDate>Fri, 27 Mar 2026 03:29:23 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yvgude-lean-ctx</guid>
       </item>
   </channel>
 </rss>
