@@ -1,117 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/30)</title>
+    <title>6-8 件事 (2026/3/31)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天有几个亮点特别突出：
-1.  **AI 编程代理（Agent）的“操作系统”和“应用商店”** 正在涌现，比如能管理 47 个 AI 代理的桌面应用，以及让代理变得更聪明、成本更低的新框架。
-2.  **围绕 Claude Code 和 Codex 的生态非常活跃**，出现了很多增强插件和实用工具，比如让它们能安全操作服务器、实时监控前端，甚至有人分享了“一段提示词开发一个完整应用”的新奇思路。
-3.  **AI 辅助编程和面试** 是 Product Hunt 上的热门类别，今天就有开源面试工具和并行使用多个 AI 编程模型的工具上榜。
-4.  社区里关于 **Codex/Claude Code 的使用技巧、问题解决和拼车需求** 讨论很多，反映出很高的实际使用热度。
-5.  一个用 **Rust 重写的高性能 LLM 推理引擎** 出现了，目标是替代 vLLM，值得技术极客关注。</description>
+    <description>嘿，今天的技术资讯里，关于 AI 编程和 Agent 的内容特别多，感觉整个社区都在热烈讨论怎么用好这些新工具。我帮你挑了几个重点：OpenAI 官方出了个新插件，能让 Claude Code 直接调用 Codex，这算是“官方联名”了；然后关于怎么高效使用 AI Agent 来写代码，社区里也有不少实战讨论。另外，有几个新的开源项目看起来挺有意思，比如一个能管理几十个 AI Agent 的桌面应用，还有一个让 AI 能操作 Figma 的工具，对开发者应该挺实用的。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 30 Mar 2026 03:35:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 03:31:07 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天有几个亮点特别突出：
-1.  **AI 编程代理（Agent）的“操作系统”和“应用商店”** 正在涌现，比如能管理 47 个 AI 代理的桌面应用，以及让代理变得更聪明、成本更低的新框架。
-2.  **围绕 Claude Code 和 Codex 的生态非常活跃**，出现了很多增强插件和实用工具，比如让它们能安全操作服务器、实时监控前端，甚至有人分享了“一段提示词开发一个完整应用”的新奇思路。
-3.  **AI 辅助编程和面试** 是 Product Hunt 上的热门类别，今天就有开源面试工具和并行使用多个 AI 编程模型的工具上榜。
-4.  社区里关于 **Codex/Claude Code 的使用技巧、问题解决和拼车需求** 讨论很多，反映出很高的实际使用热度。
-5.  一个用 **Rust 重写的高性能 LLM 推理引擎** 出现了，目标是替代 vLLM，值得技术极客关注。</description>
-        <pubDate>Mon, 30 Mar 2026 03:35:27 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-30T03:34:53.943Z</guid>
+        <description>嘿，今天的技术资讯里，关于 AI 编程和 Agent 的内容特别多，感觉整个社区都在热烈讨论怎么用好这些新工具。我帮你挑了几个重点：OpenAI 官方出了个新插件，能让 Claude Code 直接调用 Codex，这算是“官方联名”了；然后关于怎么高效使用 AI Agent 来写代码，社区里也有不少实战讨论。另外，有几个新的开源项目看起来挺有意思，比如一个能管理几十个 AI Agent 的桌面应用，还有一个让 AI 能操作 Figma 的工具，对开发者应该挺实用的。</description>
+        <pubDate>Tue, 31 Mar 2026 03:31:07 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-03-31T03:30:43.937Z</guid>
       </item>
     <item>
         <title>larksuite/cli</title>
         <link>https://github.com/larksuite/cli</link>
-        <description>A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills. | 近期热门 | 总 3519 stars</description>
+        <description>A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills. | 近期热门 | 总 4863 stars</description>
         <author>larksuite</author>
         <category>github</category>
-        <pubDate>Mon, 30 Mar 2026 03:32:42 GMT</pubDate>
+        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-larksuite-cli</guid>
-      </item>
-<item>
-        <title>HKUDS/OpenSpace</title>
-        <link>https://github.com/HKUDS/OpenSpace</link>
-        <description>&quot;OpenSpace: Make Your Agents: Smarter, Low-Cost, Self-Evolving&quot; -- Community: https://open-space.cloud/ | 近期热门 | 总 2508 stars</description>
-        <author>HKUDS</author>
-        <category>github</category>
-        <pubDate>Mon, 30 Mar 2026 03:32:42 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hkuds-openspace</guid>
       </item>
 <item>
         <title>elder-plinius/G0DM0D3</title>
         <link>https://github.com/elder-plinius/G0DM0D3</link>
-        <description>LIBERATED AI CHAT | 近期热门 | 总 2021 stars</description>
+        <description>LIBERATED AI CHAT | 近期热门 | 总 2272 stars</description>
         <author>elder-plinius</author>
         <category>github</category>
-        <pubDate>Mon, 30 Mar 2026 03:32:42 GMT</pubDate>
+        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-elder-plinius-g0dm0d3</guid>
       </item>
 <item>
-        <title>oaker-io/wewrite</title>
-        <link>https://github.com/oaker-io/wewrite</link>
-        <description>公众号文章全流程 AI Skill for Claude Code — 热点抓取 → 选题 → 写作 → SEO → 视觉AI → 排版 → 微信草稿箱 | 近期热门 | 总 861 stars</description>
-        <author>oaker-io</author>
+        <title>openai/codex-plugin-cc</title>
+        <link>https://github.com/openai/codex-plugin-cc</link>
+        <description>Use Codex from Claude Code to review code or delegate tasks. | 近期热门 | 总 2240 stars</description>
+        <author>openai</author>
         <category>github</category>
-        <pubDate>Mon, 30 Mar 2026 03:32:42 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-oaker-io-wewrite</guid>
+        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-openai-codex-plugin-cc</guid>
       </item>
 <item>
-        <title>james-6-23/codex2api</title>
-        <link>https://github.com/james-6-23/codex2api</link>
-        <description> | 近期热门 | 总 322 stars</description>
-        <author>james-6-23</author>
+        <title>WecomTeam/wecom-cli</title>
+        <link>https://github.com/WecomTeam/wecom-cli</link>
+        <description>企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信 | 近期热门 | 总 1039 stars</description>
+        <author>WecomTeam</author>
         <category>github</category>
-        <pubDate>Mon, 30 Mar 2026 03:32:42 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-james-6-23-codex2api</guid>
+        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-wecomteam-wecom-cli</guid>
       </item>
 <item>
         <title>meodai/heerich</title>
         <link>https://github.com/meodai/heerich</link>
-        <description>Tiny engine for 3D voxel scenes rendered to SVG — boolean ops, oblique/perspective cameras, zero dependencies. Inspired by the geometric cardboard sculptures of Erwin Heerich. | 近期热门 | 总 234 stars</description>
+        <description>Tiny engine for 3D voxel scenes rendered to SVG — boolean ops, oblique/perspective cameras, zero dependencies. Inspired by the geometric cardboard sculptures of Erwin Heerich. | 近期热门 | 总 318 stars</description>
         <author>meodai</author>
         <category>github</category>
-        <pubDate>Mon, 30 Mar 2026 03:32:42 GMT</pubDate>
+        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-meodai-heerich</guid>
       </item>
 <item>
-        <title>m0at/rvllm</title>
-        <link>https://github.com/m0at/rvllm</link>
-        <description>rvLLM: High-performance LLM inference in Rust. Drop-in vLLM replacement. | 近期热门 | 总 189 stars</description>
-        <author>m0at</author>
+        <title>vkhanhqui/figma-mcp-go</title>
+        <link>https://github.com/vkhanhqui/figma-mcp-go</link>
+        <description>Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code | 近期热门 | 总 153 stars</description>
+        <author>vkhanhqui</author>
         <category>github</category>
-        <pubDate>Mon, 30 Mar 2026 03:32:42 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-m0at-rvllm</guid>
+        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vkhanhqui-figma-mcp-go</guid>
       </item>
 <item>
         <title>bhope/hedge</title>
         <link>https://github.com/bhope/hedge</link>
-        <description>Adaptive hedged requests for Go. Cut your p99 latency with zero configuration. Based on Google&apos;s &quot;The Tail at Scale&quot; paper. | 近期热门 | 总 137 stars</description>
+        <description>Adaptive hedged requests for Go. Cut your p99 latency with zero configuration. Based on Google&apos;s &quot;The Tail at Scale&quot; paper. | 近期热门 | 总 144 stars</description>
         <author>bhope</author>
         <category>github</category>
-        <pubDate>Mon, 30 Mar 2026 03:32:42 GMT</pubDate>
+        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-bhope-hedge</guid>
       </item>
 <item>
         <title>veyliss/ai-localbase</title>
         <link>https://github.com/veyliss/ai-localbase</link>
-        <description>一个本地优先的AI知识库系统（RAG），用于把本地文档接入辅导搜索与大模型对话流程。目前支持md、txt、pdf（文本）类型 | 近期热门 | 总 125 stars</description>
+        <description>一个本地优先的AI知识库系统（RAG），用于把本地文档接入辅导搜索与大模型对话流程。目前支持md、txt、pdf（文本）类型 | 近期热门 | 总 128 stars</description>
         <author>veyliss</author>
         <category>github</category>
-        <pubDate>Mon, 30 Mar 2026 03:32:42 GMT</pubDate>
+        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-veyliss-ai-localbase</guid>
       </item>
 <item>
         <title>flipthetrain/LLM</title>
         <link>https://github.com/flipthetrain/LLM</link>
-        <description>LLM | 近期热门 | 总 40 stars</description>
+        <description>LLM | 近期热门 | 总 46 stars</description>
         <author>flipthetrain</author>
         <category>github</category>
-        <pubDate>Mon, 30 Mar 2026 03:32:42 GMT</pubDate>
+        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-flipthetrain-llm</guid>
+      </item>
+<item>
+        <title>Stanshy/AgentHub</title>
+        <link>https://github.com/Stanshy/AgentHub</link>
+        <description>One person, one software company. Manage 47 AI agents from a single      Electron app — with Harness Engineering (Skills + Hooks +   FileWatchers) for disciplined, traceable AI workflows. | 近期热门 | 总 43 stars</description>
+        <author>Stanshy</author>
+        <category>github</category>
+        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-stanshy-agenthub</guid>
       </item>
   </channel>
 </rss>
