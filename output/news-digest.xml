@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/3/31)</title>
+    <title>6-8 件事 (2026/4/1)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术资讯里，关于 AI 编程和 Agent 的内容特别多，感觉整个社区都在热烈讨论怎么用好这些新工具。我帮你挑了几个重点：OpenAI 官方出了个新插件，能让 Claude Code 直接调用 Codex，这算是“官方联名”了；然后关于怎么高效使用 AI Agent 来写代码，社区里也有不少实战讨论。另外，有几个新的开源项目看起来挺有意思，比如一个能管理几十个 AI Agent 的桌面应用，还有一个让 AI 能操作 Figma 的工具，对开发者应该挺实用的。</description>
+    <description>嘿，今天的信息流简直被“Claude Code”刷屏了，看来这个AI编程工具真的引爆了社区。除了这个热点，我还发现了几件你可能关心的事：有人用AI一天重写了一个工具，省下了巨额成本；关于本地模型写代码的讨论又热起来了；还有几个新的AI开发工具和Agent项目冒了出来，感觉这个领域真是日新月异。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 31 Mar 2026 03:31:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 03:35:48 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术资讯里，关于 AI 编程和 Agent 的内容特别多，感觉整个社区都在热烈讨论怎么用好这些新工具。我帮你挑了几个重点：OpenAI 官方出了个新插件，能让 Claude Code 直接调用 Codex，这算是“官方联名”了；然后关于怎么高效使用 AI Agent 来写代码，社区里也有不少实战讨论。另外，有几个新的开源项目看起来挺有意思，比如一个能管理几十个 AI Agent 的桌面应用，还有一个让 AI 能操作 Figma 的工具，对开发者应该挺实用的。</description>
-        <pubDate>Tue, 31 Mar 2026 03:31:07 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-03-31T03:30:43.937Z</guid>
+        <description>嘿，今天的信息流简直被“Claude Code”刷屏了，看来这个AI编程工具真的引爆了社区。除了这个热点，我还发现了几件你可能关心的事：有人用AI一天重写了一个工具，省下了巨额成本；关于本地模型写代码的讨论又热起来了；还有几个新的AI开发工具和Agent项目冒了出来，感觉这个领域真是日新月异。</description>
+        <pubDate>Wed, 01 Apr 2026 03:35:48 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-01T03:35:11.046Z</guid>
       </item>
     <item>
-        <title>larksuite/cli</title>
-        <link>https://github.com/larksuite/cli</link>
-        <description>A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills. | 近期热门 | 总 4863 stars</description>
-        <author>larksuite</author>
+        <title>instructkr/claw-code</title>
+        <link>https://github.com/instructkr/claw-code</link>
+        <description>The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but make real things done. Now rewriting in Rust using oh-my-codex. | 近期热门 | 总 73920 stars</description>
+        <author>instructkr</author>
         <category>github</category>
-        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-larksuite-cli</guid>
+        <pubDate>Wed, 01 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-instructkr-claw-code</guid>
       </item>
 <item>
-        <title>elder-plinius/G0DM0D3</title>
-        <link>https://github.com/elder-plinius/G0DM0D3</link>
-        <description>LIBERATED AI CHAT | 近期热门 | 总 2272 stars</description>
-        <author>elder-plinius</author>
+        <title>sanbuphy/claude-code-source-code</title>
+        <link>https://github.com/sanbuphy/claude-code-source-code</link>
+        <description> | 近期热门 | 总 7323 stars</description>
+        <author>sanbuphy</author>
         <category>github</category>
-        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-elder-plinius-g0dm0d3</guid>
+        <pubDate>Wed, 01 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-sanbuphy-claude-code-source-code</guid>
       </item>
 <item>
         <title>openai/codex-plugin-cc</title>
         <link>https://github.com/openai/codex-plugin-cc</link>
-        <description>Use Codex from Claude Code to review code or delegate tasks. | 近期热门 | 总 2240 stars</description>
+        <description>Use Codex from Claude Code to review code or delegate tasks. | 近期热门 | 总 6016 stars</description>
         <author>openai</author>
         <category>github</category>
-        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
+        <pubDate>Wed, 01 Apr 2026 03:32:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-openai-codex-plugin-cc</guid>
+      </item>
+<item>
+        <title>ChinaSiro/claude-code-sourcemap</title>
+        <link>https://github.com/ChinaSiro/claude-code-sourcemap</link>
+        <description> | 近期热门 | 总 5773 stars</description>
+        <author>ChinaSiro</author>
+        <category>github</category>
+        <pubDate>Wed, 01 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-chinasiro-claude-code-sourcemap</guid>
+      </item>
+<item>
+        <title>Kuberwastaken/claude-code</title>
+        <link>https://github.com/Kuberwastaken/claude-code</link>
+        <description>Claude Code in Rust &amp; a Breakdown of How it Works | 近期热门 | 总 4061 stars</description>
+        <author>Kuberwastaken</author>
+        <category>github</category>
+        <pubDate>Wed, 01 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kuberwastaken-claude-code</guid>
+      </item>
+<item>
+        <title>claude-code-best/claude-code</title>
+        <link>https://github.com/claude-code-best/claude-code</link>
+        <description>原汁原昧 Claude Code 可运行版; Bun 可编译执行版; Typescript 类型全修复;企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动 | 近期热门 | 总 3358 stars</description>
+        <author>claude-code-best</author>
+        <category>github</category>
+        <pubDate>Wed, 01 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-claude-code-best-claude-code</guid>
       </item>
 <item>
         <title>WecomTeam/wecom-cli</title>
         <link>https://github.com/WecomTeam/wecom-cli</link>
-        <description>企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信 | 近期热门 | 总 1039 stars</description>
+        <description>企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信 | 近期热门 | 总 1280 stars</description>
         <author>WecomTeam</author>
         <category>github</category>
-        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
+        <pubDate>Wed, 01 Apr 2026 03:32:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-wecomteam-wecom-cli</guid>
       </item>
 <item>
-        <title>meodai/heerich</title>
-        <link>https://github.com/meodai/heerich</link>
-        <description>Tiny engine for 3D voxel scenes rendered to SVG — boolean ops, oblique/perspective cameras, zero dependencies. Inspired by the geometric cardboard sculptures of Erwin Heerich. | 近期热门 | 总 318 stars</description>
-        <author>meodai</author>
+        <title>oaker-io/wewrite</title>
+        <link>https://github.com/oaker-io/wewrite</link>
+        <description>公众号文章全流程 AI Skill for Claude Code — 热点抓取 → 选题 → 写作 → SEO → 视觉AI → 排版 → 微信草稿箱 | 近期热门 | 总 1003 stars</description>
+        <author>oaker-io</author>
         <category>github</category>
-        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-meodai-heerich</guid>
+        <pubDate>Wed, 01 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-oaker-io-wewrite</guid>
+      </item>
+<item>
+        <title>6551Team/claude-code-design-guide</title>
+        <link>https://github.com/6551Team/claude-code-design-guide</link>
+        <description> | 近期热门 | 总 479 stars</description>
+        <author>6551Team</author>
+        <category>github</category>
+        <pubDate>Wed, 01 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-6551team-claude-code-design-guide</guid>
       </item>
 <item>
         <title>vkhanhqui/figma-mcp-go</title>
         <link>https://github.com/vkhanhqui/figma-mcp-go</link>
-        <description>Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code | 近期热门 | 总 153 stars</description>
+        <description>Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code | 近期热门 | 总 227 stars</description>
         <author>vkhanhqui</author>
         <category>github</category>
-        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
+        <pubDate>Wed, 01 Apr 2026 03:32:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vkhanhqui-figma-mcp-go</guid>
-      </item>
-<item>
-        <title>bhope/hedge</title>
-        <link>https://github.com/bhope/hedge</link>
-        <description>Adaptive hedged requests for Go. Cut your p99 latency with zero configuration. Based on Google&apos;s &quot;The Tail at Scale&quot; paper. | 近期热门 | 总 144 stars</description>
-        <author>bhope</author>
-        <category>github</category>
-        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-bhope-hedge</guid>
-      </item>
-<item>
-        <title>veyliss/ai-localbase</title>
-        <link>https://github.com/veyliss/ai-localbase</link>
-        <description>一个本地优先的AI知识库系统（RAG），用于把本地文档接入辅导搜索与大模型对话流程。目前支持md、txt、pdf（文本）类型 | 近期热门 | 总 128 stars</description>
-        <author>veyliss</author>
-        <category>github</category>
-        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-veyliss-ai-localbase</guid>
-      </item>
-<item>
-        <title>flipthetrain/LLM</title>
-        <link>https://github.com/flipthetrain/LLM</link>
-        <description>LLM | 近期热门 | 总 46 stars</description>
-        <author>flipthetrain</author>
-        <category>github</category>
-        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-flipthetrain-llm</guid>
-      </item>
-<item>
-        <title>Stanshy/AgentHub</title>
-        <link>https://github.com/Stanshy/AgentHub</link>
-        <description>One person, one software company. Manage 47 AI agents from a single      Electron app — with Harness Engineering (Skills + Hooks +   FileWatchers) for disciplined, traceable AI workflows. | 近期热门 | 总 43 stars</description>
-        <author>Stanshy</author>
-        <category>github</category>
-        <pubDate>Tue, 31 Mar 2026 03:28:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-stanshy-agenthub</guid>
       </item>
   </channel>
 </rss>
