@@ -1,117 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/2)</title>
+    <title>6-8 件事 (2026/4/3)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈依然围绕着“AI编程助手”和“Agent”这两个核心在转，尤其是Claude Code相关的项目热度不减。我帮你筛了一下，发现有几个方向特别值得你留意：
+    <description>嘿，今天的信息流里，关于 AI 编程和 Agent 的热度依然很高，尤其是围绕“Claude Code”这个工具的各种衍生项目、讨论和争议。我帮你筛了一遍，发现有几个方向特别值得你留意：
 
-1.  **Claude Code的“开源生态”正在爆发**：除了官方版本，现在出现了很多修复版、重构版（比如用Rust重写的），甚至能对接其他大模型的“平替”方案，选择一下子多了起来。
-2.  **AI Agent开发平台和工具链越来越成熟**：有人在做管理多个Agent的“中枢系统”，也有人在做专门为Agent协作设计的本地化Issue追踪方案，这说明大家不再满足于单个AI工具，开始认真构建自动化工作流了。
-3.  **终端（CLI）依然是AI编程的主战场**：很多高星项目都是终端工具，目标都是让你不用离开命令行就能高效编码，这很符合开发者习惯。
-4.  **关于AI编程的实用讨论很多**：社区里大家在具体讨论怎么配置代理、怎么解决连接问题、有什么好用的辅助工具，非常接地气，能解决实际使用中的痛点。</description>
+1.  **Claude Code 的“开源”生态正在爆发**：自从 Claude Code 的代码疑似泄露后，GitHub 上出现了大量相关的开源项目，从源码修复版到 Rust 移植版，再到连接其他 LLM 的兼容层，非常热闹。
+2.  **AI 编程工具的实际使用讨论很“接地气”**：社区里有很多关于 Codex、Cursor、Claude Code 在不同 IDE 中表现对比的讨论，以及多仓库项目如何让 AI 更好理解的实操问题，都是开发者真实遇到的痛点。
+3.  **AI Agent 的架构和 API 设计成为新焦点**：不止是工具怎么用，更有深度的文章开始探讨 Agent 系统的设计模式，以及为 AI 时代重新思考 API 应该长什么样。
+4.  **大模型动态依然抢眼**：Gemma 4 的发布和评测、本地部署的新工具（如 AMD Lemonade）以及关于模型额度的“民生”话题（比如 Codex 额度变化），都是影响开发体验的直接因素。
+5.  **一些有趣的跨界项目**：有人把 Claude Code 的配置做成了《星际迷航》风格的终端仪表盘，还有项目旨在驱动“从想法到代码”的完整 AI 开发生命周期，展现了社区的创造力。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Apr 2026 03:29:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 03:30:36 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈依然围绕着“AI编程助手”和“Agent”这两个核心在转，尤其是Claude Code相关的项目热度不减。我帮你筛了一下，发现有几个方向特别值得你留意：
+        <description>嘿，今天的信息流里，关于 AI 编程和 Agent 的热度依然很高，尤其是围绕“Claude Code”这个工具的各种衍生项目、讨论和争议。我帮你筛了一遍，发现有几个方向特别值得你留意：
 
-1.  **Claude Code的“开源生态”正在爆发**：除了官方版本，现在出现了很多修复版、重构版（比如用Rust重写的），甚至能对接其他大模型的“平替”方案，选择一下子多了起来。
-2.  **AI Agent开发平台和工具链越来越成熟**：有人在做管理多个Agent的“中枢系统”，也有人在做专门为Agent协作设计的本地化Issue追踪方案，这说明大家不再满足于单个AI工具，开始认真构建自动化工作流了。
-3.  **终端（CLI）依然是AI编程的主战场**：很多高星项目都是终端工具，目标都是让你不用离开命令行就能高效编码，这很符合开发者习惯。
-4.  **关于AI编程的实用讨论很多**：社区里大家在具体讨论怎么配置代理、怎么解决连接问题、有什么好用的辅助工具，非常接地气，能解决实际使用中的痛点。</description>
-        <pubDate>Thu, 02 Apr 2026 03:29:42 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-02T03:29:06.024Z</guid>
+1.  **Claude Code 的“开源”生态正在爆发**：自从 Claude Code 的代码疑似泄露后，GitHub 上出现了大量相关的开源项目，从源码修复版到 Rust 移植版，再到连接其他 LLM 的兼容层，非常热闹。
+2.  **AI 编程工具的实际使用讨论很“接地气”**：社区里有很多关于 Codex、Cursor、Claude Code 在不同 IDE 中表现对比的讨论，以及多仓库项目如何让 AI 更好理解的实操问题，都是开发者真实遇到的痛点。
+3.  **AI Agent 的架构和 API 设计成为新焦点**：不止是工具怎么用，更有深度的文章开始探讨 Agent 系统的设计模式，以及为 AI 时代重新思考 API 应该长什么样。
+4.  **大模型动态依然抢眼**：Gemma 4 的发布和评测、本地部署的新工具（如 AMD Lemonade）以及关于模型额度的“民生”话题（比如 Codex 额度变化），都是影响开发体验的直接因素。
+5.  **一些有趣的跨界项目**：有人把 Claude Code 的配置做成了《星际迷航》风格的终端仪表盘，还有项目旨在驱动“从想法到代码”的完整 AI 开发生命周期，展现了社区的创造力。
+
+---</description>
+        <pubDate>Fri, 03 Apr 2026 03:30:36 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-03T03:29:44.466Z</guid>
       </item>
     <item>
         <title>ultraworkers/claw-code</title>
         <link>https://github.com/ultraworkers/claw-code</link>
-        <description>The fastest repo in history to surpass 100K stars ⭐. Better Harness Tools that make real things done. Built in Rust using oh-my-codex. | 近期热门 | 总 126337 stars</description>
+        <description>[Notice] The repo temporarily locked while ownership transfer. in the meantime we maintain on here: https://github.com/ultraworkers/claw-code-parity. The fastest repo in history to surpass 100K stars ⭐. Better Harness Tools that make real things done. Built in Rust using oh-my-codex. | 近期热门 | 总 152414 stars</description>
         <author>ultraworkers</author>
         <category>github</category>
-        <pubDate>Thu, 02 Apr 2026 03:27:09 GMT</pubDate>
+        <pubDate>Fri, 03 Apr 2026 03:27:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-ultraworkers-claw-code</guid>
-      </item>
-<item>
-        <title>openai/codex-plugin-cc</title>
-        <link>https://github.com/openai/codex-plugin-cc</link>
-        <description>Use Codex from Claude Code to review code or delegate tasks. | 近期热门 | 总 8840 stars</description>
-        <author>openai</author>
-        <category>github</category>
-        <pubDate>Thu, 02 Apr 2026 03:27:09 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-openai-codex-plugin-cc</guid>
       </item>
 <item>
         <title>claude-code-best/claude-code</title>
         <link>https://github.com/claude-code-best/claude-code</link>
-        <description>原汁原昧 Claude Code 可运行,可构建版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动 | 近期热门 | 总 8300 stars</description>
+        <description>原汁原昧 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动 | 近期热门 | 总 11308 stars</description>
         <author>claude-code-best</author>
         <category>github</category>
-        <pubDate>Thu, 02 Apr 2026 03:27:09 GMT</pubDate>
+        <pubDate>Fri, 03 Apr 2026 03:27:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-claude-code-best-claude-code</guid>
+      </item>
+<item>
+        <title>openai/codex-plugin-cc</title>
+        <link>https://github.com/openai/codex-plugin-cc</link>
+        <description>Use Codex from Claude Code to review code or delegate tasks. | 近期热门 | 总 10739 stars</description>
+        <author>openai</author>
+        <category>github</category>
+        <pubDate>Fri, 03 Apr 2026 03:27:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-openai-codex-plugin-cc</guid>
       </item>
 <item>
         <title>ChinaSiro/claude-code-sourcemap</title>
         <link>https://github.com/ChinaSiro/claude-code-sourcemap</link>
-        <description> | 近期热门 | 总 7513 stars</description>
+        <description> | 近期热门 | 总 8068 stars</description>
         <author>ChinaSiro</author>
         <category>github</category>
-        <pubDate>Thu, 02 Apr 2026 03:27:09 GMT</pubDate>
+        <pubDate>Fri, 03 Apr 2026 03:27:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-chinasiro-claude-code-sourcemap</guid>
-      </item>
-<item>
-        <title>Kuberwastaken/claurst</title>
-        <link>https://github.com/Kuberwastaken/claurst</link>
-        <description>Your favorite Terminal Coding Agent, now in Rust &amp; a Breakdown of the Claude Code leak &amp; discoveries | 近期热门 | 总 6718 stars</description>
-        <author>Kuberwastaken</author>
-        <category>github</category>
-        <pubDate>Thu, 02 Apr 2026 03:27:09 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kuberwastaken-claurst</guid>
       </item>
 <item>
         <title>Gitlawb/openclaude</title>
         <link>https://github.com/Gitlawb/openclaude</link>
-        <description>Claude Code opened to any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models via OpenAI-compatible API shim | 近期热门 | 总 3945 stars</description>
+        <description>Claude Code opened to any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models via OpenAI-compatible API shim | 近期热门 | 总 7836 stars</description>
         <author>Gitlawb</author>
         <category>github</category>
-        <pubDate>Thu, 02 Apr 2026 03:27:09 GMT</pubDate>
+        <pubDate>Fri, 03 Apr 2026 03:27:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-gitlawb-openclaude</guid>
       </item>
 <item>
-        <title>WecomTeam/wecom-cli</title>
-        <link>https://github.com/WecomTeam/wecom-cli</link>
-        <description>企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信 | 近期热门 | 总 1380 stars</description>
-        <author>WecomTeam</author>
+        <title>Kuberwastaken/claurst</title>
+        <link>https://github.com/Kuberwastaken/claurst</link>
+        <description>Your favorite Terminal Coding Agent, now in Rust &amp; a Breakdown of the Claude Code leak &amp; discoveries | 近期热门 | 总 7433 stars</description>
+        <author>Kuberwastaken</author>
         <category>github</category>
-        <pubDate>Thu, 02 Apr 2026 03:27:09 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wecomteam-wecom-cli</guid>
+        <pubDate>Fri, 03 Apr 2026 03:27:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kuberwastaken-claurst</guid>
+      </item>
+<item>
+        <title>tvytlx/ai-agent-deep-dive</title>
+        <link>https://github.com/tvytlx/ai-agent-deep-dive</link>
+        <description>AI Agent 源码深度研究报告 | 近期热门 | 总 4651 stars</description>
+        <author>tvytlx</author>
+        <category>github</category>
+        <pubDate>Fri, 03 Apr 2026 03:27:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-tvytlx-ai-agent-deep-dive</guid>
+      </item>
+<item>
+        <title>ultraworkers/claw-code-parity</title>
+        <link>https://github.com/ultraworkers/claw-code-parity</link>
+        <description>claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration | 近期热门 | 总 2991 stars</description>
+        <author>ultraworkers</author>
+        <category>github</category>
+        <pubDate>Fri, 03 Apr 2026 03:27:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ultraworkers-claw-code-parity</guid>
       </item>
 <item>
         <title>therealXiaomanChu/ex-skill</title>
         <link>https://github.com/therealXiaomanChu/ex-skill</link>
-        <description>把前任蒸馏成 AI Skill，用ta的方式跟你说话。Inspired by colleague-skill（同事skill）.  | 近期热门 | 总 912 stars</description>
+        <description>把前任蒸馏成 AI Skill，用ta的方式跟你说话。Inspired by colleague-skill（同事skill）.  | 近期热门 | 总 1481 stars</description>
         <author>therealXiaomanChu</author>
         <category>github</category>
-        <pubDate>Thu, 02 Apr 2026 03:27:09 GMT</pubDate>
+        <pubDate>Fri, 03 Apr 2026 03:27:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-therealxiaomanchu-ex-skill</guid>
       </item>
 <item>
         <title>6551Team/claude-code-design-guide</title>
         <link>https://github.com/6551Team/claude-code-design-guide</link>
-        <description> | 近期热门 | 总 597 stars</description>
+        <description> | 近期热门 | 总 633 stars</description>
         <author>6551Team</author>
         <category>github</category>
-        <pubDate>Thu, 02 Apr 2026 03:27:09 GMT</pubDate>
+        <pubDate>Fri, 03 Apr 2026 03:27:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-6551team-claude-code-design-guide</guid>
-      </item>
-<item>
-        <title>meodai/heerich</title>
-        <link>https://github.com/meodai/heerich</link>
-        <description>Tiny engine for 3D voxel scenes rendered to SVG — boolean ops, oblique/perspective cameras, zero dependencies. Inspired by the geometric cardboard sculptures of Erwin Heerich. | 近期热门 | 总 372 stars</description>
-        <author>meodai</author>
-        <category>github</category>
-        <pubDate>Thu, 02 Apr 2026 03:27:09 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-meodai-heerich</guid>
       </item>
   </channel>
 </rss>
