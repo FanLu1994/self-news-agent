@@ -1,107 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/5)</title>
+    <title>6-8 件事 (2026/4/6)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈可以说是被“AI 编程助手”和“Claude Code”相关的话题刷屏了！如果你对 AI 写代码、智能代理（Agent）感兴趣，那今天的信息量绝对管饱。从 GitHub 上各种 Claude Code 的衍生项目、分析报告，到社区里关于如何实际使用和“拼车”的讨论，再到一些能直接提升开发效率的新工具，感觉整个生态都在快速迭代。我帮你筛出了最核心、最有价值的几件事，咱们一起来看看。</description>
+    <description>嘿，今天的技术圈真是围绕着“AI编程”和“Agent”这两个核心在转啊。我帮你梳理了一下，发现有几个特别值得你留意的动态：
+
+1.  **Claude Code 的生态大爆发**：今天 GitHub Trending 几乎被各种 Claude Code 的相关项目“霸榜”了，从原版复刻、Rust移植到设计指南，应有尽有，可见开发者社区对这个终端AI编程工具的热情有多高。
+2.  **AI Coding Agent 的选择变多了**：除了 Claude Code，今天还出现了像 `openclaude` 这样的开源替代品，支持200+模型，让你不再被单一厂商绑定。
+3.  **关于“额度”的实战讨论**：V2EX上有不少用户在讨论 Codex 等AI编程服务的套餐、中转站和性价比，这些都是非常接地气的使用经验，能帮你避坑。
+4.  **一个有趣的“反向”思考**：有一篇博客在AI编程时代，重提1999年的“如何写出无法维护的代码”，角度清奇，发人深省。
+5.  **本地运行大模型进行AI编程的实践**：有文章分享了如何用 LM Studio 的无头CLI配合 Claude Code 本地运行 Gemma 4，为追求隐私和可控性的开发者提供了新思路。
+6.  **AI Agent 的深度研究**：有项目对 AI Agent 源码进行了深度研究并开源了报告，适合想深入了解 Agent 工作原理的你。
+7.  **“Vibe Coding”的实践分享**：有开发者分享了自己用 Claude Code 进行“氛围编程”三个月，并成功构建项目的经历，展示了AI辅助开发的新工作流。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Apr 2026 03:34:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 03:34:47 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈可以说是被“AI 编程助手”和“Claude Code”相关的话题刷屏了！如果你对 AI 写代码、智能代理（Agent）感兴趣，那今天的信息量绝对管饱。从 GitHub 上各种 Claude Code 的衍生项目、分析报告，到社区里关于如何实际使用和“拼车”的讨论，再到一些能直接提升开发效率的新工具，感觉整个生态都在快速迭代。我帮你筛出了最核心、最有价值的几件事，咱们一起来看看。</description>
-        <pubDate>Sun, 05 Apr 2026 03:34:03 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-05T03:33:41.151Z</guid>
+        <description>嘿，今天的技术圈真是围绕着“AI编程”和“Agent”这两个核心在转啊。我帮你梳理了一下，发现有几个特别值得你留意的动态：
+
+1.  **Claude Code 的生态大爆发**：今天 GitHub Trending 几乎被各种 Claude Code 的相关项目“霸榜”了，从原版复刻、Rust移植到设计指南，应有尽有，可见开发者社区对这个终端AI编程工具的热情有多高。
+2.  **AI Coding Agent 的选择变多了**：除了 Claude Code，今天还出现了像 `openclaude` 这样的开源替代品，支持200+模型，让你不再被单一厂商绑定。
+3.  **关于“额度”的实战讨论**：V2EX上有不少用户在讨论 Codex 等AI编程服务的套餐、中转站和性价比，这些都是非常接地气的使用经验，能帮你避坑。
+4.  **一个有趣的“反向”思考**：有一篇博客在AI编程时代，重提1999年的“如何写出无法维护的代码”，角度清奇，发人深省。
+5.  **本地运行大模型进行AI编程的实践**：有文章分享了如何用 LM Studio 的无头CLI配合 Claude Code 本地运行 Gemma 4，为追求隐私和可控性的开发者提供了新思路。
+6.  **AI Agent 的深度研究**：有项目对 AI Agent 源码进行了深度研究并开源了报告，适合想深入了解 Agent 工作原理的你。
+7.  **“Vibe Coding”的实践分享**：有开发者分享了自己用 Claude Code 进行“氛围编程”三个月，并成功构建项目的经历，展示了AI辅助开发的新工作流。
+
+---</description>
+        <pubDate>Mon, 06 Apr 2026 03:34:47 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-06T03:34:25.888Z</guid>
       </item>
     <item>
         <title>ultraworkers/claw-code</title>
         <link>https://github.com/ultraworkers/claw-code</link>
-        <description>The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex. | 近期热门 | 总 167621 stars</description>
+        <description>The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex. | 近期热门 | 总 171258 stars</description>
         <author>ultraworkers</author>
         <category>github</category>
-        <pubDate>Sun, 05 Apr 2026 03:32:08 GMT</pubDate>
+        <pubDate>Mon, 06 Apr 2026 03:32:46 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-ultraworkers-claw-code</guid>
       </item>
 <item>
         <title>Gitlawb/openclaude</title>
         <link>https://github.com/Gitlawb/openclaude</link>
-        <description>Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs. | 近期热门 | 总 14870 stars</description>
+        <description>Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs. | 近期热门 | 总 16584 stars</description>
         <author>Gitlawb</author>
         <category>github</category>
-        <pubDate>Sun, 05 Apr 2026 03:32:08 GMT</pubDate>
+        <pubDate>Mon, 06 Apr 2026 03:32:46 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-gitlawb-openclaude</guid>
       </item>
 <item>
         <title>claude-code-best/claude-code</title>
         <link>https://github.com/claude-code-best/claude-code</link>
-        <description>原汁原昧 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动 | 近期热门 | 总 13619 stars</description>
+        <description>原汁原昧 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动 | 近期热门 | 总 13945 stars</description>
         <author>claude-code-best</author>
         <category>github</category>
-        <pubDate>Sun, 05 Apr 2026 03:32:08 GMT</pubDate>
+        <pubDate>Mon, 06 Apr 2026 03:32:46 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-claude-code-best-claude-code</guid>
-      </item>
-<item>
-        <title>openai/codex-plugin-cc</title>
-        <link>https://github.com/openai/codex-plugin-cc</link>
-        <description>Use Codex from Claude Code to review code or delegate tasks. | 近期热门 | 总 11668 stars</description>
-        <author>openai</author>
-        <category>github</category>
-        <pubDate>Sun, 05 Apr 2026 03:32:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-openai-codex-plugin-cc</guid>
       </item>
 <item>
         <title>ChinaSiro/claude-code-sourcemap</title>
         <link>https://github.com/ChinaSiro/claude-code-sourcemap</link>
-        <description> | 近期热门 | 总 8385 stars</description>
+        <description> | 近期热门 | 总 8460 stars</description>
         <author>ChinaSiro</author>
         <category>github</category>
-        <pubDate>Sun, 05 Apr 2026 03:32:08 GMT</pubDate>
+        <pubDate>Mon, 06 Apr 2026 03:32:46 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-chinasiro-claude-code-sourcemap</guid>
       </item>
 <item>
         <title>Kuberwastaken/claurst</title>
         <link>https://github.com/Kuberwastaken/claurst</link>
-        <description>Your favorite Terminal Coding Agent, now in Rust &amp; a Breakdown of the Claude Code leak &amp; discoveries | 近期热门 | 总 8071 stars</description>
+        <description>Your favorite Terminal Coding Agent, now in Rust &amp; a Breakdown of the Claude Code leak &amp; discoveries | 近期热门 | 总 8329 stars</description>
         <author>Kuberwastaken</author>
         <category>github</category>
-        <pubDate>Sun, 05 Apr 2026 03:32:08 GMT</pubDate>
+        <pubDate>Mon, 06 Apr 2026 03:32:46 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kuberwastaken-claurst</guid>
       </item>
 <item>
         <title>ultraworkers/claw-code-parity</title>
         <link>https://github.com/ultraworkers/claw-code-parity</link>
-        <description>Join Discord: https://discord.gg/5TUQKqFWd /  claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration | 近期热门 | 总 6329 stars</description>
+        <description>Join Discord: https://discord.gg/5TUQKqFWd /  claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration | 近期热门 | 总 6513 stars</description>
         <author>ultraworkers</author>
         <category>github</category>
-        <pubDate>Sun, 05 Apr 2026 03:32:08 GMT</pubDate>
+        <pubDate>Mon, 06 Apr 2026 03:32:46 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-ultraworkers-claw-code-parity</guid>
-      </item>
-<item>
-        <title>tvytlx/ai-agent-deep-dive</title>
-        <link>https://github.com/tvytlx/ai-agent-deep-dive</link>
-        <description>AI Agent 源码深度研究报告 | 近期热门 | 总 5071 stars</description>
-        <author>tvytlx</author>
-        <category>github</category>
-        <pubDate>Sun, 05 Apr 2026 03:32:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-tvytlx-ai-agent-deep-dive</guid>
       </item>
 <item>
         <title>HKUDS/OpenHarness</title>
         <link>https://github.com/HKUDS/OpenHarness</link>
-        <description>&quot;OpenHarness: Open Agent Harness&quot; | 近期热门 | 总 3699 stars</description>
+        <description>&quot;OpenHarness: Open Agent Harness&quot; | 近期热门 | 总 5313 stars</description>
         <author>HKUDS</author>
         <category>github</category>
-        <pubDate>Sun, 05 Apr 2026 03:32:08 GMT</pubDate>
+        <pubDate>Mon, 06 Apr 2026 03:32:46 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-hkuds-openharness</guid>
       </item>
 <item>
-        <title>6551Team/claude-code-design-guide</title>
-        <link>https://github.com/6551Team/claude-code-design-guide</link>
-        <description>From Early Internet Design Patterns to AI Agent Implementation — A Deep Dive into Claude Code for Developers | 近期热门 | 总 650 stars</description>
-        <author>6551Team</author>
+        <title>tvytlx/ai-agent-deep-dive</title>
+        <link>https://github.com/tvytlx/ai-agent-deep-dive</link>
+        <description>AI Agent 源码深度研究报告 | 近期热门 | 总 5145 stars</description>
+        <author>tvytlx</author>
         <category>github</category>
-        <pubDate>Sun, 05 Apr 2026 03:32:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-6551team-claude-code-design-guide</guid>
+        <pubDate>Mon, 06 Apr 2026 03:32:46 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-tvytlx-ai-agent-deep-dive</guid>
+      </item>
+<item>
+        <title>santifer/career-ops</title>
+        <link>https://github.com/santifer/career-ops</link>
+        <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. | 近期热门 | 总 3671 stars</description>
+        <author>santifer</author>
+        <category>github</category>
+        <pubDate>Mon, 06 Apr 2026 03:32:46 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-santifer-career-ops</guid>
+      </item>
+<item>
+        <title>kevinrgu/autoagent</title>
+        <link>https://github.com/kevinrgu/autoagent</link>
+        <description>autonomous harness engineering | 近期热门 | 总 3098 stars</description>
+        <author>kevinrgu</author>
+        <category>github</category>
+        <pubDate>Mon, 06 Apr 2026 03:32:46 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kevinrgu-autoagent</guid>
       </item>
   </channel>
 </rss>
