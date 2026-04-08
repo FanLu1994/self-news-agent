@@ -1,107 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/7)</title>
+    <title>6-8 件事 (2026/4/8)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术资讯里，关于 AI 编程和智能体（Agent）的讨论特别多，感觉整个社区都在围绕这个主题转。我帮你挑出了几件最值得关注的事：首先是几个开源的 AI 编程工具火了，比如能替代 Claude Code 的 OpenClaude，还有号称“开源泄露版”的 ClaudeCode。其次，关于如何用好这些工具（比如 vibe coding）的实践讨论也很多，看来大家已经从“尝鲜”进入“深度使用”阶段了。另外，一些关于 AI 职业发展的讨论也值得一看，反映了行业的一些真实变化。</description>
+    <description>今天社区里简直像在开“AI 编程工具博览会”！我帮你梳理了一下，有这么几件事特别值得你留意：
+
+1.  **Claude Code 的“生态”大爆发**：今天有好几个围绕 Claude Code 的优质开源项目冲上热榜，从提升效率的“技能包”（如省 token 的 `caveman`），到用 Go 重写的替代品 `gopher-code`，再到帮你做 UI 设计的 `styleseed`，说明开发者们正在疯狂挖掘它的潜力。
+2.  **AI Agent 开发框架有了新选择**：如果你对用 Rust 构建 AI Agent 感兴趣，一个新发布的 SDK `cersei` 值得一看，它把工具调用、记忆、子任务编排都做成了可组合的库函数。
+3.  **AI 编码的“实战反思”**：社区里出现了几篇非常真实的帖子，有人分享用 AI Agent（QClaw）完成一系列电脑操作任务的“翻车”体验，也有人总结了团队落地 AI Coding 的演进路径。这些实战经验比单纯的技术介绍更有价值。
+4.  **模型与工具的动态**：Sam Altman 宣布 Codex 用户数达 300 万并重置限额，智谱开源了号称能独立工作 8 小时的 GLM-5.1，这些都可能影响你选择和使用 AI 编程工具。
+5.  **“工具焦虑”与方案讨论**：在程序员社区里，大家正在热烈讨论“用什么 AI IDE”、“Codex 平替是什么”、“Coding Plan 什么时候上新模型”，这反映了当前工具生态的快速变化和用户的普遍需求。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 07 Apr 2026 03:31:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 03:32:43 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术资讯里，关于 AI 编程和智能体（Agent）的讨论特别多，感觉整个社区都在围绕这个主题转。我帮你挑出了几件最值得关注的事：首先是几个开源的 AI 编程工具火了，比如能替代 Claude Code 的 OpenClaude，还有号称“开源泄露版”的 ClaudeCode。其次，关于如何用好这些工具（比如 vibe coding）的实践讨论也很多，看来大家已经从“尝鲜”进入“深度使用”阶段了。另外，一些关于 AI 职业发展的讨论也值得一看，反映了行业的一些真实变化。</description>
-        <pubDate>Tue, 07 Apr 2026 03:31:42 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-07T03:31:16.159Z</guid>
+        <description>今天社区里简直像在开“AI 编程工具博览会”！我帮你梳理了一下，有这么几件事特别值得你留意：
+
+1.  **Claude Code 的“生态”大爆发**：今天有好几个围绕 Claude Code 的优质开源项目冲上热榜，从提升效率的“技能包”（如省 token 的 `caveman`），到用 Go 重写的替代品 `gopher-code`，再到帮你做 UI 设计的 `styleseed`，说明开发者们正在疯狂挖掘它的潜力。
+2.  **AI Agent 开发框架有了新选择**：如果你对用 Rust 构建 AI Agent 感兴趣，一个新发布的 SDK `cersei` 值得一看，它把工具调用、记忆、子任务编排都做成了可组合的库函数。
+3.  **AI 编码的“实战反思”**：社区里出现了几篇非常真实的帖子，有人分享用 AI Agent（QClaw）完成一系列电脑操作任务的“翻车”体验，也有人总结了团队落地 AI Coding 的演进路径。这些实战经验比单纯的技术介绍更有价值。
+4.  **模型与工具的动态**：Sam Altman 宣布 Codex 用户数达 300 万并重置限额，智谱开源了号称能独立工作 8 小时的 GLM-5.1，这些都可能影响你选择和使用 AI 编程工具。
+5.  **“工具焦虑”与方案讨论**：在程序员社区里，大家正在热烈讨论“用什么 AI IDE”、“Codex 平替是什么”、“Coding Plan 什么时候上新模型”，这反映了当前工具生态的快速变化和用户的普遍需求。
+
+---</description>
+        <pubDate>Wed, 08 Apr 2026 03:32:43 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-08T03:32:17.384Z</guid>
       </item>
     <item>
-        <title>Gitlawb/openclaude</title>
-        <link>https://github.com/Gitlawb/openclaude</link>
-        <description>Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs. | 近期热门 | 总 18154 stars</description>
-        <author>Gitlawb</author>
-        <category>github</category>
-        <pubDate>Tue, 07 Apr 2026 03:29:19 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-gitlawb-openclaude</guid>
-      </item>
-<item>
         <title>santifer/career-ops</title>
         <link>https://github.com/santifer/career-ops</link>
-        <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. | 近期热门 | 总 11831 stars</description>
+        <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. | 近期热门 | 总 19052 stars</description>
         <author>santifer</author>
         <category>github</category>
-        <pubDate>Tue, 07 Apr 2026 03:29:19 GMT</pubDate>
+        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-santifer-career-ops</guid>
+      </item>
+<item>
+        <title>milla-jovovich/mempalace</title>
+        <link>https://github.com/milla-jovovich/mempalace</link>
+        <description>The highest-scoring AI memory system ever benchmarked. And it&apos;s free. | 近期热门 | 总 18523 stars</description>
+        <author>milla-jovovich</author>
+        <category>github</category>
+        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-milla-jovovich-mempalace</guid>
+      </item>
+<item>
+        <title>safishamsi/graphify</title>
+        <link>https://github.com/safishamsi/graphify</link>
+        <description>AI coding assistant skill (Claude Code, Codex, OpenCode, OpenClaw, Factory Droid). Turn any folder of code, docs, papers, or images into a queryable knowledge graph | 近期热门 | 总 7559 stars</description>
+        <author>safishamsi</author>
+        <category>github</category>
+        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-safishamsi-graphify</guid>
       </item>
 <item>
         <title>ultraworkers/claw-code-parity</title>
         <link>https://github.com/ultraworkers/claw-code-parity</link>
-        <description>Join Discord: https://discord.gg/5TUQKqFWd /  claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration | 近期热门 | 总 6555 stars</description>
+        <description>Join Discord: https://discord.gg/5TUQKqFWd /  claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration | 近期热门 | 总 6603 stars</description>
         <author>ultraworkers</author>
         <category>github</category>
-        <pubDate>Tue, 07 Apr 2026 03:29:19 GMT</pubDate>
+        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-ultraworkers-claw-code-parity</guid>
-      </item>
-<item>
-        <title>HKUDS/OpenHarness</title>
-        <link>https://github.com/HKUDS/OpenHarness</link>
-        <description>&quot;OpenHarness: Open Agent Harness&quot; | 近期热门 | 总 6450 stars</description>
-        <author>HKUDS</author>
-        <category>github</category>
-        <pubDate>Tue, 07 Apr 2026 03:29:19 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hkuds-openharness</guid>
       </item>
 <item>
         <title>JuliusBrussee/caveman</title>
         <link>https://github.com/JuliusBrussee/caveman</link>
-        <description>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman | 近期热门 | 总 4314 stars</description>
+        <description>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman | 近期热门 | 总 6092 stars</description>
         <author>JuliusBrussee</author>
         <category>github</category>
-        <pubDate>Tue, 07 Apr 2026 03:29:19 GMT</pubDate>
+        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-juliusbrussee-caveman</guid>
       </item>
 <item>
-        <title>kevinrgu/autoagent</title>
-        <link>https://github.com/kevinrgu/autoagent</link>
-        <description>autonomous harness engineering | 近期热门 | 总 3607 stars</description>
-        <author>kevinrgu</author>
+        <title>hilash/cabinet</title>
+        <link>https://github.com/hilash/cabinet</link>
+        <description>AI-first knowledge base and startup OS | 近期热门 | 总 627 stars</description>
+        <author>hilash</author>
         <category>github</category>
-        <pubDate>Tue, 07 Apr 2026 03:29:19 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kevinrgu-autoagent</guid>
+        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-hilash-cabinet</guid>
       </item>
 <item>
-        <title>soongenwong/claudecode</title>
-        <link>https://github.com/soongenwong/claudecode</link>
-        <description>Open Source ClaudeCode Leaked. Same functionalities as Claude Code by Anthropic. Written in Rust, Ready to use immediately for free.  | 近期热门 | 总 792 stars</description>
-        <author>soongenwong</author>
+        <title>karpathy/KarpathyTalk</title>
+        <link>https://github.com/karpathy/KarpathyTalk</link>
+        <description>A positive developer community for builders and agents. | 近期热门 | 总 442 stars</description>
+        <author>karpathy</author>
         <category>github</category>
-        <pubDate>Tue, 07 Apr 2026 03:29:19 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-soongenwong-claudecode</guid>
+        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-karpathy-karpathytalk</guid>
       </item>
 <item>
         <title>Paidax01/math-curve-loaders</title>
         <link>https://github.com/Paidax01/math-curve-loaders</link>
-        <description>A lightweight gallery of mathematical curve based loading animations with modal previews, formulas, and copyable code snippets. | 近期热门 | 总 380 stars</description>
+        <description>A lightweight gallery of mathematical curve based loading animations with modal previews, formulas, and copyable code snippets. | 近期热门 | 总 417 stars</description>
         <author>Paidax01</author>
         <category>github</category>
-        <pubDate>Tue, 07 Apr 2026 03:29:19 GMT</pubDate>
+        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-paidax01-math-curve-loaders</guid>
       </item>
 <item>
         <title>galpha-ai/trading-intent</title>
         <link>https://github.com/galpha-ai/trading-intent</link>
-        <description> | 近期热门 | 总 244 stars</description>
+        <description> | 近期热门 | 总 237 stars</description>
         <author>galpha-ai</author>
         <category>github</category>
-        <pubDate>Tue, 07 Apr 2026 03:29:19 GMT</pubDate>
+        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-galpha-ai-trading-intent</guid>
       </item>
 <item>
-        <title>abhishekgahlot2/toon-json-render</title>
-        <link>https://github.com/abhishekgahlot2/toon-json-render</link>
-        <description>Drop-in TOON adapter for json-render - fewer LLM tokens, no new language | 近期热门 | 总 53 stars</description>
-        <author>abhishekgahlot2</author>
+        <title>pacifio/cersei</title>
+        <link>https://github.com/pacifio/cersei</link>
+        <description>The Rust SDK for building coding agents. Tool execution, LLM streaming, graph memory, sub-agent orchestration, MCP — as composable library functions. | 近期热门 | 总 233 stars</description>
+        <author>pacifio</author>
         <category>github</category>
-        <pubDate>Tue, 07 Apr 2026 03:29:19 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-abhishekgahlot2-toon-json-render</guid>
+        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-pacifio-cersei</guid>
       </item>
   </channel>
 </rss>
