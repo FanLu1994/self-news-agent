@@ -1,123 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/8)</title>
+    <title>6-8 件事 (2026/4/9)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天社区里简直像在开“AI 编程工具博览会”！我帮你梳理了一下，有这么几件事特别值得你留意：
-
-1.  **Claude Code 的“生态”大爆发**：今天有好几个围绕 Claude Code 的优质开源项目冲上热榜，从提升效率的“技能包”（如省 token 的 `caveman`），到用 Go 重写的替代品 `gopher-code`，再到帮你做 UI 设计的 `styleseed`，说明开发者们正在疯狂挖掘它的潜力。
-2.  **AI Agent 开发框架有了新选择**：如果你对用 Rust 构建 AI Agent 感兴趣，一个新发布的 SDK `cersei` 值得一看，它把工具调用、记忆、子任务编排都做成了可组合的库函数。
-3.  **AI 编码的“实战反思”**：社区里出现了几篇非常真实的帖子，有人分享用 AI Agent（QClaw）完成一系列电脑操作任务的“翻车”体验，也有人总结了团队落地 AI Coding 的演进路径。这些实战经验比单纯的技术介绍更有价值。
-4.  **模型与工具的动态**：Sam Altman 宣布 Codex 用户数达 300 万并重置限额，智谱开源了号称能独立工作 8 小时的 GLM-5.1，这些都可能影响你选择和使用 AI 编程工具。
-5.  **“工具焦虑”与方案讨论**：在程序员社区里，大家正在热烈讨论“用什么 AI IDE”、“Codex 平替是什么”、“Coding Plan 什么时候上新模型”，这反映了当前工具生态的快速变化和用户的普遍需求。
-
----</description>
+    <description>嘿，今天的技术资讯圈还挺热闹的，尤其是围绕“AI编程”这个核心。我帮你筛了一遍，发现有几个特别值得你留意的动态：首先是GitHub上涌现了一批直接针对Claude Code等AI编程工具的“技能”或增强工具，感觉开发者社区正在把AI编程助手玩出花来；其次，关于Codex、Claude Code这些主流工具的额度、更新和替代方案的讨论非常火热，看来大家都在精打细算地“薅羊毛”和寻找最优工作流；最后，Meta发布了名为Muse Spark的新项目，号称要迈向“个人超级智能”，虽然听起来有点宏大，但可能代表了AI Agent发展的一个新方向。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Apr 2026 03:32:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 03:30:15 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天社区里简直像在开“AI 编程工具博览会”！我帮你梳理了一下，有这么几件事特别值得你留意：
-
-1.  **Claude Code 的“生态”大爆发**：今天有好几个围绕 Claude Code 的优质开源项目冲上热榜，从提升效率的“技能包”（如省 token 的 `caveman`），到用 Go 重写的替代品 `gopher-code`，再到帮你做 UI 设计的 `styleseed`，说明开发者们正在疯狂挖掘它的潜力。
-2.  **AI Agent 开发框架有了新选择**：如果你对用 Rust 构建 AI Agent 感兴趣，一个新发布的 SDK `cersei` 值得一看，它把工具调用、记忆、子任务编排都做成了可组合的库函数。
-3.  **AI 编码的“实战反思”**：社区里出现了几篇非常真实的帖子，有人分享用 AI Agent（QClaw）完成一系列电脑操作任务的“翻车”体验，也有人总结了团队落地 AI Coding 的演进路径。这些实战经验比单纯的技术介绍更有价值。
-4.  **模型与工具的动态**：Sam Altman 宣布 Codex 用户数达 300 万并重置限额，智谱开源了号称能独立工作 8 小时的 GLM-5.1，这些都可能影响你选择和使用 AI 编程工具。
-5.  **“工具焦虑”与方案讨论**：在程序员社区里，大家正在热烈讨论“用什么 AI IDE”、“Codex 平替是什么”、“Coding Plan 什么时候上新模型”，这反映了当前工具生态的快速变化和用户的普遍需求。
-
----</description>
-        <pubDate>Wed, 08 Apr 2026 03:32:43 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-08T03:32:17.384Z</guid>
+        <description>嘿，今天的技术资讯圈还挺热闹的，尤其是围绕“AI编程”这个核心。我帮你筛了一遍，发现有几个特别值得你留意的动态：首先是GitHub上涌现了一批直接针对Claude Code等AI编程工具的“技能”或增强工具，感觉开发者社区正在把AI编程助手玩出花来；其次，关于Codex、Claude Code这些主流工具的额度、更新和替代方案的讨论非常火热，看来大家都在精打细算地“薅羊毛”和寻找最优工作流；最后，Meta发布了名为Muse Spark的新项目，号称要迈向“个人超级智能”，虽然听起来有点宏大，但可能代表了AI Agent发展的一个新方向。</description>
+        <pubDate>Thu, 09 Apr 2026 03:30:15 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-09T03:29:45.703Z</guid>
       </item>
     <item>
-        <title>santifer/career-ops</title>
-        <link>https://github.com/santifer/career-ops</link>
-        <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. | 近期热门 | 总 19052 stars</description>
-        <author>santifer</author>
-        <category>github</category>
-        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-santifer-career-ops</guid>
-      </item>
-<item>
         <title>milla-jovovich/mempalace</title>
         <link>https://github.com/milla-jovovich/mempalace</link>
-        <description>The highest-scoring AI memory system ever benchmarked. And it&apos;s free. | 近期热门 | 总 18523 stars</description>
+        <description>The highest-scoring AI memory system ever benchmarked. And it&apos;s free. | 近期热门 | 总 28328 stars</description>
         <author>milla-jovovich</author>
         <category>github</category>
-        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
+        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-milla-jovovich-mempalace</guid>
+      </item>
+<item>
+        <title>santifer/career-ops</title>
+        <link>https://github.com/santifer/career-ops</link>
+        <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. | 近期热门 | 总 24967 stars</description>
+        <author>santifer</author>
+        <category>github</category>
+        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-santifer-career-ops</guid>
       </item>
 <item>
         <title>safishamsi/graphify</title>
         <link>https://github.com/safishamsi/graphify</link>
-        <description>AI coding assistant skill (Claude Code, Codex, OpenCode, OpenClaw, Factory Droid). Turn any folder of code, docs, papers, or images into a queryable knowledge graph | 近期热门 | 总 7559 stars</description>
+        <description>AI coding assistant skill (Claude Code, Codex, OpenCode, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph | 近期热门 | 总 13357 stars</description>
         <author>safishamsi</author>
         <category>github</category>
-        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
+        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-safishamsi-graphify</guid>
-      </item>
-<item>
-        <title>ultraworkers/claw-code-parity</title>
-        <link>https://github.com/ultraworkers/claw-code-parity</link>
-        <description>Join Discord: https://discord.gg/5TUQKqFWd /  claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration | 近期热门 | 总 6603 stars</description>
-        <author>ultraworkers</author>
-        <category>github</category>
-        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ultraworkers-claw-code-parity</guid>
       </item>
 <item>
         <title>JuliusBrussee/caveman</title>
         <link>https://github.com/JuliusBrussee/caveman</link>
-        <description>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman | 近期热门 | 总 6092 stars</description>
+        <description>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman | 近期热门 | 总 7641 stars</description>
         <author>JuliusBrussee</author>
         <category>github</category>
-        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
+        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-juliusbrussee-caveman</guid>
       </item>
 <item>
         <title>hilash/cabinet</title>
         <link>https://github.com/hilash/cabinet</link>
-        <description>AI-first knowledge base and startup OS | 近期热门 | 总 627 stars</description>
+        <description>AI-first knowledge base and startup OS | 近期热门 | 总 681 stars</description>
         <author>hilash</author>
         <category>github</category>
-        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
+        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-hilash-cabinet</guid>
       </item>
 <item>
-        <title>karpathy/KarpathyTalk</title>
-        <link>https://github.com/karpathy/KarpathyTalk</link>
-        <description>A positive developer community for builders and agents. | 近期热门 | 总 442 stars</description>
-        <author>karpathy</author>
+        <title>Houseofmvps/codesight</title>
+        <link>https://github.com/Houseofmvps/codesight</link>
+        <description>Universal AI context generator. Saves thousands of tokens per conversation in Claude Code, Cursor, Copilot, Codex, and more. | 近期热门 | 总 605 stars</description>
+        <author>Houseofmvps</author>
         <category>github</category>
-        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-karpathy-karpathytalk</guid>
+        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-houseofmvps-codesight</guid>
       </item>
 <item>
-        <title>Paidax01/math-curve-loaders</title>
-        <link>https://github.com/Paidax01/math-curve-loaders</link>
-        <description>A lightweight gallery of mathematical curve based loading animations with modal previews, formulas, and copyable code snippets. | 近期热门 | 总 417 stars</description>
-        <author>Paidax01</author>
+        <title>xoai/sage-wiki</title>
+        <link>https://github.com/xoai/sage-wiki</link>
+        <description>An LLM-compiled personal knowledge base.  Drop in your papers, articles, and notes. sage-wiki compiles them into a structured, interlinked wiki — with concepts extracted, cross-references discovered, and everything searchable. | 近期热门 | 总 283 stars</description>
+        <author>xoai</author>
         <category>github</category>
-        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-paidax01-math-curve-loaders</guid>
+        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-xoai-sage-wiki</guid>
       </item>
 <item>
         <title>galpha-ai/trading-intent</title>
         <link>https://github.com/galpha-ai/trading-intent</link>
-        <description> | 近期热门 | 总 237 stars</description>
+        <description> | 近期热门 | 总 235 stars</description>
         <author>galpha-ai</author>
         <category>github</category>
-        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
+        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-galpha-ai-trading-intent</guid>
       </item>
 <item>
-        <title>pacifio/cersei</title>
-        <link>https://github.com/pacifio/cersei</link>
-        <description>The Rust SDK for building coding agents. Tool execution, LLM streaming, graph memory, sub-agent orchestration, MCP — as composable library functions. | 近期热门 | 总 233 stars</description>
-        <author>pacifio</author>
+        <title>openabdev/openab</title>
+        <link>https://github.com/openabdev/openab</link>
+        <description>A lightweight, secure, cloud-native ACP harness that bridges Discord and any ACP-compatible coding CLI. | 近期热门 | 总 178 stars</description>
+        <author>openabdev</author>
         <category>github</category>
-        <pubDate>Wed, 08 Apr 2026 03:30:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-pacifio-cersei</guid>
+        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-openabdev-openab</guid>
+      </item>
+<item>
+        <title>bitjaru/styleseed</title>
+        <link>https://github.com/bitjaru/styleseed</link>
+        <description>Design engine that makes AI code like a UI/UX designer. Pick any brand skin, get professional UI. | 近期热门 | 总 125 stars</description>
+        <author>bitjaru</author>
+        <category>github</category>
+        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-bitjaru-styleseed</guid>
       </item>
   </channel>
 </rss>
