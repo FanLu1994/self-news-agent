@@ -1,107 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/9)</title>
+    <title>6-8 件事 (2026/4/10)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术资讯圈还挺热闹的，尤其是围绕“AI编程”这个核心。我帮你筛了一遍，发现有几个特别值得你留意的动态：首先是GitHub上涌现了一批直接针对Claude Code等AI编程工具的“技能”或增强工具，感觉开发者社区正在把AI编程助手玩出花来；其次，关于Codex、Claude Code这些主流工具的额度、更新和替代方案的讨论非常火热，看来大家都在精打细算地“薅羊毛”和寻找最优工作流；最后，Meta发布了名为Muse Spark的新项目，号称要迈向“个人超级智能”，虽然听起来有点宏大，但可能代表了AI Agent发展的一个新方向。</description>
+    <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的干货不少。我帮你筛了一遍，发现有几个方向特别值得你留意：
+
+1.  **AI 编程工具正在“卷”效率和成本**：有好几个新项目都在想办法帮 Claude Code、Cursor 这类工具节省 token、提升效率，看来大家用 AI 写代码时，对“性价比”的追求越来越高了。
+2.  **“AI 记忆”和“上下文”成为新热点**：不止一个项目在解决 AI 健忘、幻觉和切换成本高的问题，这可能是构建可靠 Agent 的关键一步。
+3.  **开发者社区在热烈讨论 Codex 的使用体验**：关于额度、降智、以及和 Cursor 的对比，有很多真实的一线反馈，能帮你避坑。
+4.  **AI Agent 的“基础设施”在完善**：出现了专门为 Agent 设计的管理工具、安全框架（Harness）甚至专属“收件箱”，说明 Agent 正在从概念走向工程化落地。
+5.  **AI 辅助设计生成代码的工具出现了**：有工具能让 AI 像 UI/UX 设计师一样写前端代码，这或许能打通设计和开发。
+6.  **关于 AI 如何影响程序员价值的深度讨论**：有文章从更高维度探讨 AI 时代顶尖程序员的价值变化，值得思考。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Apr 2026 03:30:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 03:35:24 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术资讯圈还挺热闹的，尤其是围绕“AI编程”这个核心。我帮你筛了一遍，发现有几个特别值得你留意的动态：首先是GitHub上涌现了一批直接针对Claude Code等AI编程工具的“技能”或增强工具，感觉开发者社区正在把AI编程助手玩出花来；其次，关于Codex、Claude Code这些主流工具的额度、更新和替代方案的讨论非常火热，看来大家都在精打细算地“薅羊毛”和寻找最优工作流；最后，Meta发布了名为Muse Spark的新项目，号称要迈向“个人超级智能”，虽然听起来有点宏大，但可能代表了AI Agent发展的一个新方向。</description>
-        <pubDate>Thu, 09 Apr 2026 03:30:15 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-09T03:29:45.703Z</guid>
+        <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的干货不少。我帮你筛了一遍，发现有几个方向特别值得你留意：
+
+1.  **AI 编程工具正在“卷”效率和成本**：有好几个新项目都在想办法帮 Claude Code、Cursor 这类工具节省 token、提升效率，看来大家用 AI 写代码时，对“性价比”的追求越来越高了。
+2.  **“AI 记忆”和“上下文”成为新热点**：不止一个项目在解决 AI 健忘、幻觉和切换成本高的问题，这可能是构建可靠 Agent 的关键一步。
+3.  **开发者社区在热烈讨论 Codex 的使用体验**：关于额度、降智、以及和 Cursor 的对比，有很多真实的一线反馈，能帮你避坑。
+4.  **AI Agent 的“基础设施”在完善**：出现了专门为 Agent 设计的管理工具、安全框架（Harness）甚至专属“收件箱”，说明 Agent 正在从概念走向工程化落地。
+5.  **AI 辅助设计生成代码的工具出现了**：有工具能让 AI 像 UI/UX 设计师一样写前端代码，这或许能打通设计和开发。
+6.  **关于 AI 如何影响程序员价值的深度讨论**：有文章从更高维度探讨 AI 时代顶尖程序员的价值变化，值得思考。</description>
+        <pubDate>Fri, 10 Apr 2026 03:35:24 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-10T03:34:47.534Z</guid>
       </item>
     <item>
         <title>milla-jovovich/mempalace</title>
         <link>https://github.com/milla-jovovich/mempalace</link>
-        <description>The highest-scoring AI memory system ever benchmarked. And it&apos;s free. | 近期热门 | 总 28328 stars</description>
+        <description>The highest-scoring AI memory system ever benchmarked. And it&apos;s free. | 近期热门 | 总 36454 stars</description>
         <author>milla-jovovich</author>
         <category>github</category>
-        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-milla-jovovich-mempalace</guid>
       </item>
 <item>
         <title>santifer/career-ops</title>
         <link>https://github.com/santifer/career-ops</link>
-        <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. | 近期热门 | 总 24967 stars</description>
+        <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. | 近期热门 | 总 27900 stars</description>
         <author>santifer</author>
         <category>github</category>
-        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-santifer-career-ops</guid>
-      </item>
-<item>
-        <title>safishamsi/graphify</title>
-        <link>https://github.com/safishamsi/graphify</link>
-        <description>AI coding assistant skill (Claude Code, Codex, OpenCode, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph | 近期热门 | 总 13357 stars</description>
-        <author>safishamsi</author>
-        <category>github</category>
-        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-safishamsi-graphify</guid>
       </item>
 <item>
         <title>JuliusBrussee/caveman</title>
         <link>https://github.com/JuliusBrussee/caveman</link>
-        <description>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman | 近期热门 | 总 7641 stars</description>
+        <description>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman | 近期热门 | 总 8986 stars</description>
         <author>JuliusBrussee</author>
         <category>github</category>
-        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-juliusbrussee-caveman</guid>
       </item>
 <item>
-        <title>hilash/cabinet</title>
-        <link>https://github.com/hilash/cabinet</link>
-        <description>AI-first knowledge base and startup OS | 近期热门 | 总 681 stars</description>
-        <author>hilash</author>
+        <title>alchaincyf/nuwa-skill</title>
+        <link>https://github.com/alchaincyf/nuwa-skill</link>
+        <description>你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks. | 近期热门 | 总 5735 stars</description>
+        <author>alchaincyf</author>
         <category>github</category>
-        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hilash-cabinet</guid>
+        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-alchaincyf-nuwa-skill</guid>
       </item>
 <item>
         <title>Houseofmvps/codesight</title>
         <link>https://github.com/Houseofmvps/codesight</link>
-        <description>Universal AI context generator. Saves thousands of tokens per conversation in Claude Code, Cursor, Copilot, Codex, and more. | 近期热门 | 总 605 stars</description>
+        <description>Universal AI context generator. Saves thousands of tokens per conversation in Claude Code, Cursor, Copilot, Codex, and more. | 近期热门 | 总 762 stars</description>
         <author>Houseofmvps</author>
         <category>github</category>
-        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-houseofmvps-codesight</guid>
       </item>
 <item>
         <title>xoai/sage-wiki</title>
         <link>https://github.com/xoai/sage-wiki</link>
-        <description>An LLM-compiled personal knowledge base.  Drop in your papers, articles, and notes. sage-wiki compiles them into a structured, interlinked wiki — with concepts extracted, cross-references discovered, and everything searchable. | 近期热门 | 总 283 stars</description>
+        <description>An LLM-compiled personal knowledge base.  Drop in your papers, articles, and notes. sage-wiki compiles them into a structured, interlinked wiki — with concepts extracted, cross-references discovered, and everything searchable. | 近期热门 | 总 327 stars</description>
         <author>xoai</author>
         <category>github</category>
-        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-xoai-sage-wiki</guid>
       </item>
 <item>
-        <title>galpha-ai/trading-intent</title>
-        <link>https://github.com/galpha-ai/trading-intent</link>
-        <description> | 近期热门 | 总 235 stars</description>
-        <author>galpha-ai</author>
+        <title>nashsu/llm_wiki</title>
+        <link>https://github.com/nashsu/llm_wiki</link>
+        <description> | 近期热门 | 总 318 stars</description>
+        <author>nashsu</author>
         <category>github</category>
-        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-galpha-ai-trading-intent</guid>
+        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nashsu-llm_wiki</guid>
       </item>
 <item>
-        <title>openabdev/openab</title>
-        <link>https://github.com/openabdev/openab</link>
-        <description>A lightweight, secure, cloud-native ACP harness that bridges Discord and any ACP-compatible coding CLI. | 近期热门 | 总 178 stars</description>
-        <author>openabdev</author>
+        <title>blairxu13/persona3-website</title>
+        <link>https://github.com/blairxu13/persona3-website</link>
+        <description> | 近期热门 | 总 305 stars</description>
+        <author>blairxu13</author>
         <category>github</category>
-        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-openabdev-openab</guid>
+        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-blairxu13-persona3-website</guid>
       </item>
 <item>
         <title>bitjaru/styleseed</title>
         <link>https://github.com/bitjaru/styleseed</link>
-        <description>Design engine that makes AI code like a UI/UX designer. Pick any brand skin, get professional UI. | 近期热门 | 总 125 stars</description>
+        <description>Design engine that makes AI code like a UI/UX designer. Pick any brand skin, get professional UI. | 近期热门 | 总 138 stars</description>
         <author>bitjaru</author>
         <category>github</category>
-        <pubDate>Thu, 09 Apr 2026 03:27:57 GMT</pubDate>
+        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-bitjaru-styleseed</guid>
+      </item>
+<item>
+        <title>hang-in/seCall</title>
+        <link>https://github.com/hang-in/seCall</link>
+        <description>recall your second brain | 近期热门 | 总 98 stars</description>
+        <author>hang-in</author>
+        <category>github</category>
+        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-hang-in-secall</guid>
       </item>
   </channel>
 </rss>
