@@ -1,121 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/10)</title>
+    <title>6-8 件事 (2026/4/11)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的干货不少。我帮你筛了一遍，发现有几个方向特别值得你留意：
-
-1.  **AI 编程工具正在“卷”效率和成本**：有好几个新项目都在想办法帮 Claude Code、Cursor 这类工具节省 token、提升效率，看来大家用 AI 写代码时，对“性价比”的追求越来越高了。
-2.  **“AI 记忆”和“上下文”成为新热点**：不止一个项目在解决 AI 健忘、幻觉和切换成本高的问题，这可能是构建可靠 Agent 的关键一步。
-3.  **开发者社区在热烈讨论 Codex 的使用体验**：关于额度、降智、以及和 Cursor 的对比，有很多真实的一线反馈，能帮你避坑。
-4.  **AI Agent 的“基础设施”在完善**：出现了专门为 Agent 设计的管理工具、安全框架（Harness）甚至专属“收件箱”，说明 Agent 正在从概念走向工程化落地。
-5.  **AI 辅助设计生成代码的工具出现了**：有工具能让 AI 像 UI/UX 设计师一样写前端代码，这或许能打通设计和开发。
-6.  **关于 AI 如何影响程序员价值的深度讨论**：有文章从更高维度探讨 AI 时代顶尖程序员的价值变化，值得思考。</description>
+    <description>嘿，今天的信息流里关于 AI 和编程的内容特别多，尤其是围绕 **AI Agent（智能体）** 和 **编码（Coding）** 的。我发现几个挺有意思的趋势：一是“技能蒸馏”和“Agent技能市场”概念很火，大家都在想办法把人的思维模式或者特定能力“封装”给AI用；二是关于 **Claude Code** 和 **Codex** 这类编码AI的讨论、工具和“破解”特别多，看来开发者们都在积极拥抱AI编程助手；三是本地运行和量化大模型（Local LLM）的评测和工具更新很快，追求性价比和可控性。下面我给你挑了几件最值得你花时间了解的事。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Apr 2026 03:35:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 03:26:38 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的干货不少。我帮你筛了一遍，发现有几个方向特别值得你留意：
-
-1.  **AI 编程工具正在“卷”效率和成本**：有好几个新项目都在想办法帮 Claude Code、Cursor 这类工具节省 token、提升效率，看来大家用 AI 写代码时，对“性价比”的追求越来越高了。
-2.  **“AI 记忆”和“上下文”成为新热点**：不止一个项目在解决 AI 健忘、幻觉和切换成本高的问题，这可能是构建可靠 Agent 的关键一步。
-3.  **开发者社区在热烈讨论 Codex 的使用体验**：关于额度、降智、以及和 Cursor 的对比，有很多真实的一线反馈，能帮你避坑。
-4.  **AI Agent 的“基础设施”在完善**：出现了专门为 Agent 设计的管理工具、安全框架（Harness）甚至专属“收件箱”，说明 Agent 正在从概念走向工程化落地。
-5.  **AI 辅助设计生成代码的工具出现了**：有工具能让 AI 像 UI/UX 设计师一样写前端代码，这或许能打通设计和开发。
-6.  **关于 AI 如何影响程序员价值的深度讨论**：有文章从更高维度探讨 AI 时代顶尖程序员的价值变化，值得思考。</description>
-        <pubDate>Fri, 10 Apr 2026 03:35:24 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-10T03:34:47.534Z</guid>
+        <description>嘿，今天的信息流里关于 AI 和编程的内容特别多，尤其是围绕 **AI Agent（智能体）** 和 **编码（Coding）** 的。我发现几个挺有意思的趋势：一是“技能蒸馏”和“Agent技能市场”概念很火，大家都在想办法把人的思维模式或者特定能力“封装”给AI用；二是关于 **Claude Code** 和 **Codex** 这类编码AI的讨论、工具和“破解”特别多，看来开发者们都在积极拥抱AI编程助手；三是本地运行和量化大模型（Local LLM）的评测和工具更新很快，追求性价比和可控性。下面我给你挑了几件最值得你花时间了解的事。</description>
+        <pubDate>Sat, 11 Apr 2026 03:26:38 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-11T03:25:54.695Z</guid>
       </item>
     <item>
         <title>milla-jovovich/mempalace</title>
         <link>https://github.com/milla-jovovich/mempalace</link>
-        <description>The highest-scoring AI memory system ever benchmarked. And it&apos;s free. | 近期热门 | 总 36454 stars</description>
+        <description>The highest-scoring AI memory system ever benchmarked. And it&apos;s free. | 近期热门 | 总 40245 stars</description>
         <author>milla-jovovich</author>
         <category>github</category>
-        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
+        <pubDate>Sat, 11 Apr 2026 03:23:44 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-milla-jovovich-mempalace</guid>
-      </item>
-<item>
-        <title>santifer/career-ops</title>
-        <link>https://github.com/santifer/career-ops</link>
-        <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. | 近期热门 | 总 27900 stars</description>
-        <author>santifer</author>
-        <category>github</category>
-        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-santifer-career-ops</guid>
-      </item>
-<item>
-        <title>JuliusBrussee/caveman</title>
-        <link>https://github.com/JuliusBrussee/caveman</link>
-        <description>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman | 近期热门 | 总 8986 stars</description>
-        <author>JuliusBrussee</author>
-        <category>github</category>
-        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-juliusbrussee-caveman</guid>
       </item>
 <item>
         <title>alchaincyf/nuwa-skill</title>
         <link>https://github.com/alchaincyf/nuwa-skill</link>
-        <description>你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks. | 近期热门 | 总 5735 stars</description>
+        <description>你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks. | 近期热门 | 总 6706 stars</description>
         <author>alchaincyf</author>
         <category>github</category>
-        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
+        <pubDate>Sat, 11 Apr 2026 03:23:44 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-alchaincyf-nuwa-skill</guid>
       </item>
 <item>
-        <title>Houseofmvps/codesight</title>
-        <link>https://github.com/Houseofmvps/codesight</link>
-        <description>Universal AI context generator. Saves thousands of tokens per conversation in Claude Code, Cursor, Copilot, Codex, and more. | 近期热门 | 总 762 stars</description>
-        <author>Houseofmvps</author>
+        <title>xixu-me/awesome-persona-distill-skills</title>
+        <link>https://github.com/xixu-me/awesome-persona-distill-skills</link>
+        <description>同事.skill, 女娲.skill, 前任.skill… Curated list of Agent Skills centered on people, relationships, commemorative scenes, and methodological perspectives | 近期热门 | 总 2894 stars</description>
+        <author>xixu-me</author>
         <category>github</category>
-        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-houseofmvps-codesight</guid>
+        <pubDate>Sat, 11 Apr 2026 03:23:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-xixu-me-awesome-persona-distill-skills</guid>
       </item>
 <item>
-        <title>xoai/sage-wiki</title>
-        <link>https://github.com/xoai/sage-wiki</link>
-        <description>An LLM-compiled personal knowledge base.  Drop in your papers, articles, and notes. sage-wiki compiles them into a structured, interlinked wiki — with concepts extracted, cross-references discovered, and everything searchable. | 近期热门 | 总 327 stars</description>
-        <author>xoai</author>
+        <title>garrytan/gbrain</title>
+        <link>https://github.com/garrytan/gbrain</link>
+        <description>Garry&apos;s Opinionated OpenClaw/Hermes Agent Brain | 近期热门 | 总 2803 stars</description>
+        <author>garrytan</author>
         <category>github</category>
-        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-xoai-sage-wiki</guid>
+        <pubDate>Sat, 11 Apr 2026 03:23:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-garrytan-gbrain</guid>
       </item>
 <item>
         <title>nashsu/llm_wiki</title>
         <link>https://github.com/nashsu/llm_wiki</link>
-        <description> | 近期热门 | 总 318 stars</description>
+        <description>LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。 | 近期热门 | 总 597 stars</description>
         <author>nashsu</author>
         <category>github</category>
-        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
+        <pubDate>Sat, 11 Apr 2026 03:23:44 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-nashsu-llm_wiki</guid>
       </item>
 <item>
-        <title>blairxu13/persona3-website</title>
-        <link>https://github.com/blairxu13/persona3-website</link>
-        <description> | 近期热门 | 总 305 stars</description>
-        <author>blairxu13</author>
+        <title>QLHazyCoder/codex-oauth-automation-extension</title>
+        <link>https://github.com/QLHazyCoder/codex-oauth-automation-extension</link>
+        <description>Chrome扩展：支持OpenAI OAuth注册、验证码获取、CPA回调验证与自动恢复 | 近期热门 | 总 370 stars</description>
+        <author>QLHazyCoder</author>
         <category>github</category>
-        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-blairxu13-persona3-website</guid>
+        <pubDate>Sat, 11 Apr 2026 03:23:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-qlhazycoder-codex-oauth-automation-extension</guid>
       </item>
 <item>
         <title>bitjaru/styleseed</title>
         <link>https://github.com/bitjaru/styleseed</link>
-        <description>Design engine that makes AI code like a UI/UX designer. Pick any brand skin, get professional UI. | 近期热门 | 总 138 stars</description>
+        <description>Design engine that makes AI code like a UI/UX designer. Pick any brand skin, get professional UI. | 近期热门 | 总 144 stars</description>
         <author>bitjaru</author>
         <category>github</category>
-        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
+        <pubDate>Sat, 11 Apr 2026 03:23:44 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-bitjaru-styleseed</guid>
+      </item>
+<item>
+        <title>MarchLiu/hypatia</title>
+        <link>https://github.com/MarchLiu/hypatia</link>
+        <description>&quot;We can wander through the stacks of the Library of Alexandria, imagining the scrolls and the knowledge they contain. Its destruction is a warning: all we have is transient.”--Alberto Manguel | 近期热门 | 总 121 stars</description>
+        <author>MarchLiu</author>
+        <category>github</category>
+        <pubDate>Sat, 11 Apr 2026 03:23:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-marchliu-hypatia</guid>
       </item>
 <item>
         <title>hang-in/seCall</title>
         <link>https://github.com/hang-in/seCall</link>
-        <description>recall your second brain | 近期热门 | 总 98 stars</description>
+        <description>recall your second brain | 近期热门 | 总 115 stars</description>
         <author>hang-in</author>
         <category>github</category>
-        <pubDate>Fri, 10 Apr 2026 03:32:59 GMT</pubDate>
+        <pubDate>Sat, 11 Apr 2026 03:23:44 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-hang-in-secall</guid>
+      </item>
+<item>
+        <title>remoteoss/dexter</title>
+        <link>https://github.com/remoteoss/dexter</link>
+        <description>A fast, full-featured Elixir LSP optimized for large codebases. | 近期热门 | 总 59 stars</description>
+        <author>remoteoss</author>
+        <category>github</category>
+        <pubDate>Sat, 11 Apr 2026 03:23:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-remoteoss-dexter</guid>
       </item>
   </channel>
 </rss>
