@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/12)</title>
+    <title>6-8 件事 (2026/4/13)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的内容挺有意思的，我发现好几个方向都和你关注的 AI、LLM、Agent 以及 Coding 高度相关。首先是关于 **Claude Code** 的讨论特别多，社区里大家好像都在研究怎么更好地用它、怎么避免封号，甚至怎么把它的技能迁移到其他模型上。其次，有几个新的开源项目很亮眼，一个是给 AI Agent 用的“基础设施”，另一个是能让 AI 像设计师一样写代码的“设计引擎”。最后，关于 AI 如何改变软件开发流程（比如“敏捷已死？”）和 AI 代理基准测试被“打破”的深度讨论，也值得你花点时间看看。</description>
+    <description>今天值得你关注的事情主要围绕这几个方面：**AI 编码工具**出现了能提升输出质量的设计系统、监控多 Agent 协作的框架；**个人知识管理**有结合 AI Agent 的新思路；**开发者工具**方面，有轻量级数据库 GUI 和 VS Code 浏览器化方案；此外，关于 **Claude Code 的使用成本、额度**以及 **AI 生成代码的检测**也有新工具和讨论。感觉整个生态正在从“能用”向“好用”和“可控”演进。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Apr 2026 03:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 03:35:53 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的内容挺有意思的，我发现好几个方向都和你关注的 AI、LLM、Agent 以及 Coding 高度相关。首先是关于 **Claude Code** 的讨论特别多，社区里大家好像都在研究怎么更好地用它、怎么避免封号，甚至怎么把它的技能迁移到其他模型上。其次，有几个新的开源项目很亮眼，一个是给 AI Agent 用的“基础设施”，另一个是能让 AI 像设计师一样写代码的“设计引擎”。最后，关于 AI 如何改变软件开发流程（比如“敏捷已死？”）和 AI 代理基准测试被“打破”的深度讨论，也值得你花点时间看看。</description>
-        <pubDate>Sun, 12 Apr 2026 03:35:00 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-12T03:34:23.648Z</guid>
+        <description>今天值得你关注的事情主要围绕这几个方面：**AI 编码工具**出现了能提升输出质量的设计系统、监控多 Agent 协作的框架；**个人知识管理**有结合 AI Agent 的新思路；**开发者工具**方面，有轻量级数据库 GUI 和 VS Code 浏览器化方案；此外，关于 **Claude Code 的使用成本、额度**以及 **AI 生成代码的检测**也有新工具和讨论。感觉整个生态正在从“能用”向“好用”和“可控”演进。</description>
+        <pubDate>Mon, 13 Apr 2026 03:35:53 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-13T03:35:19.048Z</guid>
       </item>
     <item>
-        <title>xixu-me/awesome-persona-distill-skills</title>
-        <link>https://github.com/xixu-me/awesome-persona-distill-skills</link>
-        <description>同事.skill, 女娲.skill, 前任.skill… Curated list of Agent Skills centered on people, relationships, commemorative scenes, and methodological perspectives | 近期热门 | 总 3207 stars</description>
-        <author>xixu-me</author>
+        <title>yizhiyanhua-ai/fireworks-tech-graph</title>
+        <link>https://github.com/yizhiyanhua-ai/fireworks-tech-graph</link>
+        <description>Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge. | 近期热门 | 总 1653 stars</description>
+        <author>yizhiyanhua-ai</author>
         <category>github</category>
-        <pubDate>Sun, 12 Apr 2026 03:32:38 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-xixu-me-awesome-persona-distill-skills</guid>
-      </item>
-<item>
-        <title>phuryn/claude-usage</title>
-        <link>https://github.com/phuryn/claude-usage</link>
-        <description>A local dashboard for tracking your Claude Code token usage, costs, and session history. Pro and Max subscribers get a progress bar. This gives you the full picture. | 近期热门 | 总 856 stars</description>
-        <author>phuryn</author>
-        <category>github</category>
-        <pubDate>Sun, 12 Apr 2026 03:32:38 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-phuryn-claude-usage</guid>
-      </item>
-<item>
-        <title>nashsu/llm_wiki</title>
-        <link>https://github.com/nashsu/llm_wiki</link>
-        <description>LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。 | 近期热门 | 总 728 stars</description>
-        <author>nashsu</author>
-        <category>github</category>
-        <pubDate>Sun, 12 Apr 2026 03:32:38 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nashsu-llm_wiki</guid>
+        <pubDate>Mon, 13 Apr 2026 03:33:13 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yizhiyanhua-ai-fireworks-tech-graph</guid>
       </item>
 <item>
         <title>QLHazyCoder/codex-oauth-automation-extension</title>
         <link>https://github.com/QLHazyCoder/codex-oauth-automation-extension</link>
-        <description>Chrome扩展：支持OpenAI OAuth注册、验证码获取、CPA回调验证与自动恢复 | 近期热门 | 总 684 stars</description>
+        <description>Chrome扩展：支持OpenAI OAuth注册、验证码获取、CPA回调验证与自动恢复 | 近期热门 | 总 973 stars</description>
         <author>QLHazyCoder</author>
         <category>github</category>
-        <pubDate>Sun, 12 Apr 2026 03:32:38 GMT</pubDate>
+        <pubDate>Mon, 13 Apr 2026 03:33:13 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-qlhazycoder-codex-oauth-automation-extension</guid>
       </item>
 <item>
-        <title>joeynyc/hermes-hudui</title>
-        <link>https://github.com/joeynyc/hermes-hudui</link>
-        <description>Web UI consciousness monitor for Hermes — the AI agent with persistent memory | 近期热门 | 总 583 stars</description>
-        <author>joeynyc</author>
+        <title>nashsu/llm_wiki</title>
+        <link>https://github.com/nashsu/llm_wiki</link>
+        <description>LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。 | 近期热门 | 总 951 stars</description>
+        <author>nashsu</author>
         <category>github</category>
-        <pubDate>Sun, 12 Apr 2026 03:32:38 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-joeynyc-hermes-hudui</guid>
+        <pubDate>Mon, 13 Apr 2026 03:33:13 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nashsu-llm_wiki</guid>
+      </item>
+<item>
+        <title>phuryn/claude-usage</title>
+        <link>https://github.com/phuryn/claude-usage</link>
+        <description>A local dashboard for tracking your Claude Code token usage, costs, and session history. Pro and Max subscribers get a progress bar. This gives you the full picture. | 近期热门 | 总 879 stars</description>
+        <author>phuryn</author>
+        <category>github</category>
+        <pubDate>Mon, 13 Apr 2026 03:33:13 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-phuryn-claude-usage</guid>
       </item>
 <item>
         <title>millionco/isolet</title>
         <link>https://github.com/millionco/isolet</link>
-        <description>Package any component into a self-contained, isolated widget | 近期热门 | 总 282 stars</description>
+        <description>Package any component into a self-contained, isolated widget | 近期热门 | 总 295 stars</description>
         <author>millionco</author>
         <category>github</category>
-        <pubDate>Sun, 12 Apr 2026 03:32:38 GMT</pubDate>
+        <pubDate>Mon, 13 Apr 2026 03:33:13 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-millionco-isolet</guid>
       </item>
 <item>
         <title>bitjaru/styleseed</title>
         <link>https://github.com/bitjaru/styleseed</link>
-        <description>Design engine that makes AI code like a UI/UX designer. Pick any brand skin, get professional UI. | 近期热门 | 总 150 stars</description>
+        <description>Claude Code &amp; Cursor design system. Stop generating ugly AI UI. 69 design rules + 48 shadcn components + Toss/Stripe/Linear/Vercel/Notion brand skins. Tailwind v4 + Radix. | 近期热门 | 总 185 stars</description>
         <author>bitjaru</author>
         <category>github</category>
-        <pubDate>Sun, 12 Apr 2026 03:32:38 GMT</pubDate>
+        <pubDate>Mon, 13 Apr 2026 03:33:13 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-bitjaru-styleseed</guid>
       </item>
 <item>
         <title>MarchLiu/hypatia</title>
         <link>https://github.com/MarchLiu/hypatia</link>
-        <description>&quot;We can wander through the stacks of the Library of Alexandria, imagining the scrolls and the knowledge they contain. Its destruction is a warning: all we have is transient.”--Alberto Manguel | 近期热门 | 总 140 stars</description>
+        <description>&quot;We can wander through the stacks of the Library of Alexandria, imagining the scrolls and the knowledge they contain. Its destruction is a warning: all we have is transient.”--Alberto Manguel | 近期热门 | 总 165 stars</description>
         <author>MarchLiu</author>
         <category>github</category>
-        <pubDate>Sun, 12 Apr 2026 03:32:38 GMT</pubDate>
+        <pubDate>Mon, 13 Apr 2026 03:33:13 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-marchliu-hypatia</guid>
       </item>
 <item>
-        <title>AAAAAnson/mbeditor</title>
-        <link>https://github.com/AAAAAnson/mbeditor</link>
-        <description>首款支持 CLI 化操作的微信公众号编辑器 — 让你的Agent直接写出精美推文 | 近期热门 | 总 43 stars</description>
-        <author>AAAAAnson</author>
+        <title>pithings/coderaft</title>
+        <link>https://github.com/pithings/coderaft</link>
+        <description>🛶 Run VS Code on any machine anywhere and access it in the browser (25MB npm pkg) | 近期热门 | 总 134 stars</description>
+        <author>pithings</author>
         <category>github</category>
-        <pubDate>Sun, 12 Apr 2026 03:32:38 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-aaaaanson-mbeditor</guid>
+        <pubDate>Mon, 13 Apr 2026 03:33:13 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-pithings-coderaft</guid>
       </item>
 <item>
-        <title>twixrmbpqfnewlewuirod/ChainForge-Ethereum-Instrument</title>
-        <link>https://github.com/twixrmbpqfnewlewuirod/ChainForge-Ethereum-Instrument</link>
-        <description>ChainForge is my way to bundle it into a single desktop tool: build a canvas with Wallet → Contract or Wallet → MEV, hit Deploy, then call functions straight from the ABI with gas prompts and logs right next to it | 近期热门 | 总 35 stars</description>
-        <author>twixrmbpqfnewlewuirod</author>
+        <title>wh0amitz/TailVNC</title>
+        <link>https://github.com/wh0amitz/TailVNC</link>
+        <description>Tailscale-based Windows VNC persistence tool with Session 0 isolation bypass, embedding a full WireGuard peer and RFB server into a single drop-in binary. | 近期热门 | 总 105 stars</description>
+        <author>wh0amitz</author>
         <category>github</category>
-        <pubDate>Sun, 12 Apr 2026 03:32:38 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-twixrmbpqfnewlewuirod-chainforge-ethereum-instrument</guid>
+        <pubDate>Mon, 13 Apr 2026 03:33:13 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-wh0amitz-tailvnc</guid>
+      </item>
+<item>
+        <title>TuralSuleymani/production-ready-DDD-EDA-Azure</title>
+        <link>https://github.com/TuralSuleymani/production-ready-DDD-EDA-Azure</link>
+        <description>Ultimate Domain-Driven Design on Azure: production-grade .NET service demonstrating CQRS, transactional outbox, Cosmos DB change feed projections, and event-driven integration via Service Bus. Includes Clean Architecture, best practices, App Configuration, and Key Vault integration. | 近期热门 | 总 35 stars</description>
+        <author>TuralSuleymani</author>
+        <category>github</category>
+        <pubDate>Mon, 13 Apr 2026 03:33:13 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-turalsuleymani-production-ready-ddd-eda-azure</guid>
       </item>
   </channel>
 </rss>
