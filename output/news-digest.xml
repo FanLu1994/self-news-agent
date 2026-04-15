@@ -1,107 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/14)</title>
+    <title>6-8 件事 (2026/4/15)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天有几个挺有意思的动向。首先，AI 编码代理的“基础设施”在升级，出现了两个专注于提供**持久性内存**和**安全沙盒环境**的新产品（ContextPool 和 SuperHQ），这能让 AI 更稳定地处理复杂任务。其次，那个很火的 **Hermes Agent** 生态又出了新的 Web 控制面板和监控界面，社区热度很高。还有，Anthropic 被曝有一个**编码能力超强但被“封印”的模型**（Mythos），引发了关于 AI 能力与安全的有趣讨论。最后，如果你在为企业选型 AI 编码工具，社区里正好有相关的预算讨论，可以看看。</description>
+    <description>嘿，今天的技术资讯圈挺热闹的，尤其是围绕着你关心的 **AI 编程（Coding）** 和 **智能体（Agent）**。我帮你梳理了一下，有这么几件事值得你花几分钟看看：
+
+1.  **AI 编程工具进入“成本监控”时代**：有个新工具能帮你可视化追踪 Claude Code 和 Codex 的 token 消耗，看来大家开始精打细算用 AI 写代码的成本了。
+2.  **多 Agent 框架的“冰火两重天”**：一个 TypeScript 多 Agent 框架在海外爆火，但国内却没什么人用，这背后的开发者生态差异挺有意思。
+3.  **“AI 工程部门”成为产品新卖点**：好几个新产品都主打用 AI 代理来交付实际代码或处理开发积压任务，AI 正从辅助编程走向“代理开发”。
+4.  **Claude Code 的“专业变体”出现**：有人做出了号称“为华尔街打造”的 Claude Code，专门针对金融数据处理优化，说明垂直领域的 AI 编程工具在涌现。
+5.  **AI 编程的“恐怖故事”和“凭证安全”**：一方面有人分享 AI 氛围编程的翻车经历，另一方面也有工具在认真解决 AI 助手访问各类服务时的密钥安全问题，这很现实。
+6.  **开源 LLM 在“生产环境测试”中表现亮眼**：像 Gemma 4 这样的开源大模型，在接近真实场景的测试中通过了大部分考验，这让本地化、低成本的高质量编码助手成为可能。
+7.  **管理 AI 编程“技能”（Skill）成了新痛点**：随着给 Claude、Codex 安装的插件越来越多，如何管理和版本控制这些“技能”开始被讨论。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Apr 2026 03:35:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 03:36:26 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天有几个挺有意思的动向。首先，AI 编码代理的“基础设施”在升级，出现了两个专注于提供**持久性内存**和**安全沙盒环境**的新产品（ContextPool 和 SuperHQ），这能让 AI 更稳定地处理复杂任务。其次，那个很火的 **Hermes Agent** 生态又出了新的 Web 控制面板和监控界面，社区热度很高。还有，Anthropic 被曝有一个**编码能力超强但被“封印”的模型**（Mythos），引发了关于 AI 能力与安全的有趣讨论。最后，如果你在为企业选型 AI 编码工具，社区里正好有相关的预算讨论，可以看看。</description>
-        <pubDate>Tue, 14 Apr 2026 03:35:51 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-14T03:35:09.239Z</guid>
+        <description>嘿，今天的技术资讯圈挺热闹的，尤其是围绕着你关心的 **AI 编程（Coding）** 和 **智能体（Agent）**。我帮你梳理了一下，有这么几件事值得你花几分钟看看：
+
+1.  **AI 编程工具进入“成本监控”时代**：有个新工具能帮你可视化追踪 Claude Code 和 Codex 的 token 消耗，看来大家开始精打细算用 AI 写代码的成本了。
+2.  **多 Agent 框架的“冰火两重天”**：一个 TypeScript 多 Agent 框架在海外爆火，但国内却没什么人用，这背后的开发者生态差异挺有意思。
+3.  **“AI 工程部门”成为产品新卖点**：好几个新产品都主打用 AI 代理来交付实际代码或处理开发积压任务，AI 正从辅助编程走向“代理开发”。
+4.  **Claude Code 的“专业变体”出现**：有人做出了号称“为华尔街打造”的 Claude Code，专门针对金融数据处理优化，说明垂直领域的 AI 编程工具在涌现。
+5.  **AI 编程的“恐怖故事”和“凭证安全”**：一方面有人分享 AI 氛围编程的翻车经历，另一方面也有工具在认真解决 AI 助手访问各类服务时的密钥安全问题，这很现实。
+6.  **开源 LLM 在“生产环境测试”中表现亮眼**：像 Gemma 4 这样的开源大模型，在接近真实场景的测试中通过了大部分考验，这让本地化、低成本的高质量编码助手成为可能。
+7.  **管理 AI 编程“技能”（Skill）成了新痛点**：随着给 Claude、Codex 安装的插件越来越多，如何管理和版本控制这些“技能”开始被讨论。</description>
+        <pubDate>Wed, 15 Apr 2026 03:36:26 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-15T03:35:20.402Z</guid>
       </item>
     <item>
         <title>yizhiyanhua-ai/fireworks-tech-graph</title>
         <link>https://github.com/yizhiyanhua-ai/fireworks-tech-graph</link>
-        <description>Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge. | 近期热门 | 总 2083 stars</description>
+        <description>Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge. | 近期热门 | 总 2544 stars</description>
         <author>yizhiyanhua-ai</author>
         <category>github</category>
-        <pubDate>Tue, 14 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 03:32:52 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-yizhiyanhua-ai-fireworks-tech-graph</guid>
       </item>
 <item>
         <title>QLHazyCoder/codex-oauth-automation-extension</title>
         <link>https://github.com/QLHazyCoder/codex-oauth-automation-extension</link>
-        <description>Chrome扩展：支持OpenAI OAuth注册、验证码获取、CPA回调验证与自动恢复 | 近期热门 | 总 1227 stars</description>
+        <description>Chrome扩展：支持OpenAI OAuth注册、验证码获取、CPA回调验证与自动恢复 | 近期热门 | 总 1399 stars</description>
         <author>QLHazyCoder</author>
         <category>github</category>
-        <pubDate>Tue, 14 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 03:32:52 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-qlhazycoder-codex-oauth-automation-extension</guid>
       </item>
 <item>
-        <title>nashsu/llm_wiki</title>
-        <link>https://github.com/nashsu/llm_wiki</link>
-        <description>LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。 | 近期热门 | 总 1164 stars</description>
-        <author>nashsu</author>
+        <title>AgentSeal/codeburn</title>
+        <link>https://github.com/AgentSeal/codeburn</link>
+        <description>See where your AI coding tokens go. Interactive TUI dashboard for Claude Code and Codex cost observability. | 近期热门 | 总 989 stars</description>
+        <author>AgentSeal</author>
         <category>github</category>
-        <pubDate>Tue, 14 Apr 2026 03:33:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nashsu-llm_wiki</guid>
+        <pubDate>Wed, 15 Apr 2026 03:32:52 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-agentseal-codeburn</guid>
       </item>
 <item>
         <title>joeynyc/hermes-hudui</title>
         <link>https://github.com/joeynyc/hermes-hudui</link>
-        <description>Web UI consciousness monitor for Hermes — the AI agent with persistent memory | 近期热门 | 总 843 stars</description>
+        <description>Web UI consciousness monitor for Hermes — the AI agent with persistent memory | 近期热门 | 总 883 stars</description>
         <author>joeynyc</author>
         <category>github</category>
-        <pubDate>Tue, 14 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 03:32:52 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-joeynyc-hermes-hudui</guid>
       </item>
 <item>
-        <title>whwangovo/pyre-code</title>
-        <link>https://github.com/whwangovo/pyre-code</link>
-        <description>A self-hosted ML coding practice platform. 68 problems from ReLU to flow matching — attention, training, RLHF, diffusion, and more. Instant feedback in the browser. | 近期热门 | 总 640 stars</description>
-        <author>whwangovo</author>
+        <title>OpenMOSS/MOSS-TTS-Nano</title>
+        <link>https://github.com/OpenMOSS/MOSS-TTS-Nano</link>
+        <description>MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration. | 近期热门 | 总 799 stars</description>
+        <author>OpenMOSS</author>
         <category>github</category>
-        <pubDate>Tue, 14 Apr 2026 03:33:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-whwangovo-pyre-code</guid>
+        <pubDate>Wed, 15 Apr 2026 03:32:52 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-openmoss-moss-tts-nano</guid>
       </item>
 <item>
         <title>Mouseww/anything-analyzer</title>
         <link>https://github.com/Mouseww/anything-analyzer</link>
-        <description>利用 browser + CDP capture + AI analysis  傻瓜式生成 注册机 | 2API | 其他浏览器行为 的协议分析文档 | 近期热门 | 总 411 stars</description>
+        <description>利用 browser + CDP capture + AI analysis  傻瓜式生成 注册机 | 2API | 其他浏览器或应用行为 的协议分析文档 | 近期热门 | 总 655 stars</description>
         <author>Mouseww</author>
         <category>github</category>
-        <pubDate>Tue, 14 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 03:32:52 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mouseww-anything-analyzer</guid>
       </item>
 <item>
         <title>V-IOLE-T/hotmail-register-extension</title>
         <link>https://github.com/V-IOLE-T/hotmail-register-extension</link>
-        <description>基于Outlook Email的Chrome扩展：支持OpenAI OAuth古法注册与账号标签管理 | 近期热门 | 总 257 stars</description>
+        <description>基于Outlook Email的Chrome扩展：支持OpenAI OAuth古法注册与账号标签管理 | 近期热门 | 总 283 stars</description>
         <author>V-IOLE-T</author>
         <category>github</category>
-        <pubDate>Tue, 14 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 03:32:52 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-v-iole-t-hotmail-register-extension</guid>
-      </item>
-<item>
-        <title>xaspx/hermes-control-interface</title>
-        <link>https://github.com/xaspx/hermes-control-interface</link>
-        <description>A self-hosted web dashboard for the Hermes AI agent stack. Provides a browser-based terminal, file explorer, session overview, cron management, system metrics, and an agent status panel — all behind a single password gate. | 近期热门 | 总 239 stars</description>
-        <author>xaspx</author>
-        <category>github</category>
-        <pubDate>Tue, 14 Apr 2026 03:33:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-xaspx-hermes-control-interface</guid>
-      </item>
-<item>
-        <title>MarchLiu/hypatia</title>
-        <link>https://github.com/MarchLiu/hypatia</link>
-        <description>&quot;We can wander through the stacks of the Library of Alexandria, imagining the scrolls and the knowledge they contain. Its destruction is a warning: all we have is transient.”--Alberto Manguel | 近期热门 | 总 177 stars</description>
-        <author>MarchLiu</author>
-        <category>github</category>
-        <pubDate>Tue, 14 Apr 2026 03:33:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-marchliu-hypatia</guid>
       </item>
 <item>
         <title>wh0amitz/TailVNC</title>
         <link>https://github.com/wh0amitz/TailVNC</link>
-        <description>Tailscale-based Windows VNC persistence tool with Session 0 isolation bypass, embedding a full WireGuard peer and RFB server into a single drop-in binary. | 近期热门 | 总 166 stars</description>
+        <description>Tailscale-based Windows VNC persistence tool with Session 0 isolation bypass, embedding a full WireGuard peer and RFB server into a single drop-in binary. | 近期热门 | 总 198 stars</description>
         <author>wh0amitz</author>
         <category>github</category>
-        <pubDate>Tue, 14 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Wed, 15 Apr 2026 03:32:52 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-wh0amitz-tailvnc</guid>
+      </item>
+<item>
+        <title>MarchLiu/hypatia</title>
+        <link>https://github.com/MarchLiu/hypatia</link>
+        <description>&quot;We can wander through the stacks of the Library of Alexandria, imagining the scrolls and the knowledge they contain. Its destruction is a warning: all we have is transient.”--Alberto Manguel | 近期热门 | 总 181 stars</description>
+        <author>MarchLiu</author>
+        <category>github</category>
+        <pubDate>Wed, 15 Apr 2026 03:32:52 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-marchliu-hypatia</guid>
+      </item>
+<item>
+        <title>TuralSuleymani/production-ready-DDD-EDA-Azure</title>
+        <link>https://github.com/TuralSuleymani/production-ready-DDD-EDA-Azure</link>
+        <description>Ultimate Domain-Driven Design on Azure: production-grade .NET service demonstrating CQRS, transactional outbox, Cosmos DB change feed projections, and event-driven integration via Service Bus. Includes Clean Architecture, best practices, App Configuration, and Key Vault integration. | 近期热门 | 总 48 stars</description>
+        <author>TuralSuleymani</author>
+        <category>github</category>
+        <pubDate>Wed, 15 Apr 2026 03:32:52 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-turalsuleymani-production-ready-ddd-eda-azure</guid>
       </item>
   </channel>
 </rss>
