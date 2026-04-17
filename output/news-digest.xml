@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/16)</title>
+    <title>6-8 件事 (2026/4/17)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈依然围绕着 AI 和编程工具在打转，特别是 **Claude Code** 和 **Codex** 相关的讨论非常火热。我发现大家不仅关心怎么用这些 AI 工具来写代码，更关心怎么**省钱、监控成本、解决实际开发中的痛点**（比如环境配置、卡顿问题）。同时，关于 **AI Agent** 和多智能体协作的新思路也开始出现，感觉这个领域正在从“能用”向“好用、可控”进化。</description>
+    <description>嘿，今天简直是“AI 编程工具”主题日！社区里全是在讨论 Claude Code 和 Codex 的实战问题、使用技巧和新工具。如果你也在用这些工具，今天的信息能帮你避坑、提效，甚至发现一些很酷的新玩意儿。此外，还有几个关于 AI Agent 平台和编程语言的新项目冒头，值得看一眼。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Apr 2026 03:36:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 03:36:09 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈依然围绕着 AI 和编程工具在打转，特别是 **Claude Code** 和 **Codex** 相关的讨论非常火热。我发现大家不仅关心怎么用这些 AI 工具来写代码，更关心怎么**省钱、监控成本、解决实际开发中的痛点**（比如环境配置、卡顿问题）。同时，关于 **AI Agent** 和多智能体协作的新思路也开始出现，感觉这个领域正在从“能用”向“好用、可控”进化。</description>
-        <pubDate>Thu, 16 Apr 2026 03:36:00 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-16T03:35:04.339Z</guid>
+        <description>嘿，今天简直是“AI 编程工具”主题日！社区里全是在讨论 Claude Code 和 Codex 的实战问题、使用技巧和新工具。如果你也在用这些工具，今天的信息能帮你避坑、提效，甚至发现一些很酷的新玩意儿。此外，还有几个关于 AI Agent 平台和编程语言的新项目冒头，值得看一眼。</description>
+        <pubDate>Fri, 17 Apr 2026 03:36:09 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-17T03:35:26.455Z</guid>
       </item>
     <item>
-        <title>yizhiyanhua-ai/fireworks-tech-graph</title>
-        <link>https://github.com/yizhiyanhua-ai/fireworks-tech-graph</link>
-        <description>Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge. | 近期热门 | 总 3020 stars</description>
-        <author>yizhiyanhua-ai</author>
-        <category>github</category>
-        <pubDate>Thu, 16 Apr 2026 03:33:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-yizhiyanhua-ai-fireworks-tech-graph</guid>
-      </item>
-<item>
         <title>AgentSeal/codeburn</title>
         <link>https://github.com/AgentSeal/codeburn</link>
-        <description>See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability. | 近期热门 | 总 1827 stars</description>
+        <description>See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability. | 近期热门 | 总 2315 stars</description>
         <author>AgentSeal</author>
         <category>github</category>
-        <pubDate>Thu, 16 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-agentseal-codeburn</guid>
-      </item>
-<item>
-        <title>OpenMOSS/MOSS-TTS-Nano</title>
-        <link>https://github.com/OpenMOSS/MOSS-TTS-Nano</link>
-        <description>MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration. | 近期热门 | 总 1051 stars</description>
-        <author>OpenMOSS</author>
-        <category>github</category>
-        <pubDate>Thu, 16 Apr 2026 03:33:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-openmoss-moss-tts-nano</guid>
       </item>
 <item>
         <title>Mouseww/anything-analyzer</title>
         <link>https://github.com/Mouseww/anything-analyzer</link>
-        <description>利用 browser + CDP capture + AI analysis  傻瓜式生成 注册机 | 2API | 其他浏览器或应用行为 的协议分析文档 | 近期热门 | 总 810 stars</description>
+        <description>利用 browser + CDP capture + AI analysis  傻瓜式生成 注册机 | 2API | 其他浏览器或应用行为 的协议分析文档 | 近期热门 | 总 1082 stars</description>
         <author>Mouseww</author>
         <category>github</category>
-        <pubDate>Thu, 16 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mouseww-anything-analyzer</guid>
-      </item>
-<item>
-        <title>WeaveMindAI/weft</title>
-        <link>https://github.com/WeaveMindAI/weft</link>
-        <description>A programming language for AI systems | 近期热门 | 总 389 stars</description>
-        <author>WeaveMindAI</author>
-        <category>github</category>
-        <pubDate>Thu, 16 Apr 2026 03:33:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-weavemindai-weft</guid>
       </item>
 <item>
         <title>Manavarya09/design-extract</title>
         <link>https://github.com/Manavarya09/design-extract</link>
-        <description>Extract the complete design language from any website — colors, typography, spacing, shadows, and more. npx CLI + Claude Code plugin. | 近期热门 | 总 337 stars</description>
+        <description>Extract the complete design language from any website — colors, typography, spacing, shadows, and more. npx CLI + Claude Code plugin. | 近期热门 | 总 693 stars</description>
         <author>Manavarya09</author>
         <category>github</category>
-        <pubDate>Thu, 16 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-manavarya09-design-extract</guid>
+      </item>
+<item>
+        <title>WeaveMindAI/weft</title>
+        <link>https://github.com/WeaveMindAI/weft</link>
+        <description>A programming language for AI systems | 近期热门 | 总 678 stars</description>
+        <author>WeaveMindAI</author>
+        <category>github</category>
+        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-weavemindai-weft</guid>
       </item>
 <item>
         <title>xataio/xata</title>
         <link>https://github.com/xataio/xata</link>
-        <description>Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero | 近期热门 | 总 331 stars</description>
+        <description>Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero | 近期热门 | 总 487 stars</description>
         <author>xataio</author>
         <category>github</category>
-        <pubDate>Thu, 16 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-xataio-xata</guid>
       </item>
 <item>
         <title>V-IOLE-T/hotmail-register-extension</title>
         <link>https://github.com/V-IOLE-T/hotmail-register-extension</link>
-        <description>基于Outlook Email的Chrome扩展：支持OpenAI OAuth古法注册与账号标签管理 | 近期热门 | 总 286 stars</description>
+        <description>基于Outlook Email的Chrome扩展：支持OpenAI OAuth古法注册与账号标签管理 | 近期热门 | 总 292 stars</description>
         <author>V-IOLE-T</author>
         <category>github</category>
-        <pubDate>Thu, 16 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-v-iole-t-hotmail-register-extension</guid>
       </item>
 <item>
         <title>wh0amitz/TailVNC</title>
         <link>https://github.com/wh0amitz/TailVNC</link>
-        <description>Tailscale-based Windows VNC persistence tool with Session 0 isolation bypass, embedding a full WireGuard peer and RFB server into a single drop-in binary. | 近期热门 | 总 213 stars</description>
+        <description>Tailscale-based Windows VNC persistence tool with Session 0 isolation bypass, embedding a full WireGuard peer and RFB server into a single drop-in binary. | 近期热门 | 总 220 stars</description>
         <author>wh0amitz</author>
         <category>github</category>
-        <pubDate>Thu, 16 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-wh0amitz-tailvnc</guid>
       </item>
 <item>
         <title>Hainrixz/open-carrusel</title>
         <link>https://github.com/Hainrixz/open-carrusel</link>
-        <description>AI-powered Instagram carousel builder. Chat with Claude to design slides; export as PNGs at exact Instagram dimensions. Type /start in Claude Code to bootstrap. | 近期热门 | 总 58 stars</description>
+        <description>AI-powered Instagram carousel builder. Chat with Claude to design slides; export as PNGs at exact Instagram dimensions. Type /start in Claude Code to bootstrap. | 近期热门 | 总 78 stars</description>
         <author>Hainrixz</author>
         <category>github</category>
-        <pubDate>Thu, 16 Apr 2026 03:33:03 GMT</pubDate>
+        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-hainrixz-open-carrusel</guid>
+      </item>
+<item>
+        <title>QuinnAho/claudemap</title>
+        <link>https://github.com/QuinnAho/claudemap</link>
+        <description>google maps for vibecoders. | 近期热门 | 总 70 stars</description>
+        <author>QuinnAho</author>
+        <category>github</category>
+        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-quinnaho-claudemap</guid>
+      </item>
+<item>
+        <title>Incoclyse - AI读取您的发票并选择正确的国际贸易术语解释通则®</title>
+        <link>https://www.producthunt.com/products/incoclyse</link>
+        <description>讨论 | 链接</description>
+        <author>Incoclyse</author>
+        <category>producthunt</category>
+        <pubDate>Fri, 17 Apr 2026 03:32:58 GMT</pubDate>
+        <guid isPermaLink="false">ph-1776396778431-0</guid>
       </item>
   </channel>
 </rss>
