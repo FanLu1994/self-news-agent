@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/17)</title>
+    <title>6-8 件事 (2026/4/18)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天简直是“AI 编程工具”主题日！社区里全是在讨论 Claude Code 和 Codex 的实战问题、使用技巧和新工具。如果你也在用这些工具，今天的信息能帮你避坑、提效，甚至发现一些很酷的新玩意儿。此外，还有几个关于 AI Agent 平台和编程语言的新项目冒头，值得看一眼。</description>
+    <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的讨论特别多，感觉社区正在从“怎么用”进化到“怎么用好、怎么调优”。我发现几个你肯定会感兴趣的点：首先是 **Claude Code** 相关的工具和讨论大爆发，从成本监控到安全插件，生态越来越丰富；其次，关于 **AI 智能体编码能力** 的基准测试和模型对比（比如 Qwen 3.6）成了热议焦点；最后，**MCP（Model Context Protocol）** 这个之前被吐槽的协议，居然在真实开发场景中找到了不可替代的位置，这个转折挺有意思的。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 17 Apr 2026 03:36:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 03:31:57 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天简直是“AI 编程工具”主题日！社区里全是在讨论 Claude Code 和 Codex 的实战问题、使用技巧和新工具。如果你也在用这些工具，今天的信息能帮你避坑、提效，甚至发现一些很酷的新玩意儿。此外，还有几个关于 AI Agent 平台和编程语言的新项目冒头，值得看一眼。</description>
-        <pubDate>Fri, 17 Apr 2026 03:36:09 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-17T03:35:26.455Z</guid>
+        <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的讨论特别多，感觉社区正在从“怎么用”进化到“怎么用好、怎么调优”。我发现几个你肯定会感兴趣的点：首先是 **Claude Code** 相关的工具和讨论大爆发，从成本监控到安全插件，生态越来越丰富；其次，关于 **AI 智能体编码能力** 的基准测试和模型对比（比如 Qwen 3.6）成了热议焦点；最后，**MCP（Model Context Protocol）** 这个之前被吐槽的协议，居然在真实开发场景中找到了不可替代的位置，这个转折挺有意思的。</description>
+        <pubDate>Sat, 18 Apr 2026 03:31:57 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-18T03:31:02.013Z</guid>
       </item>
     <item>
         <title>AgentSeal/codeburn</title>
         <link>https://github.com/AgentSeal/codeburn</link>
-        <description>See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability. | 近期热门 | 总 2315 stars</description>
+        <description>See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability. | 近期热门 | 总 2596 stars</description>
         <author>AgentSeal</author>
         <category>github</category>
-        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Sat, 18 Apr 2026 03:29:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-agentseal-codeburn</guid>
       </item>
 <item>
         <title>Mouseww/anything-analyzer</title>
         <link>https://github.com/Mouseww/anything-analyzer</link>
-        <description>利用 browser + CDP capture + AI analysis  傻瓜式生成 注册机 | 2API | 其他浏览器或应用行为 的协议分析文档 | 近期热门 | 总 1082 stars</description>
+        <description>全能协议分析工具：浏览器抓包 + MITM 代理 + 指纹伪装 + AI 分析 + MCP Server 无缝对接 AI Agent/IDE   |  All-in-one protocol analysis toolkit — built-in browser capture, MITM proxy, JS hooks, fingerprint spoofing, AI analysis &amp; MCP server for agent integration | 近期热门 | 总 1284 stars</description>
         <author>Mouseww</author>
         <category>github</category>
-        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Sat, 18 Apr 2026 03:29:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mouseww-anything-analyzer</guid>
       </item>
 <item>
         <title>Manavarya09/design-extract</title>
         <link>https://github.com/Manavarya09/design-extract</link>
-        <description>Extract the complete design language from any website — colors, typography, spacing, shadows, and more. npx CLI + Claude Code plugin. | 近期热门 | 总 693 stars</description>
+        <description>Extract the complete design language from any website — colors, typography, spacing, shadows, and more. npx CLI + Claude Code plugin. | 近期热门 | 总 889 stars</description>
         <author>Manavarya09</author>
         <category>github</category>
-        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Sat, 18 Apr 2026 03:29:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-manavarya09-design-extract</guid>
       </item>
 <item>
         <title>WeaveMindAI/weft</title>
         <link>https://github.com/WeaveMindAI/weft</link>
-        <description>A programming language for AI systems | 近期热门 | 总 678 stars</description>
+        <description>A programming language for AI systems | 近期热门 | 总 778 stars</description>
         <author>WeaveMindAI</author>
         <category>github</category>
-        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Sat, 18 Apr 2026 03:29:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-weavemindai-weft</guid>
       </item>
 <item>
         <title>xataio/xata</title>
         <link>https://github.com/xataio/xata</link>
-        <description>Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero | 近期热门 | 总 487 stars</description>
+        <description>Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero | 近期热门 | 总 564 stars</description>
         <author>xataio</author>
         <category>github</category>
-        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Sat, 18 Apr 2026 03:29:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-xataio-xata</guid>
       </item>
 <item>
-        <title>V-IOLE-T/hotmail-register-extension</title>
-        <link>https://github.com/V-IOLE-T/hotmail-register-extension</link>
-        <description>基于Outlook Email的Chrome扩展：支持OpenAI OAuth古法注册与账号标签管理 | 近期热门 | 总 292 stars</description>
-        <author>V-IOLE-T</author>
+        <title>bergside/design-md-chrome</title>
+        <link>https://github.com/bergside/design-md-chrome</link>
+        <description>Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI | 近期热门 | 总 370 stars</description>
+        <author>bergside</author>
         <category>github</category>
-        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-v-iole-t-hotmail-register-extension</guid>
-      </item>
-<item>
-        <title>wh0amitz/TailVNC</title>
-        <link>https://github.com/wh0amitz/TailVNC</link>
-        <description>Tailscale-based Windows VNC persistence tool with Session 0 isolation bypass, embedding a full WireGuard peer and RFB server into a single drop-in binary. | 近期热门 | 总 220 stars</description>
-        <author>wh0amitz</author>
-        <category>github</category>
-        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wh0amitz-tailvnc</guid>
+        <pubDate>Sat, 18 Apr 2026 03:29:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-bergside-design-md-chrome</guid>
       </item>
 <item>
         <title>Hainrixz/open-carrusel</title>
         <link>https://github.com/Hainrixz/open-carrusel</link>
-        <description>AI-powered Instagram carousel builder. Chat with Claude to design slides; export as PNGs at exact Instagram dimensions. Type /start in Claude Code to bootstrap. | 近期热门 | 总 78 stars</description>
+        <description>AI-powered Instagram carousel builder. Chat with Claude to design slides; export as PNGs at exact Instagram dimensions. Type /start in Claude Code to bootstrap. | 近期热门 | 总 93 stars</description>
         <author>Hainrixz</author>
         <category>github</category>
-        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Sat, 18 Apr 2026 03:29:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-hainrixz-open-carrusel</guid>
       </item>
 <item>
-        <title>QuinnAho/claudemap</title>
-        <link>https://github.com/QuinnAho/claudemap</link>
-        <description>google maps for vibecoders. | 近期热门 | 总 70 stars</description>
-        <author>QuinnAho</author>
+        <title>kwakseongjae/oh-my-design</title>
+        <link>https://github.com/kwakseongjae/oh-my-design</link>
+        <description>Generate DESIGN.md from 67 real company design systems (incl. Pinkoi, Dcard, LINE, Mercari, freee for Asia). Interactive wizard + shadcn/ui CSS export. Zero AI calls. | 近期热门 | 总 48 stars</description>
+        <author>kwakseongjae</author>
         <category>github</category>
-        <pubDate>Fri, 17 Apr 2026 03:33:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-quinnaho-claudemap</guid>
+        <pubDate>Sat, 18 Apr 2026 03:29:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kwakseongjae-oh-my-design</guid>
       </item>
 <item>
-        <title>Incoclyse - AI读取您的发票并选择正确的国际贸易术语解释通则®</title>
-        <link>https://www.producthunt.com/products/incoclyse</link>
+        <title>Stoa - 实时多人AI团队协作空间，助力高效完成实际工作</title>
+        <link>https://www.producthunt.com/products/stoa-4</link>
         <description>讨论 | 链接</description>
-        <author>Incoclyse</author>
+        <author>Stoa</author>
         <category>producthunt</category>
-        <pubDate>Fri, 17 Apr 2026 03:32:58 GMT</pubDate>
-        <guid isPermaLink="false">ph-1776396778431-0</guid>
+        <pubDate>Sat, 18 Apr 2026 03:28:58 GMT</pubDate>
+        <guid isPermaLink="false">ph-1776482938119-0</guid>
+      </item>
+<item>
+        <title>Prio - 您的电子邮件、日历和任务AI首席助理</title>
+        <link>https://www.producthunt.com/products/prio-4</link>
+        <description>讨论 | 链接</description>
+        <author>Prio</author>
+        <category>producthunt</category>
+        <pubDate>Sat, 18 Apr 2026 03:28:58 GMT</pubDate>
+        <guid isPermaLink="false">ph-1776482938119-3</guid>
       </item>
   </channel>
 </rss>
