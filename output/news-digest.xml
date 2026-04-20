@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/19)</title>
+    <title>6-8 件事 (2026/4/20)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术资讯圈挺热闹的，尤其是围绕 **AI 编程（AI Coding）** 和 **智能体（Agent）** 的生态，出现了不少新工具和深度讨论。我发现几个明显趋势：一是大家越来越关注 AI 编程工具（如 Claude Code）的成本、体验和扩展能力；二是“AI 工程化”和“Agent 开发”正从概念走向具体实践和工具链；三是关于 AI 在工作流中实际应用的分享变多了，从设计到炒股都有。下面我为你挑出了最值得看的几件事。</description>
+    <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的干货特别多。我发现大家不仅在用 AI 写代码，还在研究怎么让 AI 自己操作浏览器、管理记忆，甚至构建更复杂的多智能体系统。如果你对 AI 开发、编程助手和 Agent 技术感兴趣，今天有几个项目和讨论绝对不能错过。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 19 Apr 2026 03:35:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 03:35:49 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术资讯圈挺热闹的，尤其是围绕 **AI 编程（AI Coding）** 和 **智能体（Agent）** 的生态，出现了不少新工具和深度讨论。我发现几个明显趋势：一是大家越来越关注 AI 编程工具（如 Claude Code）的成本、体验和扩展能力；二是“AI 工程化”和“Agent 开发”正从概念走向具体实践和工具链；三是关于 AI 在工作流中实际应用的分享变多了，从设计到炒股都有。下面我为你挑出了最值得看的几件事。</description>
-        <pubDate>Sun, 19 Apr 2026 03:35:29 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-19T03:34:58.284Z</guid>
+        <description>嘿，今天的信息流里，关于 AI 编程和智能体（Agent）的干货特别多。我发现大家不仅在用 AI 写代码，还在研究怎么让 AI 自己操作浏览器、管理记忆，甚至构建更复杂的多智能体系统。如果你对 AI 开发、编程助手和 Agent 技术感兴趣，今天有几个项目和讨论绝对不能错过。</description>
+        <pubDate>Mon, 20 Apr 2026 03:35:49 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-20T03:35:13.081Z</guid>
       </item>
     <item>
-        <title>getagentseal/codeburn</title>
-        <link>https://github.com/getagentseal/codeburn</link>
-        <description>See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability. | 近期热门 | 总 2726 stars</description>
-        <author>getagentseal</author>
+        <title>browser-use/browser-harness</title>
+        <link>https://github.com/browser-use/browser-harness</link>
+        <description>Self-healing browser harness that enables LLMs to complete any task. | 近期热门 | 总 2406 stars</description>
+        <author>browser-use</author>
         <category>github</category>
-        <pubDate>Sun, 19 Apr 2026 03:33:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-getagentseal-codeburn</guid>
+        <pubDate>Mon, 20 Apr 2026 03:33:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-browser-use-browser-harness</guid>
+      </item>
+<item>
+        <title>kyegomez/OpenMythos</title>
+        <link>https://github.com/kyegomez/OpenMythos</link>
+        <description>A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature. | 近期热门 | 总 1694 stars</description>
+        <author>kyegomez</author>
+        <category>github</category>
+        <pubDate>Mon, 20 Apr 2026 03:33:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kyegomez-openmythos</guid>
       </item>
 <item>
         <title>Manavarya09/design-extract</title>
         <link>https://github.com/Manavarya09/design-extract</link>
-        <description>Extract any website&apos;s complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for Claude Code/Cursor/Windsurf, multi-platform emitters (iOS SwiftUI, Android Compose, Flutter, WordPress), Tailwind v4, Figma variables, shadcn/ui, CSS health audit, WCAG remediation, Chrome extension. MIT, Playwright, Node 20+. | 近期热门 | 总 1013 stars</description>
+        <description>Extract any website&apos;s complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for Claude Code/Cursor/Windsurf, multi-platform emitters (iOS SwiftUI, Android Compose, Flutter, WordPress), Tailwind v4, Figma variables, shadcn/ui, CSS health audit, WCAG remediation, Chrome extension. MIT, Playwright, Node 20+. | 近期热门 | 总 1093 stars</description>
         <author>Manavarya09</author>
         <category>github</category>
-        <pubDate>Sun, 19 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Mon, 20 Apr 2026 03:33:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-manavarya09-design-extract</guid>
       </item>
 <item>
         <title>WeaveMindAI/weft</title>
         <link>https://github.com/WeaveMindAI/weft</link>
-        <description>A programming language for AI systems | 近期热门 | 总 837 stars</description>
+        <description>A programming language for AI systems | 近期热门 | 总 882 stars</description>
         <author>WeaveMindAI</author>
         <category>github</category>
-        <pubDate>Sun, 19 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Mon, 20 Apr 2026 03:33:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-weavemindai-weft</guid>
-      </item>
-<item>
-        <title>Lazarus-AI/clearwing</title>
-        <link>https://github.com/Lazarus-AI/clearwing</link>
-        <description> | 近期热门 | 总 655 stars</description>
-        <author>Lazarus-AI</author>
-        <category>github</category>
-        <pubDate>Sun, 19 Apr 2026 03:33:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lazarus-ai-clearwing</guid>
       </item>
 <item>
         <title>xataio/xata</title>
         <link>https://github.com/xataio/xata</link>
-        <description>Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero | 近期热门 | 总 610 stars</description>
+        <description>Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero | 近期热门 | 总 639 stars</description>
         <author>xataio</author>
         <category>github</category>
-        <pubDate>Sun, 19 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Mon, 20 Apr 2026 03:33:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-xataio-xata</guid>
-      </item>
-<item>
-        <title>millionco/claude-doctor</title>
-        <link>https://github.com/millionco/claude-doctor</link>
-        <description>Diagnose your Claude Code sessions | 近期热门 | 总 464 stars</description>
-        <author>millionco</author>
-        <category>github</category>
-        <pubDate>Sun, 19 Apr 2026 03:33:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-millionco-claude-doctor</guid>
       </item>
 <item>
         <title>bergside/design-md-chrome</title>
         <link>https://github.com/bergside/design-md-chrome</link>
-        <description>Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI | 近期热门 | 总 429 stars</description>
+        <description>Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI | 近期热门 | 总 479 stars</description>
         <author>bergside</author>
         <category>github</category>
-        <pubDate>Sun, 19 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Mon, 20 Apr 2026 03:33:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-bergside-design-md-chrome</guid>
+      </item>
+<item>
+        <title>millionco/claude-doctor</title>
+        <link>https://github.com/millionco/claude-doctor</link>
+        <description>Diagnose your Claude Code sessions | 近期热门 | 总 472 stars</description>
+        <author>millionco</author>
+        <category>github</category>
+        <pubDate>Mon, 20 Apr 2026 03:33:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-millionco-claude-doctor</guid>
+      </item>
+<item>
+        <title>assai-id/nemesis</title>
+        <link>https://github.com/assai-id/nemesis</link>
+        <description> | 近期热门 | 总 442 stars</description>
+        <author>assai-id</author>
+        <category>github</category>
+        <pubDate>Mon, 20 Apr 2026 03:33:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-assai-id-nemesis</guid>
       </item>
 <item>
         <title>Quorinex/Freebuff2API</title>
         <link>https://github.com/Quorinex/Freebuff2API</link>
-        <description>🚀 OpenAI-compatible Freebuff proxy with dynamic free-agent tracking, token rotation, and ready-to-use Docker deployment. | 近期热门 | 总 178 stars</description>
+        <description>🚀 OpenAI-compatible Freebuff proxy with dynamic free-agent tracking, token rotation, and ready-to-use Docker deployment. | 近期热门 | 总 339 stars</description>
         <author>Quorinex</author>
         <category>github</category>
-        <pubDate>Sun, 19 Apr 2026 03:33:04 GMT</pubDate>
+        <pubDate>Mon, 20 Apr 2026 03:33:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-quorinex-freebuff2api</guid>
       </item>
 <item>
-        <title>Hainrixz/open-carrusel</title>
-        <link>https://github.com/Hainrixz/open-carrusel</link>
-        <description>AI-powered Instagram carousel builder. Chat with Claude to design slides; export as PNGs at exact Instagram dimensions. Type /start in Claude Code to bootstrap. | 近期热门 | 总 107 stars</description>
-        <author>Hainrixz</author>
+        <title>amaancoderx/npxskillui</title>
+        <link>https://github.com/amaancoderx/npxskillui</link>
+        <description> | 近期热门 | 总 277 stars</description>
+        <author>amaancoderx</author>
         <category>github</category>
-        <pubDate>Sun, 19 Apr 2026 03:33:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hainrixz-open-carrusel</guid>
-      </item>
-<item>
-        <title>kwakseongjae/oh-my-design</title>
-        <link>https://github.com/kwakseongjae/oh-my-design</link>
-        <description>Generate DESIGN.md from 67 real company design systems. Interactive wizard + shadcn/ui CSS export. Zero AI calls. | 近期热门 | 总 59 stars</description>
-        <author>kwakseongjae</author>
-        <category>github</category>
-        <pubDate>Sun, 19 Apr 2026 03:33:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kwakseongjae-oh-my-design</guid>
+        <pubDate>Mon, 20 Apr 2026 03:33:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-amaancoderx-npxskillui</guid>
       </item>
   </channel>
 </rss>
