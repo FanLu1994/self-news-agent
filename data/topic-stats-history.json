@@ -1035,5 +1035,22 @@
       "OpenSource": 1,
       "Other": 3
     }
+  },
+  {
+    "date": "2026-04-22",
+    "total": 37,
+    "byTopic": {
+      "AI": 31,
+      "Frontend": 0,
+      "Backend": 0,
+      "DevOps": 0,
+      "Data": 0,
+      "Security": 0,
+      "Cloud": 0,
+      "Mobile": 0,
+      "Startup": 1,
+      "OpenSource": 0,
+      "Other": 5
+    }
   }
 ]
