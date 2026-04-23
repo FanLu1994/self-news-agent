@@ -1,117 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/22)</title>
+    <title>6-8 件事 (2026/4/23)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天有几个亮点特别值得跟你同步一下：
-1.  **AI Agent 的安全和工具链** 是热点，有两个新开源项目专门解决 Agent 的生产环境安全和浏览器自动化问题，开发者们看来在认真推进 Agent 落地了。
-2.  **Codex/Claude Code 的使用讨论** 非常热烈，尤其是关于如何稳定访问、避免“降智”和实际用于写代码/论文的技巧，都是很实在的痛点。
-3.  **Product Hunt 上冒出一批面向 AI 代理的“基础设施”**，比如给 Agent 花钱的权限管理、价格数据服务，说明生态在细化。
-4.  火山引擎的 **Coding Plan** 接入了新模型，算是国内为数不多积极更新模型的编程辅助平台，可以保持关注。
-5.  有个叫 **Solo Radar** 的工具挺有意思，能帮独立开发者自动扫描全网信息源，过滤噪音，解决“怕错过”的焦虑，感觉是效率神器。</description>
+    <description>嘿，今天的技术圈信息量不小，我帮你梳理了一下。感觉今天大家讨论的焦点非常集中，几乎都围绕着“AI编程”（Vibe Coding）和“AI智能体”（Agent）这两个核心。特别是关于如何用本地大模型（比如Qwen）替代Claude Code来编程，成了Reddit上最热的话题。同时，GitHub上出现了几个很酷的、能让AI智能体更强大的工具。如果你关心如何用AI提升写代码的效率，或者想了解最新的AI开发工具，今天的内容会很对胃口。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Apr 2026 03:35:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 03:36:14 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天有几个亮点特别值得跟你同步一下：
-1.  **AI Agent 的安全和工具链** 是热点，有两个新开源项目专门解决 Agent 的生产环境安全和浏览器自动化问题，开发者们看来在认真推进 Agent 落地了。
-2.  **Codex/Claude Code 的使用讨论** 非常热烈，尤其是关于如何稳定访问、避免“降智”和实际用于写代码/论文的技巧，都是很实在的痛点。
-3.  **Product Hunt 上冒出一批面向 AI 代理的“基础设施”**，比如给 Agent 花钱的权限管理、价格数据服务，说明生态在细化。
-4.  火山引擎的 **Coding Plan** 接入了新模型，算是国内为数不多积极更新模型的编程辅助平台，可以保持关注。
-5.  有个叫 **Solo Radar** 的工具挺有意思，能帮独立开发者自动扫描全网信息源，过滤噪音，解决“怕错过”的焦虑，感觉是效率神器。</description>
-        <pubDate>Wed, 22 Apr 2026 03:35:28 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-22T03:34:54.284Z</guid>
+        <description>嘿，今天的技术圈信息量不小，我帮你梳理了一下。感觉今天大家讨论的焦点非常集中，几乎都围绕着“AI编程”（Vibe Coding）和“AI智能体”（Agent）这两个核心。特别是关于如何用本地大模型（比如Qwen）替代Claude Code来编程，成了Reddit上最热的话题。同时，GitHub上出现了几个很酷的、能让AI智能体更强大的工具。如果你关心如何用AI提升写代码的效率，或者想了解最新的AI开发工具，今天的内容会很对胃口。</description>
+        <pubDate>Thu, 23 Apr 2026 03:36:14 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-23T03:35:13.810Z</guid>
       </item>
     <item>
         <title>kyegomez/OpenMythos</title>
         <link>https://github.com/kyegomez/OpenMythos</link>
-        <description>A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature. | 近期热门 | 总 7248 stars</description>
+        <description>A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature. | 近期热门 | 总 8964 stars</description>
         <author>kyegomez</author>
         <category>github</category>
-        <pubDate>Wed, 22 Apr 2026 03:32:46 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 03:33:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kyegomez-openmythos</guid>
       </item>
 <item>
         <title>browser-use/browser-harness</title>
         <link>https://github.com/browser-use/browser-harness</link>
-        <description>Self-healing browser harness that enables LLMs to complete any task. | 近期热门 | 总 4528 stars</description>
+        <description>Self-healing browser harness that enables LLMs to complete any task. | 近期热门 | 总 5117 stars</description>
         <author>browser-use</author>
         <category>github</category>
-        <pubDate>Wed, 22 Apr 2026 03:32:46 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 03:33:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-browser-use-browser-harness</guid>
       </item>
 <item>
         <title>EvoLinkAI/awesome-gpt-image-2-prompts</title>
         <link>https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts</link>
-        <description>Curated GPT-Image-2 prompts and image examples across portraits, posters, UI mockups, character sheets, and community experiments. | 近期热门 | 总 1237 stars</description>
+        <description>Curated GPT-Image-2 prompts and image examples across portraits, posters, UI mockups, character sheets, and community experiments. | 近期热门 | 总 1900 stars</description>
         <author>EvoLinkAI</author>
         <category>github</category>
-        <pubDate>Wed, 22 Apr 2026 03:32:46 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 03:33:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-evolinkai-awesome-gpt-image-2-prompts</guid>
+      </item>
+<item>
+        <title>OpenCoworkAI/open-codesign</title>
+        <link>https://github.com/OpenCoworkAI/open-codesign</link>
+        <description>Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT. | 近期热门 | 总 1311 stars</description>
+        <author>OpenCoworkAI</author>
+        <category>github</category>
+        <pubDate>Thu, 23 Apr 2026 03:33:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-opencoworkai-open-codesign</guid>
       </item>
 <item>
         <title>432539/gpt2api</title>
         <link>https://github.com/432539/gpt2api</link>
-        <description>基于 chatgpt.com 逆向的 OpenAI 兼容 SaaS 网关 · GPT-IMAGE-2 稳定 · 批量出图 · 多账号池 · 高并发调度 · 积分计费 · 技术交流QQ 群 382446 | 近期热门 | 总 578 stars</description>
+        <description>基于 chatgpt.com 逆向的 OpenAI 兼容 SaaS 网关 · GPT-IMAGE-2 稳定 · 批量出图 · 多账号池 · 高并发调度 · 积分计费 · 技术交流QQ 群 382446 | 近期热门 | 总 815 stars</description>
         <author>432539</author>
         <category>github</category>
-        <pubDate>Wed, 22 Apr 2026 03:32:46 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 03:33:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-432539-gpt2api</guid>
       </item>
 <item>
         <title>ZeroZ-lab/cc-design</title>
         <link>https://github.com/ZeroZ-lab/cc-design</link>
-        <description>High-fidelity HTML design and prototype guidance skill for AI agents | 近期热门 | 总 569 stars</description>
+        <description>High-fidelity HTML design and prototype guidance skill for AI agents | 近期热门 | 总 596 stars</description>
         <author>ZeroZ-lab</author>
         <category>github</category>
-        <pubDate>Wed, 22 Apr 2026 03:32:46 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 03:33:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-zeroz-lab-cc-design</guid>
-      </item>
-<item>
-        <title>assai-id/nemesis</title>
-        <link>https://github.com/assai-id/nemesis</link>
-        <description> | 近期热门 | 总 556 stars</description>
-        <author>assai-id</author>
-        <category>github</category>
-        <pubDate>Wed, 22 Apr 2026 03:32:46 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-assai-id-nemesis</guid>
-      </item>
-<item>
-        <title>OpenCoworkAI/open-codesign</title>
-        <link>https://github.com/OpenCoworkAI/open-codesign</link>
-        <description>Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT. | 近期热门 | 总 529 stars</description>
-        <author>OpenCoworkAI</author>
-        <category>github</category>
-        <pubDate>Wed, 22 Apr 2026 03:32:46 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-opencoworkai-open-codesign</guid>
       </item>
 <item>
         <title>Quorinex/Freebuff2API</title>
         <link>https://github.com/Quorinex/Freebuff2API</link>
-        <description>🚀 OpenAI-compatible Freebuff proxy with dynamic free-agent tracking, token rotation, and ready-to-use Docker deployment. | 近期热门 | 总 380 stars</description>
+        <description>🚀 OpenAI-compatible Freebuff proxy with dynamic free-agent tracking, token rotation, and ready-to-use Docker deployment. | 近期热门 | 总 381 stars</description>
         <author>Quorinex</author>
         <category>github</category>
-        <pubDate>Wed, 22 Apr 2026 03:32:46 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 03:33:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-quorinex-freebuff2api</guid>
       </item>
 <item>
         <title>brexhq/CrabTrap</title>
         <link>https://github.com/brexhq/CrabTrap</link>
-        <description>An LLM-as-a-judge HTTP proxy to secure agents in production  | 近期热门 | 总 160 stars</description>
+        <description>An LLM-as-a-judge HTTP proxy to secure agents in production  | 近期热门 | 总 319 stars</description>
         <author>brexhq</author>
         <category>github</category>
-        <pubDate>Wed, 22 Apr 2026 03:32:46 GMT</pubDate>
+        <pubDate>Thu, 23 Apr 2026 03:33:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-brexhq-crabtrap</guid>
       </item>
 <item>
-        <title>MAXIA Oracle - 面向AI代理的多源价格馈送</title>
-        <link>https://www.producthunt.com/products/maxia-oracle</link>
-        <description>讨论 | 链接</description>
-        <author>MAXIA Oracle</author>
-        <category>producthunt</category>
-        <pubDate>Wed, 22 Apr 2026 03:32:41 GMT</pubDate>
-        <guid isPermaLink="false">ph-1776828761128-6</guid>
+        <title>simoncirstoiu/alice</title>
+        <link>https://github.com/simoncirstoiu/alice</link>
+        <description>Analyse · Learn · Ingest · Curate · Export — AI-powered YOLO dataset management toolkit | 近期热门 | 总 198 stars</description>
+        <author>simoncirstoiu</author>
+        <category>github</category>
+        <pubDate>Thu, 23 Apr 2026 03:33:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-simoncirstoiu-alice</guid>
+      </item>
+<item>
+        <title>heider-x/vela</title>
+        <link>https://github.com/heider-x/vela</link>
+        <description>AI-powered IDE for novel writing — local LLM + RAG, privacy-first, BYOK. For web fiction authors and creative writers. | 近期热门 | 总 56 stars</description>
+        <author>heider-x</author>
+        <category>github</category>
+        <pubDate>Thu, 23 Apr 2026 03:33:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-heider-x-vela</guid>
       </item>
   </channel>
 </rss>
