@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>8 件事 (2026/4/26)</title>
+    <title>6-8 件事 (2026/4/27)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈真热闹！我帮你筛了筛，发现 **AI Agent** 绝对是今天的“顶流”，好几个新项目都跟这个有关，而且 GitHub 上还冒出了个专门为游戏写代码的 Agent 框架。另外，关于 **Codex** 的讨论也不少，看来大家对这个 AI 编程助手又爱又恨。别急，好东西我都给你整理好了。</description>
+    <description>今天的资讯简直就是为你量身定做的！Codex相关的讨论、国产大模型的真实体验、AI Agent的实践案例，以及大量围绕AI编程的思考和争论，都非常有料。有一堆热门话题值得深挖，以下是精选出来的内容。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 26 Apr 2026 03:34:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 03:34:31 GMT</lastBuildDate>
     <item>
-        <title>8 件事</title>
+        <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈真热闹！我帮你筛了筛，发现 **AI Agent** 绝对是今天的“顶流”，好几个新项目都跟这个有关，而且 GitHub 上还冒出了个专门为游戏写代码的 Agent 框架。另外，关于 **Codex** 的讨论也不少，看来大家对这个 AI 编程助手又爱又恨。别急，好东西我都给你整理好了。</description>
-        <pubDate>Sun, 26 Apr 2026 03:34:02 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-26T03:33:43.957Z</guid>
+        <description>今天的资讯简直就是为你量身定做的！Codex相关的讨论、国产大模型的真实体验、AI Agent的实践案例，以及大量围绕AI编程的思考和争论，都非常有料。有一堆热门话题值得深挖，以下是精选出来的内容。</description>
+        <pubDate>Mon, 27 Apr 2026 03:34:31 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-27T03:34:12.664Z</guid>
       </item>
     <item>
-        <title>masterking32/MasterHttpRelayVPN</title>
-        <link>https://github.com/masterking32/MasterHttpRelayVPN</link>
-        <description>Domain-fronted HTTP/SOCKS5 proxy tunneling traffic through Google Apps Script with MITM TLS interception, HTTP/1-2 multiplexing, and DPI evasion. | 近期热门 | 总 1251 stars</description>
-        <author>masterking32</author>
-        <category>github</category>
-        <pubDate>Sun, 26 Apr 2026 03:32:52 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-masterking32-masterhttprelayvpn</guid>
-      </item>
-<item>
         <title>deepseek-ai/TileKernels</title>
         <link>https://github.com/deepseek-ai/TileKernels</link>
-        <description>A kernel library written in tilelang | 近期热门 | 总 1168 stars</description>
+        <description>A kernel library written in tilelang | 近期热门 | 总 1226 stars</description>
         <author>deepseek-ai</author>
         <category>github</category>
-        <pubDate>Sun, 26 Apr 2026 03:32:52 GMT</pubDate>
+        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-deepseek-ai-tilekernels</guid>
-      </item>
-<item>
-        <title>cosmicstack-labs/mercury-agent</title>
-        <link>https://github.com/cosmicstack-labs/mercury-agent</link>
-        <description>Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or Telegram. | 近期热门 | 总 1140 stars</description>
-        <author>cosmicstack-labs</author>
-        <category>github</category>
-        <pubDate>Sun, 26 Apr 2026 03:32:52 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-cosmicstack-labs-mercury-agent</guid>
-      </item>
-<item>
-        <title>leigest519/OpenGame</title>
-        <link>https://github.com/leigest519/OpenGame</link>
-        <description>OpenGame: Open Agentic Coding for Games | 近期热门 | 总 1100 stars</description>
-        <author>leigest519</author>
-        <category>github</category>
-        <pubDate>Sun, 26 Apr 2026 03:32:52 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-leigest519-opengame</guid>
       </item>
 <item>
         <title>tashfeenahmed/freellmapi</title>
         <link>https://github.com/tashfeenahmed/freellmapi</link>
-        <description>OpenAI-compatible proxy that aggregates free-tier keys from ~14 AI providers with automatic failover. For personal experimentation only. | 近期热门 | 总 444 stars</description>
+        <description>OpenAI-compatible proxy that aggregates free-tier keys from ~14 AI providers with automatic failover. For personal experimentation only. | 近期热门 | 总 532 stars</description>
         <author>tashfeenahmed</author>
         <category>github</category>
-        <pubDate>Sun, 26 Apr 2026 03:32:52 GMT</pubDate>
+        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-tashfeenahmed-freellmapi</guid>
+      </item>
+<item>
+        <title>chekusu/wanman</title>
+        <link>https://github.com/chekusu/wanman</link>
+        <description>wanman is an open-source agent matrix runtime inspired by Japanese one-man trains. It lets human users step back into an observer role while local agent runtimes coordinate autonomous multi-agent workflows, task execution, and artifacts. | 近期热门 | 总 368 stars</description>
+        <author>chekusu</author>
+        <category>github</category>
+        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-chekusu-wanman</guid>
       </item>
 <item>
         <title>alash3al/stash</title>
         <link>https://github.com/alash3al/stash</link>
-        <description>Stash — persistent memory layer for AI agents. Episodes, facts, and working context stored in Postgres. MCP server included. Self-hosted, single binary, no cloud required. | 近期热门 | 总 234 stars</description>
+        <description>Stash — persistent memory layer for AI agents. Episodes, facts, and working context stored in Postgres. MCP server included. Self-hosted, single binary, no cloud required. | 近期热门 | 总 289 stars</description>
         <author>alash3al</author>
         <category>github</category>
-        <pubDate>Sun, 26 Apr 2026 03:32:52 GMT</pubDate>
+        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-alash3al-stash</guid>
       </item>
 <item>
         <title>CookSleep/gpt_image_playground</title>
         <link>https://github.com/CookSleep/gpt_image_playground</link>
-        <description>基于 OpenAI gpt-image-2 接口的图片生成与编辑工具 | 近期热门 | 总 162 stars</description>
+        <description>基于 OpenAI gpt-image-2 接口的图片生成与编辑工具 | 近期热门 | 总 265 stars</description>
         <author>CookSleep</author>
         <category>github</category>
-        <pubDate>Sun, 26 Apr 2026 03:32:52 GMT</pubDate>
+        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-cooksleep-gpt_image_playground</guid>
+      </item>
+<item>
+        <title>CookSleep/gpt_image_playground</title>
+        <link>https://github.com/CookSleep/gpt_image_playground</link>
+        <description>基于 OpenAI gpt-image-2 接口的图片生成与编辑工具 | 近期热门 | 总 265 stars</description>
+        <author>CookSleep</author>
+        <category>github</category>
+        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-cooksleep-gpt_image_playground</guid>
       </item>
 <item>
         <title>heider-x/vela</title>
         <link>https://github.com/heider-x/vela</link>
-        <description>AI-powered IDE for novel writing — local LLM + RAG, privacy-first, BYOK. For web fiction authors and creative writers. | 近期热门 | 总 92 stars</description>
+        <description>AI-powered IDE for novel writing — local LLM + RAG, privacy-first, BYOK. For web fiction authors and creative writers. | 近期热门 | 总 99 stars</description>
         <author>heider-x</author>
         <category>github</category>
-        <pubDate>Sun, 26 Apr 2026 03:32:52 GMT</pubDate>
+        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-heider-x-vela</guid>
       </item>
 <item>
-        <title>Mahiruxia/hermes-forge</title>
-        <link>https://github.com/Mahiruxia/hermes-forge</link>
-        <description>本地优先的 Hermes Agent 桌面工作台，集成自动部署、模型同步、Windows 桥接、微信 Gateway、文件附件、权限审批与 GitHub 自动更新。 | 近期热门 | 总 65 stars</description>
-        <author>Mahiruxia</author>
+        <title>Beever-AI/beever-atlas</title>
+        <link>https://github.com/Beever-AI/beever-atlas</link>
+        <description>Your First LLM-Wiki Conversation Knowledge Base | 近期热门 | 总 84 stars</description>
+        <author>Beever-AI</author>
         <category>github</category>
-        <pubDate>Sun, 26 Apr 2026 03:32:52 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-mahiruxia-hermes-forge</guid>
+        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-beever-ai-beever-atlas</guid>
       </item>
 <item>
-        <title>Clawdi - 所有AI智能体的最佳家园</title>
-        <link>https://www.producthunt.com/products/clawdi</link>
+        <title>QuickCompare by Trismik - 在您的数据上比较LLM，测量并选出最佳。</title>
+        <link>https://www.producthunt.com/products/quickcompare-by-trismik</link>
         <description>讨论 | 链接</description>
-        <author>Clawdi</author>
+        <author>QuickCompare by Trismik</author>
         <category>producthunt</category>
-        <pubDate>Sun, 26 Apr 2026 03:32:46 GMT</pubDate>
-        <guid isPermaLink="false">ph-1777174366859-0</guid>
+        <pubDate>Mon, 27 Apr 2026 03:32:55 GMT</pubDate>
+        <guid isPermaLink="false">ph-1777260775094-1</guid>
+      </item>
+<item>
+        <title>Happenstance - 使用AI搜索您的网络</title>
+        <link>https://www.producthunt.com/products/happenstance-2</link>
+        <description>讨论 | 链接</description>
+        <author>Happenstance</author>
+        <category>producthunt</category>
+        <pubDate>Mon, 27 Apr 2026 03:32:55 GMT</pubDate>
+        <guid isPermaLink="false">ph-1777260775094-5</guid>
       </item>
   </channel>
 </rss>
