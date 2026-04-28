@@ -1,107 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/4/27)</title>
+    <title>6-8 件事 (2026/4/28)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的资讯简直就是为你量身定做的！Codex相关的讨论、国产大模型的真实体验、AI Agent的实践案例，以及大量围绕AI编程的思考和争论，都非常有料。有一堆热门话题值得深挖，以下是精选出来的内容。</description>
+    <description>1.  **AI Agent 之争白热化**：无论是海外的开源项目（如 `ast-outline` 专为LLM编程Agent优化），还是国内社区的讨论（“要不要转Agent开发？”），都表明Agent开发正成为新热点。
+2.  **编程助手（Codex/Claude Code）进阶玩法**：今天有好几个帖子都在讨论如何更高效地使用这些AI编程助手，比如组合使用、团队共用、甚至调用`image2`模型。看来大家已经不满足于简单的对话补全了。
+3.  **LLM 评估与比较**：`QuickCompare` 这个产品可以帮助你在自有数据上对比不同LLM的表现，这对于开发者和技术选型者来说非常实用。
+4.  **强调“实用性”和“开发者体验”**：多个项目都在解决具体痛点，比如 `gpt_image_2_skill` 帮你管理大量的图片生成Prompt，`Replyless` 则用AI帮你过滤邮件。
+5.  **关于“AI取代程序员”的讨论**：一篇V2EX帖子（#28）生动描述了用AI写代码时“像拼多多砍一刀”的体验，以及另一篇讨论（#31）关于“不用Agent是否落后了”。这些讨论反映了开发者对AI工具的复杂心态。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Apr 2026 03:34:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 03:34:22 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的资讯简直就是为你量身定做的！Codex相关的讨论、国产大模型的真实体验、AI Agent的实践案例，以及大量围绕AI编程的思考和争论，都非常有料。有一堆热门话题值得深挖，以下是精选出来的内容。</description>
-        <pubDate>Mon, 27 Apr 2026 03:34:31 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-04-27T03:34:12.664Z</guid>
+        <description>1.  **AI Agent 之争白热化**：无论是海外的开源项目（如 `ast-outline` 专为LLM编程Agent优化），还是国内社区的讨论（“要不要转Agent开发？”），都表明Agent开发正成为新热点。
+2.  **编程助手（Codex/Claude Code）进阶玩法**：今天有好几个帖子都在讨论如何更高效地使用这些AI编程助手，比如组合使用、团队共用、甚至调用`image2`模型。看来大家已经不满足于简单的对话补全了。
+3.  **LLM 评估与比较**：`QuickCompare` 这个产品可以帮助你在自有数据上对比不同LLM的表现，这对于开发者和技术选型者来说非常实用。
+4.  **强调“实用性”和“开发者体验”**：多个项目都在解决具体痛点，比如 `gpt_image_2_skill` 帮你管理大量的图片生成Prompt，`Replyless` 则用AI帮你过滤邮件。
+5.  **关于“AI取代程序员”的讨论**：一篇V2EX帖子（#28）生动描述了用AI写代码时“像拼多多砍一刀”的体验，以及另一篇讨论（#31）关于“不用Agent是否落后了”。这些讨论反映了开发者对AI工具的复杂心态。</description>
+        <pubDate>Tue, 28 Apr 2026 03:34:22 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-04-28T03:34:07.489Z</guid>
       </item>
     <item>
         <title>deepseek-ai/TileKernels</title>
         <link>https://github.com/deepseek-ai/TileKernels</link>
-        <description>A kernel library written in tilelang | 近期热门 | 总 1226 stars</description>
+        <description>A kernel library written in tilelang | 近期热门 | 总 1290 stars</description>
         <author>deepseek-ai</author>
         <category>github</category>
-        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
+        <pubDate>Tue, 28 Apr 2026 03:33:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-deepseek-ai-tilekernels</guid>
       </item>
 <item>
-        <title>tashfeenahmed/freellmapi</title>
-        <link>https://github.com/tashfeenahmed/freellmapi</link>
-        <description>OpenAI-compatible proxy that aggregates free-tier keys from ~14 AI providers with automatic failover. For personal experimentation only. | 近期热门 | 总 532 stars</description>
-        <author>tashfeenahmed</author>
+        <title>0x0funky/agent-sprite-forge</title>
+        <link>https://github.com/0x0funky/agent-sprite-forge</link>
+        <description>Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts. | 近期热门 | 总 884 stars</description>
+        <author>0x0funky</author>
         <category>github</category>
-        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-tashfeenahmed-freellmapi</guid>
+        <pubDate>Tue, 28 Apr 2026 03:33:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-0x0funky-agent-sprite-forge</guid>
       </item>
 <item>
-        <title>chekusu/wanman</title>
-        <link>https://github.com/chekusu/wanman</link>
-        <description>wanman is an open-source agent matrix runtime inspired by Japanese one-man trains. It lets human users step back into an observer role while local agent runtimes coordinate autonomous multi-agent workflows, task execution, and artifacts. | 近期热门 | 总 368 stars</description>
-        <author>chekusu</author>
+        <title>wuyoscar/gpt_image_2_skill</title>
+        <link>https://github.com/wuyoscar/gpt_image_2_skill</link>
+        <description>GPT Image 2 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing | 近期热门 | 总 839 stars</description>
+        <author>wuyoscar</author>
         <category>github</category>
-        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-chekusu-wanman</guid>
+        <pubDate>Tue, 28 Apr 2026 03:33:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-wuyoscar-gpt_image_2_skill</guid>
       </item>
 <item>
         <title>alash3al/stash</title>
         <link>https://github.com/alash3al/stash</link>
-        <description>Stash — persistent memory layer for AI agents. Episodes, facts, and working context stored in Postgres. MCP server included. Self-hosted, single binary, no cloud required. | 近期热门 | 总 289 stars</description>
+        <description>Stash — persistent memory layer for AI agents. Episodes, facts, and working context stored in Postgres. MCP server included. Self-hosted, single binary, no cloud required. | 近期热门 | 总 430 stars</description>
         <author>alash3al</author>
         <category>github</category>
-        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
+        <pubDate>Tue, 28 Apr 2026 03:33:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-alash3al-stash</guid>
       </item>
 <item>
+        <title>chekusu/wanman</title>
+        <link>https://github.com/chekusu/wanman</link>
+        <description>wanman is an open-source agent matrix runtime inspired by Japanese one-man trains. It lets human users step back into an observer role while local agent runtimes coordinate autonomous multi-agent workflows, task execution, and artifacts. | 近期热门 | 总 387 stars</description>
+        <author>chekusu</author>
+        <category>github</category>
+        <pubDate>Tue, 28 Apr 2026 03:33:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-chekusu-wanman</guid>
+      </item>
+<item>
         <title>CookSleep/gpt_image_playground</title>
         <link>https://github.com/CookSleep/gpt_image_playground</link>
-        <description>基于 OpenAI gpt-image-2 接口的图片生成与编辑工具 | 近期热门 | 总 265 stars</description>
+        <description>基于 OpenAI gpt-image-2 接口的图片生成与编辑工具 | 近期热门 | 总 377 stars</description>
         <author>CookSleep</author>
         <category>github</category>
-        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
+        <pubDate>Tue, 28 Apr 2026 03:33:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-cooksleep-gpt_image_playground</guid>
       </item>
 <item>
         <title>CookSleep/gpt_image_playground</title>
         <link>https://github.com/CookSleep/gpt_image_playground</link>
-        <description>基于 OpenAI gpt-image-2 接口的图片生成与编辑工具 | 近期热门 | 总 265 stars</description>
+        <description>基于 OpenAI gpt-image-2 接口的图片生成与编辑工具 | 近期热门 | 总 377 stars</description>
         <author>CookSleep</author>
         <category>github</category>
-        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
+        <pubDate>Tue, 28 Apr 2026 03:33:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-cooksleep-gpt_image_playground</guid>
       </item>
 <item>
-        <title>heider-x/vela</title>
-        <link>https://github.com/heider-x/vela</link>
-        <description>AI-powered IDE for novel writing — local LLM + RAG, privacy-first, BYOK. For web fiction authors and creative writers. | 近期热门 | 总 99 stars</description>
-        <author>heider-x</author>
+        <title>aeroxy/ast-outline</title>
+        <link>https://github.com/aeroxy/ast-outline</link>
+        <description>Fast, AST-based structural outline for source files. Built for LLM coding agents and humans. | 近期热门 | 总 78 stars</description>
+        <author>aeroxy</author>
         <category>github</category>
-        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-heider-x-vela</guid>
+        <pubDate>Tue, 28 Apr 2026 03:33:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-aeroxy-ast-outline</guid>
       </item>
 <item>
-        <title>Beever-AI/beever-atlas</title>
-        <link>https://github.com/Beever-AI/beever-atlas</link>
-        <description>Your First LLM-Wiki Conversation Knowledge Base | 近期热门 | 总 84 stars</description>
-        <author>Beever-AI</author>
-        <category>github</category>
-        <pubDate>Mon, 27 Apr 2026 03:33:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-beever-ai-beever-atlas</guid>
-      </item>
-<item>
-        <title>QuickCompare by Trismik - 在您的数据上比较LLM，测量并选出最佳。</title>
-        <link>https://www.producthunt.com/products/quickcompare-by-trismik</link>
+        <title>SNEWPapers - 全球首个AI报纸档案</title>
+        <link>https://www.producthunt.com/products/snewpapers</link>
         <description>讨论 | 链接</description>
-        <author>QuickCompare by Trismik</author>
+        <author>SNEWPapers</author>
         <category>producthunt</category>
-        <pubDate>Mon, 27 Apr 2026 03:32:55 GMT</pubDate>
-        <guid isPermaLink="false">ph-1777260775094-1</guid>
+        <pubDate>Tue, 28 Apr 2026 03:33:01 GMT</pubDate>
+        <guid isPermaLink="false">ph-1777347181708-0</guid>
       </item>
 <item>
-        <title>Happenstance - 使用AI搜索您的网络</title>
-        <link>https://www.producthunt.com/products/happenstance-2</link>
+        <title>Jet AI Agents - 在几分钟内构建商业AI智能体</title>
+        <link>https://www.producthunt.com/products/jet-admin</link>
         <description>讨论 | 链接</description>
-        <author>Happenstance</author>
+        <author>Jet AI Agents</author>
         <category>producthunt</category>
-        <pubDate>Mon, 27 Apr 2026 03:32:55 GMT</pubDate>
-        <guid isPermaLink="false">ph-1777260775094-5</guid>
+        <pubDate>Tue, 28 Apr 2026 03:33:01 GMT</pubDate>
+        <guid isPermaLink="false">ph-1777347181708-1</guid>
       </item>
   </channel>
 </rss>
