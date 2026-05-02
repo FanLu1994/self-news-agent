@@ -1,117 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/1)</title>
+    <title>6-8 件事 (2026/5/2)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天信息量不小！围绕你关心的 AI、LLM 和 Agent 主题，有几个非常有意思的动向：
-
-1.  **AI 编程领域的“内战”**：Bun 创始人提出了一个非常激进的预言——未来开源项目将禁止人类贡献代码，引发了硅谷大佬们的激烈辩论。这绝对值得你花时间深入了解。
-2.  **AI Agent 工具集中爆发**：从语音助手到设计代理，再到自动化仪表盘，今天涌现了好几个直接可用的 Agent 产品，说明 Agent 正在快速落地。
-3.  **LLM 编码工具链持续进化**：有项目专注于为 LLM 提供更好的代码结构理解，也有将 Claude Code 技能迁移到开源项目的，说明大家正在努力让 AI 更好地理解代码。
-4.  **一个有趣的“翻车”案例**：Claude Code 似乎有个“隐藏设定”，如果你在提交信息里提到竞品名称，它就会罢工或额外收费，这很能说明当前 AI 公司的竞争有多激烈。</description>
+    <description>今天的资讯里，关于“AI coding”的讨论几乎无处不在。大家不仅在**热议**新的编码工具和Agent，也在更深层次地**思考**程序员职业的未来。同时，几个新的开源项目也展示了AI Agent在法律、设计、金融等领域的落地可能。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 01 May 2026 03:34:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 03:34:01 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天信息量不小！围绕你关心的 AI、LLM 和 Agent 主题，有几个非常有意思的动向：
-
-1.  **AI 编程领域的“内战”**：Bun 创始人提出了一个非常激进的预言——未来开源项目将禁止人类贡献代码，引发了硅谷大佬们的激烈辩论。这绝对值得你花时间深入了解。
-2.  **AI Agent 工具集中爆发**：从语音助手到设计代理，再到自动化仪表盘，今天涌现了好几个直接可用的 Agent 产品，说明 Agent 正在快速落地。
-3.  **LLM 编码工具链持续进化**：有项目专注于为 LLM 提供更好的代码结构理解，也有将 Claude Code 技能迁移到开源项目的，说明大家正在努力让 AI 更好地理解代码。
-4.  **一个有趣的“翻车”案例**：Claude Code 似乎有个“隐藏设定”，如果你在提交信息里提到竞品名称，它就会罢工或额外收费，这很能说明当前 AI 公司的竞争有多激烈。</description>
-        <pubDate>Fri, 01 May 2026 03:34:42 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-01T03:34:28.558Z</guid>
+        <description>今天的资讯里，关于“AI coding”的讨论几乎无处不在。大家不仅在**热议**新的编码工具和Agent，也在更深层次地**思考**程序员职业的未来。同时，几个新的开源项目也展示了AI Agent在法律、设计、金融等领域的落地可能。</description>
+        <pubDate>Sat, 02 May 2026 03:34:01 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-02T03:33:40.602Z</guid>
       </item>
     <item>
         <title>nexu-io/open-design</title>
         <link>https://github.com/nexu-io/open-design</link>
-        <description>🎨 Local-first, open-source alternative to Anthropic&apos;s Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems · 🖼️ sandboxed preview · 📦 HTML/PDF/PPTX export. 🤖 Runs on Claude Code / Codex / Cursor / Gemini CLI / OpenCode / Qwen / Copilot / Hermes / Kimi CLI. | 近期热门 | 总 8599 stars</description>
+        <description>🎨 Local-first, open-source alternative to Anthropic&apos;s Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI. | 近期热门 | 总 12221 stars</description>
         <author>nexu-io</author>
         <category>github</category>
-        <pubDate>Fri, 01 May 2026 03:33:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nexu-io-open-design</guid>
-      </item>
-<item>
-        <title>nexu-io/open-design</title>
-        <link>https://github.com/nexu-io/open-design</link>
-        <description>🎨 Local-first, open-source alternative to Anthropic&apos;s Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems · 🖼️ sandboxed preview · 📦 HTML/PDF/PPTX export. 🤖 Runs on Claude Code / Codex / Cursor / Gemini CLI / OpenCode / Qwen / Copilot / Hermes / Kimi CLI. | 近期热门 | 总 8599 stars</description>
-        <author>nexu-io</author>
-        <category>github</category>
-        <pubDate>Fri, 01 May 2026 03:33:30 GMT</pubDate>
+        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-nexu-io-open-design</guid>
       </item>
 <item>
         <title>theori-io/copy-fail-CVE-2026-31431</title>
         <link>https://github.com/theori-io/copy-fail-CVE-2026-31431</link>
-        <description> | 近期热门 | 总 1739 stars</description>
+        <description> | 近期热门 | 总 2525 stars</description>
         <author>theori-io</author>
         <category>github</category>
-        <pubDate>Fri, 01 May 2026 03:33:30 GMT</pubDate>
+        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-theori-io-copy-fail-cve-2026-31431</guid>
-      </item>
-<item>
-        <title>willchen96/mike</title>
-        <link>https://github.com/willchen96/mike</link>
-        <description>OSS AI Legal Platform | 近期热门 | 总 803 stars</description>
-        <author>willchen96</author>
-        <category>github</category>
-        <pubDate>Fri, 01 May 2026 03:33:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-willchen96-mike</guid>
       </item>
 <item>
         <title>denuitt1/mhr-cfw</title>
         <link>https://github.com/denuitt1/mhr-cfw</link>
-        <description>A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI. | 近期热门 | 总 504 stars</description>
+        <description>A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI. | 近期热门 | 总 1331 stars</description>
         <author>denuitt1</author>
         <category>github</category>
-        <pubDate>Fri, 01 May 2026 03:33:30 GMT</pubDate>
+        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-denuitt1-mhr-cfw</guid>
+      </item>
+<item>
+        <title>willchen96/mike</title>
+        <link>https://github.com/willchen96/mike</link>
+        <description>OSS AI Legal Platform | 近期热门 | 总 1107 stars</description>
+        <author>willchen96</author>
+        <category>github</category>
+        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-willchen96-mike</guid>
       </item>
 <item>
         <title>Kianmhz/GooseRelayVPN</title>
         <link>https://github.com/Kianmhz/GooseRelayVPN</link>
-        <description>Socks5 VPN that tunnels raw TCP through Google Apps Script to your VPS exit server (AES‑256‑GCM, domain‑fronted). | 近期热门 | 总 449 stars</description>
+        <description>Socks5 VPN that tunnels raw TCP through Google Apps Script to your VPS exit server (AES‑256‑GCM, domain‑fronted). | 近期热门 | 总 519 stars</description>
         <author>Kianmhz</author>
         <category>github</category>
-        <pubDate>Fri, 01 May 2026 03:33:30 GMT</pubDate>
+        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kianmhz-gooserelayvpn</guid>
       </item>
 <item>
         <title>sandeco/reversa</title>
         <link>https://github.com/sandeco/reversa</link>
-        <description>Transform legacy systems into executable specifications for AI coding agents | 近期热门 | 总 330 stars</description>
+        <description>Transform legacy systems into executable specifications for AI coding agents | 近期热门 | 总 406 stars</description>
         <author>sandeco</author>
         <category>github</category>
-        <pubDate>Fri, 01 May 2026 03:33:30 GMT</pubDate>
+        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-sandeco-reversa</guid>
       </item>
 <item>
         <title>waybarrios/opencode-power-pack</title>
         <link>https://github.com/waybarrios/opencode-power-pack</link>
-        <description>Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin. | 近期热门 | 总 167 stars</description>
+        <description>Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin. | 近期热门 | 总 186 stars</description>
         <author>waybarrios</author>
         <category>github</category>
-        <pubDate>Fri, 01 May 2026 03:33:30 GMT</pubDate>
+        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-waybarrios-opencode-power-pack</guid>
       </item>
 <item>
         <title>endless-sky-team/ai-trading-agent</title>
         <link>https://github.com/endless-sky-team/ai-trading-agent</link>
-        <description>llm trading bot ai agent crypto bitcoin ethereum perpetuals openrouter lighter algorithmic automated quant typescript react postgres bun fintech defi machine-learning open-source crypto-bot signals | 近期热门 | 总 149 stars</description>
+        <description>llm trading bot ai agent crypto bitcoin ethereum perpetuals openrouter lighter algorithmic automated quant typescript react postgres bun fintech defi machine-learning open-source crypto-bot signals | 近期热门 | 总 175 stars</description>
         <author>endless-sky-team</author>
         <category>github</category>
-        <pubDate>Fri, 01 May 2026 03:33:30 GMT</pubDate>
+        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-endless-sky-team-ai-trading-agent</guid>
       </item>
 <item>
-        <title>aeroxy/ast-outline</title>
-        <link>https://github.com/aeroxy/ast-outline</link>
-        <description>Fast, AST-based structural outline for source files. Built for LLM coding agents and humans. | 近期热门 | 总 100 stars</description>
-        <author>aeroxy</author>
+        <title>WangQrkkk/PaperQuay</title>
+        <link>https://github.com/WangQrkkk/PaperQuay</link>
+        <description>A desktop-first literature manager for PDF reading, translation, paper overviews, and AI agent workflows. | 近期热门 | 总 57 stars</description>
+        <author>WangQrkkk</author>
         <category>github</category>
-        <pubDate>Fri, 01 May 2026 03:33:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-aeroxy-ast-outline</guid>
+        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-wangqrkkk-paperquay</guid>
+      </item>
+<item>
+        <title>zhu1090093659/deepseek-pp</title>
+        <link>https://github.com/zhu1090093659/deepseek-pp</link>
+        <description>🧠 为 DeepSeek 网页版注入 Agentic 记忆系统 + Skill 技能系统的 Chrome 扩展 | 近期热门 | 总 51 stars</description>
+        <author>zhu1090093659</author>
+        <category>github</category>
+        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-zhu1090093659-deepseek-pp</guid>
       </item>
   </channel>
 </rss>
