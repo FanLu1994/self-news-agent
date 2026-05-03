@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/2)</title>
+    <title>6-8 件事 (2026/5/3)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的资讯里，关于“AI coding”的讨论几乎无处不在。大家不仅在**热议**新的编码工具和Agent，也在更深层次地**思考**程序员职业的未来。同时，几个新的开源项目也展示了AI Agent在法律、设计、金融等领域的落地可能。</description>
+    <description>嘿，今天的技术圈围绕“AI + 代码”这个话题讨论得相当热烈。从人人可用的本地 Coding Agent，到关于 AI 编程质量的大佬对话，再到各种基于 Codex 的实战技巧，信息量很大。别错过下面这几个重点，尤其是那个能让你在本地跑满血 AI 编程助手的项目，还有关于 AI 编程是把“双刃剑”的深度讨论，都值得花时间看看。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 May 2026 03:34:01 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 03:34:24 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的资讯里，关于“AI coding”的讨论几乎无处不在。大家不仅在**热议**新的编码工具和Agent，也在更深层次地**思考**程序员职业的未来。同时，几个新的开源项目也展示了AI Agent在法律、设计、金融等领域的落地可能。</description>
-        <pubDate>Sat, 02 May 2026 03:34:01 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-02T03:33:40.602Z</guid>
+        <description>嘿，今天的技术圈围绕“AI + 代码”这个话题讨论得相当热烈。从人人可用的本地 Coding Agent，到关于 AI 编程质量的大佬对话，再到各种基于 Codex 的实战技巧，信息量很大。别错过下面这几个重点，尤其是那个能让你在本地跑满血 AI 编程助手的项目，还有关于 AI 编程是把“双刃剑”的深度讨论，都值得花时间看看。</description>
+        <pubDate>Sun, 03 May 2026 03:34:24 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-03T03:34:10.625Z</guid>
       </item>
     <item>
         <title>nexu-io/open-design</title>
         <link>https://github.com/nexu-io/open-design</link>
-        <description>🎨 Local-first, open-source alternative to Anthropic&apos;s Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI. | 近期热门 | 总 12221 stars</description>
+        <description>🎨 Local-first, open-source alternative to Anthropic&apos;s Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI. | 近期热门 | 总 16420 stars</description>
         <author>nexu-io</author>
         <category>github</category>
-        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
+        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-nexu-io-open-design</guid>
       </item>
 <item>
         <title>theori-io/copy-fail-CVE-2026-31431</title>
         <link>https://github.com/theori-io/copy-fail-CVE-2026-31431</link>
-        <description> | 近期热门 | 总 2525 stars</description>
+        <description> | 近期热门 | 总 2915 stars</description>
         <author>theori-io</author>
         <category>github</category>
-        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
+        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-theori-io-copy-fail-cve-2026-31431</guid>
       </item>
 <item>
         <title>denuitt1/mhr-cfw</title>
         <link>https://github.com/denuitt1/mhr-cfw</link>
-        <description>A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI. | 近期热门 | 总 1331 stars</description>
+        <description>A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI. | 近期热门 | 总 1710 stars</description>
         <author>denuitt1</author>
         <category>github</category>
-        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
+        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-denuitt1-mhr-cfw</guid>
       </item>
 <item>
         <title>willchen96/mike</title>
         <link>https://github.com/willchen96/mike</link>
-        <description>OSS AI Legal Platform | 近期热门 | 总 1107 stars</description>
+        <description>OSS AI Legal Platform | 近期热门 | 总 1432 stars</description>
         <author>willchen96</author>
         <category>github</category>
-        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
+        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-willchen96-mike</guid>
-      </item>
-<item>
-        <title>Kianmhz/GooseRelayVPN</title>
-        <link>https://github.com/Kianmhz/GooseRelayVPN</link>
-        <description>Socks5 VPN that tunnels raw TCP through Google Apps Script to your VPS exit server (AES‑256‑GCM, domain‑fronted). | 近期热门 | 总 519 stars</description>
-        <author>Kianmhz</author>
-        <category>github</category>
-        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kianmhz-gooserelayvpn</guid>
-      </item>
-<item>
-        <title>sandeco/reversa</title>
-        <link>https://github.com/sandeco/reversa</link>
-        <description>Transform legacy systems into executable specifications for AI coding agents | 近期热门 | 总 406 stars</description>
-        <author>sandeco</author>
-        <category>github</category>
-        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-sandeco-reversa</guid>
-      </item>
-<item>
-        <title>waybarrios/opencode-power-pack</title>
-        <link>https://github.com/waybarrios/opencode-power-pack</link>
-        <description>Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin. | 近期热门 | 总 186 stars</description>
-        <author>waybarrios</author>
-        <category>github</category>
-        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-waybarrios-opencode-power-pack</guid>
       </item>
 <item>
         <title>endless-sky-team/ai-trading-agent</title>
         <link>https://github.com/endless-sky-team/ai-trading-agent</link>
-        <description>llm trading bot ai agent crypto bitcoin ethereum perpetuals openrouter lighter algorithmic automated quant typescript react postgres bun fintech defi machine-learning open-source crypto-bot signals | 近期热门 | 总 175 stars</description>
+        <description>llm trading bot ai agent crypto bitcoin ethereum perpetuals openrouter lighter algorithmic automated quant typescript react postgres bun fintech defi machine-learning open-source crypto-bot signals | 近期热门 | 总 195 stars</description>
         <author>endless-sky-team</author>
         <category>github</category>
-        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
+        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-endless-sky-team-ai-trading-agent</guid>
       </item>
 <item>
-        <title>WangQrkkk/PaperQuay</title>
-        <link>https://github.com/WangQrkkk/PaperQuay</link>
-        <description>A desktop-first literature manager for PDF reading, translation, paper overviews, and AI agent workflows. | 近期热门 | 总 57 stars</description>
-        <author>WangQrkkk</author>
+        <title>matthart1983/syswatch</title>
+        <link>https://github.com/matthart1983/syswatch</link>
+        <description>Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS + Linux. | 近期热门 | 总 132 stars</description>
+        <author>matthart1983</author>
         <category>github</category>
-        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wangqrkkk-paperquay</guid>
+        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-matthart1983-syswatch</guid>
+      </item>
+<item>
+        <title>StartupHakk/OpenMonoAgent.ai</title>
+        <link>https://github.com/StartupHakk/OpenMonoAgent.ai</link>
+        <description>AI shouldn&apos;t have a meter. Unlimited tokens. Forever. Your machine. Your agent. Use it from anywhere. Terminal-native coding agent powered by local LLMs — 100% open source, free forever, and installed with a single command. Proudly built on C#/.NET, because AI tooling should be infrastructure, not a subscription. | 近期热门 | 总 100 stars</description>
+        <author>StartupHakk</author>
+        <category>github</category>
+        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-startuphakk-openmonoagent.ai</guid>
+      </item>
+<item>
+        <title>kyutai-labs/moshi-rag</title>
+        <link>https://github.com/kyutai-labs/moshi-rag</link>
+        <description>MoshiRAG is a compact full-duplex speech language model augmented with asynchronous knowledge retrieval to improve factuality without sacrificing real-time interactivity. | 近期热门 | 总 59 stars</description>
+        <author>kyutai-labs</author>
+        <category>github</category>
+        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kyutai-labs-moshi-rag</guid>
       </item>
 <item>
         <title>zhu1090093659/deepseek-pp</title>
         <link>https://github.com/zhu1090093659/deepseek-pp</link>
-        <description>🧠 为 DeepSeek 网页版注入 Agentic 记忆系统 + Skill 技能系统的 Chrome 扩展 | 近期热门 | 总 51 stars</description>
+        <description>🧠 为 DeepSeek 网页版注入 Agentic 记忆系统 + Skill 技能系统的 Chrome 扩展 | 近期热门 | 总 59 stars</description>
         <author>zhu1090093659</author>
         <category>github</category>
-        <pubDate>Sat, 02 May 2026 03:32:39 GMT</pubDate>
+        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-zhu1090093659-deepseek-pp</guid>
+      </item>
+<item>
+        <title>Feather - 本地AI照片编辑器</title>
+        <link>https://www.producthunt.com/products/feather-18</link>
+        <description>讨论 | 链接</description>
+        <author>Feather</author>
+        <category>producthunt</category>
+        <pubDate>Sun, 03 May 2026 03:33:05 GMT</pubDate>
+        <guid isPermaLink="false">ph-1777779185291-1</guid>
       </item>
   </channel>
 </rss>
