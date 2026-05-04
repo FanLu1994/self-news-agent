@@ -1,107 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/3)</title>
+    <title>6-8 件事 (2026/5/4)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天的技术圈围绕“AI + 代码”这个话题讨论得相当热烈。从人人可用的本地 Coding Agent，到关于 AI 编程质量的大佬对话，再到各种基于 Codex 的实战技巧，信息量很大。别错过下面这几个重点，尤其是那个能让你在本地跑满血 AI 编程助手的项目，还有关于 AI 编程是把“双刃剑”的深度讨论，都值得花时间看看。</description>
+    <description>1.  **Codex 生态大爆发**：今天GitHub Trending和社区讨论几乎被“Codex”相关的项目、技巧和求助帖淹没。从价格、订阅渠道到各种增强工具，看来这个AI编程助手成了开发者们又爱又恨的焦点。
+2.  **开源AI Agent的“无限”野望**：一个叫`OpenMonoAgent`的项目喊出了“AI不应该有计量表，无限Token，永远免费”的口号，直接瞄准了本地LLM驱动的编程Agent，这波操作很吸引眼球。
+3.  **Agent能代替传统工作流吗？** 社区里有人在认真讨论“Agent（自主决策）+ Skill（调用工具）”的组合，能否取代像n8n这样需要预先设置流程的工作流。这直接关系到我们未来的开发方式。
+4.  **给AI“建模”，用YAML写规格书**：有个哥们为了驯服“AI精神病”，决定用极度结构化的YAML来写项目规格。这听起来很反直觉，但可能是让非编程人员（比如产品经理）也能参与AI项目的一种方式。
+5.  **成本效率是王道**：`DeepClaude` 项目展示了如何用DeepSeek V4 Pro作为“大脑”驱动Claude Code，宣称能将成本降低17倍。在API费用不菲的当下，这种“拼多多”模式极具吸引力。
+6.  **“Vibe Coding”的工程化实践**：一篇V2EX的帖子分享了如何通过开源“Skills”工程化地迭代“Vibe Coding”产品，从想法到部署一条龙。这标志着“无代码/低代码”开发进入了一个新阶段。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 May 2026 03:34:24 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 03:34:22 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天的技术圈围绕“AI + 代码”这个话题讨论得相当热烈。从人人可用的本地 Coding Agent，到关于 AI 编程质量的大佬对话，再到各种基于 Codex 的实战技巧，信息量很大。别错过下面这几个重点，尤其是那个能让你在本地跑满血 AI 编程助手的项目，还有关于 AI 编程是把“双刃剑”的深度讨论，都值得花时间看看。</description>
-        <pubDate>Sun, 03 May 2026 03:34:24 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-03T03:34:10.625Z</guid>
+        <description>1.  **Codex 生态大爆发**：今天GitHub Trending和社区讨论几乎被“Codex”相关的项目、技巧和求助帖淹没。从价格、订阅渠道到各种增强工具，看来这个AI编程助手成了开发者们又爱又恨的焦点。
+2.  **开源AI Agent的“无限”野望**：一个叫`OpenMonoAgent`的项目喊出了“AI不应该有计量表，无限Token，永远免费”的口号，直接瞄准了本地LLM驱动的编程Agent，这波操作很吸引眼球。
+3.  **Agent能代替传统工作流吗？** 社区里有人在认真讨论“Agent（自主决策）+ Skill（调用工具）”的组合，能否取代像n8n这样需要预先设置流程的工作流。这直接关系到我们未来的开发方式。
+4.  **给AI“建模”，用YAML写规格书**：有个哥们为了驯服“AI精神病”，决定用极度结构化的YAML来写项目规格。这听起来很反直觉，但可能是让非编程人员（比如产品经理）也能参与AI项目的一种方式。
+5.  **成本效率是王道**：`DeepClaude` 项目展示了如何用DeepSeek V4 Pro作为“大脑”驱动Claude Code，宣称能将成本降低17倍。在API费用不菲的当下，这种“拼多多”模式极具吸引力。
+6.  **“Vibe Coding”的工程化实践**：一篇V2EX的帖子分享了如何通过开源“Skills”工程化地迭代“Vibe Coding”产品，从想法到部署一条龙。这标志着“无代码/低代码”开发进入了一个新阶段。</description>
+        <pubDate>Mon, 04 May 2026 03:34:22 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-04T03:34:08.516Z</guid>
       </item>
     <item>
         <title>nexu-io/open-design</title>
         <link>https://github.com/nexu-io/open-design</link>
-        <description>🎨 Local-first, open-source alternative to Anthropic&apos;s Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI. | 近期热门 | 总 16420 stars</description>
+        <description>🎨 Local-first, open-source alternative to Anthropic&apos;s Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI. | 近期热门 | 总 19919 stars</description>
         <author>nexu-io</author>
         <category>github</category>
-        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
+        <pubDate>Mon, 04 May 2026 03:33:08 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-nexu-io-open-design</guid>
       </item>
 <item>
         <title>theori-io/copy-fail-CVE-2026-31431</title>
         <link>https://github.com/theori-io/copy-fail-CVE-2026-31431</link>
-        <description> | 近期热门 | 总 2915 stars</description>
+        <description> | 近期热门 | 总 3033 stars</description>
         <author>theori-io</author>
         <category>github</category>
-        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
+        <pubDate>Mon, 04 May 2026 03:33:08 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-theori-io-copy-fail-cve-2026-31431</guid>
-      </item>
-<item>
-        <title>denuitt1/mhr-cfw</title>
-        <link>https://github.com/denuitt1/mhr-cfw</link>
-        <description>A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI. | 近期热门 | 总 1710 stars</description>
-        <author>denuitt1</author>
-        <category>github</category>
-        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-denuitt1-mhr-cfw</guid>
       </item>
 <item>
         <title>willchen96/mike</title>
         <link>https://github.com/willchen96/mike</link>
-        <description>OSS AI Legal Platform | 近期热门 | 总 1432 stars</description>
+        <description>OSS AI Legal Platform | 近期热门 | 总 1708 stars</description>
         <author>willchen96</author>
         <category>github</category>
-        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
+        <pubDate>Mon, 04 May 2026 03:33:08 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-willchen96-mike</guid>
       </item>
 <item>
-        <title>endless-sky-team/ai-trading-agent</title>
-        <link>https://github.com/endless-sky-team/ai-trading-agent</link>
-        <description>llm trading bot ai agent crypto bitcoin ethereum perpetuals openrouter lighter algorithmic automated quant typescript react postgres bun fintech defi machine-learning open-source crypto-bot signals | 近期热门 | 总 195 stars</description>
-        <author>endless-sky-team</author>
+        <title>b-nnett/codex-plusplus</title>
+        <link>https://github.com/b-nnett/codex-plusplus</link>
+        <description>Codex++ tweak system for the Codex desktop app | 近期热门 | 总 859 stars</description>
+        <author>b-nnett</author>
         <category>github</category>
-        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-endless-sky-team-ai-trading-agent</guid>
+        <pubDate>Mon, 04 May 2026 03:33:08 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-b-nnett-codex-plusplus</guid>
+      </item>
+<item>
+        <title>vibeforge1111/keep-codex-fast</title>
+        <link>https://github.com/vibeforge1111/keep-codex-fast</link>
+        <description>A backup-first Codex skill for keeping local Codex state fast, clean, and recoverable. | 近期热门 | 总 529 stars</description>
+        <author>vibeforge1111</author>
+        <category>github</category>
+        <pubDate>Mon, 04 May 2026 03:33:08 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vibeforge1111-keep-codex-fast</guid>
       </item>
 <item>
         <title>matthart1983/syswatch</title>
         <link>https://github.com/matthart1983/syswatch</link>
-        <description>Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS + Linux. | 近期热门 | 总 132 stars</description>
+        <description>Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS + Linux. | 近期热门 | 总 263 stars</description>
         <author>matthart1983</author>
         <category>github</category>
-        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
+        <pubDate>Mon, 04 May 2026 03:33:08 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-matthart1983-syswatch</guid>
+      </item>
+<item>
+        <title>Kappaemme-git/codex-startup-pressure-test-skill</title>
+        <link>https://github.com/Kappaemme-git/codex-startup-pressure-test-skill</link>
+        <description> | 近期热门 | 总 214 stars</description>
+        <author>Kappaemme-git</author>
+        <category>github</category>
+        <pubDate>Mon, 04 May 2026 03:33:08 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kappaemme-git-codex-startup-pressure-test-skill</guid>
+      </item>
+<item>
+        <title>endless-sky-team/ai-trading-agent</title>
+        <link>https://github.com/endless-sky-team/ai-trading-agent</link>
+        <description>llm trading bot ai agent crypto bitcoin ethereum perpetuals openrouter lighter algorithmic automated quant typescript react postgres bun fintech defi machine-learning open-source crypto-bot signals | 近期热门 | 总 206 stars</description>
+        <author>endless-sky-team</author>
+        <category>github</category>
+        <pubDate>Mon, 04 May 2026 03:33:08 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-endless-sky-team-ai-trading-agent</guid>
       </item>
 <item>
         <title>StartupHakk/OpenMonoAgent.ai</title>
         <link>https://github.com/StartupHakk/OpenMonoAgent.ai</link>
-        <description>AI shouldn&apos;t have a meter. Unlimited tokens. Forever. Your machine. Your agent. Use it from anywhere. Terminal-native coding agent powered by local LLMs — 100% open source, free forever, and installed with a single command. Proudly built on C#/.NET, because AI tooling should be infrastructure, not a subscription. | 近期热门 | 总 100 stars</description>
+        <description>AI shouldn&apos;t have a meter. Unlimited tokens. Forever. Your machine. Your agent. Use it from anywhere. Terminal-native coding agent powered by local LLMs — 100% open source, free forever, and installed with a single command. Proudly built on C#/.NET, because AI tooling should be infrastructure, not a subscription. | 近期热门 | 总 138 stars</description>
         <author>StartupHakk</author>
         <category>github</category>
-        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
+        <pubDate>Mon, 04 May 2026 03:33:08 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-startuphakk-openmonoagent.ai</guid>
       </item>
 <item>
-        <title>kyutai-labs/moshi-rag</title>
-        <link>https://github.com/kyutai-labs/moshi-rag</link>
-        <description>MoshiRAG is a compact full-duplex speech language model augmented with asynchronous knowledge retrieval to improve factuality without sacrificing real-time interactivity. | 近期热门 | 总 59 stars</description>
-        <author>kyutai-labs</author>
+        <title>Hidden-Node/GooseRelayVPN-AndroidClient</title>
+        <link>https://github.com/Hidden-Node/GooseRelayVPN-AndroidClient</link>
+        <description>GooseRelayVPN Android client: a SOCKS5 VPN with profile-based setup, live logs, and JSON import/export that tunnels raw TCP   through Google Apps Script to your VPS exit server (AES-256-GCM, domain-fronted). | 近期热门 | 总 125 stars</description>
+        <author>Hidden-Node</author>
         <category>github</category>
-        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kyutai-labs-moshi-rag</guid>
-      </item>
-<item>
-        <title>zhu1090093659/deepseek-pp</title>
-        <link>https://github.com/zhu1090093659/deepseek-pp</link>
-        <description>🧠 为 DeepSeek 网页版注入 Agentic 记忆系统 + Skill 技能系统的 Chrome 扩展 | 近期热门 | 总 59 stars</description>
-        <author>zhu1090093659</author>
-        <category>github</category>
-        <pubDate>Sun, 03 May 2026 03:33:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-zhu1090093659-deepseek-pp</guid>
-      </item>
-<item>
-        <title>Feather - 本地AI照片编辑器</title>
-        <link>https://www.producthunt.com/products/feather-18</link>
-        <description>讨论 | 链接</description>
-        <author>Feather</author>
-        <category>producthunt</category>
-        <pubDate>Sun, 03 May 2026 03:33:05 GMT</pubDate>
-        <guid isPermaLink="false">ph-1777779185291-1</guid>
+        <pubDate>Mon, 04 May 2026 03:33:08 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-hidden-node-gooserelayvpn-androidclient</guid>
       </item>
   </channel>
 </rss>
