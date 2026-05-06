@@ -1,110 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/5)</title>
+    <title>6-8 件事 (2026/5/6)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的内容非常聚焦，主要就是几个大方向：一是围绕 **Claude Code / Codex 的生态**，出现了很多好玩又实用的“外挂”项目；二是关于 **Agent (智能体)** 的应用，从量化交易到代码助手应有尽有；三是一些关于 **AI编程** 的深度思考和资源。
-
-总之，今天的核心就是：**怎么把 AI 写代码这件事玩得更好、更便宜、更有趣。**</description>
+    <description>今天的热点非常集中：“AI Coding”绝对是C位，各大平台都推出了新的工具和玩法。GitHub上的开源项目、Product Hunt上的新产品，以及社区讨论，都围绕着如何用AI Agent更高效、更安全地写代码。此外，AI Agent的落地应用和安全性问题也是大家讨论的焦点。看起来，AI写代码正在从一个“玩具”变成真正的生产力工具，但同时也带来了新的挑战。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 05 May 2026 03:33:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 03:34:32 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的内容非常聚焦，主要就是几个大方向：一是围绕 **Claude Code / Codex 的生态**，出现了很多好玩又实用的“外挂”项目；二是关于 **Agent (智能体)** 的应用，从量化交易到代码助手应有尽有；三是一些关于 **AI编程** 的深度思考和资源。
-
-总之，今天的核心就是：**怎么把 AI 写代码这件事玩得更好、更便宜、更有趣。**</description>
-        <pubDate>Tue, 05 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-05T03:33:38.489Z</guid>
+        <description>今天的热点非常集中：“AI Coding”绝对是C位，各大平台都推出了新的工具和玩法。GitHub上的开源项目、Product Hunt上的新产品，以及社区讨论，都围绕着如何用AI Agent更高效、更安全地写代码。此外，AI Agent的落地应用和安全性问题也是大家讨论的焦点。看起来，AI写代码正在从一个“玩具”变成真正的生产力工具，但同时也带来了新的挑战。</description>
+        <pubDate>Wed, 06 May 2026 03:34:32 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-06T03:34:16.010Z</guid>
       </item>
     <item>
-        <title>theori-io/copy-fail-CVE-2026-31431</title>
-        <link>https://github.com/theori-io/copy-fail-CVE-2026-31431</link>
-        <description>Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori&apos;s Xint Code | 近期热门 | 总 3176 stars</description>
-        <author>theori-io</author>
-        <category>github</category>
-        <pubDate>Tue, 05 May 2026 03:32:34 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-theori-io-copy-fail-cve-2026-31431</guid>
-      </item>
-<item>
-        <title>willchen96/mike</title>
-        <link>https://github.com/willchen96/mike</link>
-        <description>OSS AI Legal Platform | 近期热门 | 总 2040 stars</description>
-        <author>willchen96</author>
-        <category>github</category>
-        <pubDate>Tue, 05 May 2026 03:32:34 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-willchen96-mike</guid>
-      </item>
-<item>
         <title>aattaran/deepclaude</title>
         <link>https://github.com/aattaran/deepclaude</link>
-        <description>Use Claude Code&apos;s autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper. | 近期热门 | 总 1073 stars</description>
+        <description>Use Claude Code&apos;s autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper. | 近期热门 | 总 1348 stars</description>
         <author>aattaran</author>
         <category>github</category>
-        <pubDate>Tue, 05 May 2026 03:32:34 GMT</pubDate>
+        <pubDate>Wed, 06 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-aattaran-deepclaude</guid>
+      </item>
+<item>
+        <title>vercel-labs/deepsec</title>
+        <link>https://github.com/vercel-labs/deepsec</link>
+        <description>Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents | 近期热门 | 总 1102 stars</description>
+        <author>vercel-labs</author>
+        <category>github</category>
+        <pubDate>Wed, 06 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vercel-labs-deepsec</guid>
       </item>
 <item>
         <title>mattpocock/dictionary-of-ai-coding</title>
         <link>https://github.com/mattpocock/dictionary-of-ai-coding</link>
-        <description>AI coding jargon, explained in plain English. | 近期热门 | 总 979 stars</description>
+        <description>AI coding jargon, explained in plain English. | 近期热门 | 总 1079 stars</description>
         <author>mattpocock</author>
         <category>github</category>
-        <pubDate>Tue, 05 May 2026 03:32:34 GMT</pubDate>
+        <pubDate>Wed, 06 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mattpocock-dictionary-of-ai-coding</guid>
       </item>
 <item>
         <title>vibeforge1111/keep-codex-fast</title>
         <link>https://github.com/vibeforge1111/keep-codex-fast</link>
-        <description>A backup-first Codex skill for keeping local Codex state fast, clean, and recoverable. | 近期热门 | 总 663 stars</description>
+        <description>A backup-first Codex skill for keeping local Codex state fast, clean, and recoverable. | 近期热门 | 总 763 stars</description>
         <author>vibeforge1111</author>
         <category>github</category>
-        <pubDate>Tue, 05 May 2026 03:32:34 GMT</pubDate>
+        <pubDate>Wed, 06 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vibeforge1111-keep-codex-fast</guid>
+      </item>
+<item>
+        <title>Tommy-yw/RunbookHermes</title>
+        <link>https://github.com/Tommy-yw/RunbookHermes</link>
+        <description>Hermes-native AIOps agent for evidence-driven incident response, approval-gated remediation, and runbook learning. | 近期热门 | 总 518 stars</description>
+        <author>Tommy-yw</author>
+        <category>github</category>
+        <pubDate>Wed, 06 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-tommy-yw-runbookhermes</guid>
+      </item>
+<item>
+        <title>crafter-station/petdex</title>
+        <link>https://github.com/crafter-station/petdex</link>
+        <description>Public gallery of animated Codex pets | 近期热门 | 总 425 stars</description>
+        <author>crafter-station</author>
+        <category>github</category>
+        <pubDate>Wed, 06 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-crafter-station-petdex</guid>
       </item>
 <item>
         <title>Kappaemme-git/codex-startup-pressure-test-skill</title>
         <link>https://github.com/Kappaemme-git/codex-startup-pressure-test-skill</link>
-        <description> | 近期热门 | 总 385 stars</description>
+        <description> | 近期热门 | 总 419 stars</description>
         <author>Kappaemme-git</author>
         <category>github</category>
-        <pubDate>Tue, 05 May 2026 03:32:34 GMT</pubDate>
+        <pubDate>Wed, 06 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kappaemme-git-codex-startup-pressure-test-skill</guid>
       </item>
 <item>
         <title>matthart1983/syswatch</title>
         <link>https://github.com/matthart1983/syswatch</link>
-        <description>Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS + Linux. | 近期热门 | 总 335 stars</description>
+        <description>Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS + Linux. | 近期热门 | 总 361 stars</description>
         <author>matthart1983</author>
         <category>github</category>
-        <pubDate>Tue, 05 May 2026 03:32:34 GMT</pubDate>
+        <pubDate>Wed, 06 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-matthart1983-syswatch</guid>
       </item>
 <item>
         <title>StartupHakk/OpenMonoAgent.ai</title>
         <link>https://github.com/StartupHakk/OpenMonoAgent.ai</link>
-        <description>(BETA) AI shouldn&apos;t have a meter. Unlimited tokens. Forever. Your machine. Your agent. Use it from anywhere. Terminal-native coding agent powered by local LLMs — 100% open source, free forever, and installed with a single command. Proudly built on C#/.NET, because AI tooling should be infrastructure, not a subscription. | 近期热门 | 总 229 stars</description>
+        <description>(BETA) AI shouldn&apos;t have a meter. Unlimited tokens. Forever. Your machine. Your agent. Use it from anywhere. Terminal-native coding agent powered by local LLMs — 100% open source, free forever, and installed with a single command. Proudly built on C#/.NET, because AI tooling should be infrastructure, not a subscription. | 近期热门 | 总 297 stars</description>
         <author>StartupHakk</author>
         <category>github</category>
-        <pubDate>Tue, 05 May 2026 03:32:34 GMT</pubDate>
+        <pubDate>Wed, 06 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-startuphakk-openmonoagent.ai</guid>
-      </item>
-<item>
-        <title>endless-sky-team/ai-trading-agent</title>
-        <link>https://github.com/endless-sky-team/ai-trading-agent</link>
-        <description>llm trading bot ai agent crypto bitcoin ethereum perpetuals openrouter lighter algorithmic automated quant typescript react postgres bun fintech defi machine-learning open-source crypto-bot signals | 近期热门 | 总 216 stars</description>
-        <author>endless-sky-team</author>
-        <category>github</category>
-        <pubDate>Tue, 05 May 2026 03:32:34 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-endless-sky-team-ai-trading-agent</guid>
       </item>
 <item>
         <title>evanphi7/lighthouse-router</title>
         <link>https://github.com/evanphi7/lighthouse-router</link>
-        <description>Off-chain DEX route discovery on Solana — pool decoders, multi-hop quoting, and arbitrage cycle detection | 近期热门 | 总 55 stars</description>
+        <description>Off-chain DEX route discovery on Solana — pool decoders, multi-hop quoting, and arbitrage cycle detection | 近期热门 | 总 157 stars</description>
         <author>evanphi7</author>
         <category>github</category>
-        <pubDate>Tue, 05 May 2026 03:32:34 GMT</pubDate>
+        <pubDate>Wed, 06 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-evanphi7-lighthouse-router</guid>
       </item>
   </channel>
