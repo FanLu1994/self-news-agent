@@ -1,111 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/7)</title>
+    <title>6-8 件事 (2026/5/8)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息量不小，而且都围绕着你关心的几个核心词。最重磅的消息是**Anthropic和SpaceX达成了算力合作**，这直接导致**Claude Code的使用限制被提高了**，对重度用户是天大的好消息。另外，社区里关于**Codex**的讨论异常火热，包括怎么绕过验证、怎么看它的“道德感”、以及怎么用得更爽。还有一个关于 **AI Agent** 设计的有价值的讨论帖，值得关注。当然，也少不了几个酷炫的GitHub开源项目。
-
----</description>
+    <description>今天的信息量不小，而且质量很高。最明显的感觉是，围绕着 **AI Agent (特别是 Codex/Claude Code) 的生态** 正在快速成型：有人在做更便宜的替代品、有人在做统一的文件系统、还有人在做远程控制工具。另外，关于 **模型选择、成本控制、甚至具体的 DevOps 工具** 都有一些很精彩的讨论和项目。咱们一个一个来看。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 May 2026 03:34:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 03:34:20 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息量不小，而且都围绕着你关心的几个核心词。最重磅的消息是**Anthropic和SpaceX达成了算力合作**，这直接导致**Claude Code的使用限制被提高了**，对重度用户是天大的好消息。另外，社区里关于**Codex**的讨论异常火热，包括怎么绕过验证、怎么看它的“道德感”、以及怎么用得更爽。还有一个关于 **AI Agent** 设计的有价值的讨论帖，值得关注。当然，也少不了几个酷炫的GitHub开源项目。
-
----</description>
-        <pubDate>Thu, 07 May 2026 03:34:30 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-07T03:34:11.876Z</guid>
+        <description>今天的信息量不小，而且质量很高。最明显的感觉是，围绕着 **AI Agent (特别是 Codex/Claude Code) 的生态** 正在快速成型：有人在做更便宜的替代品、有人在做统一的文件系统、还有人在做远程控制工具。另外，关于 **模型选择、成本控制、甚至具体的 DevOps 工具** 都有一些很精彩的讨论和项目。咱们一个一个来看。</description>
+        <pubDate>Fri, 08 May 2026 03:34:20 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-08T03:33:56.197Z</guid>
       </item>
     <item>
         <title>aattaran/deepclaude</title>
         <link>https://github.com/aattaran/deepclaude</link>
-        <description>Use Claude Code&apos;s autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper. | 近期热门 | 总 1502 stars</description>
+        <description>Use Claude Code&apos;s autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper. | 近期热门 | 总 1601 stars</description>
         <author>aattaran</author>
         <category>github</category>
-        <pubDate>Thu, 07 May 2026 03:33:08 GMT</pubDate>
+        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-aattaran-deepclaude</guid>
       </item>
 <item>
-        <title>mattpocock/dictionary-of-ai-coding</title>
-        <link>https://github.com/mattpocock/dictionary-of-ai-coding</link>
-        <description>AI coding jargon, explained in plain English. | 近期热门 | 总 1157 stars</description>
-        <author>mattpocock</author>
+        <title>yaojingang/yao-open-prompts</title>
+        <link>https://github.com/yaojingang/yao-open-prompts</link>
+        <description>Yao Open Prompts：中文 AI 提示词库，覆盖工作、学习、内容、营销和生活场景 | 近期热门 | 总 1189 stars</description>
+        <author>yaojingang</author>
         <category>github</category>
-        <pubDate>Thu, 07 May 2026 03:33:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-mattpocock-dictionary-of-ai-coding</guid>
-      </item>
-<item>
-        <title>vibeforge1111/keep-codex-fast</title>
-        <link>https://github.com/vibeforge1111/keep-codex-fast</link>
-        <description>A backup-first Codex skill for keeping local Codex state fast, clean, and recoverable. | 近期热门 | 总 816 stars</description>
-        <author>vibeforge1111</author>
-        <category>github</category>
-        <pubDate>Thu, 07 May 2026 03:33:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vibeforge1111-keep-codex-fast</guid>
+        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yaojingang-yao-open-prompts</guid>
       </item>
 <item>
         <title>XBuilderLAB/cheat-on-content</title>
         <link>https://github.com/XBuilderLAB/cheat-on-content</link>
-        <description>Content is already a cheat-code race—whoever cracks the patterns first wins the traffic. Your auto-evolving ops expert that learns YOUR account, not the global average. The Claude Code workflow behind 1M followers in 1 month. | 近期热门 | 总 796 stars</description>
+        <description>Content is already a cheat-code race—whoever cracks the patterns first wins the traffic. Your auto-evolving ops expert that learns YOUR account, not the global average. The Claude Code workflow behind 1M followers in 1 month. | 近期热门 | 总 1053 stars</description>
         <author>XBuilderLAB</author>
         <category>github</category>
-        <pubDate>Thu, 07 May 2026 03:33:08 GMT</pubDate>
+        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-xbuilderlab-cheat-on-content</guid>
+      </item>
+<item>
+        <title>strukto-ai/mirage</title>
+        <link>https://github.com/strukto-ai/mirage</link>
+        <description>A Unified Virtual Filesystem For AI Agents | 近期热门 | 总 1051 stars</description>
+        <author>strukto-ai</author>
+        <category>github</category>
+        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-strukto-ai-mirage</guid>
       </item>
 <item>
         <title>crafter-station/petdex</title>
         <link>https://github.com/crafter-station/petdex</link>
-        <description>Public gallery of animated Codex pets | 近期热门 | 总 770 stars</description>
+        <description>Public gallery of animated Codex pets | 近期热门 | 总 990 stars</description>
         <author>crafter-station</author>
         <category>github</category>
-        <pubDate>Thu, 07 May 2026 03:33:08 GMT</pubDate>
+        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-crafter-station-petdex</guid>
+      </item>
+<item>
+        <title>vibeforge1111/keep-codex-fast</title>
+        <link>https://github.com/vibeforge1111/keep-codex-fast</link>
+        <description>A backup-first Codex skill for keeping local Codex state fast, clean, and recoverable. | 近期热门 | 总 878 stars</description>
+        <author>vibeforge1111</author>
+        <category>github</category>
+        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vibeforge1111-keep-codex-fast</guid>
       </item>
 <item>
         <title>Kappaemme-git/codex-startup-pressure-test-skill</title>
         <link>https://github.com/Kappaemme-git/codex-startup-pressure-test-skill</link>
-        <description> | 近期热门 | 总 593 stars</description>
+        <description> | 近期热门 | 总 707 stars</description>
         <author>Kappaemme-git</author>
         <category>github</category>
-        <pubDate>Thu, 07 May 2026 03:33:08 GMT</pubDate>
+        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kappaemme-git-codex-startup-pressure-test-skill</guid>
-      </item>
-<item>
-        <title>Tommy-yw/RunbookHermes</title>
-        <link>https://github.com/Tommy-yw/RunbookHermes</link>
-        <description>Hermes-native AIOps agent for evidence-driven incident response, approval-gated remediation, and runbook learning. | 近期热门 | 总 530 stars</description>
-        <author>Tommy-yw</author>
-        <category>github</category>
-        <pubDate>Thu, 07 May 2026 03:33:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-tommy-yw-runbookhermes</guid>
       </item>
 <item>
         <title>matthart1983/syswatch</title>
         <link>https://github.com/matthart1983/syswatch</link>
-        <description>Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS + Linux. | 近期热门 | 总 372 stars</description>
+        <description>Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS + Linux. | 近期热门 | 总 387 stars</description>
         <author>matthart1983</author>
         <category>github</category>
-        <pubDate>Thu, 07 May 2026 03:33:08 GMT</pubDate>
+        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-matthart1983-syswatch</guid>
       </item>
 <item>
-        <title>BuluBulugege/Free-BAI</title>
-        <link>https://github.com/BuluBulugege/Free-BAI</link>
-        <description> | 近期热门 | 总 260 stars</description>
-        <author>BuluBulugege</author>
+        <title>thcp/stemdeck</title>
+        <link>https://github.com/thcp/stemdeck</link>
+        <description>Stemdeck is an AI-powered stem extraction platform for musicians and producers, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface | 近期热门 | 总 345 stars</description>
+        <author>thcp</author>
         <category>github</category>
-        <pubDate>Thu, 07 May 2026 03:33:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-bulubulugege-free-bai</guid>
+        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-thcp-stemdeck</guid>
       </item>
 <item>
-        <title>evanphi7/lighthouse-router</title>
-        <link>https://github.com/evanphi7/lighthouse-router</link>
-        <description>Off-chain DEX route discovery on Solana — pool decoders, multi-hop quoting, and arbitrage cycle detection | 近期热门 | 总 231 stars</description>
-        <author>evanphi7</author>
+        <title>moxailoo/univ3-pool-lens</title>
+        <link>https://github.com/moxailoo/univ3-pool-lens</link>
+        <description>A focused TypeScript toolkit for inspecting Uniswap V3 pools — liquidity distribution, fee yield, and impermanent-loss math from your terminal. | 近期热门 | 总 298 stars</description>
+        <author>moxailoo</author>
         <category>github</category>
-        <pubDate>Thu, 07 May 2026 03:33:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-evanphi7-lighthouse-router</guid>
+        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-moxailoo-univ3-pool-lens</guid>
       </item>
   </channel>
 </rss>
