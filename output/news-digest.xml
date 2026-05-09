@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/8)</title>
+    <title>6-8 件事 (2026/5/9)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息量不小，而且质量很高。最明显的感觉是，围绕着 **AI Agent (特别是 Codex/Claude Code) 的生态** 正在快速成型：有人在做更便宜的替代品、有人在做统一的文件系统、还有人在做远程控制工具。另外，关于 **模型选择、成本控制、甚至具体的 DevOps 工具** 都有一些很精彩的讨论和项目。咱们一个一个来看。</description>
+    <description>伙计，今天的资讯可以说是“含AI量”爆表了！从基础设施（推理引擎、文件系统）到应用层（Agent工具、Coding辅助），再到开发者社区的讨论，几乎都围绕着AI和Coding展开。尤其是关于 **Agent** 和 **Coding** 相关的工具和项目特别多，看来大家都在想办法让AI更好地“干活”。有几个开源项目非常有意思，比如一个能帮你把Claude Code的成本降下来的工具，和一个专门给AI Agent用的文件系统。另外，社区里关于模型选择的讨论也挺有价值的。下面我挑几个最值得你花时间看看的。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 08 May 2026 03:34:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 03:34:18 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息量不小，而且质量很高。最明显的感觉是，围绕着 **AI Agent (特别是 Codex/Claude Code) 的生态** 正在快速成型：有人在做更便宜的替代品、有人在做统一的文件系统、还有人在做远程控制工具。另外，关于 **模型选择、成本控制、甚至具体的 DevOps 工具** 都有一些很精彩的讨论和项目。咱们一个一个来看。</description>
-        <pubDate>Fri, 08 May 2026 03:34:20 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-08T03:33:56.197Z</guid>
+        <description>伙计，今天的资讯可以说是“含AI量”爆表了！从基础设施（推理引擎、文件系统）到应用层（Agent工具、Coding辅助），再到开发者社区的讨论，几乎都围绕着AI和Coding展开。尤其是关于 **Agent** 和 **Coding** 相关的工具和项目特别多，看来大家都在想办法让AI更好地“干活”。有几个开源项目非常有意思，比如一个能帮你把Claude Code的成本降下来的工具，和一个专门给AI Agent用的文件系统。另外，社区里关于模型选择的讨论也挺有价值的。下面我挑几个最值得你花时间看看的。</description>
+        <pubDate>Sat, 09 May 2026 03:34:18 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-09T03:33:58.988Z</guid>
       </item>
     <item>
         <title>aattaran/deepclaude</title>
         <link>https://github.com/aattaran/deepclaude</link>
-        <description>Use Claude Code&apos;s autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper. | 近期热门 | 总 1601 stars</description>
+        <description>Use Claude Code&apos;s autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper. | 近期热门 | 总 1645 stars</description>
         <author>aattaran</author>
         <category>github</category>
-        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
+        <pubDate>Sat, 09 May 2026 03:32:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-aattaran-deepclaude</guid>
-      </item>
-<item>
-        <title>yaojingang/yao-open-prompts</title>
-        <link>https://github.com/yaojingang/yao-open-prompts</link>
-        <description>Yao Open Prompts：中文 AI 提示词库，覆盖工作、学习、内容、营销和生活场景 | 近期热门 | 总 1189 stars</description>
-        <author>yaojingang</author>
-        <category>github</category>
-        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-yaojingang-yao-open-prompts</guid>
-      </item>
-<item>
-        <title>XBuilderLAB/cheat-on-content</title>
-        <link>https://github.com/XBuilderLAB/cheat-on-content</link>
-        <description>Content is already a cheat-code race—whoever cracks the patterns first wins the traffic. Your auto-evolving ops expert that learns YOUR account, not the global average. The Claude Code workflow behind 1M followers in 1 month. | 近期热门 | 总 1053 stars</description>
-        <author>XBuilderLAB</author>
-        <category>github</category>
-        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-xbuilderlab-cheat-on-content</guid>
       </item>
 <item>
         <title>strukto-ai/mirage</title>
         <link>https://github.com/strukto-ai/mirage</link>
-        <description>A Unified Virtual Filesystem For AI Agents | 近期热门 | 总 1051 stars</description>
+        <description>A Unified Virtual Filesystem For AI Agents | 近期热门 | 总 1479 stars</description>
         <author>strukto-ai</author>
         <category>github</category>
-        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
+        <pubDate>Sat, 09 May 2026 03:32:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-strukto-ai-mirage</guid>
       </item>
 <item>
-        <title>crafter-station/petdex</title>
-        <link>https://github.com/crafter-station/petdex</link>
-        <description>Public gallery of animated Codex pets | 近期热门 | 总 990 stars</description>
-        <author>crafter-station</author>
+        <title>yaojingang/yao-open-prompts</title>
+        <link>https://github.com/yaojingang/yao-open-prompts</link>
+        <description>Yao Open Prompts：中文 AI 提示词库，覆盖工作、学习、内容、营销和生活场景 | 近期热门 | 总 1396 stars</description>
+        <author>yaojingang</author>
         <category>github</category>
-        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-crafter-station-petdex</guid>
+        <pubDate>Sat, 09 May 2026 03:32:58 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yaojingang-yao-open-prompts</guid>
       </item>
 <item>
-        <title>vibeforge1111/keep-codex-fast</title>
-        <link>https://github.com/vibeforge1111/keep-codex-fast</link>
-        <description>A backup-first Codex skill for keeping local Codex state fast, clean, and recoverable. | 近期热门 | 总 878 stars</description>
-        <author>vibeforge1111</author>
+        <title>lightseekorg/tokenspeed</title>
+        <link>https://github.com/lightseekorg/tokenspeed</link>
+        <description>TokenSpeed is a speed-of-light LLM inference engine. | 近期热门 | 总 799 stars</description>
+        <author>lightseekorg</author>
         <category>github</category>
-        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vibeforge1111-keep-codex-fast</guid>
+        <pubDate>Sat, 09 May 2026 03:32:58 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lightseekorg-tokenspeed</guid>
       </item>
 <item>
         <title>Kappaemme-git/codex-startup-pressure-test-skill</title>
         <link>https://github.com/Kappaemme-git/codex-startup-pressure-test-skill</link>
-        <description> | 近期热门 | 总 707 stars</description>
+        <description> | 近期热门 | 总 729 stars</description>
         <author>Kappaemme-git</author>
         <category>github</category>
-        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
+        <pubDate>Sat, 09 May 2026 03:32:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kappaemme-git-codex-startup-pressure-test-skill</guid>
-      </item>
-<item>
-        <title>matthart1983/syswatch</title>
-        <link>https://github.com/matthart1983/syswatch</link>
-        <description>Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS + Linux. | 近期热门 | 总 387 stars</description>
-        <author>matthart1983</author>
-        <category>github</category>
-        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-matthart1983-syswatch</guid>
       </item>
 <item>
         <title>thcp/stemdeck</title>
         <link>https://github.com/thcp/stemdeck</link>
-        <description>Stemdeck is an AI-powered stem extraction platform for musicians and producers, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface | 近期热门 | 总 345 stars</description>
+        <description>Stemdeck is an AI-powered stem extraction platform for musicians and producers, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface | 近期热门 | 总 369 stars</description>
         <author>thcp</author>
         <category>github</category>
-        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
+        <pubDate>Sat, 09 May 2026 03:32:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-thcp-stemdeck</guid>
+      </item>
+<item>
+        <title>Ch1rpy2613/Mirrai</title>
+        <link>https://github.com/Ch1rpy2613/Mirrai</link>
+        <description> | 近期热门 | 总 337 stars</description>
+        <author>Ch1rpy2613</author>
+        <category>github</category>
+        <pubDate>Sat, 09 May 2026 03:32:58 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ch1rpy2613-mirrai</guid>
       </item>
 <item>
         <title>moxailoo/univ3-pool-lens</title>
         <link>https://github.com/moxailoo/univ3-pool-lens</link>
-        <description>A focused TypeScript toolkit for inspecting Uniswap V3 pools — liquidity distribution, fee yield, and impermanent-loss math from your terminal. | 近期热门 | 总 298 stars</description>
+        <description>A focused TypeScript toolkit for inspecting Uniswap V3 pools — liquidity distribution, fee yield, and impermanent-loss math from your terminal. | 近期热门 | 总 336 stars</description>
         <author>moxailoo</author>
         <category>github</category>
-        <pubDate>Fri, 08 May 2026 03:32:48 GMT</pubDate>
+        <pubDate>Sat, 09 May 2026 03:32:58 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-moxailoo-univ3-pool-lens</guid>
+      </item>
+<item>
+        <title>evanphi7/lighthouse-router</title>
+        <link>https://github.com/evanphi7/lighthouse-router</link>
+        <description>Off-chain DEX route discovery on Solana — pool decoders, multi-hop quoting, and arbitrage cycle detection | 近期热门 | 总 320 stars</description>
+        <author>evanphi7</author>
+        <category>github</category>
+        <pubDate>Sat, 09 May 2026 03:32:58 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-evanphi7-lighthouse-router</guid>
+      </item>
+<item>
+        <title>ajavadinezhad/zyrln</title>
+        <link>https://github.com/ajavadinezhad/zyrln</link>
+        <description>Domain-fronting relay that routes traffic through Google infrastructure to bypass DPI-based censorship,  Android VPN    app + desktop proxy | 近期热门 | 总 285 stars</description>
+        <author>ajavadinezhad</author>
+        <category>github</category>
+        <pubDate>Sat, 09 May 2026 03:32:58 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ajavadinezhad-zyrln</guid>
       </item>
   </channel>
 </rss>
