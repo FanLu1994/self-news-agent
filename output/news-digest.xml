@@ -1,148 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/10)</title>
+    <title>6-8 件事 (2026/5/11)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>**1. AI Coding 工具实测：Plan模式真的能让你“丝滑”编程？**
-有位社区老哥分享了用 **PI Code Agent**（类似Claude Code）一周的真实体验，结论是“太丝滑了”！特别是其中的**Plan模式**，能先让你确认方案再执行，避免了AI“乱改代码”的尴尬。这对正在寻找靠谱Coding Agent的你来说，非常有参考价值。
-
-**2. Vibe Coding 火了，但“高级工程师”可能要断档了？**
-一篇知乎长文引起了广泛讨论。文章指出，随着“Vibe Coding”（随性编程）的流行，初级开发者可能越来越依赖AI，这反而会导致高级工程师出现断层。这个话题直接关乎你的职业发展和技术深度，值得一读。
-
-**3. 刷屏的讨论：HTML 才是 AI 编程的“终极语言”？**
-Anthropic（Claude背后的公司）的工程师发文，建议少用Markdown，多用HTML来和AI交流。理由是HTML结构更清晰，AI理解更准确。这打破了常规认知，对如何高效驱动LLM写代码提供了新思路。
-
-**4. OpenAI 的 Codex 被装进了 Chrome 浏览器**
-Product Hunt上出现了“**Codex in Chrome**”这个产品，让AI编程助手直接在你浏览网页时就能工作，帮你导航和自动化任务。这可能是AI编程从IDE走向泛化的一个信号。
-
-**5. 一个为AI Agent打造的“文件系统”**
-GitHub上出现了**Mirage**这个项目，它定义自己的是“专为AI Agent设计的统一虚拟文件系统”。这意味着Agent可以更高效地管理和调用文件，不再受限于操作系统原生文件系统。对于正在开发Agent应用的你来说，这是个值得关注的基础设施项目。
-
-**6. 真正快的LLM推理引擎来了**
-**TokenSpeed**，名字很直白，就是一个“光速”级的LLM推理引擎。它在GitHub上已经获得了863颗星。如果你对模型部署、推理性能优化感兴趣，这个项目绝对值得花时间研究。
-
-**7. 反对的声音：“我永远不会用AI写代码”**
-在一系列AI编程的工具和赞美声中，有开发者发出了强烈反对的声音。这篇文章会带给你另一个视角，思考AI带来的效率提升背后，我们可能正在失去什么。这种对立的观点往往能引发更深度的思考。
-
----</description>
+    <description>今天的内容简直是为“AI+编程”爱好者量身定做的！从全新的AI编码代理，到让你在Mac上更优雅使用Codex的神器，再到关于“AI PR刷屏”引发的社区思考，信息密度非常高。而且，很多内容都指向了同一个趋势：AI Agent正在从“能写代码”进化到“能自主完成复杂任务”的阶段。我们来看看具体有哪些好东西。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 10 May 2026 03:34:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 03:35:15 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>**1. AI Coding 工具实测：Plan模式真的能让你“丝滑”编程？**
-有位社区老哥分享了用 **PI Code Agent**（类似Claude Code）一周的真实体验，结论是“太丝滑了”！特别是其中的**Plan模式**，能先让你确认方案再执行，避免了AI“乱改代码”的尴尬。这对正在寻找靠谱Coding Agent的你来说，非常有参考价值。
-
-**2. Vibe Coding 火了，但“高级工程师”可能要断档了？**
-一篇知乎长文引起了广泛讨论。文章指出，随着“Vibe Coding”（随性编程）的流行，初级开发者可能越来越依赖AI，这反而会导致高级工程师出现断层。这个话题直接关乎你的职业发展和技术深度，值得一读。
-
-**3. 刷屏的讨论：HTML 才是 AI 编程的“终极语言”？**
-Anthropic（Claude背后的公司）的工程师发文，建议少用Markdown，多用HTML来和AI交流。理由是HTML结构更清晰，AI理解更准确。这打破了常规认知，对如何高效驱动LLM写代码提供了新思路。
-
-**4. OpenAI 的 Codex 被装进了 Chrome 浏览器**
-Product Hunt上出现了“**Codex in Chrome**”这个产品，让AI编程助手直接在你浏览网页时就能工作，帮你导航和自动化任务。这可能是AI编程从IDE走向泛化的一个信号。
-
-**5. 一个为AI Agent打造的“文件系统”**
-GitHub上出现了**Mirage**这个项目，它定义自己的是“专为AI Agent设计的统一虚拟文件系统”。这意味着Agent可以更高效地管理和调用文件，不再受限于操作系统原生文件系统。对于正在开发Agent应用的你来说，这是个值得关注的基础设施项目。
-
-**6. 真正快的LLM推理引擎来了**
-**TokenSpeed**，名字很直白，就是一个“光速”级的LLM推理引擎。它在GitHub上已经获得了863颗星。如果你对模型部署、推理性能优化感兴趣，这个项目绝对值得花时间研究。
-
-**7. 反对的声音：“我永远不会用AI写代码”**
-在一系列AI编程的工具和赞美声中，有开发者发出了强烈反对的声音。这篇文章会带给你另一个视角，思考AI带来的效率提升背后，我们可能正在失去什么。这种对立的观点往往能引发更深度的思考。
-
----</description>
-        <pubDate>Sun, 10 May 2026 03:34:49 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-10T03:34:28.828Z</guid>
+        <description>今天的内容简直是为“AI+编程”爱好者量身定做的！从全新的AI编码代理，到让你在Mac上更优雅使用Codex的神器，再到关于“AI PR刷屏”引发的社区思考，信息密度非常高。而且，很多内容都指向了同一个趋势：AI Agent正在从“能写代码”进化到“能自主完成复杂任务”的阶段。我们来看看具体有哪些好东西。</description>
+        <pubDate>Mon, 11 May 2026 03:35:15 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-11T03:34:55.204Z</guid>
       </item>
     <item>
         <title>strukto-ai/mirage</title>
         <link>https://github.com/strukto-ai/mirage</link>
-        <description>A Unified Virtual Filesystem For AI Agents | 近期热门 | 总 1647 stars</description>
+        <description>A Unified Virtual Filesystem For AI Agents | 近期热门 | 总 1804 stars</description>
         <author>strukto-ai</author>
         <category>github</category>
-        <pubDate>Sun, 10 May 2026 03:33:14 GMT</pubDate>
+        <pubDate>Mon, 11 May 2026 03:33:41 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-strukto-ai-mirage</guid>
       </item>
 <item>
         <title>yaojingang/yao-open-prompts</title>
         <link>https://github.com/yaojingang/yao-open-prompts</link>
-        <description>Yao Open Prompts：中文 AI 提示词库，覆盖工作、学习、内容、营销和生活场景 | 近期热门 | 总 1500 stars</description>
+        <description>Yao Open Prompts：中文 AI 提示词库，覆盖工作、学习、内容、营销和生活场景 | 近期热门 | 总 1579 stars</description>
         <author>yaojingang</author>
         <category>github</category>
-        <pubDate>Sun, 10 May 2026 03:33:14 GMT</pubDate>
+        <pubDate>Mon, 11 May 2026 03:33:41 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-yaojingang-yao-open-prompts</guid>
       </item>
 <item>
         <title>lightseekorg/tokenspeed</title>
         <link>https://github.com/lightseekorg/tokenspeed</link>
-        <description>TokenSpeed is a speed-of-light LLM inference engine. | 近期热门 | 总 863 stars</description>
+        <description>TokenSpeed is a speed-of-light LLM inference engine. | 近期热门 | 总 921 stars</description>
         <author>lightseekorg</author>
         <category>github</category>
-        <pubDate>Sun, 10 May 2026 03:33:14 GMT</pubDate>
+        <pubDate>Mon, 11 May 2026 03:33:41 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-lightseekorg-tokenspeed</guid>
       </item>
 <item>
-        <title>WenyuChiou/awesome-agentic-ai-zh</title>
-        <link>https://github.com/WenyuChiou/awesome-agentic-ai-zh</link>
-        <description>AI Agent 中文學習地圖 — 從零開始的結構化學習路徑，每階段有必做練習跟必修閱讀。三語對照（繁中／简中／English）。歡迎社群一起貢獻、優化內容。 | 近期热门 | 总 549 stars</description>
-        <author>WenyuChiou</author>
+        <title>huangserva/3DCellForge</title>
+        <link>https://github.com/huangserva/3DCellForge</link>
+        <description>AI-powered interactive 3D cell generation and exploration studio. | 近期热门 | 总 857 stars</description>
+        <author>huangserva</author>
         <category>github</category>
-        <pubDate>Sun, 10 May 2026 03:33:14 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wenyuchiou-awesome-agentic-ai-zh</guid>
+        <pubDate>Mon, 11 May 2026 03:33:41 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-huangserva-3dcellforge</guid>
       </item>
 <item>
-        <title>moxailoo/univ3-pool-lens</title>
-        <link>https://github.com/moxailoo/univ3-pool-lens</link>
-        <description>A focused TypeScript toolkit for inspecting Uniswap V3 pools — liquidity distribution, fee yield, and impermanent-loss math from your terminal. | 近期热门 | 总 393 stars</description>
-        <author>moxailoo</author>
+        <title>BigPizzaV3/CodexPlusPlus</title>
+        <link>https://github.com/BigPizzaV3/CodexPlusPlus</link>
+        <description>一个CodexApp的增强工具 | 近期热门 | 总 755 stars</description>
+        <author>BigPizzaV3</author>
         <category>github</category>
-        <pubDate>Sun, 10 May 2026 03:33:14 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-moxailoo-univ3-pool-lens</guid>
+        <pubDate>Mon, 11 May 2026 03:33:41 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-bigpizzav3-codexplusplus</guid>
       </item>
 <item>
         <title>Ch1rpy2613/Mirrai</title>
         <link>https://github.com/Ch1rpy2613/Mirrai</link>
-        <description> | 近期热门 | 总 384 stars</description>
+        <description> | 近期热门 | 总 441 stars</description>
         <author>Ch1rpy2613</author>
         <category>github</category>
-        <pubDate>Sun, 10 May 2026 03:33:14 GMT</pubDate>
+        <pubDate>Mon, 11 May 2026 03:33:41 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-ch1rpy2613-mirrai</guid>
       </item>
 <item>
         <title>PentHertz/LUKSbox</title>
         <link>https://github.com/PentHertz/LUKSbox</link>
-        <description>Store sensitive files in the cloud, or on shared media without trusting the host. LUKSbox is a Rust-based encrypted-container tool with passphrase, FIDO2 (YubiKey, Titan, Nitrokey, Windows Hello), TPM 2.0, and hybrid post-quantum (ML-KEM-768 / 1024) keyslots. Mounts as a real drive on Linux, macOS, and Windows. | 近期热门 | 总 368 stars</description>
+        <description>Store sensitive files in the cloud, or on shared media without trusting the host. LUKSbox is a Rust-based encrypted-container tool with passphrase, FIDO2 (YubiKey, Titan, Nitrokey, Windows Hello), TPM 2.0, and hybrid post-quantum (ML-KEM-768 / 1024) keyslots. Mounts as a real drive on Linux, macOS, and Windows. | 近期热门 | 总 403 stars</description>
         <author>PentHertz</author>
         <category>github</category>
-        <pubDate>Sun, 10 May 2026 03:33:14 GMT</pubDate>
+        <pubDate>Mon, 11 May 2026 03:33:41 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-penthertz-luksbox</guid>
       </item>
 <item>
-        <title>ajavadinezhad/zyrln</title>
-        <link>https://github.com/ajavadinezhad/zyrln</link>
-        <description>Domain-fronting relay that routes traffic through Google infrastructure to bypass DPI-based censorship,  Android VPN    app + desktop proxy | 近期热门 | 总 318 stars</description>
-        <author>ajavadinezhad</author>
+        <title>BuluBulugege/Free-BAI</title>
+        <link>https://github.com/BuluBulugege/Free-BAI</link>
+        <description> | 近期热门 | 总 298 stars</description>
+        <author>BuluBulugege</author>
         <category>github</category>
-        <pubDate>Sun, 10 May 2026 03:33:14 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ajavadinezhad-zyrln</guid>
+        <pubDate>Mon, 11 May 2026 03:33:41 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-bulubulugege-free-bai</guid>
       </item>
 <item>
-        <title>wojtczyk/trust</title>
-        <link>https://github.com/wojtczyk/trust</link>
-        <description>TRUST – Coding Rust like it&apos;s 1989 | 近期热门 | 总 187 stars</description>
-        <author>wojtczyk</author>
+        <title>hoaibaone/OP-Auto-Clicker</title>
+        <link>https://github.com/hoaibaone/OP-Auto-Clicker</link>
+        <description>OP Auto Clicker download automatic mouse clicker automation utility gaming Roblox Minecraft Cookie Clicker fast clicking intervals hotkeys macro mouse button record playback free open source portable PC mobile script trigger settings single double triple. | 近期热门 | 总 161 stars</description>
+        <author>hoaibaone</author>
         <category>github</category>
-        <pubDate>Sun, 10 May 2026 03:33:14 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wojtczyk-trust</guid>
+        <pubDate>Mon, 11 May 2026 03:33:41 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-hoaibaone-op-auto-clicker</guid>
       </item>
 <item>
         <title>zy-zmc/tianming-novel-ai-writer</title>
         <link>https://github.com/zy-zmc/tianming-novel-ai-writer</link>
-        <description>天命 — AI网文创作系统 | 12维事实快照 · 9类变更声明 · 6道生成门禁 | 写到3000章依然连贯，不靠模型记忆，靠每章状态回写 | 近期热门 | 总 87 stars</description>
+        <description>天命 — AI网文创作系统 | 12维事实快照 · 9类变更声明 · 6道生成门禁 | 写到3000章依然连贯，不靠模型记忆，靠每章状态回写 | 近期热门 | 总 108 stars</description>
         <author>zy-zmc</author>
         <category>github</category>
-        <pubDate>Sun, 10 May 2026 03:33:14 GMT</pubDate>
+        <pubDate>Mon, 11 May 2026 03:33:41 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-zy-zmc-tianming-novel-ai-writer</guid>
       </item>
   </channel>
