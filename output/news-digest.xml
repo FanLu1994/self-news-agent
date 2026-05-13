@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/12)</title>
+    <title>6-8 件事 (2026/5/13)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的技术圈，依然是AI和Agent的天下。有超快的推理引擎、帮你写代码的终端Agent、还有关于AI Agent工作效率的深度探讨。同时，几个有意思的开发者讨论也值得一看，比如“AI写代码时代，该用什么架构？”和“Rust在中国到底火没火？” 来看看吧！</description>
+    <description>今天的内容有点意思，**Agent** 和 **Coding** 依然是全场焦点。一边是各种花式玩转 AI Coding 工具（Codex, Claude Code）的实战经验，另一边是社区里涌现出不少旨在让 Agent 更稳定、更可控的新项目。另外，DeepMind 给鼠标指针“整活儿”了，这事儿也值得一看。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 12 May 2026 03:34:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 03:34:48 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的技术圈，依然是AI和Agent的天下。有超快的推理引擎、帮你写代码的终端Agent、还有关于AI Agent工作效率的深度探讨。同时，几个有意思的开发者讨论也值得一看，比如“AI写代码时代，该用什么架构？”和“Rust在中国到底火没火？” 来看看吧！</description>
-        <pubDate>Tue, 12 May 2026 03:34:42 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-12T03:34:33.745Z</guid>
+        <description>今天的内容有点意思，**Agent** 和 **Coding** 依然是全场焦点。一边是各种花式玩转 AI Coding 工具（Codex, Claude Code）的实战经验，另一边是社区里涌现出不少旨在让 Agent 更稳定、更可控的新项目。另外，DeepMind 给鼠标指针“整活儿”了，这事儿也值得一看。</description>
+        <pubDate>Wed, 13 May 2026 03:34:48 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-13T03:34:40.190Z</guid>
       </item>
     <item>
-        <title>strukto-ai/mirage</title>
-        <link>https://github.com/strukto-ai/mirage</link>
-        <description>A Unified Virtual Filesystem For AI Agents | 近期热门 | 总 1949 stars</description>
-        <author>strukto-ai</author>
-        <category>github</category>
-        <pubDate>Tue, 12 May 2026 03:33:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-strukto-ai-mirage</guid>
-      </item>
-<item>
-        <title>yaojingang/yao-open-prompts</title>
-        <link>https://github.com/yaojingang/yao-open-prompts</link>
-        <description>Yao Open Prompts：中文 AI 提示词库，覆盖工作、学习、内容、营销和生活场景 | 近期热门 | 总 1636 stars</description>
-        <author>yaojingang</author>
-        <category>github</category>
-        <pubDate>Tue, 12 May 2026 03:33:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-yaojingang-yao-open-prompts</guid>
-      </item>
-<item>
         <title>huangserva/3DCellForge</title>
         <link>https://github.com/huangserva/3DCellForge</link>
-        <description>AI-powered interactive 3D cell generation and exploration studio. | 近期热门 | 总 1478 stars</description>
+        <description>AI-powered interactive 3D cell generation and exploration studio. | 近期热门 | 总 1721 stars</description>
         <author>huangserva</author>
         <category>github</category>
-        <pubDate>Tue, 12 May 2026 03:33:23 GMT</pubDate>
+        <pubDate>Wed, 13 May 2026 03:33:34 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-huangserva-3dcellforge</guid>
-      </item>
-<item>
-        <title>BigPizzaV3/CodexPlusPlus</title>
-        <link>https://github.com/BigPizzaV3/CodexPlusPlus</link>
-        <description>一个CodexApp的增强工具，努力让Codex变得更好用更舒服 | 近期热门 | 总 1105 stars</description>
-        <author>BigPizzaV3</author>
-        <category>github</category>
-        <pubDate>Tue, 12 May 2026 03:33:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-bigpizzav3-codexplusplus</guid>
-      </item>
-<item>
-        <title>lightseekorg/tokenspeed</title>
-        <link>https://github.com/lightseekorg/tokenspeed</link>
-        <description>TokenSpeed is a speed-of-light LLM inference engine. | 近期热门 | 总 945 stars</description>
-        <author>lightseekorg</author>
-        <category>github</category>
-        <pubDate>Tue, 12 May 2026 03:33:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lightseekorg-tokenspeed</guid>
-      </item>
-<item>
-        <title>darkrishabh/agent-skills-eval</title>
-        <link>https://github.com/darkrishabh/agent-skills-eval</link>
-        <description>A test runner for agentskills.io-style AI agent skills | 近期热门 | 总 430 stars</description>
-        <author>darkrishabh</author>
-        <category>github</category>
-        <pubDate>Tue, 12 May 2026 03:33:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-darkrishabh-agent-skills-eval</guid>
-      </item>
-<item>
-        <title>PentHertz/LUKSbox</title>
-        <link>https://github.com/PentHertz/LUKSbox</link>
-        <description>Store sensitive files in the cloud, or on shared media without trusting the host. LUKSbox is a Rust-based encrypted-container tool with passphrase, FIDO2 (YubiKey, Titan, Nitrokey, Windows Hello), TPM 2.0, and hybrid post-quantum (ML-KEM-768 / 1024) keyslots. Mounts as a real drive on Linux, macOS, and Windows. | 近期热门 | 总 428 stars</description>
-        <author>PentHertz</author>
-        <category>github</category>
-        <pubDate>Tue, 12 May 2026 03:33:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-penthertz-luksbox</guid>
       </item>
 <item>
         <title>wojtczyk/trust</title>
         <link>https://github.com/wojtczyk/trust</link>
-        <description>TRUST – Coding Rust like it&apos;s 1989 | 近期热门 | 总 203 stars</description>
+        <description>TRUST – Coding Rust like it&apos;s 1989 | 近期热门 | 总 215 stars</description>
         <author>wojtczyk</author>
         <category>github</category>
-        <pubDate>Tue, 12 May 2026 03:33:23 GMT</pubDate>
+        <pubDate>Wed, 13 May 2026 03:33:34 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-wojtczyk-trust</guid>
       </item>
 <item>
         <title>zy-zmc/tianming-novel-ai-writer</title>
         <link>https://github.com/zy-zmc/tianming-novel-ai-writer</link>
-        <description>天命 — AI网文创作系统 | 12维事实快照 · 9类变更声明 · 6道生成门禁 | 写到3000章依然连贯，不靠模型记忆，靠每章状态回写 | 近期热门 | 总 117 stars</description>
+        <description>天命 — AI网文创作系统 | 12维事实快照 · 9类变更声明 · 6道生成门禁 | 写到3000章依然连贯，不靠模型记忆，靠每章状态回写 | 近期热门 | 总 130 stars</description>
         <author>zy-zmc</author>
         <category>github</category>
-        <pubDate>Tue, 12 May 2026 03:33:23 GMT</pubDate>
+        <pubDate>Wed, 13 May 2026 03:33:34 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-zy-zmc-tianming-novel-ai-writer</guid>
       </item>
 <item>
-        <title>usewhale/whale</title>
-        <link>https://github.com/usewhale/whale</link>
-        <description>DeepSeek CLI / terminal coding agent with MCP, Skills, shell tools, and prefix-cache optimization. | 近期热门 | 总 83 stars</description>
-        <author>usewhale</author>
+        <title>finewood2008/centaur-loop</title>
+        <link>https://github.com/finewood2008/centaur-loop</link>
+        <description>半人马环 Centaur Loop：面向 AI Agent 反馈闭环、人类治理和记忆复盘的开源工作台 / Human-governed AI feedback loop workbench. | 近期热门 | 总 37 stars</description>
+        <author>finewood2008</author>
         <category>github</category>
-        <pubDate>Tue, 12 May 2026 03:33:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-usewhale-whale</guid>
+        <pubDate>Wed, 13 May 2026 03:33:34 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-finewood2008-centaur-loop</guid>
+      </item>
+<item>
+        <title>Free AI SEO Auditor - 审计您的网站以适应AI搜索时代。100%开源</title>
+        <link>https://www.producthunt.com/products/free-ai-seo-auditor</link>
+        <description>讨论 | 链接</description>
+        <author>Free AI SEO Auditor</author>
+        <category>producthunt</category>
+        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778643208928-0</guid>
+      </item>
+<item>
+        <title>EmailTemple - 用于创建高转化率、符合品牌调性邮件的人工智能工作室</title>
+        <link>https://www.producthunt.com/products/emailtemple</link>
+        <description>讨论 | 链接</description>
+        <author>EmailTemple</author>
+        <category>producthunt</category>
+        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778643208928-2</guid>
+      </item>
+<item>
+        <title>MY AI Agent - AI根据一句话组建一个由3到10个智能体组成的团队</title>
+        <link>https://www.producthunt.com/products/my-ai-agent</link>
+        <description>讨论 | 链接</description>
+        <author>MY AI Agent</author>
+        <category>producthunt</category>
+        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778643208928-3</guid>
+      </item>
+<item>
+        <title>knooth - Mac 端 AI 智能剪辑屏幕录制</title>
+        <link>https://www.producthunt.com/products/knooth</link>
+        <description>讨论 | 链接</description>
+        <author>knooth</author>
+        <category>producthunt</category>
+        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778643208928-5</guid>
+      </item>
+<item>
+        <title>Synci - 全授权AI配乐平台</title>
+        <link>https://www.producthunt.com/products/synci</link>
+        <description>讨论 | 链接</description>
+        <author>Synci</author>
+        <category>producthunt</category>
+        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778643208928-7</guid>
+      </item>
+<item>
+        <title>Vexilo - Claude Code 规划器，配备31个智能体、92条命令及121项技能</title>
+        <link>https://www.producthunt.com/products/vexilo-a-field-guide-to-claude-code</link>
+        <description>讨论 | 链接</description>
+        <author>Vexilo</author>
+        <category>producthunt</category>
+        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778643208928-8</guid>
       </item>
   </channel>
 </rss>
