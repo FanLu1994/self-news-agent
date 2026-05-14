@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/13)</title>
+    <title>6-8 件事 (2026/5/14)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的内容有点意思，**Agent** 和 **Coding** 依然是全场焦点。一边是各种花式玩转 AI Coding 工具（Codex, Claude Code）的实战经验，另一边是社区里涌现出不少旨在让 Agent 更稳定、更可控的新项目。另外，DeepMind 给鼠标指针“整活儿”了，这事儿也值得一看。</description>
+    <description>今天的资讯里，最热闹的无疑是关于 `Codex`、`Claude Code` 和 `Cursor` 这些 AI 编程助手的“凡尔赛”式讨论——大家一边吐槽额度不够用、账号被封、响应太慢，一边又疯狂用它来“Vibe Coding”做项目。另一个亮点是几个面向 AI Agent 的新工具和框架，比如能看到你屏幕的 AI 和开源的工作台，感觉实用性很强。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 13 May 2026 03:34:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 03:34:34 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的内容有点意思，**Agent** 和 **Coding** 依然是全场焦点。一边是各种花式玩转 AI Coding 工具（Codex, Claude Code）的实战经验，另一边是社区里涌现出不少旨在让 Agent 更稳定、更可控的新项目。另外，DeepMind 给鼠标指针“整活儿”了，这事儿也值得一看。</description>
-        <pubDate>Wed, 13 May 2026 03:34:48 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-13T03:34:40.190Z</guid>
+        <description>今天的资讯里，最热闹的无疑是关于 `Codex`、`Claude Code` 和 `Cursor` 这些 AI 编程助手的“凡尔赛”式讨论——大家一边吐槽额度不够用、账号被封、响应太慢，一边又疯狂用它来“Vibe Coding”做项目。另一个亮点是几个面向 AI Agent 的新工具和框架，比如能看到你屏幕的 AI 和开源的工作台，感觉实用性很强。</description>
+        <pubDate>Thu, 14 May 2026 03:34:34 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-14T03:34:27.270Z</guid>
       </item>
     <item>
         <title>huangserva/3DCellForge</title>
         <link>https://github.com/huangserva/3DCellForge</link>
-        <description>AI-powered interactive 3D cell generation and exploration studio. | 近期热门 | 总 1721 stars</description>
+        <description>AI-powered interactive 3D cell generation and exploration studio. | 近期热门 | 总 1824 stars</description>
         <author>huangserva</author>
         <category>github</category>
-        <pubDate>Wed, 13 May 2026 03:33:34 GMT</pubDate>
+        <pubDate>Thu, 14 May 2026 03:33:28 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-huangserva-3dcellforge</guid>
-      </item>
-<item>
-        <title>wojtczyk/trust</title>
-        <link>https://github.com/wojtczyk/trust</link>
-        <description>TRUST – Coding Rust like it&apos;s 1989 | 近期热门 | 总 215 stars</description>
-        <author>wojtczyk</author>
-        <category>github</category>
-        <pubDate>Wed, 13 May 2026 03:33:34 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wojtczyk-trust</guid>
       </item>
 <item>
         <title>zy-zmc/tianming-novel-ai-writer</title>
         <link>https://github.com/zy-zmc/tianming-novel-ai-writer</link>
-        <description>天命 — AI网文创作系统 | 12维事实快照 · 9类变更声明 · 6道生成门禁 | 写到3000章依然连贯，不靠模型记忆，靠每章状态回写 | 近期热门 | 总 130 stars</description>
+        <description>天命 — AI网文创作系统 | 12维事实快照 · 9类变更声明 · 6道生成门禁 | 写到3000章依然连贯，不靠模型记忆，靠每章状态回写 | 近期热门 | 总 137 stars</description>
         <author>zy-zmc</author>
         <category>github</category>
-        <pubDate>Wed, 13 May 2026 03:33:34 GMT</pubDate>
+        <pubDate>Thu, 14 May 2026 03:33:28 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-zy-zmc-tianming-novel-ai-writer</guid>
+      </item>
+<item>
+        <title>ozgurcd/gograph</title>
+        <link>https://github.com/ozgurcd/gograph</link>
+        <description>A fast, local-only CLI tool to generate repository structures and improve IDE context awareness for Go codebases. | 近期热门 | 总 90 stars</description>
+        <author>ozgurcd</author>
+        <category>github</category>
+        <pubDate>Thu, 14 May 2026 03:33:28 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ozgurcd-gograph</guid>
       </item>
 <item>
         <title>finewood2008/centaur-loop</title>
         <link>https://github.com/finewood2008/centaur-loop</link>
-        <description>半人马环 Centaur Loop：面向 AI Agent 反馈闭环、人类治理和记忆复盘的开源工作台 / Human-governed AI feedback loop workbench. | 近期热门 | 总 37 stars</description>
+        <description>半人马环 Centaur Loop：面向 AI Agent 反馈闭环、人类治理和记忆复盘的开源工作台 / Human-governed AI feedback loop workbench. | 近期热门 | 总 42 stars</description>
         <author>finewood2008</author>
         <category>github</category>
-        <pubDate>Wed, 13 May 2026 03:33:34 GMT</pubDate>
+        <pubDate>Thu, 14 May 2026 03:33:28 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-finewood2008-centaur-loop</guid>
       </item>
 <item>
-        <title>Free AI SEO Auditor - 审计您的网站以适应AI搜索时代。100%开源</title>
-        <link>https://www.producthunt.com/products/free-ai-seo-auditor</link>
-        <description>讨论 | 链接</description>
-        <author>Free AI SEO Auditor</author>
-        <category>producthunt</category>
-        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778643208928-0</guid>
+        <title>Mininglamp-OSS/octo-web</title>
+        <link>https://github.com/Mininglamp-OSS/octo-web</link>
+        <description>Web &amp; desktop (Electron) client for the OCTO open workplace — one React + TypeScript codebase shipping browser and PC surfaces, with first-class AI agent UX. | 近期热门 | 总 30 stars</description>
+        <author>Mininglamp-OSS</author>
+        <category>github</category>
+        <pubDate>Thu, 14 May 2026 03:33:28 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-mininglamp-oss-octo-web</guid>
       </item>
 <item>
-        <title>EmailTemple - 用于创建高转化率、符合品牌调性邮件的人工智能工作室</title>
-        <link>https://www.producthunt.com/products/emailtemple</link>
+        <title>Apideck MCP Server - 为AI代理提供跨200多个应用的实时数据访问权限</title>
+        <link>https://www.producthunt.com/products/apideck</link>
         <description>讨论 | 链接</description>
-        <author>EmailTemple</author>
+        <author>Apideck MCP Server</author>
         <category>producthunt</category>
-        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778643208928-2</guid>
+        <pubDate>Thu, 14 May 2026 03:33:22 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778729602774-2</guid>
       </item>
 <item>
-        <title>MY AI Agent - AI根据一句话组建一个由3到10个智能体组成的团队</title>
-        <link>https://www.producthunt.com/products/my-ai-agent</link>
+        <title>Memoket Gem - 一款全天候记录对话的AI可穿戴设备</title>
+        <link>https://www.producthunt.com/products/memoket-gem</link>
         <description>讨论 | 链接</description>
-        <author>MY AI Agent</author>
+        <author>Memoket Gem</author>
         <category>producthunt</category>
-        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778643208928-3</guid>
+        <pubDate>Thu, 14 May 2026 03:33:22 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778729602774-3</guid>
       </item>
 <item>
-        <title>knooth - Mac 端 AI 智能剪辑屏幕录制</title>
-        <link>https://www.producthunt.com/products/knooth</link>
+        <title>Claudy - Claude Code的合适家园——多会话、多账户</title>
+        <link>https://www.producthunt.com/products/claudy</link>
         <description>讨论 | 链接</description>
-        <author>knooth</author>
+        <author>Claudy</author>
         <category>producthunt</category>
-        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778643208928-5</guid>
+        <pubDate>Thu, 14 May 2026 03:33:22 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778729602774-6</guid>
       </item>
 <item>
-        <title>Synci - 全授权AI配乐平台</title>
-        <link>https://www.producthunt.com/products/synci</link>
+        <title>Polygram - AI原生设计与编码应用，用于构建移动端和网页端应用</title>
+        <link>https://www.producthunt.com/products/polygram-4</link>
         <description>讨论 | 链接</description>
-        <author>Synci</author>
+        <author>Polygram</author>
         <category>producthunt</category>
-        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778643208928-7</guid>
+        <pubDate>Thu, 14 May 2026 03:33:22 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778729602774-7</guid>
       </item>
 <item>
-        <title>Vexilo - Claude Code 规划器，配备31个智能体、92条命令及121项技能</title>
-        <link>https://www.producthunt.com/products/vexilo-a-field-guide-to-claude-code</link>
+        <title>Blaze 2.0 - 面向中小企业的AI营销工具，集策略、内容与广告于一体</title>
+        <link>https://www.producthunt.com/products/blaze-5</link>
         <description>讨论 | 链接</description>
-        <author>Vexilo</author>
+        <author>Blaze 2.0</author>
         <category>producthunt</category>
-        <pubDate>Wed, 13 May 2026 03:33:28 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778643208928-8</guid>
+        <pubDate>Thu, 14 May 2026 03:33:22 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778729602774-8</guid>
       </item>
   </channel>
 </rss>
