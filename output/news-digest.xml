@@ -1,53 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/14)</title>
+    <title>6-8 件事 (2026/5/15)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的资讯里，最热闹的无疑是关于 `Codex`、`Claude Code` 和 `Cursor` 这些 AI 编程助手的“凡尔赛”式讨论——大家一边吐槽额度不够用、账号被封、响应太慢，一边又疯狂用它来“Vibe Coding”做项目。另一个亮点是几个面向 AI Agent 的新工具和框架，比如能看到你屏幕的 AI 和开源的工作台，感觉实用性很强。</description>
+    <description>今天最大的热点无疑是 **Codex**，它几乎成了一个现象级的话题。无论是官方发布的新集成、社区里用户真实的上头体验，还是围绕它的各种门（路）题（子），都说明大家都在思考和拥抱AI辅助编程。同时，面向AI Agent的工具也在井喷，从浏览器自动化到计算机操控，都在为“AI替你干活”的未来铺路。另外，OpenAI的Claude Code也展示了下一代AI Agent的发展方向——能够自主构建软件架构。
+
+以下是为你精选的具体内容：</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 14 May 2026 03:34:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 03:34:56 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的资讯里，最热闹的无疑是关于 `Codex`、`Claude Code` 和 `Cursor` 这些 AI 编程助手的“凡尔赛”式讨论——大家一边吐槽额度不够用、账号被封、响应太慢，一边又疯狂用它来“Vibe Coding”做项目。另一个亮点是几个面向 AI Agent 的新工具和框架，比如能看到你屏幕的 AI 和开源的工作台，感觉实用性很强。</description>
-        <pubDate>Thu, 14 May 2026 03:34:34 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-14T03:34:27.270Z</guid>
+        <description>今天最大的热点无疑是 **Codex**，它几乎成了一个现象级的话题。无论是官方发布的新集成、社区里用户真实的上头体验，还是围绕它的各种门（路）题（子），都说明大家都在思考和拥抱AI辅助编程。同时，面向AI Agent的工具也在井喷，从浏览器自动化到计算机操控，都在为“AI替你干活”的未来铺路。另外，OpenAI的Claude Code也展示了下一代AI Agent的发展方向——能够自主构建软件架构。
+
+以下是为你精选的具体内容：</description>
+        <pubDate>Fri, 15 May 2026 03:34:56 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-15T03:34:49.178Z</guid>
       </item>
     <item>
         <title>huangserva/3DCellForge</title>
         <link>https://github.com/huangserva/3DCellForge</link>
-        <description>AI-powered interactive 3D cell generation and exploration studio. | 近期热门 | 总 1824 stars</description>
+        <description>AI-powered interactive 3D model generation, inspection, and presentation studio. | 近期热门 | 总 2019 stars</description>
         <author>huangserva</author>
         <category>github</category>
-        <pubDate>Thu, 14 May 2026 03:33:28 GMT</pubDate>
+        <pubDate>Fri, 15 May 2026 03:33:43 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-huangserva-3dcellforge</guid>
       </item>
 <item>
-        <title>zy-zmc/tianming-novel-ai-writer</title>
-        <link>https://github.com/zy-zmc/tianming-novel-ai-writer</link>
-        <description>天命 — AI网文创作系统 | 12维事实快照 · 9类变更声明 · 6道生成门禁 | 写到3000章依然连贯，不靠模型记忆，靠每章状态回写 | 近期热门 | 总 137 stars</description>
-        <author>zy-zmc</author>
+        <title>ChristianJR19/p-peg</title>
+        <link>https://github.com/ChristianJR19/p-peg</link>
+        <description>pinocchio peg stability module + on-chain creature engine. | 近期热门 | 总 462 stars</description>
+        <author>ChristianJR19</author>
         <category>github</category>
-        <pubDate>Thu, 14 May 2026 03:33:28 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-zy-zmc-tianming-novel-ai-writer</guid>
+        <pubDate>Fri, 15 May 2026 03:33:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-christianjr19-p-peg</guid>
       </item>
 <item>
-        <title>ozgurcd/gograph</title>
-        <link>https://github.com/ozgurcd/gograph</link>
-        <description>A fast, local-only CLI tool to generate repository structures and improve IDE context awareness for Go codebases. | 近期热门 | 总 90 stars</description>
-        <author>ozgurcd</author>
+        <title>mikesheehan54/Claude-Code-Design-AI</title>
+        <link>https://github.com/mikesheehan54/Claude-Code-Design-AI</link>
+        <description>Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Prototyping agent, design systems, wireframe renderer. SVG icon creator, dark mode toggle, responsive layout tool. Front-end code export, shadcn/ui integration, vector assets, branding assistant. | 近期热门 | 总 344 stars</description>
+        <author>mikesheehan54</author>
         <category>github</category>
-        <pubDate>Thu, 14 May 2026 03:33:28 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ozgurcd-gograph</guid>
+        <pubDate>Fri, 15 May 2026 03:33:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-mikesheehan54-claude-code-design-ai</guid>
       </item>
 <item>
-        <title>finewood2008/centaur-loop</title>
-        <link>https://github.com/finewood2008/centaur-loop</link>
-        <description>半人马环 Centaur Loop：面向 AI Agent 反馈闭环、人类治理和记忆复盘的开源工作台 / Human-governed AI feedback loop workbench. | 近期热门 | 总 42 stars</description>
-        <author>finewood2008</author>
+        <title>talentsache/aipointer</title>
+        <link>https://github.com/talentsache/aipointer</link>
+        <description>The AI cursor companion. Hold a key, ask a question, get an answer about whatever your cursor is pointing at. Vision LLM overlay for macOS, Windows, Linux. Multi-provider (OpenRouter, Anthropic, OpenAI, Gemini). Voice in/out. MIT licensed. No telemetry. | 近期热门 | 总 65 stars</description>
+        <author>talentsache</author>
         <category>github</category>
-        <pubDate>Thu, 14 May 2026 03:33:28 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-finewood2008-centaur-loop</guid>
+        <pubDate>Fri, 15 May 2026 03:33:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-talentsache-aipointer</guid>
       </item>
 <item>
         <title>Mininglamp-OSS/octo-web</title>
@@ -55,53 +59,53 @@
         <description>Web &amp; desktop (Electron) client for the OCTO open workplace — one React + TypeScript codebase shipping browser and PC surfaces, with first-class AI agent UX. | 近期热门 | 总 30 stars</description>
         <author>Mininglamp-OSS</author>
         <category>github</category>
-        <pubDate>Thu, 14 May 2026 03:33:28 GMT</pubDate>
+        <pubDate>Fri, 15 May 2026 03:33:43 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mininglamp-oss-octo-web</guid>
       </item>
 <item>
-        <title>Apideck MCP Server - 为AI代理提供跨200多个应用的实时数据访问权限</title>
-        <link>https://www.producthunt.com/products/apideck</link>
+        <title>Spellar 3.0 - 跨会议记忆的AI会议助手</title>
+        <link>https://www.producthunt.com/products/spellar</link>
         <description>讨论 | 链接</description>
-        <author>Apideck MCP Server</author>
+        <author>Spellar 3.0</author>
         <category>producthunt</category>
-        <pubDate>Thu, 14 May 2026 03:33:22 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778729602774-2</guid>
+        <pubDate>Fri, 15 May 2026 03:33:37 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778816017818-0</guid>
       </item>
 <item>
-        <title>Memoket Gem - 一款全天候记录对话的AI可穿戴设备</title>
-        <link>https://www.producthunt.com/products/memoket-gem</link>
+        <title>Tendem by Toloka - AI平台将任何任务转交给人类专家</title>
+        <link>https://www.producthunt.com/products/tendem-by-toloka</link>
         <description>讨论 | 链接</description>
-        <author>Memoket Gem</author>
+        <author>Tendem by Toloka</author>
         <category>producthunt</category>
-        <pubDate>Thu, 14 May 2026 03:33:22 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778729602774-3</guid>
+        <pubDate>Fri, 15 May 2026 03:33:37 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778816017818-1</guid>
       </item>
 <item>
-        <title>Claudy - Claude Code的合适家园——多会话、多账户</title>
-        <link>https://www.producthunt.com/products/claudy</link>
+        <title>Causo for Fundraising - 精准定位合适的风险投资机构，跳过繁琐的筛选过程。</title>
+        <link>https://www.producthunt.com/products/causo-hub-free-tools-for-fundraising</link>
         <description>讨论 | 链接</description>
-        <author>Claudy</author>
+        <author>Causo for Fundraising</author>
         <category>producthunt</category>
-        <pubDate>Thu, 14 May 2026 03:33:22 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778729602774-6</guid>
+        <pubDate>Fri, 15 May 2026 03:33:37 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778816017818-3</guid>
       </item>
 <item>
-        <title>Polygram - AI原生设计与编码应用，用于构建移动端和网页端应用</title>
-        <link>https://www.producthunt.com/products/polygram-4</link>
+        <title>Asteroid - 在几秒内构建浏览器、Linux和Windows的AI代理</title>
+        <link>https://www.producthunt.com/products/asteroid-3</link>
         <description>讨论 | 链接</description>
-        <author>Polygram</author>
+        <author>Asteroid</author>
         <category>producthunt</category>
-        <pubDate>Thu, 14 May 2026 03:33:22 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778729602774-7</guid>
+        <pubDate>Fri, 15 May 2026 03:33:37 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778816017818-4</guid>
       </item>
 <item>
-        <title>Blaze 2.0 - 面向中小企业的AI营销工具，集策略、内容与广告于一体</title>
-        <link>https://www.producthunt.com/products/blaze-5</link>
+        <title>AURIXA - 始终陪伴且深度契合的AI伙伴</title>
+        <link>https://www.producthunt.com/products/replit</link>
         <description>讨论 | 链接</description>
-        <author>Blaze 2.0</author>
+        <author>AURIXA</author>
         <category>producthunt</category>
-        <pubDate>Thu, 14 May 2026 03:33:22 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778729602774-8</guid>
+        <pubDate>Fri, 15 May 2026 03:33:37 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778816017818-5</guid>
       </item>
   </channel>
 </rss>
