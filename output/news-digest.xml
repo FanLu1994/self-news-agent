@@ -1,56 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/15)</title>
+    <title>6-8 件事 (2026/5/16)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天最大的热点无疑是 **Codex**，它几乎成了一个现象级的话题。无论是官方发布的新集成、社区里用户真实的上头体验，还是围绕它的各种门（路）题（子），都说明大家都在思考和拥抱AI辅助编程。同时，面向AI Agent的工具也在井喷，从浏览器自动化到计算机操控，都在为“AI替你干活”的未来铺路。另外，OpenAI的Claude Code也展示了下一代AI Agent的发展方向——能够自主构建软件架构。
-
-以下是为你精选的具体内容：</description>
+    <description>今天的信息量挺大，围绕 **AI coding** 这个主题，有几个明显的热点：**Claude Code** 的生态工具和最佳实践是大家讨论的重点；同时，**GPT Codex** 的额度、网络问题和使用技巧也是社区里的热门话题。另外，还有一些帮助你更好地管理和使用AI Agent的工具也冒了出来，值得一看。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 15 May 2026 03:34:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 03:33:55 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天最大的热点无疑是 **Codex**，它几乎成了一个现象级的话题。无论是官方发布的新集成、社区里用户真实的上头体验，还是围绕它的各种门（路）题（子），都说明大家都在思考和拥抱AI辅助编程。同时，面向AI Agent的工具也在井喷，从浏览器自动化到计算机操控，都在为“AI替你干活”的未来铺路。另外，OpenAI的Claude Code也展示了下一代AI Agent的发展方向——能够自主构建软件架构。
-
-以下是为你精选的具体内容：</description>
-        <pubDate>Fri, 15 May 2026 03:34:56 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-15T03:34:49.178Z</guid>
+        <description>今天的信息量挺大，围绕 **AI coding** 这个主题，有几个明显的热点：**Claude Code** 的生态工具和最佳实践是大家讨论的重点；同时，**GPT Codex** 的额度、网络问题和使用技巧也是社区里的热门话题。另外，还有一些帮助你更好地管理和使用AI Agent的工具也冒了出来，值得一看。</description>
+        <pubDate>Sat, 16 May 2026 03:33:55 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-16T03:33:48.231Z</guid>
       </item>
     <item>
         <title>huangserva/3DCellForge</title>
         <link>https://github.com/huangserva/3DCellForge</link>
-        <description>AI-powered interactive 3D model generation, inspection, and presentation studio. | 近期热门 | 总 2019 stars</description>
+        <description>AI-powered interactive 3D model generation, inspection, and presentation studio. | 近期热门 | 总 2065 stars</description>
         <author>huangserva</author>
         <category>github</category>
-        <pubDate>Fri, 15 May 2026 03:33:43 GMT</pubDate>
+        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-huangserva-3dcellforge</guid>
-      </item>
-<item>
-        <title>ChristianJR19/p-peg</title>
-        <link>https://github.com/ChristianJR19/p-peg</link>
-        <description>pinocchio peg stability module + on-chain creature engine. | 近期热门 | 总 462 stars</description>
-        <author>ChristianJR19</author>
-        <category>github</category>
-        <pubDate>Fri, 15 May 2026 03:33:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-christianjr19-p-peg</guid>
       </item>
 <item>
         <title>mikesheehan54/Claude-Code-Design-AI</title>
         <link>https://github.com/mikesheehan54/Claude-Code-Design-AI</link>
-        <description>Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Prototyping agent, design systems, wireframe renderer. SVG icon creator, dark mode toggle, responsive layout tool. Front-end code export, shadcn/ui integration, vector assets, branding assistant. | 近期热门 | 总 344 stars</description>
+        <description>Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Prototyping agent, design systems, wireframe renderer. SVG icon creator, dark mode toggle, responsive layout tool. Front-end code export, shadcn/ui integration, vector assets, branding assistant. | 近期热门 | 总 378 stars</description>
         <author>mikesheehan54</author>
         <category>github</category>
-        <pubDate>Fri, 15 May 2026 03:33:43 GMT</pubDate>
+        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mikesheehan54-claude-code-design-ai</guid>
+      </item>
+<item>
+        <title>Siigari/claude-heartbeat</title>
+        <link>https://github.com/Siigari/claude-heartbeat</link>
+        <description>Keep Claude Code alive and autonomous without -p. Heartbeat hook + inbox/outbox pattern. | 近期热门 | 总 152 stars</description>
+        <author>Siigari</author>
+        <category>github</category>
+        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-siigari-claude-heartbeat</guid>
+      </item>
+<item>
+        <title>johunsang/semble_rs</title>
+        <link>https://github.com/johunsang/semble_rs</link>
+        <description>Fast, AI-agent-native code search in Rust — hybrid BM25 + semantic, Tree-sitter AST chunking, dependency &amp; impact analysis. Drop-in replacement for grep/cat/read/ls in Claude Code, Codex, Cursor, Aider, OpenHands. | 近期热门 | 总 82 stars</description>
+        <author>johunsang</author>
+        <category>github</category>
+        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-johunsang-semble_rs</guid>
       </item>
 <item>
         <title>talentsache/aipointer</title>
         <link>https://github.com/talentsache/aipointer</link>
-        <description>The AI cursor companion. Hold a key, ask a question, get an answer about whatever your cursor is pointing at. Vision LLM overlay for macOS, Windows, Linux. Multi-provider (OpenRouter, Anthropic, OpenAI, Gemini). Voice in/out. MIT licensed. No telemetry. | 近期热门 | 总 65 stars</description>
+        <description>The AI cursor companion. Hold a key, ask a question, get an answer about whatever your cursor is pointing at. Vision LLM overlay for macOS, Windows, Linux. Multi-provider (OpenRouter, Anthropic, OpenAI, Gemini). Voice in/out. MIT licensed. No telemetry. | 近期热门 | 总 66 stars</description>
         <author>talentsache</author>
         <category>github</category>
-        <pubDate>Fri, 15 May 2026 03:33:43 GMT</pubDate>
+        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-talentsache-aipointer</guid>
       </item>
 <item>
@@ -59,53 +64,44 @@
         <description>Web &amp; desktop (Electron) client for the OCTO open workplace — one React + TypeScript codebase shipping browser and PC surfaces, with first-class AI agent UX. | 近期热门 | 总 30 stars</description>
         <author>Mininglamp-OSS</author>
         <category>github</category>
-        <pubDate>Fri, 15 May 2026 03:33:43 GMT</pubDate>
+        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mininglamp-oss-octo-web</guid>
       </item>
 <item>
-        <title>Spellar 3.0 - 跨会议记忆的AI会议助手</title>
-        <link>https://www.producthunt.com/products/spellar</link>
+        <title>Atter AI - 将会议转化为行动项的AI转录应用</title>
+        <link>https://www.producthunt.com/products/atter-ai-ai-transcription-for-meetings</link>
         <description>讨论 | 链接</description>
-        <author>Spellar 3.0</author>
+        <author>Atter AI</author>
         <category>producthunt</category>
-        <pubDate>Fri, 15 May 2026 03:33:37 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778816017818-0</guid>
+        <pubDate>Sat, 16 May 2026 03:32:51 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778902371767-1</guid>
       </item>
 <item>
-        <title>Tendem by Toloka - AI平台将任何任务转交给人类专家</title>
-        <link>https://www.producthunt.com/products/tendem-by-toloka</link>
+        <title>AgentRail - AI编码代理的本地控制平面</title>
+        <link>https://www.producthunt.com/products/agentrail</link>
         <description>讨论 | 链接</description>
-        <author>Tendem by Toloka</author>
+        <author>AgentRail</author>
         <category>producthunt</category>
-        <pubDate>Fri, 15 May 2026 03:33:37 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778816017818-1</guid>
+        <pubDate>Sat, 16 May 2026 03:32:51 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778902371767-3</guid>
       </item>
 <item>
-        <title>Causo for Fundraising - 精准定位合适的风险投资机构，跳过繁琐的筛选过程。</title>
-        <link>https://www.producthunt.com/products/causo-hub-free-tools-for-fundraising</link>
+        <title>HasData - 面向AI代理的网络爬虫服务</title>
+        <link>https://www.producthunt.com/products/hasdata</link>
         <description>讨论 | 链接</description>
-        <author>Causo for Fundraising</author>
+        <author>HasData</author>
         <category>producthunt</category>
-        <pubDate>Fri, 15 May 2026 03:33:37 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778816017818-3</guid>
+        <pubDate>Sat, 16 May 2026 03:32:51 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778902371767-4</guid>
       </item>
 <item>
-        <title>Asteroid - 在几秒内构建浏览器、Linux和Windows的AI代理</title>
-        <link>https://www.producthunt.com/products/asteroid-3</link>
+        <title>Relay - 停止对每个AI重复你的话。</title>
+        <link>https://www.producthunt.com/products/relay-15</link>
         <description>讨论 | 链接</description>
-        <author>Asteroid</author>
+        <author>Relay</author>
         <category>producthunt</category>
-        <pubDate>Fri, 15 May 2026 03:33:37 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778816017818-4</guid>
-      </item>
-<item>
-        <title>AURIXA - 始终陪伴且深度契合的AI伙伴</title>
-        <link>https://www.producthunt.com/products/replit</link>
-        <description>讨论 | 链接</description>
-        <author>AURIXA</author>
-        <category>producthunt</category>
-        <pubDate>Fri, 15 May 2026 03:33:37 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778816017818-5</guid>
+        <pubDate>Sat, 16 May 2026 03:32:51 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778902371767-5</guid>
       </item>
   </channel>
 </rss>
