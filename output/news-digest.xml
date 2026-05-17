@@ -1,107 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/16)</title>
+    <title>6-8 件事 (2026/5/17)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息量挺大，围绕 **AI coding** 这个主题，有几个明显的热点：**Claude Code** 的生态工具和最佳实践是大家讨论的重点；同时，**GPT Codex** 的额度、网络问题和使用技巧也是社区里的热门话题。另外，还有一些帮助你更好地管理和使用AI Agent的工具也冒了出来，值得一看。</description>
+    <description>1.  **【Claude Code 深度实践】一篇来自技术大佬的硬核指南，教你如何在大型项目中用好Claude Code。** 这绝对是今天所有内容里最有“干货”的一篇，值得花时间仔细读。
+2.  **【编码Agent生态爆发】围绕Claude Code和Codex，出现了大量配套工具。** 比如给AI加“记忆”的Agentmemory，可视化分析的PromptScout，甚至有人专门讨论vibe coding的安全问题。这说明AI编码已经从“能用”进入到“如何用好、用得安全”的阶段。
+3.  **【Codex 额度重置讨论】社区里多个帖子在讨论Codex额度是否刷新，以及购买的渠道和价格。** 这说明Codex的用户群体活跃，大家都在积极使用并寻找更经济的方案。
+4.  **【AI Agent连接现实世界】好几个产品和项目都在做一件事：让AI Agent能“动起来”。** 像Kimi WebBridge、HasData（为Agent做爬虫）、还有那个能自动做动漫短视频的工具，都展示了 Agent 从“聊天”到“执行任务”的进化。
+5.  **【GitHub项目亮点】几个与“AI编码”强相关的项目火了。** 比如能用截图生成UI的`Claude-Code-Design-AI`、极致轻量的编码Agent `zerostack`，以及Mininglamp开源的AI Agent办公客户端。
+6.  **【一点争议和思考】有用户分享了用“Vibe Coding”导致安全漏洞的经历，引发社区讨论。** 同时，HackerNews上也有关于“前沿AI已经打破开放式CTF（网络安全竞赛）格式”的讨论，这说明AI的能力在安全领域也引发了深刻反思。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 16 May 2026 03:33:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 03:34:43 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息量挺大，围绕 **AI coding** 这个主题，有几个明显的热点：**Claude Code** 的生态工具和最佳实践是大家讨论的重点；同时，**GPT Codex** 的额度、网络问题和使用技巧也是社区里的热门话题。另外，还有一些帮助你更好地管理和使用AI Agent的工具也冒了出来，值得一看。</description>
-        <pubDate>Sat, 16 May 2026 03:33:55 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-16T03:33:48.231Z</guid>
+        <description>1.  **【Claude Code 深度实践】一篇来自技术大佬的硬核指南，教你如何在大型项目中用好Claude Code。** 这绝对是今天所有内容里最有“干货”的一篇，值得花时间仔细读。
+2.  **【编码Agent生态爆发】围绕Claude Code和Codex，出现了大量配套工具。** 比如给AI加“记忆”的Agentmemory，可视化分析的PromptScout，甚至有人专门讨论vibe coding的安全问题。这说明AI编码已经从“能用”进入到“如何用好、用得安全”的阶段。
+3.  **【Codex 额度重置讨论】社区里多个帖子在讨论Codex额度是否刷新，以及购买的渠道和价格。** 这说明Codex的用户群体活跃，大家都在积极使用并寻找更经济的方案。
+4.  **【AI Agent连接现实世界】好几个产品和项目都在做一件事：让AI Agent能“动起来”。** 像Kimi WebBridge、HasData（为Agent做爬虫）、还有那个能自动做动漫短视频的工具，都展示了 Agent 从“聊天”到“执行任务”的进化。
+5.  **【GitHub项目亮点】几个与“AI编码”强相关的项目火了。** 比如能用截图生成UI的`Claude-Code-Design-AI`、极致轻量的编码Agent `zerostack`，以及Mininglamp开源的AI Agent办公客户端。
+6.  **【一点争议和思考】有用户分享了用“Vibe Coding”导致安全漏洞的经历，引发社区讨论。** 同时，HackerNews上也有关于“前沿AI已经打破开放式CTF（网络安全竞赛）格式”的讨论，这说明AI的能力在安全领域也引发了深刻反思。
+
+---</description>
+        <pubDate>Sun, 17 May 2026 03:34:43 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-17T03:34:36.671Z</guid>
       </item>
     <item>
-        <title>huangserva/3DCellForge</title>
-        <link>https://github.com/huangserva/3DCellForge</link>
-        <description>AI-powered interactive 3D model generation, inspection, and presentation studio. | 近期热门 | 总 2065 stars</description>
-        <author>huangserva</author>
-        <category>github</category>
-        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-huangserva-3dcellforge</guid>
-      </item>
-<item>
         <title>mikesheehan54/Claude-Code-Design-AI</title>
         <link>https://github.com/mikesheehan54/Claude-Code-Design-AI</link>
-        <description>Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Prototyping agent, design systems, wireframe renderer. SVG icon creator, dark mode toggle, responsive layout tool. Front-end code export, shadcn/ui integration, vector assets, branding assistant. | 近期热门 | 总 378 stars</description>
+        <description>Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Prototyping agent, design systems, wireframe renderer. SVG icon creator, dark mode toggle, responsive layout tool. Front-end code export, shadcn/ui integration, vector assets, branding assistant. | 近期热门 | 总 379 stars</description>
         <author>mikesheehan54</author>
         <category>github</category>
-        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 03:33:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mikesheehan54-claude-code-design-ai</guid>
       </item>
 <item>
-        <title>Siigari/claude-heartbeat</title>
-        <link>https://github.com/Siigari/claude-heartbeat</link>
-        <description>Keep Claude Code alive and autonomous without -p. Heartbeat hook + inbox/outbox pattern. | 近期热门 | 总 152 stars</description>
-        <author>Siigari</author>
+        <title>gi-dellav/zerostack</title>
+        <link>https://github.com/gi-dellav/zerostack</link>
+        <description>Minimalistic coding agent written in Rust, optimized for memory footprint and performance | 近期热门 | 总 122 stars</description>
+        <author>gi-dellav</author>
         <category>github</category>
-        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-siigari-claude-heartbeat</guid>
-      </item>
-<item>
-        <title>johunsang/semble_rs</title>
-        <link>https://github.com/johunsang/semble_rs</link>
-        <description>Fast, AI-agent-native code search in Rust — hybrid BM25 + semantic, Tree-sitter AST chunking, dependency &amp; impact analysis. Drop-in replacement for grep/cat/read/ls in Claude Code, Codex, Cursor, Aider, OpenHands. | 近期热门 | 总 82 stars</description>
-        <author>johunsang</author>
-        <category>github</category>
-        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-johunsang-semble_rs</guid>
+        <pubDate>Sun, 17 May 2026 03:33:30 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-gi-dellav-zerostack</guid>
       </item>
 <item>
         <title>talentsache/aipointer</title>
         <link>https://github.com/talentsache/aipointer</link>
-        <description>The AI cursor companion. Hold a key, ask a question, get an answer about whatever your cursor is pointing at. Vision LLM overlay for macOS, Windows, Linux. Multi-provider (OpenRouter, Anthropic, OpenAI, Gemini). Voice in/out. MIT licensed. No telemetry. | 近期热门 | 总 66 stars</description>
+        <description>The AI cursor companion. Hold a key, ask a question, get an answer about whatever your cursor is pointing at. Vision LLM overlay for macOS, Windows, Linux. Multi-provider (OpenRouter, Anthropic, OpenAI, Gemini). Voice in/out. MIT licensed. No telemetry. | 近期热门 | 总 77 stars</description>
         <author>talentsache</author>
         <category>github</category>
-        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 03:33:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-talentsache-aipointer</guid>
+      </item>
+<item>
+        <title>walkingddd/CPA-Helper</title>
+        <link>https://github.com/walkingddd/CPA-Helper</link>
+        <description>CPA-Helper 是面向 CLIProxyAPI 用户的本地自托管多用户管理面板，支持多用户独立 API Key、用量隔离统计、请求明细追踪、模型价格维护、可用模型查询、管理员账号管控与 Codex 账号巡检。 | 近期热门 | 总 52 stars</description>
+        <author>walkingddd</author>
+        <category>github</category>
+        <pubDate>Sun, 17 May 2026 03:33:30 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-walkingddd-cpa-helper</guid>
       </item>
 <item>
         <title>Mininglamp-OSS/octo-web</title>
         <link>https://github.com/Mininglamp-OSS/octo-web</link>
-        <description>Web &amp; desktop (Electron) client for the OCTO open workplace — one React + TypeScript codebase shipping browser and PC surfaces, with first-class AI agent UX. | 近期热门 | 总 30 stars</description>
+        <description>Web &amp; desktop (Electron) client for the OCTO open workplace — one React + TypeScript codebase shipping browser and PC surfaces, with first-class AI agent UX. | 近期热门 | 总 32 stars</description>
         <author>Mininglamp-OSS</author>
         <category>github</category>
-        <pubDate>Sat, 16 May 2026 03:32:57 GMT</pubDate>
+        <pubDate>Sun, 17 May 2026 03:33:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mininglamp-oss-octo-web</guid>
       </item>
 <item>
-        <title>Atter AI - 将会议转化为行动项的AI转录应用</title>
-        <link>https://www.producthunt.com/products/atter-ai-ai-transcription-for-meetings</link>
+        <title>Loova Agents - 您的AI导演，轻松创作电影级视频</title>
+        <link>https://www.producthunt.com/products/loova-agents</link>
         <description>讨论 | 链接</description>
-        <author>Atter AI</author>
+        <author>Loova Agents</author>
         <category>producthunt</category>
-        <pubDate>Sat, 16 May 2026 03:32:51 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778902371767-1</guid>
+        <pubDate>Sun, 17 May 2026 03:33:24 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778988804410-0</guid>
       </item>
 <item>
-        <title>AgentRail - AI编码代理的本地控制平面</title>
-        <link>https://www.producthunt.com/products/agentrail</link>
+        <title>Agentmemory - Claude Code、Codex及编码代理的持久化内存</title>
+        <link>https://www.producthunt.com/products/agent-memory-dev</link>
         <description>讨论 | 链接</description>
-        <author>AgentRail</author>
+        <author>Agentmemory</author>
         <category>producthunt</category>
-        <pubDate>Sat, 16 May 2026 03:32:51 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778902371767-3</guid>
+        <pubDate>Sun, 17 May 2026 03:33:24 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778988804410-2</guid>
       </item>
 <item>
-        <title>HasData - 面向AI代理的网络爬虫服务</title>
-        <link>https://www.producthunt.com/products/hasdata</link>
+        <title>Gemini 3.1 Flash-Lite - 用于高容量AI管道的轻量级Gemini模型</title>
+        <link>https://www.producthunt.com/products/gemini-3-1-flash-lite-2</link>
         <description>讨论 | 链接</description>
-        <author>HasData</author>
+        <author>Gemini 3.1 Flash-Lite</author>
         <category>producthunt</category>
-        <pubDate>Sat, 16 May 2026 03:32:51 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778902371767-4</guid>
+        <pubDate>Sun, 17 May 2026 03:33:24 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778988804410-6</guid>
       </item>
 <item>
-        <title>Relay - 停止对每个AI重复你的话。</title>
-        <link>https://www.producthunt.com/products/relay-15</link>
+        <title>Kimi WebBridge - 将AI代理连接到实时网络的桥梁</title>
+        <link>https://www.producthunt.com/products/kimi-ai-assistant</link>
         <description>讨论 | 链接</description>
-        <author>Relay</author>
+        <author>Kimi WebBridge</author>
         <category>producthunt</category>
-        <pubDate>Sat, 16 May 2026 03:32:51 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778902371767-5</guid>
+        <pubDate>Sun, 17 May 2026 03:33:24 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778988804410-8</guid>
+      </item>
+<item>
+        <title>Magic Notebook - 一款简洁无干扰的写作应用，无复杂功能，无AI。</title>
+        <link>https://www.producthunt.com/products/magic-notebook</link>
+        <description>讨论 | 链接</description>
+        <author>Magic Notebook</author>
+        <category>producthunt</category>
+        <pubDate>Sun, 17 May 2026 03:33:24 GMT</pubDate>
+        <guid isPermaLink="false">ph-1778988804410-14</guid>
       </item>
   </channel>
 </rss>

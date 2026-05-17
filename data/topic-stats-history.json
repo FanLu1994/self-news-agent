@@ -1460,5 +1460,22 @@
       "OpenSource": 2,
       "Other": 0
     }
+  },
+  {
+    "date": "2026-05-17",
+    "total": 36,
+    "byTopic": {
+      "AI": 26,
+      "Frontend": 5,
+      "Backend": 1,
+      "DevOps": 1,
+      "Data": 0,
+      "Security": 1,
+      "Cloud": 0,
+      "Mobile": 1,
+      "Startup": 0,
+      "OpenSource": 0,
+      "Other": 1
+    }
   }
 ]
