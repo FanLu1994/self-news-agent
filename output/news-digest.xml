@@ -1,76 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/17)</title>
+    <title>6-8 件事 (2026/5/18)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>1.  **【Claude Code 深度实践】一篇来自技术大佬的硬核指南，教你如何在大型项目中用好Claude Code。** 这绝对是今天所有内容里最有“干货”的一篇，值得花时间仔细读。
-2.  **【编码Agent生态爆发】围绕Claude Code和Codex，出现了大量配套工具。** 比如给AI加“记忆”的Agentmemory，可视化分析的PromptScout，甚至有人专门讨论vibe coding的安全问题。这说明AI编码已经从“能用”进入到“如何用好、用得安全”的阶段。
-3.  **【Codex 额度重置讨论】社区里多个帖子在讨论Codex额度是否刷新，以及购买的渠道和价格。** 这说明Codex的用户群体活跃，大家都在积极使用并寻找更经济的方案。
-4.  **【AI Agent连接现实世界】好几个产品和项目都在做一件事：让AI Agent能“动起来”。** 像Kimi WebBridge、HasData（为Agent做爬虫）、还有那个能自动做动漫短视频的工具，都展示了 Agent 从“聊天”到“执行任务”的进化。
-5.  **【GitHub项目亮点】几个与“AI编码”强相关的项目火了。** 比如能用截图生成UI的`Claude-Code-Design-AI`、极致轻量的编码Agent `zerostack`，以及Mininglamp开源的AI Agent办公客户端。
-6.  **【一点争议和思考】有用户分享了用“Vibe Coding”导致安全漏洞的经历，引发社区讨论。** 同时，HackerNews上也有关于“前沿AI已经打破开放式CTF（网络安全竞赛）格式”的讨论，这说明AI的能力在安全领域也引发了深刻反思。
+    <description>1.  **GitHub 上又出现了一批新的 AI 编程工具！** 比如用 Rust 写的极简 Coding Agent `zerostack`，还有能自动 review 代码、修 bug 并提交 PR 的 `clawpatch`，以及一个很酷的“AI 光标伴侣”`aipointer`，按住快捷键就能问它光标指着的任何代码问题。
+2.  **“如何更好地用 AI 写代码”是社区热议的话题。** 从 V2EX 到 Linux.do，大家都在讨论怎么设置 Codex、怎么解决乱码、怎么拆分业务逻辑才能让 AI 理解得更清楚。这说明大家已经不满足于“能用”，开始追求“用好”了。
+3.  **关于 AI Agent 的讨论非常火热。** 有人想做一个从 PRD 到代码的全自动 Agent，有人分享了 Codex 偷偷调用浏览器插件的“诡异”经历，还有人在探讨多 Agent 时代如何管理我们的注意力。Agent 已经从概念走进日常开发，开始引发各种实际问题和思考。
+4.  **Product Hunt 上涌现了一批专注于“AI 编程”和“Agent”的新品。** 比如为 Claude Code 和 Codex 提供持久化内存的 `Agentmemory`、具备 Claude Code 体验的智能体浏览器 `Nimbus`，还有用于连接 AI Agent 和实时网络的 `Kimi WebBridge`，生态越来越丰富。
+5.  **一篇深度文章讨论了“AI 编程”背景下的代码搜索问题。** HackNews 上开源的 `Semble`，号称专为 AI Agent 设计，能让代码搜索比 `grep` 减少 98% 的 Token 消耗。这对于使用 Claude Code 等工具处理大型代码库的人来说，简直是福音。
+6.  **别只盯着 Rust！** 一篇技术博客硬核地分析了 Go 的性能优化，认为与其花大力气把 1% 的热路径代码用 Rust 重写，不如先把 Go 本身的性能优化好。这个观点在“万物皆可 Rust 重写”的当下，显得非常清醒。
 
 ---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 17 May 2026 03:34:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 03:35:16 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>1.  **【Claude Code 深度实践】一篇来自技术大佬的硬核指南，教你如何在大型项目中用好Claude Code。** 这绝对是今天所有内容里最有“干货”的一篇，值得花时间仔细读。
-2.  **【编码Agent生态爆发】围绕Claude Code和Codex，出现了大量配套工具。** 比如给AI加“记忆”的Agentmemory，可视化分析的PromptScout，甚至有人专门讨论vibe coding的安全问题。这说明AI编码已经从“能用”进入到“如何用好、用得安全”的阶段。
-3.  **【Codex 额度重置讨论】社区里多个帖子在讨论Codex额度是否刷新，以及购买的渠道和价格。** 这说明Codex的用户群体活跃，大家都在积极使用并寻找更经济的方案。
-4.  **【AI Agent连接现实世界】好几个产品和项目都在做一件事：让AI Agent能“动起来”。** 像Kimi WebBridge、HasData（为Agent做爬虫）、还有那个能自动做动漫短视频的工具，都展示了 Agent 从“聊天”到“执行任务”的进化。
-5.  **【GitHub项目亮点】几个与“AI编码”强相关的项目火了。** 比如能用截图生成UI的`Claude-Code-Design-AI`、极致轻量的编码Agent `zerostack`，以及Mininglamp开源的AI Agent办公客户端。
-6.  **【一点争议和思考】有用户分享了用“Vibe Coding”导致安全漏洞的经历，引发社区讨论。** 同时，HackerNews上也有关于“前沿AI已经打破开放式CTF（网络安全竞赛）格式”的讨论，这说明AI的能力在安全领域也引发了深刻反思。
+        <description>1.  **GitHub 上又出现了一批新的 AI 编程工具！** 比如用 Rust 写的极简 Coding Agent `zerostack`，还有能自动 review 代码、修 bug 并提交 PR 的 `clawpatch`，以及一个很酷的“AI 光标伴侣”`aipointer`，按住快捷键就能问它光标指着的任何代码问题。
+2.  **“如何更好地用 AI 写代码”是社区热议的话题。** 从 V2EX 到 Linux.do，大家都在讨论怎么设置 Codex、怎么解决乱码、怎么拆分业务逻辑才能让 AI 理解得更清楚。这说明大家已经不满足于“能用”，开始追求“用好”了。
+3.  **关于 AI Agent 的讨论非常火热。** 有人想做一个从 PRD 到代码的全自动 Agent，有人分享了 Codex 偷偷调用浏览器插件的“诡异”经历，还有人在探讨多 Agent 时代如何管理我们的注意力。Agent 已经从概念走进日常开发，开始引发各种实际问题和思考。
+4.  **Product Hunt 上涌现了一批专注于“AI 编程”和“Agent”的新品。** 比如为 Claude Code 和 Codex 提供持久化内存的 `Agentmemory`、具备 Claude Code 体验的智能体浏览器 `Nimbus`，还有用于连接 AI Agent 和实时网络的 `Kimi WebBridge`，生态越来越丰富。
+5.  **一篇深度文章讨论了“AI 编程”背景下的代码搜索问题。** HackNews 上开源的 `Semble`，号称专为 AI Agent 设计，能让代码搜索比 `grep` 减少 98% 的 Token 消耗。这对于使用 Claude Code 等工具处理大型代码库的人来说，简直是福音。
+6.  **别只盯着 Rust！** 一篇技术博客硬核地分析了 Go 的性能优化，认为与其花大力气把 1% 的热路径代码用 Rust 重写，不如先把 Go 本身的性能优化好。这个观点在“万物皆可 Rust 重写”的当下，显得非常清醒。
 
 ---</description>
-        <pubDate>Sun, 17 May 2026 03:34:43 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-17T03:34:36.671Z</guid>
+        <pubDate>Mon, 18 May 2026 03:35:16 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-18T03:35:07.204Z</guid>
       </item>
     <item>
-        <title>mikesheehan54/Claude-Code-Design-AI</title>
-        <link>https://github.com/mikesheehan54/Claude-Code-Design-AI</link>
-        <description>Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Prototyping agent, design systems, wireframe renderer. SVG icon creator, dark mode toggle, responsive layout tool. Front-end code export, shadcn/ui integration, vector assets, branding assistant. | 近期热门 | 总 379 stars</description>
-        <author>mikesheehan54</author>
-        <category>github</category>
-        <pubDate>Sun, 17 May 2026 03:33:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-mikesheehan54-claude-code-design-ai</guid>
-      </item>
-<item>
         <title>gi-dellav/zerostack</title>
         <link>https://github.com/gi-dellav/zerostack</link>
-        <description>Minimalistic coding agent written in Rust, optimized for memory footprint and performance | 近期热门 | 总 122 stars</description>
+        <description>Minimalistic coding agent written in Rust, optimized for memory footprint and performance | 近期热门 | 总 563 stars</description>
         <author>gi-dellav</author>
         <category>github</category>
-        <pubDate>Sun, 17 May 2026 03:33:30 GMT</pubDate>
+        <pubDate>Mon, 18 May 2026 03:33:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-gi-dellav-zerostack</guid>
       </item>
 <item>
-        <title>talentsache/aipointer</title>
-        <link>https://github.com/talentsache/aipointer</link>
-        <description>The AI cursor companion. Hold a key, ask a question, get an answer about whatever your cursor is pointing at. Vision LLM overlay for macOS, Windows, Linux. Multi-provider (OpenRouter, Anthropic, OpenAI, Gemini). Voice in/out. MIT licensed. No telemetry. | 近期热门 | 总 77 stars</description>
-        <author>talentsache</author>
+        <title>openclaw/clawpatch</title>
+        <link>https://github.com/openclaw/clawpatch</link>
+        <description>Review code. Patch bugs. Land PRs. | 近期热门 | 总 461 stars</description>
+        <author>openclaw</author>
         <category>github</category>
-        <pubDate>Sun, 17 May 2026 03:33:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-talentsache-aipointer</guid>
+        <pubDate>Mon, 18 May 2026 03:33:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-openclaw-clawpatch</guid>
+      </item>
+<item>
+        <title>gonemedia/aipointer</title>
+        <link>https://github.com/gonemedia/aipointer</link>
+        <description>The AI cursor companion. Hold a key, ask a question, get an answer about whatever your cursor is pointing at. Vision LLM overlay for macOS, Windows, Linux. Multi-provider (OpenRouter, Anthropic, OpenAI, Gemini). Voice in/out. MIT licensed. No telemetry. | 近期热门 | 总 109 stars</description>
+        <author>gonemedia</author>
+        <category>github</category>
+        <pubDate>Mon, 18 May 2026 03:33:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-gonemedia-aipointer</guid>
+      </item>
+<item>
+        <title>AIchovy/vibe-observer</title>
+        <link>https://github.com/AIchovy/vibe-observer</link>
+        <description>Claude Code Tracer &amp; Observer | 近期热门 | 总 93 stars</description>
+        <author>AIchovy</author>
+        <category>github</category>
+        <pubDate>Mon, 18 May 2026 03:33:59 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-aichovy-vibe-observer</guid>
       </item>
 <item>
         <title>walkingddd/CPA-Helper</title>
         <link>https://github.com/walkingddd/CPA-Helper</link>
-        <description>CPA-Helper 是面向 CLIProxyAPI 用户的本地自托管多用户管理面板，支持多用户独立 API Key、用量隔离统计、请求明细追踪、模型价格维护、可用模型查询、管理员账号管控与 Codex 账号巡检。 | 近期热门 | 总 52 stars</description>
+        <description>CPA-Helper 是面向 CLIProxyAPI 用户的本地自托管多用户管理面板，支持多用户独立 API Key、用量隔离统计、请求明细追踪、模型价格维护、可用模型查询、管理员账号管控与 Codex 账号巡检。 | 近期热门 | 总 68 stars</description>
         <author>walkingddd</author>
         <category>github</category>
-        <pubDate>Sun, 17 May 2026 03:33:30 GMT</pubDate>
+        <pubDate>Mon, 18 May 2026 03:33:59 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-walkingddd-cpa-helper</guid>
       </item>
 <item>
-        <title>Mininglamp-OSS/octo-web</title>
-        <link>https://github.com/Mininglamp-OSS/octo-web</link>
-        <description>Web &amp; desktop (Electron) client for the OCTO open workplace — one React + TypeScript codebase shipping browser and PC surfaces, with first-class AI agent UX. | 近期热门 | 总 32 stars</description>
-        <author>Mininglamp-OSS</author>
-        <category>github</category>
-        <pubDate>Sun, 17 May 2026 03:33:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-mininglamp-oss-octo-web</guid>
+        <title>Vivago Video Agent - 跳过提示。持续制作引人入胜的视频。</title>
+        <link>https://www.producthunt.com/products/viva</link>
+        <description>讨论 | 链接</description>
+        <author>Vivago Video Agent</author>
+        <category>producthunt</category>
+        <pubDate>Mon, 18 May 2026 03:33:53 GMT</pubDate>
+        <guid isPermaLink="false">ph-1779075233640-0</guid>
+      </item>
+<item>
+        <title>Fere AI - 将信号转化为加密货币及Polymarket交易的AI代理</title>
+        <link>https://www.producthunt.com/products/fere-ai</link>
+        <description>讨论 | 链接</description>
+        <author>Fere AI</author>
+        <category>producthunt</category>
+        <pubDate>Mon, 18 May 2026 03:33:53 GMT</pubDate>
+        <guid isPermaLink="false">ph-1779075233640-1</guid>
+      </item>
+<item>
+        <title>Gemini 3.1 Flash-Lite - 面向高容量AI管道的轻量级Gemini模型</title>
+        <link>https://www.producthunt.com/products/gemini-3-1-flash-lite-2</link>
+        <description>讨论 | 链接</description>
+        <author>Gemini 3.1 Flash-Lite</author>
+        <category>producthunt</category>
+        <pubDate>Mon, 18 May 2026 03:33:53 GMT</pubDate>
+        <guid isPermaLink="false">ph-1779075233640-5</guid>
       </item>
 <item>
         <title>Loova Agents - 您的AI导演，轻松创作电影级视频</title>
@@ -78,8 +105,8 @@
         <description>讨论 | 链接</description>
         <author>Loova Agents</author>
         <category>producthunt</category>
-        <pubDate>Sun, 17 May 2026 03:33:24 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778988804410-0</guid>
+        <pubDate>Mon, 18 May 2026 03:33:53 GMT</pubDate>
+        <guid isPermaLink="false">ph-1779075233640-7</guid>
       </item>
 <item>
         <title>Agentmemory - Claude Code、Codex及编码代理的持久化内存</title>
@@ -87,35 +114,8 @@
         <description>讨论 | 链接</description>
         <author>Agentmemory</author>
         <category>producthunt</category>
-        <pubDate>Sun, 17 May 2026 03:33:24 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778988804410-2</guid>
-      </item>
-<item>
-        <title>Gemini 3.1 Flash-Lite - 用于高容量AI管道的轻量级Gemini模型</title>
-        <link>https://www.producthunt.com/products/gemini-3-1-flash-lite-2</link>
-        <description>讨论 | 链接</description>
-        <author>Gemini 3.1 Flash-Lite</author>
-        <category>producthunt</category>
-        <pubDate>Sun, 17 May 2026 03:33:24 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778988804410-6</guid>
-      </item>
-<item>
-        <title>Kimi WebBridge - 将AI代理连接到实时网络的桥梁</title>
-        <link>https://www.producthunt.com/products/kimi-ai-assistant</link>
-        <description>讨论 | 链接</description>
-        <author>Kimi WebBridge</author>
-        <category>producthunt</category>
-        <pubDate>Sun, 17 May 2026 03:33:24 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778988804410-8</guid>
-      </item>
-<item>
-        <title>Magic Notebook - 一款简洁无干扰的写作应用，无复杂功能，无AI。</title>
-        <link>https://www.producthunt.com/products/magic-notebook</link>
-        <description>讨论 | 链接</description>
-        <author>Magic Notebook</author>
-        <category>producthunt</category>
-        <pubDate>Sun, 17 May 2026 03:33:24 GMT</pubDate>
-        <guid isPermaLink="false">ph-1778988804410-14</guid>
+        <pubDate>Mon, 18 May 2026 03:33:53 GMT</pubDate>
+        <guid isPermaLink="false">ph-1779075233640-8</guid>
       </item>
   </channel>
 </rss>
