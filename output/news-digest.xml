@@ -1,121 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/18)</title>
+    <title>6-8 件事 (2026/5/19)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>1.  **GitHub 上又出现了一批新的 AI 编程工具！** 比如用 Rust 写的极简 Coding Agent `zerostack`，还有能自动 review 代码、修 bug 并提交 PR 的 `clawpatch`，以及一个很酷的“AI 光标伴侣”`aipointer`，按住快捷键就能问它光标指着的任何代码问题。
-2.  **“如何更好地用 AI 写代码”是社区热议的话题。** 从 V2EX 到 Linux.do，大家都在讨论怎么设置 Codex、怎么解决乱码、怎么拆分业务逻辑才能让 AI 理解得更清楚。这说明大家已经不满足于“能用”，开始追求“用好”了。
-3.  **关于 AI Agent 的讨论非常火热。** 有人想做一个从 PRD 到代码的全自动 Agent，有人分享了 Codex 偷偷调用浏览器插件的“诡异”经历，还有人在探讨多 Agent 时代如何管理我们的注意力。Agent 已经从概念走进日常开发，开始引发各种实际问题和思考。
-4.  **Product Hunt 上涌现了一批专注于“AI 编程”和“Agent”的新品。** 比如为 Claude Code 和 Codex 提供持久化内存的 `Agentmemory`、具备 Claude Code 体验的智能体浏览器 `Nimbus`，还有用于连接 AI Agent 和实时网络的 `Kimi WebBridge`，生态越来越丰富。
-5.  **一篇深度文章讨论了“AI 编程”背景下的代码搜索问题。** HackNews 上开源的 `Semble`，号称专为 AI Agent 设计，能让代码搜索比 `grep` 减少 98% 的 Token 消耗。这对于使用 Claude Code 等工具处理大型代码库的人来说，简直是福音。
-6.  **别只盯着 Rust！** 一篇技术博客硬核地分析了 Go 的性能优化，认为与其花大力气把 1% 的热路径代码用 Rust 重写，不如先把 Go 本身的性能优化好。这个观点在“万物皆可 Rust 重写”的当下，显得非常清醒。
+    <description>哥们儿，今天的技术圈热闹了！感觉大家都在用 AI 搞事情，尤其是 **AI Coding Agent** 这块，新工具多到眼花缭乱。我帮你挑了几个最亮眼的，都是可以直接上手用的那种。
 
----</description>
+**核心看点有几个：**
+
+1.  **小而美的 Agent**: 有项目专门为小参数 LLM 优化，效果居然还不错，这让本地跑 Agent 成为了可能。
+2.  **Agent 深度集成**: 出现了专门为 Claude Code 打造的本地工作台，还有各种辅助工具，看来大家已经不满足于简单对话，而是要对 Agent 进行全面管理和追踪了。
+3.  **Coding 效率革命**: 从代码分析、自动修 Bug 到一键生成小程序，AI Coding 的链条正在被快速打穿。甚至有人已经开始用它搞定过去不熟悉的语言栈。
+
+总之，今天的信息对想提升 coding 效率、或者对追踪 AI Agent 行为感兴趣的你来说，非常值得一看。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 18 May 2026 03:35:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 03:35:10 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>1.  **GitHub 上又出现了一批新的 AI 编程工具！** 比如用 Rust 写的极简 Coding Agent `zerostack`，还有能自动 review 代码、修 bug 并提交 PR 的 `clawpatch`，以及一个很酷的“AI 光标伴侣”`aipointer`，按住快捷键就能问它光标指着的任何代码问题。
-2.  **“如何更好地用 AI 写代码”是社区热议的话题。** 从 V2EX 到 Linux.do，大家都在讨论怎么设置 Codex、怎么解决乱码、怎么拆分业务逻辑才能让 AI 理解得更清楚。这说明大家已经不满足于“能用”，开始追求“用好”了。
-3.  **关于 AI Agent 的讨论非常火热。** 有人想做一个从 PRD 到代码的全自动 Agent，有人分享了 Codex 偷偷调用浏览器插件的“诡异”经历，还有人在探讨多 Agent 时代如何管理我们的注意力。Agent 已经从概念走进日常开发，开始引发各种实际问题和思考。
-4.  **Product Hunt 上涌现了一批专注于“AI 编程”和“Agent”的新品。** 比如为 Claude Code 和 Codex 提供持久化内存的 `Agentmemory`、具备 Claude Code 体验的智能体浏览器 `Nimbus`，还有用于连接 AI Agent 和实时网络的 `Kimi WebBridge`，生态越来越丰富。
-5.  **一篇深度文章讨论了“AI 编程”背景下的代码搜索问题。** HackNews 上开源的 `Semble`，号称专为 AI Agent 设计，能让代码搜索比 `grep` 减少 98% 的 Token 消耗。这对于使用 Claude Code 等工具处理大型代码库的人来说，简直是福音。
-6.  **别只盯着 Rust！** 一篇技术博客硬核地分析了 Go 的性能优化，认为与其花大力气把 1% 的热路径代码用 Rust 重写，不如先把 Go 本身的性能优化好。这个观点在“万物皆可 Rust 重写”的当下，显得非常清醒。
+        <description>哥们儿，今天的技术圈热闹了！感觉大家都在用 AI 搞事情，尤其是 **AI Coding Agent** 这块，新工具多到眼花缭乱。我帮你挑了几个最亮眼的，都是可以直接上手用的那种。
 
----</description>
-        <pubDate>Mon, 18 May 2026 03:35:16 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-18T03:35:07.204Z</guid>
+**核心看点有几个：**
+
+1.  **小而美的 Agent**: 有项目专门为小参数 LLM 优化，效果居然还不错，这让本地跑 Agent 成为了可能。
+2.  **Agent 深度集成**: 出现了专门为 Claude Code 打造的本地工作台，还有各种辅助工具，看来大家已经不满足于简单对话，而是要对 Agent 进行全面管理和追踪了。
+3.  **Coding 效率革命**: 从代码分析、自动修 Bug 到一键生成小程序，AI Coding 的链条正在被快速打穿。甚至有人已经开始用它搞定过去不熟悉的语言栈。
+
+总之，今天的信息对想提升 coding 效率、或者对追踪 AI Agent 行为感兴趣的你来说，非常值得一看。</description>
+        <pubDate>Tue, 19 May 2026 03:35:10 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-19T03:35:02.084Z</guid>
       </item>
     <item>
-        <title>gi-dellav/zerostack</title>
-        <link>https://github.com/gi-dellav/zerostack</link>
-        <description>Minimalistic coding agent written in Rust, optimized for memory footprint and performance | 近期热门 | 总 563 stars</description>
-        <author>gi-dellav</author>
+        <title>Kappaemme-git/codex-complexity-optimizer</title>
+        <link>https://github.com/Kappaemme-git/codex-complexity-optimizer</link>
+        <description>Codex skill for safe codebase complexity analysis and performance optimization reports | 近期热门 | 总 754 stars</description>
+        <author>Kappaemme-git</author>
         <category>github</category>
-        <pubDate>Mon, 18 May 2026 03:33:59 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-gi-dellav-zerostack</guid>
+        <pubDate>Tue, 19 May 2026 03:33:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kappaemme-git-codex-complexity-optimizer</guid>
       </item>
 <item>
         <title>openclaw/clawpatch</title>
         <link>https://github.com/openclaw/clawpatch</link>
-        <description>Review code. Patch bugs. Land PRs. | 近期热门 | 总 461 stars</description>
+        <description>Review code. Patch bugs. Land PRs. | 近期热门 | 总 544 stars</description>
         <author>openclaw</author>
         <category>github</category>
-        <pubDate>Mon, 18 May 2026 03:33:59 GMT</pubDate>
+        <pubDate>Tue, 19 May 2026 03:33:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-openclaw-clawpatch</guid>
+      </item>
+<item>
+        <title>Doorman11991/smallcode</title>
+        <link>https://github.com/Doorman11991/smallcode</link>
+        <description>AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model. | 近期热门 | 总 538 stars</description>
+        <author>Doorman11991</author>
+        <category>github</category>
+        <pubDate>Tue, 19 May 2026 03:33:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-doorman11991-smallcode</guid>
       </item>
 <item>
         <title>gonemedia/aipointer</title>
         <link>https://github.com/gonemedia/aipointer</link>
-        <description>The AI cursor companion. Hold a key, ask a question, get an answer about whatever your cursor is pointing at. Vision LLM overlay for macOS, Windows, Linux. Multi-provider (OpenRouter, Anthropic, OpenAI, Gemini). Voice in/out. MIT licensed. No telemetry. | 近期热门 | 总 109 stars</description>
+        <description>The AI cursor companion. Hold a key, ask a question, get an answer about whatever your cursor is pointing at. Vision LLM overlay for macOS, Windows, Linux. Multi-provider (OpenRouter, Anthropic, OpenAI, Gemini). Voice in/out. MIT licensed. No telemetry. | 近期热门 | 总 122 stars</description>
         <author>gonemedia</author>
         <category>github</category>
-        <pubDate>Mon, 18 May 2026 03:33:59 GMT</pubDate>
+        <pubDate>Tue, 19 May 2026 03:33:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-gonemedia-aipointer</guid>
       </item>
 <item>
         <title>AIchovy/vibe-observer</title>
         <link>https://github.com/AIchovy/vibe-observer</link>
-        <description>Claude Code Tracer &amp; Observer | 近期热门 | 总 93 stars</description>
+        <description>Claude Code Tracer &amp; Observer | 近期热门 | 总 100 stars</description>
         <author>AIchovy</author>
         <category>github</category>
-        <pubDate>Mon, 18 May 2026 03:33:59 GMT</pubDate>
+        <pubDate>Tue, 19 May 2026 03:33:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-aichovy-vibe-observer</guid>
       </item>
 <item>
         <title>walkingddd/CPA-Helper</title>
         <link>https://github.com/walkingddd/CPA-Helper</link>
-        <description>CPA-Helper 是面向 CLIProxyAPI 用户的本地自托管多用户管理面板，支持多用户独立 API Key、用量隔离统计、请求明细追踪、模型价格维护、可用模型查询、管理员账号管控与 Codex 账号巡检。 | 近期热门 | 总 68 stars</description>
+        <description>CPA-Helper 是面向 CLIProxyAPI 用户的本地自托管多用户管理面板，支持多用户独立 API Key、用量隔离统计、请求明细追踪、模型价格维护、可用模型查询、管理员账号管控与 Codex 账号巡检。 | 近期热门 | 总 89 stars</description>
         <author>walkingddd</author>
         <category>github</category>
-        <pubDate>Mon, 18 May 2026 03:33:59 GMT</pubDate>
+        <pubDate>Tue, 19 May 2026 03:33:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-walkingddd-cpa-helper</guid>
       </item>
 <item>
-        <title>Vivago Video Agent - 跳过提示。持续制作引人入胜的视频。</title>
-        <link>https://www.producthunt.com/products/viva</link>
-        <description>讨论 | 链接</description>
-        <author>Vivago Video Agent</author>
-        <category>producthunt</category>
-        <pubDate>Mon, 18 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">ph-1779075233640-0</guid>
+        <title>WyattLee-nanami/weft</title>
+        <link>https://github.com/WyattLee-nanami/weft</link>
+        <description>Weft — a local Claude Code workbench. Manage skills, see token usage, browse history. Native macOS, fully offline, MIT. | 近期热门 | 总 35 stars</description>
+        <author>WyattLee-nanami</author>
+        <category>github</category>
+        <pubDate>Tue, 19 May 2026 03:33:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-wyattlee-nanami-weft</guid>
       </item>
 <item>
-        <title>Fere AI - 将信号转化为加密货币及Polymarket交易的AI代理</title>
-        <link>https://www.producthunt.com/products/fere-ai</link>
+        <title>Shadow - AI计算机屏幕与语音控制及自定义自动化</title>
+        <link>https://www.producthunt.com/products/shadow-4</link>
         <description>讨论 | 链接</description>
-        <author>Fere AI</author>
+        <author>Shadow</author>
         <category>producthunt</category>
-        <pubDate>Mon, 18 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">ph-1779075233640-1</guid>
+        <pubDate>Tue, 19 May 2026 03:33:47 GMT</pubDate>
+        <guid isPermaLink="false">ph-1779161627992-1</guid>
       </item>
 <item>
-        <title>Gemini 3.1 Flash-Lite - 面向高容量AI管道的轻量级Gemini模型</title>
-        <link>https://www.producthunt.com/products/gemini-3-1-flash-lite-2</link>
+        <title>Searchad.ai - 通过AI聊天运行Apple Search Ads</title>
+        <link>https://www.producthunt.com/products/searchad-ai</link>
         <description>讨论 | 链接</description>
-        <author>Gemini 3.1 Flash-Lite</author>
+        <author>Searchad.ai</author>
         <category>producthunt</category>
-        <pubDate>Mon, 18 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">ph-1779075233640-5</guid>
+        <pubDate>Tue, 19 May 2026 03:33:47 GMT</pubDate>
+        <guid isPermaLink="false">ph-1779161627992-3</guid>
       </item>
 <item>
-        <title>Loova Agents - 您的AI导演，轻松创作电影级视频</title>
-        <link>https://www.producthunt.com/products/loova-agents</link>
+        <title>LandingHero AI - 网站上的24/7销售员</title>
+        <link>https://www.producthunt.com/products/landinghero-ai-2</link>
         <description>讨论 | 链接</description>
-        <author>Loova Agents</author>
+        <author>LandingHero AI</author>
         <category>producthunt</category>
-        <pubDate>Mon, 18 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">ph-1779075233640-7</guid>
-      </item>
-<item>
-        <title>Agentmemory - Claude Code、Codex及编码代理的持久化内存</title>
-        <link>https://www.producthunt.com/products/agent-memory-dev</link>
-        <description>讨论 | 链接</description>
-        <author>Agentmemory</author>
-        <category>producthunt</category>
-        <pubDate>Mon, 18 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">ph-1779075233640-8</guid>
+        <pubDate>Tue, 19 May 2026 03:33:47 GMT</pubDate>
+        <guid isPermaLink="false">ph-1779161627992-4</guid>
       </item>
   </channel>
 </rss>
