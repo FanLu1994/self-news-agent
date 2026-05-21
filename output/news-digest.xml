@@ -1,53 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/20)</title>
+    <title>6-8 件事 (2026/5/21)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息量不小，尤其是围绕 `coding` 和 `agent` 这两个方向，有几个新项目和新趋势非常有意思。比如有一个专门为小参数LLM优化的AI编程agent，还有一个能把8B模型在代理任务上的表现提升到99%的开源工具，这都挺让人兴奋的。同时，一些社区讨论也反映了大家在实际使用AI编程工具时的真实困惑和经验，很有参考价值。</description>
+    <description>今天的信息量不小，而且质量相当高。我注意到几个明显的趋势：**AI Coding Agent** 的实用化、围绕 **LLM 上下文和工具链**的深度讨论，以及 **Rust 在 AI 工程**中的实践。另外，一些社区的讨论帖非常实在，能帮你绕过不少实际的坑。我觉得下面这几件事最值得你花时间看看。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 20 May 2026 03:34:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 03:35:14 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息量不小，尤其是围绕 `coding` 和 `agent` 这两个方向，有几个新项目和新趋势非常有意思。比如有一个专门为小参数LLM优化的AI编程agent，还有一个能把8B模型在代理任务上的表现提升到99%的开源工具，这都挺让人兴奋的。同时，一些社区讨论也反映了大家在实际使用AI编程工具时的真实困惑和经验，很有参考价值。</description>
-        <pubDate>Wed, 20 May 2026 03:34:57 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-20T03:34:49.743Z</guid>
+        <description>今天的信息量不小，而且质量相当高。我注意到几个明显的趋势：**AI Coding Agent** 的实用化、围绕 **LLM 上下文和工具链**的深度讨论，以及 **Rust 在 AI 工程**中的实践。另外，一些社区的讨论帖非常实在，能帮你绕过不少实际的坑。我觉得下面这几件事最值得你花时间看看。</description>
+        <pubDate>Thu, 21 May 2026 03:35:14 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-21T03:35:04.650Z</guid>
       </item>
     <item>
+        <title>Doorman11991/smallcode</title>
+        <link>https://github.com/Doorman11991/smallcode</link>
+        <description>AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model. | 近期热门 | 总 847 stars</description>
+        <author>Doorman11991</author>
+        <category>github</category>
+        <pubDate>Thu, 21 May 2026 03:34:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-doorman11991-smallcode</guid>
+      </item>
+<item>
         <title>Kappaemme-git/codex-complexity-optimizer</title>
         <link>https://github.com/Kappaemme-git/codex-complexity-optimizer</link>
-        <description>Codex skill for safe codebase complexity analysis and performance optimization reports | 近期热门 | 总 788 stars</description>
+        <description>Codex skill for safe codebase complexity analysis and performance optimization reports | 近期热门 | 总 808 stars</description>
         <author>Kappaemme-git</author>
         <category>github</category>
-        <pubDate>Wed, 20 May 2026 03:33:45 GMT</pubDate>
+        <pubDate>Thu, 21 May 2026 03:34:09 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kappaemme-git-codex-complexity-optimizer</guid>
       </item>
 <item>
-        <title>Doorman11991/smallcode</title>
-        <link>https://github.com/Doorman11991/smallcode</link>
-        <description>AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model. | 近期热门 | 总 733 stars</description>
-        <author>Doorman11991</author>
+        <title>xw7872081123/wallpaper-engine-steam</title>
+        <link>https://github.com/xw7872081123/wallpaper-engine-steam</link>
+        <description>Free Wallpaper Engine Steam: download PC windows 11, steam workshop downloader bypass, high CPU RAM usage fix, android apk mobile sync. 4k anime live wallpaper, black screen crash on startup, corsair icue razer chroma integration, ui32.exe error solution, scene web wallpaper, mobile connection pin, custom playlist screensaver,  | 近期热门 | 总 616 stars</description>
+        <author>xw7872081123</author>
         <category>github</category>
-        <pubDate>Wed, 20 May 2026 03:33:45 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-doorman11991-smallcode</guid>
+        <pubDate>Thu, 21 May 2026 03:34:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-xw7872081123-wallpaper-engine-steam</guid>
       </item>
 <item>
         <title>openclaw/clawpatch</title>
         <link>https://github.com/openclaw/clawpatch</link>
-        <description>Review code. Patch bugs. Land PRs. | 近期热门 | 总 577 stars</description>
+        <description>Review code. Patch bugs. Land PRs. | 近期热门 | 总 606 stars</description>
         <author>openclaw</author>
         <category>github</category>
-        <pubDate>Wed, 20 May 2026 03:33:45 GMT</pubDate>
+        <pubDate>Thu, 21 May 2026 03:34:09 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-openclaw-clawpatch</guid>
       </item>
 <item>
         <title>arnabchoudhury404/hydra-launcher</title>
         <link>https://github.com/arnabchoudhury404/hydra-launcher</link>
-        <description>hydralauncher: Hydra Launcher download free PC library  fontes links baixar , hydralauncher github,  trusted sources url list, steam verde download, hydralauncher github source code, no download available hydra launcher fix. Embedded bittorrent client setup, repack scraper json megathread, hydra cloud save files sync, python rpc server error | 近期热门 | 总 535 stars</description>
+        <description>hydralauncher: Hydra Launcher download free PC library  fontes links baixar , hydralauncher github,  trusted sources url list, steam verde download, hydralauncher github source code, no download available hydra launcher fix. Embedded bittorrent client setup, repack scraper json megathread, hydra cloud save files sync, python rpc server error | 近期热门 | 总 602 stars</description>
         <author>arnabchoudhury404</author>
         <category>github</category>
-        <pubDate>Wed, 20 May 2026 03:33:45 GMT</pubDate>
+        <pubDate>Thu, 21 May 2026 03:34:09 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-arnabchoudhury404-hydra-launcher</guid>
+      </item>
+<item>
+        <title>AbhishekK130804/Claude-Mythos-AI-Anthropic-App</title>
+        <link>https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App</link>
+        <description>Claude pro free Mythos design Opus Cowork  Sonnet AI Anthropic App: download free PC android apk iOS, Anthropic Claude API key setup, Claude roleplay mythos client, SillyTavern Claude prompt formatting, custom system prompt jailbreak, Mythos AI creative writing app, Claude 3.5 Sonnet Opus API cost, open source LLM frontend, Claude reverse proxy  | 近期热门 | 总 578 stars</description>
+        <author>AbhishekK130804</author>
+        <category>github</category>
+        <pubDate>Thu, 21 May 2026 03:34:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-abhishekk130804-claude-mythos-ai-anthropic-app</guid>
+      </item>
+<item>
+        <title>haiddrrs/Steam-Tools</title>
+        <link>https://github.com/haiddrrs/Steam-Tools</link>
+        <description>Lua Steam Tools: SteamTools download free PC latest version, lua manifest generator github, steamtools safe to use account ban risk, BeyondDimension SteamTools source code, unlock free steam games dlc unlocker, watt toolkit alternative, steamtools exe local ticket bypass, lua tools manifest downloader, st-setup virus total malware scan, steamtools | 近期热门 | 总 559 stars</description>
+        <author>haiddrrs</author>
+        <category>github</category>
+        <pubDate>Thu, 21 May 2026 03:34:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-haiddrrs-steam-tools</guid>
+      </item>
+<item>
+        <title>Alkih/Nightlight-Game-Launcher</title>
+        <link>https://github.com/Alkih/Nightlight-Game-Launcher</link>
+        <description>Nightlight Game Launcher: NLGL download, Rockstar Social Club bypass, GTA V Epic Games launch error, RDR2 offline play, GTA IV Social Club fix. Steam account switcher, Epic Online Services bypass, EOS SDK. dll, -nobattleye, -scOfflineMode, launch options, account manager, local backup, source code GitHub, onajlikezz, open source tool. | 近期热门 | 总 447 stars</description>
+        <author>Alkih</author>
+        <category>github</category>
+        <pubDate>Thu, 21 May 2026 03:34:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-alkih-nightlight-game-launcher</guid>
       </item>
 <item>
         <title>AIchovy/vibe-observer</title>
@@ -55,53 +91,17 @@
         <description>Claude Code Tracer &amp; Observer | 近期热门 | 总 115 stars</description>
         <author>AIchovy</author>
         <category>github</category>
-        <pubDate>Wed, 20 May 2026 03:33:45 GMT</pubDate>
+        <pubDate>Thu, 21 May 2026 03:34:09 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-aichovy-vibe-observer</guid>
       </item>
 <item>
-        <title>WyattLee-nanami/weft</title>
-        <link>https://github.com/WyattLee-nanami/weft</link>
-        <description>Weft — a local Claude Code workbench. Manage skills, see token usage, browse history. Native macOS, fully offline, MIT. | 近期热门 | 总 102 stars</description>
-        <author>WyattLee-nanami</author>
+        <title>Helvesec/rmux</title>
+        <link>https://github.com/Helvesec/rmux</link>
+        <description>Universal Rust multiplexer with a typed SDK — drive any CLI or TUI app from code. Native on Linux, macOS, and Windows. | 近期热门 | 总 71 stars</description>
+        <author>Helvesec</author>
         <category>github</category>
-        <pubDate>Wed, 20 May 2026 03:33:45 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wyattlee-nanami-weft</guid>
-      </item>
-<item>
-        <title>WyattLee-nanami/weft</title>
-        <link>https://github.com/WyattLee-nanami/weft</link>
-        <description>Weft — a local Claude Code workbench. Manage skills, see token usage, browse history. Native macOS, fully offline, MIT. | 近期热门 | 总 102 stars</description>
-        <author>WyattLee-nanami</author>
-        <category>github</category>
-        <pubDate>Wed, 20 May 2026 03:33:45 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wyattlee-nanami-weft</guid>
-      </item>
-<item>
-        <title>Thinnest AI - 以1.5卢比/分钟的价格构建支持100+语言的语音AI代理</title>
-        <link>https://www.producthunt.com/products/thinnest-ai</link>
-        <description>讨论 | 链接</description>
-        <author>Thinnest AI</author>
-        <category>producthunt</category>
-        <pubDate>Wed, 20 May 2026 03:33:39 GMT</pubDate>
-        <guid isPermaLink="false">ph-1779248019833-0</guid>
-      </item>
-<item>
-        <title>ShioriCode - Codex 与 Claude Code 的开源替代品</title>
-        <link>https://www.producthunt.com/products/shioricode</link>
-        <description>讨论 | 链接</description>
-        <author>ShioriCode</author>
-        <category>producthunt</category>
-        <pubDate>Wed, 20 May 2026 03:33:39 GMT</pubDate>
-        <guid isPermaLink="false">ph-1779248019833-1</guid>
-      </item>
-<item>
-        <title>Chert - 构建在iMessage中向客户发送短信的AI代理</title>
-        <link>https://www.producthunt.com/products/chert</link>
-        <description>讨论 | 链接</description>
-        <author>Chert</author>
-        <category>producthunt</category>
-        <pubDate>Wed, 20 May 2026 03:33:39 GMT</pubDate>
-        <guid isPermaLink="false">ph-1779248019833-3</guid>
+        <pubDate>Thu, 21 May 2026 03:34:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-helvesec-rmux</guid>
       </item>
   </channel>
 </rss>
