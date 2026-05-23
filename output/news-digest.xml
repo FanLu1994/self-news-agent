@@ -1,117 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/22)</title>
+    <title>6-8 件事 (2026/5/23)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>嘿，今天关于 AI 和编程的好玩意儿不少！有几个特别值得关注的点：
-
-1.  **AI Coding Agent 又出新东西了**：一个叫 `smallcode` 的项目，专门优化成能在小模型上跑出不错的编码效果，这对于手头资源有限又想体验 AI 编程的同学来说是个好消息。
-2.  **“智能体”概念持续火热**：从漏洞发现到企业办公，围绕 “Agent” 的产品和项目层出不穷，说明 AI 不再只是聊天，开始真正干活了。
-3.  **国内 Coding Plan 的“平替”讨论**：很多人在吐槽国内大厂的 AI 编程套餐又贵又难抢，同时开始寻找像 `opencode go` 这样的低价替代方案，这说明“用 AI 写代码”已经成了一个刚性需求，大家都在找性价比最高的路。
-4.  **开源 vs 商业产品**：像 `smallcode`、`audit` 这样的开源项目，和 Product Hunt 上的商业产品（如 `InstaVM`、`Tycoon AI`）形成了有趣的对比，你可以根据自己是动手党还是求稳党来选择。</description>
+    <description>今天的信息量真不小，感觉整个技术圈都在围绕着AI、LLM和Agent打转。最让我兴奋的是，我们看到了一个专为小模型优化的AI编码Agent，以及Google开源了一个Agent-centric的云原生底座，感觉Agent应用要开始加速落地了。同时，社区里关于Claude Code的讨论也很热烈，甚至引发了微软动作的猜测。别急，我们一个个来看。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 22 May 2026 03:35:10 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 03:34:20 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>嘿，今天关于 AI 和编程的好玩意儿不少！有几个特别值得关注的点：
-
-1.  **AI Coding Agent 又出新东西了**：一个叫 `smallcode` 的项目，专门优化成能在小模型上跑出不错的编码效果，这对于手头资源有限又想体验 AI 编程的同学来说是个好消息。
-2.  **“智能体”概念持续火热**：从漏洞发现到企业办公，围绕 “Agent” 的产品和项目层出不穷，说明 AI 不再只是聊天，开始真正干活了。
-3.  **国内 Coding Plan 的“平替”讨论**：很多人在吐槽国内大厂的 AI 编程套餐又贵又难抢，同时开始寻找像 `opencode go` 这样的低价替代方案，这说明“用 AI 写代码”已经成了一个刚性需求，大家都在找性价比最高的路。
-4.  **开源 vs 商业产品**：像 `smallcode`、`audit` 这样的开源项目，和 Product Hunt 上的商业产品（如 `InstaVM`、`Tycoon AI`）形成了有趣的对比，你可以根据自己是动手党还是求稳党来选择。</description>
-        <pubDate>Fri, 22 May 2026 03:35:10 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-22T03:35:03.440Z</guid>
+        <description>今天的信息量真不小，感觉整个技术圈都在围绕着AI、LLM和Agent打转。最让我兴奋的是，我们看到了一个专为小模型优化的AI编码Agent，以及Google开源了一个Agent-centric的云原生底座，感觉Agent应用要开始加速落地了。同时，社区里关于Claude Code的讨论也很热烈，甚至引发了微软动作的猜测。别急，我们一个个来看。</description>
+        <pubDate>Sat, 23 May 2026 03:34:20 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-23T03:34:11.107Z</guid>
       </item>
     <item>
         <title>Doorman11991/smallcode</title>
         <link>https://github.com/Doorman11991/smallcode</link>
-        <description>AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model. | 近期热门 | 总 1093 stars</description>
+        <description>AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model. | 近期热门 | 总 1234 stars</description>
         <author>Doorman11991</author>
         <category>github</category>
-        <pubDate>Fri, 22 May 2026 03:34:01 GMT</pubDate>
+        <pubDate>Sat, 23 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-doorman11991-smallcode</guid>
+      </item>
+<item>
+        <title>lynote-ai/humanize-text</title>
+        <link>https://github.com/lynote-ai/humanize-text</link>
+        <description>Free open-source AI text humanizer to convert AI-generated content into undetectable, human-like writing. Bypass Turnitin, GPTZero, and all major AI detectors. No sign-up required. Try our unlimited free online tool | 近期热门 | 总 464 stars</description>
+        <author>lynote-ai</author>
+        <category>github</category>
+        <pubDate>Sat, 23 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lynote-ai-humanize-text</guid>
       </item>
 <item>
         <title>xw7872081123/wallpaper-engine-steam</title>
         <link>https://github.com/xw7872081123/wallpaper-engine-steam</link>
-        <description>Free Wallpaper Engine Steam: download PC windows 11, steam workshop downloader bypass, high CPU RAM usage fix, android apk mobile sync. 4k anime live wallpaper, black screen crash on startup, corsair icue razer chroma integration, ui32.exe error solution, scene web wallpaper, mobile connection pin, custom playlist screensaver,  | 近期热门 | 总 614 stars</description>
+        <description>Free Wallpaper Engine Steam: download PC windows 11, steam workshop downloader bypass, high CPU RAM usage fix, android apk mobile sync. 4k anime live wallpaper, black screen crash on startup, corsair icue razer chroma integration, ui32.exe error solution, scene web wallpaper, mobile connection pin, custom playlist screensaver,  | 近期热门 | 总 453 stars</description>
         <author>xw7872081123</author>
         <category>github</category>
-        <pubDate>Fri, 22 May 2026 03:34:01 GMT</pubDate>
+        <pubDate>Sat, 23 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-xw7872081123-wallpaper-engine-steam</guid>
       </item>
 <item>
-        <title>BasZ4ll/Stable-Diffusion-WebUI</title>
-        <link>https://github.com/BasZ4ll/Stable-Diffusion-WebUI</link>
-        <description>Stable Diffusion: webui automatic1111 download free, comfyui setup guide, sdxl checkpoint safetensors, lora model civitai, controlnet extension github. SD WebUI Forge launcher, low VRAM optimization, xformers command line arguments, python torch cuda error fix, out of memory solution, txt2img img2img, inpainting, realesrgan upscaler, local pc insta | 近期热门 | 总 594 stars</description>
-        <author>BasZ4ll</author>
+        <title>WUBING2023/PaperSpine</title>
+        <link>https://github.com/WUBING2023/PaperSpine</link>
+        <description>PaperSpine is a motivation-driven Codex skill for learning from strong academic papers, building a paper’s central argument, and rewriting manuscripts through evidence-aware blueprints, revision matrices, and LaTeX-safe audits. | 近期热门 | 总 445 stars</description>
+        <author>WUBING2023</author>
         <category>github</category>
-        <pubDate>Fri, 22 May 2026 03:34:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-basz4ll-stable-diffusion-webui</guid>
-      </item>
-<item>
-        <title>arnabchoudhury404/hydra-launcher</title>
-        <link>https://github.com/arnabchoudhury404/hydra-launcher</link>
-        <description>hydralauncher: Hydra Launcher download free PC library  fontes links baixar , hydralauncher github,  trusted sources url list, steam verde download, hydralauncher github source code, no download available hydra launcher fix. Embedded bittorrent client setup, repack scraper json megathread, hydra cloud save files sync, python rpc server error | 近期热门 | 总 593 stars</description>
-        <author>arnabchoudhury404</author>
-        <category>github</category>
-        <pubDate>Fri, 22 May 2026 03:34:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-arnabchoudhury404-hydra-launcher</guid>
+        <pubDate>Sat, 23 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-wubing2023-paperspine</guid>
       </item>
 <item>
         <title>AbhishekK130804/Claude-Mythos-AI-Anthropic-App</title>
         <link>https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App</link>
-        <description>Claude pro free Mythos design Opus Cowork  Sonnet AI Anthropic App: download free PC android apk iOS, Anthropic Claude API key setup, Claude roleplay mythos client, SillyTavern Claude prompt formatting, custom system prompt jailbreak, Mythos AI creative writing app, Claude 3.5 Sonnet Opus API cost, open source LLM frontend, Claude reverse proxy  | 近期热门 | 总 578 stars</description>
+        <description>Claude pro free Mythos design Opus Cowork  Sonnet AI Anthropic App: download free PC android apk iOS, Anthropic Claude API key setup, Claude roleplay mythos client, SillyTavern Claude prompt formatting, custom system prompt jailbreak, Mythos AI creative writing app, Claude 3.5 Sonnet Opus API cost, open source LLM frontend, Claude reverse proxy  | 近期热门 | 总 424 stars</description>
         <author>AbhishekK130804</author>
         <category>github</category>
-        <pubDate>Fri, 22 May 2026 03:34:01 GMT</pubDate>
+        <pubDate>Sat, 23 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-abhishekk130804-claude-mythos-ai-anthropic-app</guid>
+      </item>
+<item>
+        <title>basketikun/infinite-canvas</title>
+        <link>https://github.com/basketikun/infinite-canvas</link>
+        <description>面向AI创作的开源无限画布工作台，集成 AI 生图、参考图编辑、画布编排、对话助手、提示词库和素材管理等功能。 | 近期热门 | 总 423 stars</description>
+        <author>basketikun</author>
+        <category>github</category>
+        <pubDate>Sat, 23 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-basketikun-infinite-canvas</guid>
+      </item>
+<item>
+        <title>BasZ4ll/Stable-Diffusion-WebUI</title>
+        <link>https://github.com/BasZ4ll/Stable-Diffusion-WebUI</link>
+        <description>Stable Diffusion: webui automatic1111 download free, comfyui setup guide, sdxl checkpoint safetensors, lora model civitai, controlnet extension github. SD WebUI Forge launcher, low VRAM optimization, xformers command line arguments, python torch cuda error fix, out of memory solution, txt2img img2img, inpainting, realesrgan upscaler, local pc insta | 近期热门 | 总 399 stars</description>
+        <author>BasZ4ll</author>
+        <category>github</category>
+        <pubDate>Sat, 23 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-basz4ll-stable-diffusion-webui</guid>
       </item>
 <item>
         <title>haiddrrs/Steam-Tools</title>
         <link>https://github.com/haiddrrs/Steam-Tools</link>
-        <description>Lua Steam Tools: SteamTools download free PC latest version, lua manifest generator github, steamtools safe to use account ban risk, BeyondDimension SteamTools source code, unlock free steam games dlc unlocker, watt toolkit alternative, steamtools exe local ticket bypass, lua tools manifest downloader, st-setup virus total malware scan, steamtools | 近期热门 | 总 557 stars</description>
+        <description>Lua Steam Tools: SteamTools download free PC latest version, lua manifest generator github, steamtools safe to use account ban risk, BeyondDimension SteamTools source code, unlock free steam games dlc unlocker, watt toolkit alternative, steamtools exe local ticket bypass, lua tools manifest downloader, st-setup virus total malware scan, steamtools | 近期热门 | 总 395 stars</description>
         <author>haiddrrs</author>
         <category>github</category>
-        <pubDate>Fri, 22 May 2026 03:34:01 GMT</pubDate>
+        <pubDate>Sat, 23 May 2026 03:33:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-haiddrrs-steam-tools</guid>
       </item>
 <item>
-        <title>evilsocket/audit</title>
-        <link>https://github.com/evilsocket/audit</link>
-        <description>An 8-stage vulnerability-discovery agent. | 近期热门 | 总 408 stars</description>
-        <author>evilsocket</author>
+        <title>perplexityai/bumblebee</title>
+        <link>https://github.com/perplexityai/bumblebee</link>
+        <description>Read-only tool for inventorying packages, extensions, and developer-tool metadata on macOS and Linux developer endpoints, built for fast supply-chain exposure checks. | 近期热门 | 总 364 stars</description>
+        <author>perplexityai</author>
         <category>github</category>
-        <pubDate>Fri, 22 May 2026 03:34:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-evilsocket-audit</guid>
+        <pubDate>Sat, 23 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-perplexityai-bumblebee</guid>
       </item>
 <item>
-        <title>AIchovy/vibe-observer</title>
-        <link>https://github.com/AIchovy/vibe-observer</link>
-        <description>Claude Code Tracer &amp; Observer | 近期热门 | 总 114 stars</description>
-        <author>AIchovy</author>
+        <title>edgenuitybot/exodusbot</title>
+        <link>https://github.com/edgenuitybot/exodusbot</link>
+        <description>Exodus | The # 1 Edgenuity Bot for Quizes, Tests, and Exams. Includes Auto Answers, Auto delays, built in AI Answers, Auto Submit, EdgeEX support and MORE! | About: Exodus is an online course tool designed for online middle and high school classes (K-8 curriculum). Join the Discord: https://discord.gg/exodusbot | 近期热门 | 总 274 stars</description>
+        <author>edgenuitybot</author>
         <category>github</category>
-        <pubDate>Fri, 22 May 2026 03:34:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-aichovy-vibe-observer</guid>
-      </item>
-<item>
-        <title>l0ng-ai/papr</title>
-        <link>https://github.com/l0ng-ai/papr</link>
-        <description>A fast, native RSS reader for the desktop. | 近期热门 | 总 98 stars</description>
-        <author>l0ng-ai</author>
-        <category>github</category>
-        <pubDate>Fri, 22 May 2026 03:34:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-l0ng-ai-papr</guid>
-      </item>
-<item>
-        <title>l0ng-ai/papr</title>
-        <link>https://github.com/l0ng-ai/papr</link>
-        <description>A fast, native RSS reader for the desktop. | 近期热门 | 总 98 stars</description>
-        <author>l0ng-ai</author>
-        <category>github</category>
-        <pubDate>Fri, 22 May 2026 03:34:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-l0ng-ai-papr</guid>
+        <pubDate>Sat, 23 May 2026 03:33:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-edgenuitybot-exodusbot</guid>
       </item>
   </channel>
 </rss>
