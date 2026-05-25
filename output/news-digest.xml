@@ -1,107 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/24)</title>
+    <title>6-8 件事 (2026/5/25)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息流里，AI Agent 和 AI Coding 几乎占满了。从像 Shopify 这样的大公司如何落地 Claude Code，到社区里冒出来的各种优化工具和讨论帖，再到能跑在小型模型上的 Coding Agent，感觉 AI 编程已经从“能不能用”进入了“怎么用好、怎么规模化”的阶段。另外，有几个关于 Agent 工作流和记忆管理的项目也很有意思，值得深入看看。</description>
+    <description>兄弟，今天的内容对你来说简直是宝藏！社区里基本都在聊 **AI 编程** 和 **Agent** 相关的事。
+
+一方面，大家在上手各种牛逼的新工具，比如能让 LLM 互通的 `codex-shim`、给 Agent 装记忆的 `ai-memory`，还有能管理多个编程 Agent 的工具。另一方面，很多人在讨论实践中遇到的坑，比如怎么判断 AI 写的代码质量、Agent 为啥会“卡壳”不往下想。这些都说明咱们正处在一个“AI 编程从能用走向好用”的关键时期。
+
+另外，还有一篇非常硬核的学术论文，专门分析了 LLM Agent 在后端开发中的弱点，这和你的 `agent` + `coding` 关键词直接相关，强烈建议看看。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 24 May 2026 03:34:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 03:35:03 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息流里，AI Agent 和 AI Coding 几乎占满了。从像 Shopify 这样的大公司如何落地 Claude Code，到社区里冒出来的各种优化工具和讨论帖，再到能跑在小型模型上的 Coding Agent，感觉 AI 编程已经从“能不能用”进入了“怎么用好、怎么规模化”的阶段。另外，有几个关于 Agent 工作流和记忆管理的项目也很有意思，值得深入看看。</description>
-        <pubDate>Sun, 24 May 2026 03:34:33 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-24T03:34:28.165Z</guid>
+        <description>兄弟，今天的内容对你来说简直是宝藏！社区里基本都在聊 **AI 编程** 和 **Agent** 相关的事。
+
+一方面，大家在上手各种牛逼的新工具，比如能让 LLM 互通的 `codex-shim`、给 Agent 装记忆的 `ai-memory`，还有能管理多个编程 Agent 的工具。另一方面，很多人在讨论实践中遇到的坑，比如怎么判断 AI 写的代码质量、Agent 为啥会“卡壳”不往下想。这些都说明咱们正处在一个“AI 编程从能用走向好用”的关键时期。
+
+另外，还有一篇非常硬核的学术论文，专门分析了 LLM Agent 在后端开发中的弱点，这和你的 `agent` + `coding` 关键词直接相关，强烈建议看看。
+
+---</description>
+        <pubDate>Mon, 25 May 2026 03:35:03 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-25T03:34:54.466Z</guid>
       </item>
     <item>
         <title>perplexityai/bumblebee</title>
         <link>https://github.com/perplexityai/bumblebee</link>
-        <description>Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises. | 近期热门 | 总 1368 stars</description>
+        <description>Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises. | 近期热门 | 总 2204 stars</description>
         <author>perplexityai</author>
         <category>github</category>
-        <pubDate>Sun, 24 May 2026 03:33:53 GMT</pubDate>
+        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-perplexityai-bumblebee</guid>
       </item>
 <item>
-        <title>Doorman11991/smallcode</title>
-        <link>https://github.com/Doorman11991/smallcode</link>
-        <description>AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model. | 近期热门 | 总 1326 stars</description>
-        <author>Doorman11991</author>
+        <title>0xSero/codex-shim</title>
+        <link>https://github.com/0xSero/codex-shim</link>
+        <description>Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop. | 近期热门 | 总 485 stars</description>
+        <author>0xSero</author>
         <category>github</category>
-        <pubDate>Sun, 24 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-doorman11991-smallcode</guid>
-      </item>
-<item>
-        <title>lynote-ai/humanize-text</title>
-        <link>https://github.com/lynote-ai/humanize-text</link>
-        <description>Free open-source AI text humanizer to convert AI-generated content into undetectable, human-like writing. Bypass Turnitin, GPTZero, and all major AI detectors. No sign-up required. Try our unlimited free online tool | 近期热门 | 总 566 stars</description>
-        <author>lynote-ai</author>
-        <category>github</category>
-        <pubDate>Sun, 24 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lynote-ai-humanize-text</guid>
-      </item>
-<item>
-        <title>xw7872081123/wallpaper-engine-steam</title>
-        <link>https://github.com/xw7872081123/wallpaper-engine-steam</link>
-        <description>Free Wallpaper Engine Steam: download PC windows 11, steam workshop downloader bypass, high CPU RAM usage fix, android apk mobile sync. 4k anime live wallpaper, black screen crash on startup, corsair icue razer chroma integration, ui32.exe error solution, scene web wallpaper, mobile connection pin, custom playlist screensaver,  | 近期热门 | 总 455 stars</description>
-        <author>xw7872081123</author>
-        <category>github</category>
-        <pubDate>Sun, 24 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-xw7872081123-wallpaper-engine-steam</guid>
-      </item>
-<item>
-        <title>basketikun/infinite-canvas</title>
-        <link>https://github.com/basketikun/infinite-canvas</link>
-        <description>面向AI创作的开源无限画布工作台，集成 AI 生图、参考图编辑、画布编排、对话助手、提示词库和素材管理等功能。 | 近期热门 | 总 454 stars</description>
-        <author>basketikun</author>
-        <category>github</category>
-        <pubDate>Sun, 24 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-basketikun-infinite-canvas</guid>
-      </item>
-<item>
-        <title>evilsocket/audit</title>
-        <link>https://github.com/evilsocket/audit</link>
-        <description>An 8-stage vulnerability-discovery agent. | 近期热门 | 总 448 stars</description>
-        <author>evilsocket</author>
-        <category>github</category>
-        <pubDate>Sun, 24 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-evilsocket-audit</guid>
-      </item>
-<item>
-        <title>AbhishekK130804/Claude-Mythos-AI-Anthropic-App</title>
-        <link>https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App</link>
-        <description>Claude pro free Mythos design Opus Cowork  Sonnet AI Anthropic App: download free PC android apk iOS, Anthropic Claude API key setup, Claude roleplay mythos client, SillyTavern Claude prompt formatting, custom system prompt jailbreak, Mythos AI creative writing app, Claude 3.5 Sonnet Opus API cost, open source LLM frontend, Claude reverse proxy  | 近期热门 | 总 435 stars</description>
-        <author>AbhishekK130804</author>
-        <category>github</category>
-        <pubDate>Sun, 24 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-abhishekk130804-claude-mythos-ai-anthropic-app</guid>
-      </item>
-<item>
-        <title>haiddrrs/Steam-Tools</title>
-        <link>https://github.com/haiddrrs/Steam-Tools</link>
-        <description>Lua Steam Tools: SteamTools download free PC latest version, lua manifest generator github, steamtools safe to use account ban risk, BeyondDimension SteamTools source code, unlock free steam games dlc unlocker, watt toolkit alternative, steamtools exe local ticket bypass, lua tools manifest downloader, st-setup virus total malware scan, steamtools | 近期热门 | 总 417 stars</description>
-        <author>haiddrrs</author>
-        <category>github</category>
-        <pubDate>Sun, 24 May 2026 03:33:53 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-haiddrrs-steam-tools</guid>
+        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-0xsero-codex-shim</guid>
       </item>
 <item>
         <title>SalhaNabil/CloakBrowser</title>
         <link>https://github.com/SalhaNabil/CloakBrowser</link>
-        <description>CloakBrowser Github: anti-detect browser download, source-level chromium patches, browser fingerprinting spoofing, multi-accounting tool, canvas webgl modification, proxy manager http socks5, cookie isolation, session import export, user-agent switcher, puppeteer playwright automation api, profile sharing, web scraping free, github  | 近期热门 | 总 366 stars</description>
+        <description>CloakBrowser Github: anti-detect browser download, source-level chromium patches, browser fingerprinting spoofing, multi-accounting tool, canvas webgl modification, proxy manager http socks5, cookie isolation, session import export, user-agent switcher, puppeteer playwright automation api, profile sharing, web scraping free, github  | 近期热门 | 总 387 stars</description>
         <author>SalhaNabil</author>
         <category>github</category>
-        <pubDate>Sun, 24 May 2026 03:33:53 GMT</pubDate>
+        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-salhanabil-cloakbrowser</guid>
+      </item>
+<item>
+        <title>testerlingcodo/gemini-antigravity-cli</title>
+        <link>https://github.com/testerlingcodo/gemini-antigravity-cli</link>
+        <description>gemini antigravity 2.0 cli google terminal ai agent tool agy migration guide mcp server plugin slash commands gemini 3.5 flash coding agent tool free | 近期热门 | 总 298 stars</description>
+        <author>testerlingcodo</author>
+        <category>github</category>
+        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-testerlingcodo-gemini-antigravity-cli</guid>
+      </item>
+<item>
+        <title>CEOHarvey242/cheat-engine-7.5</title>
+        <link>https://github.com/CEOHarvey242/cheat-engine-7.5</link>
+        <description>cheat engine 7.5  github  tables download pc windows 11 cheat tables forza horizon 6  elden ring  ct file memory scanner speedhack trainer maker | 近期热门 | 总 287 stars</description>
+        <author>CEOHarvey242</author>
+        <category>github</category>
+        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ceoharvey242-cheat-engine-7.5</guid>
+      </item>
+<item>
+        <title>akitaonrails/ai-memory</title>
+        <link>https://github.com/akitaonrails/ai-memory</link>
+        <description>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors | 近期热门 | 总 163 stars</description>
+        <author>akitaonrails</author>
+        <category>github</category>
+        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-akitaonrails-ai-memory</guid>
+      </item>
+<item>
+        <title>Eynzof/hermes-agent-cn-desktop</title>
+        <link>https://github.com/Eynzof/hermes-agent-cn-desktop</link>
+        <description>Hermes Agent CN desktop app, Windows-First, built with Tauri, Typescript and Rust. Isolated Hermes Agent core insides.  | 近期热门 | 总 153 stars</description>
+        <author>Eynzof</author>
+        <category>github</category>
+        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-eynzof-hermes-agent-cn-desktop</guid>
       </item>
 <item>
         <title>DEEIX-AI/DEEIX-Chat</title>
         <link>https://github.com/DEEIX-AI/DEEIX-Chat</link>
-        <description>An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations. | 近期热门 | 总 126 stars</description>
+        <description>An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations. | 近期热门 | 总 143 stars</description>
         <author>DEEIX-AI</author>
         <category>github</category>
-        <pubDate>Sun, 24 May 2026 03:33:53 GMT</pubDate>
+        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-deeix-ai-deeix-chat</guid>
+      </item>
+<item>
+        <title>c4pt0r/pie</title>
+        <link>https://github.com/c4pt0r/pie</link>
+        <description>Rust port of the pi agent harness — coding agent + LLM runtime stack | 近期热门 | 总 65 stars</description>
+        <author>c4pt0r</author>
+        <category>github</category>
+        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-c4pt0r-pie</guid>
+      </item>
+<item>
+        <title>yeahhe365/WebDroid-Agent</title>
+        <link>https://github.com/yeahhe365/WebDroid-Agent</link>
+        <description>Browser-based Android phone agent using WebADB/WebUSB and OpenAI-compatible vision models | 近期热门 | 总 48 stars</description>
+        <author>yeahhe365</author>
+        <category>github</category>
+        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yeahhe365-webdroid-agent</guid>
       </item>
   </channel>
 </rss>
