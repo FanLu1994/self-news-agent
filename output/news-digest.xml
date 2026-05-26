@@ -1,118 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/25)</title>
+    <title>6-8 件事 (2026/5/26)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>兄弟，今天的内容对你来说简直是宝藏！社区里基本都在聊 **AI 编程** 和 **Agent** 相关的事。
+    <description>嘿，今天的资讯几乎都是围绕你关心的AI编程和Agent，信息量爆炸，但别怕，我帮你筛出了精华。有几个核心信息点：
 
-一方面，大家在上手各种牛逼的新工具，比如能让 LLM 互通的 `codex-shim`、给 Agent 装记忆的 `ai-memory`，还有能管理多个编程 Agent 的工具。另一方面，很多人在讨论实践中遇到的坑，比如怎么判断 AI 写的代码质量、Agent 为啥会“卡壳”不往下想。这些都说明咱们正处在一个“AI 编程从能用走向好用”的关键时期。
-
-另外，还有一篇非常硬核的学术论文，专门分析了 LLM Agent 在后端开发中的弱点，这和你的 `agent` + `coding` 关键词直接相关，强烈建议看看。
+1.  **开源 Agent 开发工具大爆发**：从Kimi、Perplexity到个人开发者，大家都在做Agent工具，尤其是Coding Agent相关的脚手架和监控工具，这说明Agent开发正在快速从“想法”走向“工程化”。
+2.  **Codex 生态越来越热闹**：社区里关于Codex的讨论非常多，从用中转API、到手机、到监控额度，大家都在积极“折腾”，说明Codex作为优秀Coding Agent的代表，已经在开发者中有了很深的渗透。
+3.  **AI Coding 的“快”与“慢”之争**：有工具追求更快的生成，但也有人在讨论用AI“更慢地写出更好的代码”，这是个很有意思的深度思考，值得看看。
 
 ---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 May 2026 03:35:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 03:34:45 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>兄弟，今天的内容对你来说简直是宝藏！社区里基本都在聊 **AI 编程** 和 **Agent** 相关的事。
+        <description>嘿，今天的资讯几乎都是围绕你关心的AI编程和Agent，信息量爆炸，但别怕，我帮你筛出了精华。有几个核心信息点：
 
-一方面，大家在上手各种牛逼的新工具，比如能让 LLM 互通的 `codex-shim`、给 Agent 装记忆的 `ai-memory`，还有能管理多个编程 Agent 的工具。另一方面，很多人在讨论实践中遇到的坑，比如怎么判断 AI 写的代码质量、Agent 为啥会“卡壳”不往下想。这些都说明咱们正处在一个“AI 编程从能用走向好用”的关键时期。
-
-另外，还有一篇非常硬核的学术论文，专门分析了 LLM Agent 在后端开发中的弱点，这和你的 `agent` + `coding` 关键词直接相关，强烈建议看看。
+1.  **开源 Agent 开发工具大爆发**：从Kimi、Perplexity到个人开发者，大家都在做Agent工具，尤其是Coding Agent相关的脚手架和监控工具，这说明Agent开发正在快速从“想法”走向“工程化”。
+2.  **Codex 生态越来越热闹**：社区里关于Codex的讨论非常多，从用中转API、到手机、到监控额度，大家都在积极“折腾”，说明Codex作为优秀Coding Agent的代表，已经在开发者中有了很深的渗透。
+3.  **AI Coding 的“快”与“慢”之争**：有工具追求更快的生成，但也有人在讨论用AI“更慢地写出更好的代码”，这是个很有意思的深度思考，值得看看。
 
 ---</description>
-        <pubDate>Mon, 25 May 2026 03:35:03 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-25T03:34:54.466Z</guid>
+        <pubDate>Tue, 26 May 2026 03:34:45 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-26T03:34:38.506Z</guid>
       </item>
     <item>
         <title>perplexityai/bumblebee</title>
         <link>https://github.com/perplexityai/bumblebee</link>
-        <description>Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises. | 近期热门 | 总 2204 stars</description>
+        <description>Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises. | 近期热门 | 总 2605 stars</description>
         <author>perplexityai</author>
         <category>github</category>
-        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <pubDate>Tue, 26 May 2026 03:33:40 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-perplexityai-bumblebee</guid>
       </item>
 <item>
         <title>0xSero/codex-shim</title>
         <link>https://github.com/0xSero/codex-shim</link>
-        <description>Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop. | 近期热门 | 总 485 stars</description>
+        <description>Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop. | 近期热门 | 总 600 stars</description>
         <author>0xSero</author>
         <category>github</category>
-        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <pubDate>Tue, 26 May 2026 03:33:40 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-0xsero-codex-shim</guid>
       </item>
 <item>
-        <title>SalhaNabil/CloakBrowser</title>
-        <link>https://github.com/SalhaNabil/CloakBrowser</link>
-        <description>CloakBrowser Github: anti-detect browser download, source-level chromium patches, browser fingerprinting spoofing, multi-accounting tool, canvas webgl modification, proxy manager http socks5, cookie isolation, session import export, user-agent switcher, puppeteer playwright automation api, profile sharing, web scraping free, github  | 近期热门 | 总 387 stars</description>
-        <author>SalhaNabil</author>
+        <title>MoonshotAI/kimi-code</title>
+        <link>https://github.com/MoonshotAI/kimi-code</link>
+        <description>The Starting Point for Next-Gen Agents | 近期热门 | 总 544 stars</description>
+        <author>MoonshotAI</author>
         <category>github</category>
-        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-salhanabil-cloakbrowser</guid>
+        <pubDate>Tue, 26 May 2026 03:33:40 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-moonshotai-kimi-code</guid>
       </item>
 <item>
-        <title>testerlingcodo/gemini-antigravity-cli</title>
-        <link>https://github.com/testerlingcodo/gemini-antigravity-cli</link>
-        <description>gemini antigravity 2.0 cli google terminal ai agent tool agy migration guide mcp server plugin slash commands gemini 3.5 flash coding agent tool free | 近期热门 | 总 298 stars</description>
-        <author>testerlingcodo</author>
+        <title>jianshuo/ccglass</title>
+        <link>https://github.com/jianshuo/ccglass</link>
+        <description>See what your coding agent (Claude Code, Codex, Kimi) sends to the model — local proxy + web dashboard | 近期热门 | 总 294 stars</description>
+        <author>jianshuo</author>
         <category>github</category>
-        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-testerlingcodo-gemini-antigravity-cli</guid>
-      </item>
-<item>
-        <title>CEOHarvey242/cheat-engine-7.5</title>
-        <link>https://github.com/CEOHarvey242/cheat-engine-7.5</link>
-        <description>cheat engine 7.5  github  tables download pc windows 11 cheat tables forza horizon 6  elden ring  ct file memory scanner speedhack trainer maker | 近期热门 | 总 287 stars</description>
-        <author>CEOHarvey242</author>
-        <category>github</category>
-        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ceoharvey242-cheat-engine-7.5</guid>
+        <pubDate>Tue, 26 May 2026 03:33:40 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-jianshuo-ccglass</guid>
       </item>
 <item>
         <title>akitaonrails/ai-memory</title>
         <link>https://github.com/akitaonrails/ai-memory</link>
-        <description>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors | 近期热门 | 总 163 stars</description>
+        <description>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors | 近期热门 | 总 239 stars</description>
         <author>akitaonrails</author>
         <category>github</category>
-        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <pubDate>Tue, 26 May 2026 03:33:40 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-akitaonrails-ai-memory</guid>
       </item>
 <item>
         <title>Eynzof/hermes-agent-cn-desktop</title>
         <link>https://github.com/Eynzof/hermes-agent-cn-desktop</link>
-        <description>Hermes Agent CN desktop app, Windows-First, built with Tauri, Typescript and Rust. Isolated Hermes Agent core insides.  | 近期热门 | 总 153 stars</description>
+        <description>Hermes Agent CN desktop app, Windows-First, built with Tauri, Typescript and Rust. Isolated Hermes Agent core insides.  | 近期热门 | 总 181 stars</description>
         <author>Eynzof</author>
         <category>github</category>
-        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <pubDate>Tue, 26 May 2026 03:33:40 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-eynzof-hermes-agent-cn-desktop</guid>
       </item>
 <item>
         <title>DEEIX-AI/DEEIX-Chat</title>
         <link>https://github.com/DEEIX-AI/DEEIX-Chat</link>
-        <description>An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations. | 近期热门 | 总 143 stars</description>
+        <description>An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations. | 近期热门 | 总 155 stars</description>
         <author>DEEIX-AI</author>
         <category>github</category>
-        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <pubDate>Tue, 26 May 2026 03:33:40 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-deeix-ai-deeix-chat</guid>
+      </item>
+<item>
+        <title>elliotgao2/handsets</title>
+        <link>https://github.com/elliotgao2/handsets</link>
+        <description>A high-performance Android automation CLI, built for agents and humans | 近期热门 | 总 72 stars</description>
+        <author>elliotgao2</author>
+        <category>github</category>
+        <pubDate>Tue, 26 May 2026 03:33:40 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-elliotgao2-handsets</guid>
       </item>
 <item>
         <title>c4pt0r/pie</title>
         <link>https://github.com/c4pt0r/pie</link>
-        <description>Rust port of the pi agent harness — coding agent + LLM runtime stack | 近期热门 | 总 65 stars</description>
+        <description>Rust port of the pi agent harness — coding agent + LLM runtime stack | 近期热门 | 总 68 stars</description>
         <author>c4pt0r</author>
         <category>github</category>
-        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <pubDate>Tue, 26 May 2026 03:33:40 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-c4pt0r-pie</guid>
       </item>
 <item>
         <title>yeahhe365/WebDroid-Agent</title>
         <link>https://github.com/yeahhe365/WebDroid-Agent</link>
-        <description>Browser-based Android phone agent using WebADB/WebUSB and OpenAI-compatible vision models | 近期热门 | 总 48 stars</description>
+        <description>Browser-based Android phone agent using WebADB/WebUSB and OpenAI-compatible vision models | 近期热门 | 总 60 stars</description>
         <author>yeahhe365</author>
         <category>github</category>
-        <pubDate>Mon, 25 May 2026 03:34:10 GMT</pubDate>
+        <pubDate>Tue, 26 May 2026 03:33:40 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-yeahhe365-webdroid-agent</guid>
       </item>
   </channel>
