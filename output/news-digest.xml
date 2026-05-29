@@ -1,111 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/28)</title>
+    <title>6-8 件事 (2026/5/29)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息量很大，但核心都指向了一个方向：**AI编程代理（Coding Agent）正在进入一个“工具链成熟、能力爆发”的新阶段。**
-
-从GitHub上的新项目到社区的深度讨论，大家都在围绕如何让AI更安全、更高效、更智能地写代码。你会发现，今天的推荐几乎都围绕着“如何驾驭AI替你写代码”这一主题，无论你是开发者还是技术决策者，都有值得关注的点。</description>
+    <description>嘿！今天的信息量不小，但别担心，我已经帮你把跟 AI、LLM、Agent 和 Coding 最相关的干货都挑出来了。看得出来，**AI Coding Agent** 和 **Claude Code** 生态是今天绝对的焦点，既有深度的技术分享，也有很多实用的工具和讨论。来看看哪些值得你花时间：</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 28 May 2026 03:35:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 03:35:19 GMT</lastBuildDate>
     <item>
         <title>6-8 件事</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息量很大，但核心都指向了一个方向：**AI编程代理（Coding Agent）正在进入一个“工具链成熟、能力爆发”的新阶段。**
-
-从GitHub上的新项目到社区的深度讨论，大家都在围绕如何让AI更安全、更高效、更智能地写代码。你会发现，今天的推荐几乎都围绕着“如何驾驭AI替你写代码”这一主题，无论你是开发者还是技术决策者，都有值得关注的点。</description>
-        <pubDate>Thu, 28 May 2026 03:35:02 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-28T03:34:54.120Z</guid>
+        <description>嘿！今天的信息量不小，但别担心，我已经帮你把跟 AI、LLM、Agent 和 Coding 最相关的干货都挑出来了。看得出来，**AI Coding Agent** 和 **Claude Code** 生态是今天绝对的焦点，既有深度的技术分享，也有很多实用的工具和讨论。来看看哪些值得你花时间：</description>
+        <pubDate>Fri, 29 May 2026 03:35:19 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-29T03:35:12.526Z</guid>
       </item>
     <item>
-        <title>MoonshotAI/kimi-code</title>
-        <link>https://github.com/MoonshotAI/kimi-code</link>
-        <description>The Starting Point for Next-Gen Agents | 近期热门 | 总 896 stars</description>
-        <author>MoonshotAI</author>
-        <category>github</category>
-        <pubDate>Thu, 28 May 2026 03:33:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-moonshotai-kimi-code</guid>
-      </item>
-<item>
-        <title>0xSero/codex-shim</title>
-        <link>https://github.com/0xSero/codex-shim</link>
-        <description>Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop. | 近期热门 | 总 661 stars</description>
-        <author>0xSero</author>
-        <category>github</category>
-        <pubDate>Thu, 28 May 2026 03:33:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-0xsero-codex-shim</guid>
-      </item>
-<item>
         <title>study8677/awesome-architecture</title>
         <link>https://github.com/study8677/awesome-architecture</link>
-        <description>🗺️ Think like a software architect, not just a coder — 21 architecture maps (incl. AI gateway, RAG, agents, inference serving, vector DB) + a language-agnostic system-design tutorial. Every template links to real open-source prototypes. 中英文双语。 | 近期热门 | 总 582 stars</description>
+        <description>🗺️ Think like a software architect, not just a coder — 21 architecture maps (incl. AI gateway, RAG, agents, inference serving, vector DB) + a language-agnostic system-design tutorial. Every template links to real open-source prototypes. 中英文双语。 | 近期热门 | 总 744 stars</description>
         <author>study8677</author>
         <category>github</category>
-        <pubDate>Thu, 28 May 2026 03:33:54 GMT</pubDate>
+        <pubDate>Fri, 29 May 2026 03:34:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-study8677-awesome-architecture</guid>
       </item>
 <item>
         <title>UditAkhourii/adhd</title>
         <link>https://github.com/UditAkhourii/adhd</link>
-        <description>ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work. | 近期热门 | 总 368 stars</description>
+        <description>ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work. | 近期热门 | 总 477 stars</description>
         <author>UditAkhourii</author>
         <category>github</category>
-        <pubDate>Thu, 28 May 2026 03:33:54 GMT</pubDate>
+        <pubDate>Fri, 29 May 2026 03:34:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-uditakhourii-adhd</guid>
       </item>
 <item>
-        <title>VILA-Lab/FigMirror</title>
-        <link>https://github.com/VILA-Lab/FigMirror</link>
-        <description>An Automated AI Agent Tool for Plotting Your Data in Any Paper&apos;s Figure Style. | 近期热门 | 总 335 stars</description>
-        <author>VILA-Lab</author>
+        <title>withkynam/vibecode-pro-max-kit</title>
+        <link>https://github.com/withkynam/vibecode-pro-max-kit</link>
+        <description>Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 12 agents, 32 skills. Kills context rot, ships features, not spaghetti. Claude Code &amp; Codex. Any stack. 30 seconds | 近期热门 | 总 320 stars</description>
+        <author>withkynam</author>
         <category>github</category>
-        <pubDate>Thu, 28 May 2026 03:33:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vila-lab-figmirror</guid>
+        <pubDate>Fri, 29 May 2026 03:34:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-withkynam-vibecode-pro-max-kit</guid>
       </item>
 <item>
-        <title>jianshuo/ccglass</title>
-        <link>https://github.com/jianshuo/ccglass</link>
-        <description>See what your coding agent (Claude Code, Codex, Kimi) sends to the model — local proxy + web dashboard | 近期热门 | 总 315 stars</description>
-        <author>jianshuo</author>
+        <title>bryanyzhu/agentic-ai-system-course</title>
+        <link>https://github.com/bryanyzhu/agentic-ai-system-course</link>
+        <description>Use agent to learn agent - A skeleton course on how to design, build, and operate production AI agents  | 近期热门 | 总 287 stars</description>
+        <author>bryanyzhu</author>
         <category>github</category>
-        <pubDate>Thu, 28 May 2026 03:33:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-jianshuo-ccglass</guid>
+        <pubDate>Fri, 29 May 2026 03:34:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-bryanyzhu-agentic-ai-system-course</guid>
+      </item>
+<item>
+        <title>Sophomoresty/gemini-web2api</title>
+        <link>https://github.com/Sophomoresty/gemini-web2api</link>
+        <description>Convert Google Gemini web into OpenAI-compatible API. Zero auth, cross-platform, single file. | 近期热门 | 总 273 stars</description>
+        <author>Sophomoresty</author>
+        <category>github</category>
+        <pubDate>Fri, 29 May 2026 03:34:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-sophomoresty-gemini-web2api</guid>
+      </item>
+<item>
+        <title>MatinSenPai/SenPaiScanner</title>
+        <link>https://github.com/MatinSenPai/SenPaiScanner</link>
+        <description>A light-weight scanner for Cloudflare IPs, written in Golang | 近期热门 | 总 224 stars</description>
+        <author>MatinSenPai</author>
+        <category>github</category>
+        <pubDate>Fri, 29 May 2026 03:34:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-matinsenpai-senpaiscanner</guid>
+      </item>
+<item>
+        <title>akitaonrails/ai-usagebar</title>
+        <link>https://github.com/akitaonrails/ai-usagebar</link>
+        <description>Rust-based waybar widget to monitor status of Claude, GPT, GLM, OpenRouter plans/credits - inspired by claudebar/codexbar | 近期热门 | 总 99 stars</description>
+        <author>akitaonrails</author>
+        <category>github</category>
+        <pubDate>Fri, 29 May 2026 03:34:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-akitaonrails-ai-usagebar</guid>
       </item>
 <item>
         <title>bitan-del/zap</title>
         <link>https://github.com/bitan-del/zap</link>
-        <description>Zap — high-performance CLI proxy that filters command output to save 60-90% AI tokens | 近期热门 | 总 85 stars</description>
+        <description>Zap — high-performance CLI proxy that filters command output to save 60-90% AI tokens | 近期热门 | 总 94 stars</description>
         <author>bitan-del</author>
         <category>github</category>
-        <pubDate>Thu, 28 May 2026 03:33:54 GMT</pubDate>
+        <pubDate>Fri, 29 May 2026 03:34:07 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-bitan-del-zap</guid>
       </item>
 <item>
-        <title>vuejs-ai/vue-tui</title>
-        <link>https://github.com/vuejs-ai/vue-tui</link>
-        <description>The Vue framework for terminal UIs. SFC &amp; JSX, Yoga flexbox, HMR, and testing out of the box. | 近期热门 | 总 64 stars</description>
-        <author>vuejs-ai</author>
-        <category>github</category>
-        <pubDate>Thu, 28 May 2026 03:33:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vuejs-ai-vue-tui</guid>
-      </item>
-<item>
-        <title>kldhsh123/Afterglow</title>
-        <link>https://github.com/kldhsh123/Afterglow</link>
-        <description>使用 QQ/微信 聊天记录结合向量数据库让AI更好的扮演对方的角色，在不微调模型的情况下可以达到可观的效果。把曾经的美好，续成往后的陪伴。 --续温 | 近期热门 | 总 49 stars</description>
-        <author>kldhsh123</author>
-        <category>github</category>
-        <pubDate>Thu, 28 May 2026 03:33:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kldhsh123-afterglow</guid>
-      </item>
-<item>
-        <title>Powabase - 使用Postgres、RAG和智能体构建AI应用</title>
-        <link>https://www.producthunt.com/products/powabase</link>
+        <title>Robinhood Agentic Trading - 让您的智能体进行交易</title>
+        <link>https://www.producthunt.com/products/robinhood</link>
         <description>讨论 | 链接</description>
-        <author>Powabase</author>
+        <author>Robinhood Agentic Trading</author>
         <category>producthunt</category>
-        <pubDate>Thu, 28 May 2026 03:33:48 GMT</pubDate>
-        <guid isPermaLink="false">ph-1779939228321-0</guid>
+        <pubDate>Fri, 29 May 2026 03:34:01 GMT</pubDate>
+        <guid isPermaLink="false">ph-1780025641264-13</guid>
+      </item>
+<item>
+        <title>Parastore - 使用LLM驱动的合成消费者模拟真实商店</title>
+        <link>https://www.producthunt.com/products/parastore</link>
+        <description>讨论 | 链接</description>
+        <author>Parastore</author>
+        <category>producthunt</category>
+        <pubDate>Fri, 29 May 2026 03:34:01 GMT</pubDate>
+        <guid isPermaLink="false">ph-1780025641264-14</guid>
       </item>
   </channel>
 </rss>
