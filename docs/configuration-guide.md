@@ -51,6 +51,11 @@ OPENAI_BASE_URL=https://api.deepseek.com
 # TELEGRAM_BOT_TOKEN=123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
 # TELEGRAM_CHAT_ID=123456789
 
+# ========== 飞书推送（可选）==========
+# FEISHU_ENABLED=false
+# FEISHU_WEBHOOK_URL=https://open.feishu.cn/open-apis/bot/v2/hook/xxxx
+# FEISHU_SECRET=xxxx  # 可选，启用签名校验时填写
+
 # ========== Email 推送（可选）==========
 # EMAIL_ENABLED=true
 # RESEND_API_KEY=re_xxxxxxxxxxxxx
@@ -100,6 +105,7 @@ OPENAI_BASE_URL=https://api.deepseek.com
   },
   "push": {
     "telegram": { "enabled": false },
+    "feishu": { "enabled": false },
     "email": {
       "enabled": false,
       "from": "Self News <noreply@yourdomain.com>",
@@ -139,6 +145,9 @@ npm run telegram
 | `OPENAI_BASE_URL` | API 基础 URL | DeepSeek: `https://api.deepseek.com` |
 | `TELEGRAM_BOT_TOKEN` | Telegram Bot Token | 向 [@BotFather](https://t.me/botfather) 发送 `/newbot` |
 | `TELEGRAM_CHAT_ID` | Telegram 聊天 ID | 访问 `https://api.telegram.org/bot<TOKEN>/getUpdates` |
+| `FEISHU_ENABLED` | 是否启用飞书推送（可选覆盖） | `true` / `false` |
+| `FEISHU_WEBHOOK_URL` | 飞书自定义机器人 Webhook | 群设置 -> 群机器人 -> 添加自定义机器人 |
+| `FEISHU_SECRET` | 飞书机器人签名密钥（可选） | 机器人安全设置启用“签名校验”时复制 |
 | `RESEND_API_KEY` | Resend 邮件服务 Key | [Resend 控制台](https://resend.com/) |
 
 **Telegram Chat ID 获取步骤：**
@@ -254,7 +263,26 @@ TELEGRAM_CHAT_ID=123456789
 }
 ```
 
-#### 4.2 Email 推送
+#### 4.2 飞书推送
+
+**步骤 1：** 在 `.env` 中配置 Webhook；如果机器人启用了“签名校验”，同时配置密钥
+```env
+FEISHU_WEBHOOK_URL=https://open.feishu.cn/open-apis/bot/v2/hook/xxxx
+FEISHU_SECRET=xxxx
+```
+
+**步骤 2：** 在 `config.json` 中启用
+```json
+{
+  "push": {
+    "feishu": { "enabled": true }
+  }
+}
+```
+
+也可以在 GitHub Actions Secrets 中设置 `FEISHU_ENABLED=true` 临时覆盖开关。
+
+#### 4.3 Email 推送
 
 **步骤 1：** 在 `.env` 中配置 Resend API Key
 ```env
@@ -363,6 +391,7 @@ schedule:
 | **GitHub Actions 无法推送** | 仓库写权限未开启 | 进入 Settings → Actions → 启用 `Read and write permissions` |
 | **某些数据源无数据** | 对应开关未启用 | 检查 `config.json` 中 `sources.*.enabled` |
 | **Telegram 未收到消息** | Token 或 Chat ID 错误，或开关未启用 | 检查 `.env` 中的配置和 `config.json` 中 `push.telegram.enabled` |
+| **飞书未收到消息** | Webhook 错误、签名密钥错误或开关未启用 | 检查 `FEISHU_WEBHOOK_URL`、`FEISHU_SECRET` 和 `push.feishu.enabled` |
 | **邮件未发送** | Resend 配置不完整或域名未验证 | 确保 `RESEND_API_KEY` 已配置，且 `config.json` 中 `push.email.enabled: true` |
 | **README 未更新** | 功能被禁用 | 检查 `config.json` 中 `output.updateReadme: true` |
 | **GitHub Trending 失败** | 网络波动或 API 限制 | 已内置重试机制，偶发失败可忽略 |

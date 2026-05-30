@@ -75,6 +75,9 @@
     "telegram": {
       "enabled": true
     },
+    "feishu": {
+      "enabled": false
+    },
     "email": {
       "enabled": false,
       "from": "Self News <noreply@yourdomain.com>",

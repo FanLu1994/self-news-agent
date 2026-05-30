@@ -4,6 +4,7 @@ import { getConfiguredModel } from './model.js';
 import { analysisService } from './services/analysis.service.js';
 import { curationService } from './services/curation.service.js';
 import { emailService } from './services/email.service.js';
+import { feishuService } from './services/feishu.service.js';
 import { externalCuratedSourceService } from './services/external-curated-source.service.js';
 import { githubTrendingService } from './services/github-trending.service.js';
 import { hackerNewsService } from './services/hackernews.service.js';
@@ -299,12 +300,24 @@ export async function runDigestPipeline(): Promise<void> {
 
   try {
     await telegramService.sendMessage({
+      enabled: config.telegramEnabled,
       botToken: config.telegramBotToken,
       chatId: config.telegramChatId,
       text: telegramText
     });
   } catch (error) {
     console.error('Telegram push failed:', error);
+  }
+
+  try {
+    await feishuService.sendMessage({
+      enabled: config.feishuEnabled,
+      webhookUrl: config.feishuWebhookUrl,
+      secret: config.feishuSecret,
+      text: fullReport.join('\n')
+    });
+  } catch (error) {
+    console.error('Feishu push failed:', error);
   }
 
   try {

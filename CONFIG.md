@@ -35,6 +35,9 @@ npm start
 | `OPENAI_BASE_URL` | DeepSeek API 地址 | ✅ |
 | `TELEGRAM_BOT_TOKEN` | Telegram Bot Token | - |
 | `TELEGRAM_CHAT_ID` | Telegram 聊天 ID | - |
+| `FEISHU_ENABLED` | 是否启用飞书推送（可选覆盖） | - |
+| `FEISHU_WEBHOOK_URL` | 飞书自定义机器人 Webhook | - |
+| `FEISHU_SECRET` | 飞书机器人签名密钥（可选） | - |
 | `RESEND_API_KEY` | Resend API Key（邮件） | - |
 | `GITHUB_TOKEN` | GitHub Token（可选） | - |
 | `X_BEARER_TOKEN` | X/Twitter API Token | - |
@@ -71,6 +74,7 @@ npm start
   },
   "push": {
     "telegram": { "enabled": false },
+    "feishu": { "enabled": false },
     "email": { "enabled": false, "from": "...", "to": "..." }
   }
 }
@@ -125,6 +129,29 @@ TELEGRAM_CHAT_ID=你的chat_id
 }
 ```
 
+### 启用飞书推送
+
+1. 编辑 `.env`：
+```env
+FEISHU_WEBHOOK_URL=https://open.feishu.cn/open-apis/bot/v2/hook/xxxx
+# 如果机器人启用了“签名校验”，再填写：
+FEISHU_SECRET=你的飞书机器人签名密钥
+```
+
+2. 编辑 `config.json`：
+```json
+{
+  "push": {
+    "feishu": { "enabled": true }
+  }
+}
+```
+
+也可以只通过环境变量启用：
+```env
+FEISHU_ENABLED=true
+```
+
 ### 调整抓取频率和数量
 
 编辑 `config.json`：
@@ -147,6 +174,7 @@ TELEGRAM_CHAT_ID=你的chat_id
 
 **可选：**
 - `TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`
+- `FEISHU_WEBHOOK_URL`、`FEISHU_SECRET`、`FEISHU_ENABLED`
 - `RESEND_API_KEY`、`EMAIL_FROM`、`EMAIL_TO`
 - `GITHUB_TOKEN`
 - `X_BEARER_TOKEN`

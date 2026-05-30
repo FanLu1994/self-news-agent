@@ -58,6 +58,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FEISHU_ENABLED: ${{ secrets.FEISHU_ENABLED }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
           OUTPUT_RSS_PATH: output/news-digest.xml
           OUTPUT_DAILY_DIR: docs/daily
           TOPIC_STATS_PATH: data/topic-stats-history.json

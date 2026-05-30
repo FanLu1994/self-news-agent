@@ -1,4 +1,5 @@
 interface TelegramOptions {
+  enabled: boolean;
   botToken?: string;
   chatId?: string | number;
 }
@@ -25,6 +26,8 @@ export class TelegramService {
    * 发送消息（自动处理长消息分割）
    */
   async sendMessage(options: TelegramOptions & { text: string; replyToMessageId?: number }): Promise<boolean> {
+    if (!options.enabled) return false;
+
     if (!options.botToken || !options.chatId) {
       console.warn('Telegram credentials not configured, skip Telegram push.');
       return false;

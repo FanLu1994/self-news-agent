@@ -46,6 +46,7 @@ export async function runTelegramBotChat(): Promise<void> {
         const chatId = String(message.chat.id);
         if (allowedChatId && chatId !== allowedChatId) {
           await telegramService.sendMessage({
+            enabled: true,
             botToken,
             chatId,
             text: '当前机器人未授权此 chat。请联系管理员配置 TELEGRAM_CHAT_ID。'
@@ -58,6 +59,7 @@ export async function runTelegramBotChat(): Promise<void> {
 
         if (text === '/start' || text === '/help') {
           await telegramService.sendMessage({
+            enabled: true,
             botToken,
             chatId,
             replyToMessageId: message.message_id,
@@ -71,6 +73,7 @@ export async function runTelegramBotChat(): Promise<void> {
 
         for (let i = 0; i < chunks.length; i += 1) {
           await telegramService.sendMessage({
+            enabled: true,
             botToken,
             chatId,
             replyToMessageId: i === 0 ? message.message_id : undefined,

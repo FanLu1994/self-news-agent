@@ -42,6 +42,7 @@ interface AppConfig {
   };
   push: {
     telegram: { enabled: boolean };
+    feishu?: { enabled: boolean };
     email: { enabled: boolean; from: string; to: string };
   };
 }
@@ -76,8 +77,12 @@ export interface ParsedConfig {
   maxHighlights: number;
   minScore: number;
   historyDays: number;
+  telegramEnabled: boolean;
   telegramBotToken?: string;
   telegramChatId?: string;
+  feishuEnabled: boolean;
+  feishuWebhookUrl?: string;
+  feishuSecret?: string;
   outputRssPath: string;
   outputDailyDir: string;
   topicStatsPath: string;
@@ -177,6 +182,7 @@ function loadJsonConfig(): AppConfig {
       },
       push: {
         telegram: { enabled: false },
+        feishu: { enabled: false },
         email: { enabled: false, from: 'Self News <digest@yourdomain.com>', to: 'you@example.com' }
       }
     };
@@ -238,8 +244,14 @@ export function loadConfig(): ParsedConfig {
     historyDays: Math.min(parsePositiveInt(json.dedup?.historyDays, 7), 30),
 
     // Telegram
+    telegramEnabled: parseBoolean(process.env.TELEGRAM_ENABLED !== undefined ? process.env.TELEGRAM_ENABLED === 'true' : undefined, json.push.telegram.enabled),
     telegramBotToken: process.env.TELEGRAM_BOT_TOKEN,
     telegramChatId: process.env.TELEGRAM_CHAT_ID,
+
+    // Feishu
+    feishuEnabled: parseBoolean(process.env.FEISHU_ENABLED !== undefined ? process.env.FEISHU_ENABLED === 'true' : undefined, json.push.feishu?.enabled ?? false),
+    feishuWebhookUrl: process.env.FEISHU_WEBHOOK_URL,
+    feishuSecret: process.env.FEISHU_SECRET,
 
     // 输出路径
     outputRssPath: process.env.OUTPUT_RSS_PATH || json.output.rssPath,
