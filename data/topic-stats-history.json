@@ -1684,19 +1684,19 @@
   },
   {
     "date": "2026-05-30",
-    "total": 50,
+    "total": 63,
     "byTopic": {
-      "AI": 38,
-      "Frontend": 4,
+      "AI": 60,
+      "Frontend": 0,
       "Backend": 0,
       "DevOps": 0,
-      "Data": 1,
+      "Data": 0,
       "Security": 2,
-      "Cloud": 1,
-      "Mobile": 2,
+      "Cloud": 0,
+      "Mobile": 1,
       "Startup": 0,
       "OpenSource": 0,
-      "Other": 2
+      "Other": 0
     }
   }
 ]

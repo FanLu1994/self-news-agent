@@ -1,107 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>6-8 件事 (2026/5/30)</title>
+    <title>今日 AI 开发者精选 (2026/5/30)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息量有点大，但核心都围绕着“AI如何与代码更深度地融合”这个主题。从帮你写代码的Agent工具，到提升代码质量的检查器，再到关于AI编程能力的反思，都挺值得看看的。尤其值得注意的是，社区里已经有人在认真思考“AI生成的代码是不是变‘馊’了”，这个趋势洞察很关键。</description>
+    <description>今天的关键词是**本地化与控制**。一方面，社区对高性能、可本地部署的推理引擎（如 Tiny-vLLM）和极致的代码质量检查工具（AISlop）追求不减；另一方面，业界开始强调 Agent 的安全护栏（Guardrails）和结构化编排（Duel-Agents），表明开发者正从“能跑就行”转向“跑得稳、防得住、控得牢”的新阶段。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 30 May 2026 03:34:14 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 11:55:52 GMT</lastBuildDate>
     <item>
-        <title>6-8 件事</title>
+        <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息量有点大，但核心都围绕着“AI如何与代码更深度地融合”这个主题。从帮你写代码的Agent工具，到提升代码质量的检查器，再到关于AI编程能力的反思，都挺值得看看的。尤其值得注意的是，社区里已经有人在认真思考“AI生成的代码是不是变‘馊’了”，这个趋势洞察很关键。</description>
-        <pubDate>Sat, 30 May 2026 03:34:14 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-30T03:34:08.830Z</guid>
+        <description>今天的关键词是**本地化与控制**。一方面，社区对高性能、可本地部署的推理引擎（如 Tiny-vLLM）和极致的代码质量检查工具（AISlop）追求不减；另一方面，业界开始强调 Agent 的安全护栏（Guardrails）和结构化编排（Duel-Agents），表明开发者正从“能跑就行”转向“跑得稳、防得住、控得牢”的新阶段。</description>
+        <pubDate>Sat, 30 May 2026 11:55:52 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-05-30T11:55:40.887Z</guid>
       </item>
     <item>
-        <title>UditAkhourii/adhd</title>
-        <link>https://github.com/UditAkhourii/adhd</link>
-        <description>ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work. | 近期热门 | 总 519 stars</description>
-        <author>UditAkhourii</author>
+        <title>Show HN： Tiny-vLLM--基于 C 和 CUDA 的高性能大型语言模型推理引擎</title>
+        <link>https://github.com/jmaczan/tiny-vllm</link>
+        <description>Tiny-vLLM 是一个用 C 和 CUDA 编写的高性能大语言模型推理引擎，项目代码已开源至 GitHub</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Sat, 30 May 2026 03:25:01 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmprt0b0303xesllj5i7bbs1z</guid>
+      </item>
+<item>
+        <title>2aronS/Duel-Agents</title>
+        <link>https://github.com/2aronS/Duel-Agents</link>
+        <description>用于Duel Agents的CLI、SDK和IDE插件 | 近期热门 | 总 422 stars</description>
+        <author>2aronS</author>
         <category>github</category>
-        <pubDate>Sat, 30 May 2026 03:33:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-uditakhourii-adhd</guid>
+        <pubDate>Sat, 30 May 2026 11:55:16 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-2arons-duel-agents</guid>
       </item>
 <item>
-        <title>withkynam/vibecode-pro-max-kit</title>
-        <link>https://github.com/withkynam/vibecode-pro-max-kit</link>
-        <description>Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 12 agents, 32 skills. Kills context rot, ships features, not spaghetti. Claude Code &amp; Codex. Any stack. 30 seconds | 近期热门 | 总 509 stars</description>
-        <author>withkynam</author>
-        <category>github</category>
-        <pubDate>Sat, 30 May 2026 03:33:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-withkynam-vibecode-pro-max-kit</guid>
+        <title>Liquid AI 发布基于 38T 训练的 8B-A1B MoE 模型</title>
+        <link>https://www.liquid.ai/blog/lfm2-5-8b-a1b</link>
+        <description>Liquid AI 发布基于 38T 训练的 8B-A1B MoE 模型</description>
+        <author>simjnd</author>
+        <category>hn</category>
+        <pubDate>Fri, 29 May 2026 16:19:54 GMT</pubDate>
+        <guid isPermaLink="false">hn-48325306</guid>
       </item>
 <item>
-        <title>baoweise-bot/aimili-vpngate</title>
-        <link>https://github.com/baoweise-bot/aimili-vpngate</link>
-        <description>aimili-vpngate是一个借助vpngate.net让Linux用干净ip出站的代理工具。 | 近期热门 | 总 434 stars</description>
-        <author>baoweise-bot</author>
-        <category>github</category>
-        <pubDate>Sat, 30 May 2026 03:33:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-baoweise-bot-aimili-vpngate</guid>
+        <title>Guardrails：保护你的智能体、数据与成本</title>
+        <link>https://openrouter.ai/announcements/guardrails</link>
+        <description>Guardrails 是一套可配置的安全与治理工具，提供预算执行、零数据保留、模型与提供商限制、提示词注入防御及数据丢失预防等功能，旨在保护智能体（Agents）、数据与控制成本</description>
+        <author>AI HOT / OpenRouter：Announcements（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 29 May 2026 12:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmprjnsl401moslljay7ixk7d</guid>
       </item>
 <item>
-        <title>Sophomoresty/gemini-web2api</title>
-        <link>https://github.com/Sophomoresty/gemini-web2api</link>
-        <description>Convert Google Gemini web into OpenAI-compatible API. Zero auth, cross-platform, single file. | 近期热门 | 总 402 stars</description>
-        <author>Sophomoresty</author>
-        <category>github</category>
-        <pubDate>Sat, 30 May 2026 03:33:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-sophomoresty-gemini-web2api</guid>
+        <title>LlamaIndex 团队基于 Google Agents API 构建 LlamaParse/LiteParse 智能体模板</title>
+        <link>https://x.com/googleaidevs/status/2060439904929382700</link>
+        <description>LlamaIndex 团队基于 Google 新发布的 Agents API 构建了一个模板，使智能体能够访问 LlamaParse 和 LiteParse，从而自动处理非结构化文档</description>
+        <author>AI HOT / X：Google AI for Developers (@googleaidevs)</author>
+        <category>aihot</category>
+        <pubDate>Fri, 29 May 2026 19:15:29 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmprc0e680csdslnofhw8c29o</guid>
       </item>
 <item>
-        <title>MatinSenPai/SenPaiScanner</title>
-        <link>https://github.com/MatinSenPai/SenPaiScanner</link>
-        <description>A light-weight scanner for Cloudflare IPs, written in Golang | 近期热门 | 总 372 stars</description>
-        <author>MatinSenPai</author>
-        <category>github</category>
-        <pubDate>Sat, 30 May 2026 03:33:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-matinsenpai-senpaiscanner</guid>
+        <title>GPIC：大规模视觉生成基准数据集发布</title>
+        <link>https://x.com/drfeifei/status/2060404846734512205</link>
+        <description>我对这个适用于大规模生成模型新时代的视觉生成基准数据集感到非常兴奋</description>
+        <author>AI HOT / X：Fei-Fei Li (@drfeifei, World Labs)</author>
+        <category>aihot</category>
+        <pubDate>Fri, 29 May 2026 16:56:10 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpr6m8dg0be7slno4oc8myl7</guid>
       </item>
 <item>
-        <title>akitaonrails/ai-usagebar</title>
-        <link>https://github.com/akitaonrails/ai-usagebar</link>
-        <description>Rust-based waybar widget to monitor status of Claude, GPT, GLM, OpenRouter plans/credits - inspired by claudebar/codexbar | 近期热门 | 总 115 stars</description>
-        <author>akitaonrails</author>
-        <category>github</category>
-        <pubDate>Sat, 30 May 2026 03:33:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-akitaonrails-ai-usagebar</guid>
+        <title>Braintrust如何用Codex将客户请求转化为代码</title>
+        <link>https://openai.com/index/braintrust</link>
+        <description>Braintrust的工程师正在使用Codex结合GPT-5.5模型，以加速其实验运行与代码编写的流程</description>
+        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 29 May 2026 12:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpra49ml0c9vslnoye123aps</guid>
       </item>
 <item>
-        <title>vuejs-ai/vue-tui</title>
-        <link>https://github.com/vuejs-ai/vue-tui</link>
-        <description>The Vue framework for terminal UIs. SFC &amp; JSX, Yoga flexbox, HMR, and testing out of the box. | 近期热门 | 总 70 stars</description>
-        <author>vuejs-ai</author>
-        <category>github</category>
-        <pubDate>Sat, 30 May 2026 03:33:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vuejs-ai-vue-tui</guid>
-      </item>
-<item>
-        <title>Ava Studio - 你的AI视频广告创意团队</title>
-        <link>https://www.producthunt.com/products/ava-studio</link>
-        <description>讨论 | 链接</description>
-        <author>Ava Studio</author>
-        <category>producthunt</category>
-        <pubDate>Sat, 30 May 2026 03:33:11 GMT</pubDate>
-        <guid isPermaLink="false">ph-1780111991925-2</guid>
-      </item>
-<item>
-        <title>/monitor by Firecrawl - 当网页发生变化时通知您的AI代理</title>
-        <link>https://www.producthunt.com/products/extract-by-firecrawl</link>
-        <description>讨论 | 链接</description>
-        <author>/monitor by Firecrawl</author>
-        <category>producthunt</category>
-        <pubDate>Sat, 30 May 2026 03:33:11 GMT</pubDate>
-        <guid isPermaLink="false">ph-1780111991925-4</guid>
-      </item>
-<item>
-        <title>Firecoach AI - 将销售代表转变为顶尖表现者的AI角色扮演</title>
-        <link>https://www.producthunt.com/products/firecoach</link>
-        <description>讨论 | 链接</description>
-        <author>Firecoach AI</author>
-        <category>producthunt</category>
-        <pubDate>Sat, 30 May 2026 03:33:11 GMT</pubDate>
-        <guid isPermaLink="false">ph-1780111991925-5</guid>
+        <title>Show HN: AISlop —— 用于捕捉AI生成代码坏味的命令行工具</title>
+        <link>https://github.com/scanaislop/aislop</link>
+        <description>你好，我是Kenny，我一直在开发aislop。我在多次使用Claude Code、codex和opencode后注意到一些slop问题，于是开始着手这项工作。这些问题不是语法错误，也能通过大多数测试，它们……</description>
+        <author>Heavykenny</author>
+        <category>hn</category>
+        <pubDate>Fri, 29 May 2026 13:37:38 GMT</pubDate>
+        <guid isPermaLink="false">hn-48322956</guid>
       </item>
   </channel>
 </rss>
