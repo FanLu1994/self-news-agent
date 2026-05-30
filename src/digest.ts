@@ -2,20 +2,23 @@ import { join } from 'node:path';
 import { loadConfig } from './config.js';
 import { getConfiguredModel } from './model.js';
 import { analysisService } from './services/analysis.service.js';
+import { curationService } from './services/curation.service.js';
 import { emailService } from './services/email.service.js';
+import { externalCuratedSourceService } from './services/external-curated-source.service.js';
 import { githubTrendingService } from './services/github-trending.service.js';
 import { hackerNewsService } from './services/hackernews.service.js';
+import { historyService } from './services/history.service.js';
 import { markdownOutputService } from './services/markdown-output.service.js';
 import { productHuntService } from './services/product-hunt.service.js';
 import { readmeService } from './services/readme.service.js';
 import { rssOutputService } from './services/rss-output.service.js';
 import { rssService } from './services/rss.service.js';
 import { telegramService } from './services/telegram.service.js';
-import { toReadableText } from './text-format.js';
+import { stripLeadingListMarker, toReadableText } from './text-format.js';
 import { topicService } from './services/topic.service.js';
 import { topicStatsService } from './services/topic-stats.service.js';
 import { twitterService } from './services/twitter.service.js';
-import { matchesKeywords } from './utils/article-utils.js';
+import { dedupArticles, dedupWithHistory, matchesKeywords } from './utils/article-utils.js';
 import type { NewsArticle } from './types/news.types.js';
 import type { ParsedConfig } from './config.js';
 import type { SourceType } from './types/news.types.js';
@@ -87,18 +90,28 @@ export async function runDigestPipeline(): Promise<void> {
     }
   }
 
-  const [hnArticles, rssArticles, twitterArticles, githubArticles, ve2xArticles, linuxDoArticles, redditArticles] = await Promise.all([
+  const [
+    hnArticles,
+    rssArticles,
+    twitterArticles,
+    githubArticles,
+    ve2xArticles,
+    linuxDoArticles,
+    redditArticles,
+    aiHotArticles,
+    hex2077Articles
+  ] = await Promise.all([
     hackerNewsService.fetchAINews({
       limit: perSourceLimit,
       timeRange: config.timeRange,
       translate: true  // 自动翻译 HN 文章
     }),
-    rssService.fetchNews({
+    config.includeRss ? rssService.fetchNews({
       feeds: config.rssFeeds,
       limit: perSourceLimit,
       timeRange: config.timeRange,
       keywords: config.keywords
-    }),
+    }) : Promise.resolve([]),
     config.includeTwitter ? twitterService.fetchHotTweets({
       bearerToken: config.xBearerToken,
       keywords: config.xQueryKeywords,
@@ -115,10 +128,22 @@ export async function runDigestPipeline(): Promise<void> {
       : Promise.resolve([]),
     fetchRssIfEnabled(config.includeVe2x, config.ve2xFeeds, 'Ve2x', 've2x', 'zh', [], config),
     fetchRssIfEnabled(config.includeLinuxDo, config.linuxDoFeeds, 'Linux.do', 'linuxdo', 'zh', [], config),
-    fetchRssIfEnabled(config.includeReddit, config.redditFeeds, 'Reddit', 'reddit', 'en', config.keywords, config)
+    fetchRssIfEnabled(config.includeReddit, config.redditFeeds, 'Reddit', 'reddit', 'en', config.keywords, config),
+    externalCuratedSourceService.fetchAiHot({
+      enabled: config.includeAiHot,
+      baseUrl: config.aiHotBaseUrl,
+      take: config.aiHotTake,
+      timeRange: config.timeRange
+    }),
+    externalCuratedSourceService.fetchHex2077({
+      enabled: config.includeHex2077,
+      feeds: config.hex2077Feeds,
+      limit: perSourceLimit,
+      timeRange: config.timeRange
+    })
   ]);
 
-  let allArticles = [
+  const fetchedArticles = [
     ...hnArticles,
     ...rssArticles,
     ...twitterArticles,
@@ -126,10 +151,26 @@ export async function runDigestPipeline(): Promise<void> {
     ...ve2xArticles,
     ...linuxDoArticles,
     ...redditArticles,
+    ...aiHotArticles,
+    ...hex2077Articles,
     ...productHuntArticles
   ];
-  allArticles = allArticles.filter(article => matchesKeywords(article, config.keywords));
 
+  let allArticles = fetchedArticles.filter(article =>
+    article.sourceType === 'aihot' ||
+    article.sourceType === 'hex2077' ||
+    matchesKeywords(article, config.keywords)
+  );
+  const beforeDedupCount = allArticles.length;
+  allArticles = dedupArticles(allArticles);
+  const afterDedupCount = allArticles.length;
+
+  const historicalArticles = await historyService.getHistoricalArticles(
+    config.outputDailyDir,
+    config.historyDays
+  );
+  const historyDedup = dedupWithHistory(allArticles, historicalArticles);
+  allArticles = historyDedup.articles;
   allArticles.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
   if (allArticles.length === 0) {
@@ -137,16 +178,27 @@ export async function runDigestPipeline(): Promise<void> {
     return;
   }
 
-  const { analysis } = await analysisService.analyze({
+  const curation = curationService.curate({
     articles: allArticles,
+    profile: config.curationProfile,
+    maxHighlights: config.maxHighlights,
+    minScore: config.minScore
+  });
+  const selectedArticles = curation.selectedArticles;
+  console.log(`  🧹 当前批次去重: ${beforeDedupCount} -> ${afterDedupCount}`);
+  console.log(`  📜 历史去重过滤: ${historyDedup.filteredCount} 篇 / 历史 ${historyDedup.historicalCount} 篇`);
+  console.log(`  ⭐ 精选候选: ${selectedArticles.length} 篇，低价值过滤: ${curation.filteredLowValueCount} 篇`);
+
+  const { analysis } = await analysisService.analyze({
+    articles: selectedArticles,
     style: config.summaryStyle,
     queryKeywords: config.keywords
   });
   const dailyDate = toDateString(new Date());
-  const classifications = await topicService.classifyArticles(allArticles);
-  const todayTopicStats = topicService.summarizeByDay(dailyDate, allArticles, classifications);
+  const classifications = await topicService.classifyArticles(curation.rankedArticles);
+  const todayTopicStats = topicService.summarizeByDay(dailyDate, curation.rankedArticles, classifications);
   const topicHistory = await topicStatsService.upsertDay(config.topicStatsPath, todayTopicStats);
-  const trend = topicStatsService.buildTrendSummary(topicHistory);
+  topicStatsService.buildTrendSummary(topicHistory);
 
   const generatedAt = new Date(analysis.generatedAt || Date.now());
   const timeSegment = generatedAt.toISOString().slice(11, 19).replace(/:/g, '-');
@@ -156,7 +208,7 @@ export async function runDigestPipeline(): Promise<void> {
   const githubDocsBase = 'https://github.com/FanLu1994/self-news-agent/tree/main/docs/daily';
   const docUrl = `${githubDocsBase}/${dailyFileName}`;
 
-  const previewArticles = allArticles.slice(0, 10);
+  const previewArticles = selectedArticles.slice(0, 10);
   const rssXml = rssOutputService.buildXml({
     analysis,
     articles: previewArticles,
@@ -167,7 +219,7 @@ export async function runDigestPipeline(): Promise<void> {
     path: dailyDocPath,
     date: dailyDate,
     analysis,
-    articles: allArticles,
+    articles: curation.rankedArticles,
     topicStats: todayTopicStats
   });
 
@@ -176,7 +228,7 @@ export async function runDigestPipeline(): Promise<void> {
       readmePath: config.readmePath,
       date: dailyDate,
       analysis,
-      articles: allArticles,
+      articles: curation.rankedArticles,
       topicStats: todayTopicStats
     });
   }
@@ -187,13 +239,13 @@ export async function runDigestPipeline(): Promise<void> {
     '',
     toReadableText(analysis.overview),
     '',
-    '⭐ 值得关注:',
+    '⭐ 今日精选:',
     ''
   ];
 
   // 添加每一条值得关注的新闻
   for (const [idx, h] of analysis.highlights.entries()) {
-    fullReport.push(`${idx + 1}. ${toReadableText(h)}`);
+    fullReport.push(`${idx + 1}. ${toReadableText(stripLeadingListMarker(h))}`);
     fullReport.push('');  // 每一条新闻后加一个空行
   }
 
@@ -276,9 +328,12 @@ export async function runDigestPipeline(): Promise<void> {
   console.log(`- Linux.do: ${linuxDoArticles.length}`);
   console.log(`- Reddit: ${redditArticles.length}`);
   console.log(`- Product Hunt: ${productHuntArticles.length}`);
+  console.log(`- AI HOT: ${aiHotArticles.length}`);
+  console.log(`- HEX2077: ${hex2077Articles.length}`);
   console.log(`- Twitter/X: ${twitterArticles.length}`);
   console.log(`- GitHub Trending: ${githubArticles.length}`);
-  console.log(`- 最终输出: ${allArticles.length} 篇（未去重）`);
+  console.log(`- 最终归档: ${curation.rankedArticles.length} 篇（已去重）`);
+  console.log(`- 今日精选: ${selectedArticles.length} 篇`);
   console.log(`- 输出 Markdown: ${dailyDocPath}`);
   console.log(`- 话题统计: ${config.topicStatsPath}`);
   console.log(`- 输出 RSS: ${config.outputRssPath}`);

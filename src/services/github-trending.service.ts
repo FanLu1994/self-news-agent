@@ -1,4 +1,5 @@
 import type { NewsArticle, TimeRange } from '../types/news.types.js';
+import { translationService } from './translation.service.js';
 
 interface FetchTrendingOptions {
   token?: string;
@@ -179,6 +180,11 @@ function toApiQuery(lang: string): string {
   return LANG_TO_QUERY[lang.toLowerCase()] || `language:${lang}`;
 }
 
+function needsChineseTranslation(text: string): boolean {
+  if (!text.trim()) return false;
+  return !/[\u4e00-\u9fa5]/.test(text) && /[a-zA-Z]{3,}/.test(text);
+}
+
 interface GhApiRepo {
   full_name: string;
   description: string | null;
@@ -315,6 +321,23 @@ export class GitHubTrendingService {
 
       // 限制数量
       const items = repos.slice(0, options.limit);
+      const localizedDescriptions = new Map<string, string>();
+      for (const repo of items) {
+        if (needsChineseTranslation(repo.description)) {
+          try {
+            const translated = await translationService.translate({
+              text: repo.description,
+              from: 'en',
+              to: 'zh'
+            });
+            localizedDescriptions.set(repo.url, translated.translatedText || repo.description);
+          } catch {
+            localizedDescriptions.set(repo.url, repo.description);
+          }
+        } else {
+          localizedDescriptions.set(repo.url, repo.description);
+        }
+      }
 
       const now = new Date().toISOString();
 
@@ -324,11 +347,12 @@ export class GitHubTrendingService {
         const topic = language ? `${language} 热门项目` : 'GitHub 热门项目';
         const starsText = repo.starsToday ? `今日 +${repo.starsToday} stars` : '近期热门';
         const totalText = repo.starsTotal ? `总 ${repo.starsTotal} stars` : '';
+        const description = localizedDescriptions.get(repo.url) || repo.description;
 
         return {
           id: `gh-trending-${repo.owner}-${repo.repo}`.toLowerCase(),
           title: `${repo.owner}/${repo.repo}`,
-          summary: `${repo.description} | ${starsText}${totalText ? ` | ${totalText}` : ''}`,
+          summary: `${description} | ${starsText}${totalText ? ` | ${totalText}` : ''}`,
           url: repo.url,
           source: 'GitHub Trending',
           sourceType: 'github' as const,
@@ -347,7 +371,7 @@ export class GitHubTrendingService {
         console.log(`  最终返回: ${articles.length} 个仓库`);
         console.log(`  请求限制: ${options.limit}`);
         articles.forEach((article, i) => {
-          console.log(`  ${i + 1}. ${article.title} | ${article.tags[0]} | ⭐ ${article.score}`);
+          console.log(`  ${i + 1}. ${article.title} | ${article.tags?.[0] || 'unknown'} | ⭐ ${article.score}`);
         });
         console.log('');
       }

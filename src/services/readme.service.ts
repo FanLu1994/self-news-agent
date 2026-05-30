@@ -1,4 +1,5 @@
 import { writeFile } from 'node:fs/promises';
+import { stripLeadingListMarker } from '../text-format.js';
 import type { DigestAnalysis, TopicStatsDay, NewsArticle } from '../types/news.types.js';
 
 function formatDateTime(date: string): string {
@@ -15,6 +16,22 @@ function groupBySource(articles: NewsArticle[]): Record<string, NewsArticle[]> {
     acc[key].push(article);
     return acc;
   }, {} as Record<string, NewsArticle[]>);
+}
+
+function cleanListItem(value: string): string {
+  return stripLeadingListMarker(value);
+}
+
+function rankedMeta(article: NewsArticle): string {
+  const valueScore = 'valueScore' in article ? Number(article.valueScore) : null;
+  const reasons = 'valueReasons' in article && Array.isArray(article.valueReasons)
+    ? article.valueReasons as string[]
+    : [];
+  const parts = [
+    valueScore !== null && Number.isFinite(valueScore) ? `价值分: ${valueScore}` : '',
+    reasons.length > 0 ? `理由: ${reasons.slice(0, 2).join('；')}` : ''
+  ].filter(Boolean);
+  return parts.length > 0 ? `   - ${parts.join(' | ')}\n` : '';
 }
 
 function buildDailyMarkdown(options: {
@@ -36,7 +53,7 @@ function buildDailyMarkdown(options: {
   // 助理简报
   if (options.analysis.overview) {
     sections.push(
-      '## 📝 助理简报',
+      '## 今日最值得看',
       '',
       options.analysis.overview,
       ''
@@ -46,11 +63,11 @@ function buildDailyMarkdown(options: {
   // 重点推荐
   if (options.analysis.highlights.length > 0) {
     sections.push(
-      '## ⭐ 重点推荐',
+      '## 重点推荐',
       '',
       ...options.analysis.highlights.map((item, index) =>
         typeof item === 'string'
-          ? `${index + 1}. ${item}`
+          ? `${index + 1}. ${cleanListItem(item)}`
           : `${index + 1}. ${JSON.stringify(item)}`
       ),
       ''
@@ -60,7 +77,7 @@ function buildDailyMarkdown(options: {
   // 洞察与深度
   if (options.analysis.sourceHighlights) {
     sections.push(
-      '## 💡 洞察与深度',
+      '## 趋势判断与深度阅读',
       '',
       options.analysis.sourceHighlights,
       ''
@@ -90,16 +107,24 @@ function buildDailyMarkdown(options: {
     .sort((a, b) => b[1].length - a[1].length)
     .map(([source, items]) => {
       const lines = items.slice(0, 10).map((item, idx) =>
-        `${idx + 1}. [${item.title}](${item.url})\n   - 摘要: ${item.summary}\n   - 时间: ${formatDateTime(item.publishedAt)}`
+        `${idx + 1}. [${item.title}](${item.url})\n` +
+        `   - 摘要: ${item.summary}\n` +
+        rankedMeta(item) +
+        `   - 时间: ${formatDateTime(item.publishedAt)}`
       );
       return `### ${source} (${items.length}篇)\n\n${lines.join('\n')}`;
     })
     .join('\n\n');
 
   sections.push(
-    '## 📂 完整来源',
+    '## 完整来源归档',
     '',
-    sourceSections
+    '<details>',
+    '<summary>展开全部来源</summary>',
+    '',
+    sourceSections || '暂无来源明细',
+    '',
+    '</details>'
   );
 
   return sections.join('\n');

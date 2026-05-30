@@ -26,7 +26,19 @@ export type TimeRange = '1d' | '3d' | '7d';
  * 总结风格
  */
 export type SummaryStyle = 'brief' | 'detailed' | 'keywords';
-export type SourceType = 'hn' | 'rss' | 'twitter' | 'github' | 've2x' | 'linuxdo' | 'reddit' | 'producthunt';
+export type SourceType =
+  | 'hn'
+  | 'rss'
+  | 'twitter'
+  | 'github'
+  | 've2x'
+  | 'linuxdo'
+  | 'reddit'
+  | 'producthunt'
+  | 'aihot'
+  | 'hex2077';
+
+export type CurationProfile = 'ai-developer';
 
 export type TopicCategory =
   | 'AI'
@@ -68,6 +80,18 @@ export interface DigestAnalysis {
   topicsAnalysis?: string | null;
   sourceHighlights?: string | null;
   generatedAt: string;
+}
+
+export interface NewsCandidate extends NewsArticle {
+  canonicalUrl: string;
+  clusterId: string;
+  sourceReliability: number;
+}
+
+export interface RankedArticle extends NewsCandidate {
+  valueScore: number;
+  valueReasons: string[];
+  riskFlags: string[];
 }
 
 export interface TopicClassification {

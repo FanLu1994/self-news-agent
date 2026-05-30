@@ -76,7 +76,7 @@ export class TwitterService {
         throw new Error(`X API ${response.status}: ${body}`);
       }
 
-      const result: XRecentSearchResponse = await response.json();
+      const result = await response.json() as XRecentSearchResponse;
       const tweets = result.data || [];
 
       const items = tweets.map(tweet => {

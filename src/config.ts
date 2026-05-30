@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
+import type { CurationProfile } from './types/news.types.js';
 
 interface AppConfig {
   keywords: {
@@ -18,9 +19,19 @@ interface AppConfig {
     linuxDo: { enabled: boolean; feeds: string[] };
     reddit: { enabled: boolean; feeds: string[] };
     productHunt: { enabled: boolean; feeds: string[] };
+    aiHot?: { enabled: boolean; baseUrl?: string; take?: number };
+    hex2077?: { enabled: boolean; feeds?: string[] };
     twitter: { enabled: boolean };
     githubTrending: { enabled: boolean; languages?: string[] };
     hackerNews: { enabled: boolean };
+  };
+  curation?: {
+    profile?: CurationProfile;
+    maxHighlights?: number;
+    minScore?: number;
+  };
+  dedup?: {
+    historyDays?: number;
   };
   output: {
     rssPath: string;
@@ -38,10 +49,16 @@ interface AppConfig {
 export interface ParsedConfig {
   keywords: string[];
   rssFeeds: string[];
+  includeRss: boolean;
   ve2xFeeds: string[];
   linuxDoFeeds: string[];
   redditFeeds: string[];
   productHuntFeeds: string[];
+  includeAiHot: boolean;
+  aiHotBaseUrl: string;
+  aiHotTake: number;
+  includeHex2077: boolean;
+  hex2077Feeds: string[];
   xBearerToken?: string;
   xQueryKeywords: string[];
   githubToken?: string;
@@ -55,6 +72,10 @@ export interface ParsedConfig {
   maxItemsPerSource: number;
   timeRange: '1d' | '3d' | '7d';
   summaryStyle: 'brief' | 'detailed' | 'keywords';
+  curationProfile: CurationProfile;
+  maxHighlights: number;
+  minScore: number;
+  historyDays: number;
   telegramBotToken?: string;
   telegramChatId?: string;
   outputRssPath: string;
@@ -90,6 +111,10 @@ function parseSummaryStyle(value: string | undefined): 'brief' | 'detailed' | 'k
 function parsePositiveInt(value: number | undefined, fallback: number): number {
   if (typeof value === 'number' && Number.isFinite(value) && value > 0) return value;
   return fallback;
+}
+
+function parseCurationProfile(value: string | undefined): CurationProfile {
+  return value === 'ai-developer' ? value : 'ai-developer';
 }
 
 function parseBoolean(value: boolean | undefined, fallback: boolean): boolean {
@@ -129,9 +154,19 @@ function loadJsonConfig(): AppConfig {
           ]
         },
         productHunt: { enabled: true, feeds: ['https://www.producthunt.com/feed'] },
+        aiHot: { enabled: true, baseUrl: 'https://aihot.virxact.com', take: 50 },
+        hex2077: { enabled: true, feeds: ['https://hex2077.dev/rss-zh-CN.xml'] },
         twitter: { enabled: false },
         githubTrending: { enabled: true },
         hackerNews: { enabled: true }
+      },
+      curation: {
+        profile: 'ai-developer',
+        maxHighlights: 8,
+        minScore: 45
+      },
+      dedup: {
+        historyDays: 7
       },
       output: {
         rssPath: 'output/news-digest.xml',
@@ -162,10 +197,18 @@ export function loadConfig(): ParsedConfig {
 
     // 数据源
     rssFeeds: json.sources.rss.feeds,
+    includeRss: parseBoolean(json.sources.rss.enabled, false),
     ve2xFeeds: json.sources.ve2x.feeds,
     linuxDoFeeds: json.sources.linuxDo.feeds,
     redditFeeds: json.sources.reddit.feeds,
     productHuntFeeds: json.sources.productHunt.feeds,
+    includeAiHot: parseBoolean(json.sources.aiHot?.enabled, true),
+    aiHotBaseUrl: process.env.AIHOT_BASE_URL || json.sources.aiHot?.baseUrl || 'https://aihot.virxact.com',
+    aiHotTake: Math.min(parsePositiveInt(json.sources.aiHot?.take, 50), 100),
+    includeHex2077: parseBoolean(json.sources.hex2077?.enabled, true),
+    hex2077Feeds: json.sources.hex2077?.feeds && Array.isArray(json.sources.hex2077.feeds)
+      ? json.sources.hex2077.feeds
+      : ['https://hex2077.dev/rss-zh-CN.xml'],
 
     // Twitter
     xBearerToken: process.env.X_BEARER_TOKEN,
@@ -189,6 +232,10 @@ export function loadConfig(): ParsedConfig {
     maxItemsPerSource: Math.min(parsePositiveInt(json.fetch.maxItemsPerSource, 20), 20),
     timeRange: parseTimeRange(json.fetch.timeRange),
     summaryStyle: parseSummaryStyle(json.fetch.summaryStyle),
+    curationProfile: parseCurationProfile(process.env.CURATION_PROFILE || json.curation?.profile),
+    maxHighlights: Math.min(parsePositiveInt(json.curation?.maxHighlights, 8), 12),
+    minScore: parsePositiveInt(json.curation?.minScore, 45),
+    historyDays: Math.min(parsePositiveInt(json.dedup?.historyDays, 7), 30),
 
     // Telegram
     telegramBotToken: process.env.TELEGRAM_BOT_TOKEN,

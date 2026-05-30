@@ -71,8 +71,8 @@ export function createNewsAgent() {
       
       // 教学要点：注册自定义工具
       tools: [
-        fetchNewsTool,
-        summarizeNewsTool
+        fetchNewsTool as any,
+        summarizeNewsTool as any
       ],
       
       // 初始消息为空
@@ -81,7 +81,7 @@ export function createNewsAgent() {
   });
 
   // 教学要点：订阅 Agent 事件
-  agent.subscribe((event) => {
+  agent.subscribe((event: any) => {
     switch (event.type) {
       case 'message_update':
         // 处理消息更新事件

@@ -1,9 +1,10 @@
 import type { Context } from '@mariozechner/pi-ai';
 import { completeWithFallback } from '../model.js';
-import type { DigestAnalysis, NewsArticle, SummaryStyle } from '../types/news.types.js';
+import { stripLeadingListMarker } from '../text-format.js';
+import type { DigestAnalysis, NewsArticle, RankedArticle, SummaryStyle } from '../types/news.types.js';
 
 interface AnalyzeOptions {
-  articles: NewsArticle[];
+  articles: RankedArticle[];
   style: SummaryStyle;
   queryKeywords: string[];
 }
@@ -13,18 +14,9 @@ interface AnalyzeResult {
   rawText: string;
 }
 
-interface CuratedItem {
-  title: string;
-  url: string;
-  summary: string;
-  reason: string;
-  source: string;
-  publishedAt: string;
-}
-
 interface TopicGroup {
   topic: string;
-  items: CuratedItem[];
+  items: NewsArticle[];
 }
 
 /**
@@ -67,6 +59,11 @@ export class AnalysisService {
     return articles.map((article, idx) =>
       `【${idx + 1}】${article.title}\n` +
       `   来源: ${article.source}\n` +
+      ('valueScore' in article ? `   价值分: ${(article as RankedArticle).valueScore}\n` : '') +
+      ('valueReasons' in article ? `   入选理由: ${(article as RankedArticle).valueReasons.join('；')}\n` : '') +
+      ('riskFlags' in article && (article as RankedArticle).riskFlags.length > 0
+        ? `   风险提示: ${(article as RankedArticle).riskFlags.join('；')}\n`
+        : '') +
       `   简介: ${(article.summary || '').slice(0, 150)}\n` +
       `   链接: ${article.url}\n` +
       `   时间: ${article.publishedAt}`
@@ -76,14 +73,14 @@ export class AnalysisService {
   async analyze(options: AnalyzeOptions): Promise<AnalyzeResult> {
     const { articles, style, queryKeywords } = options;
 
-    console.log(`\n🤖 智能助理正在筛选 ${articles.length} 篇内容...`);
+    console.log(`\n🤖 智能助理正在编辑 ${articles.length} 篇精选候选...`);
 
     // 按主题分组
     const topicGroups = this.groupByTopic(articles);
 
     // 构建文章文本（限制数量以控制 token）
     const articlesText = this.buildCuratedArticlesText(
-      articles.slice(0, 80) // 最多分析80篇
+      articles.slice(0, 12)
     );
 
     // 构建筛选 prompt
@@ -142,10 +139,10 @@ export class AnalysisService {
 
       // 降级：使用基础筛选
       const fallbackAnalysis: DigestAnalysis = {
-        title: '今日精选',
-        overview: `从 ${articles.length} 篇内容中筛选出值得关注的信息。`,
-        highlights: articles.slice(0, 6).map(a =>
-          `• [${a.source}] ${a.title}\n  ${(a.summary || '').slice(0, 100)}`
+        title: '今日 AI 开发者精选',
+        overview: `已按 AI 开发者价值从候选内容中筛选出 ${Math.min(articles.length, 8)} 条重点。`,
+        highlights: articles.slice(0, 8).map(a =>
+          `**${a.title}**（${a.source}，价值分 ${a.valueScore}）\n${(a.summary || '').slice(0, 120)}\n为什么值得看：${a.valueReasons.join('；')}\n${a.url}`
         ),
         keywords: queryKeywords,
         generatedAt: new Date().toISOString()
@@ -172,7 +169,7 @@ export class AnalysisService {
       `- ${g.topic}: ${g.items.length}篇`
     ).join('\n');
 
-    return `请帮我从以下 ${totalArticles} 篇技术资讯中，筛选出用户最可能感兴趣的内容。
+    return `请帮我把以下 ${totalArticles} 篇已经过程序预筛和打分的 AI 技术资讯，编辑成一份少而精的 AI 开发者情报简报。
 
 用户关注的关键词：${queryKeywords.join(', ') || '技术、AI、开发'}
 
@@ -184,23 +181,24 @@ ${articlesText}
 
 === 输出要求 ===
 
-请按以下格式输出（用自然对话的方式，像朋友间分享有价值的信息）：
+请按以下格式输出。不要重新扩大范围，不要补充未出现在候选文章里的事实。
 
-## 今日值得关注的 ${style === 'brief' ? '3-5' : '6-8'} 件事
+## 今日最值得看
 
-（用对话的方式，告诉用户今天有哪些值得了解的信息，为什么值得关注）
+（2-4 句话概括今天最重要的方向，面向 AI 开发者）
 
-## 📌 重要推荐
+## 📌 重点推荐
 
 （列出 ${style === 'brief' ? '3-5' : '5-8'} 个最值得看的内容，每个包含：
 - 标题和来源
 - 一句话说明这是什么
-- 为什么值得关注/有什么价值
+- 为什么值得关注/对 AI 开发者有什么价值
+- 如果候选里有风险提示，用一句话点出不确定性
 - 链接）
 
-## 💡 趋势洞察
+## 💡 趋势判断
 
-（如果你发现了一些趋势或模式，用简单几句话告诉用户）
+（给出 2-3 条趋势判断，每条都要来自上面的候选文章，不要空泛）
 
 ## 🔍 深度阅读
 
@@ -211,7 +209,8 @@ ${articlesText}
 注意：
 - 用自然、友好的语言，避免新闻稿式的表述
 - 每个推荐都要说明价值所在
-- 宁可少推荐，也要保证质量
+- 宁可少推荐，也要保证质量，避免营销感
+- 保留每条链接
 - 如果某个主题特别重要，可以额外强调`;
   }
 
@@ -222,10 +221,10 @@ ${articlesText}
     console.log(`  🔍 解析筛选结果...`);
 
     // 提取标题
-    let title = '今日精选';
-    const titleMatch = rawText.match(/##\s*今日值得关注的[^\n]+/);
+    let title = '今日 AI 开发者精选';
+    const titleMatch = rawText.match(/##\s*今日最值得看[^\n]*/);
     if (titleMatch) {
-      title = titleMatch[0].replace(/##\s*今日值得关注的\s*/, '').trim();
+      title = '今日 AI 开发者精选';
     }
 
     // 提取概览（"今日值得关注的X件事"之后的内容）
@@ -233,7 +232,12 @@ ${articlesText}
     const overviewMatch = rawText.match(
       /##\s*今日值得关注的[^\n]+\n+([\s\S]*?)(?=\n##|\n\n📌|$)/
     );
-    if (overviewMatch && overviewMatch[1]) {
+    const newOverviewMatch = rawText.match(
+      /##\s*今日最值得看[^\n]*\n+([\s\S]*?)(?=\n##|\n\n📌|$)/
+    );
+    if (newOverviewMatch && newOverviewMatch[1]) {
+      overview = newOverviewMatch[1].trim();
+    } else if (overviewMatch && overviewMatch[1]) {
       overview = overviewMatch[1].trim();
     }
 
@@ -247,9 +251,9 @@ ${articlesText}
 
     // 提取趋势洞察
     let trendsInsights: string | null = null;
-    const trendsMatch = rawText.match(/##\s*💡\s*趋势洞察\s*\n+([\s\S]*?)(?=\n##|\n\n🔍|$)/);
-    if (trendsMatch && trendsMatch[1]) {
-      trendsInsights = trendsMatch[1].trim();
+    const trendsMatch = rawText.match(/##\s*💡\s*(趋势判断|趋势洞察)\s*\n+([\s\S]*?)(?=\n##|\n\n🔍|$)/);
+    if (trendsMatch && trendsMatch[2]) {
+      trendsInsights = trendsMatch[2].trim();
     }
 
     // 提取深度阅读
@@ -263,13 +267,13 @@ ${articlesText}
     let sourceHighlights: string | null = null;
     if (trendsInsights || deepDive) {
       const parts: string[] = [];
-      if (trendsInsights) parts.push(`**趋势洞察**\n${trendsInsights}`);
+      if (trendsInsights) parts.push(`**趋势判断**\n${trendsInsights}`);
       if (deepDive) parts.push(`**深度阅读**\n${deepDive}`);
       sourceHighlights = parts.join('\n\n');
     }
 
     return {
-      title: title || '今日精选',
+      title: title || '今日 AI 开发者精选',
       overview: overview || `已为您筛选出最值得关注的内容。`,
       highlights: highlights.slice(0, 12),
       keywords: queryKeywords,
@@ -287,11 +291,11 @@ ${articlesText}
 
     // 尝试从"重要推荐"部分提取
     const recommendMatch = text.match(
-      /##\s*📌\s*重要推荐\s*\n+([\s\S]*?)(?=\n##|\n\n💡|\n\n🔍|$)/
+      /##\s*📌\s*(重要推荐|重点推荐)\s*\n+([\s\S]*?)(?=\n##|\n\n💡|\n\n🔍|$)/
     );
 
-    if (recommendMatch && recommendMatch[1]) {
-      const content = recommendMatch[1];
+    if (recommendMatch && recommendMatch[2]) {
+      const content = recommendMatch[2];
 
       // 按段落或列表项分割
       const items = content.split(/\n\n+/).filter(item => item.trim().length > 20);
@@ -305,7 +309,7 @@ ${articlesText}
           .join('\n');
 
         if (cleaned.length > 30) {
-          highlights.push(cleaned);
+          highlights.push(stripLeadingListMarker(cleaned));
         }
       }
     }
@@ -321,7 +325,7 @@ ${articlesText}
         // 列表项开始
         if (trimmed.match(/^[-•·▪\d]+[、．.\)]\s*/)) {
           if (currentItem.length > 30) {
-            highlights.push(currentItem.trim());
+            highlights.push(stripLeadingListMarker(currentItem.trim()));
           }
           currentItem = trimmed.replace(/^[-•·▪\d]+[、．.\)]\s*/, '');
         }
@@ -333,7 +337,7 @@ ${articlesText}
 
       // 添加最后一个
       if (currentItem.length > 30) {
-        highlights.push(currentItem.trim());
+        highlights.push(stripLeadingListMarker(currentItem.trim()));
       }
     }
 

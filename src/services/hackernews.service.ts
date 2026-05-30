@@ -111,7 +111,7 @@ export class HackerNewsService {
   async fetchTopStories(limit: number = 50): Promise<number[]> {
     try {
       const response = await fetchWithRetry(`${HN_API_BASE}/topstories.json`);
-      const ids: number[] = await response.json();
+      const ids = await response.json() as number[];
       return ids.slice(0, limit);
     } catch (error) {
       console.error('Error fetching HN top stories:', error);
@@ -125,7 +125,7 @@ export class HackerNewsService {
   async fetchBestStories(limit: number = 50): Promise<number[]> {
     try {
       const response = await fetchWithRetry(`${HN_API_BASE}/beststories.json`);
-      const ids: number[] = await response.json();
+      const ids = await response.json() as number[];
       return ids.slice(0, limit);
     } catch (error) {
       console.error('Error fetching HN best stories:', error);
@@ -139,7 +139,7 @@ export class HackerNewsService {
   async fetchItem(id: number): Promise<HNItem | null> {
     try {
       const response = await fetchWithRetry(`${HN_API_BASE}/item/${id}.json`);
-      const item: HNItem = await response.json();
+      const item = await response.json() as HNItem;
       return item;
     } catch (error) {
       // 静默失败，不影响其他 items
@@ -260,7 +260,7 @@ export class HackerNewsService {
     ]);
 
     // 合并两个榜单
-    const allIds = [...topIds, ...bestIds];
+    const allIds = Array.from(new Set([...topIds, ...bestIds]));
 
     // 获取详情
     const items = await this.fetchItems(allIds);
@@ -306,7 +306,7 @@ export class HackerNewsService {
         throw new Error(`Algolia API error: ${response.status}`);
       }
 
-      const data = await response.json();
+      const data = await response.json() as any;
       const hits = data.hits || [];
 
       return hits.filter((hit: any) => hit && hit.objectID).map((hit: any) => ({

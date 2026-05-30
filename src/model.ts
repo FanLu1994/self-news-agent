@@ -44,11 +44,11 @@ export function getPiAiModel() {
     );
     const fallback = candidates[0];
     if (fallback) {
-      return getModel(fallback.provider, fallback.model);
+      return getModel(fallback.provider as any, fallback.model);
     }
   }
 
-  return getModel(config.provider, config.model);
+  return getModel(config.provider as any, config.model);
 }
 
 export function getModelCandidates(): ModelConfig[] {
@@ -102,19 +102,25 @@ export async function completeWithFallback(context: Context): Promise<{
           throw new Error(`DeepSeek API error: ${apiResponse.status} ${errorText}`);
         }
 
-        const data = await apiResponse.json();
+        const data = await apiResponse.json() as any;
         const response = {
+          role: 'assistant',
+          api: 'chat.completions',
+          provider: candidate.provider,
+          model: candidate.model,
           content: [{
             type: 'text',
             text: data.choices?.[0]?.message?.content || ''
           }],
-          usage: data.usage
-        };
+          usage: data.usage,
+          finishReason: data.choices?.[0]?.finish_reason || 'stop',
+          id: data.id || `deepseek-${Date.now()}`
+        } as any;
         return { response, config: candidate };
       }
 
       // 其他模型使用 pi-ai 的 complete
-      const model = getModel(candidate.provider, candidate.model);
+      const model = getModel(candidate.provider as any, candidate.model);
       const response = await complete(model, context);
       return { response, config: candidate };
     } catch (error) {

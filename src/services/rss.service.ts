@@ -46,6 +46,22 @@ function inferFeedLanguage(url: string): 'zh' | 'en' {
   return zhHints.some(h => lower.includes(h)) ? 'zh' : 'en';
 }
 
+function compactCommunitySummary(title: string, rawSummary: string, sourceType: SourceType): string {
+  if (sourceType !== 've2x' && sourceType !== 'linuxdo') return rawSummary;
+
+  const cleaned = rawSummary
+    .replace(/\d+\s*个帖子\s*-\s*\d+\s*位参与者/gi, '')
+    .replace(/阅读完整话题[.\u3002…]*/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  if (!cleaned || cleaned.length < 12) return title;
+
+  const firstSentence = cleaned.split(/[。！？!?]\s*/).find(Boolean) || cleaned;
+  const compact = firstSentence.length > 90 ? `${firstSentence.slice(0, 90).trim()}...` : firstSentence;
+  return compact === title ? title : `${title} — ${compact}`;
+}
+
 export class RSSService {
   private parser: Parser;
 
@@ -92,9 +108,10 @@ export class RSSService {
   private convertToArticle(item: RSSFeedItem, config: RSSFeedConfig, index: number): NewsArticle | null {
     if (!item.title || !item.link) return null;
 
-    const summary = item.contentSnippet
+    const rawSummary = item.contentSnippet
       ? `${item.contentSnippet.substring(0, 240).trim()}...`
       : item.title;
+    const summary = compactCommunitySummary(item.title, rawSummary, config.sourceType);
 
     const publishDate = item.pubDate ? new Date(item.pubDate) : new Date();
 

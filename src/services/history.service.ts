@@ -4,7 +4,6 @@
 
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import type { NewsArticle } from '../types/news.types.js';
 
 interface HistoricalArticle {
   title: string;

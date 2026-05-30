@@ -11,22 +11,8 @@
   },
   "sources": {
     "rss": {
-      "enabled": true,
-      "feeds": [
-        "https://www.hellogithub.com/rss",
-        "https://aigc-weekly.agi.li/rss.xml",
-        "https://feeds.feedburner.com/ruanyifeng",
-        "https://tech.meituan.com/feed/",
-        "https://blog.codingnow.com/atom.xml",
-        "https://tonybai.com/feed/",
-        "https://catcoding.me/atom.xml",
-        "https://onevcat.com/feed.xml",
-        "https://www.phodal.com/blog/feeds/rss/",
-        "https://pythoncat.substack.com/feed",
-        "https://luyuhuang.tech/feed.xml",
-        "https://www.owenyoung.com/atom.xml",
-        "https://diygod.cc/feed"
-      ]
+      "enabled": false,
+      "feeds": []
     },
     "ve2x": {
       "enabled": true,
@@ -50,6 +36,15 @@
       "enabled": true,
       "feeds": ["https://www.producthunt.com/feed"]
     },
+    "aiHot": {
+      "enabled": true,
+      "baseUrl": "https://aihot.virxact.com",
+      "take": 50
+    },
+    "hex2077": {
+      "enabled": true,
+      "feeds": ["https://hex2077.dev/rss-zh-CN.xml"]
+    },
     "twitter": {
       "enabled": false
     },
@@ -60,6 +55,14 @@
     "hackerNews": {
       "enabled": true
     }
+  },
+  "curation": {
+    "profile": "ai-developer",
+    "maxHighlights": 8,
+    "minScore": 45
+  },
+  "dedup": {
+    "historyDays": 7
   },
   "output": {
     "rssPath": "output/news-digest.xml",

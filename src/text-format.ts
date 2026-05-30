@@ -1,3 +1,18 @@
+export function stripLeadingListMarker(input: string): string {
+  let value = input.trim();
+  let previous = '';
+
+  while (value !== previous) {
+    previous = value;
+    value = value
+      .replace(/^\s*(?:[-*•]\s*)?\*?\s*\d+[、．.)]\s*/u, '')
+      .replace(/^\s*(?:[-•]\s+|\*\s+)/u, '')
+      .trim();
+  }
+
+  return value;
+}
+
 export function toReadableText(input: string): string {
   return input
     .replace(/\r\n/g, '\n')

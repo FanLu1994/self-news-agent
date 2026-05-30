@@ -4,8 +4,6 @@
  * 使用 DeepSeek API 进行文本翻译
  */
 
-import type { Context } from '@mariozechner/pi-ai';
-
 interface TranslateOptions {
   text: string;
   from?: 'en' | 'zh' | 'auto';
@@ -113,7 +111,7 @@ export class TranslationService {
         throw new Error(`Translation API error: ${response.status}`);
       }
 
-      const data = await response.json();
+      const data = await response.json() as any;
       const translatedText = data.choices?.[0]?.message?.content?.trim() || text;
 
       return {
