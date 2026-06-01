@@ -1,91 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/5/31)</title>
+    <title>今日 AI 开发者精选 (2026/6/1)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息对开发者来说非常“务实”：一边是开源社区贡献了从 Agent 开发到 Office 文档处理的实用工具，另一边是 Google 和 xAI 在模型和训练框架上的重要更新。同时，Copilot 的计费模式变更也引发了热议，提醒我们 AI 工具的商业化正在进入深水区。</description>
+    <description>本周 AI 开发者的焦点集中在两个方向：**Rust 重写的本地工具链**和**Apple 端侧模型的落地路径**。前者以毫秒级 Office 文档处理 MCP 服务器为代表，预示着 AI Agent 从“能跑”向“高效、廉价”迈进的趋势；后者则展示了巨头如何用蒸馏技术将大模型塞进手机，这对于关注边缘计算和隐私计算的开发者极具参考价值。同时，GitHub 上的 Token 付费争议也提醒我们，AI 应用的经济模型正成为新的博弈点。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 31 May 2026 03:34:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 03:35:30 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息对开发者来说非常“务实”：一边是开源社区贡献了从 Agent 开发到 Office 文档处理的实用工具，另一边是 Google 和 xAI 在模型和训练框架上的重要更新。同时，Copilot 的计费模式变更也引发了热议，提醒我们 AI 工具的商业化正在进入深水区。</description>
-        <pubDate>Sun, 31 May 2026 03:34:59 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-05-31T03:34:52.581Z</guid>
+        <description>本周 AI 开发者的焦点集中在两个方向：**Rust 重写的本地工具链**和**Apple 端侧模型的落地路径**。前者以毫秒级 Office 文档处理 MCP 服务器为代表，预示着 AI Agent 从“能跑”向“高效、廉价”迈进的趋势；后者则展示了巨头如何用蒸馏技术将大模型塞进手机，这对于关注边缘计算和隐私计算的开发者极具参考价值。同时，GitHub 上的 Token 付费争议也提醒我们，AI 应用的经济模型正成为新的博弈点。</description>
+        <pubDate>Mon, 01 Jun 2026 03:35:30 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-01T03:35:24.250Z</guid>
       </item>
     <item>
-        <title>2aronS/Duel-Agents</title>
-        <link>https://github.com/2aronS/Duel-Agents</link>
-        <description>用于Duel Agents的CLI、SDK和IDE插件 | 近期热门 | 总 463 stars</description>
-        <author>2aronS</author>
-        <category>github</category>
-        <pubDate>Sun, 31 May 2026 03:34:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-2arons-duel-agents</guid>
-      </item>
-<item>
         <title>Aimino-Tech/opendocswork-mcp</title>
         <link>https://github.com/Aimino-Tech/opendocswork-mcp</link>
         <description>用于Office文档处理（Excel、Word、PowerPoint）的Rust原生MCP服务器。亚毫秒级、本地优先、开源。 | 近期热门 | 总 100 stars</description>
         <author>Aimino-Tech</author>
         <category>github</category>
-        <pubDate>Sun, 31 May 2026 03:34:17 GMT</pubDate>
+        <pubDate>Mon, 01 Jun 2026 03:34:48 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-aimino-tech-opendocswork-mcp</guid>
       </item>
 <item>
-        <title>Nano Banana Pro与Nano Banana 2正式发布</title>
-        <link>https://x.com/googleaidevs/status/2060685345738375640</link>
-        <description>ICYMI：Nano Banana Pro 【gemini-3-pro-image】 和 Nano Banana 2 【gemini-3.1-flash-image】 现已正式发布，可通过 Gemini API 投入生产使用</description>
-        <author>AI HOT / X：Google AI for Developers (@googleaidevs)</author>
-        <category>aihot</category>
-        <pubDate>Sat, 30 May 2026 11:30:46 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpsabfou086xslljv0f88f1e</guid>
-      </item>
-<item>
-        <title>问HN：2026年应用开发的现状如何？</title>
-        <link>https://news.ycombinator.com/item?id=48337409</link>
-        <description>纯iOS/Android应用开发领域正在发生什么？AI/LLM如何影响应用开发？  
-过去2-5年应用开发发生了哪些变化？  
-从事...的职业道路是怎样的？</description>
-        <author>karakoram</author>
-        <category>hn</category>
-        <pubDate>Sat, 30 May 2026 15:41:04 GMT</pubDate>
-        <guid isPermaLink="false">hn-48337409</guid>
-      </item>
-<item>
-        <title>小即是美：开源多模态模型发布</title>
-        <link>https://x.com/StepFun_ai/status/2060678753030947226</link>
-        <description>小即是美</description>
-        <author>AI HOT / X：阶跃星辰 StepFun (@StepFun_ai)</author>
-        <category>aihot</category>
-        <pubDate>Sat, 30 May 2026 11:04:34 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmps939np07v7slljd0bbkc91</guid>
-      </item>
-<item>
-        <title>ace-trump-tech/DeltaForce-OBS-Locker</title>
-        <link>https://github.com/ace-trump-tech/DeltaForce-OBS-Locker</link>
-        <description>三角洲行动OBS锁头插件 – 基于OBS渲染注入的智能锁头辅助，支持QQ音乐/网易云联精准骨骼识别、平滑自瞄、压枪抑制，稳定过检，提升击杀效率。动加载。DeltaForce OBS Lockhead Plugin – Smart aim assist via OBS injection, supports QQ Music/NetEase Cloud integration. Bone recognition, smooth aimbot, recoil control, stable anti-cheat bypass. | 近期热门 | 总 412 stars</description>
-        <author>ace-trump-tech</author>
+        <title>zhristophe/Claude-Mythos-AI-Anthropic-App</title>
+        <link>https://github.com/zhristophe/Claude-Mythos-AI-Anthropic-App</link>
+        <description>Claude神话 AI Anthropic 应用 GitHub 开源 桌面端 移动端 客户端 abhishekk130804 Anthropic API 密钥 创意写作 角色扮演 角色卡 深度推理 思维链 系统提示 越狱 Windows macOS Linux Android APK Next.js Electron Tauri Python Rust 下载 安装指南 教程 最新版本 2026 免费更新 | 近期热门 | 总 368 stars</description>
+        <author>zhristophe</author>
         <category>github</category>
-        <pubDate>Sun, 31 May 2026 03:34:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ace-trump-tech-deltaforce-obs-locker</guid>
+        <pubDate>Mon, 01 Jun 2026 03:34:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-zhristophe-claude-mythos-ai-anthropic-app</guid>
       </item>
 <item>
-        <title>&quot;开玩笑吧&quot;：GitHub Copilot 新的基于 token 的计费模式引发开发者不满</title>
-        <link>https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs</link>
-        <description>微软旗下 GitHub Copilot 的黄金时代似乎正在终结</description>
-        <author>AI HOT / TechCrunch：AI（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Sat, 30 May 2026 16:30:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpsl2i5v02fpsluzlu1d98zl</guid>
+        <title>biao994/DocPaws</title>
+        <link>https://github.com/biao994/DocPaws</link>
+        <description>工程化 RAG 文档助手：知识库、PDF 索引、Agent 工具编排、scope 检索、引用溯源与拒答阈值。FastAPI + Vue3 | 近期热门 | 总 57 stars</description>
+        <author>biao994</author>
+        <category>github</category>
+        <pubDate>Mon, 01 Jun 2026 03:34:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-biao994-docpaws</guid>
       </item>
 <item>
-        <title>xAI放弃JAX GPU转向自研训练框架</title>
-        <link>https://x.com/SemiAnalysis_/status/2060571944575963482</link>
-        <description>突发新闻：JAX NVIDIA GPU &amp; XLA：GPU最大客户刚刚宣布已放弃JAX GPU，宁愿用Grok Build&quot;氛围编程&quot;一个C训练框架</description>
-        <author>AI HOT / X：SemiAnalysis (@SemiAnalysis_)</author>
+        <title>GordenSun/GordenPPTSkill</title>
+        <link>https://github.com/GordenSun/GordenPPTSkill</link>
+        <description>AI友好的PPT构建技巧：17套精调中文PPTX模板+无损纯文本编辑工具（基于python-pptx）。选择模板，编写edits.json，即可生成布局完整的真实.pptx文件。仅供个人/研究使用。 | 近期热门 | 总 1000 stars</description>
+        <author>GordenSun</author>
+        <category>github</category>
+        <pubDate>Mon, 01 Jun 2026 03:34:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-gordensun-gordenpptskill</guid>
+      </item>
+<item>
+        <title>教皇似乎比Geoffrey Hinton更懂人工智能</title>
+        <link>https://garymarcus.substack.com/p/the-pope-appears-to-understand-ai</link>
+        <description>这一观点强调，单纯分析AI的输出内容，无法还原其生成过程与背后的推理逻辑，触及了当前AI可解释性研究的核心挑战</description>
+        <author>AI HOT / Gary Marcus：The Road to AI We Can Trust（RSS）</author>
         <category>aihot</category>
-        <pubDate>Sat, 30 May 2026 04:00:09 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpruchr0049uslljygmtsttx</guid>
+        <pubDate>Sun, 31 May 2026 16:38:20 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpu1hyyy00tosla8zp4xb8nj</guid>
+      </item>
+<item>
+        <title>苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著</title>
+        <link>https://x.com/kimmonismus/status/2061058117304262999</link>
+        <description>苹果下月WWDC将重点展示延迟已久的Siri及设备端AI升级，核心是在iPhone芯片本地运行从Google Gemini蒸馏而来的更小模型，以强调隐私与降低token成本</description>
+        <author>AI HOT / X：Kim (@kimmonismus)</author>
+        <category>aihot</category>
+        <pubDate>Sun, 31 May 2026 12:12:02 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmptqxpc00056slpme4gyxf5n</guid>
+      </item>
+<item>
+        <title>在人们被这种无稽之谈伤害之前，删除所有由LLM生成的提交。</title>
+        <link>https://github.com/RsyncProject/rsync/issues/934</link>
+        <description>在人们被这种无稽之谈伤害之前，移除所有由LLM生成的提交。</description>
+        <author>shantnutiwari</author>
+        <category>hn</category>
+        <pubDate>Sun, 31 May 2026 15:44:30 GMT</pubDate>
+        <guid isPermaLink="false">hn-48346640</guid>
+      </item>
+<item>
+        <title>AI 深度信号周报 W22：万亿估值神话与 Token 经济裂痕</title>
+        <link>https://hex2077.dev/zh-CN/blog/weekly/2026-05-31-anthropic-valuation-token-economy-cracks-ai-weekly-2026-w22/</link>
+        <description>本周聚焦 Anthropic 以近万亿美元估值登顶行业榜首，探讨其动态多智能体系统对编程代理赛道的重塑；同时深度分析 GitHub 改版计费引发的 Token 经济危机、斯坦福 2026 AI 指数报告揭示的中美实力抹平，以及华为与比亚迪在芯片领域的战略突破。...</description>
+        <author>HEX2077</author>
+        <category>hex2077</category>
+        <pubDate>Sun, 31 May 2026 04:35:56 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-428614170</guid>
       </item>
   </channel>
 </rss>
