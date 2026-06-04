@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/3)</title>
+    <title>今日 AI 开发者精选 (2026/6/4)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的资讯很聚焦，核心围绕 **“智能体”与“开发工具”的工程化**。我们看到，Claude Code 开始动态编排多智能体，微软和阿里云则分别从 Agent 评测框架和 Agent 开发平台发力，而个人开发者也能用几行代码（Codex）解决实际系统问题。对于 AI 开发者来说，从“跑通 demo”到“构建稳定、可评估的 Agent 系统”是当前的明确趋势。</description>
+    <description>今天的动态集中在 **AI Agent 的基础设施与应用落地**上。一方面是开源社区带来了更强大的记忆与编排工具，另一方面，Google、Meta 和 NVIDIA 等大厂也在推动专业模型和智能体的开放与量产。开发者可以重点关注 **Agent 的长期记忆方案**和 **专业领域模型的开源**这两个方向。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 03 Jun 2026 03:36:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 03:35:40 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的资讯很聚焦，核心围绕 **“智能体”与“开发工具”的工程化**。我们看到，Claude Code 开始动态编排多智能体，微软和阿里云则分别从 Agent 评测框架和 Agent 开发平台发力，而个人开发者也能用几行代码（Codex）解决实际系统问题。对于 AI 开发者来说，从“跑通 demo”到“构建稳定、可评估的 Agent 系统”是当前的明确趋势。</description>
-        <pubDate>Wed, 03 Jun 2026 03:36:05 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-03T03:35:53.241Z</guid>
+        <description>今天的动态集中在 **AI Agent 的基础设施与应用落地**上。一方面是开源社区带来了更强大的记忆与编排工具，另一方面，Google、Meta 和 NVIDIA 等大厂也在推动专业模型和智能体的开放与量产。开发者可以重点关注 **Agent 的长期记忆方案**和 **专业领域模型的开源**这两个方向。</description>
+        <pubDate>Thu, 04 Jun 2026 03:35:40 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-04T03:35:29.458Z</guid>
       </item>
     <item>
-        <title>Claude Code 新增动态工作流功能</title>
-        <link>https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code</link>
-        <description>Claude Code 新增动态工作流功能，允许模型在运行时即兴创建和协调多智能体框架来处理复杂任务</description>
-        <author>AI HOT / Claude：Blog（网页）</author>
+        <title>洪水韧性新篇章：Google 开源水文建模框架</title>
+        <link>https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework</link>
+        <description>Google Research 在 GitHub 开源了其水文建模框架，这是一个基于 PyTorch 的 Python 包，采用与 Flood Hub 河段洪水预报相同的模型架构和训练数据</description>
+        <author>AI HOT / Google Research：Blog（网页）</author>
         <category>aihot</category>
-        <pubDate>Tue, 02 Jun 2026 21:16:49 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpx51hf700otslcksx7ng54n</guid>
-      </item>
-<item>
-        <title>为了不花那120刀，我把电脑清理软件做成了开源skill</title>
-        <link>https://x.com/Khazix0918/status/2061669881725309048</link>
-        <description>作者受一条推文启发，使用Codex对自己的MacBook进行了只读存储分析，发现了B站缓存视频等大量可清理空间（激进方案超140G）</description>
-        <author>AI HOT / X：卡兹克 (@Khazix0918)</author>
-        <category>aihot</category>
-        <pubDate>Tue, 02 Jun 2026 04:42:58 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpw5sd9k00agsl1un4z8njv7</guid>
+        <pubDate>Wed, 03 Jun 2026 18:49:39 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpyf82jy04juslax1zjpx7gd</guid>
       </item>
 <item>
         <title>ClaudioDrews/memory-os</title>
         <link>https://github.com/ClaudioDrews/memory-os</link>
-        <description>Hermes Agent的7层记忆操作系统——基于Qdrant的持久化记忆、结构化事实、织物回忆、自动策展维基及精准上下文注入。本地运行，支持任意LLM提供商。 | 近期热门 | 总 648 stars</description>
+        <description>Hermes Agent 的 7 层记忆操作系统——具备 Qdrant 持久化记忆、结构化事实、织物回忆、自动策展维基及精准上下文注入。本地运行，支持任意 LLM 提供商。 | 近期热门 | 总 767 stars</description>
         <author>ClaudioDrews</author>
         <category>github</category>
-        <pubDate>Wed, 03 Jun 2026 03:35:15 GMT</pubDate>
+        <pubDate>Thu, 04 Jun 2026 03:34:53 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-claudiodrews-memory-os</guid>
       </item>
 <item>
-        <title>微软发布开源框架 Adaptive Spec-driven Scoring：支持用文本描述创建 AI 评估测试</title>
-        <link>https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions</link>
-        <description>微软开源发布 Adaptive Spec-driven Scoring for Evaluation and Regression Testing 框架</description>
+        <title>Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆</title>
+        <link>https://x.com/kimmonismus/status/2062210845308780639</link>
+        <description>Miso One 正式发布，一个 8B 参数的开源权重语音模型（TTS），旨在模拟真实人类朗读的温暖与节奏</description>
+        <author>AI HOT / X：Kim (@kimmonismus)</author>
+        <category>aihot</category>
+        <pubDate>Wed, 03 Jun 2026 16:32:34 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpyayd9g03ebslaxqumvlu4w</guid>
+      </item>
+<item>
+        <title>OpenShell v0.0.55 发布：新增 Vertex AI 推理支持</title>
+        <link>https://x.com/NVIDIAAI/status/2062210034109677665</link>
+        <description>OpenShell v0.0.55 🧩 Google Vertex AI 推理提供者 🔒 基于配置文件的策略可见性 🐳 网关中更好的 Podman 检测 🖥️ 恢复 GPU procfs 基准行为 🔧 CI 与文档修复 运行智能体...</description>
+        <author>AI HOT / X：NVIDIA AI (@NVIDIAAI)</author>
+        <category>aihot</category>
+        <pubDate>Wed, 03 Jun 2026 16:29:20 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpyaf8yv039jslaxi30g4ylg</guid>
+      </item>
+<item>
+        <title>OpenClaw 2026.6.1发布：新增Windows节点与技能工坊</title>
+        <link>https://x.com/openclaw/status/2062288421406785710</link>
+        <description>OpenClaw 2026.6.1 已上线 🦞 🪟 原生 Windows 节点主机 🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop） 📋 工作板（Workboard）编排 🧠 支持 MiniMax M3 Win...</description>
+        <author>AI HOT / X：OpenClaw (@openclaw)</author>
+        <category>aihot</category>
+        <pubDate>Wed, 03 Jun 2026 21:40:49 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpymda2v01bdsli35e5jhioh</guid>
+      </item>
+<item>
+        <title>Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线</title>
+        <link>https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally</link>
+        <description>Meta 为 WhatsApp Business 打造的 AI 智能体面向全球商家开放，将按照模型 token 使用量向企业收费</description>
         <author>AI HOT / TechCrunch：AI（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 02 Jun 2026 19:02:21 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpx0fzub02i1sl79g649uesx</guid>
+        <pubDate>Wed, 03 Jun 2026 13:40:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpy4c9s101l0slaxcumea3tp</guid>
       </item>
 <item>
-        <title>微软首款高级推理AI模型MAI-Thinking-1发布</title>
-        <link>https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026</link>
-        <description>微软在Build 2026上发布了其首款高级推理AI模型MAI-Thinking-1</description>
-        <author>AI HOT / The Verge：AI（RSS）</author>
+        <title>NVIDIA Research 在 CVPR 2026 发表三篇论文：规模化训练实现抓取、自动驾驶与智能体泛化</title>
+        <link>https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training</link>
+        <description>NVIDIA Research 在 CVPR 2026 上发表三篇论文，展示规模化训练带来的泛化能力</description>
+        <author>AI HOT / NVIDIA AI Blog</author>
         <category>aihot</category>
-        <pubDate>Tue, 02 Jun 2026 18:12:44 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpwzm8ij028gsl798th4vl54</guid>
+        <pubDate>Wed, 03 Jun 2026 15:00:57 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpyhoxxg002qsli30vj99h80</guid>
       </item>
 <item>
-        <title>阶跃星辰Step 3.7 Flash发布，专为高效推理设计</title>
-        <link>https://x.com/StepFun_ai/status/2061655529731342402</link>
-        <description>阶跃星辰发布其推理优化型模型Step 3.7 Flash</description>
-        <author>AI HOT / X：阶跃星辰 StepFun (@StepFun_ai)</author>
+        <title>Grok模型登陆Cloudflare AI Gateway</title>
+        <link>https://x.com/xai/status/2062294202625696081</link>
+        <description>在 @Cloudflare 的 AI Gateway 上尝试 Grok 模型</description>
+        <author>AI HOT / X：xAI (@xai)</author>
         <category>aihot</category>
-        <pubDate>Tue, 02 Jun 2026 03:45:56 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpw488y9049wslukkrk33tc9</guid>
-      </item>
-<item>
-        <title>商汤开源SenseNova-Skills AI办公技能套件</title>
-        <link>https://x.com/SenseTime_AI/status/2061822148076093625</link>
-        <description>商汤开源了AI办公技能套件SenseNova-Skills</description>
-        <author>AI HOT / X：商汤 SenseTime (@SenseTime_AI)</author>
-        <category>aihot</category>
-        <pubDate>Tue, 02 Jun 2026 14:48:01 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpwrs3jx004wsl79yv419af3</guid>
-      </item>
-<item>
-        <title>阿里云发布AgentScope Java 1.1及Claw等新功能</title>
-        <link>https://x.com/alibaba_cloud/status/2061745401393291554</link>
-        <description>🚀 AgentScope Java 1.1：构建可自我进化的智能体 ✨ Claw：具备Shell访问权限的本地&quot;MinQwenPaw&quot; ✨ Builder：多租户、零代码企业平台 ✨ 工作区驱动的进化与分布式隔离 从笔记本电脑到集群无缝扩...</description>
-        <author>AI HOT / X：阿里云 / Alibaba Cloud (@alibaba_cloud)</author>
-        <category>aihot</category>
-        <pubDate>Tue, 02 Jun 2026 09:43:03 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpwh3lil02w7slsnbx42kvq2</guid>
+        <pubDate>Wed, 03 Jun 2026 22:03:48 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpymcfaz01b5sli3o5nw1ytc</guid>
       </item>
   </channel>
 </rss>
