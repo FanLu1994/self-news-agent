@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/4)</title>
+    <title>今日 AI 开发者精选 (2026/6/5)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的动态集中在 **AI Agent 的基础设施与应用落地**上。一方面是开源社区带来了更强大的记忆与编排工具，另一方面，Google、Meta 和 NVIDIA 等大厂也在推动专业模型和智能体的开放与量产。开发者可以重点关注 **Agent 的长期记忆方案**和 **专业领域模型的开源**这两个方向。</description>
+    <description>今天的关键词是“智能体工程”的落地。从设备端运行的轻量级框架，到专为长时间任务设计的超级模型，再到开发者们对AI编码规则的精细化管控，无不显示AI开发正从“能跑”向“可控、高效、本地化”演进。开源生态和模型性能竞赛依然是主线。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 04 Jun 2026 03:35:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 03:35:29 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的动态集中在 **AI Agent 的基础设施与应用落地**上。一方面是开源社区带来了更强大的记忆与编排工具，另一方面，Google、Meta 和 NVIDIA 等大厂也在推动专业模型和智能体的开放与量产。开发者可以重点关注 **Agent 的长期记忆方案**和 **专业领域模型的开源**这两个方向。</description>
-        <pubDate>Thu, 04 Jun 2026 03:35:40 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-04T03:35:29.458Z</guid>
+        <description>今天的关键词是“智能体工程”的落地。从设备端运行的轻量级框架，到专为长时间任务设计的超级模型，再到开发者们对AI编码规则的精细化管控，无不显示AI开发正从“能跑”向“可控、高效、本地化”演进。开源生态和模型性能竞赛依然是主线。</description>
+        <pubDate>Fri, 05 Jun 2026 03:35:29 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-05T03:35:16.234Z</guid>
       </item>
     <item>
-        <title>洪水韧性新篇章：Google 开源水文建模框架</title>
-        <link>https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework</link>
-        <description>Google Research 在 GitHub 开源了其水文建模框架，这是一个基于 PyTorch 的 Python 包，采用与 Flood Hub 河段洪水预报相同的模型架构和训练数据</description>
-        <author>AI HOT / Google Research：Blog（网页）</author>
+        <title>Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习</title>
+        <link>https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning</link>
+        <description>Stanford 研究人员发布 OpenJarvis，一个完全在设备端运行推理、智能体、记忆与学习的开源框架</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 03 Jun 2026 18:49:39 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpyf82jy04juslax1zjpx7gd</guid>
+        <pubDate>Thu, 04 Jun 2026 06:23:10 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpz4ztc400a8slkpncco9ljl</guid>
       </item>
 <item>
-        <title>ClaudioDrews/memory-os</title>
-        <link>https://github.com/ClaudioDrews/memory-os</link>
-        <description>Hermes Agent 的 7 层记忆操作系统——具备 Qdrant 持久化记忆、结构化事实、织物回忆、自动策展维基及精准上下文注入。本地运行，支持任意 LLM 提供商。 | 近期热门 | 总 767 stars</description>
-        <author>ClaudioDrews</author>
+        <title>PanisHandsome/ai-rules-sync</title>
+        <link>https://github.com/PanisHandsome/ai-rules-sync</link>
+        <description>为你的AI编码代理规则保持单一事实来源。在AGENTS.md、CLAUDE.md、.cursorrules、Copilot、Windsurf、Cline、Aider和Gemini之间进行转换和同步——或搭建全新的AGENTS.md。零依赖。 | 近期热门 | 总 105 stars</description>
+        <author>PanisHandsome</author>
         <category>github</category>
-        <pubDate>Thu, 04 Jun 2026 03:34:53 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-claudiodrews-memory-os</guid>
+        <pubDate>Fri, 05 Jun 2026 03:34:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-panishandsome-ai-rules-sync</guid>
       </item>
 <item>
-        <title>Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆</title>
-        <link>https://x.com/kimmonismus/status/2062210845308780639</link>
-        <description>Miso One 正式发布，一个 8B 参数的开源权重语音模型（TTS），旨在模拟真实人类朗读的温暖与节奏</description>
-        <author>AI HOT / X：Kim (@kimmonismus)</author>
-        <category>aihot</category>
-        <pubDate>Wed, 03 Jun 2026 16:32:34 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpyayd9g03ebslaxqumvlu4w</guid>
+        <title>谷歌解雇蒂姆尼特·格布鲁时引发的LLM警告，如今均已应验。</title>
+        <link>https://www.tumblr.com/dreaminginthedeepsouth/817865966907228160/darren-oconnor-timnit-gebru-was-fired-from</link>
+        <description>谷歌解雇蒂姆尼特·格布鲁时发出的关于大语言模型的警告，如今均已应验。</description>
+        <author>thdr</author>
+        <category>hn</category>
+        <pubDate>Thu, 04 Jun 2026 15:34:43 GMT</pubDate>
+        <guid isPermaLink="false">hn-48400213</guid>
       </item>
 <item>
-        <title>OpenShell v0.0.55 发布：新增 Vertex AI 推理支持</title>
-        <link>https://x.com/NVIDIAAI/status/2062210034109677665</link>
-        <description>OpenShell v0.0.55 🧩 Google Vertex AI 推理提供者 🔒 基于配置文件的策略可见性 🐳 网关中更好的 Podman 检测 🖥️ 恢复 GPU procfs 基准行为 🔧 CI 与文档修复 运行智能体...</description>
-        <author>AI HOT / X：NVIDIA AI (@NVIDIAAI)</author>
+        <title>NVIDIA Nemotron 3 Ultra 为长时间运行的智能体带来更快、更高效的推理能力</title>
+        <link>https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents</link>
+        <description>NVIDIA 发布 Nemotron 3 Ultra 模型，专为长时间运行的 AI 智能体设计</description>
+        <author>AI HOT / NVIDIA Technical Blog（开发者技术博客 · RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 03 Jun 2026 16:29:20 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpyaf8yv039jslaxi30g4ylg</guid>
+        <pubDate>Thu, 04 Jun 2026 13:02:49 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpzigjmt03udslkp0elkhz7c</guid>
       </item>
 <item>
-        <title>OpenClaw 2026.6.1发布：新增Windows节点与技能工坊</title>
-        <link>https://x.com/openclaw/status/2062288421406785710</link>
-        <description>OpenClaw 2026.6.1 已上线 🦞 🪟 原生 Windows 节点主机 🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop） 📋 工作板（Workboard）编排 🧠 支持 MiniMax M3 Win...</description>
-        <author>AI HOT / X：OpenClaw (@openclaw)</author>
+        <title>Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平</title>
+        <link>https://x.com/SiliconFlowAI/status/2062549952266723493</link>
+        <description>neolab 推出 Nex-N2-Pro，基于 Qwen3.5-397B-A17B，总参数 397B 的 MoE 推理模型，支持 262K 上下文与多模态（VLM），性能达到 GPT-5.5 和 Claude Opus 4.7 级别</description>
+        <author>AI HOT / X：硅基流动 SiliconFlow (@SiliconFlowAI)</author>
         <category>aihot</category>
-        <pubDate>Wed, 03 Jun 2026 21:40:49 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpymda2v01bdsli35e5jhioh</guid>
+        <pubDate>Thu, 04 Jun 2026 15:00:03 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmpzn05ag052vslkpo3cb21hq</guid>
       </item>
 <item>
-        <title>Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线</title>
-        <link>https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally</link>
-        <description>Meta 为 WhatsApp Business 打造的 AI 智能体面向全球商家开放，将按照模型 token 使用量向企业收费</description>
-        <author>AI HOT / TechCrunch：AI（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 03 Jun 2026 13:40:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpy4c9s101l0slaxcumea3tp</guid>
+        <title>胡彦斌用 AI 写代码破圈背后：从 Vibe Coding 到智能体工程的实践与反思</title>
+        <link>https://hex2077.dev/zh-CN/blog/2026-06-04-from-vibe-coding-to-agentic-engineering/</link>
+        <description>结合胡彦斌用 AI 开发 App 破圈事件，作者回顾了自己过去一年手搓 23 个开源项目的实战经历，探讨了“氛围编程（Vibe Coding）”时代的终结，以及如何通过规则和约束驾驭 AI，向“智能体工程（Agentic Engineering）”演进的深度思考。...</description>
+        <author>HEX2077</author>
+        <category>hex2077</category>
+        <pubDate>Thu, 04 Jun 2026 17:00:39 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-157160976</guid>
       </item>
 <item>
-        <title>NVIDIA Research 在 CVPR 2026 发表三篇论文：规模化训练实现抓取、自动驾驶与智能体泛化</title>
-        <link>https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training</link>
-        <description>NVIDIA Research 在 CVPR 2026 上发表三篇论文，展示规模化训练带来的泛化能力</description>
-        <author>AI HOT / NVIDIA AI Blog</author>
+        <title>OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔</title>
+        <link>https://openrouter.ai/announcements/royale-last-agent-standing</link>
+        <description>OpenRouter 用总价 482 美元的推理花费，让 11 款大语言模型在 30 轮实时决策的&quot;大逃杀&quot;挑战中正面竞争</description>
+        <author>AI HOT / OpenRouter：Announcements（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 03 Jun 2026 15:00:57 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpyhoxxg002qsli30vj99h80</guid>
+        <pubDate>Thu, 04 Jun 2026 12:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmq02h5su02a7sltrhs0xegph</guid>
       </item>
 <item>
-        <title>Grok模型登陆Cloudflare AI Gateway</title>
-        <link>https://x.com/xai/status/2062294202625696081</link>
-        <description>在 @Cloudflare 的 AI Gateway 上尝试 Grok 模型</description>
-        <author>AI HOT / X：xAI (@xai)</author>
-        <category>aihot</category>
-        <pubDate>Wed, 03 Jun 2026 22:03:48 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmpymcfaz01b5sli3o5nw1ytc</guid>
+        <title>Show HN：形式化验证的多边形相交 – Opus 4.8 单次生成，先前失败</title>
+        <link>https://github.com/schildep/verified-polygon-intersection</link>
+        <description>据我所知，这是首个经过形式化验证的多边形相交算法实现。在此项目中与AI智能体协作的体验，随着近期模型更新发生了显著变化……</description>
+        <author>permute</author>
+        <category>hn</category>
+        <pubDate>Thu, 04 Jun 2026 22:06:18 GMT</pubDate>
+        <guid isPermaLink="false">hn-48405264</guid>
       </item>
   </channel>
 </rss>
