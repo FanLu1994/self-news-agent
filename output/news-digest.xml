@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/10)</title>
+    <title>今日 AI 开发者精选 (2026/6/11)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的核心主题是 **AI 编码 Agent 的“输出质量”革命**。无论是通过开源工具让 Claude Code/Codex 直接生成可用的 Lottie 动画，还是发布专门面向编码的小参数模型，核心都在于让 Agent 的产出从“能跑”进化到“能用、好看、易集成”。开发者可以重点关注如何利用这些新工具和模型，提升 Agent 的工作成果质量。</description>
+    <description>今天的关键词是“**开源平替**”与“**模型新架构**”。开发者社区正积极构建绕过API限制的工具链，同时，苹果、谷歌和国产厂商在端侧模型、文本生成新范式和专用代码模型上均有重要开源动作，值得重点关注。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Jun 2026 03:35:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 03:36:10 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的核心主题是 **AI 编码 Agent 的“输出质量”革命**。无论是通过开源工具让 Claude Code/Codex 直接生成可用的 Lottie 动画，还是发布专门面向编码的小参数模型，核心都在于让 Agent 的产出从“能跑”进化到“能用、好看、易集成”。开发者可以重点关注如何利用这些新工具和模型，提升 Agent 的工作成果质量。</description>
-        <pubDate>Wed, 10 Jun 2026 03:35:30 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-10T03:35:11.742Z</guid>
+        <description>今天的关键词是“**开源平替**”与“**模型新架构**”。开发者社区正积极构建绕过API限制的工具链，同时，苹果、谷歌和国产厂商在端侧模型、文本生成新范式和专用代码模型上均有重要开源动作，值得重点关注。</description>
+        <pubDate>Thu, 11 Jun 2026 03:36:10 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-11T03:35:53.519Z</guid>
       </item>
     <item>
-        <title>diffusionstudio/lottie</title>
-        <link>https://github.com/diffusionstudio/lottie</link>
-        <description>开源技能与工具，用于通过Codex/Claude Code生成可用于生产的Lottie动画。 | 近期热门 | 总 1587 stars</description>
-        <author>diffusionstudio</author>
-        <category>github</category>
-        <pubDate>Wed, 10 Jun 2026 03:34:22 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-diffusionstudio-lottie</guid>
-      </item>
-<item>
         <title>xqnode/claude-code-helper</title>
         <link>https://github.com/xqnode/claude-code-helper</link>
-        <description>Windows托盘代理：将Claude Code桌面端（Code + Cowork）路由至DeepSeek、Qwen及其他国内大语言模型API。 | 近期热门 | 总 57 stars</description>
+        <description>Windows托盘代理：将Claude Code桌面版（Code + Cowork）路由至DeepSeek、Qwen及其他国内大语言模型API。 | 近期热门 | 总 62 stars</description>
         <author>xqnode</author>
         <category>github</category>
-        <pubDate>Wed, 10 Jun 2026 03:34:22 GMT</pubDate>
+        <pubDate>Thu, 11 Jun 2026 03:35:00 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-xqnode-claude-code-helper</guid>
       </item>
 <item>
         <title>adamallcock/codex-chatgpt-control</title>
         <link>https://github.com/adamallcock/codex-chatgpt-control</link>
-        <description>用于控制可见ChatGPT网页会话的Codex代理的非官方SDK | 近期热门 | 总 179 stars</description>
+        <description>用于控制可见ChatGPT网页会话的Codex代理的非官方SDK | 近期热门 | 总 195 stars</description>
         <author>adamallcock</author>
         <category>github</category>
-        <pubDate>Wed, 10 Jun 2026 03:34:22 GMT</pubDate>
+        <pubDate>Thu, 11 Jun 2026 03:35:00 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-adamallcock-codex-chatgpt-control</guid>
-      </item>
-<item>
-        <title>Text-To-Lottie：Agent Skill + 本地预览 Harness，让 Agent 生成 Lottie 动画并实时验收</title>
-        <link>https://x.com/shao__meng/status/2064508455051043008</link>
-        <description>开源项目 Text-To-Lottie 提供一套 Agent Skill 和本地预览工具，让 Codex/Claude Code/Cursor 等 Agent 生成标准 Bodymovin JSON（public/lottie.json），...</description>
-        <author>AI HOT / X：邵猛 (@shao__meng)</author>
-        <category>aihot</category>
-        <pubDate>Wed, 10 Jun 2026 00:42:27 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmq7cnl4q01x0sl5w2itvprtz</guid>
       </item>
 <item>
         <title>apple/coreai-models</title>
         <link>https://github.com/apple/coreai-models</link>
-        <description>模型导出方案、Python原语及Swift运行时工具，用于设备端AI | 近期热门 | 总 393 stars</description>
+        <description>模型导出方案、Python原语及Swift运行时工具，用于设备端AI | 近期热门 | 总 624 stars</description>
         <author>apple</author>
         <category>github</category>
-        <pubDate>Wed, 10 Jun 2026 03:34:22 GMT</pubDate>
+        <pubDate>Thu, 11 Jun 2026 03:35:00 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-apple-coreai-models</guid>
       </item>
 <item>
-        <title>Cohere发布North Mini Code：面向开发者的开源编码模型</title>
-        <link>https://huggingface.co/blog/CohereLabs/introducing-north-mini-code</link>
-        <description>Cohere发布North Mini Code，一款30B参数MoE模型（3B活跃参数），Apache 2.0开源</description>
-        <author>AI HOT / Hugging Face：Blog（RSS）</author>
+        <title>摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练</title>
+        <link>https://www.ithome.com/0/962/509.htm</link>
+        <description>摩尔线程发布并开源 MusaCoder 代码大模型，含 9B 和 27B 两个参数规模，是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源模型</description>
+        <author>AI HOT / IT之家（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 09 Jun 2026 15:56:23 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmq74dg8m006psloprllkcbmm</guid>
+        <pubDate>Wed, 10 Jun 2026 08:21:45 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmq7t3hhr01f3slepkahaev5l</guid>
       </item>
 <item>
-        <title>GordenSun/GordenSuperPPTSkills</title>
-        <link>https://github.com/GordenSun/GordenSuperPPTSkills</link>
-        <description>AI PPT赛道终结者，史上最最最强 PPT Skill！！！  使用GPT生成豪华的图片格式PPT，然后转换为完全可编辑的PPTX文件。 | 近期热门 | 总 638 stars</description>
-        <author>GordenSun</author>
+        <title>Google Research提出审计机器遗忘新框架</title>
+        <link>https://research.google/blog/new-framework-for-auditing-machine-unlearning</link>
+        <description>Google Research 在 AISTATS 2026 发表正则化 f-散度核检验，用于高效审计 LLM 等模型的机器遗忘</description>
+        <author>AI HOT / Google Research：Blog（网页）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 10 Jun 2026 18:46:09 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmq8f6o8v01weslld6q3q39ne</guid>
+      </item>
+<item>
+        <title>DiffusionGemma：文本生成速度提升4倍的开源扩散模型</title>
+        <link>https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation</link>
+        <description>Google DeepMind 发布开源实验模型 DiffusionGemma，采用文本扩散技术，突破自回归逐 token 生成方式，每次前向并行生成 256 个 token</description>
+        <author>AI HOT / Google DeepMind：Blog（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 10 Jun 2026 16:24:11 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmq8aoxud00ngslldd191n34b</guid>
+      </item>
+<item>
+        <title>通过 Oracle 云承诺访问 OpenAI 模型和 Codex</title>
+        <link>https://openai.com/index/openai-on-oracle-cloud</link>
+        <description>OpenAI 与 Oracle 合作，用户可利用现有 Oracle 云服务承诺（commitment）额度，在 Oracle 云上访问 OpenAI 模型和 Codex，用于构建和部署 AI 应用，同时获得企业级安全与治理能力</description>
+        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 10 Jun 2026 20:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmq8nblte041islldguc1eqww</guid>
+      </item>
+<item>
+        <title>XiaomiMiMo/MiMo-Code</title>
+        <link>https://github.com/XiaomiMiMo/MiMo-Code</link>
+        <description> | 近期热门 | 总 1212 stars</description>
+        <author>XiaomiMiMo</author>
         <category>github</category>
-        <pubDate>Wed, 10 Jun 2026 03:34:22 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-gordensun-gordensuperpptskills</guid>
-      </item>
-<item>
-        <title>Claude Fable 发布：Anthropic 带来的另一种推理体验</title>
-        <link>https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</link>
-        <description>Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型</description>
-        <author>AI HOT / Ethan Mollick：One Useful Thing（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Tue, 09 Jun 2026 17:11:22 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmq6yfqwl00r9slbhgupwks0e</guid>
+        <pubDate>Thu, 11 Jun 2026 03:35:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-xiaomimimo-mimo-code</guid>
       </item>
   </channel>
 </rss>
