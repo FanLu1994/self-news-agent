@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/11)</title>
+    <title>今日 AI 开发者精选 (2026/6/12)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“**开源平替**”与“**模型新架构**”。开发者社区正积极构建绕过API限制的工具链，同时，苹果、谷歌和国产厂商在端侧模型、文本生成新范式和专用代码模型上均有重要开源动作，值得重点关注。</description>
+    <description>今天的核心关键词是 **“Agent 落地”与“编码工作流自动化”**。从 Go 语言编写的并行 Agent 运行时，到一键将本地 AI 编程项目部署上线的 CLI 工具，再到能让 Codex 自动“做梦”开发的 Skill，技术栈正从单一模型调用，快速进化到完整、自动化的开发管线。对于 AI 开发者而言，关注这些项目能够直接提升编码效率和工具链的自动化水平。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 11 Jun 2026 03:36:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 03:35:46 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“**开源平替**”与“**模型新架构**”。开发者社区正积极构建绕过API限制的工具链，同时，苹果、谷歌和国产厂商在端侧模型、文本生成新范式和专用代码模型上均有重要开源动作，值得重点关注。</description>
-        <pubDate>Thu, 11 Jun 2026 03:36:10 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-11T03:35:53.519Z</guid>
+        <description>今天的核心关键词是 **“Agent 落地”与“编码工作流自动化”**。从 Go 语言编写的并行 Agent 运行时，到一键将本地 AI 编程项目部署上线的 CLI 工具，再到能让 Codex 自动“做梦”开发的 Skill，技术栈正从单一模型调用，快速进化到完整、自动化的开发管线。对于 AI 开发者而言，关注这些项目能够直接提升编码效率和工具链的自动化水平。</description>
+        <pubDate>Fri, 12 Jun 2026 03:35:46 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-12T03:35:29.833Z</guid>
       </item>
     <item>
-        <title>xqnode/claude-code-helper</title>
-        <link>https://github.com/xqnode/claude-code-helper</link>
-        <description>Windows托盘代理：将Claude Code桌面版（Code + Cowork）路由至DeepSeek、Qwen及其他国内大语言模型API。 | 近期热门 | 总 62 stars</description>
-        <author>xqnode</author>
+        <title>yzfly/TokenCode</title>
+        <link>https://github.com/yzfly/TokenCode</link>
+        <description>为并行而生的 Agent 运行时——Go 写的开源终端 Coding Agent（类 Claude Code），可接入任意模型，自带心跳与自动做梦 | A parallel-native agent runtime in Go: an open-source, Claude Code-style coding agent. Any model, heartbeat &amp; dreaming. | 近期热门 | 总 28 stars</description>
+        <author>yzfly</author>
         <category>github</category>
-        <pubDate>Thu, 11 Jun 2026 03:35:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-xqnode-claude-code-helper</guid>
+        <pubDate>Fri, 12 Jun 2026 03:34:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yzfly-tokencode</guid>
       </item>
 <item>
-        <title>adamallcock/codex-chatgpt-control</title>
-        <link>https://github.com/adamallcock/codex-chatgpt-control</link>
-        <description>用于控制可见ChatGPT网页会话的Codex代理的非官方SDK | 近期热门 | 总 195 stars</description>
-        <author>adamallcock</author>
+        <title>Sliverkiss/mimocode2api</title>
+        <link>https://github.com/Sliverkiss/mimocode2api</link>
+        <description>MiMoCode2API 是一个轻量级的 API 网关，将 MiMo 语言模型服务转换为标准的 OpenAI Chat Completions 接口 | 近期热门 | 总 44 stars</description>
+        <author>Sliverkiss</author>
         <category>github</category>
-        <pubDate>Thu, 11 Jun 2026 03:35:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-adamallcock-codex-chatgpt-control</guid>
+        <pubDate>Fri, 12 Jun 2026 03:34:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-sliverkiss-mimocode2api</guid>
       </item>
 <item>
-        <title>apple/coreai-models</title>
-        <link>https://github.com/apple/coreai-models</link>
-        <description>模型导出方案、Python原语及Swift运行时工具，用于设备端AI | 近期热门 | 总 624 stars</description>
-        <author>apple</author>
-        <category>github</category>
-        <pubDate>Thu, 11 Jun 2026 03:35:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-apple-coreai-models</guid>
-      </item>
-<item>
-        <title>摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练</title>
-        <link>https://www.ithome.com/0/962/509.htm</link>
-        <description>摩尔线程发布并开源 MusaCoder 代码大模型，含 9B 和 27B 两个参数规模，是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源模型</description>
+        <title>阿里云发布 Meoo CLI：本地 AI 编程项目可一键部署上线</title>
+        <link>https://www.ithome.com/0/963/009.htm</link>
+        <description>阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手</description>
         <author>AI HOT / IT之家（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 10 Jun 2026 08:21:45 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmq7t3hhr01f3slepkahaev5l</guid>
+        <pubDate>Thu, 11 Jun 2026 08:50:49 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmq9asgdq0a6mslld6xdabp77</guid>
       </item>
 <item>
-        <title>Google Research提出审计机器遗忘新框架</title>
-        <link>https://research.google/blog/new-framework-for-auditing-machine-unlearning</link>
-        <description>Google Research 在 AISTATS 2026 发表正则化 f-散度核检验，用于高效审计 LLM 等模型的机器遗忘</description>
-        <author>AI HOT / Google Research：Blog（网页）</author>
+        <title>Codex Goal指令生成Skill发布：一句话需求转目标</title>
+        <link>https://x.com/vista8/status/2065090494972174821</link>
+        <description>针对如何给Codex写Goal指令的问题，作者发布了一个Skill，可将一句话需求自动转化为目标，实现&quot;睡前写指令、模型自动开发、第二天收菜&quot;</description>
+        <author>AI HOT / X：Vista (@vista8)</author>
         <category>aihot</category>
-        <pubDate>Wed, 10 Jun 2026 18:46:09 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmq8f6o8v01weslld6q3q39ne</guid>
+        <pubDate>Thu, 11 Jun 2026 15:15:16 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmq9niqdy0dijslldlisb24yj</guid>
       </item>
 <item>
-        <title>DiffusionGemma：文本生成速度提升4倍的开源扩散模型</title>
-        <link>https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation</link>
-        <description>Google DeepMind 发布开源实验模型 DiffusionGemma，采用文本扩散技术，突破自回归逐 token 生成方式，每次前向并行生成 256 个 token</description>
-        <author>AI HOT / Google DeepMind：Blog（RSS）</author>
+        <title>Hermes Agent Desktop 发布，硅基流动支持一键切换</title>
+        <link>https://x.com/SiliconFlowAI/status/2065015632215912879</link>
+        <description>@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥 → 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6...</description>
+        <author>AI HOT / X：硅基流动 SiliconFlow (@SiliconFlowAI)</author>
         <category>aihot</category>
-        <pubDate>Wed, 10 Jun 2026 16:24:11 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmq8aoxud00ngslldd191n34b</guid>
-      </item>
-<item>
-        <title>通过 Oracle 云承诺访问 OpenAI 模型和 Codex</title>
-        <link>https://openai.com/index/openai-on-oracle-cloud</link>
-        <description>OpenAI 与 Oracle 合作，用户可利用现有 Oracle 云服务承诺（commitment）额度，在 Oracle 云上访问 OpenAI 模型和 Codex，用于构建和部署 AI 应用，同时获得企业级安全与治理能力</description>
-        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 10 Jun 2026 20:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmq8nblte041islldguc1eqww</guid>
+        <pubDate>Thu, 11 Jun 2026 10:17:47 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmq9ck1s90amsslldrz73effj</guid>
       </item>
 <item>
         <title>XiaomiMiMo/MiMo-Code</title>
         <link>https://github.com/XiaomiMiMo/MiMo-Code</link>
-        <description> | 近期热门 | 总 1212 stars</description>
+        <description> | 近期热门 | 总 4998 stars</description>
         <author>XiaomiMiMo</author>
         <category>github</category>
-        <pubDate>Thu, 11 Jun 2026 03:35:00 GMT</pubDate>
+        <pubDate>Fri, 12 Jun 2026 03:34:43 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-xiaomimimo-mimo-code</guid>
+      </item>
+<item>
+        <title>XBuilderLAB/cheat-on-money</title>
+        <link>https://github.com/XBuilderLAB/cheat-on-money</link>
+        <description>AI 时代靠谱兼职发现 + 反诈验证 skill：需求信号反推 + 实时时效核查 + 反诈 rubric + 个性化校准环 | 近期热门 | 总 232 stars</description>
+        <author>XBuilderLAB</author>
+        <category>github</category>
+        <pubDate>Fri, 12 Jun 2026 03:34:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-xbuilderlab-cheat-on-money</guid>
+      </item>
+<item>
+        <title>RainyMarks/DeepX</title>
+        <link>https://github.com/RainyMarks/DeepX</link>
+        <description>AI智能体工作空间 | 近期热门 | 总 82 stars</description>
+        <author>RainyMarks</author>
+        <category>github</category>
+        <pubDate>Fri, 12 Jun 2026 03:34:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-rainymarks-deepx</guid>
       </item>
   </channel>
 </rss>

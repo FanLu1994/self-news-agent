@@ -1902,5 +1902,22 @@
       "OpenSource": 0,
       "Other": 0
     }
+  },
+  {
+    "date": "2026-06-12",
+    "total": 75,
+    "byTopic": {
+      "AI": 67,
+      "Frontend": 1,
+      "Backend": 0,
+      "DevOps": 0,
+      "Data": 1,
+      "Security": 0,
+      "Cloud": 1,
+      "Mobile": 3,
+      "Startup": 0,
+      "OpenSource": 1,
+      "Other": 1
+    }
   }
 ]
