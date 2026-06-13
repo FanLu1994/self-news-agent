@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/12)</title>
+    <title>今日 AI 开发者精选 (2026/6/13)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的核心关键词是 **“Agent 落地”与“编码工作流自动化”**。从 Go 语言编写的并行 Agent 运行时，到一键将本地 AI 编程项目部署上线的 CLI 工具，再到能让 Codex 自动“做梦”开发的 Skill，技术栈正从单一模型调用，快速进化到完整、自动化的开发管线。对于 AI 开发者而言，关注这些项目能够直接提升编码效率和工具链的自动化水平。</description>
+    <description>今天的重点在**开源基础模型和周边工具**。Kimi 和 MiniMax 相继发布了重量级的代码和通用大模型，而社区也迅速给出了配套的 API 网关和评测工具，形成了一个从模型到应用的闭环。对开发者来说，今天是在本地搭建、测试和集成新模型的好时机。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 12 Jun 2026 03:35:46 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 03:34:48 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的核心关键词是 **“Agent 落地”与“编码工作流自动化”**。从 Go 语言编写的并行 Agent 运行时，到一键将本地 AI 编程项目部署上线的 CLI 工具，再到能让 Codex 自动“做梦”开发的 Skill，技术栈正从单一模型调用，快速进化到完整、自动化的开发管线。对于 AI 开发者而言，关注这些项目能够直接提升编码效率和工具链的自动化水平。</description>
-        <pubDate>Fri, 12 Jun 2026 03:35:46 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-12T03:35:29.833Z</guid>
+        <description>今天的重点在**开源基础模型和周边工具**。Kimi 和 MiniMax 相继发布了重量级的代码和通用大模型，而社区也迅速给出了配套的 API 网关和评测工具，形成了一个从模型到应用的闭环。对开发者来说，今天是在本地搭建、测试和集成新模型的好时机。</description>
+        <pubDate>Sat, 13 Jun 2026 03:34:48 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-13T03:34:41.414Z</guid>
       </item>
     <item>
-        <title>yzfly/TokenCode</title>
-        <link>https://github.com/yzfly/TokenCode</link>
-        <description>为并行而生的 Agent 运行时——Go 写的开源终端 Coding Agent（类 Claude Code），可接入任意模型，自带心跳与自动做梦 | A parallel-native agent runtime in Go: an open-source, Claude Code-style coding agent. Any model, heartbeat &amp; dreaming. | 近期热门 | 总 28 stars</description>
-        <author>yzfly</author>
-        <category>github</category>
-        <pubDate>Fri, 12 Jun 2026 03:34:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-yzfly-tokencode</guid>
-      </item>
-<item>
         <title>Sliverkiss/mimocode2api</title>
         <link>https://github.com/Sliverkiss/mimocode2api</link>
-        <description>MiMoCode2API 是一个轻量级的 API 网关，将 MiMo 语言模型服务转换为标准的 OpenAI Chat Completions 接口 | 近期热门 | 总 44 stars</description>
+        <description>MiMoCode2API 是一个轻量级的 API 网关，将 MiMo 语言模型服务转换为标准的 OpenAI Chat Completions 接口 | 近期热门 | 总 59 stars</description>
         <author>Sliverkiss</author>
         <category>github</category>
-        <pubDate>Fri, 12 Jun 2026 03:34:43 GMT</pubDate>
+        <pubDate>Sat, 13 Jun 2026 03:34:11 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-sliverkiss-mimocode2api</guid>
       </item>
 <item>
-        <title>阿里云发布 Meoo CLI：本地 AI 编程项目可一键部署上线</title>
-        <link>https://www.ithome.com/0/963/009.htm</link>
-        <description>阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手</description>
-        <author>AI HOT / IT之家（RSS）</author>
+        <title>Kimi 发布并开源最新代码模型 Kimi-K2.7-Code</title>
+        <link>https://x.com/Kimi_Moonshot/status/2065377579130142937</link>
+        <description>Kimi 发布并开源最新代码模型 Kimi-K2.7-Code</description>
+        <author>AI HOT / X：Kimi.ai (@Kimi_Moonshot)</author>
         <category>aihot</category>
-        <pubDate>Thu, 11 Jun 2026 08:50:49 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmq9asgdq0a6mslld6xdabp77</guid>
+        <pubDate>Fri, 12 Jun 2026 10:16:02 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqas4pf30obzslldpvkbrqde</guid>
       </item>
 <item>
-        <title>Codex Goal指令生成Skill发布：一句话需求转目标</title>
-        <link>https://x.com/vista8/status/2065090494972174821</link>
-        <description>针对如何给Codex写Goal指令的问题，作者发布了一个Skill，可将一句话需求自动转化为目标，实现&quot;睡前写指令、模型自动开发、第二天收菜&quot;</description>
-        <author>AI HOT / X：Vista (@vista8)</author>
+        <title>olmo-eval：面向模型开发循环的评估工作台</title>
+        <link>https://huggingface.co/blog/allenai/olmo-eval</link>
+        <description>olmo-eval 是基于 OLMES 标准构建的评估工作台，专为 LLM 持续开发中的反复评测场景设计</description>
+        <author>AI HOT / Hugging Face：Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Thu, 11 Jun 2026 15:15:16 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmq9niqdy0dijslldlisb24yj</guid>
+        <pubDate>Fri, 12 Jun 2026 15:56:10 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqb4534400wqsl9znvhs39jk</guid>
       </item>
 <item>
-        <title>Hermes Agent Desktop 发布，硅基流动支持一键切换</title>
-        <link>https://x.com/SiliconFlowAI/status/2065015632215912879</link>
-        <description>@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥 → 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6...</description>
-        <author>AI HOT / X：硅基流动 SiliconFlow (@SiliconFlowAI)</author>
+        <title>MiniMax M3 开源权重模型发布，已上架 HuggingFace</title>
+        <link>https://x.com/MiniMax_AI/status/2065436935188058208</link>
+        <description>MiniMax 发布开源权重模型 M3，约 428B 总参数、23B 激活参数，已上传 HuggingFace</description>
+        <author>AI HOT / X：MiniMax (@MiniMax_AI)</author>
         <category>aihot</category>
-        <pubDate>Thu, 11 Jun 2026 10:17:47 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmq9ck1s90amsslldrz73effj</guid>
+        <pubDate>Fri, 12 Jun 2026 14:11:53 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqb0ab1w010xsl359sr4xe9u</guid>
       </item>
 <item>
-        <title>XiaomiMiMo/MiMo-Code</title>
-        <link>https://github.com/XiaomiMiMo/MiMo-Code</link>
-        <description> | 近期热门 | 总 4998 stars</description>
-        <author>XiaomiMiMo</author>
-        <category>github</category>
-        <pubDate>Fri, 12 Jun 2026 03:34:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-xiaomimimo-mimo-code</guid>
+        <title>Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味</title>
+        <link>https://x.com/oran_ge/status/2065566882774868125</link>
+        <description>Oran Ge 让 Claude Fable 5 打磨文案三遍，发现改稿越来越讲究却缺&quot;人味儿&quot;</description>
+        <author>AI HOT / X：Oran Ge (@oran_ge)</author>
+        <category>aihot</category>
+        <pubDate>Fri, 12 Jun 2026 22:48:15 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqbjpkto024kslamjgm4tayw</guid>
       </item>
 <item>
-        <title>XBuilderLAB/cheat-on-money</title>
-        <link>https://github.com/XBuilderLAB/cheat-on-money</link>
-        <description>AI 时代靠谱兼职发现 + 反诈验证 skill：需求信号反推 + 实时时效核查 + 反诈 rubric + 个性化校准环 | 近期热门 | 总 232 stars</description>
-        <author>XBuilderLAB</author>
-        <category>github</category>
-        <pubDate>Fri, 12 Jun 2026 03:34:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-xbuilderlab-cheat-on-money</guid>
+        <title>Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由</title>
+        <link>https://openrouter.ai/blog/tutorials/hermes-agent</link>
+        <description>Hermes Agent 已通过 OpenRouter 处理超过 17 万亿 tokens</description>
+        <author>AI HOT / OpenRouter：Announcements（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 12 Jun 2026 16:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqbpxbo703szslamf29w860z</guid>
       </item>
 <item>
-        <title>RainyMarks/DeepX</title>
-        <link>https://github.com/RainyMarks/DeepX</link>
-        <description>AI智能体工作空间 | 近期热门 | 总 82 stars</description>
-        <author>RainyMarks</author>
+        <title>xiaohuailabs/xiaohu-video-translate</title>
+        <link>https://github.com/xiaohuailabs/xiaohu-video-translate</link>
+        <description>对 AI 说一句话，把外语视频自动配上中文字幕 —— 下载/转写/翻译/润色/烧录一条龙，全程本地，转写零 API 费 | 近期热门 | 总 482 stars</description>
+        <author>xiaohuailabs</author>
         <category>github</category>
-        <pubDate>Fri, 12 Jun 2026 03:34:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-rainymarks-deepx</guid>
+        <pubDate>Sat, 13 Jun 2026 03:34:11 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-xiaohuailabs-xiaohu-video-translate</guid>
+      </item>
+<item>
+        <title>Anthropic的安全警告可能适得其反--政府已撤回其最强大AI</title>
+        <link>https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai</link>
+        <description>Anthropic对政府撤回其最强大AI模型表达不满，称仅基于一个狭窄的潜在越狱发现就召回已部署给数亿用户的商业模型不合理</description>
+        <author>AI HOT / TechCrunch：AI（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Sat, 13 Jun 2026 02:26:30 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqbrjero04b5slamicgrz7kn</guid>
       </item>
   </channel>
 </rss>
