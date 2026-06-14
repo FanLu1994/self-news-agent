@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/13)</title>
+    <title>今日 AI 开发者精选 (2026/6/14)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的重点在**开源基础模型和周边工具**。Kimi 和 MiniMax 相继发布了重量级的代码和通用大模型，而社区也迅速给出了配套的 API 网关和评测工具，形成了一个从模型到应用的闭环。对开发者来说，今天是在本地搭建、测试和集成新模型的好时机。</description>
+    <description>今天，AI 开发者的焦点非常集中：**多智能体系统**和**模型竞争**是两大主线。一方面，新诞生的“元框架”让管理 Claude Code、Codex 等不同智能体变得前所未有的简单；另一方面，国产模型 GLM-5.2 和 API 服务商的新方案都在展示更强的 Coding 能力和更高的性价比。开源社区依然活跃，但也要留意商业化的风险。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Jun 2026 03:34:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 03:35:34 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的重点在**开源基础模型和周边工具**。Kimi 和 MiniMax 相继发布了重量级的代码和通用大模型，而社区也迅速给出了配套的 API 网关和评测工具，形成了一个从模型到应用的闭环。对开发者来说，今天是在本地搭建、测试和集成新模型的好时机。</description>
-        <pubDate>Sat, 13 Jun 2026 03:34:48 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-13T03:34:41.414Z</guid>
+        <description>今天，AI 开发者的焦点非常集中：**多智能体系统**和**模型竞争**是两大主线。一方面，新诞生的“元框架”让管理 Claude Code、Codex 等不同智能体变得前所未有的简单；另一方面，国产模型 GLM-5.2 和 API 服务商的新方案都在展示更强的 Coding 能力和更高的性价比。开源社区依然活跃，但也要留意商业化的风险。</description>
+        <pubDate>Sun, 14 Jun 2026 03:35:34 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-14T03:35:25.381Z</guid>
       </item>
     <item>
-        <title>Sliverkiss/mimocode2api</title>
-        <link>https://github.com/Sliverkiss/mimocode2api</link>
-        <description>MiMoCode2API 是一个轻量级的 API 网关，将 MiMo 语言模型服务转换为标准的 OpenAI Chat Completions 接口 | 近期热门 | 总 59 stars</description>
-        <author>Sliverkiss</author>
+        <title>omnigent-ai/omnigent</title>
+        <link>https://github.com/omnigent-ai/omnigent</link>
+        <description>所有AI智能体的元框架。Omnigent为Claude Code、Codex、Pi以及您自行编写的智能体提供统一层：无需重写即可切换或组合框架，通过策略和沙箱机制加以管控，并支持从任何设备实时协作参与同一在线会话。 | 近期热门 | 总 548 stars</description>
+        <author>omnigent-ai</author>
         <category>github</category>
-        <pubDate>Sat, 13 Jun 2026 03:34:11 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-sliverkiss-mimocode2api</guid>
+        <pubDate>Sun, 14 Jun 2026 03:34:50 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-omnigent-ai-omnigent</guid>
       </item>
 <item>
-        <title>Kimi 发布并开源最新代码模型 Kimi-K2.7-Code</title>
-        <link>https://x.com/Kimi_Moonshot/status/2065377579130142937</link>
-        <description>Kimi 发布并开源最新代码模型 Kimi-K2.7-Code</description>
-        <author>AI HOT / X：Kimi.ai (@Kimi_Moonshot)</author>
-        <category>aihot</category>
-        <pubDate>Fri, 12 Jun 2026 10:16:02 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqas4pf30obzslldpvkbrqde</guid>
-      </item>
-<item>
-        <title>olmo-eval：面向模型开发循环的评估工作台</title>
-        <link>https://huggingface.co/blog/allenai/olmo-eval</link>
-        <description>olmo-eval 是基于 OLMES 标准构建的评估工作台，专为 LLM 持续开发中的反复评测场景设计</description>
-        <author>AI HOT / Hugging Face：Blog（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 12 Jun 2026 15:56:10 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqb4534400wqsl9znvhs39jk</guid>
-      </item>
-<item>
-        <title>MiniMax M3 开源权重模型发布，已上架 HuggingFace</title>
-        <link>https://x.com/MiniMax_AI/status/2065436935188058208</link>
-        <description>MiniMax 发布开源权重模型 M3，约 428B 总参数、23B 激活参数，已上传 HuggingFace</description>
-        <author>AI HOT / X：MiniMax (@MiniMax_AI)</author>
-        <category>aihot</category>
-        <pubDate>Fri, 12 Jun 2026 14:11:53 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqb0ab1w010xsl359sr4xe9u</guid>
-      </item>
-<item>
-        <title>Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味</title>
-        <link>https://x.com/oran_ge/status/2065566882774868125</link>
-        <description>Oran Ge 让 Claude Fable 5 打磨文案三遍，发现改稿越来越讲究却缺&quot;人味儿&quot;</description>
-        <author>AI HOT / X：Oran Ge (@oran_ge)</author>
-        <category>aihot</category>
-        <pubDate>Fri, 12 Jun 2026 22:48:15 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqbjpkto024kslamjgm4tayw</guid>
-      </item>
-<item>
-        <title>Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由</title>
-        <link>https://openrouter.ai/blog/tutorials/hermes-agent</link>
-        <description>Hermes Agent 已通过 OpenRouter 处理超过 17 万亿 tokens</description>
-        <author>AI HOT / OpenRouter：Announcements（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 12 Jun 2026 16:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqbpxbo703szslamf29w860z</guid>
-      </item>
-<item>
-        <title>xiaohuailabs/xiaohu-video-translate</title>
-        <link>https://github.com/xiaohuailabs/xiaohu-video-translate</link>
-        <description>对 AI 说一句话，把外语视频自动配上中文字幕 —— 下载/转写/翻译/润色/烧录一条龙，全程本地，转写零 API 费 | 近期热门 | 总 482 stars</description>
-        <author>xiaohuailabs</author>
+        <title>khrisat/text-humanizer</title>
+        <link>https://github.com/khrisat/text-humanizer</link>
+        <description>高级开源AI人性化工具，旨在使AI生成的文本无法被Turnitin、GPTZero及其他AI检测服务识别。 | 近期热门 | 总 570 stars</description>
+        <author>khrisat</author>
         <category>github</category>
-        <pubDate>Sat, 13 Jun 2026 03:34:11 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-xiaohuailabs-xiaohu-video-translate</guid>
+        <pubDate>Sun, 14 Jun 2026 03:34:50 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-khrisat-text-humanizer</guid>
       </item>
 <item>
-        <title>Anthropic的安全警告可能适得其反--政府已撤回其最强大AI</title>
-        <link>https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai</link>
-        <description>Anthropic对政府撤回其最强大AI模型表达不满，称仅基于一个狭窄的潜在越狱发现就召回已部署给数亿用户的商业模型不合理</description>
-        <author>AI HOT / TechCrunch：AI（RSS）</author>
+        <title>Abishek-kk/RailMind-AI</title>
+        <link>https://github.com/Abishek-kk/RailMind-AI</link>
+        <description>主动式AI平台将被动式闭路电视转化为主动式铁路安全情报。通过YOLOv8+BiLSTM+多智能体推理实现实时行为检测（自杀风险、扒窃）——零新增硬件、隐私优先、无面部识别。 | 近期热门 | 总 40 stars</description>
+        <author>Abishek-kk</author>
+        <category>github</category>
+        <pubDate>Sun, 14 Jun 2026 03:34:50 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-abishek-kk-railmind-ai</guid>
+      </item>
+<item>
+        <title>alchaincyf/fanbox</title>
+        <link>https://github.com/alchaincyf/fanbox</link>
+        <description>vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the right, watch every change in between. | 近期热门 | 总 451 stars</description>
+        <author>alchaincyf</author>
+        <category>github</category>
+        <pubDate>Sun, 14 Jun 2026 03:34:50 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-alchaincyf-fanbox</guid>
+      </item>
+<item>
+        <title>智谱 GLM-5.2 全量开放，支持 1M 上下文且下周开源</title>
+        <link>https://mp.weixin.qq.com/s/LDrbtLM0wiCTJorvd5GY9w</link>
+        <description>GLM-5.2 是智谱迄今能力最强的开源模型，支持真正可用的 1M 上下文，在长程任务中继续保持领先，并被智谱称为最强的国产 Coding 模型</description>
+        <author>AI HOT / 公众号：智谱（GLM）</author>
         <category>aihot</category>
-        <pubDate>Sat, 13 Jun 2026 02:26:30 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqbrjero04b5slamicgrz7kn</guid>
+        <pubDate>Sat, 13 Jun 2026 06:19:36 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqc6iauc00klslt434x4od86</guid>
+      </item>
+<item>
+        <title>亚马逊CEO与美国官员的会谈引发了对Anthropic模型的打压</title>
+        <link>https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&amp;reflink=desktopwebshare_permalink</link>
+        <description>&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.wsj.com&amp;#x2F;tech&amp;#x2F;ai&amp;#x2F;amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&amp;amp;reflink=desktopwebshare_permalink&quot; rel...</description>
+        <author>ls612</author>
+        <category>hn</category>
+        <pubDate>Sat, 13 Jun 2026 16:57:49 GMT</pubDate>
+        <guid isPermaLink="false">hn-48519092</guid>
+      </item>
+<item>
+        <title>AI开源工具仓库在获得730万美元种子轮融资后一夜之间被归档</title>
+        <link>https://github.com/tensorzero/tensorzero</link>
+        <description>AI开源工具仓库在获得730万美元种子轮融资后一夜之间被归档</description>
+        <author>hek2sch</author>
+        <category>hn</category>
+        <pubDate>Sat, 13 Jun 2026 12:10:47 GMT</pubDate>
+        <guid isPermaLink="false">hn-48516504</guid>
+      </item>
+<item>
+        <title>Fusion API：半价达Fable级智能</title>
+        <link>https://x.com/OpenRouter/status/2065856853989270011</link>
+        <description>推出Fusion API，市场上最智能的复合模型</description>
+        <author>AI HOT / X：OpenRouter (@OpenRouter)</author>
+        <category>aihot</category>
+        <pubDate>Sat, 13 Jun 2026 18:00:30 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqcopoix00f8slttxcyouu31</guid>
       </item>
   </channel>
 </rss>
