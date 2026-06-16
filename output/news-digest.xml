@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/15)</title>
+    <title>今日 AI 开发者精选 (2026/6/16)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的热点围绕“**AI 代理（Agent）的可控性与工具链整合**”展开。无论是为 Claude Code 等 Agent 提供统一管理层的元框架，还是通过结构化指令（`/goal`）提升 Codex 任务完成度的 Skill，都指向同一个方向：**开发者正在寻找让 AI 编码代理更可控、更透明、更可组合的方法**。同时，一场围绕 AI 模型安全、API 定价和供应链的深层博弈也在进行中。</description>
+    <description>今天的关键词是 **“务实”与“重构”**。开源社区在优化 Codex 等复杂任务的执行效率（如 `/goal` 命令），前沿机构则推出更贴近真实工作场景的 Agent 评测基准（ALE）。同时，OpenAI 和 MiniMax 分别从模型架构和工程实践上追求成本与性能的平衡，前者重构 Siri，后者开源稀疏注意力模型。对于开发者而言，关注开源项目、新评测标准和底层技术优化，比追逐模型数量更有价值。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 Jun 2026 03:36:07 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 03:36:01 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的热点围绕“**AI 代理（Agent）的可控性与工具链整合**”展开。无论是为 Claude Code 等 Agent 提供统一管理层的元框架，还是通过结构化指令（`/goal`）提升 Codex 任务完成度的 Skill，都指向同一个方向：**开发者正在寻找让 AI 编码代理更可控、更透明、更可组合的方法**。同时，一场围绕 AI 模型安全、API 定价和供应链的深层博弈也在进行中。</description>
-        <pubDate>Mon, 15 Jun 2026 03:36:07 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-15T03:35:58.969Z</guid>
+        <description>今天的关键词是 **“务实”与“重构”**。开源社区在优化 Codex 等复杂任务的执行效率（如 `/goal` 命令），前沿机构则推出更贴近真实工作场景的 Agent 评测基准（ALE）。同时，OpenAI 和 MiniMax 分别从模型架构和工程实践上追求成本与性能的平衡，前者重构 Siri，后者开源稀疏注意力模型。对于开发者而言，关注开源项目、新评测标准和底层技术优化，比追逐模型数量更有价值。</description>
+        <pubDate>Tue, 16 Jun 2026 03:36:01 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-16T03:35:48.956Z</guid>
       </item>
     <item>
-        <title>omnigent-ai/omnigent</title>
-        <link>https://github.com/omnigent-ai/omnigent</link>
-        <description>所有AI代理的元框架。Omnigent为Claude Code、Codex、Pi以及您自行编写的代理提供统一层：无需重写即可切换或组合框架，通过策略和沙箱机制加以管控，并支持从任何设备实时协作参与同一实时会话。 | 近期热门 | 总 1269 stars</description>
-        <author>omnigent-ai</author>
-        <category>github</category>
-        <pubDate>Mon, 15 Jun 2026 03:35:21 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-omnigent-ai-omnigent</guid>
-      </item>
-<item>
-        <title>khrisat/text-humanizer</title>
-        <link>https://github.com/khrisat/text-humanizer</link>
-        <description>高级开源AI人性化工具，旨在使AI生成的文本无法被Turnitin、GPTZero及其他AI检测服务识别。 | 近期热门 | 总 579 stars</description>
-        <author>khrisat</author>
-        <category>github</category>
-        <pubDate>Mon, 15 Jun 2026 03:35:21 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-khrisat-text-humanizer</guid>
-      </item>
-<item>
-        <title>Abishek-kk/RailMind-AI</title>
-        <link>https://github.com/Abishek-kk/RailMind-AI</link>
-        <description>主动式AI平台将被动式闭路电视转化为主动式铁路安全智能。通过YOLOv8+BiLSTM+多智能体推理实现实时行为检测（自杀风险、扒窃）——零新增硬件、隐私优先、无面部识别。 | 近期热门 | 总 42 stars</description>
-        <author>Abishek-kk</author>
-        <category>github</category>
-        <pubDate>Mon, 15 Jun 2026 03:35:21 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-abishek-kk-railmind-ai</guid>
-      </item>
-<item>
         <title>joeseesun/qiaomu-goal-meta-skill</title>
         <link>https://github.com/joeseesun/qiaomu-goal-meta-skill</link>
-        <description>将模糊或复杂的 Codex 任务转化为带有结果、验证、约束、边界、迭代策略、完成证据的强 `/goal` 命令。 | 近期热门 | 总 583 stars</description>
+        <description>将模糊或复杂的 Codex 任务转化为带有结果、验证、约束、边界、迭代策略、完成证据的强 `/goal` 命令 | 近期热门 | 总 617 stars</description>
         <author>joeseesun</author>
         <category>github</category>
-        <pubDate>Mon, 15 Jun 2026 03:35:21 GMT</pubDate>
+        <pubDate>Tue, 16 Jun 2026 03:35:09 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-joeseesun-qiaomu-goal-meta-skill</guid>
       </item>
 <item>
-        <title>alchaincyf/fanbox</title>
-        <link>https://github.com/alchaincyf/fanbox</link>
-        <description>vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the right, watch every change in between. | 近期热门 | 总 527 stars</description>
-        <author>alchaincyf</author>
-        <category>github</category>
-        <pubDate>Mon, 15 Jun 2026 03:35:21 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-alchaincyf-fanbox</guid>
-      </item>
-<item>
-        <title>乔木小说创作 Skill 开源发布</title>
-        <link>https://x.com/vista8/status/2066165703443726749</link>
-        <description>开源乔木小说创作 Skill，用户只需说&quot;我想写一个小说&quot;或指定风格，AI 自动生成剧情梗概、人物设定、钩子、经典桥段、人物欲望、冲突升级和结尾</description>
-        <author>AI HOT / X：Vista (@vista8)</author>
-        <category>aihot</category>
-        <pubDate>Sun, 14 Jun 2026 14:27:45 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqdwb2rj00kkslrd8g9upvtv</guid>
-      </item>
-<item>
-        <title>何夕2077 AI 深度信号周报 (2026 W24)：Fable 5 被禁、价格绞杀战与智能体安全危机</title>
-        <link>https://hex2077.dev/zh-CN/blog/weekly/2026-06-14-hexi-2077-ai-weekly-2026-w24/</link>
-        <description>本期周报聚焦：Anthropic 最强模型「Fable 5」遭美国政府封禁，前沿模型沦为地缘资产；AI 巨头价格绞杀战全面打响，API 体系面临重塑；开发者工具链遭大规模供应链攻击，信任基础设施告警。此外涵盖 OpenAI 支付智能体、WWDC 2026 重塑 Siri 及中国两万亿智算基建等动态。...</description>
-        <author>HEX2077</author>
-        <category>hex2077</category>
-        <pubDate>Sun, 14 Jun 2026 13:19:19 GMT</pubDate>
-        <guid isPermaLink="false">rss-0-1540567552</guid>
-      </item>
-<item>
-        <title>Chaosnet（1981年）</title>
-        <link>https://tumbleweed.nu/r/lm-3/uv/amber.html</link>
-        <description>https://bitsavers.trailing-edge.com/pdf/mit/ai/...</description>
-        <author>RGBCube</author>
+        <title>发布HN：Drafted (YC P26) – 住宅建筑模型</title>
+        <link>https://news.ycombinator.com/item?id=48543908</link>
+        <description>我是Nick，Drafted（https://www.drafted.ai）的创始人。我们正在训练模型，从结构化设计约束中生成住宅建筑。</description>
+        <author>PrimalNick</author>
         <category>hn</category>
-        <pubDate>Sun, 14 Jun 2026 19:14:21 GMT</pubDate>
-        <guid isPermaLink="false">hn-48531449</guid>
+        <pubDate>Mon, 15 Jun 2026 16:47:21 GMT</pubDate>
+        <guid isPermaLink="false">hn-48543908</guid>
+      </item>
+<item>
+        <title>MiniMax 开源 M3 模型权重及 MSA 技术论文</title>
+        <link>https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww</link>
+        <description>MiniMax 上周五开源了 428B 总参数、23B 激活参数的 M3 模型权重，同步发布 MSA（MiniMax Sparse Attention）技术论文，该架构显著降低长上下文计算成本</description>
+        <author>AI HOT / 公众号：MiniMax（稀宇科技）</author>
+        <category>aihot</category>
+        <pubDate>Mon, 15 Jun 2026 14:40:02 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqfccohd008esl2a2ofz86v0</guid>
+      </item>
+<item>
+        <title>欧洲能否利用其拥有的算力训练出前沿AI模型？</title>
+        <link>https://github.com/sammysltd/euromesh</link>
+        <description>欧洲能否利用其拥有的算力训练出前沿人工智能模型？</description>
+        <author>smashini</author>
+        <category>hn</category>
+        <pubDate>Mon, 15 Jun 2026 13:31:09 GMT</pubDate>
+        <guid isPermaLink="false">hn-48541014</guid>
+      </item>
+<item>
+        <title>伯克利RDI发布Agents&apos; Last Exam基准</title>
+        <link>https://rdi.berkeley.edu/blog/agents-last-exam</link>
+        <description>2026年6月，伯克利RDI发布Agents&apos; Last Exam（ALE）基准，包含1，500余项源于真实工作的任务，覆盖55个非体力职业</description>
+        <author>AI HOT / Berkeley RDI：Blog（AI 安全与评测）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 16 Jun 2026 01:59:10 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqfzukav0264slspmybg065u</guid>
+      </item>
+<item>
+        <title>zmustafa/AzureSupportAgent</title>
+        <link>https://github.com/zmustafa/AzureSupportAgent</link>
+        <description>AI驱动的Azure运维工作台。与您的租户对话，与专业AI代理团队一起调查事件，评估、监控和修复您的云环境——在您自己的订阅中运行。一键部署。 | 近期热门 | 总 66 stars</description>
+        <author>zmustafa</author>
+        <category>github</category>
+        <pubDate>Tue, 16 Jun 2026 03:35:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-zmustafa-azuresupportagent</guid>
+      </item>
+<item>
+        <title>成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型</title>
+        <link>https://www.ithome.com/0/964/672.htm</link>
+        <description>字节跳动火山引擎旗下火山方舟体验中心于 6 月 15 日上线 Seedance 2.0 Mini 视频生成模型，计划近期开放 API</description>
+        <author>AI HOT / IT之家（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 16 Jun 2026 01:49:40 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqfzvk1h026sslspt58nzmdd</guid>
+      </item>
+<item>
+        <title>项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构</title>
+        <link>https://www.ithome.com/0/964/620.htm</link>
+        <description>苹果AI版Siri迟迟未上线，项目负责人迈克·罗克韦尔在WWDC技术分享会上透露，去年团队曾做出在原有Siri基础上小幅改良、新增工具调用的可运行版本，但因无法达到产品愿景，最终选择推倒重来，完整从零重构系统，依托全新大模型搭建</description>
+        <author>AI HOT / IT之家（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Mon, 15 Jun 2026 23:16:58 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqfvl6p3010yslsptgi5885d</guid>
       </item>
   </channel>
 </rss>
