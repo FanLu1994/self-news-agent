@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/16)</title>
+    <title>今日 AI 开发者精选 (2026/6/17)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是 **“务实”与“重构”**。开源社区在优化 Codex 等复杂任务的执行效率（如 `/goal` 命令），前沿机构则推出更贴近真实工作场景的 Agent 评测基准（ALE）。同时，OpenAI 和 MiniMax 分别从模型架构和工程实践上追求成本与性能的平衡，前者重构 Siri，后者开源稀疏注意力模型。对于开发者而言，关注开源项目、新评测标准和底层技术优化，比追逐模型数量更有价值。</description>
+    <description>今天的关键词是“**模型落地与 Agent 实践**”。一方面，智谱和 Anthropic 分别从模型基础能力和实证研究两个角度，揭示了长上下文任务和 Agent 编码中人类与AI协作的深层机制；另一方面，开源社区和云厂商正在将模型能力封装为可直接使用的工具（如动画生成器、Azure 运维 Agent）。开发者可以重点关注：**如何利用语义化的长上下文模型（如 GLM-5.2）设计更鲁棒的 Agent 流程**，以及 **Anthropic 研究中对“规划-执行”决策分离的实践启发**。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 16 Jun 2026 03:36:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 03:37:34 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是 **“务实”与“重构”**。开源社区在优化 Codex 等复杂任务的执行效率（如 `/goal` 命令），前沿机构则推出更贴近真实工作场景的 Agent 评测基准（ALE）。同时，OpenAI 和 MiniMax 分别从模型架构和工程实践上追求成本与性能的平衡，前者重构 Siri，后者开源稀疏注意力模型。对于开发者而言，关注开源项目、新评测标准和底层技术优化，比追逐模型数量更有价值。</description>
-        <pubDate>Tue, 16 Jun 2026 03:36:01 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-16T03:35:48.956Z</guid>
+        <description>今天的关键词是“**模型落地与 Agent 实践**”。一方面，智谱和 Anthropic 分别从模型基础能力和实证研究两个角度，揭示了长上下文任务和 Agent 编码中人类与AI协作的深层机制；另一方面，开源社区和云厂商正在将模型能力封装为可直接使用的工具（如动画生成器、Azure 运维 Agent）。开发者可以重点关注：**如何利用语义化的长上下文模型（如 GLM-5.2）设计更鲁棒的 Agent 流程**，以及 **Anthropic 研究中对“规划-执行”决策分离的实践启发**。</description>
+        <pubDate>Wed, 17 Jun 2026 03:37:34 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-17T03:37:22.502Z</guid>
       </item>
     <item>
-        <title>joeseesun/qiaomu-goal-meta-skill</title>
-        <link>https://github.com/joeseesun/qiaomu-goal-meta-skill</link>
-        <description>将模糊或复杂的 Codex 任务转化为带有结果、验证、约束、边界、迭代策略、完成证据的强 `/goal` 命令 | 近期热门 | 总 617 stars</description>
-        <author>joeseesun</author>
+        <title>NO6KIKO/gorest-2d-animation-spritesheet-generator</title>
+        <link>https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator</link>
+        <description>基于Codex辅助的本地二维动画精灵表生成器与场景合成工作区。 | 近期热门 | 总 320 stars</description>
+        <author>NO6KIKO</author>
         <category>github</category>
-        <pubDate>Tue, 16 Jun 2026 03:35:09 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-joeseesun-qiaomu-goal-meta-skill</guid>
+        <pubDate>Wed, 17 Jun 2026 03:36:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-no6kiko-gorest-2d-animation-spritesheet-generator</guid>
       </item>
 <item>
-        <title>发布HN：Drafted (YC P26) – 住宅建筑模型</title>
-        <link>https://news.ycombinator.com/item?id=48543908</link>
-        <description>我是Nick，Drafted（https://www.drafted.ai）的创始人。我们正在训练模型，从结构化设计约束中生成住宅建筑。</description>
-        <author>PrimalNick</author>
-        <category>hn</category>
-        <pubDate>Mon, 15 Jun 2026 16:47:21 GMT</pubDate>
-        <guid isPermaLink="false">hn-48543908</guid>
-      </item>
-<item>
-        <title>MiniMax 开源 M3 模型权重及 MSA 技术论文</title>
-        <link>https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww</link>
-        <description>MiniMax 上周五开源了 428B 总参数、23B 激活参数的 M3 模型权重，同步发布 MSA（MiniMax Sparse Attention）技术论文，该架构显著降低长上下文计算成本</description>
-        <author>AI HOT / 公众号：MiniMax（稀宇科技）</author>
+        <title>智谱 GLM-5.2 发布并开源</title>
+        <link>https://x.com/op7418/status/2067077537721954542</link>
+        <description>智谱发布并开源 GLM-5.2，定位长周期任务，支持 100 万 token 稳定上下文</description>
+        <author>AI HOT / X：歸藏 (@op7418)</author>
         <category>aihot</category>
-        <pubDate>Mon, 15 Jun 2026 14:40:02 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqfccohd008esl2a2ofz86v0</guid>
+        <pubDate>Wed, 17 Jun 2026 02:51:04 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqhiib3804r7sle12h5k7n4p</guid>
       </item>
 <item>
-        <title>欧洲能否利用其拥有的算力训练出前沿AI模型？</title>
-        <link>https://github.com/sammysltd/euromesh</link>
-        <description>欧洲能否利用其拥有的算力训练出前沿人工智能模型？</description>
-        <author>smashini</author>
-        <category>hn</category>
-        <pubDate>Mon, 15 Jun 2026 13:31:09 GMT</pubDate>
-        <guid isPermaLink="false">hn-48541014</guid>
-      </item>
-<item>
-        <title>伯克利RDI发布Agents&apos; Last Exam基准</title>
-        <link>https://rdi.berkeley.edu/blog/agents-last-exam</link>
-        <description>2026年6月，伯克利RDI发布Agents&apos; Last Exam（ALE）基准，包含1，500余项源于真实工作的任务，覆盖55个非体力职业</description>
-        <author>AI HOT / Berkeley RDI：Blog（AI 安全与评测）</author>
+        <title>Anthropic：智能体编码中专业知识回报持续存在</title>
+        <link>https://www.anthropic.com/research/claude-code-expertise</link>
+        <description>Anthropic 基于约40万次 Claude Code 交互会话（2025年10月至2026年4月）分析发现：人类主导规划决策（做什么），Claude 主导执行决策（怎么做）</description>
+        <author>AI HOT / Anthropic：Research（发表成果 · 网页）</author>
         <category>aihot</category>
-        <pubDate>Tue, 16 Jun 2026 01:59:10 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqfzukav0264slspmybg065u</guid>
+        <pubDate>Tue, 16 Jun 2026 19:35:22 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqh1kwnx002asle1lo0di435</guid>
       </item>
 <item>
         <title>zmustafa/AzureSupportAgent</title>
         <link>https://github.com/zmustafa/AzureSupportAgent</link>
-        <description>AI驱动的Azure运维工作台。与您的租户对话，与专业AI代理团队一起调查事件，评估、监控和修复您的云环境——在您自己的订阅中运行。一键部署。 | 近期热门 | 总 66 stars</description>
+        <description>AI驱动的Azure运维工作台。与您的租户对话，与专业AI代理团队一起调查事件，评估、监控和修复您的云环境——在您自己的订阅中运行。一键部署。 | 近期热门 | 总 62 stars</description>
         <author>zmustafa</author>
         <category>github</category>
-        <pubDate>Tue, 16 Jun 2026 03:35:09 GMT</pubDate>
+        <pubDate>Wed, 17 Jun 2026 03:36:48 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-zmustafa-azuresupportagent</guid>
       </item>
 <item>
-        <title>成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型</title>
-        <link>https://www.ithome.com/0/964/672.htm</link>
-        <description>字节跳动火山引擎旗下火山方舟体验中心于 6 月 15 日上线 Seedance 2.0 Mini 视频生成模型，计划近期开放 API</description>
-        <author>AI HOT / IT之家（RSS）</author>
+        <title>小米 MiMo Claw 正式版发布：旗舰模型+金山办公，全新订阅服务上线</title>
+        <link>https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ</link>
+        <description>小米推出云端轻量化 Claw 类产品 MiMo Claw 正式版，搭载与 OpenClaw 框架深度适配的 MiMo-V2.5-Pro 旗舰模型</description>
+        <author>AI HOT / 公众号：小米 MiMo</author>
         <category>aihot</category>
-        <pubDate>Tue, 16 Jun 2026 01:49:40 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqfzvk1h026sslspt58nzmdd</guid>
+        <pubDate>Tue, 16 Jun 2026 13:32:48 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqgqp9qb0269sliczlncs17a</guid>
       </item>
 <item>
-        <title>项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构</title>
-        <link>https://www.ithome.com/0/964/620.htm</link>
-        <description>苹果AI版Siri迟迟未上线，项目负责人迈克·罗克韦尔在WWDC技术分享会上透露，去年团队曾做出在原有Siri基础上小幅改良、新增工具调用的可运行版本，但因无法达到产品愿景，最终选择推倒重来，完整从零重构系统，依托全新大模型搭建</description>
-        <author>AI HOT / IT之家（RSS）</author>
+        <title>公开聊天数据能否预测真实世界AI失调？</title>
+        <link>https://alignment.openai.com/validating-public-evals</link>
+        <description>OpenAI利用WildChat公开数据集（2023年4月至2024年5月收集的100万条对话）模拟模型部署，预测GPT-5.1、GPT-5.2、GPT-5.4在真实生产环境中的不良行为率</description>
+        <author>AI HOT / OpenAI：Alignment 研究博客（RSS）</author>
         <category>aihot</category>
-        <pubDate>Mon, 15 Jun 2026 23:16:58 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqfvl6p3010yslsptgi5885d</guid>
+        <pubDate>Tue, 16 Jun 2026 18:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqh269tl004esle1vztceb34</guid>
+      </item>
+<item>
+        <title>Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型</title>
+        <link>https://x.com/testingcatalog/status/2066773392527655252</link>
+        <description>Cartesia 推出 Sonic 3.5 和 Ink 2 两个模型，作为单一实时语音栈，分别负责文本转语音和语音转文本</description>
+        <author>AI HOT / X：Testing Catalog (@testingcatalog)</author>
+        <category>aihot</category>
+        <pubDate>Tue, 16 Jun 2026 06:42:30 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqgas9pf00yjsl9spz4fexrr</guid>
+      </item>
+<item>
+        <title>微软考虑为 Copilot Cowork 集成 DeepSeek V4</title>
+        <link>https://x.com/kimmonismus/status/2066946013026263110</link>
+        <description>微软正考虑为 Copilot Cowork 提供微软托管的 DeepSeek V4 版本，作为更便宜的模型选项</description>
+        <author>AI HOT / X：Kim (@kimmonismus)</author>
+        <category>aihot</category>
+        <pubDate>Tue, 16 Jun 2026 18:08:26 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqgz178201wfslpu25xb10dm</guid>
       </item>
   </channel>
 </rss>
