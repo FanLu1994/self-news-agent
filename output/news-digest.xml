@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/17)</title>
+    <title>今日 AI 开发者精选 (2026/6/18)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“**模型落地与 Agent 实践**”。一方面，智谱和 Anthropic 分别从模型基础能力和实证研究两个角度，揭示了长上下文任务和 Agent 编码中人类与AI协作的深层机制；另一方面，开源社区和云厂商正在将模型能力封装为可直接使用的工具（如动画生成器、Azure 运维 Agent）。开发者可以重点关注：**如何利用语义化的长上下文模型（如 GLM-5.2）设计更鲁棒的 Agent 流程**，以及 **Anthropic 研究中对“规划-执行”决策分离的实践启发**。</description>
+    <description>今天的关键词是“智能体”与“工具链”的极致下沉。从 Vercel 将智能体简化成一个文件目录，到 NVIDIA 用 8 个智能体操控真实机器人，再到 Adam 用 AI 改变机械设计——智能体正在从概念快速走向“开箱即用”的开发者工具。同时，Compiled Skills 的优化（Token 成本降低 63%）预示着下一代智能体将更轻量、更高效。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Jun 2026 03:37:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 03:35:51 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“**模型落地与 Agent 实践**”。一方面，智谱和 Anthropic 分别从模型基础能力和实证研究两个角度，揭示了长上下文任务和 Agent 编码中人类与AI协作的深层机制；另一方面，开源社区和云厂商正在将模型能力封装为可直接使用的工具（如动画生成器、Azure 运维 Agent）。开发者可以重点关注：**如何利用语义化的长上下文模型（如 GLM-5.2）设计更鲁棒的 Agent 流程**，以及 **Anthropic 研究中对“规划-执行”决策分离的实践启发**。</description>
-        <pubDate>Wed, 17 Jun 2026 03:37:34 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-17T03:37:22.502Z</guid>
+        <description>今天的关键词是“智能体”与“工具链”的极致下沉。从 Vercel 将智能体简化成一个文件目录，到 NVIDIA 用 8 个智能体操控真实机器人，再到 Adam 用 AI 改变机械设计——智能体正在从概念快速走向“开箱即用”的开发者工具。同时，Compiled Skills 的优化（Token 成本降低 63%）预示着下一代智能体将更轻量、更高效。</description>
+        <pubDate>Thu, 18 Jun 2026 03:35:51 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-18T03:35:36.903Z</guid>
       </item>
     <item>
+        <title>dongshuyan/compass-skills</title>
+        <link>https://github.com/dongshuyan/compass-skills</link>
+        <description>司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents | 近期热门 | 总 284 stars</description>
+        <author>dongshuyan</author>
+        <category>github</category>
+        <pubDate>Thu, 18 Jun 2026 03:34:53 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-dongshuyan-compass-skills</guid>
+      </item>
+<item>
+        <title>发布 HN：Adam (YC W25) – 开源 AI CAD</title>
+        <link>https://github.com/Adam-CAD/CADAM</link>
+        <description>嘿，HN！我是Adam（https://adam.new/）的Zach。我们正在为机械CAD软件构建AI智能体。我们公司的创立基础是……</description>
+        <author>zachdive</author>
+        <category>hn</category>
+        <pubDate>Wed, 17 Jun 2026 16:14:04 GMT</pubDate>
+        <guid isPermaLink="false">hn-48572553</guid>
+      </item>
+<item>
         <title>NO6KIKO/gorest-2d-animation-spritesheet-generator</title>
         <link>https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator</link>
-        <description>基于Codex辅助的本地二维动画精灵表生成器与场景合成工作区。 | 近期热门 | 总 320 stars</description>
+        <description>基于Codex辅助的本地二维动画精灵表生成器与场景合成工作区。 | 近期热门 | 总 386 stars</description>
         <author>NO6KIKO</author>
         <category>github</category>
-        <pubDate>Wed, 17 Jun 2026 03:36:48 GMT</pubDate>
+        <pubDate>Thu, 18 Jun 2026 03:34:53 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-no6kiko-gorest-2d-animation-spritesheet-generator</guid>
       </item>
 <item>
-        <title>智谱 GLM-5.2 发布并开源</title>
-        <link>https://x.com/op7418/status/2067077537721954542</link>
-        <description>智谱发布并开源 GLM-5.2，定位长周期任务，支持 100 万 token 稳定上下文</description>
-        <author>AI HOT / X：歸藏 (@op7418)</author>
+        <title>NVIDIA GEAR实验室发布ENPIRE：8个Codex智能体自主控制机器人完成物理实验</title>
+        <link>https://x.com/DrJimFan/status/2067283904986517866</link>
+        <description>NVIDIA GEAR实验室推出ENPIRE系统，首次实现物理世界自主研究</description>
+        <author>AI HOT / X：Jim Fan (@DrJimFan)</author>
         <category>aihot</category>
-        <pubDate>Wed, 17 Jun 2026 02:51:04 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqhiib3804r7sle12h5k7n4p</guid>
+        <pubDate>Wed, 17 Jun 2026 16:31:05 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqiakygm075xslf0a7v3eqfl</guid>
       </item>
 <item>
-        <title>Anthropic：智能体编码中专业知识回报持续存在</title>
-        <link>https://www.anthropic.com/research/claude-code-expertise</link>
-        <description>Anthropic 基于约40万次 Claude Code 交互会话（2025年10月至2026年4月）分析发现：人类主导规划决策（做什么），Claude 主导执行决策（怎么做）</description>
-        <author>AI HOT / Anthropic：Research（发表成果 · 网页）</author>
+        <title>Strands Robots SDK：用单一智能体打通 Hugging Face Hub 到物理机器人</title>
+        <link>https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware</link>
+        <description>AWS（Apache 2.0）开源的 Strands Robots SDK 将 LeRobot 栈封装为 AgentTools，构建统一智能体</description>
+        <author>AI HOT / Hugging Face：Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 16 Jun 2026 19:35:22 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqh1kwnx002asle1lo0di435</guid>
+        <pubDate>Wed, 17 Jun 2026 10:18:05 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqhxv2m503qoslf0x9ls46ps</guid>
       </item>
 <item>
-        <title>zmustafa/AzureSupportAgent</title>
-        <link>https://github.com/zmustafa/AzureSupportAgent</link>
-        <description>AI驱动的Azure运维工作台。与您的租户对话，与专业AI代理团队一起调查事件，评估、监控和修复您的云环境——在您自己的订阅中运行。一键部署。 | 近期热门 | 总 62 stars</description>
-        <author>zmustafa</author>
-        <category>github</category>
-        <pubDate>Wed, 17 Jun 2026 03:36:48 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-zmustafa-azuresupportagent</guid>
+        <title>首个统一科学大模型 LOGOS 正式开源</title>
+        <link>https://mp.weixin.qq.com/s/50q5uY849FKnBzk1Q04MRg</link>
+        <description>LOGOS 由 ATH-Token Foundry 联合中国人民大学高瓴人工智能学院开源，是首个基于统一&quot;科学语法&quot;的多领域科学生成基础模型</description>
+        <author>AI HOT / 公众号：通义实验室（千问）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 18 Jun 2026 02:31:28 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqiw7jw604v7sl5w10zed5s8</guid>
       </item>
 <item>
-        <title>小米 MiMo Claw 正式版发布：旗舰模型+金山办公，全新订阅服务上线</title>
-        <link>https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ</link>
-        <description>小米推出云端轻量化 Claw 类产品 MiMo Claw 正式版，搭载与 OpenClaw 框架深度适配的 MiMo-V2.5-Pro 旗舰模型</description>
-        <author>AI HOT / 公众号：小米 MiMo</author>
+        <title>Vercel 发布开源 AI 智能体框架 Eve：每个智能体就是一个文件目录</title>
+        <link>https://www.marktechpost.com/2026/06/17/vercel-releases-eve</link>
+        <description>Vercel 发布开源 AI 智能体框架 Eve（npm 包，Apache-2.0 许可）</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 16 Jun 2026 13:32:48 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqgqp9qb0269sliczlncs17a</guid>
+        <pubDate>Wed, 17 Jun 2026 17:22:51 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqics21707rbslf0ydj558jy</guid>
       </item>
 <item>
-        <title>公开聊天数据能否预测真实世界AI失调？</title>
-        <link>https://alignment.openai.com/validating-public-evals</link>
-        <description>OpenAI利用WildChat公开数据集（2023年4月至2024年5月收集的100万条对话）模拟模型部署，预测GPT-5.1、GPT-5.2、GPT-5.4在真实生产环境中的不良行为率</description>
-        <author>AI HOT / OpenAI：Alignment 研究博客（RSS）</author>
+        <title>Matt Pocock 开源 skills v1：将技能描述 Token 成本降低 63%</title>
+        <link>https://x.com/AYi_AInotes/status/2067327021005656135</link>
+        <description>Matt Pocock（Total TypeScript 作者）开源了 skills v1，将技能描述的 Token 成本降低 63%</description>
+        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
         <category>aihot</category>
-        <pubDate>Tue, 16 Jun 2026 18:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqh269tl004esle1vztceb34</guid>
-      </item>
-<item>
-        <title>Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型</title>
-        <link>https://x.com/testingcatalog/status/2066773392527655252</link>
-        <description>Cartesia 推出 Sonic 3.5 和 Ink 2 两个模型，作为单一实时语音栈，分别负责文本转语音和语音转文本</description>
-        <author>AI HOT / X：Testing Catalog (@testingcatalog)</author>
-        <category>aihot</category>
-        <pubDate>Tue, 16 Jun 2026 06:42:30 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqgas9pf00yjsl9spz4fexrr</guid>
-      </item>
-<item>
-        <title>微软考虑为 Copilot Cowork 集成 DeepSeek V4</title>
-        <link>https://x.com/kimmonismus/status/2066946013026263110</link>
-        <description>微软正考虑为 Copilot Cowork 提供微软托管的 DeepSeek V4 版本，作为更便宜的模型选项</description>
-        <author>AI HOT / X：Kim (@kimmonismus)</author>
-        <category>aihot</category>
-        <pubDate>Tue, 16 Jun 2026 18:08:26 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqgz178201wfslpu25xb10dm</guid>
+        <pubDate>Wed, 17 Jun 2026 19:22:25 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqiie2vh018hsl5wbdaj9mz3</guid>
       </item>
   </channel>
 </rss>
