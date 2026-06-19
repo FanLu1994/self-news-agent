@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/18)</title>
+    <title>今日 AI 开发者精选 (2026/6/19)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“智能体”与“工具链”的极致下沉。从 Vercel 将智能体简化成一个文件目录，到 NVIDIA 用 8 个智能体操控真实机器人，再到 Adam 用 AI 改变机械设计——智能体正在从概念快速走向“开箱即用”的开发者工具。同时，Compiled Skills 的优化（Token 成本降低 63%）预示着下一代智能体将更轻量、更高效。</description>
+    <description>今天的资讯热点非常聚焦：**AI Coding 正在经历一场从“助手”到“强制执行者”的范式升级**。多个热门项目（如 fablize、FableCodex）不再满足于帮你写代码，而是试图通过“证据链”和“规划法典”来约束 AI 的行为，确保输出的可靠性和可追溯性。同时，OpenAI 在模型对齐（RL 训练出“好人”）和特定领域（医疗问答）上的进展，也展示了实用化落地的方向。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 18 Jun 2026 03:35:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 03:36:31 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“智能体”与“工具链”的极致下沉。从 Vercel 将智能体简化成一个文件目录，到 NVIDIA 用 8 个智能体操控真实机器人，再到 Adam 用 AI 改变机械设计——智能体正在从概念快速走向“开箱即用”的开发者工具。同时，Compiled Skills 的优化（Token 成本降低 63%）预示着下一代智能体将更轻量、更高效。</description>
-        <pubDate>Thu, 18 Jun 2026 03:35:51 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-18T03:35:36.903Z</guid>
+        <description>今天的资讯热点非常聚焦：**AI Coding 正在经历一场从“助手”到“强制执行者”的范式升级**。多个热门项目（如 fablize、FableCodex）不再满足于帮你写代码，而是试图通过“证据链”和“规划法典”来约束 AI 的行为，确保输出的可靠性和可追溯性。同时，OpenAI 在模型对齐（RL 训练出“好人”）和特定领域（医疗问答）上的进展，也展示了实用化落地的方向。</description>
+        <pubDate>Fri, 19 Jun 2026 03:36:31 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-19T03:36:11.123Z</guid>
       </item>
     <item>
-        <title>dongshuyan/compass-skills</title>
-        <link>https://github.com/dongshuyan/compass-skills</link>
-        <description>司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents | 近期热门 | 总 284 stars</description>
-        <author>dongshuyan</author>
+        <title>nnecrkvenuOX/formcms</title>
+        <link>https://github.com/nnecrkvenuOX/formcms</link>
+        <description>AI Agent：基于ASP.NET Core（C#）和React构建的开源无头CMS，具备REST API、GraphQL及GrapesJS页面设计器功能。 | 近期热门 | 总 204 stars</description>
+        <author>nnecrkvenuOX</author>
         <category>github</category>
-        <pubDate>Thu, 18 Jun 2026 03:34:53 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-dongshuyan-compass-skills</guid>
+        <pubDate>Fri, 19 Jun 2026 03:35:34 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nnecrkvenuox-formcms</guid>
       </item>
 <item>
-        <title>发布 HN：Adam (YC W25) – 开源 AI CAD</title>
-        <link>https://github.com/Adam-CAD/CADAM</link>
-        <description>嘿，HN！我是Adam（https://adam.new/）的Zach。我们正在为机械CAD软件构建AI智能体。我们公司的创立基础是……</description>
-        <author>zachdive</author>
-        <category>hn</category>
-        <pubDate>Wed, 17 Jun 2026 16:14:04 GMT</pubDate>
-        <guid isPermaLink="false">hn-48572553</guid>
-      </item>
-<item>
-        <title>NO6KIKO/gorest-2d-animation-spritesheet-generator</title>
-        <link>https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator</link>
-        <description>基于Codex辅助的本地二维动画精灵表生成器与场景合成工作区。 | 近期热门 | 总 386 stars</description>
-        <author>NO6KIKO</author>
+        <title>Waishnav/devspace</title>
+        <link>https://github.com/Waishnav/devspace</link>
+        <description>将ChatGPT转变为Codex | 近期热门 | 总 917 stars</description>
+        <author>Waishnav</author>
         <category>github</category>
-        <pubDate>Thu, 18 Jun 2026 03:34:53 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-no6kiko-gorest-2d-animation-spritesheet-generator</guid>
+        <pubDate>Fri, 19 Jun 2026 03:35:34 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-waishnav-devspace</guid>
       </item>
 <item>
-        <title>NVIDIA GEAR实验室发布ENPIRE：8个Codex智能体自主控制机器人完成物理实验</title>
-        <link>https://x.com/DrJimFan/status/2067283904986517866</link>
-        <description>NVIDIA GEAR实验室推出ENPIRE系统，首次实现物理世界自主研究</description>
-        <author>AI HOT / X：Jim Fan (@DrJimFan)</author>
-        <category>aihot</category>
-        <pubDate>Wed, 17 Jun 2026 16:31:05 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqiakygm075xslf0a7v3eqfl</guid>
+        <title>fivetaku/fablize</title>
+        <link>https://github.com/fivetaku/fablize</link>
+        <description>一个Claude Code插件，使Opus的行为类似Fable——将完成、证据和验证作为程序强制执行。仅提供经过Fable与Opus对比证明可迁移的内容。 | 近期热门 | 总 478 stars</description>
+        <author>fivetaku</author>
+        <category>github</category>
+        <pubDate>Fri, 19 Jun 2026 03:35:34 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-fivetaku-fablize</guid>
       </item>
 <item>
-        <title>Strands Robots SDK：用单一智能体打通 Hugging Face Hub 到物理机器人</title>
-        <link>https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware</link>
-        <description>AWS（Apache 2.0）开源的 Strands Robots SDK 将 LeRobot 栈封装为 AgentTools，构建统一智能体</description>
-        <author>AI HOT / Hugging Face：Blog（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 17 Jun 2026 10:18:05 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqhxv2m503qoslf0x9ls46ps</guid>
+        <title>baskduf/FableCodex</title>
+        <link>https://github.com/baskduf/FableCodex</link>
+        <description>🗿 FableCodex 是一个类似法典风格的编码代理工作流，其规划方式如同寓言。 | 近期热门 | 总 307 stars</description>
+        <author>baskduf</author>
+        <category>github</category>
+        <pubDate>Fri, 19 Jun 2026 03:35:34 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-baskduf-fablecodex</guid>
       </item>
 <item>
-        <title>首个统一科学大模型 LOGOS 正式开源</title>
-        <link>https://mp.weixin.qq.com/s/50q5uY849FKnBzk1Q04MRg</link>
-        <description>LOGOS 由 ATH-Token Foundry 联合中国人民大学高瓴人工智能学院开源，是首个基于统一&quot;科学语法&quot;的多领域科学生成基础模型</description>
-        <author>AI HOT / 公众号：通义实验室（千问）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 18 Jun 2026 02:31:28 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqiw7jw604v7sl5w10zed5s8</guid>
+        <title>Plaer1/junction</title>
+        <link>https://github.com/Plaer1/junction</link>
+        <description>VS Code 聊天侧边栏，用于本地 AI 编码代理 | 近期热门 | 总 510 stars</description>
+        <author>Plaer1</author>
+        <category>github</category>
+        <pubDate>Fri, 19 Jun 2026 03:35:34 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-plaer1-junction</guid>
       </item>
 <item>
-        <title>Vercel 发布开源 AI 智能体框架 Eve：每个智能体就是一个文件目录</title>
-        <link>https://www.marktechpost.com/2026/06/17/vercel-releases-eve</link>
-        <description>Vercel 发布开源 AI 智能体框架 Eve（npm 包，Apache-2.0 许可）</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
+        <title>OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型</title>
+        <link>https://x.com/gdb/status/2067675030335668270</link>
+        <description>OpenAI 与全球 60 个国家、49 种语言、26 个专科的数百名医生合作，通过医生主导的评估大幅提升了 GPT-5.5 Instant 在健康相关问题的智能水平，现已能与公司前沿 Thinking 模型（推理模型）相当</description>
+        <author>AI HOT / X：Greg Brockman (@gdb)</author>
         <category>aihot</category>
-        <pubDate>Wed, 17 Jun 2026 17:22:51 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqics21707rbslf0ydj558jy</guid>
+        <pubDate>Thu, 18 Jun 2026 18:25:17 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqjuxull00fuslhitp791yyz</guid>
       </item>
 <item>
-        <title>Matt Pocock 开源 skills v1：将技能描述 Token 成本降低 63%</title>
-        <link>https://x.com/AYi_AInotes/status/2067327021005656135</link>
-        <description>Matt Pocock（Total TypeScript 作者）开源了 skills v1，将技能描述的 Token 成本降低 63%</description>
-        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
+        <title>OpenAI 强化学习实现广泛且持久的有益模型</title>
+        <link>https://alignment.openai.com/beneficial-rl</link>
+        <description>OpenAI 通过强化学习在真实对话场景中训练模型，使其展现诚实、认知谦逊、元认知透明、可纠正性、普遍公平性和对人类福祉的关心等有益特质</description>
+        <author>AI HOT / OpenAI：Alignment 研究博客（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 17 Jun 2026 19:22:25 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqiie2vh018hsl5wbdaj9mz3</guid>
+        <pubDate>Thu, 18 Jun 2026 18:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqk1gfya0283slhilhufijtu</guid>
+      </item>
+<item>
+        <title>Grok TTS 盲测人类感得分96登顶</title>
+        <link>https://x.com/xai/status/2067654108123910495</link>
+        <description>xAI 的 Grok TTS 模型在 @Vapi_AI 的 Humanness Index 盲测中以 96 分（真人 100 分）位居榜首</description>
+        <author>AI HOT / X：xAI (@xai)</author>
+        <category>aihot</category>
+        <pubDate>Thu, 18 Jun 2026 17:02:09 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqjro1l3067oslmhsb4z5web</guid>
       </item>
   </channel>
 </rss>
