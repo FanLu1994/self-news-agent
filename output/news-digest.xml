@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/20)</title>
+    <title>今日 AI 开发者精选 (2026/6/21)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“智能体技能”与“开源工具链”。从NVIDIA的免训练空间推理框架到DeepSeek的自主研究协议，再到社区涌现的智能体编程技能，AI开发者正在获得更强大、更具体的工具来构建下一代应用。关注这些能直接上手用的开源项目和框架，是今天的重点。</description>
+    <description>今天的热点指向两个方向：一是**模型能力的极致利用**，如 MiniMax 新模型的免费 API 和多 GPU 推理加速；二是 **Agent 开发从理论走向工程实践**，大量高质量的开源教程和编码工具涌现。开发者应重点关注如何低成本集成高性能模型以及如何快速搭建可靠的 Agent 应用。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 20 Jun 2026 03:34:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 03:35:21 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“智能体技能”与“开源工具链”。从NVIDIA的免训练空间推理框架到DeepSeek的自主研究协议，再到社区涌现的智能体编程技能，AI开发者正在获得更强大、更具体的工具来构建下一代应用。关注这些能直接上手用的开源项目和框架，是今天的重点。</description>
-        <pubDate>Sat, 20 Jun 2026 03:34:49 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-20T03:34:35.884Z</guid>
+        <description>今天的热点指向两个方向：一是**模型能力的极致利用**，如 MiniMax 新模型的免费 API 和多 GPU 推理加速；二是 **Agent 开发从理论走向工程实践**，大量高质量的开源教程和编码工具涌现。开发者应重点关注如何低成本集成高性能模型以及如何快速搭建可靠的 Agent 应用。</description>
+        <pubDate>Sun, 21 Jun 2026 03:35:21 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-21T03:35:13.885Z</guid>
       </item>
     <item>
-        <title>nnecrkvenuOX/formcms</title>
-        <link>https://github.com/nnecrkvenuOX/formcms</link>
-        <description>AI Agent：基于ASP.NET Core（C#）和React构建的开源无头CMS，具备REST API、GraphQL及GrapesJS页面设计器功能。 | 近期热门 | 总 296 stars</description>
-        <author>nnecrkvenuOX</author>
+        <title>zyn26/minimax-m3-desktop-app-free-api</title>
+        <link>https://github.com/zyn26/minimax-m3-desktop-app-free-api</link>
+        <description>minimax m3免费模型 人工智能模型免费 应用程序接口 大语言模型 llm 百万上下文窗口 稀疏注意力机制 msa架构 原生多模态 计算机使用 计算机控制 自主编码助手 智能体人工智能框架 swe bench pro 软件工程工作流自动化 多智能体 hugging face 接口访问 本地大语言模型推理 | 近期热门 | 总 73 stars</description>
+        <author>zyn26</author>
         <category>github</category>
-        <pubDate>Sat, 20 Jun 2026 03:34:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nnecrkvenuox-formcms</guid>
+        <pubDate>Sun, 21 Jun 2026 03:34:46 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-zyn26-minimax-m3-desktop-app-free-api</guid>
       </item>
 <item>
-        <title>majidmanzarpour/threejs-game-skills</title>
-        <link>https://github.com/majidmanzarpour/threejs-game-skills</link>
-        <description>用于构建可玩、精良的Three.js浏览器游戏的智能体技能，涵盖玩法、AAA级图形、用户界面、质量保证，以及可选的AI生成3D、图像和音频资源。 | 近期热门 | 总 350 stars</description>
-        <author>majidmanzarpour</author>
+        <title>leyten/shard</title>
+        <link>https://github.com/leyten/shard</link>
+        <description>跨多台机器上GPU的流水线并行LLM推理。 | 近期热门 | 总 266 stars</description>
+        <author>leyten</author>
         <category>github</category>
-        <pubDate>Sat, 20 Jun 2026 03:34:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-majidmanzarpour-threejs-game-skills</guid>
+        <pubDate>Sun, 21 Jun 2026 03:34:46 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-leyten-shard</guid>
       </item>
 <item>
-        <title>DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环</title>
-        <link>https://x.com/AYi_AInotes/status/2067819352926150953</link>
-        <description>DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文</description>
+        <title>rebel0789/codexpro</title>
+        <link>https://github.com/rebel0789/codexpro</link>
+        <description>通过MCP将ChatGPT开发者模式用作你仓库的本地编码代理。 | 近期热门 | 总 558 stars</description>
+        <author>rebel0789</author>
+        <category>github</category>
+        <pubDate>Sun, 21 Jun 2026 03:34:46 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-rebel0789-codexpro</guid>
+      </item>
+<item>
+        <title>开源教程《Deep Agents 实战》发布</title>
+        <link>https://x.com/shao__meng/status/2068306942184034471</link>
+        <description>LangChain 官方认证大使 @zhanghaili0610 推出开源教程《Deep Agents 实战》，基于 LangChain / LangGraph 生态，讲解如何用 Deep Agents Harness 框架构建真实 Age...</description>
+        <author>AI HOT / X：邵猛 (@shao__meng)</author>
+        <category>aihot</category>
+        <pubDate>Sat, 20 Jun 2026 12:16:16 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqmbymfe00zisl4f3pa6jwmz</guid>
+      </item>
+<item>
+        <title>Show HN：我们训练了一个用于渗透测试而非拒绝的模型</title>
+        <link>https://www.argusred.com/cli</link>
+        <description>Anthropic和OpenAI的公开可用模型明确设置了防护栏，以拒绝执行攻击性任务。而其专注于网络安全的模型则对企业用户设置了访问门槛。这使得中小企业和...</description>
+        <author>dk189</author>
+        <category>hn</category>
+        <pubDate>Sat, 20 Jun 2026 13:49:03 GMT</pubDate>
+        <guid isPermaLink="false">hn-48609231</guid>
+      </item>
+<item>
+        <title>Karovia/fullstack-ai-agent-roadmap</title>
+        <link>https://github.com/Karovia/fullstack-ai-agent-roadmap</link>
+        <description>🎯 从零基础到 AI Agent 全栈工程师 · 110 个详细教程 · 58 万字 · 400+ GitHub 项目精选 · Obsidian 友好 · 中文 | 近期热门 | 总 48 stars</description>
+        <author>Karovia</author>
+        <category>github</category>
+        <pubDate>Sun, 21 Jun 2026 03:34:46 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-karovia-fullstack-ai-agent-roadmap</guid>
+      </item>
+<item>
+        <title>微软双向转售GPT与DeepSeek成全球最大AI中间商</title>
+        <link>https://x.com/AYi_AInotes/status/2068218661710512231</link>
+        <description>彭博社报道，微软已成为全球最大AI模型中转站，既将ChatGPT卖给中国企业，也反向将DeepSeek模型卖给西方客户</description>
         <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
         <category>aihot</category>
-        <pubDate>Fri, 19 Jun 2026 03:58:46 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqkf6cny05q6slhidvc7xzf4</guid>
+        <pubDate>Sat, 20 Jun 2026 06:25:29 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqm0elho009fsliiybg230vu</guid>
       </item>
 <item>
-        <title>Waishnav/devspace</title>
-        <link>https://github.com/Waishnav/devspace</link>
-        <description>将ChatGPT转变为Codex | 近期热门 | 总 1439 stars</description>
-        <author>Waishnav</author>
+        <title>MstKail/wc2026-crypto-sportsbook</title>
+        <link>https://github.com/MstKail/wc2026-crypto-sportsbook</link>
+        <description>2026年FIFA世界杯加密体育博彩 | 足球投注平台 | React TypeScript Vite | MetaMask钱包 EIP-191 | 实时WebSocket赔率比分 | 投注结算引擎 | 2026世界杯投注 | WC2026预测赔率市场 | 区块链加密钱包体育博彩 | 近期热门 | 总 312 stars</description>
+        <author>MstKail</author>
         <category>github</category>
-        <pubDate>Sat, 20 Jun 2026 03:34:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-waishnav-devspace</guid>
-      </item>
-<item>
-        <title>fivetaku/fablize</title>
-        <link>https://github.com/fivetaku/fablize</link>
-        <description>一个Claude Code插件，使Opus表现得像Fable——将完成、证据和验证作为程序强制执行。仅提供经Fable与Opus对比证明可转移的内容。 | 近期热门 | 总 505 stars</description>
-        <author>fivetaku</author>
-        <category>github</category>
-        <pubDate>Sat, 20 Jun 2026 03:34:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-fivetaku-fablize</guid>
-      </item>
-<item>
-        <title>NVIDIA Research 发布 SpatialClaw：免训练空间推理框架</title>
-        <link>https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning</link>
-        <description>NVIDIA Research 发布 SpatialClaw，一个免训练的空间推理框架</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 19 Jun 2026 22:51:59 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqlj0jn600pdsljggy6btum5</guid>
-      </item>
-<item>
-        <title>禁止开源AI将是一个错误</title>
-        <link>https://www.interconnects.ai/p/banning-open-source-ai-would-be-a</link>
-        <description>近期行政命令、国会提案及对Anthropic最先进模型的境外访问限制，可能开启新一轮AI监管</description>
-        <author>AI HOT / Nathan Lambert：Interconnects（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 19 Jun 2026 13:02:47 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqkzwabf008islcwjpwe10ii</guid>
-      </item>
-<item>
-        <title>Humanize PPT v0.9：为演讲而生的开源PPT Skill</title>
-        <link>https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg</link>
-        <description>Humanize PPT v0.9 是一款专为演讲场景设计的PPT Skill，核心通过AST（Audience， State， Transfer）逻辑重新编排大纲，将页面渲染外包给下游Skill</description>
-        <author>AI HOT / 公众号：卡尔的AI沃茨</author>
-        <category>aihot</category>
-        <pubDate>Fri, 19 Jun 2026 09:48:28 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqkrei4r006ssl4zm2006sdt</guid>
+        <pubDate>Sun, 21 Jun 2026 03:34:46 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-mstkail-wc2026-crypto-sportsbook</guid>
       </item>
   </channel>
 </rss>
