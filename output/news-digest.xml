@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/21)</title>
+    <title>今日 AI 开发者精选 (2026/6/22)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的热点指向两个方向：一是**模型能力的极致利用**，如 MiniMax 新模型的免费 API 和多 GPU 推理加速；二是 **Agent 开发从理论走向工程实践**，大量高质量的开源教程和编码工具涌现。开发者应重点关注如何低成本集成高性能模型以及如何快速搭建可靠的 Agent 应用。</description>
+    <description>今天 GitHub 上 AI Coding Agent 的生态工具链大爆发，从项目级的管理总监 (umadev) 到本地化的代码代理 (CodexPro) 和记忆增强 (Recall)，开发者正快速搭建起更可控、更连贯的 AI 编程工作流。同时，一个面向智能体的高性能模型（MiniMax-M3）的开源 API 也值得关注。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 21 Jun 2026 03:35:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 03:35:47 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的热点指向两个方向：一是**模型能力的极致利用**，如 MiniMax 新模型的免费 API 和多 GPU 推理加速；二是 **Agent 开发从理论走向工程实践**，大量高质量的开源教程和编码工具涌现。开发者应重点关注如何低成本集成高性能模型以及如何快速搭建可靠的 Agent 应用。</description>
-        <pubDate>Sun, 21 Jun 2026 03:35:21 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-21T03:35:13.885Z</guid>
+        <description>今天 GitHub 上 AI Coding Agent 的生态工具链大爆发，从项目级的管理总监 (umadev) 到本地化的代码代理 (CodexPro) 和记忆增强 (Recall)，开发者正快速搭建起更可控、更连贯的 AI 编程工作流。同时，一个面向智能体的高性能模型（MiniMax-M3）的开源 API 也值得关注。</description>
+        <pubDate>Mon, 22 Jun 2026 03:35:47 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-22T03:35:38.542Z</guid>
       </item>
     <item>
         <title>zyn26/minimax-m3-desktop-app-free-api</title>
         <link>https://github.com/zyn26/minimax-m3-desktop-app-free-api</link>
-        <description>minimax m3免费模型 人工智能模型免费 应用程序接口 大语言模型 llm 百万上下文窗口 稀疏注意力机制 msa架构 原生多模态 计算机使用 计算机控制 自主编码助手 智能体人工智能框架 swe bench pro 软件工程工作流自动化 多智能体 hugging face 接口访问 本地大语言模型推理 | 近期热门 | 总 73 stars</description>
+        <description>minimax m3免费模型 人工智能模型免费 应用程序接口 大语言模型 llm 百万上下文窗口 稀疏注意力机制 msa架构 原生多模态 计算机使用 计算机控制 自主编码助手 智能体人工智能框架 swe bench pro 软件工程工作流自动化 多智能体 hugging face 应用程序接口访问 本地大语言模型推理 | 近期热门 | 总 111 stars</description>
         <author>zyn26</author>
         <category>github</category>
-        <pubDate>Sun, 21 Jun 2026 03:34:46 GMT</pubDate>
+        <pubDate>Mon, 22 Jun 2026 03:35:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-zyn26-minimax-m3-desktop-app-free-api</guid>
       </item>
 <item>
-        <title>leyten/shard</title>
-        <link>https://github.com/leyten/shard</link>
-        <description>跨多台机器上GPU的流水线并行LLM推理。 | 近期热门 | 总 266 stars</description>
-        <author>leyten</author>
+        <title>lyra81604/zhengxi-views</title>
+        <link>https://github.com/lyra81604/zhengxi-views</link>
+        <description>可溯源的郑希(易方达基金经理)投研 Agent Skill——基于他全部公开观点原文 + 有原话佐证的投资方法 + 全市场基金真实数据，能溯源问答、按他框架给基金打分，绝不杜撰。⚠️仅研究学习辅助，不构成投资建议‼️website是郑希主页！ | 近期热门 | 总 282 stars</description>
+        <author>lyra81604</author>
         <category>github</category>
-        <pubDate>Sun, 21 Jun 2026 03:34:46 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-leyten-shard</guid>
+        <pubDate>Mon, 22 Jun 2026 03:35:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lyra81604-zhengxi-views</guid>
+      </item>
+<item>
+        <title>umacloud/umadev</title>
+        <link>https://github.com/umacloud/umadev</link>
+        <description>AI 编码项目总监 Agent:驱动你已登录的 Claude Code / Codex / OpenCode,套上 9 阶段可治理的商业级交付流水线。 AI coding project-director agent — a 9-phase governed delivery pipeline over your  logged-in Claude Code / Codex / OpenCode. | 近期热门 | 总 77 stars</description>
+        <author>umacloud</author>
+        <category>github</category>
+        <pubDate>Mon, 22 Jun 2026 03:35:03 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-umacloud-umadev</guid>
       </item>
 <item>
         <title>rebel0789/codexpro</title>
         <link>https://github.com/rebel0789/codexpro</link>
-        <description>通过MCP将ChatGPT开发者模式用作你仓库的本地编码代理。 | 近期热门 | 总 558 stars</description>
+        <description>通过MCP将ChatGPT开发者模式用作本地代码代理，以处理您的代码仓库。 | 近期热门 | 总 633 stars</description>
         <author>rebel0789</author>
         <category>github</category>
-        <pubDate>Sun, 21 Jun 2026 03:34:46 GMT</pubDate>
+        <pubDate>Mon, 22 Jun 2026 03:35:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-rebel0789-codexpro</guid>
-      </item>
-<item>
-        <title>开源教程《Deep Agents 实战》发布</title>
-        <link>https://x.com/shao__meng/status/2068306942184034471</link>
-        <description>LangChain 官方认证大使 @zhanghaili0610 推出开源教程《Deep Agents 实战》，基于 LangChain / LangGraph 生态，讲解如何用 Deep Agents Harness 框架构建真实 Age...</description>
-        <author>AI HOT / X：邵猛 (@shao__meng)</author>
-        <category>aihot</category>
-        <pubDate>Sat, 20 Jun 2026 12:16:16 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqmbymfe00zisl4f3pa6jwmz</guid>
-      </item>
-<item>
-        <title>Show HN：我们训练了一个用于渗透测试而非拒绝的模型</title>
-        <link>https://www.argusred.com/cli</link>
-        <description>Anthropic和OpenAI的公开可用模型明确设置了防护栏，以拒绝执行攻击性任务。而其专注于网络安全的模型则对企业用户设置了访问门槛。这使得中小企业和...</description>
-        <author>dk189</author>
-        <category>hn</category>
-        <pubDate>Sat, 20 Jun 2026 13:49:03 GMT</pubDate>
-        <guid isPermaLink="false">hn-48609231</guid>
       </item>
 <item>
         <title>Karovia/fullstack-ai-agent-roadmap</title>
         <link>https://github.com/Karovia/fullstack-ai-agent-roadmap</link>
-        <description>🎯 从零基础到 AI Agent 全栈工程师 · 110 个详细教程 · 58 万字 · 400+ GitHub 项目精选 · Obsidian 友好 · 中文 | 近期热门 | 总 48 stars</description>
+        <description>🎯 从零基础到 AI Agent 全栈工程师 · 110 个详细教程 · 58 万字 · 400+ GitHub 项目精选 · Obsidian 友好 · 中文 | 近期热门 | 总 68 stars</description>
         <author>Karovia</author>
         <category>github</category>
-        <pubDate>Sun, 21 Jun 2026 03:34:46 GMT</pubDate>
+        <pubDate>Mon, 22 Jun 2026 03:35:03 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-karovia-fullstack-ai-agent-roadmap</guid>
       </item>
 <item>
-        <title>微软双向转售GPT与DeepSeek成全球最大AI中间商</title>
-        <link>https://x.com/AYi_AInotes/status/2068218661710512231</link>
-        <description>彭博社报道，微软已成为全球最大AI模型中转站，既将ChatGPT卖给中国企业，也反向将DeepSeek模型卖给西方客户</description>
-        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
-        <category>aihot</category>
-        <pubDate>Sat, 20 Jun 2026 06:25:29 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqm0elho009fsliiybg230vu</guid>
+        <title>Apertus – 面向主权AI的开放基础模型</title>
+        <link>https://apertvs.ai/</link>
+        <description>Apertus – 主权人工智能开放基础模型</description>
+        <author>T-A</author>
+        <category>hn</category>
+        <pubDate>Sun, 21 Jun 2026 21:29:43 GMT</pubDate>
+        <guid isPermaLink="false">hn-48622778</guid>
       </item>
 <item>
-        <title>MstKail/wc2026-crypto-sportsbook</title>
-        <link>https://github.com/MstKail/wc2026-crypto-sportsbook</link>
-        <description>2026年FIFA世界杯加密体育博彩 | 足球投注平台 | React TypeScript Vite | MetaMask钱包 EIP-191 | 实时WebSocket赔率比分 | 投注结算引擎 | 2026世界杯投注 | WC2026预测赔率市场 | 区块链加密钱包体育博彩 | 近期热门 | 总 312 stars</description>
-        <author>MstKail</author>
-        <category>github</category>
-        <pubDate>Sun, 21 Jun 2026 03:34:46 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-mstkail-wc2026-crypto-sportsbook</guid>
+        <title>Show HN: Recall – Claude Code 的完全本地项目记忆</title>
+        <link>https://github.com/raiyanyahya/recall</link>
+        <description>Show HN: Recall – 面向 Claude Code 的完全本地项目记忆</description>
+        <author>mateenah</author>
+        <category>hn</category>
+        <pubDate>Sun, 21 Jun 2026 21:05:37 GMT</pubDate>
+        <guid isPermaLink="false">hn-48622590</guid>
+      </item>
+<item>
+        <title>对本地LLM（如Qwen 3:0.6B）进行微调以对问题进行分类，效果良好。</title>
+        <link>https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions</link>
+        <description>对本地LLM（如Qwen 3:0.6B）进行微调以对问题进行分类，取得了良好效果。</description>
+        <author>dev-experiments</author>
+        <category>hn</category>
+        <pubDate>Sun, 21 Jun 2026 22:55:23 GMT</pubDate>
+        <guid isPermaLink="false">hn-48623434</guid>
       </item>
   </channel>
 </rss>
