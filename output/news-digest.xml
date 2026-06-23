@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/22)</title>
+    <title>今日 AI 开发者精选 (2026/6/23)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天 GitHub 上 AI Coding Agent 的生态工具链大爆发，从项目级的管理总监 (umadev) 到本地化的代码代理 (CodexPro) 和记忆增强 (Recall)，开发者正快速搭建起更可控、更连贯的 AI 编程工作流。同时，一个面向智能体的高性能模型（MiniMax-M3）的开源 API 也值得关注。</description>
+    <description>今天的关键词是 **Agent 工具链的工程化**。我们看到，AI 编码 Agent 正在从“能写代码”的玩具，进化出一整套围绕代码版本控制、项目管理流程和模型接口调用的商业化交付流水线。同时，一个逆向工程 Windows Copilot API 的项目也让我们看到了低成本调用 GPT-4/5 的可能。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 22 Jun 2026 03:35:47 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 03:35:04 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天 GitHub 上 AI Coding Agent 的生态工具链大爆发，从项目级的管理总监 (umadev) 到本地化的代码代理 (CodexPro) 和记忆增强 (Recall)，开发者正快速搭建起更可控、更连贯的 AI 编程工作流。同时，一个面向智能体的高性能模型（MiniMax-M3）的开源 API 也值得关注。</description>
-        <pubDate>Mon, 22 Jun 2026 03:35:47 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-22T03:35:38.542Z</guid>
+        <description>今天的关键词是 **Agent 工具链的工程化**。我们看到，AI 编码 Agent 正在从“能写代码”的玩具，进化出一整套围绕代码版本控制、项目管理流程和模型接口调用的商业化交付流水线。同时，一个逆向工程 Windows Copilot API 的项目也让我们看到了低成本调用 GPT-4/5 的可能。</description>
+        <pubDate>Tue, 23 Jun 2026 03:35:04 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-23T03:34:51.366Z</guid>
       </item>
     <item>
-        <title>zyn26/minimax-m3-desktop-app-free-api</title>
-        <link>https://github.com/zyn26/minimax-m3-desktop-app-free-api</link>
-        <description>minimax m3免费模型 人工智能模型免费 应用程序接口 大语言模型 llm 百万上下文窗口 稀疏注意力机制 msa架构 原生多模态 计算机使用 计算机控制 自主编码助手 智能体人工智能框架 swe bench pro 软件工程工作流自动化 多智能体 hugging face 应用程序接口访问 本地大语言模型推理 | 近期热门 | 总 111 stars</description>
-        <author>zyn26</author>
+        <title>sums001/Windows-Copilot-API</title>
+        <link>https://github.com/sums001/Windows-Copilot-API</link>
+        <description>将Windows Copilot逆向工程为兼容OpenAI的API。通过简单的REST接口访问GPT-4和GPT-5模型，无需API密钥或计费。 | 近期热门 | 总 380 stars</description>
+        <author>sums001</author>
         <category>github</category>
-        <pubDate>Mon, 22 Jun 2026 03:35:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-zyn26-minimax-m3-desktop-app-free-api</guid>
-      </item>
-<item>
-        <title>lyra81604/zhengxi-views</title>
-        <link>https://github.com/lyra81604/zhengxi-views</link>
-        <description>可溯源的郑希(易方达基金经理)投研 Agent Skill——基于他全部公开观点原文 + 有原话佐证的投资方法 + 全市场基金真实数据，能溯源问答、按他框架给基金打分，绝不杜撰。⚠️仅研究学习辅助，不构成投资建议‼️website是郑希主页！ | 近期热门 | 总 282 stars</description>
-        <author>lyra81604</author>
-        <category>github</category>
-        <pubDate>Mon, 22 Jun 2026 03:35:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lyra81604-zhengxi-views</guid>
+        <pubDate>Tue, 23 Jun 2026 03:34:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-sums001-windows-copilot-api</guid>
       </item>
 <item>
         <title>umacloud/umadev</title>
         <link>https://github.com/umacloud/umadev</link>
-        <description>AI 编码项目总监 Agent:驱动你已登录的 Claude Code / Codex / OpenCode,套上 9 阶段可治理的商业级交付流水线。 AI coding project-director agent — a 9-phase governed delivery pipeline over your  logged-in Claude Code / Codex / OpenCode. | 近期热门 | 总 77 stars</description>
+        <description>AI 编码项目总监 Agent:驱动你已登录的 Claude Code / Codex / OpenCode，套上 9 阶段可治理的商业级交付流水线。  AI Coding Project Director Agent | Power Claude Code, Codex &amp; OpenCode with a 9-stage governable commercial delivery pipeline. | 近期热门 | 总 92 stars</description>
         <author>umacloud</author>
         <category>github</category>
-        <pubDate>Mon, 22 Jun 2026 03:35:03 GMT</pubDate>
+        <pubDate>Tue, 23 Jun 2026 03:34:09 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-umacloud-umadev</guid>
       </item>
 <item>
-        <title>rebel0789/codexpro</title>
-        <link>https://github.com/rebel0789/codexpro</link>
-        <description>通过MCP将ChatGPT开发者模式用作本地代码代理，以处理您的代码仓库。 | 近期热门 | 总 633 stars</description>
-        <author>rebel0789</author>
+        <title>lyra81604/zhengxi-views</title>
+        <link>https://github.com/lyra81604/zhengxi-views</link>
+        <description>可溯源的郑希(易方达基金经理)投研 Agent Skill——基于他全部公开观点原文 + 有原话佐证的投资方法 + 全市场基金真实数据，能溯源问答、按他框架给基金打分，绝不杜撰。⚠️仅研究学习辅助，不构成投资建议‼️website是郑希主页！ | 近期热门 | 总 703 stars</description>
+        <author>lyra81604</author>
         <category>github</category>
-        <pubDate>Mon, 22 Jun 2026 03:35:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-rebel0789-codexpro</guid>
+        <pubDate>Tue, 23 Jun 2026 03:34:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lyra81604-zhengxi-views</guid>
       </item>
 <item>
-        <title>Karovia/fullstack-ai-agent-roadmap</title>
-        <link>https://github.com/Karovia/fullstack-ai-agent-roadmap</link>
-        <description>🎯 从零基础到 AI Agent 全栈工程师 · 110 个详细教程 · 58 万字 · 400+ GitHub 项目精选 · Obsidian 友好 · 中文 | 近期热门 | 总 68 stars</description>
-        <author>Karovia</author>
+        <title>Show HN：Oak--专为代理设计的 Git 替代方案</title>
+        <link>https://oak.space/oak/oak</link>
+        <description>Oak 是开源版本控制系统，专为 AI 智能体（Claude Code、Codex、Cursor）设计</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Mon, 22 Jun 2026 21:00:09 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqppo7c402qnslp5p92n6y3b</guid>
+      </item>
+<item>
+        <title>briliwar0/glm-5.2-free-desktop-app</title>
+        <link>https://github.com/briliwar0/glm-5.2-free-desktop-app</link>
+        <description>glm 5.2免费 z.ai 大语言模型聊天机器人免费API访问 本地大语言模型 unsloth 动态 gguf llama.cpp ollama 运行 编码助手 自主智能体 zcode opencode cloudflare workers 人工智能 hugging face 模型权重 百万上下文窗口 长周期任务 令牌绕过基准测试 swe bench pro 终端基准测试 安装配置 Windows macOS Linux | 近期热门 | 总 197 stars</description>
+        <author>briliwar0</author>
         <category>github</category>
-        <pubDate>Mon, 22 Jun 2026 03:35:03 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-karovia-fullstack-ai-agent-roadmap</guid>
+        <pubDate>Tue, 23 Jun 2026 03:34:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-briliwar0-glm-5.2-free-desktop-app</guid>
       </item>
 <item>
-        <title>Apertus – 面向主权AI的开放基础模型</title>
-        <link>https://apertvs.ai/</link>
-        <description>Apertus – 主权人工智能开放基础模型</description>
-        <author>T-A</author>
-        <category>hn</category>
-        <pubDate>Sun, 21 Jun 2026 21:29:43 GMT</pubDate>
-        <guid isPermaLink="false">hn-48622778</guid>
+        <title>alvinunreal/lazyskills</title>
+        <link>https://github.com/alvinunreal/lazyskills</link>
+        <description>一个用于发现、安装和管理AI代理技能的优美终端用户界面。 | 近期热门 | 总 78 stars</description>
+        <author>alvinunreal</author>
+        <category>github</category>
+        <pubDate>Tue, 23 Jun 2026 03:34:09 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-alvinunreal-lazyskills</guid>
       </item>
 <item>
-        <title>Show HN: Recall – Claude Code 的完全本地项目记忆</title>
-        <link>https://github.com/raiyanyahya/recall</link>
-        <description>Show HN: Recall – 面向 Claude Code 的完全本地项目记忆</description>
-        <author>mateenah</author>
-        <category>hn</category>
-        <pubDate>Sun, 21 Jun 2026 21:05:37 GMT</pubDate>
-        <guid isPermaLink="false">hn-48622590</guid>
+        <title>AI 治理清单：LLM 架构先行</title>
+        <link>https://openrouter.ai/blog/insights/ai-governance-checklist</link>
+        <description>Deloitte 报告显示企业 AI 抱负与治理成熟度之间差 53 个百分点，74% 计划两年内部署智能体 AI，仅 21% 拥有成熟治理模型</description>
+        <author>AI HOT / OpenRouter：Announcements（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Mon, 22 Jun 2026 19:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqpyc83704y0slp54f6dv3w7</guid>
       </item>
 <item>
-        <title>对本地LLM（如Qwen 3:0.6B）进行微调以对问题进行分类，效果良好。</title>
-        <link>https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions</link>
-        <description>对本地LLM（如Qwen 3:0.6B）进行微调以对问题进行分类，取得了良好效果。</description>
-        <author>dev-experiments</author>
+        <title>Show HN: Selector Forge – 用于AI生成的弹性选择器的浏览器扩展</title>
+        <link>https://github.com/Intuned/selector-forge</link>
+        <description>大家好，我是来自 Intuned（https://intunedhq.com）团队的 Ahmad。今天，我们发布并开源了 Selector Forge（&lt;a href=&quot;http...</description>
+        <author>ahmadilaiwi</author>
         <category>hn</category>
-        <pubDate>Sun, 21 Jun 2026 22:55:23 GMT</pubDate>
-        <guid isPermaLink="false">hn-48623434</guid>
+        <pubDate>Mon, 22 Jun 2026 14:21:24 GMT</pubDate>
+        <guid isPermaLink="false">hn-48630515</guid>
       </item>
   </channel>
 </rss>
