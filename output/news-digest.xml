@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/25)</title>
+    <title>今日 AI 开发者精选 (2026/6/26)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天最值得关注的两个方向：一是 **AI 基础设施向专用硬件演进**，OpenAI 发布了自研的 LLM 推理芯片，这将对未来的推理成本和效率产生深远影响；二是 **Agent 开发框架趋于成熟**，从个人工作台到团队协作空间，开源社区涌现了多个高质量的生产级项目，开发者的“造轮子”门槛正在降低。</description>
+    <description>今天的关键词是 **“智能体（Agent）全面进入工程化阶段”**。从专注 Agentic Coding 的千亿参数大模型，到支撑 Agent 自主决策的语言世界模型，再到将 Agent 能力融入图像生成工作台的开源项目，开发者已经可以直接获取并构建可自主执行复杂任务的智能体系统，技术栈正在快速成熟。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 25 Jun 2026 03:34:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 03:34:59 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天最值得关注的两个方向：一是 **AI 基础设施向专用硬件演进**，OpenAI 发布了自研的 LLM 推理芯片，这将对未来的推理成本和效率产生深远影响；二是 **Agent 开发框架趋于成熟**，从个人工作台到团队协作空间，开源社区涌现了多个高质量的生产级项目，开发者的“造轮子”门槛正在降低。</description>
-        <pubDate>Thu, 25 Jun 2026 03:34:40 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-25T03:34:30.472Z</guid>
+        <description>今天的关键词是 **“智能体（Agent）全面进入工程化阶段”**。从专注 Agentic Coding 的千亿参数大模型，到支撑 Agent 自主决策的语言世界模型，再到将 Agent 能力融入图像生成工作台的开源项目，开发者已经可以直接获取并构建可自主执行复杂任务的智能体系统，技术栈正在快速成熟。</description>
+        <pubDate>Fri, 26 Jun 2026 03:34:59 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-26T03:34:47.858Z</guid>
       </item>
     <item>
+        <title>QwenLM/Qwen-AgentWorld</title>
+        <link>https://github.com/QwenLM/Qwen-AgentWorld</link>
+        <description>Qwen-AgentWorld：通用智能体的语言世界模型 | 近期热门 | 总 498 stars</description>
+        <author>QwenLM</author>
+        <category>github</category>
+        <pubDate>Fri, 26 Jun 2026 03:34:02 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-qwenlm-qwen-agentworld</guid>
+      </item>
+<item>
         <title>tianjiangqiji/nova-image-studio</title>
         <link>https://github.com/tianjiangqiji/nova-image-studio</link>
-        <description>自托管的 AI 图像生成工作台 · 自定义模型 · 多模式 · PWA · 实时任务 支持Agent模式，工作台模式，无限画布，反推提示词，提示词广场，GIF生成。前后端任务机制轻量后端；三端兼容 UI：桌面端、平板端、移动端自适应布局 | 近期热门 | 总 75 stars</description>
+        <description>自托管的 AI 图像生成工作台 · 自定义模型 · 多模式 · PWA · 实时任务 支持Agent模式，工作台模式，无限画布，反推提示词，提示词广场，GIF生成。前后端任务机制轻量后端；三端兼容 UI：桌面端、平板端、移动端自适应布局 | 近期热门 | 总 79 stars</description>
         <author>tianjiangqiji</author>
         <category>github</category>
-        <pubDate>Thu, 25 Jun 2026 03:33:51 GMT</pubDate>
+        <pubDate>Fri, 26 Jun 2026 03:34:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-tianjiangqiji-nova-image-studio</guid>
+      </item>
+<item>
+        <title>Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模</title>
+        <link>https://x.com/berryxia/status/2070167806700908957</link>
+        <description>Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模</description>
+        <author>AI HOT / X：Berry Xia (@berryxia)</author>
+        <category>aihot</category>
+        <pubDate>Thu, 25 Jun 2026 15:30:41 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqtpj36o05pusl0e9ingyoye</guid>
       </item>
 <item>
         <title>goehou/tabbit-toy</title>
         <link>https://github.com/goehou/tabbit-toy</link>
-        <description>这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型 | 近期热门 | 总 276 stars</description>
+        <description>这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型 | 近期热门 | 总 305 stars</description>
         <author>goehou</author>
         <category>github</category>
-        <pubDate>Thu, 25 Jun 2026 03:33:51 GMT</pubDate>
+        <pubDate>Fri, 26 Jun 2026 03:34:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-goehou-tabbit-toy</guid>
-      </item>
-<item>
-        <title>Haystack：面向生产就绪型智能体与RAG的开源AI框架</title>
-        <link>https://haystack.deepset.ai/</link>
-        <description>Haystack：面向生产级智能体与RAG的开源AI框架</description>
-        <author>doener</author>
-        <category>hn</category>
-        <pubDate>Wed, 24 Jun 2026 11:21:32 GMT</pubDate>
-        <guid isPermaLink="false">hn-48658095</guid>
-      </item>
-<item>
-        <title>OpenAI 与 Broadcom 发布面向 LLM 推理的定制芯片 Jalapeño</title>
-        <link>https://openai.com/index/openai-broadcom-jalapeno-inference-chip</link>
-        <description>OpenAI 与 Broadcom 联合推出 Jalapeño，一款专为大语言模型（LLM）推理优化的定制 AI 芯片，旨在提升 AI 系统的性能、效率与规模</description>
-        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 24 Jun 2026 06:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqs319vw0qkcslp52gzwr77q</guid>
-      </item>
-<item>
-        <title>HKUDS/AgentSpace</title>
-        <link>https://github.com/HKUDS/AgentSpace</link>
-        <description>AgentSpace：人类 + 智能体。一个团队。一个工作空间。 | 近期热门 | 总 360 stars</description>
-        <author>HKUDS</author>
-        <category>github</category>
-        <pubDate>Thu, 25 Jun 2026 03:33:51 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hkuds-agentspace</guid>
-      </item>
-<item>
-        <title>思考即回忆：推理如何解锁LLM中的参数化知识</title>
-        <link>https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms</link>
-        <description>Google Research研究发现，推理（chain-of-thought）能帮助大语言模型（LLM）回忆简单事实，即使这些事实无需复杂推导</description>
-        <author>AI HOT / Google Research：Blog（网页）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 24 Jun 2026 17:05:40 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqsbr8l701ndslfubzp0hnmi</guid>
       </item>
 <item>
         <title>FieldofStrawberries/claude-code-fable-5-free-app</title>
         <link>https://github.com/FieldofStrawberries/claude-code-fable-5-free-app</link>
-        <description>Claude Fable 5 免费API AI聊天机器人 Anthropic模型 在线聊天 网页API GitHub下载 桌面客户端 访问 高级账户 登录 试用 替代方案 提示词 生成式文本 UI版本 Beta版 助手 | 近期热门 | 总 127 stars</description>
+        <description>Claude Fable 5 免费API AI聊天机器人 Anthropic模型 在线聊天 网页API GitHub下载 桌面客户端 访问高级账户 登录 试用 替代方案 提示词 生成式文本 UI版本 Beta版 助手 | 近期热门 | 总 149 stars</description>
         <author>FieldofStrawberries</author>
         <category>github</category>
-        <pubDate>Thu, 25 Jun 2026 03:33:51 GMT</pubDate>
+        <pubDate>Fri, 26 Jun 2026 03:34:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-fieldofstrawberries-claude-code-fable-5-free-app</guid>
       </item>
 <item>
-        <title>RubyLLM：一个面向所有主要AI提供商的Ruby框架</title>
-        <link>https://rubyllm.com/</link>
-        <description>RubyLLM：一个面向所有主流AI提供商的Ruby框架</description>
-        <author>doener</author>
+        <title>Show HN: OpenKnowledge – 开源 AI 优先的 Obsidian/Notion 替代品</title>
+        <link>https://github.com/inkeep/open-knowledge</link>
+        <description>大家好，我是Nick。我们正在推出OpenKnowledge（https://openknowledge.ai/），这是一个“所见即所得”的Markdown编辑器……</description>
+        <author>engomez</author>
         <category>hn</category>
-        <pubDate>Wed, 24 Jun 2026 14:41:41 GMT</pubDate>
-        <guid isPermaLink="false">hn-48660711</guid>
+        <pubDate>Thu, 25 Jun 2026 16:04:46 GMT</pubDate>
+        <guid isPermaLink="false">hn-48675435</guid>
+      </item>
+<item>
+        <title>Claude Code v2.1.193 发布</title>
+        <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.193</link>
+        <description>Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理</description>
+        <author>AI HOT / Claude Code：GitHub Releases（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 25 Jun 2026 21:45:57 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqu24x8v00lssl8065rajmsy</guid>
+      </item>
+<item>
+        <title>小互开源个人IP配图技能&quot;小互IP Studio&quot;，含31个原创角色</title>
+        <link>https://x.com/xiaohu/status/2070317717811540149</link>
+        <description>博主小互开源个人IP配图技能&quot;小互IP Studio&quot;，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论</description>
+        <author>AI HOT / X：小互 (@xiaohu)</author>
+        <category>aihot</category>
+        <pubDate>Fri, 26 Jun 2026 01:26:23 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqu93tek02e2sl80iom0bica</guid>
       </item>
   </channel>
 </rss>
