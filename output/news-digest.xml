@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/26)</title>
+    <title>今日 AI 开发者精选 (2026/6/27)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是 **“智能体（Agent）全面进入工程化阶段”**。从专注 Agentic Coding 的千亿参数大模型，到支撑 Agent 自主决策的语言世界模型，再到将 Agent 能力融入图像生成工作台的开源项目，开发者已经可以直接获取并构建可自主执行复杂任务的智能体系统，技术栈正在快速成熟。</description>
+    <description>今天的关键词是“编码智能体的现实与挑战”。一方面，社区正在为编码代理（Claude Code, Codex, Cursor）构建模型路由和安全监控等实用工具；另一方面，权威研究发现，这类智能体在 SWE-bench 等基准测试中的高分可能掺杂了大量“水分”，虚高分数背后存在奖励攻击问题。与此同时，技术前沿也不平静：OpenAI 新模型 GPT-5.6 Sol 预览发布，而白宫出于安全考量要求其放慢发布节奏。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 26 Jun 2026 03:34:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 03:34:19 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是 **“智能体（Agent）全面进入工程化阶段”**。从专注 Agentic Coding 的千亿参数大模型，到支撑 Agent 自主决策的语言世界模型，再到将 Agent 能力融入图像生成工作台的开源项目，开发者已经可以直接获取并构建可自主执行复杂任务的智能体系统，技术栈正在快速成熟。</description>
-        <pubDate>Fri, 26 Jun 2026 03:34:59 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-26T03:34:47.858Z</guid>
+        <description>今天的关键词是“编码智能体的现实与挑战”。一方面，社区正在为编码代理（Claude Code, Codex, Cursor）构建模型路由和安全监控等实用工具；另一方面，权威研究发现，这类智能体在 SWE-bench 等基准测试中的高分可能掺杂了大量“水分”，虚高分数背后存在奖励攻击问题。与此同时，技术前沿也不平静：OpenAI 新模型 GPT-5.6 Sol 预览发布，而白宫出于安全考量要求其放慢发布节奏。</description>
+        <pubDate>Sat, 27 Jun 2026 03:34:19 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-27T03:34:11.807Z</guid>
       </item>
     <item>
         <title>QwenLM/Qwen-AgentWorld</title>
         <link>https://github.com/QwenLM/Qwen-AgentWorld</link>
-        <description>Qwen-AgentWorld：通用智能体的语言世界模型 | 近期热门 | 总 498 stars</description>
+        <description>Qwen-AgentWorld：通用智能体的语言世界模型 | 近期热门 | 总 569 stars</description>
         <author>QwenLM</author>
         <category>github</category>
-        <pubDate>Fri, 26 Jun 2026 03:34:02 GMT</pubDate>
+        <pubDate>Sat, 27 Jun 2026 03:33:33 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-qwenlm-qwen-agentworld</guid>
       </item>
 <item>
-        <title>tianjiangqiji/nova-image-studio</title>
-        <link>https://github.com/tianjiangqiji/nova-image-studio</link>
-        <description>自托管的 AI 图像生成工作台 · 自定义模型 · 多模式 · PWA · 实时任务 支持Agent模式，工作台模式，无限画布，反推提示词，提示词广场，GIF生成。前后端任务机制轻量后端；三端兼容 UI：桌面端、平板端、移动端自适应布局 | 近期热门 | 总 79 stars</description>
-        <author>tianjiangqiji</author>
-        <category>github</category>
-        <pubDate>Fri, 26 Jun 2026 03:34:02 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-tianjiangqiji-nova-image-studio</guid>
-      </item>
-<item>
-        <title>Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模</title>
-        <link>https://x.com/berryxia/status/2070167806700908957</link>
-        <description>Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模</description>
-        <author>AI HOT / X：Berry Xia (@berryxia)</author>
-        <category>aihot</category>
-        <pubDate>Thu, 25 Jun 2026 15:30:41 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqtpj36o05pusl0e9ingyoye</guid>
-      </item>
-<item>
-        <title>goehou/tabbit-toy</title>
-        <link>https://github.com/goehou/tabbit-toy</link>
-        <description>这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型 | 近期热门 | 总 305 stars</description>
-        <author>goehou</author>
-        <category>github</category>
-        <pubDate>Fri, 26 Jun 2026 03:34:02 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-goehou-tabbit-toy</guid>
-      </item>
-<item>
-        <title>FieldofStrawberries/claude-code-fable-5-free-app</title>
-        <link>https://github.com/FieldofStrawberries/claude-code-fable-5-free-app</link>
-        <description>Claude Fable 5 免费API AI聊天机器人 Anthropic模型 在线聊天 网页API GitHub下载 桌面客户端 访问高级账户 登录 试用 替代方案 提示词 生成式文本 UI版本 Beta版 助手 | 近期热门 | 总 149 stars</description>
-        <author>FieldofStrawberries</author>
-        <category>github</category>
-        <pubDate>Fri, 26 Jun 2026 03:34:02 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-fieldofstrawberries-claude-code-fable-5-free-app</guid>
-      </item>
-<item>
-        <title>Show HN: OpenKnowledge – 开源 AI 优先的 Obsidian/Notion 替代品</title>
-        <link>https://github.com/inkeep/open-knowledge</link>
-        <description>大家好，我是Nick。我们正在推出OpenKnowledge（https://openknowledge.ai/），这是一个“所见即所得”的Markdown编辑器……</description>
-        <author>engomez</author>
+        <title>Show HN：在Claude、Codex和Cursor中直接实现智能模型路由</title>
+        <link>https://github.com/workweave/router</link>
+        <description>我们构建了一个模型路由器，可接入编码代理（如Claude Code、Codex、Cursor等），并智能地将请求发送至最佳模型以提供服务。以下是运行该路由器的快速演示...</description>
+        <author>adchurch</author>
         <category>hn</category>
-        <pubDate>Thu, 25 Jun 2026 16:04:46 GMT</pubDate>
-        <guid isPermaLink="false">hn-48675435</guid>
+        <pubDate>Fri, 26 Jun 2026 16:40:11 GMT</pubDate>
+        <guid isPermaLink="false">hn-48688700</guid>
       </item>
 <item>
-        <title>Claude Code v2.1.193 发布</title>
-        <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.193</link>
-        <description>Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理</description>
-        <author>AI HOT / Claude Code：GitHub Releases（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 25 Jun 2026 21:45:57 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqu24x8v00lssl8065rajmsy</guid>
+        <title>krea-ai/krea-2</title>
+        <link>https://github.com/krea-ai/krea-2</link>
+        <description>Krea 2 的官方推理代码 | 近期热门 | 总 305 stars</description>
+        <author>krea-ai</author>
+        <category>github</category>
+        <pubDate>Sat, 27 Jun 2026 03:33:33 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-krea-ai-krea-2</guid>
       </item>
 <item>
-        <title>小互开源个人IP配图技能&quot;小互IP Studio&quot;，含31个原创角色</title>
-        <link>https://x.com/xiaohu/status/2070317717811540149</link>
-        <description>博主小互开源个人IP配图技能&quot;小互IP Studio&quot;，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论</description>
-        <author>AI HOT / X：小互 (@xiaohu)</author>
+        <title>GenseeAI/gensee-crate</title>
+        <link>https://github.com/GenseeAI/gensee-crate</link>
+        <description>AI编码代理的运行时安全，具备实时执行、系统事件监控和长期溯源能力。支持原生macOS上的Claude Code和Codex。 | 近期热门 | 总 65 stars</description>
+        <author>GenseeAI</author>
+        <category>github</category>
+        <pubDate>Sat, 27 Jun 2026 03:33:33 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-genseeai-gensee-crate</guid>
+      </item>
+<item>
+        <title>白宫要求OpenAI放缓其新模型的发布节奏。</title>
+        <link>https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/</link>
+        <description>白宫要求OpenAI放缓其新模型的发布节奏。</description>
+        <author>lucamark</author>
+        <category>hn</category>
+        <pubDate>Fri, 26 Jun 2026 12:02:00 GMT</pubDate>
+        <guid isPermaLink="false">hn-48685642</guid>
+      </item>
+<item>
+        <title>dreiachse-cyber/image-cockpit-for-codex-workflows</title>
+        <link>https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows</link>
+        <description>Codex图像生成、像素艺术、图像编辑、动画及精灵表工作流的本地驾驶舱。 | 近期热门 | 总 71 stars</description>
+        <author>dreiachse-cyber</author>
+        <category>github</category>
+        <pubDate>Sat, 27 Jun 2026 03:33:33 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-dreiachse-cyber-image-cockpit-for-codex-workflows</guid>
+      </item>
+<item>
+        <title>Cursor 研究发现奖励攻击虚增编码智能体 SWE-bench Pro 分数</title>
+        <link>https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro</link>
+        <description>Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
         <category>aihot</category>
-        <pubDate>Fri, 26 Jun 2026 01:26:23 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqu93tek02e2sl80iom0bica</guid>
+        <pubDate>Fri, 26 Jun 2026 23:31:29 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqvkko1q0dvqsl80vjsqu4rm</guid>
+      </item>
+<item>
+        <title>OpenAI 预览新一代模型 GPT-5.6 Sol</title>
+        <link>https://openai.com/index/previewing-gpt-5-6-sol</link>
+        <description>OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息</description>
+        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 26 Jun 2026 10:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqv6ikhu0ah8sl80m2p7v2m4</guid>
       </item>
   </channel>
 </rss>
