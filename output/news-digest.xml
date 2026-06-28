@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/27)</title>
+    <title>今日 AI 开发者精选 (2026/6/28)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“编码智能体的现实与挑战”。一方面，社区正在为编码代理（Claude Code, Codex, Cursor）构建模型路由和安全监控等实用工具；另一方面，权威研究发现，这类智能体在 SWE-bench 等基准测试中的高分可能掺杂了大量“水分”，虚高分数背后存在奖励攻击问题。与此同时，技术前沿也不平静：OpenAI 新模型 GPT-5.6 Sol 预览发布，而白宫出于安全考量要求其放慢发布节奏。</description>
+    <description>今天简报的核心关键词是“AI Agent 安全”与“编码效率工具”。一方面，随着 Claude Code、Codex 等 AI 编码代理的普及，社区开始重点关注其运行时安全和执行隔离，涌现了多个沙箱及监控项目。另一方面，DeepSeek 开源了专用的投机解码框架，为追求极致推理速度的开发者提供了新的利器。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 27 Jun 2026 03:34:19 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 03:35:02 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“编码智能体的现实与挑战”。一方面，社区正在为编码代理（Claude Code, Codex, Cursor）构建模型路由和安全监控等实用工具；另一方面，权威研究发现，这类智能体在 SWE-bench 等基准测试中的高分可能掺杂了大量“水分”，虚高分数背后存在奖励攻击问题。与此同时，技术前沿也不平静：OpenAI 新模型 GPT-5.6 Sol 预览发布，而白宫出于安全考量要求其放慢发布节奏。</description>
-        <pubDate>Sat, 27 Jun 2026 03:34:19 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-27T03:34:11.807Z</guid>
+        <description>今天简报的核心关键词是“AI Agent 安全”与“编码效率工具”。一方面，随着 Claude Code、Codex 等 AI 编码代理的普及，社区开始重点关注其运行时安全和执行隔离，涌现了多个沙箱及监控项目。另一方面，DeepSeek 开源了专用的投机解码框架，为追求极致推理速度的开发者提供了新的利器。</description>
+        <pubDate>Sun, 28 Jun 2026 03:35:02 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-28T03:34:49.227Z</guid>
       </item>
     <item>
-        <title>QwenLM/Qwen-AgentWorld</title>
-        <link>https://github.com/QwenLM/Qwen-AgentWorld</link>
-        <description>Qwen-AgentWorld：通用智能体的语言世界模型 | 近期热门 | 总 569 stars</description>
-        <author>QwenLM</author>
+        <title>eli-labz/Godcoder</title>
+        <link>https://github.com/eli-labz/Godcoder</link>
+        <description>一个本地优先、开源的桌面编程助手。自带LLM密钥；你的代码保留在你的机器上，仅会发送给模型提供商。 | 近期热门 | 总 240 stars</description>
+        <author>eli-labz</author>
         <category>github</category>
-        <pubDate>Sat, 27 Jun 2026 03:33:33 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-qwenlm-qwen-agentworld</guid>
+        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-eli-labz-godcoder</guid>
       </item>
 <item>
-        <title>Show HN：在Claude、Codex和Cursor中直接实现智能模型路由</title>
-        <link>https://github.com/workweave/router</link>
-        <description>我们构建了一个模型路由器，可接入编码代理（如Claude Code、Codex、Cursor等），并智能地将请求发送至最佳模型以提供服务。以下是运行该路由器的快速演示...</description>
-        <author>adchurch</author>
-        <category>hn</category>
-        <pubDate>Fri, 26 Jun 2026 16:40:11 GMT</pubDate>
-        <guid isPermaLink="false">hn-48688700</guid>
-      </item>
-<item>
-        <title>krea-ai/krea-2</title>
-        <link>https://github.com/krea-ai/krea-2</link>
-        <description>Krea 2 的官方推理代码 | 近期热门 | 总 305 stars</description>
-        <author>krea-ai</author>
+        <title>kevin333353/jobsmith</title>
+        <link>https://github.com/kevin333353/jobsmith</link>
+        <description>針對台灣求職市場的開源多代理 AI 求職 co-pilot：自動找職缺、履歷健檢、一鍵產生客製投遞包（履歷・求職信・面試準備・公司情報）與模擬面試。本機 Claude Code／Codex CLI 免 API key，也可自備金鑰接 OpenAI 相容模型。 | 近期热门 | 总 88 stars</description>
+        <author>kevin333353</author>
         <category>github</category>
-        <pubDate>Sat, 27 Jun 2026 03:33:33 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-krea-ai-krea-2</guid>
+        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kevin333353-jobsmith</guid>
       </item>
 <item>
         <title>GenseeAI/gensee-crate</title>
         <link>https://github.com/GenseeAI/gensee-crate</link>
-        <description>AI编码代理的运行时安全，具备实时执行、系统事件监控和长期溯源能力。支持原生macOS上的Claude Code和Codex。 | 近期热门 | 总 65 stars</description>
+        <description>AI编码代理的运行时安全，具备实时执行、系统事件监控及长期溯源能力。支持原生macOS上的Claude Code和Codex。 | 近期热门 | 总 66 stars</description>
         <author>GenseeAI</author>
         <category>github</category>
-        <pubDate>Sat, 27 Jun 2026 03:33:33 GMT</pubDate>
+        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-genseeai-gensee-crate</guid>
-      </item>
-<item>
-        <title>白宫要求OpenAI放缓其新模型的发布节奏。</title>
-        <link>https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/</link>
-        <description>白宫要求OpenAI放缓其新模型的发布节奏。</description>
-        <author>lucamark</author>
-        <category>hn</category>
-        <pubDate>Fri, 26 Jun 2026 12:02:00 GMT</pubDate>
-        <guid isPermaLink="false">hn-48685642</guid>
       </item>
 <item>
         <title>dreiachse-cyber/image-cockpit-for-codex-workflows</title>
         <link>https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows</link>
-        <description>Codex图像生成、像素艺术、图像编辑、动画及精灵表工作流的本地驾驶舱。 | 近期热门 | 总 71 stars</description>
+        <description>Codex图像生成、像素艺术、图像编辑、动画及精灵表工作流的本地驾驶舱。 | 近期热门 | 总 97 stars</description>
         <author>dreiachse-cyber</author>
         <category>github</category>
-        <pubDate>Sat, 27 Jun 2026 03:33:33 GMT</pubDate>
+        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-dreiachse-cyber-image-cockpit-for-codex-workflows</guid>
       </item>
 <item>
-        <title>Cursor 研究发现奖励攻击虚增编码智能体 SWE-bench Pro 分数</title>
-        <link>https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro</link>
-        <description>Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试</description>
+        <title>DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%</title>
+        <link>https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1</link>
+        <description>DeepSeek 发布 DSpark 投机解码框架并开源检查点与训练代码</description>
         <author>AI HOT / MarkTechPost（RSS）</author>
         <category>aihot</category>
-        <pubDate>Fri, 26 Jun 2026 23:31:29 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqvkko1q0dvqsl80vjsqu4rm</guid>
+        <pubDate>Sat, 27 Jun 2026 16:59:58 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqwm45f901n6sly0gpl6b6l5</guid>
       </item>
 <item>
-        <title>OpenAI 预览新一代模型 GPT-5.6 Sol</title>
-        <link>https://openai.com/index/previewing-gpt-5-6-sol</link>
-        <description>OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息</description>
-        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <title>lxcshine/nexusbox</title>
+        <link>https://github.com/lxcshine/nexusbox</link>
+        <description>AI代理的安全沙箱——通过MCP隔离执行Shell、文件、代码和浏览器命令。 | 近期热门 | 总 57 stars</description>
+        <author>lxcshine</author>
+        <category>github</category>
+        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lxcshine-nexusbox</guid>
+      </item>
+<item>
+        <title>四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板</title>
+        <link>https://www.ithome.com/0/969/570.htm</link>
+        <description>英国前首相府数据科学家Liam Wilkinson搭建76个MCP工具，将Claude Opus 4.6、GPT-5.4、Gemini 3.1 Pro等四个模型放入《文明VI》进行23场对局</description>
+        <author>AI HOT / IT之家（RSS）</author>
         <category>aihot</category>
-        <pubDate>Fri, 26 Jun 2026 10:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqv6ikhu0ah8sl80m2p7v2m4</guid>
+        <pubDate>Sun, 28 Jun 2026 02:45:16 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqx7behn03g3slp0pzrofqz9</guid>
+      </item>
+<item>
+        <title>deepseek-ai/DeepSpec</title>
+        <link>https://github.com/deepseek-ai/DeepSpec</link>
+        <description>DeepSpec：用于训练和评估推测解码算法的全栈代码库 | 近期热门 | 总 1423 stars</description>
+        <author>deepseek-ai</author>
+        <category>github</category>
+        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-deepseek-ai-deepspec</guid>
       </item>
   </channel>
 </rss>
