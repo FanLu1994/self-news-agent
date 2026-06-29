@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/28)</title>
+    <title>今日 AI 开发者精选 (2026/6/29)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天简报的核心关键词是“AI Agent 安全”与“编码效率工具”。一方面，随着 Claude Code、Codex 等 AI 编码代理的普及，社区开始重点关注其运行时安全和执行隔离，涌现了多个沙箱及监控项目。另一方面，DeepSeek 开源了专用的投机解码框架，为追求极致推理速度的开发者提供了新的利器。</description>
+    <description>今天的亮点围绕“本地化”和“小型化”展开。一方面，开源社区涌现了多个聚焦隐私和特定场景的本地编程 Agent（如 Godcoder、OpenTag）；另一方面，模型层面，仅3B参数的新模型在数学编程上挑战了百亿级大模型。这些趋势都指向一个方向：AI 开发的工具链正在变得更可控、更专精。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 28 Jun 2026 03:35:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 03:35:14 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天简报的核心关键词是“AI Agent 安全”与“编码效率工具”。一方面，随着 Claude Code、Codex 等 AI 编码代理的普及，社区开始重点关注其运行时安全和执行隔离，涌现了多个沙箱及监控项目。另一方面，DeepSeek 开源了专用的投机解码框架，为追求极致推理速度的开发者提供了新的利器。</description>
-        <pubDate>Sun, 28 Jun 2026 03:35:02 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-28T03:34:49.227Z</guid>
+        <description>今天的亮点围绕“本地化”和“小型化”展开。一方面，开源社区涌现了多个聚焦隐私和特定场景的本地编程 Agent（如 Godcoder、OpenTag）；另一方面，模型层面，仅3B参数的新模型在数学编程上挑战了百亿级大模型。这些趋势都指向一个方向：AI 开发的工具链正在变得更可控、更专精。</description>
+        <pubDate>Mon, 29 Jun 2026 03:35:14 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-06-29T03:35:06.313Z</guid>
       </item>
     <item>
+        <title>amplifthq/opentag</title>
+        <link>https://github.com/amplifthq/opentag</link>
+        <description>开源@agent提及功能，适用于Slack和GitHub。OpenTag将标记的请求路由至Codex、Claude Code，然后在线程中返回结果。 | 近期热门 | 总 356 stars</description>
+        <author>amplifthq</author>
+        <category>github</category>
+        <pubDate>Mon, 29 Jun 2026 03:34:30 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-amplifthq-opentag</guid>
+      </item>
+<item>
         <title>eli-labz/Godcoder</title>
         <link>https://github.com/eli-labz/Godcoder</link>
-        <description>一个本地优先、开源的桌面编程助手。自带LLM密钥；你的代码保留在你的机器上，仅会发送给模型提供商。 | 近期热门 | 总 240 stars</description>
+        <description>本地优先、开源的桌面编程代理。自带LLM密钥；你的代码仅保留在本地，仅会发送至模型提供商。AI代理自行构建其Harnes。 | 近期热门 | 总 245 stars</description>
         <author>eli-labz</author>
         <category>github</category>
-        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
+        <pubDate>Mon, 29 Jun 2026 03:34:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-eli-labz-godcoder</guid>
       </item>
 <item>
         <title>kevin333353/jobsmith</title>
         <link>https://github.com/kevin333353/jobsmith</link>
-        <description>針對台灣求職市場的開源多代理 AI 求職 co-pilot：自動找職缺、履歷健檢、一鍵產生客製投遞包（履歷・求職信・面試準備・公司情報）與模擬面試。本機 Claude Code／Codex CLI 免 API key，也可自備金鑰接 OpenAI 相容模型。 | 近期热门 | 总 88 stars</description>
+        <description>針對台灣求職市場的開源多代理 AI 求職 co-pilot：自動找職缺、履歷健檢、一鍵產生客製投遞包（履歷・求職信・面試準備・公司情報）與模擬面試。本機 Claude Code／Codex CLI 免 API key，也可自備金鑰接 OpenAI 相容模型。 | 近期热门 | 总 103 stars</description>
         <author>kevin333353</author>
         <category>github</category>
-        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
+        <pubDate>Mon, 29 Jun 2026 03:34:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kevin333353-jobsmith</guid>
       </item>
 <item>
-        <title>GenseeAI/gensee-crate</title>
-        <link>https://github.com/GenseeAI/gensee-crate</link>
-        <description>AI编码代理的运行时安全，具备实时执行、系统事件监控及长期溯源能力。支持原生macOS上的Claude Code和Codex。 | 近期热门 | 总 66 stars</description>
-        <author>GenseeAI</author>
-        <category>github</category>
-        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-genseeai-gensee-crate</guid>
-      </item>
-<item>
-        <title>dreiachse-cyber/image-cockpit-for-codex-workflows</title>
-        <link>https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows</link>
-        <description>Codex图像生成、像素艺术、图像编辑、动画及精灵表工作流的本地驾驶舱。 | 近期热门 | 总 97 stars</description>
-        <author>dreiachse-cyber</author>
-        <category>github</category>
-        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-dreiachse-cyber-image-cockpit-for-codex-workflows</guid>
-      </item>
-<item>
-        <title>DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%</title>
-        <link>https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1</link>
-        <description>DeepSeek 发布 DSpark 投机解码框架并开源检查点与训练代码</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
+        <title>新浪开源VibeThinker-3B：推理可压缩，事实知识不能</title>
+        <link>https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt</link>
+        <description>新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200-333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-...</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
         <category>aihot</category>
-        <pubDate>Sat, 27 Jun 2026 16:59:58 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqwm45f901n6sly0gpl6b6l5</guid>
+        <pubDate>Sun, 28 Jun 2026 07:44:41 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqxiel9h004ysl50umg2c011</guid>
       </item>
 <item>
-        <title>lxcshine/nexusbox</title>
-        <link>https://github.com/lxcshine/nexusbox</link>
-        <description>AI代理的安全沙箱——通过MCP隔离执行Shell、文件、代码和浏览器命令。 | 近期热门 | 总 57 stars</description>
-        <author>lxcshine</author>
-        <category>github</category>
-        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lxcshine-nexusbox</guid>
-      </item>
-<item>
-        <title>四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板</title>
-        <link>https://www.ithome.com/0/969/570.htm</link>
-        <description>英国前首相府数据科学家Liam Wilkinson搭建76个MCP工具，将Claude Opus 4.6、GPT-5.4、Gemini 3.1 Pro等四个模型放入《文明VI》进行23场对局</description>
-        <author>AI HOT / IT之家（RSS）</author>
+        <title>Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus</title>
+        <link>https://x.com/elonmusk/status/2071184354756477041</link>
+        <description>Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测</description>
+        <author>AI HOT / X：Elon Musk (@elonmusk, xAI)</author>
         <category>aihot</category>
-        <pubDate>Sun, 28 Jun 2026 02:45:16 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqx7behn03g3slp0pzrofqz9</guid>
+        <pubDate>Sun, 28 Jun 2026 10:50:05 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqxo43c90009slwfmy4wm3z3</guid>
       </item>
 <item>
-        <title>deepseek-ai/DeepSpec</title>
-        <link>https://github.com/deepseek-ai/DeepSpec</link>
-        <description>DeepSpec：用于训练和评估推测解码算法的全栈代码库 | 近期热门 | 总 1423 stars</description>
-        <author>deepseek-ai</author>
+        <title>Pluviobyte/video-production-skills</title>
+        <link>https://github.com/Pluviobyte/video-production-skills</link>
+        <description>可复用AI视频制作技能库，涵盖创作、再创作、动态设计、开场及质量审核。 | 近期热门 | 总 366 stars</description>
+        <author>Pluviobyte</author>
         <category>github</category>
-        <pubDate>Sun, 28 Jun 2026 03:34:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-deepseek-ai-deepspec</guid>
+        <pubDate>Mon, 29 Jun 2026 03:34:30 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-pluviobyte-video-production-skills</guid>
+      </item>
+<item>
+        <title>谷歌限制Meta使用其Gemini AI模型</title>
+        <link>https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html</link>
+        <description>谷歌限制Meta使用其Gemini AI模型。</description>
+        <author>root-parent</author>
+        <category>hn</category>
+        <pubDate>Sun, 28 Jun 2026 13:30:06 GMT</pubDate>
+        <guid isPermaLink="false">hn-48707103</guid>
+      </item>
+<item>
+        <title>仅有三个AI模型在500天创业测试中盈利超过起始资本</title>
+        <link>https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test</link>
+        <description>普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Sun, 28 Jun 2026 10:16:13 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmqxnrjtc004ssljh9zvejgbo</guid>
       </item>
   </channel>
 </rss>
