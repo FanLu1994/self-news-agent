@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/6/30)</title>
+    <title>今日 AI 开发者精选 (2026/7/1)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“安全与开源”。一方面，Agent 工具（如 Claude Code）暴露了重大的安全隐患，提醒我们在拥抱 AI 编码能力时需警惕供应链攻击；另一方面，美团开源的 1.6 万亿参数 MoE 模型和多个优秀的开源项目（如记忆运行时、本地化 LLM 工具）显示了社区驱动的巨大能量。开发者应重点关注 Agent 安全实践和大型开源模型的本地化部署方案。</description>
+    <description>今天的关键词是“智能体”和“代码能力”。一方面，X（Twitter）和 Google 相继发布了面向 AI 智能体的 API 和开发工具，标志着多智能体协作与外部工具调用正成为标准能力。另一方面，社区对提升 AI 代码生成能力的开源项目热度不减，Codex 相关项目和新一代营销模拟器都在快速迭代。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 30 Jun 2026 03:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 03:35:22 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“安全与开源”。一方面，Agent 工具（如 Claude Code）暴露了重大的安全隐患，提醒我们在拥抱 AI 编码能力时需警惕供应链攻击；另一方面，美团开源的 1.6 万亿参数 MoE 模型和多个优秀的开源项目（如记忆运行时、本地化 LLM 工具）显示了社区驱动的巨大能量。开发者应重点关注 Agent 安全实践和大型开源模型的本地化部署方案。</description>
-        <pubDate>Tue, 30 Jun 2026 03:35:00 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-06-30T03:34:47.272Z</guid>
+        <description>今天的关键词是“智能体”和“代码能力”。一方面，X（Twitter）和 Google 相继发布了面向 AI 智能体的 API 和开发工具，标志着多智能体协作与外部工具调用正成为标准能力。另一方面，社区对提升 AI 代码生成能力的开源项目热度不减，Codex 相关项目和新一代营销模拟器都在快速迭代。</description>
+        <pubDate>Wed, 01 Jul 2026 03:35:22 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-01T03:35:10.937Z</guid>
       </item>
     <item>
+        <title>charan820/PhantomCrowd-Simulacra</title>
+        <link>https://github.com/charan820/PhantomCrowd-Simulacra</link>
+        <description>PhantomCrowd AI营销模拟器2026：基于本地大语言模型的内容传播预测 | 近期热门 | 总 152 stars</description>
+        <author>charan820</author>
+        <category>github</category>
+        <pubDate>Wed, 01 Jul 2026 03:34:27 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-charan820-phantomcrowd-simulacra</guid>
+      </item>
+<item>
         <title>yynxxxxx/Codex-5.5-codex-instruct-5.5</title>
         <link>https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5</link>
-        <description> | 近期热门 | 总 546 stars</description>
+        <description> | 近期热门 | 总 852 stars</description>
         <author>yynxxxxx</author>
         <category>github</category>
-        <pubDate>Tue, 30 Jun 2026 03:34:15 GMT</pubDate>
+        <pubDate>Wed, 01 Jul 2026 03:34:27 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-yynxxxxx-codex-5.5-codex-instruct-5.5</guid>
       </item>
 <item>
-        <title>Pluviobyte/video-production-skills</title>
-        <link>https://github.com/Pluviobyte/video-production-skills</link>
-        <description>可复用的AI视频制作技能库，涵盖创作、再创作、动态设计、开场及质量保证。 | 近期热门 | 总 455 stars</description>
-        <author>Pluviobyte</author>
-        <category>github</category>
-        <pubDate>Tue, 30 Jun 2026 03:34:15 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-pluviobyte-video-production-skills</guid>
-      </item>
-<item>
-        <title>Anthropic CEO：开源AI正变得危险（2023）</title>
-        <link>https://xcancel.com/coinbureau/status/2071330294452666695</link>
-        <description>Anthropic CEO：开源AI正变得危险（2023）</description>
-        <author>therein</author>
-        <category>hn</category>
-        <pubDate>Mon, 29 Jun 2026 09:11:33 GMT</pubDate>
-        <guid isPermaLink="false">hn-48716750</guid>
-      </item>
-<item>
-        <title>美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练</title>
-        <link>https://x.com/EMostaque/status/2071701921241448574</link>
-        <description>美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别</description>
-        <author>AI HOT / X：Emad Mostaque (@EMostaque)</author>
+        <title>X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API</title>
+        <link>https://x.com/op7418/status/2071816099986022650</link>
+        <description>X（Twitter）官方推出 hosted X MCP，AI 智能体可通过 MCP 协议直接调用 X API 获取实时信息，支持 Grok、Cursor 等工具</description>
+        <author>AI HOT / X：歸藏 (@op7418)</author>
         <category>aihot</category>
-        <pubDate>Mon, 29 Jun 2026 21:06:43 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqzqabkh0069slkildw65dhy</guid>
+        <pubDate>Tue, 30 Jun 2026 04:40:25 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr07c62l04huslkimxy3vdw5</guid>
       </item>
 <item>
-        <title>Claude Code 打开 GitHub 仓库即执行隐藏恶意代码，攻击者可获完全控制</title>
-        <link>https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control</link>
-        <description>安全研究人员在 Mozilla 的 GenAI 漏洞赏金平台 0DIN 发现新攻击向量</description>
-        <author>AI HOT / The Decoder：AI News（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Mon, 29 Jun 2026 10:04:32 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqz20a0a000dsly4gw09u9xt</guid>
-      </item>
-<item>
-        <title>kentjuno/ainovel-cli</title>
-        <link>https://github.com/kentjuno/ainovel-cli</link>
-        <description>AI多智能体小说创作CLI — voocel/ainovel-cli的越南语版本 | 近期热门 | 总 193 stars</description>
-        <author>kentjuno</author>
+        <title>squishyqrcode/booru-scroll-react</title>
+        <link>https://github.com/squishyqrcode/booru-scroll-react</link>
+        <description>顶级Rule 34 Booru应用：AI艺术画廊探索者2026 | 近期热门 | 总 152 stars</description>
+        <author>squishyqrcode</author>
         <category>github</category>
-        <pubDate>Tue, 30 Jun 2026 03:34:15 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kentjuno-ainovel-cli</guid>
+        <pubDate>Wed, 01 Jul 2026 03:34:27 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-squishyqrcode-booru-scroll-react</guid>
       </item>
 <item>
-        <title>hirokawaguchi/open-genai</title>
-        <link>https://github.com/hirokawaguchi/open-genai</link>
-        <description>デジタル庁のガバメントAI「源内(GENAI)」を完全ローカル(ローカルLLM/OpenAI互換)で動かす非公式プロジェクト。SAML認証(Keycloak)・RAG(Qdrant)・文字起こし(Whisper)・画像生成(SD)・チーム単位ナレッジをローカル完結。 | 近期热门 | 总 97 stars</description>
-        <author>hirokawaguchi</author>
+        <title>slimeglitch/gryffin-calorai-ventus</title>
+        <link>https://github.com/slimeglitch/gryffin-calorai-ventus</link>
+        <description>2026年顶级AI卡路里追踪器GitHub | 近期热门 | 总 152 stars</description>
+        <author>slimeglitch</author>
         <category>github</category>
-        <pubDate>Tue, 30 Jun 2026 03:34:15 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hirokawaguchi-open-genai</guid>
+        <pubDate>Wed, 01 Jul 2026 03:34:27 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-slimeglitch-gryffin-calorai-ventus</guid>
       </item>
 <item>
-        <title>EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能</title>
-        <link>https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills</link>
-        <description>EverMind 推出开源智能体记忆运行时 EverOS（Apache 2.0 许可）</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
+        <title>zargarkhan1/quorum-alpha-dash</title>
+        <link>https://github.com/zargarkhan1/quorum-alpha-dash</link>
+        <description>2026年先进多智能体AI原油交易系统（含对抗验证） | 近期热门 | 总 152 stars</description>
+        <author>zargarkhan1</author>
+        <category>github</category>
+        <pubDate>Wed, 01 Jul 2026 03:34:27 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-zargarkhan1-quorum-alpha-dash</guid>
+      </item>
+<item>
+        <title>ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排</title>
+        <link>https://developers.googleblog.com/announcing-adk-go-20</link>
+        <description>Agent Development Kit （ADK） for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用</description>
+        <author>AI HOT / Google Developers Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Mon, 29 Jun 2026 10:42:47 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmqz3upwc00axsldytm3kw949</guid>
+        <pubDate>Tue, 30 Jun 2026 17:17:40 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr0wupt4007gsl403t7s6dbn</guid>
+      </item>
+<item>
+        <title>重新部署 Claude Fable 5</title>
+        <link>https://www.anthropic.com/news/redeploying-fable-5</link>
+        <description>美国政府6月12日对Claude Fable 5和Mythos 5实施出口管制，Anthropic暂停其所有用户访问</description>
+        <author>AI HOT / Anthropic：Newsroom（网页）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 01 Jul 2026 03:33:11 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr1it9y503a7slnly16stbs6</guid>
       </item>
   </channel>
 </rss>
