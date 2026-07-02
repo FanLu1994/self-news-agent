@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/1)</title>
+    <title>今日 AI 开发者精选 (2026/7/2)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“智能体”和“代码能力”。一方面，X（Twitter）和 Google 相继发布了面向 AI 智能体的 API 和开发工具，标志着多智能体协作与外部工具调用正成为标准能力。另一方面，社区对提升 AI 代码生成能力的开源项目热度不减，Codex 相关项目和新一代营销模拟器都在快速迭代。</description>
+    <description>今天的热点集中在 **AI 编码工具的实用化升级**。一方面，社区正在简化 Claude Code 的模型配置，降低使用门槛；另一方面，有设计师将 UI/动画审美沉淀为可被 Agent 调用的“技能”，尝试解决 AI 生成代码“能用但丑”的痛点。同时，一个面向跨文档推理的 API 产品也值得关注，它代表了 LLM 应用从单点问答向复杂工作流演进的趋势。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 03:35:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 03:34:30 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“智能体”和“代码能力”。一方面，X（Twitter）和 Google 相继发布了面向 AI 智能体的 API 和开发工具，标志着多智能体协作与外部工具调用正成为标准能力。另一方面，社区对提升 AI 代码生成能力的开源项目热度不减，Codex 相关项目和新一代营销模拟器都在快速迭代。</description>
-        <pubDate>Wed, 01 Jul 2026 03:35:22 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-01T03:35:10.937Z</guid>
+        <description>今天的热点集中在 **AI 编码工具的实用化升级**。一方面，社区正在简化 Claude Code 的模型配置，降低使用门槛；另一方面，有设计师将 UI/动画审美沉淀为可被 Agent 调用的“技能”，尝试解决 AI 生成代码“能用但丑”的痛点。同时，一个面向跨文档推理的 API 产品也值得关注，它代表了 LLM 应用从单点问答向复杂工作流演进的趋势。</description>
+        <pubDate>Thu, 02 Jul 2026 03:34:30 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-02T03:34:21.442Z</guid>
       </item>
     <item>
+        <title>kdsuomi/cc-simplerouter</title>
+        <link>https://github.com/kdsuomi/cc-simplerouter</link>
+        <description>26秒内安装和设置。Simplerouter可在数秒内配置Claude Code使用任何兼容的OpenRouter模型，无需手动编辑配置文件、环境变量，也无需折腾本地Web服务器/WebUI。同时，它不会覆盖你现有的Claude Code订阅登录！ | 近期热门 | 总 178 stars</description>
+        <author>kdsuomi</author>
+        <category>github</category>
+        <pubDate>Thu, 02 Jul 2026 03:33:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kdsuomi-cc-simplerouter</guid>
+      </item>
+<item>
+        <title>Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美</title>
+        <link>https://x.com/shao__meng/status/2072484635955900792</link>
+        <description>Emil Kowalski 将多年 UI/动画原则沉淀为三个 Skill，使 Codex、Claude Code、Cursor 等 Coding Agents 具备资深设计工程师的审美判断</description>
+        <author>AI HOT / X：邵猛 (@shao__meng)</author>
+        <category>aihot</category>
+        <pubDate>Thu, 02 Jul 2026 00:56:56 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr2t1n9h0b18sl8zqxn9r5nu</guid>
+      </item>
+<item>
         <title>charan820/PhantomCrowd-Simulacra</title>
         <link>https://github.com/charan820/PhantomCrowd-Simulacra</link>
-        <description>PhantomCrowd AI营销模拟器2026：基于本地大语言模型的内容传播预测 | 近期热门 | 总 152 stars</description>
+        <description>PhantomCrowd AI营销模拟器2026：基于本地大语言模型的内容传播预测 | 近期热门 | 总 151 stars</description>
         <author>charan820</author>
         <category>github</category>
-        <pubDate>Wed, 01 Jul 2026 03:34:27 GMT</pubDate>
+        <pubDate>Thu, 02 Jul 2026 03:33:44 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-charan820-phantomcrowd-simulacra</guid>
       </item>
 <item>
-        <title>yynxxxxx/Codex-5.5-codex-instruct-5.5</title>
-        <link>https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5</link>
-        <description> | 近期热门 | 总 852 stars</description>
-        <author>yynxxxxx</author>
-        <category>github</category>
-        <pubDate>Wed, 01 Jul 2026 03:34:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-yynxxxxx-codex-5.5-codex-instruct-5.5</guid>
+        <title>发布 HN：Parsewise (YC P25) – 通过 API 跨文档推理</title>
+        <link>https://news.ycombinator.com/item?id=48746752</link>
+        <description>大家好，我们是Parsewise的创始人Greg和Max（https://www.parsewise.ai/api）。Parsewise能将一桶非结构...</description>
+        <author>gergelycsegzi</author>
+        <category>hn</category>
+        <pubDate>Wed, 01 Jul 2026 13:48:44 GMT</pubDate>
+        <guid isPermaLink="false">hn-48746752</guid>
       </item>
 <item>
-        <title>X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API</title>
-        <link>https://x.com/op7418/status/2071816099986022650</link>
-        <description>X（Twitter）官方推出 hosted X MCP，AI 智能体可通过 MCP 协议直接调用 X API 获取实时信息，支持 Grok、Cursor 等工具</description>
-        <author>AI HOT / X：歸藏 (@op7418)</author>
-        <category>aihot</category>
-        <pubDate>Tue, 30 Jun 2026 04:40:25 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmr07c62l04huslkimxy3vdw5</guid>
+        <title>israriqbal/agent-ecologies</title>
+        <link>https://github.com/israriqbal/agent-ecologies</link>
+        <description>终极多智能体操作系统：面向自主AI NPC的2026版 | 近期热门 | 总 152 stars</description>
+        <author>israriqbal</author>
+        <category>github</category>
+        <pubDate>Thu, 02 Jul 2026 03:33:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-israriqbal-agent-ecologies</guid>
       </item>
 <item>
         <title>squishyqrcode/booru-scroll-react</title>
         <link>https://github.com/squishyqrcode/booru-scroll-react</link>
-        <description>顶级Rule 34 Booru应用：AI艺术画廊探索者2026 | 近期热门 | 总 152 stars</description>
+        <description>顶级Rule 34 Booru应用：AI艺术画廊探索者2026 | 近期热门 | 总 151 stars</description>
         <author>squishyqrcode</author>
         <category>github</category>
-        <pubDate>Wed, 01 Jul 2026 03:34:27 GMT</pubDate>
+        <pubDate>Thu, 02 Jul 2026 03:33:44 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-squishyqrcode-booru-scroll-react</guid>
       </item>
 <item>
         <title>slimeglitch/gryffin-calorai-ventus</title>
         <link>https://github.com/slimeglitch/gryffin-calorai-ventus</link>
-        <description>2026年顶级AI卡路里追踪器GitHub | 近期热门 | 总 152 stars</description>
+        <description>2026年顶级AI卡路里追踪器GitHub | 近期热门 | 总 151 stars</description>
         <author>slimeglitch</author>
         <category>github</category>
-        <pubDate>Wed, 01 Jul 2026 03:34:27 GMT</pubDate>
+        <pubDate>Thu, 02 Jul 2026 03:33:44 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-slimeglitch-gryffin-calorai-ventus</guid>
       </item>
 <item>
-        <title>zargarkhan1/quorum-alpha-dash</title>
-        <link>https://github.com/zargarkhan1/quorum-alpha-dash</link>
-        <description>2026年先进多智能体AI原油交易系统（含对抗验证） | 近期热门 | 总 152 stars</description>
-        <author>zargarkhan1</author>
-        <category>github</category>
-        <pubDate>Wed, 01 Jul 2026 03:34:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-zargarkhan1-quorum-alpha-dash</guid>
-      </item>
-<item>
-        <title>ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排</title>
-        <link>https://developers.googleblog.com/announcing-adk-go-20</link>
-        <description>Agent Development Kit （ADK） for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用</description>
-        <author>AI HOT / Google Developers Blog（RSS）</author>
+        <title>Claude Code v2.1.198 发布</title>
+        <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.198</link>
+        <description>Claude Code v2.1.198 更新</description>
+        <author>AI HOT / Claude Code：GitHub Releases（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 30 Jun 2026 17:17:40 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmr0wupt4007gsl403t7s6dbn</guid>
-      </item>
-<item>
-        <title>重新部署 Claude Fable 5</title>
-        <link>https://www.anthropic.com/news/redeploying-fable-5</link>
-        <description>美国政府6月12日对Claude Fable 5和Mythos 5实施出口管制，Anthropic暂停其所有用户访问</description>
-        <author>AI HOT / Anthropic：Newsroom（网页）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 01 Jul 2026 03:33:11 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmr1it9y503a7slnly16stbs6</guid>
+        <pubDate>Wed, 01 Jul 2026 20:45:36 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr2jtg2z08nvsl8zt9pagjoe</guid>
       </item>
   </channel>
 </rss>
