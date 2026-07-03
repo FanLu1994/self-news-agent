@@ -1,53 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/2)</title>
+    <title>今日 AI 开发者精选 (2026/7/3)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的热点集中在 **AI 编码工具的实用化升级**。一方面，社区正在简化 Claude Code 的模型配置，降低使用门槛；另一方面，有设计师将 UI/动画审美沉淀为可被 Agent 调用的“技能”，尝试解决 AI 生成代码“能用但丑”的痛点。同时，一个面向跨文档推理的 API 产品也值得关注，它代表了 LLM 应用从单点问答向复杂工作流演进的趋势。</description>
+    <description>今天的信息流围绕“LLM 落地与工具链”展开。一方面是各大模型（GLM-5、Claude 5、Kimi K2.7）以开源或免费形式向开发者开放，另一方面是多个项目专注于简化这些模型的调用方式（如为 Claude Code 配置路由、让 LLM 理解视频）。对于开发者而言，降低模型使用门槛和扩展模型能力边界是今天的两大主线。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Jul 2026 03:34:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 06:07:26 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的热点集中在 **AI 编码工具的实用化升级**。一方面，社区正在简化 Claude Code 的模型配置，降低使用门槛；另一方面，有设计师将 UI/动画审美沉淀为可被 Agent 调用的“技能”，尝试解决 AI 生成代码“能用但丑”的痛点。同时，一个面向跨文档推理的 API 产品也值得关注，它代表了 LLM 应用从单点问答向复杂工作流演进的趋势。</description>
-        <pubDate>Thu, 02 Jul 2026 03:34:30 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-02T03:34:21.442Z</guid>
+        <description>今天的信息流围绕“LLM 落地与工具链”展开。一方面是各大模型（GLM-5、Claude 5、Kimi K2.7）以开源或免费形式向开发者开放，另一方面是多个项目专注于简化这些模型的调用方式（如为 Claude Code 配置路由、让 LLM 理解视频）。对于开发者而言，降低模型使用门槛和扩展模型能力边界是今天的两大主线。</description>
+        <pubDate>Fri, 03 Jul 2026 06:07:26 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-03T06:07:13.827Z</guid>
       </item>
     <item>
+        <title>Altair4300/glm-5.2-free-desktop-app</title>
+        <link>https://github.com/Altair4300/glm-5.2-free-desktop-app</link>
+        <description>glm 5.2 免费 z.ai 智谱AI 大型语言模型 llm 混合专家模型 moe 744b 参数 indexshare deepseek 稀疏注意力 dsa 1m 上下文窗口 开放权重 MIT 许可证 Hugging Face zenmux API Cloudflare Workers AI opencode 连接 免费层配额 开源 GitHub 仓库 下载权重 本地 llm 推理 vllm sglang | 近期热门 | 总 152 stars</description>
+        <author>Altair4300</author>
+        <category>github</category>
+        <pubDate>Fri, 03 Jul 2026 06:06:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-altair4300-glm-5.2-free-desktop-app</guid>
+      </item>
+<item>
         <title>kdsuomi/cc-simplerouter</title>
         <link>https://github.com/kdsuomi/cc-simplerouter</link>
-        <description>26秒内安装和设置。Simplerouter可在数秒内配置Claude Code使用任何兼容的OpenRouter模型，无需手动编辑配置文件、环境变量，也无需折腾本地Web服务器/WebUI。同时，它不会覆盖你现有的Claude Code订阅登录！ | 近期热门 | 总 178 stars</description>
+        <description>26秒内安装并设置。Simplerouter可在数秒内配置Claude Code使用任何兼容的OpenRouter模型，无需手动编辑配置文件、环境变量，也无需折腾本地Web服务器/WebUI。同时，它不会覆盖你现有的Claude Code订阅登录信息！ | 近期热门 | 总 178 stars</description>
         <author>kdsuomi</author>
         <category>github</category>
-        <pubDate>Thu, 02 Jul 2026 03:33:44 GMT</pubDate>
+        <pubDate>Fri, 03 Jul 2026 06:06:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kdsuomi-cc-simplerouter</guid>
       </item>
 <item>
-        <title>Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美</title>
-        <link>https://x.com/shao__meng/status/2072484635955900792</link>
-        <description>Emil Kowalski 将多年 UI/动画原则沉淀为三个 Skill，使 Codex、Claude Code、Cursor 等 Coding Agents 具备资深设计工程师的审美判断</description>
+        <title>browser-use 发布开源 AI 视频剪辑 Skill「video-use」</title>
+        <link>https://x.com/shao__meng/status/2072644710523691110</link>
+        <description>browser-use 团队推出面向 Codex、Claude Code 等 AI 编码智能体的开源 Skill「video-use」，让 LLM 通过 ElevenLabs Scribe 将音频转写为约 12KB 文本（含逐词时间戳、说话...</description>
         <author>AI HOT / X：邵猛 (@shao__meng)</author>
         <category>aihot</category>
-        <pubDate>Thu, 02 Jul 2026 00:56:56 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmr2t1n9h0b18sl8zqxn9r5nu</guid>
+        <pubDate>Thu, 02 Jul 2026 11:33:01 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr3fluhr00i3sllxli2a5uko</guid>
       </item>
 <item>
-        <title>charan820/PhantomCrowd-Simulacra</title>
-        <link>https://github.com/charan820/PhantomCrowd-Simulacra</link>
-        <description>PhantomCrowd AI营销模拟器2026：基于本地大语言模型的内容传播预测 | 近期热门 | 总 151 stars</description>
-        <author>charan820</author>
+        <title>ahmadrj80/claude-fable-5-free-desktop-app</title>
+        <link>https://github.com/ahmadrj80/claude-fable-5-free-desktop-app</link>
+        <description>免费Claude 5 寓言 Anthropic 大型语言模型 前沿推理 自主代理工作流 长时域自主性 Claude Code 终端 Claude.ai Pro Max 替代镜像 GitHub仓库 Hugging Face 工具 设置 Windows 11 macOS Linux 稳定版 免费试用 使用教程 | 近期热门 | 总 147 stars</description>
+        <author>ahmadrj80</author>
         <category>github</category>
-        <pubDate>Thu, 02 Jul 2026 03:33:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-charan820-phantomcrowd-simulacra</guid>
+        <pubDate>Fri, 03 Jul 2026 06:06:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ahmadrj80-claude-fable-5-free-desktop-app</guid>
       </item>
 <item>
-        <title>发布 HN：Parsewise (YC P25) – 通过 API 跨文档推理</title>
-        <link>https://news.ycombinator.com/item?id=48746752</link>
-        <description>大家好，我们是Parsewise的创始人Greg和Max（https://www.parsewise.ai/api）。Parsewise能将一桶非结构...</description>
-        <author>gergelycsegzi</author>
-        <category>hn</category>
-        <pubDate>Wed, 01 Jul 2026 13:48:44 GMT</pubDate>
-        <guid isPermaLink="false">hn-48746752</guid>
+        <title>Kimi K2.7 Code 已在 GitHub Copilot 上正式发布</title>
+        <link>https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot</link>
+        <description>Kimi K2.7 Code 开源权重模型已在 GitHub Copilot 中正式可用，成为 Copilot 模型选择器首个可选的开源权重模型，为编程工作流提供更低成本选择</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 02 Jul 2026 08:24:53 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr397vx001s3sly0t7mkh3fh</guid>
       </item>
 <item>
         <title>israriqbal/agent-ecologies</title>
@@ -55,35 +64,26 @@
         <description>终极多智能体操作系统：面向自主AI NPC的2026版 | 近期热门 | 总 152 stars</description>
         <author>israriqbal</author>
         <category>github</category>
-        <pubDate>Thu, 02 Jul 2026 03:33:44 GMT</pubDate>
+        <pubDate>Fri, 03 Jul 2026 06:06:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-israriqbal-agent-ecologies</guid>
       </item>
 <item>
-        <title>squishyqrcode/booru-scroll-react</title>
-        <link>https://github.com/squishyqrcode/booru-scroll-react</link>
-        <description>顶级Rule 34 Booru应用：AI艺术画廊探索者2026 | 近期热门 | 总 151 stars</description>
-        <author>squishyqrcode</author>
-        <category>github</category>
-        <pubDate>Thu, 02 Jul 2026 03:33:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-squishyqrcode-booru-scroll-react</guid>
-      </item>
-<item>
-        <title>slimeglitch/gryffin-calorai-ventus</title>
-        <link>https://github.com/slimeglitch/gryffin-calorai-ventus</link>
-        <description>2026年顶级AI卡路里追踪器GitHub | 近期热门 | 总 151 stars</description>
-        <author>slimeglitch</author>
-        <category>github</category>
-        <pubDate>Thu, 02 Jul 2026 03:33:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-slimeglitch-gryffin-calorai-ventus</guid>
-      </item>
-<item>
-        <title>Claude Code v2.1.198 发布</title>
-        <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.198</link>
-        <description>Claude Code v2.1.198 更新</description>
-        <author>AI HOT / Claude Code：GitHub Releases（RSS）</author>
+        <title>claude-real-video ─ 让任何大语言模型（LLM）都能观看视频</title>
+        <link>https://github.com/HUANGCHIHHUNGLeo/claude-real-video</link>
+        <description>claude-real-video 是一个开源工具，让大语言模型基于视频画面而非字幕进行理解</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Wed, 01 Jul 2026 20:45:36 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmr2jtg2z08nvsl8zt9pagjoe</guid>
+        <pubDate>Fri, 03 Jul 2026 04:56:06 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr4hb6x001txsll5jfiiy9u3</guid>
+      </item>
+<item>
+        <title>Agent辅助的SGLang开发：初步探索</title>
+        <link>https://www.lmsys.org/blog/2026-07-02-agent-assisted-sglang-development</link>
+        <description>SGLang团队将LLM服务、分布式运行时、GPU内核、扩散管道等工作流编码为可执行的SKILL.md文件、脚本、基准合约和审查循环</description>
+        <author>AI HOT / LMSYS：Blog（Chatbot Arena 团队）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 02 Jul 2026 18:37:56 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr3uklx8008dslbrcmev44qb</guid>
       </item>
   </channel>
 </rss>
