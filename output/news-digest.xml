@@ -1,89 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/4)</title>
+    <title>今日 AI 开发者精选 (2026/7/5)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的热点围绕着 **Claude Code** 展开，既有关于其使用体验的深度反思，也有社区围绕它打造的各类效率提升和扩展工具。同时，**Claude 的模型能力（如视觉、推理）被通过开源项目进一步解耦和增强**，开发者正在探索如何更灵活、更高效地利用这些强大的 AI 能力。</description>
+    <description>今天的关键词是“本地化与效率”。一方面，社区正在积极优化 AI 编码代理（Coding Agent）的实战体验，出现了像 `loopkit` 这样的工具集和 `pocketdev` 这类远程运行方案；另一方面，关于 GPT-5.5 Codex 推理令牌聚类的性能争议也值得关注，提示我们在依赖这些强大工具时，需要理解其底层机制可能带来的副作用。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 04 Jul 2026 05:57:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 06:17:35 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的热点围绕着 **Claude Code** 展开，既有关于其使用体验的深度反思，也有社区围绕它打造的各类效率提升和扩展工具。同时，**Claude 的模型能力（如视觉、推理）被通过开源项目进一步解耦和增强**，开发者正在探索如何更灵活、更高效地利用这些强大的 AI 能力。</description>
-        <pubDate>Sat, 04 Jul 2026 05:57:52 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-04T05:57:49.086Z</guid>
+        <description>今天的关键词是“本地化与效率”。一方面，社区正在积极优化 AI 编码代理（Coding Agent）的实战体验，出现了像 `loopkit` 这样的工具集和 `pocketdev` 这类远程运行方案；另一方面，关于 GPT-5.5 Codex 推理令牌聚类的性能争议也值得关注，提示我们在依赖这些强大工具时，需要理解其底层机制可能带来的副作用。</description>
+        <pubDate>Sun, 05 Jul 2026 06:17:35 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-05T06:17:26.492Z</guid>
       </item>
     <item>
+        <title>GPT-5.5 Codex推理令牌聚类可能导致性能下降</title>
+        <link>https://github.com/openai/codex/issues/30364</link>
+        <description>GPT-5.5 Codex推理令牌聚类可能导致性能下降</description>
+        <author>maille</author>
+        <category>hn</category>
+        <pubDate>Sat, 04 Jul 2026 21:51:09 GMT</pubDate>
+        <guid isPermaLink="false">hn-48789428</guid>
+      </item>
+<item>
+        <title>Archive228/loopkit</title>
+        <link>https://github.com/Archive228/loopkit</link>
+        <description>33项经过实战检验的技能 + 适用于任何编码代理（Claude Code、Cursor、Codex、Gemini CLI）的最小化.claude工具集 | 近期热门 | 总 178 stars</description>
+        <author>Archive228</author>
+        <category>github</category>
+        <pubDate>Sun, 05 Jul 2026 06:16:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-archive228-loopkit</guid>
+      </item>
+<item>
+        <title>0xMassi/pocketdev</title>
+        <link>https://github.com/0xMassi/pocketdev</link>
+        <description>一条命令即可在仅通过Tailscale连接的Hetzner服务器上运行你已付费的AI编码CLI工具（Claude Code、Codex、Cursor、Gemini、Grok、aider）——从你的手机编写代码。 | 近期热门 | 总 92 stars</description>
+        <author>0xMassi</author>
+        <category>github</category>
+        <pubDate>Sun, 05 Jul 2026 06:16:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-0xmassi-pocketdev</guid>
+      </item>
+<item>
+        <title>yynxxxxx/Codex-X</title>
+        <link>https://github.com/yynxxxxx/Codex-X</link>
+        <description>Codex Switch &amp; Instruct 桌面管理器 | 近期热门 | 总 232 stars</description>
+        <author>yynxxxxx</author>
+        <category>github</category>
+        <pubDate>Sun, 05 Jul 2026 06:16:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yynxxxxx-codex-x</guid>
+      </item>
+<item>
         <title>SuperJJ007/CSSwitch</title>
         <link>https://github.com/SuperJJ007/CSSwitch</link>
-        <description>让 Claude Science 的推理走自选的第三方 API（DeepSeek / 通义千问 / 任意 OpenAI 兼容端点），保留工具调用·Skill·MCP·代码执行，含本地虚拟登录跳过。macOS 菜单栏 app。仅供个人学习研究，使用者自负风险。 | 近期热门 | 总 176 stars</description>
+        <description>帮你的 Claude Science 一键接入你自己的 API：DeepSeek / 通义千问 / 智谱 GLM / Kimi / MiniMax / 小米 MiMo / 硅基流动 / OpenRouter / 任意 OpenAI·Anthropic 兼容端点 | 近期热门 | 总 230 stars</description>
         <author>SuperJJ007</author>
         <category>github</category>
-        <pubDate>Sat, 04 Jul 2026 05:57:15 GMT</pubDate>
+        <pubDate>Sun, 05 Jul 2026 06:16:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-superjj007-csswitch</guid>
       </item>
 <item>
-        <title>询问HN：有人在尝试用不同方式将LLM用于编程吗？</title>
-        <link>https://news.ycombinator.com/item?id=48771515</link>
-        <description>我对我们在使用大语言模型进行编程时似乎陷入困境的感觉有些恼火。我用了Claude Code和Codex，但一直没能像以前那样进入心流状态……</description>
-        <author>yehiaabdelm</author>
-        <category>hn</category>
-        <pubDate>Fri, 03 Jul 2026 06:21:44 GMT</pubDate>
-        <guid isPermaLink="false">hn-48771515</guid>
-      </item>
-<item>
-        <title>ahmadrj80/claude-fable-5-free-desktop-app</title>
-        <link>https://github.com/ahmadrj80/claude-fable-5-free-desktop-app</link>
-        <description>免费Claude 5 寓言 Anthropic 大型语言模型 前沿推理 自主智能体工作流 长时域自主性 Claude Code 终端 claude.ai Pro Max 替代镜像 GitHub仓库 Hugging Face 工具 设置 Windows 11 macOS Linux 稳定版 免费试用 使用教程 | 近期热门 | 总 136 stars</description>
-        <author>ahmadrj80</author>
+        <title>minkyr/Claude-Science-AI-App</title>
+        <link>https://github.com/minkyr/Claude-Science-AI-App</link>
+        <description>Claude科学AI免费 Anthropic科学AI计划 免费API积分 研究资助 学术非营利组织 资助资格标准 申请表 计算生物学 药物发现 设置指南 文献综述 Sonnet 5免费层 OpenAlex PubMed数据集成 本地部署 macOS Linux封装 GitHub仓库 | 近期热门 | 总 49 stars</description>
+        <author>minkyr</author>
         <category>github</category>
-        <pubDate>Sat, 04 Jul 2026 05:57:15 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ahmadrj80-claude-fable-5-free-desktop-app</guid>
+        <pubDate>Sun, 05 Jul 2026 06:16:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-minkyr-claude-science-ai-app</guid>
       </item>
 <item>
-        <title>HUANGCHIHHUNGLeo/claude-real-video</title>
-        <link>https://github.com/HUANGCHIHHUNGLeo/claude-real-video</link>
-        <description>让Claude（或任何LLM）真正观看视频——场景感知、去重帧+转录，支持URL或本地文件。本地运行，MIT协议。 | 近期热门 | 总 592 stars</description>
-        <author>HUANGCHIHHUNGLeo</author>
-        <category>github</category>
-        <pubDate>Sat, 04 Jul 2026 05:57:15 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-huangchihhungleo-claude-real-video</guid>
+        <title>How dumb? you are a nobody... again…</title>
+        <link>https://www.reddit.com/r/artificial/comments/1unlcm8/how_dumb_you_are_a_nobody_again/</link>
+        <description>IM a nobody. So I worked my ass off and spend my last 800 $ (couldn’t pay my bills that month) but I created something that beated Microsoft and research teams on they benchmarks and open source it!
+ It actually got a lot of stars on GitHub...</description>
+        <author>Reddit</author>
+        <category>reddit</category>
+        <pubDate>Sat, 04 Jul 2026 22:04:54 GMT</pubDate>
+        <guid isPermaLink="false">rss-23-443927306</guid>
       </item>
 <item>
-        <title>mistydew/tokenicode-deepseek-alpha</title>
-        <link>https://github.com/mistydew/tokenicode-deepseek-alpha</link>
-        <description>TOKENICODE DeepSeek Alpha：专注于DeepSeek/CC交换的TOKENICODE分支 | 近期热门 | 总 177 stars</description>
-        <author>mistydew</author>
-        <category>github</category>
-        <pubDate>Sat, 04 Jul 2026 05:57:15 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-mistydew-tokenicode-deepseek-alpha</guid>
-      </item>
-<item>
-        <title>消息人士称，阿里巴巴因涉嫌后门风险将在工作场所禁用Claude Code。</title>
-        <link>https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/</link>
-        <description>消息人士称，阿里巴巴因涉嫌后门风险将在工作场所禁用Claude Code。</description>
-        <author>nsoonhui</author>
-        <category>hn</category>
-        <pubDate>Fri, 03 Jul 2026 08:31:37 GMT</pubDate>
-        <guid isPermaLink="false">hn-48772443</guid>
-      </item>
-<item>
-        <title>使用智能路由节省Claude Code令牌</title>
-        <link>https://github.com/regolo-ai/brick-SR1</link>
-        <description>使用智能路由节省Claude Code令牌</description>
-        <author>FrancescoMassa</author>
-        <category>hn</category>
-        <pubDate>Fri, 03 Jul 2026 22:39:24 GMT</pubDate>
-        <guid isPermaLink="false">hn-48780858</guid>
-      </item>
-<item>
-        <title>Kagi 更新日志（7月2日）：正面、反面与AI开关</title>
-        <link>https://kagi.com/changelog#10959</link>
-        <description>Kagi 更新日志（7月2日）：正面、反面与AI开关</description>
-        <author>mroche</author>
-        <category>hn</category>
-        <pubDate>Fri, 03 Jul 2026 20:08:01 GMT</pubDate>
-        <guid isPermaLink="false">hn-48779352</guid>
+        <title>NVIDIA 联合多所大学提出 ASPIRE：自我改进机器人框架，零样本成功率最高提升 77 分</title>
+        <link>https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks</link>
+        <description>NVIDIA 联合密歇根大学、UIUC、UC Berkeley 等提出 ASPIRE，一个持续学习机器人框架</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Sat, 04 Jul 2026 06:32:47 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr5zuihg0739slc7nv4mlc5r</guid>
       </item>
   </channel>
 </rss>
