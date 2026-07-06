@@ -1,90 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/5)</title>
+    <title>今日 AI 开发者精选 (2026/7/6)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“本地化与效率”。一方面，社区正在积极优化 AI 编码代理（Coding Agent）的实战体验，出现了像 `loopkit` 这样的工具集和 `pocketdev` 这类远程运行方案；另一方面，关于 GPT-5.5 Codex 推理令牌聚类的性能争议也值得关注，提示我们在依赖这些强大工具时，需要理解其底层机制可能带来的副作用。</description>
+    <description>今天的关键词是 **“开源”** 和 **“提效”**。一方面，美团开源了1.6T参数的MoE大模型，另一个新的开源AI科研工作台也值得关注；另一方面，一套能显著提升AI编码代理（如Claude Code、Cursor）效率的“技能包”项目在社区走红，这指向了当前AI开发的两大痛点：获取优质模型和优化编码工作流。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Jul 2026 06:17:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 06:50:58 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“本地化与效率”。一方面，社区正在积极优化 AI 编码代理（Coding Agent）的实战体验，出现了像 `loopkit` 这样的工具集和 `pocketdev` 这类远程运行方案；另一方面，关于 GPT-5.5 Codex 推理令牌聚类的性能争议也值得关注，提示我们在依赖这些强大工具时，需要理解其底层机制可能带来的副作用。</description>
-        <pubDate>Sun, 05 Jul 2026 06:17:35 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-05T06:17:26.492Z</guid>
+        <description>今天的关键词是 **“开源”** 和 **“提效”**。一方面，美团开源了1.6T参数的MoE大模型，另一个新的开源AI科研工作台也值得关注；另一方面，一套能显著提升AI编码代理（如Claude Code、Cursor）效率的“技能包”项目在社区走红，这指向了当前AI开发的两大痛点：获取优质模型和优化编码工作流。</description>
+        <pubDate>Mon, 06 Jul 2026 06:50:58 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-06T06:50:47.980Z</guid>
       </item>
     <item>
-        <title>GPT-5.5 Codex推理令牌聚类可能导致性能下降</title>
-        <link>https://github.com/openai/codex/issues/30364</link>
-        <description>GPT-5.5 Codex推理令牌聚类可能导致性能下降</description>
-        <author>maille</author>
-        <category>hn</category>
-        <pubDate>Sat, 04 Jul 2026 21:51:09 GMT</pubDate>
-        <guid isPermaLink="false">hn-48789428</guid>
-      </item>
-<item>
         <title>Archive228/loopkit</title>
         <link>https://github.com/Archive228/loopkit</link>
-        <description>33项经过实战检验的技能 + 适用于任何编码代理（Claude Code、Cursor、Codex、Gemini CLI）的最小化.claude工具集 | 近期热门 | 总 178 stars</description>
+        <description>33项经过实战检验的技能 + 适用于任何编码代理（Claude Code、Cursor、Codex、Gemini CLI）的最小化 .claude 工具集 | 近期热门 | 总 336 stars</description>
         <author>Archive228</author>
         <category>github</category>
-        <pubDate>Sun, 05 Jul 2026 06:16:54 GMT</pubDate>
+        <pubDate>Mon, 06 Jul 2026 06:50:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-archive228-loopkit</guid>
       </item>
 <item>
-        <title>0xMassi/pocketdev</title>
-        <link>https://github.com/0xMassi/pocketdev</link>
-        <description>一条命令即可在仅通过Tailscale连接的Hetzner服务器上运行你已付费的AI编码CLI工具（Claude Code、Codex、Cursor、Gemini、Grok、aider）——从你的手机编写代码。 | 近期热门 | 总 92 stars</description>
-        <author>0xMassi</author>
+        <title>synthetic-sciences/openscience</title>
+        <link>https://github.com/synthetic-sciences/openscience</link>
+        <description>开源AI工作台，专为科学研究设计 | 近期热门 | 总 276 stars</description>
+        <author>synthetic-sciences</author>
         <category>github</category>
-        <pubDate>Sun, 05 Jul 2026 06:16:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-0xmassi-pocketdev</guid>
+        <pubDate>Mon, 06 Jul 2026 06:50:02 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-synthetic-sciences-openscience</guid>
+      </item>
+<item>
+        <title>美团 LongCat-2.0 完全开源（MIT 许可），1.6T MoE 模型开放权重与推理代码</title>
+        <link>https://x.com/Meituan_LongCat/status/2073768940078317713</link>
+        <description>美团今日宣布 LongCat-2.0 完全开源（MIT 许可），公开模型权重与推理代码</description>
+        <author>AI HOT / X：美团 LongCat (@Meituan_LongCat)</author>
+        <category>aihot</category>
+        <pubDate>Sun, 05 Jul 2026 14:00:18 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr7vpphy007oslgnz4aotpx4</guid>
+      </item>
+<item>
+        <title>分享8个Claude Fable 5下线前必跑的超实用Prompt</title>
+        <link>https://mp.weixin.qq.com/s/ZkMsdeTK6wmgkaER0iPT8w</link>
+        <description>Claude Fable 5即将下线，作者整理了8个经实战验证的提示词：/goal提示语让模型自主跑25次实验（花费165美元，构建速度提高50%、token开销降60%）；工作模式提示语将用户习惯转化为可复用Skills；行动规范提示语约...</description>
+        <author>AI HOT / 公众号：卡尔的AI沃茨</author>
+        <category>aihot</category>
+        <pubDate>Mon, 06 Jul 2026 01:19:09 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr8j9weh02kxsl0dy08683oe</guid>
       </item>
 <item>
         <title>yynxxxxx/Codex-X</title>
         <link>https://github.com/yynxxxxx/Codex-X</link>
-        <description>Codex Switch &amp; Instruct 桌面管理器 | 近期热门 | 总 232 stars</description>
+        <description>Codex 开关与指令桌面管理器 | 近期热门 | 总 323 stars</description>
         <author>yynxxxxx</author>
         <category>github</category>
-        <pubDate>Sun, 05 Jul 2026 06:16:54 GMT</pubDate>
+        <pubDate>Mon, 06 Jul 2026 06:50:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-yynxxxxx-codex-x</guid>
       </item>
 <item>
-        <title>SuperJJ007/CSSwitch</title>
-        <link>https://github.com/SuperJJ007/CSSwitch</link>
-        <description>帮你的 Claude Science 一键接入你自己的 API：DeepSeek / 通义千问 / 智谱 GLM / Kimi / MiniMax / 小米 MiMo / 硅基流动 / OpenRouter / 任意 OpenAI·Anthropic 兼容端点 | 近期热门 | 总 230 stars</description>
-        <author>SuperJJ007</author>
-        <category>github</category>
-        <pubDate>Sun, 05 Jul 2026 06:16:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-superjj007-csswitch</guid>
-      </item>
-<item>
-        <title>minkyr/Claude-Science-AI-App</title>
-        <link>https://github.com/minkyr/Claude-Science-AI-App</link>
-        <description>Claude科学AI免费 Anthropic科学AI计划 免费API积分 研究资助 学术非营利组织 资助资格标准 申请表 计算生物学 药物发现 设置指南 文献综述 Sonnet 5免费层 OpenAlex PubMed数据集成 本地部署 macOS Linux封装 GitHub仓库 | 近期热门 | 总 49 stars</description>
-        <author>minkyr</author>
-        <category>github</category>
-        <pubDate>Sun, 05 Jul 2026 06:16:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-minkyr-claude-science-ai-app</guid>
-      </item>
-<item>
-        <title>How dumb? you are a nobody... again…</title>
-        <link>https://www.reddit.com/r/artificial/comments/1unlcm8/how_dumb_you_are_a_nobody_again/</link>
-        <description>IM a nobody. So I worked my ass off and spend my last 800 $ (couldn’t pay my bills that month) but I created something that beated Microsoft and research teams on they benchmarks and open source it!
- It actually got a lot of stars on GitHub...</description>
-        <author>Reddit</author>
-        <category>reddit</category>
-        <pubDate>Sat, 04 Jul 2026 22:04:54 GMT</pubDate>
-        <guid isPermaLink="false">rss-23-443927306</guid>
-      </item>
-<item>
-        <title>NVIDIA 联合多所大学提出 ASPIRE：自我改进机器人框架，零样本成功率最高提升 77 分</title>
-        <link>https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks</link>
-        <description>NVIDIA 联合密歇根大学、UIUC、UC Berkeley 等提出 ASPIRE，一个持续学习机器人框架</description>
+        <title>Synthetic Sciences 发布 OpenScience：面向机器学习、生物学、物理学和化学研究的开源模型无关 AI 工作台</title>
+        <link>https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research</link>
+        <description>Synthetic Sciences 推出开源（Apache 2.0）AI 科研工作台 OpenScience，覆盖机器学习、生物学、物理学、化学</description>
         <author>AI HOT / MarkTechPost（RSS）</author>
         <category>aihot</category>
-        <pubDate>Sat, 04 Jul 2026 06:32:47 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmr5zuihg0739slc7nv4mlc5r</guid>
+        <pubDate>Mon, 06 Jul 2026 05:07:12 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmr8reau2005fslvpmqjll6du</guid>
+      </item>
+<item>
+        <title>面向AI驱动的智能家居设备的社会技术威胁模型</title>
+        <link>https://arxiv.org/abs/2602.09239</link>
+        <description>面向AI驱动的智能家居设备的社会技术威胁模型</description>
+        <author>dijksterhuis</author>
+        <category>hn</category>
+        <pubDate>Sun, 05 Jul 2026 17:05:57 GMT</pubDate>
+        <guid isPermaLink="false">hn-48795830</guid>
+      </item>
+<item>
+        <title>simonlin1212/Vibe-Research</title>
+        <link>https://github.com/simonlin1212/Vibe-Research</link>
+        <description>Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。 | 近期热门 | 总 87 stars</description>
+        <author>simonlin1212</author>
+        <category>github</category>
+        <pubDate>Mon, 06 Jul 2026 06:50:02 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-simonlin1212-vibe-research</guid>
       </item>
   </channel>
 </rss>
