@@ -1,89 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/8)</title>
+    <title>今日 AI 开发者精选 (2026/7/9)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的资讯集中在 **AI Agent 的可靠性与实用性** 上。一方面，我们看到 AI 审计代理已经能自主发现真实漏洞，展示了 Agent 的巨大潜力；另一方面，行业内也在解决大模型推理时的“死循环”等现实问题，并且有像 Claude Code 这样的工具开始提供精细化的成本控制选项。这些都指向一个方向：开发者正在积极地把 Agent 从“能用”推向“好用、可控”。</description>
+    <description>今天的关键词是“可控性与专业性”。开发者社区不再只满足于“用AI做了什么”，而是更关注**如何精确控制AI的行为**（例如通过开关危险知识、用可视化语言编排智能体），以及**如何让AI在特定领域（如编程、机器人）变得真正可靠和可落地**。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Jul 2026 05:34:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 06:18:55 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的资讯集中在 **AI Agent 的可靠性与实用性** 上。一方面，我们看到 AI 审计代理已经能自主发现真实漏洞，展示了 Agent 的巨大潜力；另一方面，行业内也在解决大模型推理时的“死循环”等现实问题，并且有像 Claude Code 这样的工具开始提供精细化的成本控制选项。这些都指向一个方向：开发者正在积极地把 Agent 从“能用”推向“好用、可控”。</description>
-        <pubDate>Wed, 08 Jul 2026 05:34:26 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-08T05:34:14.371Z</guid>
+        <description>今天的关键词是“可控性与专业性”。开发者社区不再只满足于“用AI做了什么”，而是更关注**如何精确控制AI的行为**（例如通过开关危险知识、用可视化语言编排智能体），以及**如何让AI在特定领域（如编程、机器人）变得真正可靠和可落地**。</description>
+        <pubDate>Thu, 09 Jul 2026 06:18:55 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-09T06:18:45.468Z</guid>
       </item>
     <item>
-        <title>Liquid AI 开源 Antidoom：基于最终 Token 偏好优化的推理模型死循环修复方法</title>
-        <link>https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo</link>
-        <description>Liquid AI 开源了 Antidoom，一种基于 Final Token Preference Optimization （FTPO） 的针对性修复方法，用于减少推理模型中的 doom loop（死循环）问题</description>
+        <title>nagisanzenin/engram</title>
+        <link>https://github.com/nagisanzenin/engram</link>
+        <description>基于证据的Claude Code学习引擎——第一性原理课程、带凭证的自由回忆验证、FSRS调度记忆及可探索构件。学无止境，铭记于心。 | 近期热门 | 总 445 stars</description>
+        <author>nagisanzenin</author>
+        <category>github</category>
+        <pubDate>Thu, 09 Jul 2026 06:18:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nagisanzenin-engram</guid>
+      </item>
+<item>
+        <title>Robbyant 发布 LingBot-VLA 2.0：开源 6B 跨实体机器人视觉-语言-动作模型</title>
+        <link>https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0</link>
+        <description>Robbyant 推出 LingBot-VLA 2.0，一个 6B 参数的开源视觉-语言-动作（VLA）基础模型</description>
         <author>AI HOT / MarkTechPost（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 07 Jul 2026 16:50:50 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmraw21y401jhihog3tcrfsp4</guid>
+        <pubDate>Thu, 09 Jul 2026 00:45:39 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrcsrok60407ihx5jvrp15a1</guid>
       </item>
 <item>
-        <title>蚂蚁集团旗下Robbyant开源LingBot-Vision：1B参数边界中心视觉基础模型，用于密集空间感知</title>
-        <link>https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception</link>
-        <description>蚂蚁集团旗下具身智能公司Robbyant开源LingBot-Vision，一套自监督视觉Transformer家族，专为密集空间感知设计</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 08 Jul 2026 03:03:22 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrbikwbz04b5ihl16qfp5ntw</guid>
-      </item>
-<item>
-        <title>AI 审计代理在 Cloudflare CIRCL 中发现 7 个漏洞</title>
-        <link>https://blog.zksecurity.xyz/posts/circl-bugs</link>
-        <description>zkSecurity 的 AI 审计代理 zkao 持续扫描 Cloudflare 的 CIRCL 密码学库，使用 Opus 4.6 + skills 和 GPT-5.3 + skills 等模型发现并确认了 7 个真实漏洞</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 08 Jul 2026 04:29:33 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrblfb8a050sihl1484pa3wo</guid>
-      </item>
-<item>
-        <title>在 Claude Code 中选择 Claude 模型与努力级别</title>
-        <link>https://claude.com/blog/claude-model-and-effort-level-in-claude-code</link>
-        <description>Claude Code 提供模型（model）和努力级别（effort）两种设置</description>
-        <author>AI HOT / Claude：Blog（网页）</author>
-        <category>aihot</category>
-        <pubDate>Tue, 07 Jul 2026 14:21:59 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmraqmpst004cihogf6nqkgvh</guid>
-      </item>
-<item>
-        <title>Show HN: Halo – 面向AI代理的开源、防篡改运行时证据</title>
-        <link>https://github.com/bkuan001/halo-record</link>
-        <description>嗨，HN，我是Brian。过去几年我在Vanta（YC W18）工作，帮助初创企业和大型企业实现合规。最近我开始探索在后代理时代，这可能会是什么样子...</description>
-        <author>brian_kuan</author>
+        <title>Show HN：微软发布Flint，一种面向AI智能体的可视化语言</title>
+        <link>https://microsoft.github.io/flint-chart/#/</link>
+        <description>数据可视化是用户与数据之间的桥梁。但构建能够可靠生成可视化内容的AI智能体可能非常棘手：- 简单的图表规范可以可靠，但生成的c...</description>
+        <author>chenglong-hn</author>
         <category>hn</category>
-        <pubDate>Tue, 07 Jul 2026 14:07:08 GMT</pubDate>
-        <guid isPermaLink="false">hn-48818098</guid>
+        <pubDate>Wed, 08 Jul 2026 17:46:12 GMT</pubDate>
+        <guid isPermaLink="false">hn-48834924</guid>
       </item>
 <item>
-        <title>Gemini API Managed Agents 新增后台执行、远程 MCP 与自定义函数等能力</title>
-        <link>https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api</link>
-        <description>Google 为 Gemini API 的 Managed Agents 新增后台执行、远程 MCP 服务器集成、自定义函数调用与凭证刷新功能</description>
-        <author>AI HOT / Google Blog：AI（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Tue, 07 Jul 2026 08:54:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmraw22r701jjihogh1k8hbu6</guid>
+        <title>olemeyer/rocketplaneIO</title>
+        <link>https://github.com/olemeyer/rocketplaneIO</link>
+        <description>面向Kubernetes的自托管AI SRE——零插桩eBPF可观测性，配合通过护栏式自验证操作修复问题的副驾驶。支持自带LLM，可部署于气隙环境。 | 近期热门 | 总 121 stars</description>
+        <author>olemeyer</author>
+        <category>github</category>
+        <pubDate>Thu, 09 Jul 2026 06:18:07 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-olemeyer-rocketplaneio</guid>
       </item>
 <item>
-        <title>蚂蚁集团周俊AICon演讲：从Token数量到Token密度，万亿参数模型效率优先</title>
-        <link>https://mp.weixin.qq.com/s/dsIfi4C-T5Q4emmIh-7yzg</link>
-        <description>蚂蚁集团副总裁周俊在AICon演讲指出，万亿参数模型每运行15分钟算力成本约等于一辆特斯拉，效率是智能体时代最需解决的问题</description>
-        <author>AI HOT / 公众号：蚂蚁百灵（Ling）</author>
+        <title>面向AI模型双重用途知识的&quot;开关&quot;：Anthropic与AE Studio提出GRAM方法</title>
+        <link>https://www.anthropic.com/research/off-switch-dual-use</link>
+        <description>Anthropic与AE Studio联合提出梯度路由辅助模块（GRAM）方法，通过在Transformer每层添加可移除的神经元模块，使模型在训练时将病毒学、网络安全、核物理、专业编程语言等双重用途知识仅路由到对应模块，而非扩散至全局</description>
+        <author>AI HOT / Anthropic：Research（发表成果 · 网页）</author>
         <category>aihot</category>
-        <pubDate>Wed, 08 Jul 2026 01:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrbdsefa02yjihl17gg7mhx3</guid>
+        <pubDate>Wed, 08 Jul 2026 23:27:02 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrcpjgf00373ihx5mtyo2fsy</guid>
       </item>
 <item>
-        <title>Pulpie：用于清理网络的Pareto最优模型</title>
-        <link>https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web</link>
-        <description>Pulpie是一族Pareto最优模型，用于从HTML页面提取主要内容</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <title>在校研究生Kunkun开源管理相互调用Skill的方法</title>
+        <link>https://x.com/berryxia/status/2074827915779580055</link>
+        <description>在校研究生Kunkun开源了一套管理大量互相调用Skill的方法</description>
+        <author>AI HOT / X：Berry Xia (@berryxia)</author>
         <category>aihot</category>
-        <pubDate>Wed, 08 Jul 2026 01:33:24 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrbez8y903b9ihl133b5wr18</guid>
+        <pubDate>Wed, 08 Jul 2026 12:08:18 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrc1iygj00twihyfe1hkvycv</guid>
+      </item>
+<item>
+        <title>代理测试流程、LLM基准测试，以及关于代理编码的其他说明</title>
+        <link>https://danluu.com/ai-coding/#llm-variance</link>
+        <description>代理测试流程、LLM基准测试，以及关于代理编码的其他说明</description>
+        <author>lifeisstillgood</author>
+        <category>hn</category>
+        <pubDate>Wed, 08 Jul 2026 20:21:45 GMT</pubDate>
+        <guid isPermaLink="false">hn-48836951</guid>
+      </item>
+<item>
+        <title>问HN：有没有另一个“黑客新闻”，少一些人工智能，多一些以人类为核心的黑客新闻？</title>
+        <link>https://news.ycombinator.com/item?id=48834961</link>
+        <description>我厌倦了那些宣称“我用这个LLM做了那件事”或“看，这个智能体在2分钟内完成了那个！”的文章。  
+我想要更多以用户为中心的内容，少一些OpenAI/Anthropic，多一些……</description>
+        <author>weird_trousers</author>
+        <category>hn</category>
+        <pubDate>Wed, 08 Jul 2026 17:48:41 GMT</pubDate>
+        <guid isPermaLink="false">hn-48834961</guid>
       </item>
   </channel>
 </rss>
