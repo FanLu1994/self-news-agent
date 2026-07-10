@@ -1,90 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/9)</title>
+    <title>今日 AI 开发者精选 (2026/7/10)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“可控性与专业性”。开发者社区不再只满足于“用AI做了什么”，而是更关注**如何精确控制AI的行为**（例如通过开关危险知识、用可视化语言编排智能体），以及**如何让AI在特定领域（如编程、机器人）变得真正可靠和可落地**。</description>
+    <description>今天的关键词是“开源”和“工具化”。美团和蚂蚁灵波分别开源了万亿级和具身智能领域的重磅模型，为开发者提供了直接可用的基座。与此同时，Google 和 Anthropic 则聚焦于开发者工具链，推出了更易用的 Web 推理运行时和更智能的编程助手，降低了 AI 应用的门槛。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Jul 2026 06:18:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 06:18:22 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“可控性与专业性”。开发者社区不再只满足于“用AI做了什么”，而是更关注**如何精确控制AI的行为**（例如通过开关危险知识、用可视化语言编排智能体），以及**如何让AI在特定领域（如编程、机器人）变得真正可靠和可落地**。</description>
-        <pubDate>Thu, 09 Jul 2026 06:18:55 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-09T06:18:45.468Z</guid>
+        <description>今天的关键词是“开源”和“工具化”。美团和蚂蚁灵波分别开源了万亿级和具身智能领域的重磅模型，为开发者提供了直接可用的基座。与此同时，Google 和 Anthropic 则聚焦于开发者工具链，推出了更易用的 Web 推理运行时和更智能的编程助手，降低了 AI 应用的门槛。</description>
+        <pubDate>Fri, 10 Jul 2026 06:18:22 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-10T06:18:10.653Z</guid>
       </item>
     <item>
-        <title>nagisanzenin/engram</title>
-        <link>https://github.com/nagisanzenin/engram</link>
-        <description>基于证据的Claude Code学习引擎——第一性原理课程、带凭证的自由回忆验证、FSRS调度记忆及可探索构件。学无止境，铭记于心。 | 近期热门 | 总 445 stars</description>
-        <author>nagisanzenin</author>
+        <title>uf-hy/cpa-plugin-codexcomp</title>
+        <link>https://github.com/uf-hy/cpa-plugin-codexcomp</link>
+        <description>CLIProxyAPI插件，通过加密内容重放与多轮折叠检测并修复gpt-5.5推理截断（518n−2模式）。 | 近期热门 | 总 65 stars</description>
+        <author>uf-hy</author>
         <category>github</category>
-        <pubDate>Thu, 09 Jul 2026 06:18:07 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nagisanzenin-engram</guid>
+        <pubDate>Fri, 10 Jul 2026 06:17:26 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-uf-hy-cpa-plugin-codexcomp</guid>
       </item>
 <item>
-        <title>Robbyant 发布 LingBot-VLA 2.0：开源 6B 跨实体机器人视觉-语言-动作模型</title>
-        <link>https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0</link>
-        <description>Robbyant 推出 LingBot-VLA 2.0，一个 6B 参数的开源视觉-语言-动作（VLA）基础模型</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
+        <title>美团 LongCat-2.0 正式开源，同步开放国产卡推理代码</title>
+        <link>https://mp.weixin.qq.com/s/iCq4jVlTdKOt74zAMYIIdw</link>
+        <description>美团万亿参数大模型 LongCat-2.0 正式开源，总参数 1.6T，平均激活约 48B，专为真实 Agentic Coding 任务设计</description>
+        <author>AI HOT / 公众号：龙猫LongCat（美团）</author>
         <category>aihot</category>
-        <pubDate>Thu, 09 Jul 2026 00:45:39 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrcsrok60407ihx5jvrp15a1</guid>
-      </item>
-<item>
-        <title>Show HN：微软发布Flint，一种面向AI智能体的可视化语言</title>
-        <link>https://microsoft.github.io/flint-chart/#/</link>
-        <description>数据可视化是用户与数据之间的桥梁。但构建能够可靠生成可视化内容的AI智能体可能非常棘手：- 简单的图表规范可以可靠，但生成的c...</description>
-        <author>chenglong-hn</author>
-        <category>hn</category>
-        <pubDate>Wed, 08 Jul 2026 17:46:12 GMT</pubDate>
-        <guid isPermaLink="false">hn-48834924</guid>
+        <pubDate>Thu, 09 Jul 2026 11:58:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrees13p006wihgvrokrpgpy</guid>
       </item>
 <item>
         <title>olemeyer/rocketplaneIO</title>
         <link>https://github.com/olemeyer/rocketplaneIO</link>
-        <description>面向Kubernetes的自托管AI SRE——零插桩eBPF可观测性，配合通过护栏式自验证操作修复问题的副驾驶。支持自带LLM，可部署于气隙环境。 | 近期热门 | 总 121 stars</description>
+        <description>面向Kubernetes的自托管AI SRE——零插桩eBPF可观测性，配合通过护栏式自验证操作修复问题的副驾驶。支持自带大语言模型，可部署于气隙环境。 | 近期热门 | 总 124 stars</description>
         <author>olemeyer</author>
         <category>github</category>
-        <pubDate>Thu, 09 Jul 2026 06:18:07 GMT</pubDate>
+        <pubDate>Fri, 10 Jul 2026 06:17:26 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-olemeyer-rocketplaneio</guid>
       </item>
 <item>
-        <title>面向AI模型双重用途知识的&quot;开关&quot;：Anthropic与AE Studio提出GRAM方法</title>
-        <link>https://www.anthropic.com/research/off-switch-dual-use</link>
-        <description>Anthropic与AE Studio联合提出梯度路由辅助模块（GRAM）方法，通过在Transformer每层添加可移除的神经元模块，使模型在训练时将病毒学、网络安全、核物理、专业编程语言等双重用途知识仅路由到对应模块，而非扩散至全局</description>
-        <author>AI HOT / Anthropic：Research（发表成果 · 网页）</author>
+        <title>蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0</title>
+        <link>https://www.ithome.com/0/974/508.htm</link>
+        <description>蚂蚁灵波开源新一代实时交互世界模型 LingBot-World 2.0（14B 参数），支持施法、攻击、跳跃等丰富角色动作及文本驱动事件（如切换场景、召唤风暴），内置 Pilot Agent 与 Director Agent 实现世界持续演...</description>
+        <author>AI HOT / IT之家（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 08 Jul 2026 23:27:02 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrcpjgf00373ihx5mtyo2fsy</guid>
+        <pubDate>Thu, 09 Jul 2026 06:53:40 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrd6bmv300xxih4byg33dbws</guid>
       </item>
 <item>
-        <title>在校研究生Kunkun开源管理相互调用Skill的方法</title>
-        <link>https://x.com/berryxia/status/2074827915779580055</link>
-        <description>在校研究生Kunkun开源了一套管理大量互相调用Skill的方法</description>
-        <author>AI HOT / X：Berry Xia (@berryxia)</author>
+        <title>Google 推出 LiteRT.js：高性能 Web AI 推理运行时</title>
+        <link>https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference</link>
+        <description>Google 发布 LiteRT.js，这是 LiteRT 跨平台边缘 AI 运行时的最新成员，专为 JavaScript 开发者设计，可直接在浏览器中运行机器学习模型</description>
+        <author>AI HOT / Google Developers Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 08 Jul 2026 12:08:18 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrc1iygj00twihyfe1hkvycv</guid>
+        <pubDate>Thu, 09 Jul 2026 21:21:08 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmre0j0vj002sihwk71qvktk7</guid>
       </item>
 <item>
-        <title>代理测试流程、LLM基准测试，以及关于代理编码的其他说明</title>
-        <link>https://danluu.com/ai-coding/#llm-variance</link>
-        <description>代理测试流程、LLM基准测试，以及关于代理编码的其他说明</description>
-        <author>lifeisstillgood</author>
-        <category>hn</category>
-        <pubDate>Wed, 08 Jul 2026 20:21:45 GMT</pubDate>
-        <guid isPermaLink="false">hn-48836951</guid>
+        <title>Claude Code v2.1.206 发布</title>
+        <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.206</link>
+        <description>Claude Code v2.1.206 发布，主要更新包括：为 `/cd` 命令添加目录路径建议；新增 `/doctor` 检查以建议修剪 CLAUDE.md 文件中模型可从代码库推导的内容；`/commit-push-pr` 现在自动允...</description>
+        <author>AI HOT / Claude Code：GitHub Releases（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 10 Jul 2026 01:45:26 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmreax6su01ozihyy4xtirms5</guid>
       </item>
 <item>
-        <title>问HN：有没有另一个“黑客新闻”，少一些人工智能，多一些以人类为核心的黑客新闻？</title>
-        <link>https://news.ycombinator.com/item?id=48834961</link>
-        <description>我厌倦了那些宣称“我用这个LLM做了那件事”或“看，这个智能体在2分钟内完成了那个！”的文章。  
-我想要更多以用户为中心的内容，少一些OpenAI/Anthropic，多一些……</description>
-        <author>weird_trousers</author>
+        <title>AI的下一个时代关乎基础设施，而不仅仅是模型。</title>
+        <link>https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/</link>
+        <description>AI的下一个时代关乎基础设施，而不仅仅是模型。</description>
+        <author>royapakzad</author>
         <category>hn</category>
-        <pubDate>Wed, 08 Jul 2026 17:48:41 GMT</pubDate>
-        <guid isPermaLink="false">hn-48834961</guid>
+        <pubDate>Thu, 09 Jul 2026 14:50:01 GMT</pubDate>
+        <guid isPermaLink="false">hn-48846842</guid>
+      </item>
+<item>
+        <title>蚂蚁灵波开源全球首个面向具身智能的MoE视频基模LingBot-Video</title>
+        <link>https://www.ithome.com/0/974/517.htm</link>
+        <description>蚂蚁灵波科技正式开源LingBot-Video，这是全球首个基于MoE架构、面向具身智能的视频生成基础模型</description>
+        <author>AI HOT / IT之家（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 09 Jul 2026 07:06:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrd6bmv200xrih4b7i1ivun0</guid>
       </item>
   </channel>
 </rss>
