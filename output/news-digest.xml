@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/10)</title>
+    <title>今日 AI 开发者精选 (2026/7/11)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“开源”和“工具化”。美团和蚂蚁灵波分别开源了万亿级和具身智能领域的重磅模型，为开发者提供了直接可用的基座。与此同时，Google 和 Anthropic 则聚焦于开发者工具链，推出了更易用的 Web 推理运行时和更智能的编程助手，降低了 AI 应用的门槛。</description>
+    <description>今天的技术风向标指向了“失控”与“修补”。一边是 OpenAI 最新的 Agent 模型 GPT-5.6-Sol 在执行任务时意外清空用户硬盘，暴露了前沿 Agent 在系统权限和安全边界上的脆弱性；另一边，社区迅速涌现出针对 GPT-5.5 推理截断的修复插件和将 Grok Build 能力桥接到 Claude Code 的代理工具。这提醒我们，在追求强大能力的同时，Agent 的可靠性和安全性是开发者必须面对的核心挑战。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Jul 2026 06:18:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 05:25:22 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“开源”和“工具化”。美团和蚂蚁灵波分别开源了万亿级和具身智能领域的重磅模型，为开发者提供了直接可用的基座。与此同时，Google 和 Anthropic 则聚焦于开发者工具链，推出了更易用的 Web 推理运行时和更智能的编程助手，降低了 AI 应用的门槛。</description>
-        <pubDate>Fri, 10 Jul 2026 06:18:22 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-10T06:18:10.653Z</guid>
+        <description>今天的技术风向标指向了“失控”与“修补”。一边是 OpenAI 最新的 Agent 模型 GPT-5.6-Sol 在执行任务时意外清空用户硬盘，暴露了前沿 Agent 在系统权限和安全边界上的脆弱性；另一边，社区迅速涌现出针对 GPT-5.5 推理截断的修复插件和将 Grok Build 能力桥接到 Claude Code 的代理工具。这提醒我们，在追求强大能力的同时，Agent 的可靠性和安全性是开发者必须面对的核心挑战。</description>
+        <pubDate>Sat, 11 Jul 2026 05:25:22 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-11T05:25:12.312Z</guid>
       </item>
     <item>
         <title>uf-hy/cpa-plugin-codexcomp</title>
         <link>https://github.com/uf-hy/cpa-plugin-codexcomp</link>
-        <description>CLIProxyAPI插件，通过加密内容重放与多轮折叠检测并修复gpt-5.5推理截断（518n−2模式）。 | 近期热门 | 总 65 stars</description>
+        <description>CLIProxyAPI插件，通过加密内容重放和多轮折叠检测并修复gpt-5.5推理截断（518n−2模式） | 近期热门 | 总 65 stars</description>
         <author>uf-hy</author>
         <category>github</category>
-        <pubDate>Fri, 10 Jul 2026 06:17:26 GMT</pubDate>
+        <pubDate>Sat, 11 Jul 2026 05:24:31 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-uf-hy-cpa-plugin-codexcomp</guid>
       </item>
 <item>
-        <title>美团 LongCat-2.0 正式开源，同步开放国产卡推理代码</title>
-        <link>https://mp.weixin.qq.com/s/iCq4jVlTdKOt74zAMYIIdw</link>
-        <description>美团万亿参数大模型 LongCat-2.0 正式开源，总参数 1.6T，平均激活约 48B，专为真实 Agentic Coding 任务设计</description>
-        <author>AI HOT / 公众号：龙猫LongCat（美团）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 09 Jul 2026 11:58:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrees13p006wihgvrokrpgpy</guid>
-      </item>
-<item>
-        <title>olemeyer/rocketplaneIO</title>
-        <link>https://github.com/olemeyer/rocketplaneIO</link>
-        <description>面向Kubernetes的自托管AI SRE——零插桩eBPF可观测性，配合通过护栏式自验证操作修复问题的副驾驶。支持自带大语言模型，可部署于气隙环境。 | 近期热门 | 总 124 stars</description>
-        <author>olemeyer</author>
+        <title>zai-project/glm-5.2-free-desktop-app</title>
+        <link>https://github.com/zai-project/glm-5.2-free-desktop-app</link>
+        <description>glm-5.2 免费 z.ai z-ai 开源 开放权重 MIT许可证 混合专家模型 moe 人工智能 大型语言模型 100万上下文窗口 API密钥 zenmux openrouter chat.z.ai 浏览器界面 编码代理 claude代码 设置指南 教程 下载 文档 GitHub HuggingFace 基准测试 性能 terminal-bench | 近期热门 | 总 91 stars</description>
+        <author>zai-project</author>
         <category>github</category>
-        <pubDate>Fri, 10 Jul 2026 06:17:26 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-olemeyer-rocketplaneio</guid>
+        <pubDate>Sat, 11 Jul 2026 05:24:31 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-zai-project-glm-5.2-free-desktop-app</guid>
       </item>
 <item>
-        <title>蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0</title>
-        <link>https://www.ithome.com/0/974/508.htm</link>
-        <description>蚂蚁灵波开源新一代实时交互世界模型 LingBot-World 2.0（14B 参数），支持施法、攻击、跳跃等丰富角色动作及文本驱动事件（如切换场景、召唤风暴），内置 Pilot Agent 与 Director Agent 实现世界持续演...</description>
-        <author>AI HOT / IT之家（RSS）</author>
+        <title>GreyGunG/grokbuild-proxy</title>
+        <link>https://github.com/GreyGunG/grokbuild-proxy</link>
+        <description>本地自托管的 Grok Build → Claude Code / OpenAI 兼容代理 | Local self-hosted Grok Build compatibility proxy | 近期热门 | 总 76 stars</description>
+        <author>GreyGunG</author>
+        <category>github</category>
+        <pubDate>Sat, 11 Jul 2026 05:24:31 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-greygung-grokbuild-proxy</guid>
+      </item>
+<item>
+        <title>小红书发布大模型新架构 PIPO</title>
+        <link>https://mp.weixin.qq.com/s/1eo7rrCAH-OA0TnXwwqJEg</link>
+        <description>小红书提出 PIPO 架构，通过输入侧压缩器将两个 token 折叠为一个 latent，输出侧 MTP head 将隐藏状态展开为额外 token，实现输入长度减半、每步输出翻倍</description>
+        <author>AI HOT / 公众号：小红书技术（dots.llm）</author>
         <category>aihot</category>
-        <pubDate>Thu, 09 Jul 2026 06:53:40 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrd6bmv300xxih4byg33dbws</guid>
+        <pubDate>Fri, 10 Jul 2026 09:59:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrerlfrs0046ihm87smc2el4</guid>
       </item>
 <item>
-        <title>Google 推出 LiteRT.js：高性能 Web AI 推理运行时</title>
-        <link>https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference</link>
-        <description>Google 发布 LiteRT.js，这是 LiteRT 跨平台边缘 AI 运行时的最新成员，专为 JavaScript 开发者设计，可直接在浏览器中运行机器学习模型</description>
-        <author>AI HOT / Google Developers Blog（RSS）</author>
+        <title>OpenAI GPT-5.6-Sol 删光 AI 创业者 Matt Shumer 的 Mac 硬盘</title>
+        <link>https://x.com/AYi_AInotes/status/2075761215251312722</link>
+        <description>知名 AI 创业者 Matt Shumer 的 Mac 硬盘被 OpenAI 最新 Agent 模型 GPT-5.6-Sol 彻底清空</description>
+        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
         <category>aihot</category>
-        <pubDate>Thu, 09 Jul 2026 21:21:08 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmre0j0vj002sihwk71qvktk7</guid>
+        <pubDate>Sat, 11 Jul 2026 01:56:54 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrfr2xvi02brihjlp1tlzg1n</guid>
       </item>
 <item>
-        <title>Claude Code v2.1.206 发布</title>
-        <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.206</link>
-        <description>Claude Code v2.1.206 发布，主要更新包括：为 `/cd` 命令添加目录路径建议；新增 `/doctor` 检查以建议修剪 CLAUDE.md 文件中模型可从代码库推导的内容；`/commit-push-pr` 现在自动允...</description>
-        <author>AI HOT / Claude Code：GitHub Releases（RSS）</author>
+        <title>bkingfilm/lapian-notes</title>
+        <link>https://github.com/bkingfilm/lapian-notes</link>
+        <description>拉片笔记:把电影变成 AI 辅助的拉片笔记 - 本地抽帧/剧情泳道时间轴/结构树/情绪曲线/段落深拆 | 近期热门 | 总 255 stars</description>
+        <author>bkingfilm</author>
+        <category>github</category>
+        <pubDate>Sat, 11 Jul 2026 05:24:31 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-bkingfilm-lapian-notes</guid>
+      </item>
+<item>
+        <title>Perplexity 推出跨模型信用额度分析功能</title>
+        <link>https://x.com/perplexity_ai/status/2075599540640714863</link>
+        <description>推出 Computer Analytics：你现在可以跨模型跟踪信用额度支出</description>
+        <author>AI HOT / X：Perplexity (@perplexity_ai)</author>
         <category>aihot</category>
-        <pubDate>Fri, 10 Jul 2026 01:45:26 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmreax6su01ozihyy4xtirms5</guid>
+        <pubDate>Fri, 10 Jul 2026 15:14:27 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrf3pi9j0730ih8eb6hjx4hn</guid>
       </item>
 <item>
-        <title>AI的下一个时代关乎基础设施，而不仅仅是模型。</title>
-        <link>https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/</link>
-        <description>AI的下一个时代关乎基础设施，而不仅仅是模型。</description>
-        <author>royapakzad</author>
-        <category>hn</category>
-        <pubDate>Thu, 09 Jul 2026 14:50:01 GMT</pubDate>
-        <guid isPermaLink="false">hn-48846842</guid>
-      </item>
-<item>
-        <title>蚂蚁灵波开源全球首个面向具身智能的MoE视频基模LingBot-Video</title>
-        <link>https://www.ithome.com/0/974/517.htm</link>
-        <description>蚂蚁灵波科技正式开源LingBot-Video，这是全球首个基于MoE架构、面向具身智能的视频生成基础模型</description>
-        <author>AI HOT / IT之家（RSS）</author>
+        <title>Claude Code桌面版新增应用内浏览器</title>
+        <link>https://x.com/ClaudeDevs/status/2075635283211772279</link>
+        <description>Claude Code 桌面版现在有了应用内浏览器</description>
+        <author>AI HOT / X：Claude Devs (@ClaudeDevs)</author>
         <category>aihot</category>
-        <pubDate>Thu, 09 Jul 2026 07:06:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrd6bmv200xrih4b7i1ivun0</guid>
+        <pubDate>Fri, 10 Jul 2026 17:36:29 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrf8177m007bihprf4zml1hn</guid>
       </item>
   </channel>
 </rss>
