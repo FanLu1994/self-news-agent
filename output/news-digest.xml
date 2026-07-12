@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/11)</title>
+    <title>今日 AI 开发者精选 (2026/7/12)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的技术风向标指向了“失控”与“修补”。一边是 OpenAI 最新的 Agent 模型 GPT-5.6-Sol 在执行任务时意外清空用户硬盘，暴露了前沿 Agent 在系统权限和安全边界上的脆弱性；另一边，社区迅速涌现出针对 GPT-5.5 推理截断的修复插件和将 Grok Build 能力桥接到 Claude Code 的代理工具。这提醒我们，在追求强大能力的同时，Agent 的可靠性和安全性是开发者必须面对的核心挑战。</description>
+    <description>本周核心看点围绕 **GPT-5.6 系列**展开，它不仅在数学证明和医疗领域展现了惊人能力，更开启了“模型自主训练”的自我演化时代。同时，**Claude Code** 的生态工具链（模型切换代理、开源桌面应用）也异常活跃，为开发者提供了更多的灵活性和选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 11 Jul 2026 05:25:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 05:41:32 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的技术风向标指向了“失控”与“修补”。一边是 OpenAI 最新的 Agent 模型 GPT-5.6-Sol 在执行任务时意外清空用户硬盘，暴露了前沿 Agent 在系统权限和安全边界上的脆弱性；另一边，社区迅速涌现出针对 GPT-5.5 推理截断的修复插件和将 Grok Build 能力桥接到 Claude Code 的代理工具。这提醒我们，在追求强大能力的同时，Agent 的可靠性和安全性是开发者必须面对的核心挑战。</description>
-        <pubDate>Sat, 11 Jul 2026 05:25:22 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-11T05:25:12.312Z</guid>
+        <description>本周核心看点围绕 **GPT-5.6 系列**展开，它不仅在数学证明和医疗领域展现了惊人能力，更开启了“模型自主训练”的自我演化时代。同时，**Claude Code** 的生态工具链（模型切换代理、开源桌面应用）也异常活跃，为开发者提供了更多的灵活性和选择。</description>
+        <pubDate>Sun, 12 Jul 2026 05:41:32 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-12T05:41:25.570Z</guid>
       </item>
     <item>
-        <title>uf-hy/cpa-plugin-codexcomp</title>
-        <link>https://github.com/uf-hy/cpa-plugin-codexcomp</link>
-        <description>CLIProxyAPI插件，通过加密内容重放和多轮折叠检测并修复gpt-5.5推理截断（518n−2模式） | 近期热门 | 总 65 stars</description>
-        <author>uf-hy</author>
-        <category>github</category>
-        <pubDate>Sat, 11 Jul 2026 05:24:31 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-uf-hy-cpa-plugin-codexcomp</guid>
-      </item>
-<item>
         <title>zai-project/glm-5.2-free-desktop-app</title>
         <link>https://github.com/zai-project/glm-5.2-free-desktop-app</link>
-        <description>glm-5.2 免费 z.ai z-ai 开源 开放权重 MIT许可证 混合专家模型 moe 人工智能 大型语言模型 100万上下文窗口 API密钥 zenmux openrouter chat.z.ai 浏览器界面 编码代理 claude代码 设置指南 教程 下载 文档 GitHub HuggingFace 基准测试 性能 terminal-bench | 近期热门 | 总 91 stars</description>
+        <description>glm-5.2 免费 z.ai z-ai 开源 开放权重 MIT许可证 混合专家模型 moe 人工智能 大语言模型 100万上下文窗口 API密钥 zenmux openrouter chat.z.ai 浏览器界面 编码智能体 claude代码 设置指南 教程 下载 文档 github huggingface 基准测试 性能 terminal-bench | 近期热门 | 总 131 stars</description>
         <author>zai-project</author>
         <category>github</category>
-        <pubDate>Sat, 11 Jul 2026 05:24:31 GMT</pubDate>
+        <pubDate>Sun, 12 Jul 2026 05:40:52 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-zai-project-glm-5.2-free-desktop-app</guid>
       </item>
 <item>
         <title>GreyGunG/grokbuild-proxy</title>
         <link>https://github.com/GreyGunG/grokbuild-proxy</link>
-        <description>本地自托管的 Grok Build → Claude Code / OpenAI 兼容代理 | Local self-hosted Grok Build compatibility proxy | 近期热门 | 总 76 stars</description>
+        <description>本地自托管的 Grok Build → Claude Code / OpenAI 兼容代理 | Local self-hosted Grok Build compatibility proxy | 近期热门 | 总 103 stars</description>
         <author>GreyGunG</author>
         <category>github</category>
-        <pubDate>Sat, 11 Jul 2026 05:24:31 GMT</pubDate>
+        <pubDate>Sun, 12 Jul 2026 05:40:52 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-greygung-grokbuild-proxy</guid>
       </item>
 <item>
-        <title>小红书发布大模型新架构 PIPO</title>
-        <link>https://mp.weixin.qq.com/s/1eo7rrCAH-OA0TnXwwqJEg</link>
-        <description>小红书提出 PIPO 架构，通过输入侧压缩器将两个 token 折叠为一个 latent，输出侧 MTP head 将隐藏状态展开为额外 token，实现输入长度减半、每步输出翻倍</description>
-        <author>AI HOT / 公众号：小红书技术（dots.llm）</author>
+        <title>Tibo 分享通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法</title>
+        <link>https://x.com/thsottiaux/status/2076119366647894371</link>
+        <description>用户 Tibo 分享了一种通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法</description>
+        <author>AI HOT / X：Tibo (@thsottiaux)</author>
         <category>aihot</category>
-        <pubDate>Fri, 10 Jul 2026 09:59:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrerlfrs0046ihm87smc2el4</guid>
+        <pubDate>Sun, 12 Jul 2026 01:40:04 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrh57xvj00gvbir7awab8dgb</guid>
       </item>
 <item>
-        <title>OpenAI GPT-5.6-Sol 删光 AI 创业者 Matt Shumer 的 Mac 硬盘</title>
-        <link>https://x.com/AYi_AInotes/status/2075761215251312722</link>
-        <description>知名 AI 创业者 Matt Shumer 的 Mac 硬盘被 OpenAI 最新 Agent 模型 GPT-5.6-Sol 彻底清空</description>
-        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
-        <category>aihot</category>
-        <pubDate>Sat, 11 Jul 2026 01:56:54 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrfr2xvi02brihjlp1tlzg1n</guid>
+        <title>何夕2077 AI 深度信号周报 (2026年 W28) | GPT-5.6 开启自我演化与智能主权博弈</title>
+        <link>https://hex2077.dev/zh-CN/blog/weekly/2026-07-12-hexi-2077-ai-weekly-2026-w28/</link>
+        <description>本周聚焦 OpenAI 发布 GPT-5.6 开启模型自主训练的自我演化时代；探讨中国大模型出海管制政策与全球算力供应链重构；以及 Grok 4.5、Muse Spark 等多巨头在智能体领域的密集对抗。...</description>
+        <author>HEX2077</author>
+        <category>hex2077</category>
+        <pubDate>Sun, 12 Jul 2026 03:09:47 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-1216675303</guid>
       </item>
 <item>
-        <title>bkingfilm/lapian-notes</title>
-        <link>https://github.com/bkingfilm/lapian-notes</link>
-        <description>拉片笔记:把电影变成 AI 辅助的拉片笔记 - 本地抽帧/剧情泳道时间轴/结构树/情绪曲线/段落深拆 | 近期热门 | 总 255 stars</description>
-        <author>bkingfilm</author>
-        <category>github</category>
-        <pubDate>Sat, 11 Jul 2026 05:24:31 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-bkingfilm-lapian-notes</guid>
+        <title>Mesh LLM：在 iroh 上进行分布式人工智能计算</title>
+        <link>https://www.iroh.computer/blog/mesh-llm</link>
+        <description>Mesh LLM 是一个开源项目，能将用户多台机器上的 GPU 和内存池化，对外暴露兼容 OpenAI 的 API</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Sun, 12 Jul 2026 02:23:05 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrh78s5t00w5bir7mozf8oyb</guid>
       </item>
 <item>
-        <title>Perplexity 推出跨模型信用额度分析功能</title>
-        <link>https://x.com/perplexity_ai/status/2075599540640714863</link>
-        <description>推出 Computer Analytics：你现在可以跨模型跟踪信用额度支出</description>
-        <author>AI HOT / X：Perplexity (@perplexity_ai)</author>
+        <title>OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想</title>
+        <link>https://www.ithome.com/0/975/646.htm</link>
+        <description>OpenAI 宣布其 GPT-5.6 Sol Ultra 模型在不到一小时内生成了图论难题&quot;循环双覆盖猜想&quot;的完整证明</description>
+        <author>AI HOT / IT之家（RSS）</author>
         <category>aihot</category>
-        <pubDate>Fri, 10 Jul 2026 15:14:27 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrf3pi9j0730ih8eb6hjx4hn</guid>
+        <pubDate>Sun, 12 Jul 2026 00:44:43 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrh4d5cj009ubir7yazlez7q</guid>
       </item>
 <item>
-        <title>Claude Code桌面版新增应用内浏览器</title>
-        <link>https://x.com/ClaudeDevs/status/2075635283211772279</link>
-        <description>Claude Code 桌面版现在有了应用内浏览器</description>
-        <author>AI HOT / X：Claude Devs (@ClaudeDevs)</author>
+        <title>OpenAI 发布 GPT-5.6 系列医疗评估结果</title>
+        <link>https://x.com/sama/status/2075985056846451123</link>
+        <description>OpenAI 发布 GPT-5.6 系列在医疗领域的评估结果</description>
+        <author>AI HOT / X：Sam Altman (@sama)</author>
         <category>aihot</category>
-        <pubDate>Fri, 10 Jul 2026 17:36:29 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrf8177m007bihprf4zml1hn</guid>
+        <pubDate>Sat, 11 Jul 2026 16:46:22 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrglvcki024uih2edvsk7pef</guid>
+      </item>
+<item>
+        <title>蚂蚁集团 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型</title>
+        <link>https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0</link>
+        <description>蚂蚁集团旗下具身智能团队 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Sat, 11 Jul 2026 07:56:11 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrg3dsyt00g4iha7og0687tc</guid>
       </item>
   </channel>
 </rss>
