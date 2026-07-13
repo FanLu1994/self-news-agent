@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/12)</title>
+    <title>今日 AI 开发者精选 (2026/7/13)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>本周核心看点围绕 **GPT-5.6 系列**展开，它不仅在数学证明和医疗领域展现了惊人能力，更开启了“模型自主训练”的自我演化时代。同时，**Claude Code** 的生态工具链（模型切换代理、开源桌面应用）也异常活跃，为开发者提供了更多的灵活性和选择。</description>
+    <description>今天简报的核心线索是“**编程 Agent 的效率与质量**”。一方面，我们看到社区在比拼编码 Agent 的**Token 开销**，并诞生了像 Mindwalk 这样的可视化工具来追踪其行为；另一方面，GitHub 上涌现出将 Codex 插件用于**自动生成代码化 3D 模型**和**广告制作**的优质项目。同时，大模型层面，腾讯的 Agent 向 Hy3 模型和 OpenAI 的 GPT-5.6 Sol 正在被真实的生产系统验证和采用。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Jul 2026 05:41:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 05:51:34 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>本周核心看点围绕 **GPT-5.6 系列**展开，它不仅在数学证明和医疗领域展现了惊人能力，更开启了“模型自主训练”的自我演化时代。同时，**Claude Code** 的生态工具链（模型切换代理、开源桌面应用）也异常活跃，为开发者提供了更多的灵活性和选择。</description>
-        <pubDate>Sun, 12 Jul 2026 05:41:32 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-12T05:41:25.570Z</guid>
+        <description>今天简报的核心线索是“**编程 Agent 的效率与质量**”。一方面，我们看到社区在比拼编码 Agent 的**Token 开销**，并诞生了像 Mindwalk 这样的可视化工具来追踪其行为；另一方面，GitHub 上涌现出将 Codex 插件用于**自动生成代码化 3D 模型**和**广告制作**的优质项目。同时，大模型层面，腾讯的 Agent 向 Hy3 模型和 OpenAI 的 GPT-5.6 Sol 正在被真实的生产系统验证和采用。</description>
+        <pubDate>Mon, 13 Jul 2026 05:51:34 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-13T05:51:26.424Z</guid>
       </item>
     <item>
-        <title>zai-project/glm-5.2-free-desktop-app</title>
-        <link>https://github.com/zai-project/glm-5.2-free-desktop-app</link>
-        <description>glm-5.2 免费 z.ai z-ai 开源 开放权重 MIT许可证 混合专家模型 moe 人工智能 大语言模型 100万上下文窗口 API密钥 zenmux openrouter chat.z.ai 浏览器界面 编码智能体 claude代码 设置指南 教程 下载 文档 github huggingface 基准测试 性能 terminal-bench | 近期热门 | 总 131 stars</description>
-        <author>zai-project</author>
+        <title>vinhhien112/Three.js-Object-Sculptor-Codex-Plugin</title>
+        <link>https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin</link>
+        <description>将附加对象图像转化为纯代码、可动画化的程序化Three.js模型的Codex插件。 | 近期热门 | 总 698 stars</description>
+        <author>vinhhien112</author>
         <category>github</category>
-        <pubDate>Sun, 12 Jul 2026 05:40:52 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-zai-project-glm-5.2-free-desktop-app</guid>
+        <pubDate>Mon, 13 Jul 2026 05:50:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vinhhien112-three.js-object-sculptor-codex-plugin</guid>
       </item>
 <item>
-        <title>GreyGunG/grokbuild-proxy</title>
-        <link>https://github.com/GreyGunG/grokbuild-proxy</link>
-        <description>本地自托管的 Grok Build → Claude Code / OpenAI 兼容代理 | Local self-hosted Grok Build compatibility proxy | 近期热门 | 总 103 stars</description>
-        <author>GreyGunG</author>
-        <category>github</category>
-        <pubDate>Sun, 12 Jul 2026 05:40:52 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-greygung-grokbuild-proxy</guid>
-      </item>
-<item>
-        <title>Tibo 分享通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法</title>
-        <link>https://x.com/thsottiaux/status/2076119366647894371</link>
-        <description>用户 Tibo 分享了一种通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法</description>
-        <author>AI HOT / X：Tibo (@thsottiaux)</author>
+        <title>腾讯混元发布Hy3模型：295B参数MoE架构，Agent向LLM定位，已集成微信服务10亿+用户</title>
+        <link>https://x.com/AYi_AInotes/status/2076341952023310580</link>
+        <description>腾讯混元团队发布Hy3模型，采用295B总参数、21B激活参数的MoE架构，推理效率可打平参数规模2-5倍的旗舰模型</description>
+        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
         <category>aihot</category>
-        <pubDate>Sun, 12 Jul 2026 01:40:04 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrh57xvj00gvbir7awab8dgb</guid>
+        <pubDate>Sun, 12 Jul 2026 16:24:32 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmri0lo1e00irbixecx7cj2f5</guid>
       </item>
 <item>
-        <title>何夕2077 AI 深度信号周报 (2026年 W28) | GPT-5.6 开启自我演化与智能主权博弈</title>
-        <link>https://hex2077.dev/zh-CN/blog/weekly/2026-07-12-hexi-2077-ai-weekly-2026-w28/</link>
-        <description>本周聚焦 OpenAI 发布 GPT-5.6 开启模型自主训练的自我演化时代；探讨中国大模型出海管制政策与全球算力供应链重构；以及 Grok 4.5、Muse Spark 等多巨头在智能体领域的密集对抗。...</description>
-        <author>HEX2077</author>
-        <category>hex2077</category>
-        <pubDate>Sun, 12 Jul 2026 03:09:47 GMT</pubDate>
-        <guid isPermaLink="false">rss-0-1216675303</guid>
+        <title>yetone/kill-ai-slop</title>
+        <link>https://github.com/yetone/kill-ai-slop</link>
+        <description>AI生成产品的视觉与文案特征现场指南——以及一项扫描项目并剔除这些特征的Agent技能。https://killaislop.com | 近期热门 | 总 341 stars</description>
+        <author>yetone</author>
+        <category>github</category>
+        <pubDate>Mon, 13 Jul 2026 05:50:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yetone-kill-ai-slop</guid>
       </item>
 <item>
-        <title>Mesh LLM：在 iroh 上进行分布式人工智能计算</title>
-        <link>https://www.iroh.computer/blog/mesh-llm</link>
-        <description>Mesh LLM 是一个开源项目，能将用户多台机器上的 GPU 和内存池化，对外暴露兼容 OpenAI 的 API</description>
+        <title>Ploy 将 AI 智能体默认模型从 Claude Opus 4.8 切换至 GPT-5.6 Sol</title>
+        <link>https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6</link>
+        <description>Ploy 将其 AI 智能体默认模型从 Claude Opus 4.8 切换至 OpenAI 今晨发布的 GPT-5.6 Sol</description>
         <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Sun, 12 Jul 2026 02:23:05 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrh78s5t00w5bir7mozf8oyb</guid>
+        <pubDate>Sun, 12 Jul 2026 23:41:11 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrig9mkx0024bijp9pr04hss</guid>
       </item>
 <item>
-        <title>OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想</title>
-        <link>https://www.ithome.com/0/975/646.htm</link>
-        <description>OpenAI 宣布其 GPT-5.6 Sol Ultra 模型在不到一小时内生成了图论难题&quot;循环双覆盖猜想&quot;的完整证明</description>
-        <author>AI HOT / IT之家（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Sun, 12 Jul 2026 00:44:43 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrh4d5cj009ubir7yazlez7q</guid>
+        <title>Jane-xiaoer/paper-collage-ad-codex</title>
+        <link>https://github.com/Jane-xiaoer/paper-collage-ad-codex</link>
+        <description>完整剪纸拼贴广告制作的Codex技能、本地IndexTTS-2语音克隆、动画、音频及MP4质量控制 | 近期热门 | 总 212 stars</description>
+        <author>Jane-xiaoer</author>
+        <category>github</category>
+        <pubDate>Mon, 13 Jul 2026 05:50:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-jane-xiaoer-paper-collage-ad-codex</guid>
       </item>
 <item>
-        <title>OpenAI 发布 GPT-5.6 系列医疗评估结果</title>
-        <link>https://x.com/sama/status/2075985056846451123</link>
-        <description>OpenAI 发布 GPT-5.6 系列在医疗领域的评估结果</description>
-        <author>AI HOT / X：Sam Altman (@sama)</author>
-        <category>aihot</category>
-        <pubDate>Sat, 11 Jul 2026 16:46:22 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrglvcki024uih2edvsk7pef</guid>
+        <title>Claude Code 在读取提示前发送 33k 个令牌；OpenCode 发送 7k 个令牌。</title>
+        <link>https://systima.ai/blog/claude-code-vs-opencode-token-overhead</link>
+        <description>这一切始于一个直觉。我们通常使用OpenCode，但由于Meridian的问题，曾一度“被迫”使用Claude Code。在那段时间里，我们看到使用量计飙升得极其……</description>
+        <author>systima</author>
+        <category>hn</category>
+        <pubDate>Sun, 12 Jul 2026 18:25:51 GMT</pubDate>
+        <guid isPermaLink="false">hn-48883275</guid>
       </item>
 <item>
-        <title>蚂蚁集团 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型</title>
-        <link>https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0</link>
-        <description>蚂蚁集团旗下具身智能团队 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
+        <title>纳德拉提出&quot;反向信息悖论&quot;：企业使用AI时需保护自身知识</title>
+        <link>https://x.com/satyanadella/status/2076323181154230284</link>
+        <description>微软CEO萨提亚·纳德拉提出&quot;反向信息悖论&quot;：AI时代，买家为使用AI支付金钱，同时必须暴露专有知识（提示词、工具使用、纠正反馈等），这些&quot;智力废气&quot;被模型学习，导致信息不对称向卖家倾斜</description>
+        <author>AI HOT / X：Satya Nadella (@satyanadella)</author>
         <category>aihot</category>
-        <pubDate>Sat, 11 Jul 2026 07:56:11 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrg3dsyt00g4iha7og0687tc</guid>
+        <pubDate>Sun, 12 Jul 2026 15:09:57 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrhyer8a01q3biidlr8xr6rm</guid>
+      </item>
+<item>
+        <title>Mindwalk：在代码库 3D 地图上回放编码代理会话</title>
+        <link>https://github.com/cosmtrek/mindwalk</link>
+        <description>Mindwalk 是一款可视化工具，可将 Claude Code 和 Codex 的会话日志在代码库的 3D 地图上回放</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Sun, 12 Jul 2026 13:51:05 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrhvwe6k00y7biidjabepmem</guid>
       </item>
   </channel>
 </rss>
