@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/13)</title>
+    <title>今日 AI 开发者精选 (2026/7/14)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天简报的核心线索是“**编程 Agent 的效率与质量**”。一方面，我们看到社区在比拼编码 Agent 的**Token 开销**，并诞生了像 Mindwalk 这样的可视化工具来追踪其行为；另一方面，GitHub 上涌现出将 Codex 插件用于**自动生成代码化 3D 模型**和**广告制作**的优质项目。同时，大模型层面，腾讯的 Agent 向 Hy3 模型和 OpenAI 的 GPT-5.6 Sol 正在被真实的生产系统验证和采用。</description>
+    <description>在今天的资讯中，**“Codex”** 和 **“开源模型”** 是两个绝对主角。一方面，围绕Codex的生态正在快速丰富，从高效的项目控制平面到创意工具插件，都展示了其在代码生成之外的强大扩展性；另一方面，腾讯、德国AI协会、商汤等机构密集发布了全新的开源模型，覆盖OCR、多任务视觉、多语言基准等领域，为开发者提供了更多可落地的“武器库”。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 13 Jul 2026 05:51:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 05:12:29 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天简报的核心线索是“**编程 Agent 的效率与质量**”。一方面，我们看到社区在比拼编码 Agent 的**Token 开销**，并诞生了像 Mindwalk 这样的可视化工具来追踪其行为；另一方面，GitHub 上涌现出将 Codex 插件用于**自动生成代码化 3D 模型**和**广告制作**的优质项目。同时，大模型层面，腾讯的 Agent 向 Hy3 模型和 OpenAI 的 GPT-5.6 Sol 正在被真实的生产系统验证和采用。</description>
-        <pubDate>Mon, 13 Jul 2026 05:51:34 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-13T05:51:26.424Z</guid>
+        <description>在今天的资讯中，**“Codex”** 和 **“开源模型”** 是两个绝对主角。一方面，围绕Codex的生态正在快速丰富，从高效的项目控制平面到创意工具插件，都展示了其在代码生成之外的强大扩展性；另一方面，腾讯、德国AI协会、商汤等机构密集发布了全新的开源模型，覆盖OCR、多任务视觉、多语言基准等领域，为开发者提供了更多可落地的“武器库”。</description>
+        <pubDate>Tue, 14 Jul 2026 05:12:29 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-14T05:12:21.218Z</guid>
       </item>
     <item>
+        <title>herry2059/project-os-for-codex</title>
+        <link>https://github.com/herry2059/project-os-for-codex</link>
+        <description>Codex项目的开源控制平面：基于Git的上下文、可见的代理进度、限定范围的MCP访问、可恢复的工作以及安全交接。 | 近期热门 | 总 103 stars</description>
+        <author>herry2059</author>
+        <category>github</category>
+        <pubDate>Tue, 14 Jul 2026 05:11:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-herry2059-project-os-for-codex</guid>
+      </item>
+<item>
         <title>vinhhien112/Three.js-Object-Sculptor-Codex-Plugin</title>
         <link>https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin</link>
-        <description>将附加对象图像转化为纯代码、可动画化的程序化Three.js模型的Codex插件。 | 近期热门 | 总 698 stars</description>
+        <description>将附加对象图像转换为纯代码、可动画化的程序化Three.js模型的Codex插件。 | 近期热门 | 总 897 stars</description>
         <author>vinhhien112</author>
         <category>github</category>
-        <pubDate>Mon, 13 Jul 2026 05:50:44 GMT</pubDate>
+        <pubDate>Tue, 14 Jul 2026 05:11:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vinhhien112-three.js-object-sculptor-codex-plugin</guid>
       </item>
 <item>
-        <title>腾讯混元发布Hy3模型：295B参数MoE架构，Agent向LLM定位，已集成微信服务10亿+用户</title>
-        <link>https://x.com/AYi_AInotes/status/2076341952023310580</link>
-        <description>腾讯混元团队发布Hy3模型，采用295B总参数、21B激活参数的MoE架构，推理效率可打平参数规模2-5倍的旗舰模型</description>
-        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
+        <title>腾讯混元发布 HyOCR-1.5：端到端 OCR 大模型全栈开源，推理提速 6.37 倍</title>
+        <link>https://mp.weixin.qq.com/s/vKFCa9FfoGBUGK8J1MhFag</link>
+        <description>腾讯混元发布 HyOCR-1.5，这是端到端 OCR 大模型领域首个将训练、推理、模型权重完整开源的专家模型</description>
+        <author>AI HOT / 公众号：腾讯混元</author>
         <category>aihot</category>
-        <pubDate>Sun, 12 Jul 2026 16:24:32 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmri0lo1e00irbixecx7cj2f5</guid>
+        <pubDate>Mon, 13 Jul 2026 11:12:59 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrj4s89p05nhbilkljqel2d5</guid>
+      </item>
+<item>
+        <title>德国AI协会发布开源模型Soofi S，在英语和德语基准测试中领先</title>
+        <link>https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german</link>
+        <description>德国AI协会协调的研究联盟发布开源大语言模型Soofi S 30B-A3B</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Mon, 13 Jul 2026 11:41:01 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrj6actv0651bilkm5pfz6ub</guid>
+      </item>
+<item>
+        <title>商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型</title>
+        <link>https://x.com/SenseTime_AI/status/2076828658531262619</link>
+        <description>商汤发布并完全开源 SenseNova-Vision-7B-MoT，一个统一处理检测、OCR、GUI、深度与法线估计、分割、多视图等主要视觉任务的模型</description>
+        <author>AI HOT / X：商汤 SenseTime (@SenseTime_AI)</author>
+        <category>aihot</category>
+        <pubDate>Tue, 14 Jul 2026 00:38:32 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrjy99kt01nvbiw22bwjsvnv</guid>
       </item>
 <item>
         <title>yetone/kill-ai-slop</title>
         <link>https://github.com/yetone/kill-ai-slop</link>
-        <description>AI生成产品的视觉与文案特征现场指南——以及一项扫描项目并剔除这些特征的Agent技能。https://killaislop.com | 近期热门 | 总 341 stars</description>
+        <description>AI生成产品的视觉与文案特征识别指南——以及一项可扫描项目并移除这些特征的Agent技能。https://killaislop.com | 近期热门 | 总 409 stars</description>
         <author>yetone</author>
         <category>github</category>
-        <pubDate>Mon, 13 Jul 2026 05:50:44 GMT</pubDate>
+        <pubDate>Tue, 14 Jul 2026 05:11:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-yetone-kill-ai-slop</guid>
       </item>
 <item>
-        <title>Ploy 将 AI 智能体默认模型从 Claude Opus 4.8 切换至 GPT-5.6 Sol</title>
-        <link>https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6</link>
-        <description>Ploy 将其 AI 智能体默认模型从 Claude Opus 4.8 切换至 OpenAI 今晨发布的 GPT-5.6 Sol</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Sun, 12 Jul 2026 23:41:11 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrig9mkx0024bijp9pr04hss</guid>
+        <title>微软2026年初推出Claude Code与GitHub Copilot CLI的研究</title>
+        <link>https://arxiv.org/abs/2607.01418</link>
+        <description>微软2026年初推出Claude Code与GitHub Copilot CLI的研究</description>
+        <author>softwaredoug</author>
+        <category>hn</category>
+        <pubDate>Mon, 13 Jul 2026 21:43:51 GMT</pubDate>
+        <guid isPermaLink="false">hn-48899321</guid>
       </item>
 <item>
         <title>Jane-xiaoer/paper-collage-ad-codex</title>
         <link>https://github.com/Jane-xiaoer/paper-collage-ad-codex</link>
-        <description>完整剪纸拼贴广告制作的Codex技能、本地IndexTTS-2语音克隆、动画、音频及MP4质量控制 | 近期热门 | 总 212 stars</description>
+        <description>完整剪纸拼贴广告制作Codex技能、本地IndexTTS-2语音克隆、动画、音频及MP4质量控制 | 近期热门 | 总 228 stars</description>
         <author>Jane-xiaoer</author>
         <category>github</category>
-        <pubDate>Mon, 13 Jul 2026 05:50:44 GMT</pubDate>
+        <pubDate>Tue, 14 Jul 2026 05:11:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-jane-xiaoer-paper-collage-ad-codex</guid>
-      </item>
-<item>
-        <title>Claude Code 在读取提示前发送 33k 个令牌；OpenCode 发送 7k 个令牌。</title>
-        <link>https://systima.ai/blog/claude-code-vs-opencode-token-overhead</link>
-        <description>这一切始于一个直觉。我们通常使用OpenCode，但由于Meridian的问题，曾一度“被迫”使用Claude Code。在那段时间里，我们看到使用量计飙升得极其……</description>
-        <author>systima</author>
-        <category>hn</category>
-        <pubDate>Sun, 12 Jul 2026 18:25:51 GMT</pubDate>
-        <guid isPermaLink="false">hn-48883275</guid>
-      </item>
-<item>
-        <title>纳德拉提出&quot;反向信息悖论&quot;：企业使用AI时需保护自身知识</title>
-        <link>https://x.com/satyanadella/status/2076323181154230284</link>
-        <description>微软CEO萨提亚·纳德拉提出&quot;反向信息悖论&quot;：AI时代，买家为使用AI支付金钱，同时必须暴露专有知识（提示词、工具使用、纠正反馈等），这些&quot;智力废气&quot;被模型学习，导致信息不对称向卖家倾斜</description>
-        <author>AI HOT / X：Satya Nadella (@satyanadella)</author>
-        <category>aihot</category>
-        <pubDate>Sun, 12 Jul 2026 15:09:57 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrhyer8a01q3biidlr8xr6rm</guid>
-      </item>
-<item>
-        <title>Mindwalk：在代码库 3D 地图上回放编码代理会话</title>
-        <link>https://github.com/cosmtrek/mindwalk</link>
-        <description>Mindwalk 是一款可视化工具，可将 Claude Code 和 Codex 的会话日志在代码库的 3D 地图上回放</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Sun, 12 Jul 2026 13:51:05 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrhvwe6k00y7biidjabepmem</guid>
       </item>
   </channel>
 </rss>
