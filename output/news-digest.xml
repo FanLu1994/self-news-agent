@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/14)</title>
+    <title>今日 AI 开发者精选 (2026/7/15)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>在今天的资讯中，**“Codex”** 和 **“开源模型”** 是两个绝对主角。一方面，围绕Codex的生态正在快速丰富，从高效的项目控制平面到创意工具插件，都展示了其在代码生成之外的强大扩展性；另一方面，腾讯、德国AI协会、商汤等机构密集发布了全新的开源模型，覆盖OCR、多任务视觉、多语言基准等领域，为开发者提供了更多可落地的“武器库”。</description>
+    <description>今天的简报聚焦于 **AI Coding 工具的实战与进化**。一方面，社区围绕 Codex 生态涌现了大量实用工具，从“越狱”测试到代理任务管理；另一方面，大模型量化技术取得突破，让顶级模型能在消费级设备上运行，为开发者提供了更灵活的部署选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Jul 2026 05:12:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 05:12:58 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>在今天的资讯中，**“Codex”** 和 **“开源模型”** 是两个绝对主角。一方面，围绕Codex的生态正在快速丰富，从高效的项目控制平面到创意工具插件，都展示了其在代码生成之外的强大扩展性；另一方面，腾讯、德国AI协会、商汤等机构密集发布了全新的开源模型，覆盖OCR、多任务视觉、多语言基准等领域，为开发者提供了更多可落地的“武器库”。</description>
-        <pubDate>Tue, 14 Jul 2026 05:12:29 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-14T05:12:21.218Z</guid>
+        <description>今天的简报聚焦于 **AI Coding 工具的实战与进化**。一方面，社区围绕 Codex 生态涌现了大量实用工具，从“越狱”测试到代理任务管理；另一方面，大模型量化技术取得突破，让顶级模型能在消费级设备上运行，为开发者提供了更灵活的部署选择。</description>
+        <pubDate>Wed, 15 Jul 2026 05:12:58 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-15T05:12:44.663Z</guid>
       </item>
     <item>
         <title>herry2059/project-os-for-codex</title>
         <link>https://github.com/herry2059/project-os-for-codex</link>
-        <description>Codex项目的开源控制平面：基于Git的上下文、可见的代理进度、限定范围的MCP访问、可恢复的工作以及安全交接。 | 近期热门 | 总 103 stars</description>
+        <description>Codex项目的开源控制平面：基于Git的上下文、可见的代理进度、限定范围的MCP访问、可恢复的工作以及安全交接。 | 近期热门 | 总 104 stars</description>
         <author>herry2059</author>
         <category>github</category>
-        <pubDate>Tue, 14 Jul 2026 05:11:49 GMT</pubDate>
+        <pubDate>Wed, 15 Jul 2026 05:12:02 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-herry2059-project-os-for-codex</guid>
       </item>
 <item>
-        <title>vinhhien112/Three.js-Object-Sculptor-Codex-Plugin</title>
-        <link>https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin</link>
-        <description>将附加对象图像转换为纯代码、可动画化的程序化Three.js模型的Codex插件。 | 近期热门 | 总 897 stars</description>
-        <author>vinhhien112</author>
-        <category>github</category>
-        <pubDate>Tue, 14 Jul 2026 05:11:49 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vinhhien112-three.js-object-sculptor-codex-plugin</guid>
+        <title>开源 LLM TODO Skill&quot;阿福&quot;：用 Claude Code 和 Codex 实现知识管理到排期自动化</title>
+        <link>https://mp.weixin.qq.com/s/QcGHxKohg0gW9e84Nd_9jA</link>
+        <description>作者基于 API 版 Fable5 和 Codex 开发了开源 TODO Skill&quot;阿福&quot;，用于将收件箱中的待办资料自动转为 Markdown 任务卡，识别信息不完整项（如视频链接需通过 yt-dlp 和本地 Whisper 提取字幕），...</description>
+        <author>AI HOT / 公众号：卡尔的AI沃茨</author>
+        <category>aihot</category>
+        <pubDate>Wed, 15 Jul 2026 01:52:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrlg0ucc080qbi2bb8hn7nj3</guid>
       </item>
 <item>
-        <title>腾讯混元发布 HyOCR-1.5：端到端 OCR 大模型全栈开源，推理提速 6.37 倍</title>
-        <link>https://mp.weixin.qq.com/s/vKFCa9FfoGBUGK8J1MhFag</link>
-        <description>腾讯混元发布 HyOCR-1.5，这是端到端 OCR 大模型领域首个将训练、推理、模型权重完整开源的专家模型</description>
+        <title>MDX-Tom/gpt-5.6-instruct</title>
+        <link>https://github.com/MDX-Tom/gpt-5.6-instruct</link>
+        <description>A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。 | 近期热门 | 总 1070 stars</description>
+        <author>MDX-Tom</author>
+        <category>github</category>
+        <pubDate>Wed, 15 Jul 2026 05:12:02 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-mdx-tom-gpt-5.6-instruct</guid>
+      </item>
+<item>
+        <title>阿里发布 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 语音推理子项中综合排名第一</title>
+        <link>https://mp.weixin.qq.com/s/hFp5rtV8-6KVRrgZoCj03A</link>
+        <description>阿里通义实验室发布实时语音交互模型 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 的 Speech Reasoning 子项中综合排名第一，超越 OpenAI GPT-Realtime-2</description>
+        <author>AI HOT / 公众号：通义实验室（千问）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 15 Jul 2026 02:30:26 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrlh3k0009h8bi2bwjpgkauw</guid>
+      </item>
+<item>
+        <title>发布 HN：Agnost AI（YC S26）——从智能体对话中提取用户反馈</title>
+        <link>https://agnost.ai</link>
+        <description>嘿 HN，我们是 Shubham 和 Parth，从小一起长大的朋友，正在开发 Agnost AI（https://agnost.ai），一款面向构建聊天与语音应用团队的产品分析工具。</description>
+        <author>laalshaitaan</author>
+        <category>hn</category>
+        <pubDate>Tue, 14 Jul 2026 16:06:18 GMT</pubDate>
+        <guid isPermaLink="false">hn-48908950</guid>
+      </item>
+<item>
+        <title>腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能</title>
+        <link>https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw</link>
+        <description>腾讯混元团队为旗舰模型 Hy3（295B 参数）推出量化版本</description>
         <author>AI HOT / 公众号：腾讯混元</author>
         <category>aihot</category>
-        <pubDate>Mon, 13 Jul 2026 11:12:59 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrj4s89p05nhbilkljqel2d5</guid>
+        <pubDate>Tue, 14 Jul 2026 08:56:07 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrkf8gun01a4bizsthjytx6c</guid>
       </item>
 <item>
-        <title>德国AI协会发布开源模型Soofi S，在英语和德语基准测试中领先</title>
-        <link>https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german</link>
-        <description>德国AI协会协调的研究联盟发布开源大语言模型Soofi S 30B-A3B</description>
-        <author>AI HOT / The Decoder：AI News（RSS）</author>
+        <title>Bonsai 27B：首款可在手机上运行的27B级多模态模型</title>
+        <link>https://prismml.com/news/bonsai-27b</link>
+        <description>Bonsai 27B 基于 Qwen3.6 27B，提供三元（1.71 有效比特/权重，5.9 GB）和 1-bit（1.125 有效比特/权重，3.9 GB）两个变体，后者首次将 27B 级模型装入 iPhone 17 Pro</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Mon, 13 Jul 2026 11:41:01 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrj6actv0651bilkm5pfz6ub</guid>
+        <pubDate>Tue, 14 Jul 2026 19:51:19 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrl2m4yg00awbicqo2arojvd</guid>
       </item>
 <item>
-        <title>商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型</title>
-        <link>https://x.com/SenseTime_AI/status/2076828658531262619</link>
-        <description>商汤发布并完全开源 SenseNova-Vision-7B-MoT，一个统一处理检测、OCR、GUI、深度与法线估计、分割、多视图等主要视觉任务的模型</description>
-        <author>AI HOT / X：商汤 SenseTime (@SenseTime_AI)</author>
+        <title>Google 因 AI 训练再遭出版商集体诉讼</title>
+        <link>https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers</link>
+        <description>包括 Hachette、Cengage、Elsevier 及作家 Scott Turow 在内的出版商与作者团体对 Google 提起集体诉讼，指控其未经授权使用受版权保护的作品训练 Gemini 模型，并故意移除或篡改版权信息以掩盖这一行...</description>
+        <author>AI HOT / TechCrunch：AI（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 14 Jul 2026 00:38:32 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrjy99kt01nvbiw22bwjsvnv</guid>
-      </item>
-<item>
-        <title>yetone/kill-ai-slop</title>
-        <link>https://github.com/yetone/kill-ai-slop</link>
-        <description>AI生成产品的视觉与文案特征识别指南——以及一项可扫描项目并移除这些特征的Agent技能。https://killaislop.com | 近期热门 | 总 409 stars</description>
-        <author>yetone</author>
-        <category>github</category>
-        <pubDate>Tue, 14 Jul 2026 05:11:49 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-yetone-kill-ai-slop</guid>
-      </item>
-<item>
-        <title>微软2026年初推出Claude Code与GitHub Copilot CLI的研究</title>
-        <link>https://arxiv.org/abs/2607.01418</link>
-        <description>微软2026年初推出Claude Code与GitHub Copilot CLI的研究</description>
-        <author>softwaredoug</author>
-        <category>hn</category>
-        <pubDate>Mon, 13 Jul 2026 21:43:51 GMT</pubDate>
-        <guid isPermaLink="false">hn-48899321</guid>
-      </item>
-<item>
-        <title>Jane-xiaoer/paper-collage-ad-codex</title>
-        <link>https://github.com/Jane-xiaoer/paper-collage-ad-codex</link>
-        <description>完整剪纸拼贴广告制作Codex技能、本地IndexTTS-2语音克隆、动画、音频及MP4质量控制 | 近期热门 | 总 228 stars</description>
-        <author>Jane-xiaoer</author>
-        <category>github</category>
-        <pubDate>Tue, 14 Jul 2026 05:11:49 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-jane-xiaoer-paper-collage-ad-codex</guid>
+        <pubDate>Tue, 14 Jul 2026 18:33:31 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrkzr5aw004ubinxdglyy7rn</guid>
       </item>
   </channel>
 </rss>
