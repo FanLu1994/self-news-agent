@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/15)</title>
+    <title>今日 AI 开发者精选 (2026/7/16)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的简报聚焦于 **AI Coding 工具的实战与进化**。一方面，社区围绕 Codex 生态涌现了大量实用工具，从“越狱”测试到代理任务管理；另一方面，大模型量化技术取得突破，让顶级模型能在消费级设备上运行，为开发者提供了更灵活的部署选择。</description>
+    <description>今天的关键词是“开源与基建”。xAI 开源了 Grok 编程智能体，为开发者提供了一个直接研究顶尖 coding agent 内部机制的机会。同时，多个针对 AI 智能体的底层工具（如内存管理和工作流指南）也相继发布，标志着 Agent 开发正在从“炫技”走向“工程化”。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Jul 2026 05:12:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 05:23:28 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的简报聚焦于 **AI Coding 工具的实战与进化**。一方面，社区围绕 Codex 生态涌现了大量实用工具，从“越狱”测试到代理任务管理；另一方面，大模型量化技术取得突破，让顶级模型能在消费级设备上运行，为开发者提供了更灵活的部署选择。</description>
-        <pubDate>Wed, 15 Jul 2026 05:12:58 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-15T05:12:44.663Z</guid>
+        <description>今天的关键词是“开源与基建”。xAI 开源了 Grok 编程智能体，为开发者提供了一个直接研究顶尖 coding agent 内部机制的机会。同时，多个针对 AI 智能体的底层工具（如内存管理和工作流指南）也相继发布，标志着 Agent 开发正在从“炫技”走向“工程化”。</description>
+        <pubDate>Thu, 16 Jul 2026 05:23:28 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-16T05:23:20.503Z</guid>
       </item>
     <item>
-        <title>herry2059/project-os-for-codex</title>
-        <link>https://github.com/herry2059/project-os-for-codex</link>
-        <description>Codex项目的开源控制平面：基于Git的上下文、可见的代理进度、限定范围的MCP访问、可恢复的工作以及安全交接。 | 近期热门 | 总 104 stars</description>
-        <author>herry2059</author>
+        <title>AlephAITech/WorkBuddyGuide</title>
+        <link>https://github.com/AlephAITech/WorkBuddyGuide</link>
+        <description>A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。 | 近期热门 | 总 855 stars</description>
+        <author>AlephAITech</author>
         <category>github</category>
-        <pubDate>Wed, 15 Jul 2026 05:12:02 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-herry2059-project-os-for-codex</guid>
+        <pubDate>Thu, 16 Jul 2026 05:22:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-alephaitech-workbuddyguide</guid>
       </item>
 <item>
-        <title>开源 LLM TODO Skill&quot;阿福&quot;：用 Claude Code 和 Codex 实现知识管理到排期自动化</title>
-        <link>https://mp.weixin.qq.com/s/QcGHxKohg0gW9e84Nd_9jA</link>
-        <description>作者基于 API 版 Fable5 和 Codex 开发了开源 TODO Skill&quot;阿福&quot;，用于将收件箱中的待办资料自动转为 Markdown 任务卡，识别信息不完整项（如视频链接需通过 yt-dlp 和本地 Whisper 提取字幕），...</description>
-        <author>AI HOT / 公众号：卡尔的AI沃茨</author>
-        <category>aihot</category>
-        <pubDate>Wed, 15 Jul 2026 01:52:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrlg0ucc080qbi2bb8hn7nj3</guid>
+        <title>ucsandman/marketing-studio</title>
+        <link>https://github.com/ucsandman/marketing-studio</link>
+        <description>面向Claude Code的智能体驱动营销工作室：一条/marketing指令即可生成产品全套发布资产（标志揭晓、演示视频、发布宣传片、社交媒体片段、OG资源） | 近期热门 | 总 129 stars</description>
+        <author>ucsandman</author>
+        <category>github</category>
+        <pubDate>Thu, 16 Jul 2026 05:22:44 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ucsandman-marketing-studio</guid>
       </item>
 <item>
         <title>MDX-Tom/gpt-5.6-instruct</title>
         <link>https://github.com/MDX-Tom/gpt-5.6-instruct</link>
-        <description>A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。 | 近期热门 | 总 1070 stars</description>
+        <description>A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。 | 近期热门 | 总 1424 stars</description>
         <author>MDX-Tom</author>
         <category>github</category>
-        <pubDate>Wed, 15 Jul 2026 05:12:02 GMT</pubDate>
+        <pubDate>Thu, 16 Jul 2026 05:22:44 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mdx-tom-gpt-5.6-instruct</guid>
       </item>
 <item>
-        <title>阿里发布 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 语音推理子项中综合排名第一</title>
-        <link>https://mp.weixin.qq.com/s/hFp5rtV8-6KVRrgZoCj03A</link>
-        <description>阿里通义实验室发布实时语音交互模型 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 的 Speech Reasoning 子项中综合排名第一，超越 OpenAI GPT-Realtime-2</description>
-        <author>AI HOT / 公众号：通义实验室（千问）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 15 Jul 2026 02:30:26 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrlh3k0009h8bi2bwjpgkauw</guid>
-      </item>
-<item>
-        <title>发布 HN：Agnost AI（YC S26）——从智能体对话中提取用户反馈</title>
-        <link>https://agnost.ai</link>
-        <description>嘿 HN，我们是 Shubham 和 Parth，从小一起长大的朋友，正在开发 Agnost AI（https://agnost.ai），一款面向构建聊天与语音应用团队的产品分析工具。</description>
-        <author>laalshaitaan</author>
-        <category>hn</category>
-        <pubDate>Tue, 14 Jul 2026 16:06:18 GMT</pubDate>
-        <guid isPermaLink="false">hn-48908950</guid>
-      </item>
-<item>
-        <title>腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能</title>
-        <link>https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw</link>
-        <description>腾讯混元团队为旗舰模型 Hy3（295B 参数）推出量化版本</description>
-        <author>AI HOT / 公众号：腾讯混元</author>
-        <category>aihot</category>
-        <pubDate>Tue, 14 Jul 2026 08:56:07 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrkf8gun01a4bizsthjytx6c</guid>
-      </item>
-<item>
-        <title>Bonsai 27B：首款可在手机上运行的27B级多模态模型</title>
-        <link>https://prismml.com/news/bonsai-27b</link>
-        <description>Bonsai 27B 基于 Qwen3.6 27B，提供三元（1.71 有效比特/权重，5.9 GB）和 1-bit（1.125 有效比特/权重，3.9 GB）两个变体，后者首次将 27B 级模型装入 iPhone 17 Pro</description>
+        <title>开源编程智能体内存方案发布，通过 SSH 同步</title>
+        <link>https://github.com/vshulcz/deja-vu</link>
+        <description>一个面向编程 AI 智能体的开源内存项目在 GitHub 发布，支持通过 SSH 同步记忆数据</description>
         <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Tue, 14 Jul 2026 19:51:19 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrl2m4yg00awbicqo2arojvd</guid>
+        <pubDate>Wed, 15 Jul 2026 22:49:15 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrmotlpp07iubiuloujszkts</guid>
       </item>
 <item>
-        <title>Google 因 AI 训练再遭出版商集体诉讼</title>
-        <link>https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers</link>
-        <description>包括 Hachette、Cengage、Elsevier 及作家 Scott Turow 在内的出版商与作者团体对 Google 提起集体诉讼，指控其未经授权使用受版权保护的作品训练 Gemini 模型，并故意移除或篡改版权信息以掩盖这一行...</description>
-        <author>AI HOT / TechCrunch：AI（RSS）</author>
+        <title>xAI 开源 Grok CLI 代码库中发现 Mermaid 转 Unicode 框图工具</title>
+        <link>https://simonwillison.net/2026/Jul/16/grok-mermaid</link>
+        <description>xAI 开源的 Grok CLI 编码智能体代码库中包含一个用 Rust 编写的 Mermaid 图表示例终端渲染器 `xai-grok-markdown/src/mermaid.rs`</description>
+        <author>AI HOT / Simon Willison 博客</author>
         <category>aihot</category>
-        <pubDate>Tue, 14 Jul 2026 18:33:31 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrkzr5aw004ubinxdglyy7rn</guid>
+        <pubDate>Thu, 16 Jul 2026 00:33:18 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrmsfo5q00f0bimis2t1mbci</guid>
+      </item>
+<item>
+        <title>xAI 开源 Grok Build 编程智能体与终端界面</title>
+        <link>https://x.ai/news/grok-build-open-source</link>
+        <description>xAI 已将 Grok Build 的源代码在 GitHub 上开源</description>
+        <author>AI HOT / xAI：News（网页）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 15 Jul 2026 21:07:41 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrmkn6j703yfbiul4fa0bai9</guid>
+      </item>
+<item>
+        <title>MiniMax Code 2.0 桌面端焕新：底层架构全面升级，金融模块即将上线</title>
+        <link>https://mp.weixin.qq.com/s/mQeBO0xC6Z1R0LqZX5TvNg</link>
+        <description>MiniMax Code 2.0 桌面端发布，基于 Pi Agent 框架重构底层架构，显著提升会话启动速度与长程复杂任务的执行稳定性</description>
+        <author>AI HOT / 公众号：MiniMax（稀宇科技）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 16 Jul 2026 01:36:13 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrmudyvj015jbije15lwn7k2</guid>
+      </item>
+<item>
+        <title>无脑：类似Claude Code、Codex和Grok的Shadcn组件</title>
+        <link>https://brainless.swerdlow.dev</link>
+        <description>无脑：类似Claude Code、Codex和Grok的Shadcn组件</description>
+        <author>benswerd</author>
+        <category>hn</category>
+        <pubDate>Wed, 15 Jul 2026 19:42:53 GMT</pubDate>
+        <guid isPermaLink="false">hn-48926085</guid>
       </item>
   </channel>
 </rss>
