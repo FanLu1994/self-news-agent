@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/16)</title>
+    <title>今日 AI 开发者精选 (2026/7/17)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“开源与基建”。xAI 开源了 Grok 编程智能体，为开发者提供了一个直接研究顶尖 coding agent 内部机制的机会。同时，多个针对 AI 智能体的底层工具（如内存管理和工作流指南）也相继发布，标志着 Agent 开发正在从“炫技”走向“工程化”。</description>
+    <description>今天的简报聚焦于 **编码智能体** 的实用化与评估。我们看到社区在努力解决 Agent 的“记忆”和“工具调用”问题，同时也揭示了企业级智能体在部署到真实环境时面临的可靠性鸿沟。此外，开源模型的训练门槛正在降低，而多模态模型的基准测试也更注重诊断价值。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Jul 2026 05:23:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 05:25:52 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“开源与基建”。xAI 开源了 Grok 编程智能体，为开发者提供了一个直接研究顶尖 coding agent 内部机制的机会。同时，多个针对 AI 智能体的底层工具（如内存管理和工作流指南）也相继发布，标志着 Agent 开发正在从“炫技”走向“工程化”。</description>
-        <pubDate>Thu, 16 Jul 2026 05:23:28 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-16T05:23:20.503Z</guid>
+        <description>今天的简报聚焦于 **编码智能体** 的实用化与评估。我们看到社区在努力解决 Agent 的“记忆”和“工具调用”问题，同时也揭示了企业级智能体在部署到真实环境时面临的可靠性鸿沟。此外，开源模型的训练门槛正在降低，而多模态模型的基准测试也更注重诊断价值。</description>
+        <pubDate>Fri, 17 Jul 2026 05:25:52 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-17T05:25:43.556Z</guid>
       </item>
     <item>
-        <title>AlephAITech/WorkBuddyGuide</title>
-        <link>https://github.com/AlephAITech/WorkBuddyGuide</link>
-        <description>A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。 | 近期热门 | 总 855 stars</description>
-        <author>AlephAITech</author>
-        <category>github</category>
-        <pubDate>Thu, 16 Jul 2026 05:22:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-alephaitech-workbuddyguide</guid>
-      </item>
-<item>
-        <title>ucsandman/marketing-studio</title>
-        <link>https://github.com/ucsandman/marketing-studio</link>
-        <description>面向Claude Code的智能体驱动营销工作室：一条/marketing指令即可生成产品全套发布资产（标志揭晓、演示视频、发布宣传片、社交媒体片段、OG资源） | 近期热门 | 总 129 stars</description>
-        <author>ucsandman</author>
-        <category>github</category>
-        <pubDate>Thu, 16 Jul 2026 05:22:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ucsandman-marketing-studio</guid>
-      </item>
-<item>
-        <title>MDX-Tom/gpt-5.6-instruct</title>
-        <link>https://github.com/MDX-Tom/gpt-5.6-instruct</link>
-        <description>A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。 | 近期热门 | 总 1424 stars</description>
-        <author>MDX-Tom</author>
-        <category>github</category>
-        <pubDate>Thu, 16 Jul 2026 05:22:44 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-mdx-tom-gpt-5.6-instruct</guid>
-      </item>
-<item>
-        <title>开源编程智能体内存方案发布，通过 SSH 同步</title>
+        <title>vshulcz/deja-vu</title>
         <link>https://github.com/vshulcz/deja-vu</link>
-        <description>一个面向编程 AI 智能体的开源内存项目在 GitHub 发布，支持通过 SSH 同步记忆数据</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 15 Jul 2026 22:49:15 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrmotlpp07iubiuloujszkts</guid>
+        <description>编码代理的内存层：搜索、MCP召回、自动上下文、机密编辑、统计、会话日志共享与同步，支持Claude Code、Codex和opencode已写入的内容。一个零依赖的二进制文件。 | 近期热门 | 总 312 stars</description>
+        <author>vshulcz</author>
+        <category>github</category>
+        <pubDate>Fri, 17 Jul 2026 05:25:08 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vshulcz-deja-vu</guid>
       </item>
 <item>
-        <title>xAI 开源 Grok CLI 代码库中发现 Mermaid 转 Unicode 框图工具</title>
-        <link>https://simonwillison.net/2026/Jul/16/grok-mermaid</link>
-        <description>xAI 开源的 Grok CLI 编码智能体代码库中包含一个用 Rust 编写的 Mermaid 图表示例终端渲染器 `xai-grok-markdown/src/mermaid.rs`</description>
-        <author>AI HOT / Simon Willison 博客</author>
-        <category>aihot</category>
-        <pubDate>Thu, 16 Jul 2026 00:33:18 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrmsfo5q00f0bimis2t1mbci</guid>
+        <title>Kappaemme-git/codex-first-customer-finder-skill</title>
+        <link>https://github.com/Kappaemme-git/codex-first-customer-finder-skill</link>
+        <description>一种Codex技能，能从近期公开信号中识别出有证据支持的潜在首批客户。 | 近期热门 | 总 763 stars</description>
+        <author>Kappaemme-git</author>
+        <category>github</category>
+        <pubDate>Fri, 17 Jul 2026 05:25:08 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kappaemme-git-codex-first-customer-finder-skill</guid>
       </item>
 <item>
-        <title>xAI 开源 Grok Build 编程智能体与终端界面</title>
-        <link>https://x.ai/news/grok-build-open-source</link>
-        <description>xAI 已将 Grok Build 的源代码在 GitHub 上开源</description>
-        <author>AI HOT / xAI：News（网页）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 15 Jul 2026 21:07:41 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrmkn6j703yfbiul4fa0bai9</guid>
-      </item>
-<item>
-        <title>MiniMax Code 2.0 桌面端焕新：底层架构全面升级，金融模块即将上线</title>
-        <link>https://mp.weixin.qq.com/s/mQeBO0xC6Z1R0LqZX5TvNg</link>
-        <description>MiniMax Code 2.0 桌面端发布，基于 Pi Agent 框架重构底层架构，显著提升会话启动速度与长程复杂任务的执行稳定性</description>
-        <author>AI HOT / 公众号：MiniMax（稀宇科技）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 16 Jul 2026 01:36:13 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrmudyvj015jbije15lwn7k2</guid>
-      </item>
-<item>
-        <title>无脑：类似Claude Code、Codex和Grok的Shadcn组件</title>
-        <link>https://brainless.swerdlow.dev</link>
-        <description>无脑：类似Claude Code、Codex和Grok的Shadcn组件</description>
-        <author>benswerd</author>
+        <title>LM Studio Bionic：面向开放模型的AI智能体</title>
+        <link>https://lmstudio.ai/blog/introducing-lm-studio-bionic</link>
+        <description>LM Studio Bionic：面向开放模型的AI智能体</description>
+        <author>minimaxir</author>
         <category>hn</category>
-        <pubDate>Wed, 15 Jul 2026 19:42:53 GMT</pubDate>
-        <guid isPermaLink="false">hn-48926085</guid>
+        <pubDate>Thu, 16 Jul 2026 20:18:15 GMT</pubDate>
+        <guid isPermaLink="false">hn-48939662</guid>
+      </item>
+<item>
+        <title>如何在仅有6GB显存的旧款Linux桌面电脑上训练生成式AI底鼓模型</title>
+        <link>https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model</link>
+        <description>如何在拥有6GB显存的旧Linux桌面上训练生成式AI底鼓模型</description>
+        <author>zhinit</author>
+        <category>hn</category>
+        <pubDate>Thu, 16 Jul 2026 15:13:00 GMT</pubDate>
+        <guid isPermaLink="false">hn-48935687</guid>
+      </item>
+<item>
+        <title>Fei-Away/Codex-Dream-Skin</title>
+        <link>https://github.com/Fei-Away/Codex-Dream-Skin</link>
+        <description>Codex 梦境皮肤 | 近期热门 | 总 6610 stars</description>
+        <author>Fei-Away</author>
+        <category>github</category>
+        <pubDate>Fri, 17 Jul 2026 05:25:08 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-fei-away-codex-dream-skin</guid>
+      </item>
+<item>
+        <title>Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准</title>
+        <link>https://www.kimi.com/blog/perception-bench</link>
+        <description>Moonshot AI 发布 PerceptionBench，一个从 40 多个现有基准中模型实际失败案例归纳出的视觉感知基准，包含 10 项原子感知能力和 3000 道验证题</description>
+        <author>AI HOT / Moonshot AI：Kimi Blog</author>
+        <category>aihot</category>
+        <pubDate>Thu, 16 Jul 2026 19:11:01 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrnvwztt01bebixyznbje716</guid>
+      </item>
+<item>
+        <title>企业AI智能体评估存在&quot;现实对齐&quot;缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障</title>
+        <link>https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway</link>
+        <description>对157家企业的调查显示，50%的组织在过去一年曾部署通过内部评估但导致客户故障的AI智能体或大语言模型功能，5%的企业完全信任自动化评估，29%认为评估与现实结果对齐不佳是最大局限</description>
+        <author>AI HOT / VentureBeat：AI（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 16 Jul 2026 16:40:48 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrnrc11901tnbizz2dlcio3z</guid>
+      </item>
+<item>
+        <title>在 Claude Cowork 中使用 Claude Fable 5</title>
+        <link>https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork</link>
+        <description>Anthropic 发布最强通用模型 Claude Fable 5，专为长时间、多步骤的复杂异步工作设计，可在 Claude Cowork 中自主执行深度研究、尽职调查等任务</description>
+        <author>AI HOT / Claude：Blog（网页）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 16 Jul 2026 14:32:22 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrnlyzl3006sbi8v0f80nbaz</guid>
       </item>
   </channel>
 </rss>
