@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/17)</title>
+    <title>今日 AI 开发者精选 (2026/7/18)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的简报聚焦于 **编码智能体** 的实用化与评估。我们看到社区在努力解决 Agent 的“记忆”和“工具调用”问题，同时也揭示了企业级智能体在部署到真实环境时面临的可靠性鸿沟。此外，开源模型的训练门槛正在降低，而多模态模型的基准测试也更注重诊断价值。</description>
+    <description>近期，AI 领域的模型发布和技术探索非常密集，**大模型竞技、高效的代码 Agent 工具、以及更难的智能体基准**成为今天最值得关注的三个方向。开发者可以重点关注 Nvidia 的开源 Embedding 模型、Cursor 的最新模型跑分，以及利用 LLM 进行信息隐藏的新玩法。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 17 Jul 2026 05:25:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 05:08:19 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的简报聚焦于 **编码智能体** 的实用化与评估。我们看到社区在努力解决 Agent 的“记忆”和“工具调用”问题，同时也揭示了企业级智能体在部署到真实环境时面临的可靠性鸿沟。此外，开源模型的训练门槛正在降低，而多模态模型的基准测试也更注重诊断价值。</description>
-        <pubDate>Fri, 17 Jul 2026 05:25:52 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-17T05:25:43.556Z</guid>
+        <description>近期，AI 领域的模型发布和技术探索非常密集，**大模型竞技、高效的代码 Agent 工具、以及更难的智能体基准**成为今天最值得关注的三个方向。开发者可以重点关注 Nvidia 的开源 Embedding 模型、Cursor 的最新模型跑分，以及利用 LLM 进行信息隐藏的新玩法。</description>
+        <pubDate>Sat, 18 Jul 2026 05:08:19 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-18T05:08:09.890Z</guid>
       </item>
     <item>
-        <title>vshulcz/deja-vu</title>
-        <link>https://github.com/vshulcz/deja-vu</link>
-        <description>编码代理的内存层：搜索、MCP召回、自动上下文、机密编辑、统计、会话日志共享与同步，支持Claude Code、Codex和opencode已写入的内容。一个零依赖的二进制文件。 | 近期热门 | 总 312 stars</description>
-        <author>vshulcz</author>
-        <category>github</category>
-        <pubDate>Fri, 17 Jul 2026 05:25:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vshulcz-deja-vu</guid>
-      </item>
-<item>
         <title>Kappaemme-git/codex-first-customer-finder-skill</title>
         <link>https://github.com/Kappaemme-git/codex-first-customer-finder-skill</link>
-        <description>一种Codex技能，能从近期公开信号中识别出有证据支持的潜在首批客户。 | 近期热门 | 总 763 stars</description>
+        <description>一种从近期公开信号中寻找有证据支持的潜在首批客户的Codex技能。 | 近期热门 | 总 793 stars</description>
         <author>Kappaemme-git</author>
         <category>github</category>
-        <pubDate>Fri, 17 Jul 2026 05:25:08 GMT</pubDate>
+        <pubDate>Sat, 18 Jul 2026 05:07:31 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kappaemme-git-codex-first-customer-finder-skill</guid>
       </item>
 <item>
-        <title>LM Studio Bionic：面向开放模型的AI智能体</title>
-        <link>https://lmstudio.ai/blog/introducing-lm-studio-bionic</link>
-        <description>LM Studio Bionic：面向开放模型的AI智能体</description>
-        <author>minimaxir</author>
-        <category>hn</category>
-        <pubDate>Thu, 16 Jul 2026 20:18:15 GMT</pubDate>
-        <guid isPermaLink="false">hn-48939662</guid>
-      </item>
-<item>
-        <title>如何在仅有6GB显存的旧款Linux桌面电脑上训练生成式AI底鼓模型</title>
-        <link>https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model</link>
-        <description>如何在拥有6GB显存的旧Linux桌面上训练生成式AI底鼓模型</description>
-        <author>zhinit</author>
-        <category>hn</category>
-        <pubDate>Thu, 16 Jul 2026 15:13:00 GMT</pubDate>
-        <guid isPermaLink="false">hn-48935687</guid>
+        <title>NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一</title>
+        <link>https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb</link>
+        <description>NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 17 Jul 2026 07:53:02 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmronvv4105bdbitohe86a4un</guid>
       </item>
 <item>
         <title>Fei-Away/Codex-Dream-Skin</title>
         <link>https://github.com/Fei-Away/Codex-Dream-Skin</link>
-        <description>Codex 梦境皮肤 | 近期热门 | 总 6610 stars</description>
+        <description>Codex 梦境皮肤 | 近期热门 | 总 8944 stars</description>
         <author>Fei-Away</author>
         <category>github</category>
-        <pubDate>Fri, 17 Jul 2026 05:25:08 GMT</pubDate>
+        <pubDate>Sat, 18 Jul 2026 05:07:31 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-fei-away-codex-dream-skin</guid>
       </item>
 <item>
-        <title>Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准</title>
-        <link>https://www.kimi.com/blog/perception-bench</link>
-        <description>Moonshot AI 发布 PerceptionBench，一个从 40 多个现有基准中模型实际失败案例归纳出的视觉感知基准，包含 10 项原子感知能力和 3000 道验证题</description>
-        <author>AI HOT / Moonshot AI：Kimi Blog</author>
-        <category>aihot</category>
-        <pubDate>Thu, 16 Jul 2026 19:11:01 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrnvwztt01bebixyznbje716</guid>
+        <title>nethical6/conversation-steganography</title>
+        <link>https://github.com/nethical6/conversation-steganography</link>
+        <description>使用LLM将秘密信息隐藏在看似正常的聊天文本中 | 近期热门 | 总 319 stars</description>
+        <author>nethical6</author>
+        <category>github</category>
+        <pubDate>Sat, 18 Jul 2026 05:07:31 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nethical6-conversation-steganography</guid>
       </item>
 <item>
-        <title>企业AI智能体评估存在&quot;现实对齐&quot;缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障</title>
-        <link>https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway</link>
-        <description>对157家企业的调查显示，50%的组织在过去一年曾部署通过内部评估但导致客户故障的AI智能体或大语言模型功能，5%的企业完全信任自动化评估，29%认为评估与现实结果对齐不佳是最大局限</description>
-        <author>AI HOT / VentureBeat：AI（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 16 Jul 2026 16:40:48 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrnrc11901tnbizz2dlcio3z</guid>
-      </item>
-<item>
-        <title>在 Claude Cowork 中使用 Claude Fable 5</title>
-        <link>https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork</link>
-        <description>Anthropic 发布最强通用模型 Claude Fable 5，专为长时间、多步骤的复杂异步工作设计，可在 Claude Cowork 中自主执行深度研究、尽职调查等任务</description>
+        <title>Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高</title>
+        <link>https://claude.com/blog/working-at-the-frontier-cursor</link>
+        <description>Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高</description>
         <author>AI HOT / Claude：Blog（网页）</author>
         <category>aihot</category>
-        <pubDate>Thu, 16 Jul 2026 14:32:22 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrnlyzl3006sbi8v0f80nbaz</guid>
+        <pubDate>Fri, 17 Jul 2026 16:32:51 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrp5pfjw0af6bitoudv35oqk</guid>
+      </item>
+<item>
+        <title>美团LongCat发布LoHoSearch：更难搜索智能体基准</title>
+        <link>https://x.com/Meituan_LongCat/status/2078119654632124547</link>
+        <description>美团LongCat推出LoHoSearch，一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决BrowseComp等现有基准趋于饱和的问题</description>
+        <author>AI HOT / X：美团 LongCat (@Meituan_LongCat)</author>
+        <category>aihot</category>
+        <pubDate>Fri, 17 Jul 2026 14:08:29 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrp0qw3s090ybitorwj6diwi</guid>
+      </item>
+<item>
+        <title>首届&quot;小有可为&quot;大赛乡村教育一等奖作品&quot;智绘科普&quot;技术拆解</title>
+        <link>https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ</link>
+        <description>首届&quot;小有可为&quot;大赛乡村教育赛道一等奖作品&quot;智绘科普&quot;采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画</description>
+        <author>AI HOT / 公众号：通义实验室（千问）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 17 Jul 2026 09:41:25 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrorbywu06cebitoixzgpb5l</guid>
+      </item>
+<item>
+        <title>八天四款前沿模型发布，Kimi K3 跻身第三</title>
+        <link>https://x.com/ArtificialAnlys/status/2078165665278730490</link>
+        <description>过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis Intelligence Index 得分超 50 的实验室从 6 月初的 2...</description>
+        <author>AI HOT / X：Artificial Analysis (@ArtificialAnlys)</author>
+        <category>aihot</category>
+        <pubDate>Fri, 17 Jul 2026 17:11:19 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrp7cwpv0ay9bitoudhrgt7k</guid>
       </item>
   </channel>
 </rss>
