@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/18)</title>
+    <title>今日 AI 开发者精选 (2026/7/19)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>近期，AI 领域的模型发布和技术探索非常密集，**大模型竞技、高效的代码 Agent 工具、以及更难的智能体基准**成为今天最值得关注的三个方向。开发者可以重点关注 Nvidia 的开源 Embedding 模型、Cursor 的最新模型跑分，以及利用 LLM 进行信息隐藏的新玩法。</description>
+    <description>今天的资讯焦点清晰地指向了 **AI Coding 的工程化落地**：从用 Claude Code 控制你的 Mac，到一键优化 Codex 工作流，再到用于量化交易的多智能体框架。同时，本地化、高性能的模型部署工具（如 transcribe.cpp）和端侧算力的崛起，也预示着模型应用正从云端走向边缘。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 18 Jul 2026 05:08:19 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 05:34:21 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>近期，AI 领域的模型发布和技术探索非常密集，**大模型竞技、高效的代码 Agent 工具、以及更难的智能体基准**成为今天最值得关注的三个方向。开发者可以重点关注 Nvidia 的开源 Embedding 模型、Cursor 的最新模型跑分，以及利用 LLM 进行信息隐藏的新玩法。</description>
-        <pubDate>Sat, 18 Jul 2026 05:08:19 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-18T05:08:09.890Z</guid>
+        <description>今天的资讯焦点清晰地指向了 **AI Coding 的工程化落地**：从用 Claude Code 控制你的 Mac，到一键优化 Codex 工作流，再到用于量化交易的多智能体框架。同时，本地化、高性能的模型部署工具（如 transcribe.cpp）和端侧算力的崛起，也预示着模型应用正从云端走向边缘。</description>
+        <pubDate>Sun, 19 Jul 2026 05:34:21 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-19T05:34:14.701Z</guid>
       </item>
     <item>
-        <title>Kappaemme-git/codex-first-customer-finder-skill</title>
-        <link>https://github.com/Kappaemme-git/codex-first-customer-finder-skill</link>
-        <description>一种从近期公开信号中寻找有证据支持的潜在首批客户的Codex技能。 | 近期热门 | 总 793 stars</description>
-        <author>Kappaemme-git</author>
+        <title>PengZhang64/circuit-framework</title>
+        <link>https://github.com/PengZhang64/circuit-framework</link>
+        <description>电路框架——多智能体LLM交易研究系统 | 近期热门 | 总 483 stars</description>
+        <author>PengZhang64</author>
         <category>github</category>
-        <pubDate>Sat, 18 Jul 2026 05:07:31 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kappaemme-git-codex-first-customer-finder-skill</guid>
+        <pubDate>Sun, 19 Jul 2026 05:33:48 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-pengzhang64-circuit-framework</guid>
       </item>
 <item>
-        <title>NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一</title>
-        <link>https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb</link>
-        <description>NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
+        <title>何夕2077 AI 深度信号周报 (2026 W29) | 全球治理撕裂、Claude 信任危机与端侧算力觉醒</title>
+        <link>https://hex2077.dev/zh-CN/blog/weekly/2026-07-19-hexi-2077-ai-signal-weekly-2026-w29/</link>
+        <description>本周AI深度信号聚焦：WAIC治理峰会与美国「金鹰计划」凸显全球AI治理的双向撕裂；Anthropic因封号、隐私漏洞与计费争议遭遇信任危机；月之暗面发布 Kimi K3 推动大模型军备竞赛；此外，端侧大模型取得实用突破，智能体安全防线亮起红灯。...</description>
+        <author>HEX2077</author>
+        <category>hex2077</category>
+        <pubDate>Sun, 19 Jul 2026 03:42:47 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-715109062</guid>
+      </item>
+<item>
+        <title>transcribe.cpp 发布：基于 ggml 的跨平台语音转录库，支持 16 个 ASR 模型族</title>
+        <link>https://workshop.cjpais.com/projects/transcribe-cpp</link>
+        <description>transcribe.cpp v0.1.0 发布，一个基于 ggml 的语音转录库，支持 16 个 ASR 模型族（60+ 模型），并通过 Vulkan、Metal、CUDA 和 TinyBLAS 实现 GPU 加速</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Fri, 17 Jul 2026 07:53:02 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmronvv4105bdbitohe86a4un</guid>
+        <pubDate>Sun, 19 Jul 2026 02:49:15 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrr7sdid02ybbi18afm9lr2i</guid>
       </item>
 <item>
-        <title>Fei-Away/Codex-Dream-Skin</title>
-        <link>https://github.com/Fei-Away/Codex-Dream-Skin</link>
-        <description>Codex 梦境皮肤 | 近期热门 | 总 8944 stars</description>
-        <author>Fei-Away</author>
-        <category>github</category>
-        <pubDate>Sat, 18 Jul 2026 05:07:31 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-fei-away-codex-dream-skin</guid>
+        <title>为备用Mac设置Claude Code控制的分步指南</title>
+        <link>https://ykdojo.github.io/claude-controls-mac/</link>
+        <description>为备用Mac配置Claude Code进行控制的逐步指南</description>
+        <author>ykev</author>
+        <category>hn</category>
+        <pubDate>Sat, 18 Jul 2026 16:12:08 GMT</pubDate>
+        <guid isPermaLink="false">hn-48959392</guid>
       </item>
 <item>
-        <title>nethical6/conversation-steganography</title>
-        <link>https://github.com/nethical6/conversation-steganography</link>
-        <description>使用LLM将秘密信息隐藏在看似正常的聊天文本中 | 近期热门 | 总 319 stars</description>
-        <author>nethical6</author>
-        <category>github</category>
-        <pubDate>Sat, 18 Jul 2026 05:07:31 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nethical6-conversation-steganography</guid>
+        <title>LLM集成多变量微积分课程</title>
+        <link>https://calculus.academa.ai/</link>
+        <description>LLM集成多变量微积分课程</description>
+        <author>sinaatalay</author>
+        <category>hn</category>
+        <pubDate>Sun, 19 Jul 2026 02:55:43 GMT</pubDate>
+        <guid isPermaLink="false">hn-48964585</guid>
       </item>
 <item>
-        <title>Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高</title>
-        <link>https://claude.com/blog/working-at-the-frontier-cursor</link>
-        <description>Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高</description>
-        <author>AI HOT / Claude：Blog（网页）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 17 Jul 2026 16:32:51 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrp5pfjw0af6bitoudv35oqk</guid>
+        <title>AI对StackOverflow的影响（图表版）</title>
+        <link>https://data.stackexchange.com/stackoverflow/query/1953768#graph</link>
+        <description>AI对StackOverflow的影响（图表版）</description>
+        <author>secretslol</author>
+        <category>hn</category>
+        <pubDate>Sat, 18 Jul 2026 11:12:46 GMT</pubDate>
+        <guid isPermaLink="false">hn-48956949</guid>
       </item>
 <item>
-        <title>美团LongCat发布LoHoSearch：更难搜索智能体基准</title>
-        <link>https://x.com/Meituan_LongCat/status/2078119654632124547</link>
-        <description>美团LongCat推出LoHoSearch，一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决BrowseComp等现有基准趋于饱和的问题</description>
-        <author>AI HOT / X：美团 LongCat (@Meituan_LongCat)</author>
-        <category>aihot</category>
-        <pubDate>Fri, 17 Jul 2026 14:08:29 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrp0qw3s090ybitorwj6diwi</guid>
+        <title>为什么AI公司的标志看起来像肛门？（2025）</title>
+        <link>https://velvetshark.com/ai-company-logos-that-look-like-buttholes</link>
+        <description>为什么AI公司的Logo看起来像屁眼？（2025）</description>
+        <author>miniBill</author>
+        <category>hn</category>
+        <pubDate>Sat, 18 Jul 2026 11:06:50 GMT</pubDate>
+        <guid isPermaLink="false">hn-48956924</guid>
       </item>
 <item>
-        <title>首届&quot;小有可为&quot;大赛乡村教育一等奖作品&quot;智绘科普&quot;技术拆解</title>
-        <link>https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ</link>
-        <description>首届&quot;小有可为&quot;大赛乡村教育赛道一等奖作品&quot;智绘科普&quot;采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画</description>
-        <author>AI HOT / 公众号：通义实验室（千问）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 17 Jul 2026 09:41:25 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrorbywu06cebitoixzgpb5l</guid>
-      </item>
-<item>
-        <title>八天四款前沿模型发布，Kimi K3 跻身第三</title>
-        <link>https://x.com/ArtificialAnlys/status/2078165665278730490</link>
-        <description>过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis Intelligence Index 得分超 50 的实验室从 6 月初的 2...</description>
-        <author>AI HOT / X：Artificial Analysis (@ArtificialAnlys)</author>
-        <category>aihot</category>
-        <pubDate>Fri, 17 Jul 2026 17:11:19 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrp7cwpv0ay9bitoudhrgt7k</guid>
+        <title>[分享创造] 深度体验了一下前两天火热的 codex 换肤，优化了一下整体的流程</title>
+        <link>https://www.v2ex.com/t/1228334#reply0</link>
+        <description>[分享创造] 深度体验了一下前两天火热的 codex 换肤，优化了一下整体的流程 — 我之前用开源的项目，在本地用 codex 折腾了 2h ，现在只需要 1 分钟 每次运行 codex 都要重启，重启之后任务会中断，中断之后换肤可能会失败 无须下载啥，在网页预览之...</description>
+        <author>Ve2x</author>
+        <category>ve2x</category>
+        <pubDate>Sun, 19 Jul 2026 05:18:29 GMT</pubDate>
+        <guid isPermaLink="false">rss-2-1681913758</guid>
       </item>
   </channel>
 </rss>
