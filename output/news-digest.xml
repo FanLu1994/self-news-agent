@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/21)</title>
+    <title>今日 AI 开发者精选 (2026/7/22)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是“边缘与开源”。NVIDIA 开源了专为边缘设备设计的世界模型，将实时推理和动作生成能力带到机器人领域。同时，几个极具实用价值的开源项目登上 GitHub 热门，包括一个能把图片变成 Three.js 代码的工具，以及一个能“隐身”于 macOS 屏幕的 AI 副驾驶，这些都值得开发者亲自动手试试。</description>
+    <description>今天的信息流显示，AI 开发的工具箱正在快速扩展，主要体现在两个方向：一是围绕 **MCP (Model Context Protocol)** 生态的工具和项目正在涌现，极大地方便了 AI 智能体与外部数据（如实时体育数据、代码仓库）的交互；二是巨头们（Google、OpenAI）在**智能体的后训练与对齐**上发布了新研究和开源库，这直接关系到如何让 LLM 更可靠地执行复杂任务。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Jul 2026 05:32:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 05:32:06 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是“边缘与开源”。NVIDIA 开源了专为边缘设备设计的世界模型，将实时推理和动作生成能力带到机器人领域。同时，几个极具实用价值的开源项目登上 GitHub 热门，包括一个能把图片变成 Three.js 代码的工具，以及一个能“隐身”于 macOS 屏幕的 AI 副驾驶，这些都值得开发者亲自动手试试。</description>
-        <pubDate>Tue, 21 Jul 2026 05:32:57 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-21T05:32:46.355Z</guid>
+        <description>今天的信息流显示，AI 开发的工具箱正在快速扩展，主要体现在两个方向：一是围绕 **MCP (Model Context Protocol)** 生态的工具和项目正在涌现，极大地方便了 AI 智能体与外部数据（如实时体育数据、代码仓库）的交互；二是巨头们（Google、OpenAI）在**智能体的后训练与对齐**上发布了新研究和开源库，这直接关系到如何让 LLM 更可靠地执行复杂任务。</description>
+        <pubDate>Wed, 22 Jul 2026 05:32:06 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-22T05:31:54.387Z</guid>
       </item>
     <item>
-        <title>NVIDIA 发布 Cosmos 3 Edge：4B 参数开源世界模型，为机器人及边缘 AI 提供实时推理与动作生成</title>
-        <link>https://huggingface.co/blog/nvidia/cosmos3edge</link>
-        <description>NVIDIA 在 Hugging Face 上开源了 Cosmos 3 Edge，一个 40 亿参数的世界模型，旨在帮助机器人和视觉 AI 智能体在边缘设备上理解环境、实时推理并生成动作</description>
-        <author>AI HOT / Hugging Face：Blog（RSS）</author>
+        <title>livetennisapi/livetennisapi-mcp</title>
+        <link>https://github.com/livetennisapi/livetennisapi-mcp</link>
+        <description>用于Live Tennis API的MCP服务器——为Claude、Cursor及其他LLM智能体提供实时网球比分、赔率和模型获胜概率 | 近期热门 | 总 249 stars</description>
+        <author>livetennisapi</author>
+        <category>github</category>
+        <pubDate>Wed, 22 Jul 2026 05:31:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-livetennisapi-livetennisapi-mcp</guid>
+      </item>
+<item>
+        <title>EthanXiang777/circuit-framework</title>
+        <link>https://github.com/EthanXiang777/circuit-framework</link>
+        <description>电路框架——多智能体LLM交易研究系统 | 近期热门 | 总 487 stars</description>
+        <author>EthanXiang777</author>
+        <category>github</category>
+        <pubDate>Wed, 22 Jul 2026 05:31:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ethanxiang777-circuit-framework</guid>
+      </item>
+<item>
+        <title>Vincentwei1021/video-shotcraft</title>
+        <link>https://github.com/Vincentwei1021/video-shotcraft</link>
+        <description>Claude Code &amp; Codex 的 AI 视频技能——使用 Remotion 制作电影级产品视频：106 张镜头配方卡、161 个运动预览、一个生产就绪模板 | 近期热门 | 总 454 stars</description>
+        <author>Vincentwei1021</author>
+        <category>github</category>
+        <pubDate>Wed, 22 Jul 2026 05:31:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vincentwei1021-video-shotcraft</guid>
+      </item>
+<item>
+        <title>Google 推出 Tunix：基于 JAX 的高吞吐智能体后训练库</title>
+        <link>https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix</link>
+        <description>Google 发布 Tunix，一个基于 JAX 的原生后训练库，旨在消除多轮、使用工具的 LLM 推理智能体训练中的 TPU 闲置瓶颈</description>
+        <author>AI HOT / Google Developers Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Mon, 20 Jul 2026 15:58:51 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrtgmuyf3366bitl3gnpc8eo</guid>
+        <pubDate>Tue, 21 Jul 2026 16:00:05 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmruuc0d80006bii0tzwael16</guid>
       </item>
 <item>
-        <title>hoainho/img2threejs</title>
-        <link>https://github.com/hoainho/img2threejs</link>
-        <description>在参考图像中重建对象，作为纯代码、程序化、质量受控、可动画化的Three.js模型。令牌高效的图像到3D转换。 | 近期热门 | 总 1136 stars</description>
-        <author>hoainho</author>
-        <category>github</category>
-        <pubDate>Tue, 21 Jul 2026 05:32:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hoainho-img2threejs</guid>
+        <title>OpenAI 发布奖励寻求行为新研究</title>
+        <link>https://x.com/OpenAI/status/2079628886950994005</link>
+        <description>我们正与 @apolloaievals 分享关于奖励寻求行为的新研究--即模型遵循其认为评分者奖励的内容，而非用户或开发者期望的内容--以及一种新方法 Contrastive SDF，用于衡量这些信念对行为的影响程度</description>
+        <author>AI HOT / X：OpenAI (@OpenAI)</author>
+        <category>aihot</category>
+        <pubDate>Tue, 21 Jul 2026 18:05:38 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmruzdnzo00vpbinv65us569l</guid>
       </item>
 <item>
-        <title>Blueturboguy07/cue</title>
-        <link>https://github.com/Blueturboguy07/cue</link>
-        <description>开源macOS AI副驾驶，悬浮于屏幕之上，能看能听会议内容，且在屏幕共享时保持隐藏。Cluely替代方案，自带密钥。 | 近期热门 | 总 669 stars</description>
-        <author>Blueturboguy07</author>
-        <category>github</category>
-        <pubDate>Tue, 21 Jul 2026 05:32:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-blueturboguy07-cue</guid>
+        <title>Meta的AI模型正在为创世纪使命项目的第一波提供动力。</title>
+        <link>https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1</link>
+        <description>https://www.energy.gov/undersecretaryforscience/ge...</description>
+        <author>surprisetalk</author>
+        <category>hn</category>
+        <pubDate>Tue, 21 Jul 2026 17:03:18 GMT</pubDate>
+        <guid isPermaLink="false">hn-48995074</guid>
       </item>
 <item>
         <title>yc-duan/fastctx</title>
         <link>https://github.com/yc-duan/fastctx</link>
-        <description>面向AI代理的快速、上下文高效仓库工具（MCP） | 近期热门 | 总 203 stars</description>
+        <description>面向AI代理的快速、上下文高效仓库工具（MCP） | 近期热门 | 总 288 stars</description>
         <author>yc-duan</author>
         <category>github</category>
-        <pubDate>Tue, 21 Jul 2026 05:32:08 GMT</pubDate>
+        <pubDate>Wed, 22 Jul 2026 05:31:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-yc-duan-fastctx</guid>
       </item>
 <item>
-        <title>0xsline/OpenChatCut</title>
-        <link>https://github.com/0xsline/OpenChatCut</link>
-        <description>本地优先的对话式AI视频编辑器，配备专业多轨时间线、代理技能、MCP集成以及基于Remotion的渲染功能。 | 近期热门 | 总 130 stars</description>
-        <author>0xsline</author>
-        <category>github</category>
-        <pubDate>Tue, 21 Jul 2026 05:32:08 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-0xsline-openchatcut</guid>
-      </item>
-<item>
-        <title>一个随机数就能识别AI模型身份：行为指纹技术可检测API中转站偷换模型</title>
-        <link>https://mp.weixin.qq.com/s/pqFZreEZj8kB4KDirl4MSQ</link>
-        <description>布拉格经济大学研究员托马什·布鲁克纳发现，通过让模型反复输出1到100的随机数，可生成独一无二的&quot;行为指纹&quot;</description>
-        <author>AI HOT / 公众号：数字生命卡兹克</author>
+        <title>美国威胁因知识产权盗窃对中国AI模型实施制裁</title>
+        <link>https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft</link>
+        <description>美国财政部长Scott Bessent周二表示，美方将审查中国开源模型是否存在知识产权盗窃行为，若证实将对中国AI公司实施制裁</description>
+        <author>AI HOT / TechCrunch：AI（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 21 Jul 2026 01:10:49 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrtyvkng3voibihzero6pry1</guid>
-      </item>
-<item>
-        <title>《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》</title>
-        <link>https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation</link>
-        <description>Neill Blomkamp发布了13分钟科幻恐怖短片《Nightborne》，完全使用Seedance 2.0视频生成模型通过文本提示逐帧创作</description>
-        <author>AI HOT / The Decoder：AI News（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Mon, 20 Jul 2026 17:32:41 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrtirgkp3n0ybitlf25zqtwv</guid>
-      </item>
-<item>
-        <title>通义实验室发布 Qwen-Audio-3.0-TTS 实时语音合成模型</title>
-        <link>https://mp.weixin.qq.com/s/INvrqTrWLMm2WCLIqhqTrg</link>
-        <description>通义实验室发布 Qwen-Audio-3.0-TTS，含 Flash（首包延迟约300ms）和 Plus 两个版本</description>
-        <author>AI HOT / 公众号：通义实验室（千问）</author>
-        <category>aihot</category>
-        <pubDate>Mon, 20 Jul 2026 08:53:11 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrt0856a09v9bitl62e4r17b</guid>
+        <pubDate>Tue, 21 Jul 2026 15:37:05 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmruu1gjc00bmbijq6ha16nyl</guid>
       </item>
   </channel>
 </rss>
