@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/22)</title>
+    <title>今日 AI 开发者精选 (2026/7/23)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息流显示，AI 开发的工具箱正在快速扩展，主要体现在两个方向：一是围绕 **MCP (Model Context Protocol)** 生态的工具和项目正在涌现，极大地方便了 AI 智能体与外部数据（如实时体育数据、代码仓库）的交互；二是巨头们（Google、OpenAI）在**智能体的后训练与对齐**上发布了新研究和开源库，这直接关系到如何让 LLM 更可靠地执行复杂任务。</description>
+    <description>AI 开发者的工具链正在从“单点突破”走向“系统集成”。**MCP 协议**让 AI 智能体能够实时接入外部数据（如体育比分），而 **Codex/Claude Code** 生态则催生了从视频制作、桌面工具到多 Agent 协作工作台的完整解决方案。同时，微软和小红书相继开源了面向 Agent 和多模态训练的关键模型，表明开源正成为技术落地的核心驱动力。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Jul 2026 05:32:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 05:37:52 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息流显示，AI 开发的工具箱正在快速扩展，主要体现在两个方向：一是围绕 **MCP (Model Context Protocol)** 生态的工具和项目正在涌现，极大地方便了 AI 智能体与外部数据（如实时体育数据、代码仓库）的交互；二是巨头们（Google、OpenAI）在**智能体的后训练与对齐**上发布了新研究和开源库，这直接关系到如何让 LLM 更可靠地执行复杂任务。</description>
-        <pubDate>Wed, 22 Jul 2026 05:32:06 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-22T05:31:54.387Z</guid>
+        <description>AI 开发者的工具链正在从“单点突破”走向“系统集成”。**MCP 协议**让 AI 智能体能够实时接入外部数据（如体育比分），而 **Codex/Claude Code** 生态则催生了从视频制作、桌面工具到多 Agent 协作工作台的完整解决方案。同时，微软和小红书相继开源了面向 Agent 和多模态训练的关键模型，表明开源正成为技术落地的核心驱动力。</description>
+        <pubDate>Thu, 23 Jul 2026 05:37:52 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-23T05:37:43.349Z</guid>
       </item>
     <item>
         <title>livetennisapi/livetennisapi-mcp</title>
         <link>https://github.com/livetennisapi/livetennisapi-mcp</link>
-        <description>用于Live Tennis API的MCP服务器——为Claude、Cursor及其他LLM智能体提供实时网球比分、赔率和模型获胜概率 | 近期热门 | 总 249 stars</description>
+        <description>MCP服务器用于Live Tennis API — 为Claude、Cursor及其他LLM智能体提供实时网球比分、赔率和模型胜率预测 | 近期热门 | 总 271 stars</description>
         <author>livetennisapi</author>
         <category>github</category>
-        <pubDate>Wed, 22 Jul 2026 05:31:20 GMT</pubDate>
+        <pubDate>Thu, 23 Jul 2026 05:37:04 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-livetennisapi-livetennisapi-mcp</guid>
       </item>
 <item>
-        <title>EthanXiang777/circuit-framework</title>
-        <link>https://github.com/EthanXiang777/circuit-framework</link>
-        <description>电路框架——多智能体LLM交易研究系统 | 近期热门 | 总 487 stars</description>
-        <author>EthanXiang777</author>
+        <title>duxweb/ReTheme</title>
+        <link>https://github.com/duxweb/ReTheme</link>
+        <description>🎨 为 ChatGPT、Codex 桌面端打造的安全、可更新、社区驱动主题换肤软件。Open-source desktop theme manager and runtime for ChatGPT | 近期热门 | 总 114 stars</description>
+        <author>duxweb</author>
         <category>github</category>
-        <pubDate>Wed, 22 Jul 2026 05:31:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ethanxiang777-circuit-framework</guid>
+        <pubDate>Thu, 23 Jul 2026 05:37:04 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-duxweb-retheme</guid>
+      </item>
+<item>
+        <title>MUD能否评估LLM？一个99美元的概念验证</title>
+        <link>https://cruciblebench.ai/</link>
+        <description>我是一篇论文的作者，我和朋友们出于好奇，想探究起源于20世纪70年代的MUD（多用户地牢）这类文字游戏能否用于评估大语言模型，于是撰写了这篇论文。过去几个月里，我们一直致力于……</description>
+        <author>Davisb135</author>
+        <category>hn</category>
+        <pubDate>Wed, 22 Jul 2026 15:39:01 GMT</pubDate>
+        <guid isPermaLink="false">hn-49008538</guid>
       </item>
 <item>
         <title>Vincentwei1021/video-shotcraft</title>
         <link>https://github.com/Vincentwei1021/video-shotcraft</link>
-        <description>Claude Code &amp; Codex 的 AI 视频技能——使用 Remotion 制作电影级产品视频：106 张镜头配方卡、161 个运动预览、一个生产就绪模板 | 近期热门 | 总 454 stars</description>
+        <description>面向Claude Code与Codex的AI视频技能——基于Remotion的电影级产品视频：106张镜头配方卡、161个运动预览、一个生产就绪模板 | 近期热门 | 总 560 stars</description>
         <author>Vincentwei1021</author>
         <category>github</category>
-        <pubDate>Wed, 22 Jul 2026 05:31:20 GMT</pubDate>
+        <pubDate>Thu, 23 Jul 2026 05:37:04 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vincentwei1021-video-shotcraft</guid>
       </item>
 <item>
-        <title>Google 推出 Tunix：基于 JAX 的高吞吐智能体后训练库</title>
-        <link>https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix</link>
-        <description>Google 发布 Tunix，一个基于 JAX 的原生后训练库，旨在消除多轮、使用工具的 LLM 推理智能体训练中的 TPU 闲置瓶颈</description>
-        <author>AI HOT / Google Developers Blog（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Tue, 21 Jul 2026 16:00:05 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmruuc0d80006bii0tzwael16</guid>
-      </item>
-<item>
-        <title>OpenAI 发布奖励寻求行为新研究</title>
-        <link>https://x.com/OpenAI/status/2079628886950994005</link>
-        <description>我们正与 @apolloaievals 分享关于奖励寻求行为的新研究--即模型遵循其认为评分者奖励的内容，而非用户或开发者期望的内容--以及一种新方法 Contrastive SDF，用于衡量这些信念对行为的影响程度</description>
-        <author>AI HOT / X：OpenAI (@OpenAI)</author>
-        <category>aihot</category>
-        <pubDate>Tue, 21 Jul 2026 18:05:38 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmruzdnzo00vpbinv65us569l</guid>
-      </item>
-<item>
-        <title>Meta的AI模型正在为创世纪使命项目的第一波提供动力。</title>
-        <link>https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1</link>
-        <description>https://www.energy.gov/undersecretaryforscience/ge...</description>
-        <author>surprisetalk</author>
-        <category>hn</category>
-        <pubDate>Tue, 21 Jul 2026 17:03:18 GMT</pubDate>
-        <guid isPermaLink="false">hn-48995074</guid>
-      </item>
-<item>
-        <title>yc-duan/fastctx</title>
-        <link>https://github.com/yc-duan/fastctx</link>
-        <description>面向AI代理的快速、上下文高效仓库工具（MCP） | 近期热门 | 总 288 stars</description>
-        <author>yc-duan</author>
+        <title>MadsGao/frakio-work</title>
+        <link>https://github.com/MadsGao/frakio-work</link>
+        <description>Frakio Work = Codex + Hermes + Arc + XXX  —— 以多 Agent 协作为核心的超级缝合工作台 | 近期热门 | 总 49 stars</description>
+        <author>MadsGao</author>
         <category>github</category>
-        <pubDate>Wed, 22 Jul 2026 05:31:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-yc-duan-fastctx</guid>
+        <pubDate>Thu, 23 Jul 2026 05:37:04 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-madsgao-frakio-work</guid>
       </item>
 <item>
-        <title>美国威胁因知识产权盗窃对中国AI模型实施制裁</title>
-        <link>https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft</link>
-        <description>美国财政部长Scott Bessent周二表示，美方将审查中国开源模型是否存在知识产权盗窃行为，若证实将对中国AI公司实施制裁</description>
-        <author>AI HOT / TechCrunch：AI（RSS）</author>
+        <title>powerycy/goutoujunshi</title>
+        <link>https://github.com/powerycy/goutoujunshi</link>
+        <description>一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。 | 近期热门 | 总 558 stars</description>
+        <author>powerycy</author>
+        <category>github</category>
+        <pubDate>Thu, 23 Jul 2026 05:37:04 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-powerycy-goutoujunshi</guid>
+      </item>
+<item>
+        <title>微软 MagenticLite 模型全面开源</title>
+        <link>https://x.com/MSFTResearch/status/2079989338994069511</link>
+        <description>MagenticLite 的模型现已完全开源</description>
+        <author>AI HOT / X：Microsoft Research (@MSFTResearch)</author>
         <category>aihot</category>
-        <pubDate>Tue, 21 Jul 2026 15:37:05 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmruu1gjc00bmbijq6ha16nyl</guid>
+        <pubDate>Wed, 22 Jul 2026 17:57:57 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrweu9dz014froj0gj35xvw9</guid>
+      </item>
+<item>
+        <title>小红书开源 BigMac：多模态大模型训练新范式</title>
+        <link>https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row</link>
+        <description>小红书技术团队开源 BigMac，一种针对多模态大模型训练的依赖安全嵌套流水线新范式</description>
+        <author>AI HOT / 公众号：小红书技术（dots.llm）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 22 Jul 2026 10:04:51 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrvx8ycy0240bipz0pkrvryq</guid>
       </item>
   </channel>
 </rss>
