@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/23)</title>
+    <title>今日 AI 开发者精选 (2026/7/24)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>AI 开发者的工具链正在从“单点突破”走向“系统集成”。**MCP 协议**让 AI 智能体能够实时接入外部数据（如体育比分），而 **Codex/Claude Code** 生态则催生了从视频制作、桌面工具到多 Agent 协作工作台的完整解决方案。同时，微软和小红书相继开源了面向 Agent 和多模态训练的关键模型，表明开源正成为技术落地的核心驱动力。</description>
+    <description>今天的亮点集中在 **AI 代理（Agent）与工具链的融合** 上。一方面，开源项目正被赋予“Agent 可驱动”的能力，比如用 MCP 协议控制视频编辑器；另一方面，行业大佬也在强调，AI 的真正价值不在于消耗了多少 Token，而在于如何通过 Coding Agent 等工程框架，将模型能力转化为生产力。此外，围绕开源模型的全球供应链博弈也出现了新动向。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 23 Jul 2026 05:37:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 05:33:03 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>AI 开发者的工具链正在从“单点突破”走向“系统集成”。**MCP 协议**让 AI 智能体能够实时接入外部数据（如体育比分），而 **Codex/Claude Code** 生态则催生了从视频制作、桌面工具到多 Agent 协作工作台的完整解决方案。同时，微软和小红书相继开源了面向 Agent 和多模态训练的关键模型，表明开源正成为技术落地的核心驱动力。</description>
-        <pubDate>Thu, 23 Jul 2026 05:37:52 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-23T05:37:43.349Z</guid>
+        <description>今天的亮点集中在 **AI 代理（Agent）与工具链的融合** 上。一方面，开源项目正被赋予“Agent 可驱动”的能力，比如用 MCP 协议控制视频编辑器；另一方面，行业大佬也在强调，AI 的真正价值不在于消耗了多少 Token，而在于如何通过 Coding Agent 等工程框架，将模型能力转化为生产力。此外，围绕开源模型的全球供应链博弈也出现了新动向。</description>
+        <pubDate>Fri, 24 Jul 2026 05:33:03 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-24T05:32:52.566Z</guid>
       </item>
     <item>
-        <title>livetennisapi/livetennisapi-mcp</title>
-        <link>https://github.com/livetennisapi/livetennisapi-mcp</link>
-        <description>MCP服务器用于Live Tennis API — 为Claude、Cursor及其他LLM智能体提供实时网球比分、赔率和模型胜率预测 | 近期热门 | 总 271 stars</description>
-        <author>livetennisapi</author>
+        <title>pireel/pireel</title>
+        <link>https://github.com/pireel/pireel</link>
+        <description>开源、无后端的AI视频编辑器，用于生成人物讲话视频——支持故事板、设计图形、动态字幕、主题以及基于浏览器WebCodecs的导出功能。可通过MCP由任意AI智能体驱动。 | 近期热门 | 总 670 stars</description>
+        <author>pireel</author>
         <category>github</category>
-        <pubDate>Thu, 23 Jul 2026 05:37:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-livetennisapi-livetennisapi-mcp</guid>
+        <pubDate>Fri, 24 Jul 2026 05:32:13 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-pireel-pireel</guid>
       </item>
 <item>
         <title>duxweb/ReTheme</title>
         <link>https://github.com/duxweb/ReTheme</link>
-        <description>🎨 为 ChatGPT、Codex 桌面端打造的安全、可更新、社区驱动主题换肤软件。Open-source desktop theme manager and runtime for ChatGPT | 近期热门 | 总 114 stars</description>
+        <description>🎨 为 ChatGPT、Codex 桌面端打造的安全、可更新、社区驱动主题换肤软件。Open-source desktop theme manager and runtime for ChatGPT | 近期热门 | 总 119 stars</description>
         <author>duxweb</author>
         <category>github</category>
-        <pubDate>Thu, 23 Jul 2026 05:37:04 GMT</pubDate>
+        <pubDate>Fri, 24 Jul 2026 05:32:13 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-duxweb-retheme</guid>
       </item>
 <item>
-        <title>MUD能否评估LLM？一个99美元的概念验证</title>
-        <link>https://cruciblebench.ai/</link>
-        <description>我是一篇论文的作者，我和朋友们出于好奇，想探究起源于20世纪70年代的MUD（多用户地牢）这类文字游戏能否用于评估大语言模型，于是撰写了这篇论文。过去几个月里，我们一直致力于……</description>
-        <author>Davisb135</author>
-        <category>hn</category>
-        <pubDate>Wed, 22 Jul 2026 15:39:01 GMT</pubDate>
-        <guid isPermaLink="false">hn-49008538</guid>
-      </item>
-<item>
-        <title>Vincentwei1021/video-shotcraft</title>
-        <link>https://github.com/Vincentwei1021/video-shotcraft</link>
-        <description>面向Claude Code与Codex的AI视频技能——基于Remotion的电影级产品视频：106张镜头配方卡、161个运动预览、一个生产就绪模板 | 近期热门 | 总 560 stars</description>
-        <author>Vincentwei1021</author>
-        <category>github</category>
-        <pubDate>Thu, 23 Jul 2026 05:37:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vincentwei1021-video-shotcraft</guid>
-      </item>
-<item>
-        <title>MadsGao/frakio-work</title>
-        <link>https://github.com/MadsGao/frakio-work</link>
-        <description>Frakio Work = Codex + Hermes + Arc + XXX  —— 以多 Agent 协作为核心的超级缝合工作台 | 近期热门 | 总 49 stars</description>
-        <author>MadsGao</author>
-        <category>github</category>
-        <pubDate>Thu, 23 Jul 2026 05:37:04 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-madsgao-frakio-work</guid>
+        <title>昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本</title>
+        <link>https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag</link>
+        <description>昆仑万维CEO方汉在WAIC圆桌上指出，单纯堆砌Token消耗量无法衡量AI价值，模型能力需依赖Claude Code等Coding Agent建立的工程框架才能转化为生产力</description>
+        <author>AI HOT / 公众号：昆仑万维（天工）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 23 Jul 2026 11:20:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmrxfjpf800tero983dojzltm</guid>
       </item>
 <item>
         <title>powerycy/goutoujunshi</title>
         <link>https://github.com/powerycy/goutoujunshi</link>
-        <description>一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。 | 近期热门 | 总 558 stars</description>
+        <description>一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。 | 近期热门 | 总 702 stars</description>
         <author>powerycy</author>
         <category>github</category>
-        <pubDate>Thu, 23 Jul 2026 05:37:04 GMT</pubDate>
+        <pubDate>Fri, 24 Jul 2026 05:32:13 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-powerycy-goutoujunshi</guid>
       </item>
 <item>
-        <title>微软 MagenticLite 模型全面开源</title>
-        <link>https://x.com/MSFTResearch/status/2079989338994069511</link>
-        <description>MagenticLite 的模型现已完全开源</description>
-        <author>AI HOT / X：Microsoft Research (@MSFTResearch)</author>
-        <category>aihot</category>
-        <pubDate>Wed, 22 Jul 2026 17:57:57 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrweu9dz014froj0gj35xvw9</guid>
+        <title>Show HN: Echo – 使用开放权重模型，以三分之一成本实现Fable级别效果</title>
+        <link>https://news.ycombinator.com/item?id=49026810</link>
+        <description>我一直在构建Echo（https://echo.tracerml.ai/），这是一个将开放网络中的AI系统整合为单一AI系统的实验。</description>
+        <author>adam_rida</author>
+        <category>hn</category>
+        <pubDate>Thu, 23 Jul 2026 19:26:01 GMT</pubDate>
+        <guid isPermaLink="false">hn-49026810</guid>
       </item>
 <item>
-        <title>小红书开源 BigMac：多模态大模型训练新范式</title>
-        <link>https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row</link>
-        <description>小红书技术团队开源 BigMac，一种针对多模态大模型训练的依赖安全嵌套流水线新范式</description>
-        <author>AI HOT / 公众号：小红书技术（dots.llm）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 22 Jul 2026 10:04:51 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrvx8ycy0240bipz0pkrvryq</guid>
+        <title>Show HN：OneCLI – 将机密信息排除在AI代理之外的OSS凭证网关</title>
+        <link>https://github.com/onecli/onecli</link>
+        <description>嘿 HN，我是 Jonathan，这位是 Guy，我们是 OneCLI (https://onecli.sh/) 的创建者。OneCLI 是一个面向 AI 代理的开源保险库。传统保险库...</description>
+        <author>Jonathanfishner</author>
+        <category>hn</category>
+        <pubDate>Thu, 23 Jul 2026 15:42:40 GMT</pubDate>
+        <guid isPermaLink="false">hn-49023427</guid>
+      </item>
+<item>
+        <title>初创公司创始人敦促美国政府不要切断中国开源权重AI</title>
+        <link>https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992</link>
+        <description>https://littletech.org/&lt;a href=&quot;https://static.politico.com/4a/bf/9c4021d8404386b0a311dcc...</description>
+        <author>theanonymousone</author>
+        <category>hn</category>
+        <pubDate>Thu, 23 Jul 2026 15:18:40 GMT</pubDate>
+        <guid isPermaLink="false">hn-49023016</guid>
+      </item>
+<item>
+        <title>Show HN: Palmier Pro – 为AI打造的开源macOS视频编辑器</title>
+        <link>https://github.com/palmier-io/palmier-pro</link>
+        <description>大家好，我们是Marcos和Harrison，Palmier（https://palmier.io）的联合创始人。我们正在开发Palmier Pro，一款开源的macOS视频编辑器，具备……</description>
+        <author>harrisontin</author>
+        <category>hn</category>
+        <pubDate>Thu, 23 Jul 2026 15:11:37 GMT</pubDate>
+        <guid isPermaLink="false">hn-49022911</guid>
       </item>
   </channel>
 </rss>
