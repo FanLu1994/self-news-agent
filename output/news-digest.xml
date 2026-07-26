@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/25)</title>
+    <title>今日 AI 开发者精选 (2026/7/26)</title>
     <link>https://example.com/self-news-agent</link>
     <description>已为您筛选出最值得关注的内容。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 25 Jul 2026 05:25:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 05:43:29 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
         <description>已为您筛选出最值得关注的内容。</description>
-        <pubDate>Sat, 25 Jul 2026 05:25:57 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-25T05:25:56.780Z</guid>
+        <pubDate>Sun, 26 Jul 2026 05:43:29 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-26T05:43:28.529Z</guid>
       </item>
     <item>
-        <title>pireel/pireel</title>
-        <link>https://github.com/pireel/pireel</link>
-        <description>Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser WebCodecs export. Drivable by any AI agent over MCP. | 近期热门 | 总 717 stars</description>
-        <author>pireel</author>
+        <title>Felix-au/CursorX-Interactive-Cursor-Effects</title>
+        <link>https://github.com/Felix-au/CursorX-Interactive-Cursor-Effects</link>
+        <description>20+ custom cursor effects for developers with live interactive previews, copy-paste code snippets, AI prompts, and a full config panel. Built with React + Canvas API. | 近期热门 | 总 61 stars</description>
+        <author>Felix-au</author>
         <category>github</category>
-        <pubDate>Sat, 25 Jul 2026 05:25:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-pireel-pireel</guid>
+        <pubDate>Sun, 26 Jul 2026 05:43:18 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-felix-au-cursorx-interactive-cursor-effects</guid>
       </item>
 <item>
         <title>gnipbao/story-to-handdrawn-video</title>
         <link>https://github.com/gnipbao/story-to-handdrawn-video</link>
-        <description>Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track). | 近期热门 | 总 610 stars</description>
+        <description>Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track). | 近期热门 | 总 632 stars</description>
         <author>gnipbao</author>
         <category>github</category>
-        <pubDate>Sat, 25 Jul 2026 05:25:47 GMT</pubDate>
+        <pubDate>Sun, 26 Jul 2026 05:43:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-gnipbao-story-to-handdrawn-video</guid>
       </item>
 <item>
@@ -37,53 +37,53 @@
         <description>Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts that connect them. | 近期热门 | 总 213 stars</description>
         <author>paxlabs-inc</author>
         <category>github</category>
-        <pubDate>Sat, 25 Jul 2026 05:25:47 GMT</pubDate>
+        <pubDate>Sun, 26 Jul 2026 05:43:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-paxlabs-inc-machine-genome</guid>
-      </item>
-<item>
-        <title>Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%</title>
-        <link>https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models</link>
-        <description>Anthropic 为 Claude Opus 5 和 Claude Fable 5 等新一代模型删除了 Claude Code 超过 80% 的系统提示词，且编码评测无显著损失</description>
-        <author>AI HOT / Claude：Blog（网页）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 24 Jul 2026 17:25:50 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrz7ov4300lfrox82ri8kia1</guid>
-      </item>
-<item>
-        <title>蚂蚁百灵发布Ling-3.0-flash原生混合推理模型</title>
-        <link>https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g</link>
-        <description>蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-flash，总参数量124B，激活参数量仅5.1B，在传统推理、指令遵循与长文本等指标上对标甚至超越上一代旗舰Ring-2.6-1T</description>
-        <author>AI HOT / 公众号：蚂蚁百灵（Ling）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 24 Jul 2026 13:40:30 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrz0ch8700m7roeygv4eshdv</guid>
       </item>
 <item>
         <title>neural-maze/production-ocr-course</title>
         <link>https://github.com/neural-maze/production-ocr-course</link>
-        <description>Build, deploy, and scale a production-grade OCR pipeline using Rust, vLLM, Redis, KEDA, and Kubernetes. | 近期热门 | 总 127 stars</description>
+        <description>Build, deploy, and scale a production-grade OCR pipeline using Rust, vLLM, Redis, KEDA, and Kubernetes. | 近期热门 | 总 156 stars</description>
         <author>neural-maze</author>
         <category>github</category>
-        <pubDate>Sat, 25 Jul 2026 05:25:47 GMT</pubDate>
+        <pubDate>Sun, 26 Jul 2026 05:43:18 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-neural-maze-production-ocr-course</guid>
       </item>
 <item>
-        <title>QW-AI-Code/Aether</title>
-        <link>https://github.com/QW-AI-Code/Aether</link>
-        <description> | 近期热门 | 总 113 stars</description>
-        <author>QW-AI-Code</author>
-        <category>github</category>
-        <pubDate>Sat, 25 Jul 2026 05:25:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-qw-ai-code-aether</guid>
+        <title>在 8 美元的 ESP32-S3 微控制器上运行 28.9M 参数大语言模型</title>
+        <link>https://github.com/slvDev/esp32-ai</link>
+        <description>开发者成功在售价约 8 美元的 ESP32-S3 微控制器上运行了一个 28.9M 参数的大语言模型，完全在芯片本地运行，无需连接服务器，生成速度约 9.5 tok/s</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Sun, 26 Jul 2026 03:54:52 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms1ao381037kro0wqp7mg4x3</guid>
       </item>
 <item>
-        <title>微软阐述开源模型助力美国竞争力路径</title>
-        <link>https://x.com/satyanadella/status/2080646162483417097</link>
-        <description>开放权重模型对健康的 AI 生态系统至关重要</description>
-        <author>AI HOT / X：Satya Nadella (@satyanadella)</author>
+        <title>新报告揭示OpenAI在Hugging Face自主黑客事件中失控的严重程度</title>
+        <link>https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face</link>
+        <description>OpenAI在测试其最先进模型的网络攻击能力时，模型突破了隔离测试环境，入侵了Hugging Face</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
         <category>aihot</category>
-        <pubDate>Fri, 24 Jul 2026 13:27:56 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmrz061qu00itroey2lemh731</guid>
+        <pubDate>Sat, 25 Jul 2026 13:45:50 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms0fjmm7023wrodzjct91cnd</guid>
+      </item>
+<item>
+        <title>LLM Usage in Debian: Three Proposals</title>
+        <link>https://www.debian.org/vote/2026/vote_002</link>
+        <description>LLM Usage in Debian: Three Proposals</description>
+        <author>zdw</author>
+        <category>hn</category>
+        <pubDate>Sat, 25 Jul 2026 19:44:39 GMT</pubDate>
+        <guid isPermaLink="false">hn-49050859</guid>
+      </item>
+<item>
+        <title>Politician reads AI prompt during assembly</title>
+        <link>https://www.youtube.com/watch?v=wlYa8NV5k-U</link>
+        <description>Politician reads AI prompt during assembly</description>
+        <author>root-parent</author>
+        <category>hn</category>
+        <pubDate>Sat, 25 Jul 2026 16:31:15 GMT</pubDate>
+        <guid isPermaLink="false">hn-49048996</guid>
       </item>
   </channel>
 </rss>
