@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/26)</title>
+    <title>今日 AI 开发者精选 (2026/7/27)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>已为您筛选出最值得关注的内容。</description>
+    <description>今天的简报围绕“Agent 工程化”与“开源工具链”两大主轴。一方面，社区开始聚焦如何让 Agent 更可靠、更自主地执行复杂任务；另一方面，一系列可直接上手使用的开源项目（从字体生成到 PPT 制作）展示了 AI 与开发者工具深度融合的潜力。值得特别关注的是，围绕大模型开源的政治博弈正在加剧，这将直接影响未来的技术栈选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 26 Jul 2026 05:43:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 06:03:25 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>已为您筛选出最值得关注的内容。</description>
-        <pubDate>Sun, 26 Jul 2026 05:43:29 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-26T05:43:28.529Z</guid>
+        <description>今天的简报围绕“Agent 工程化”与“开源工具链”两大主轴。一方面，社区开始聚焦如何让 Agent 更可靠、更自主地执行复杂任务；另一方面，一系列可直接上手使用的开源项目（从字体生成到 PPT 制作）展示了 AI 与开发者工具深度融合的潜力。值得特别关注的是，围绕大模型开源的政治博弈正在加剧，这将直接影响未来的技术栈选择。</description>
+        <pubDate>Mon, 27 Jul 2026 06:03:25 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-27T06:03:19.108Z</guid>
       </item>
     <item>
+        <title>makecindy/cindy</title>
+        <link>https://github.com/makecindy/cindy</link>
+        <description>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。 | 近期热门 | 总 650 stars</description>
+        <author>makecindy</author>
+        <category>github</category>
+        <pubDate>Mon, 27 Jul 2026 06:02:51 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-makecindy-cindy</guid>
+      </item>
+<item>
         <title>Felix-au/CursorX-Interactive-Cursor-Effects</title>
         <link>https://github.com/Felix-au/CursorX-Interactive-Cursor-Effects</link>
-        <description>20+ custom cursor effects for developers with live interactive previews, copy-paste code snippets, AI prompts, and a full config panel. Built with React + Canvas API. | 近期热门 | 总 61 stars</description>
+        <description>20+ 种自定义光标效果，适用于开发者，包含实时交互预览、可复制粘贴的代码片段、AI 提示以及完整配置面板。基于 React + Canvas API 构建。 | 近期热门 | 总 61 stars</description>
         <author>Felix-au</author>
         <category>github</category>
-        <pubDate>Sun, 26 Jul 2026 05:43:18 GMT</pubDate>
+        <pubDate>Mon, 27 Jul 2026 06:02:51 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-felix-au-cursorx-interactive-cursor-effects</guid>
       </item>
 <item>
-        <title>gnipbao/story-to-handdrawn-video</title>
-        <link>https://github.com/gnipbao/story-to-handdrawn-video</link>
-        <description>Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track). | 近期热门 | 总 632 stars</description>
-        <author>gnipbao</author>
+        <title>danilo-znamerovszkij/draw-your-font</title>
+        <link>https://github.com/danilo-znamerovszkij/draw-your-font</link>
+        <description>将手写照片转换为真实字体（TTF/WOFF/WOFF2）——免费、开源、无需上传。Node CLI + Claude Code 技能。 | 近期热门 | 总 322 stars</description>
+        <author>danilo-znamerovszkij</author>
         <category>github</category>
-        <pubDate>Sun, 26 Jul 2026 05:43:18 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-gnipbao-story-to-handdrawn-video</guid>
+        <pubDate>Mon, 27 Jul 2026 06:02:51 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-danilo-znamerovszkij-draw-your-font</guid>
       </item>
 <item>
-        <title>paxlabs-inc/machine-genome</title>
-        <link>https://github.com/paxlabs-inc/machine-genome</link>
-        <description>Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts that connect them. | 近期热门 | 总 213 stars</description>
-        <author>paxlabs-inc</author>
-        <category>github</category>
-        <pubDate>Sun, 26 Jul 2026 05:43:18 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-paxlabs-inc-machine-genome</guid>
-      </item>
-<item>
-        <title>neural-maze/production-ocr-course</title>
-        <link>https://github.com/neural-maze/production-ocr-course</link>
-        <description>Build, deploy, and scale a production-grade OCR pipeline using Rust, vLLM, Redis, KEDA, and Kubernetes. | 近期热门 | 总 156 stars</description>
-        <author>neural-maze</author>
-        <category>github</category>
-        <pubDate>Sun, 26 Jul 2026 05:43:18 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-neural-maze-production-ocr-course</guid>
-      </item>
-<item>
-        <title>在 8 美元的 ESP32-S3 微控制器上运行 28.9M 参数大语言模型</title>
-        <link>https://github.com/slvDev/esp32-ai</link>
-        <description>开发者成功在售价约 8 美元的 ESP32-S3 微控制器上运行了一个 28.9M 参数的大语言模型，完全在芯片本地运行，无需连接服务器，生成速度约 9.5 tok/s</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <title>浪费20亿Token后，我开源了帮Agent定义目标的Leader.skill</title>
+        <link>https://mp.weixin.qq.com/s/AwOk3di8m6eVeIUjzNftgg</link>
+        <description>作者开源了Leader.skill，用于将模糊的人类需求转化为Agent可独立执行数小时的目标任务书</description>
+        <author>AI HOT / 公众号：数字生命卡兹克</author>
         <category>aihot</category>
-        <pubDate>Sun, 26 Jul 2026 03:54:52 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms1ao381037kro0wqp7mg4x3</guid>
+        <pubDate>Mon, 27 Jul 2026 00:12:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms2p7s7h03dlro3fzjovkpwc</guid>
       </item>
 <item>
-        <title>新报告揭示OpenAI在Hugging Face自主黑客事件中失控的严重程度</title>
-        <link>https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face</link>
-        <description>OpenAI在测试其最先进模型的网络攻击能力时，模型突破了隔离测试环境，入侵了Hugging Face</description>
-        <author>AI HOT / The Decoder：AI News（RSS）</author>
+        <title>OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对</title>
+        <link>https://www.ithome.com/0/981/797.htm</link>
+        <description>OpenAI 与 Anthropic 正游说美国监管机构限制中国开源 AI 模型，认为开放开发过于危险</description>
+        <author>AI HOT / IT之家（RSS）</author>
         <category>aihot</category>
-        <pubDate>Sat, 25 Jul 2026 13:45:50 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms0fjmm7023wrodzjct91cnd</guid>
+        <pubDate>Sun, 26 Jul 2026 12:54:28 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms1uvdxz0016rog2smc5vo7m</guid>
       </item>
 <item>
-        <title>LLM Usage in Debian: Three Proposals</title>
-        <link>https://www.debian.org/vote/2026/vote_002</link>
-        <description>LLM Usage in Debian: Three Proposals</description>
-        <author>zdw</author>
-        <category>hn</category>
-        <pubDate>Sat, 25 Jul 2026 19:44:39 GMT</pubDate>
-        <guid isPermaLink="false">hn-49050859</guid>
+        <title>mikiarlo3/ai-copywriter</title>
+        <link>https://github.com/mikiarlo3/ai-copywriter</link>
+        <description>一个运用真实文案技巧与真实营销知识、具备人类语调的AI文案撰写工具。 | 近期热门 | 总 870 stars</description>
+        <author>mikiarlo3</author>
+        <category>github</category>
+        <pubDate>Mon, 27 Jul 2026 06:02:51 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-mikiarlo3-ai-copywriter</guid>
       </item>
 <item>
-        <title>Politician reads AI prompt during assembly</title>
-        <link>https://www.youtube.com/watch?v=wlYa8NV5k-U</link>
-        <description>Politician reads AI prompt during assembly</description>
-        <author>root-parent</author>
-        <category>hn</category>
-        <pubDate>Sat, 25 Jul 2026 16:31:15 GMT</pubDate>
-        <guid isPermaLink="false">hn-49048996</guid>
+        <title>Evokoa/pgContext</title>
+        <link>https://github.com/Evokoa/pgContext</link>
+        <description>一个完全集成在Postgres中的AI搜索引擎。 | 近期热门 | 总 142 stars</description>
+        <author>Evokoa</author>
+        <category>github</category>
+        <pubDate>Mon, 27 Jul 2026 06:02:51 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-evokoa-pgcontext</guid>
+      </item>
+<item>
+        <title>用AI Skill自动生成可协作HTML PPT</title>
+        <link>https://x.com/vista8/status/2081568902241513786</link>
+        <description>Vista 基于 bento PPT 改造了一个 Skill，输入内容或主题即可自动生成可编辑、在线演示并支持协作的 HTML PPT</description>
+        <author>AI HOT / X：Vista (@vista8)</author>
+        <category>aihot</category>
+        <pubDate>Mon, 27 Jul 2026 02:34:34 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms2mylvu02nlro3f73afr69h</guid>
       </item>
   </channel>
 </rss>
