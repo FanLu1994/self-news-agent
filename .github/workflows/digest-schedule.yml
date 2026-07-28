@@ -2,8 +2,9 @@ name: Self News Digest Schedule
 
 on:
   schedule:
-    # 10:20 Asia/Shanghai = 02:20 UTC
-    - cron: '20 2 * * *'
+    # 10:20 Asia/Shanghai ≈ 02:20 UTC, pre-offset by 3h to compensate GitHub scheduler delay
+    # 07:20 Asia/Shanghai = 23:20 UTC (previous day)
+    - cron: '20 23 * * *'
   workflow_dispatch:
 
 permissions:
