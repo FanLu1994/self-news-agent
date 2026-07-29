@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/27)</title>
+    <title>今日 AI 开发者精选 (2026/7/29)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的简报围绕“Agent 工程化”与“开源工具链”两大主轴。一方面，社区开始聚焦如何让 Agent 更可靠、更自主地执行复杂任务；另一方面，一系列可直接上手使用的开源项目（从字体生成到 PPT 制作）展示了 AI 与开发者工具深度融合的潜力。值得特别关注的是，围绕大模型开源的政治博弈正在加剧，这将直接影响未来的技术栈选择。</description>
+    <description>今天的 AI 情报显示出两个清晰的方向：一是 **Agent 架构正在从概念走向工程化**，多个高质量的开源项目为开发者提供了可编排、可扩展的底层框架；二是 **模型能力在向垂直领域纵深**，尤其在代码、安全和转录等场景，模型正在解决更具体、更专业的问题。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Jul 2026 06:03:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 00:12:30 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的简报围绕“Agent 工程化”与“开源工具链”两大主轴。一方面，社区开始聚焦如何让 Agent 更可靠、更自主地执行复杂任务；另一方面，一系列可直接上手使用的开源项目（从字体生成到 PPT 制作）展示了 AI 与开发者工具深度融合的潜力。值得特别关注的是，围绕大模型开源的政治博弈正在加剧，这将直接影响未来的技术栈选择。</description>
-        <pubDate>Mon, 27 Jul 2026 06:03:25 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-27T06:03:19.108Z</guid>
+        <description>今天的 AI 情报显示出两个清晰的方向：一是 **Agent 架构正在从概念走向工程化**，多个高质量的开源项目为开发者提供了可编排、可扩展的底层框架；二是 **模型能力在向垂直领域纵深**，尤其在代码、安全和转录等场景，模型正在解决更具体、更专业的问题。</description>
+        <pubDate>Wed, 29 Jul 2026 00:12:30 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-29T00:12:20.623Z</guid>
       </item>
     <item>
-        <title>makecindy/cindy</title>
-        <link>https://github.com/makecindy/cindy</link>
-        <description>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。 | 近期热门 | 总 650 stars</description>
-        <author>makecindy</author>
+        <title>deerwork-ai/deer-workflow</title>
+        <link>https://github.com/deerwork-ai/deer-workflow</link>
+        <description>一个开源图工程运行时，将编排保留在TypeScript中，并将语义工作委托给可替换的Agent运行时。 | 近期热门 | 总 319 stars</description>
+        <author>deerwork-ai</author>
         <category>github</category>
-        <pubDate>Mon, 27 Jul 2026 06:02:51 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-makecindy-cindy</guid>
+        <pubDate>Wed, 29 Jul 2026 00:11:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-deerwork-ai-deer-workflow</guid>
       </item>
 <item>
-        <title>Felix-au/CursorX-Interactive-Cursor-Effects</title>
-        <link>https://github.com/Felix-au/CursorX-Interactive-Cursor-Effects</link>
-        <description>20+ 种自定义光标效果，适用于开发者，包含实时交互预览、可复制粘贴的代码片段、AI 提示以及完整配置面板。基于 React + Canvas API 构建。 | 近期热门 | 总 61 stars</description>
-        <author>Felix-au</author>
+        <title>Pinvou/pinvou-agent</title>
+        <link>https://github.com/Pinvou/pinvou-agent</link>
+        <description>开源桌面AI代理，用于工具、文件、知识、工作流及实际交付物。 | 近期热门 | 总 41 stars</description>
+        <author>Pinvou</author>
         <category>github</category>
-        <pubDate>Mon, 27 Jul 2026 06:02:51 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-felix-au-cursorx-interactive-cursor-effects</guid>
+        <pubDate>Wed, 29 Jul 2026 00:11:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-pinvou-pinvou-agent</guid>
       </item>
 <item>
-        <title>danilo-znamerovszkij/draw-your-font</title>
-        <link>https://github.com/danilo-znamerovszkij/draw-your-font</link>
-        <description>将手写照片转换为真实字体（TTF/WOFF/WOFF2）——免费、开源、无需上传。Node CLI + Claude Code 技能。 | 近期热门 | 总 322 stars</description>
-        <author>danilo-znamerovszkij</author>
-        <category>github</category>
-        <pubDate>Mon, 27 Jul 2026 06:02:51 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-danilo-znamerovszkij-draw-your-font</guid>
-      </item>
-<item>
-        <title>浪费20亿Token后，我开源了帮Agent定义目标的Leader.skill</title>
-        <link>https://mp.weixin.qq.com/s/AwOk3di8m6eVeIUjzNftgg</link>
-        <description>作者开源了Leader.skill，用于将模糊的人类需求转化为Agent可独立执行数小时的目标任务书</description>
-        <author>AI HOT / 公众号：数字生命卡兹克</author>
+        <title>FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA</title>
+        <link>https://usefeyn.com/blog/feynobg</link>
+        <description>Feyn Labs 推出 FeyNoBg，一个用于自动背景去除的 SOTA 模型</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Mon, 27 Jul 2026 00:12:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms2p7s7h03dlro3fzjovkpwc</guid>
+        <pubDate>Tue, 28 Jul 2026 04:57:13 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms47q4jj00mxroep0x4at5sf</guid>
       </item>
 <item>
-        <title>OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对</title>
-        <link>https://www.ithome.com/0/981/797.htm</link>
-        <description>OpenAI 与 Anthropic 正游说美国监管机构限制中国开源 AI 模型，认为开放开发过于危险</description>
-        <author>AI HOT / IT之家（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Sun, 26 Jul 2026 12:54:28 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms1uvdxz0016rog2smc5vo7m</guid>
-      </item>
-<item>
-        <title>mikiarlo3/ai-copywriter</title>
-        <link>https://github.com/mikiarlo3/ai-copywriter</link>
-        <description>一个运用真实文案技巧与真实营销知识、具备人类语调的AI文案撰写工具。 | 近期热门 | 总 870 stars</description>
-        <author>mikiarlo3</author>
+        <title>kvcache-ai/AgentENV</title>
+        <link>https://github.com/kvcache-ai/AgentENV</link>
+        <description>AgentENV（AENV）是一个用于大规模运行智能体环境的分布式平台。 | 近期热门 | 总 1426 stars</description>
+        <author>kvcache-ai</author>
         <category>github</category>
-        <pubDate>Mon, 27 Jul 2026 06:02:51 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-mikiarlo3-ai-copywriter</guid>
+        <pubDate>Wed, 29 Jul 2026 00:11:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kvcache-ai-agentenv</guid>
       </item>
 <item>
-        <title>Evokoa/pgContext</title>
-        <link>https://github.com/Evokoa/pgContext</link>
-        <description>一个完全集成在Postgres中的AI搜索引擎。 | 近期热门 | 总 142 stars</description>
-        <author>Evokoa</author>
-        <category>github</category>
-        <pubDate>Mon, 27 Jul 2026 06:02:51 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-evokoa-pgcontext</guid>
+        <title>快速修复是新的信任模型（JFrog与OpenAI零日漏洞发现）</title>
+        <link>https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</link>
+        <description>快速修复是新的信任模型（JFrog与OpenAI零日漏洞发现）</description>
+        <author>882542F3884314B</author>
+        <category>hn</category>
+        <pubDate>Tue, 28 Jul 2026 12:02:57 GMT</pubDate>
+        <guid isPermaLink="false">hn-49082550</guid>
       </item>
 <item>
-        <title>用AI Skill自动生成可协作HTML PPT</title>
-        <link>https://x.com/vista8/status/2081568902241513786</link>
-        <description>Vista 基于 bento PPT 改造了一个 Skill，输入内容或主题即可自动生成可编辑、在线演示并支持协作的 HTML PPT</description>
-        <author>AI HOT / X：Vista (@vista8)</author>
+        <title>Anthropic 的 Claude Mythos Preview 模型发现 AES 和 HAWK 加密算法漏洞</title>
+        <link>https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet</link>
+        <description>Anthropic 的 Claude Mythos Preview 模型在自主多智能体系统中，发现了后量子签名方案 HAWK 的改进攻击，以及简化版 AES-128（7 轮）的新攻击方法</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
         <category>aihot</category>
-        <pubDate>Mon, 27 Jul 2026 02:34:34 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms2mylvu02nlro3f73afr69h</guid>
+        <pubDate>Tue, 28 Jul 2026 19:12:27 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms51p9ca00d8rorrkaqqfvr9</guid>
+      </item>
+<item>
+        <title>Microsoft 发布 MAI-Cyber-1-Flash：5B 活跃参数的网络安全模型，驱动 MDASH 在 CyberGym 上达到 95.95%</title>
+        <link>https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym</link>
+        <description>Microsoft 发布 MAI-Cyber-1-Flash，一款 137B 总参数（5B 活跃参数）、256k 上下文窗口的稀疏 MoE 网络安全模型，是 MAI-Code-1-Flash 的微调版本</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 28 Jul 2026 08:33:30 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms4fb2n603f4roeprjoopbix</guid>
+      </item>
+<item>
+        <title>OpenAI 推出两款新转录模型 API</title>
+        <link>https://x.com/OpenAIDevs/status/2082201169443905798</link>
+        <description>我们在 API 中引入了两种新的转录模型： • GPT-Live-Transcribe：专为低延迟实时转录而构建</description>
+        <author>AI HOT / X：OpenAI Developers (@OpenAIDevs)</author>
+        <category>aihot</category>
+        <pubDate>Tue, 28 Jul 2026 20:26:58 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms54yoqa0090roehc2530rwk</guid>
       </item>
   </channel>
 </rss>
