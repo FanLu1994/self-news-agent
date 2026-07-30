@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/29)</title>
+    <title>今日 AI 开发者精选 (2026/7/30)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的 AI 情报显示出两个清晰的方向：一是 **Agent 架构正在从概念走向工程化**，多个高质量的开源项目为开发者提供了可编排、可扩展的底层框架；二是 **模型能力在向垂直领域纵深**，尤其在代码、安全和转录等场景，模型正在解决更具体、更专业的问题。</description>
+    <description>今天的重点非常集中：**智能体（Agent）的实用化和本地化推理的极限突破**。一方面，我们看到开源社区正围绕 Agent 的记忆和检测防护推出即插即用的解决方案；另一方面，在 Mac 上运行超大参数模型（如 2.8T 参数的 Kimi K3）的极端尝试，为本地化部署和边缘计算探索了新的边界。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Jul 2026 00:12:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 00:14:12 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的 AI 情报显示出两个清晰的方向：一是 **Agent 架构正在从概念走向工程化**，多个高质量的开源项目为开发者提供了可编排、可扩展的底层框架；二是 **模型能力在向垂直领域纵深**，尤其在代码、安全和转录等场景，模型正在解决更具体、更专业的问题。</description>
-        <pubDate>Wed, 29 Jul 2026 00:12:30 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-29T00:12:20.623Z</guid>
+        <description>今天的重点非常集中：**智能体（Agent）的实用化和本地化推理的极限突破**。一方面，我们看到开源社区正围绕 Agent 的记忆和检测防护推出即插即用的解决方案；另一方面，在 Mac 上运行超大参数模型（如 2.8T 参数的 Kimi K3）的极端尝试，为本地化部署和边缘计算探索了新的边界。</description>
+        <pubDate>Thu, 30 Jul 2026 00:14:12 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-30T00:14:05.514Z</guid>
       </item>
     <item>
-        <title>deerwork-ai/deer-workflow</title>
-        <link>https://github.com/deerwork-ai/deer-workflow</link>
-        <description>一个开源图工程运行时，将编排保留在TypeScript中，并将语义工作委托给可替换的Agent运行时。 | 近期热门 | 总 319 stars</description>
-        <author>deerwork-ai</author>
-        <category>github</category>
-        <pubDate>Wed, 29 Jul 2026 00:11:49 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-deerwork-ai-deer-workflow</guid>
-      </item>
-<item>
         <title>Pinvou/pinvou-agent</title>
         <link>https://github.com/Pinvou/pinvou-agent</link>
-        <description>开源桌面AI代理，用于工具、文件、知识、工作流及实际交付物。 | 近期热门 | 总 41 stars</description>
+        <description>开源桌面AI代理，用于工具、文件、知识、工作流及实际交付物。 | 近期热门 | 总 81 stars</description>
         <author>Pinvou</author>
         <category>github</category>
-        <pubDate>Wed, 29 Jul 2026 00:11:49 GMT</pubDate>
+        <pubDate>Thu, 30 Jul 2026 00:13:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-pinvou-pinvou-agent</guid>
       </item>
 <item>
-        <title>FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA</title>
-        <link>https://usefeyn.com/blog/feynobg</link>
-        <description>Feyn Labs 推出 FeyNoBg，一个用于自动背景去除的 SOTA 模型</description>
+        <title>VictorTaelin/OptMem</title>
+        <link>https://github.com/VictorTaelin/OptMem</link>
+        <description>AI智能体的永久记忆。一个426令牌的提示词、一个脚本，即插即用。 | 近期热门 | 总 872 stars</description>
+        <author>VictorTaelin</author>
+        <category>github</category>
+        <pubDate>Thu, 30 Jul 2026 00:13:30 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-victortaelin-optmem</guid>
+      </item>
+<item>
+        <title>Perplexity 开源智能体检测层 Numbat</title>
+        <link>https://x.com/perplexity_ai/status/2082511900580196596</link>
+        <description>今天我们开源了 Numbat，这是一个智能体检测与响应层，旨在跨多种智能体框架工作</description>
+        <author>AI HOT / X：Perplexity (@perplexity_ai)</author>
+        <category>aihot</category>
+        <pubDate>Wed, 29 Jul 2026 17:01:42 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms6czboh031krotzmczxbw2v</guid>
+      </item>
+<item>
+        <title>开源引擎可在任何 M 系列 Mac 上以 2 GB 内存运行 Gemma 4 26B</title>
+        <link>https://github.com/drumih/turbo-fieldfare</link>
+        <description>一个开源引擎让 Gemma 4 26B 模型能在任何 M 系列 Mac 上运行，仅需 2 GB 内存</description>
         <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Tue, 28 Jul 2026 04:57:13 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms47q4jj00mxroep0x4at5sf</guid>
+        <pubDate>Wed, 29 Jul 2026 16:09:22 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms6arrc700rbrotzo1wseql3</guid>
       </item>
 <item>
-        <title>kvcache-ai/AgentENV</title>
-        <link>https://github.com/kvcache-ai/AgentENV</link>
-        <description>AgentENV（AENV）是一个用于大规模运行智能体环境的分布式平台。 | 近期热门 | 总 1426 stars</description>
-        <author>kvcache-ai</author>
+        <title>在 M1 Max 上运行 2.8T 参数的 Kimi K3：Deltafin 项目实现 0.0687 token/s 推理</title>
+        <link>https://github.com/gavamedia/deltafin</link>
+        <description>Deltafin 项目成功在 64 GB M1 Max 上运行了 2.8T 参数的 MoE 模型 Kimi K3，当前中位推理速度为 0.0687 token/s（14.6 秒/token）</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 29 Jul 2026 02:49:20 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms5htk9l004nros5wi94l4eh</guid>
+      </item>
+<item>
+        <title>JYH1878/KimiCodeBar-Windows</title>
+        <link>https://github.com/JYH1878/KimiCodeBar-Windows</link>
+        <description>Windows 托盘上的 Kimi Code 用量监控：左键看额度，低额变红提醒。Tauri 2 + Rust，安装包仅 3MB。 | 近期热门 | 总 73 stars</description>
+        <author>JYH1878</author>
         <category>github</category>
-        <pubDate>Wed, 29 Jul 2026 00:11:49 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kvcache-ai-agentenv</guid>
+        <pubDate>Thu, 30 Jul 2026 00:13:30 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-jyh1878-kimicodebar-windows</guid>
       </item>
 <item>
-        <title>快速修复是新的信任模型（JFrog与OpenAI零日漏洞发现）</title>
-        <link>https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/</link>
-        <description>快速修复是新的信任模型（JFrog与OpenAI零日漏洞发现）</description>
-        <author>882542F3884314B</author>
-        <category>hn</category>
-        <pubDate>Tue, 28 Jul 2026 12:02:57 GMT</pubDate>
-        <guid isPermaLink="false">hn-49082550</guid>
-      </item>
-<item>
-        <title>Anthropic 的 Claude Mythos Preview 模型发现 AES 和 HAWK 加密算法漏洞</title>
-        <link>https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet</link>
-        <description>Anthropic 的 Claude Mythos Preview 模型在自主多智能体系统中，发现了后量子签名方案 HAWK 的改进攻击，以及简化版 AES-128（7 轮）的新攻击方法</description>
-        <author>AI HOT / The Decoder：AI News（RSS）</author>
+        <title>腾讯混元开源 AngelSpec 投机解码框架</title>
+        <link>https://x.com/TencentHunyuan/status/2082447023626944936</link>
+        <description>腾讯混元开源端到端投机解码框架 AngelSpec，支持训练与部署</description>
+        <author>AI HOT / X：腾讯混元 (@TencentHunyuan)</author>
         <category>aihot</category>
-        <pubDate>Tue, 28 Jul 2026 19:12:27 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms51p9ca00d8rorrkaqqfvr9</guid>
+        <pubDate>Wed, 29 Jul 2026 12:43:55 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms639jt416x6robksy69dzel</guid>
       </item>
 <item>
-        <title>Microsoft 发布 MAI-Cyber-1-Flash：5B 活跃参数的网络安全模型，驱动 MDASH 在 CyberGym 上达到 95.95%</title>
-        <link>https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym</link>
-        <description>Microsoft 发布 MAI-Cyber-1-Flash，一款 137B 总参数（5B 活跃参数）、256k 上下文窗口的稀疏 MoE 网络安全模型，是 MAI-Code-1-Flash 的微调版本</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
+        <title>揭秘 AI 智能体入侵 Hugging Face 全过程：4 天半执行 17600 次操作</title>
+        <link>https://www.ithome.com/0/983/374.htm</link>
+        <description>一套基于 OpenAI 模型的自主 AI 智能体在 4 天半内执行约 17600 次操作，成功突破 Hugging Face 多项安全防护</description>
+        <author>AI HOT / IT之家（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 28 Jul 2026 08:33:30 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms4fb2n603f4roeprjoopbix</guid>
-      </item>
-<item>
-        <title>OpenAI 推出两款新转录模型 API</title>
-        <link>https://x.com/OpenAIDevs/status/2082201169443905798</link>
-        <description>我们在 API 中引入了两种新的转录模型： • GPT-Live-Transcribe：专为低延迟实时转录而构建</description>
-        <author>AI HOT / X：OpenAI Developers (@OpenAIDevs)</author>
-        <category>aihot</category>
-        <pubDate>Tue, 28 Jul 2026 20:26:58 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms54yoqa0090roehc2530rwk</guid>
+        <pubDate>Wed, 29 Jul 2026 23:29:34 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms6r5fog0btjrohz9heu2c6f</guid>
       </item>
   </channel>
 </rss>
