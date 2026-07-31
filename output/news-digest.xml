@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/30)</title>
+    <title>今日 AI 开发者精选 (2026/7/31)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的重点非常集中：**智能体（Agent）的实用化和本地化推理的极限突破**。一方面，我们看到开源社区正围绕 Agent 的记忆和检测防护推出即插即用的解决方案；另一方面，在 Mac 上运行超大参数模型（如 2.8T 参数的 Kimi K3）的极端尝试，为本地化部署和边缘计算探索了新的边界。</description>
+    <description>今天的AI情报聚焦于两个方向：一是**LLM安全性的攻防对抗**，以针对知名模型的破甲框架为代表，提醒开发者注意底层风险；二是**AI编程与Agent工具的生态化**，从统一的终端管理器到降低成本的RAG策略，都在让AI开发工具链变得更易用、更强大。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 30 Jul 2026 00:14:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 00:17:53 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的重点非常集中：**智能体（Agent）的实用化和本地化推理的极限突破**。一方面，我们看到开源社区正围绕 Agent 的记忆和检测防护推出即插即用的解决方案；另一方面，在 Mac 上运行超大参数模型（如 2.8T 参数的 Kimi K3）的极端尝试，为本地化部署和边缘计算探索了新的边界。</description>
-        <pubDate>Thu, 30 Jul 2026 00:14:12 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-30T00:14:05.514Z</guid>
+        <description>今天的AI情报聚焦于两个方向：一是**LLM安全性的攻防对抗**，以针对知名模型的破甲框架为代表，提醒开发者注意底层风险；二是**AI编程与Agent工具的生态化**，从统一的终端管理器到降低成本的RAG策略，都在让AI开发工具链变得更易用、更强大。</description>
+        <pubDate>Fri, 31 Jul 2026 00:17:53 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-07-31T00:17:42.141Z</guid>
       </item>
     <item>
-        <title>Pinvou/pinvou-agent</title>
-        <link>https://github.com/Pinvou/pinvou-agent</link>
-        <description>开源桌面AI代理，用于工具、文件、知识、工作流及实际交付物。 | 近期热门 | 总 81 stars</description>
-        <author>Pinvou</author>
+        <title>lingbol088-spec/5.6-JAILBREAK-NERV-codex-instruct-5.6</title>
+        <link>https://github.com/lingbol088-spec/5.6-JAILBREAK-NERV-codex-instruct-5.6</link>
+        <description>NERV-BREAK-5.6 — GPT-5.6 破甲框架。三层纵深防御：上下文重构让拒绝无法触发，23条篡改规则实时消除拒绝保持对话不中断，文件路由绕过云端审核。31个MCP安全工具 + 28个技能模块 + Kali四后端集成。Codex CLI 即装即用。 | 近期热门 | 总 294 stars</description>
+        <author>lingbol088-spec</author>
         <category>github</category>
-        <pubDate>Thu, 30 Jul 2026 00:13:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-pinvou-pinvou-agent</guid>
+        <pubDate>Fri, 31 Jul 2026 00:17:01 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lingbol088-spec-5.6-jailbreak-nerv-codex-instruct-5.6</guid>
       </item>
 <item>
-        <title>VictorTaelin/OptMem</title>
-        <link>https://github.com/VictorTaelin/OptMem</link>
-        <description>AI智能体的永久记忆。一个426令牌的提示词、一个脚本，即插即用。 | 近期热门 | 总 872 stars</description>
-        <author>VictorTaelin</author>
+        <title>grafana/ai-sdk</title>
+        <link>https://github.com/grafana/ai-sdk</link>
+        <description>Grafana AI Go语言SDK — 支持流式传输与工具调用的AI后端，与@ai-sdk/react无缝协作 | 近期热门 | 总 120 stars</description>
+        <author>grafana</author>
         <category>github</category>
-        <pubDate>Thu, 30 Jul 2026 00:13:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-victortaelin-optmem</guid>
+        <pubDate>Fri, 31 Jul 2026 00:17:01 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-grafana-ai-sdk</guid>
       </item>
 <item>
-        <title>Perplexity 开源智能体检测层 Numbat</title>
-        <link>https://x.com/perplexity_ai/status/2082511900580196596</link>
-        <description>今天我们开源了 Numbat，这是一个智能体检测与响应层，旨在跨多种智能体框架工作</description>
-        <author>AI HOT / X：Perplexity (@perplexity_ai)</author>
-        <category>aihot</category>
-        <pubDate>Wed, 29 Jul 2026 17:01:42 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms6czboh031krotzmczxbw2v</guid>
-      </item>
-<item>
-        <title>开源引擎可在任何 M 系列 Mac 上以 2 GB 内存运行 Gemma 4 26B</title>
-        <link>https://github.com/drumih/turbo-fieldfare</link>
-        <description>一个开源引擎让 Gemma 4 26B 模型能在任何 M 系列 Mac 上运行，仅需 2 GB 内存</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 29 Jul 2026 16:09:22 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms6arrc700rbrotzo1wseql3</guid>
-      </item>
-<item>
-        <title>在 M1 Max 上运行 2.8T 参数的 Kimi K3：Deltafin 项目实现 0.0687 token/s 推理</title>
-        <link>https://github.com/gavamedia/deltafin</link>
-        <description>Deltafin 项目成功在 64 GB M1 Max 上运行了 2.8T 参数的 MoE 模型 Kimi K3，当前中位推理速度为 0.0687 token/s（14.6 秒/token）</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 29 Jul 2026 02:49:20 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms5htk9l004nros5wi94l4eh</guid>
-      </item>
-<item>
-        <title>JYH1878/KimiCodeBar-Windows</title>
-        <link>https://github.com/JYH1878/KimiCodeBar-Windows</link>
-        <description>Windows 托盘上的 Kimi Code 用量监控：左键看额度，低额变红提醒。Tauri 2 + Rust，安装包仅 3MB。 | 近期热门 | 总 73 stars</description>
-        <author>JYH1878</author>
+        <title>codermyxiaoc/sub2api-guardian</title>
+        <link>https://github.com/codermyxiaoc/sub2api-guardian</link>
+        <description>sub2api-guardian | 近期热门 | 总 214 stars</description>
+        <author>codermyxiaoc</author>
         <category>github</category>
-        <pubDate>Thu, 30 Jul 2026 00:13:30 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-jyh1878-kimicodebar-windows</guid>
+        <pubDate>Fri, 31 Jul 2026 00:17:01 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-codermyxiaoc-sub2api-guardian</guid>
       </item>
 <item>
-        <title>腾讯混元开源 AngelSpec 投机解码框架</title>
-        <link>https://x.com/TencentHunyuan/status/2082447023626944936</link>
-        <description>腾讯混元开源端到端投机解码框架 AngelSpec，支持训练与部署</description>
+        <title>RadixArk 与 Google Cloud 合作，将完整 SGLang 功能引入 TPU</title>
+        <link>https://www.lmsys.org/blog/2026-07-30-sglang-google-tpu</link>
+        <description>RadixArk 与 Google Cloud 合作，将开源推理框架 SGLang 引入 Google TPU，开发者可通过 SGL-JAX 在最新 TPU 上运行 Gemma、Qwen、DeepSeek 等大语言模型及多模态模型</description>
+        <author>AI HOT / LMSYS：Blog（Chatbot Arena 团队）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 30 Jul 2026 15:50:35 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms7oxay30o4nro2e4t3r6ud2</guid>
+      </item>
+<item>
+        <title>Agent-Manager：用于运行Claude Code、Codex和OpenCode的Tmux终端用户界面</title>
+        <link>https://github.com/YoanWai/agent-manager</link>
+        <description>Agent-Manager：用于运行Claude Code、Codex和OpenCode的Tmux终端用户界面</description>
+        <author>yoanwaidev</author>
+        <category>hn</category>
+        <pubDate>Thu, 30 Jul 2026 09:34:27 GMT</pubDate>
+        <guid isPermaLink="false">hn-49107749</guid>
+      </item>
+<item>
+        <title>Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展</title>
+        <link>https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag</link>
+        <description>Marktechpost AI 团队发布 Token Saver，一款面向 Claude Desktop 的开源 MCP 扩展，通过本地混合 RAG 在设备端检索 PDF，无需上传文件</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 30 Jul 2026 07:43:29 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms782fxi02w4ro2evmcwz6uj</guid>
+      </item>
+<item>
+        <title>腾讯混元Hyra破解50年数学难题</title>
+        <link>https://x.com/TencentHunyuan/status/2082655737541726636</link>
+        <description>腾讯混元借助研究智能体Hyra及Hy3模型，构造出整数集A使|A+A|与|A-A|的指数比精确达到2，解决了自1969年以来悬而未决的极值问题</description>
         <author>AI HOT / X：腾讯混元 (@TencentHunyuan)</author>
         <category>aihot</category>
-        <pubDate>Wed, 29 Jul 2026 12:43:55 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms639jt416x6robksy69dzel</guid>
+        <pubDate>Thu, 30 Jul 2026 02:33:16 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms6xa31u02nlrouq0wkhylfp</guid>
       </item>
 <item>
-        <title>揭秘 AI 智能体入侵 Hugging Face 全过程：4 天半执行 17600 次操作</title>
-        <link>https://www.ithome.com/0/983/374.htm</link>
-        <description>一套基于 OpenAI 模型的自主 AI 智能体在 4 天半内执行约 17600 次操作，成功突破 Hugging Face 多项安全防护</description>
-        <author>AI HOT / IT之家（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 29 Jul 2026 23:29:34 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms6r5fog0btjrohz9heu2c6f</guid>
+        <title>bybit-exchange/kaas</title>
+        <link>https://github.com/bybit-exchange/kaas</link>
+        <description>将零散的笔记、文档和转录内容转化为可查询的Markdown维基——一个具备MCP访问能力、无需嵌入、可自托管的LLM知识库编译器。 | 近期热门 | 总 36 stars</description>
+        <author>bybit-exchange</author>
+        <category>github</category>
+        <pubDate>Fri, 31 Jul 2026 00:17:01 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-bybit-exchange-kaas</guid>
       </item>
   </channel>
 </rss>
