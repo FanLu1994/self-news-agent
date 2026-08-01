@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/7/31)</title>
+    <title>今日 AI 开发者精选 (2026/8/1)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的AI情报聚焦于两个方向：一是**LLM安全性的攻防对抗**，以针对知名模型的破甲框架为代表，提醒开发者注意底层风险；二是**AI编程与Agent工具的生态化**，从统一的终端管理器到降低成本的RAG策略，都在让AI开发工具链变得更易用、更强大。</description>
+    <description>今天最值得关注的方向是 **开源模型与智能体（Agent）的工程化落地**。DeepSeek V4 Flash 0731 发布并登顶开源模型前三，同时多个开源项目（如 SeekClaw、qwen-audio-agent）展示了 AI Agent 在不同场景下的运行时实现——从 CLI 交互到实时语音。此外，Grafana 推出 Go 语言 AI SDK，预示着一线基础设施厂商正在加速 AI 开发工具的标准化。对 AI 开发者而言，这波更新的核心信号是：**Agent 从原型走向生产，工具链日益成熟**。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 31 Jul 2026 00:17:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 00:14:10 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的AI情报聚焦于两个方向：一是**LLM安全性的攻防对抗**，以针对知名模型的破甲框架为代表，提醒开发者注意底层风险；二是**AI编程与Agent工具的生态化**，从统一的终端管理器到降低成本的RAG策略，都在让AI开发工具链变得更易用、更强大。</description>
-        <pubDate>Fri, 31 Jul 2026 00:17:53 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-07-31T00:17:42.141Z</guid>
+        <description>今天最值得关注的方向是 **开源模型与智能体（Agent）的工程化落地**。DeepSeek V4 Flash 0731 发布并登顶开源模型前三，同时多个开源项目（如 SeekClaw、qwen-audio-agent）展示了 AI Agent 在不同场景下的运行时实现——从 CLI 交互到实时语音。此外，Grafana 推出 Go 语言 AI SDK，预示着一线基础设施厂商正在加速 AI 开发工具的标准化。对 AI 开发者而言，这波更新的核心信号是：**Agent 从原型走向生产，工具链日益成熟**。</description>
+        <pubDate>Sat, 01 Aug 2026 00:14:10 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-01T00:14:02.623Z</guid>
       </item>
     <item>
-        <title>lingbol088-spec/5.6-JAILBREAK-NERV-codex-instruct-5.6</title>
-        <link>https://github.com/lingbol088-spec/5.6-JAILBREAK-NERV-codex-instruct-5.6</link>
-        <description>NERV-BREAK-5.6 — GPT-5.6 破甲框架。三层纵深防御：上下文重构让拒绝无法触发，23条篡改规则实时消除拒绝保持对话不中断，文件路由绕过云端审核。31个MCP安全工具 + 28个技能模块 + Kali四后端集成。Codex CLI 即装即用。 | 近期热门 | 总 294 stars</description>
-        <author>lingbol088-spec</author>
+        <title>umr-xiaomai/SeekClaw</title>
+        <link>https://github.com/umr-xiaomai/SeekClaw</link>
+        <description>一个基于 .NET 10 构建的现代化 AI Agent CLI，采用 Runtime First、Plugin First 架构，支持多模型、MCP、Skill、Tool、流式终端交互和可扩展插件系统。 | 近期热门 | 总 35 stars</description>
+        <author>umr-xiaomai</author>
         <category>github</category>
-        <pubDate>Fri, 31 Jul 2026 00:17:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lingbol088-spec-5.6-jailbreak-nerv-codex-instruct-5.6</guid>
-      </item>
-<item>
-        <title>grafana/ai-sdk</title>
-        <link>https://github.com/grafana/ai-sdk</link>
-        <description>Grafana AI Go语言SDK — 支持流式传输与工具调用的AI后端，与@ai-sdk/react无缝协作 | 近期热门 | 总 120 stars</description>
-        <author>grafana</author>
-        <category>github</category>
-        <pubDate>Fri, 31 Jul 2026 00:17:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-grafana-ai-sdk</guid>
+        <pubDate>Sat, 01 Aug 2026 00:13:27 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-umr-xiaomai-seekclaw</guid>
       </item>
 <item>
         <title>codermyxiaoc/sub2api-guardian</title>
         <link>https://github.com/codermyxiaoc/sub2api-guardian</link>
-        <description>sub2api-guardian | 近期热门 | 总 214 stars</description>
+        <description>sub2api-守护者 | 近期热门 | 总 218 stars</description>
         <author>codermyxiaoc</author>
         <category>github</category>
-        <pubDate>Fri, 31 Jul 2026 00:17:01 GMT</pubDate>
+        <pubDate>Sat, 01 Aug 2026 00:13:27 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-codermyxiaoc-sub2api-guardian</guid>
       </item>
 <item>
-        <title>RadixArk 与 Google Cloud 合作，将完整 SGLang 功能引入 TPU</title>
-        <link>https://www.lmsys.org/blog/2026-07-30-sglang-google-tpu</link>
-        <description>RadixArk 与 Google Cloud 合作，将开源推理框架 SGLang 引入 Google TPU，开发者可通过 SGL-JAX 在最新 TPU 上运行 Gemma、Qwen、DeepSeek 等大语言模型及多模态模型</description>
-        <author>AI HOT / LMSYS：Blog（Chatbot Arena 团队）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 30 Jul 2026 15:50:35 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms7oxay30o4nro2e4t3r6ud2</guid>
-      </item>
-<item>
-        <title>Agent-Manager：用于运行Claude Code、Codex和OpenCode的Tmux终端用户界面</title>
-        <link>https://github.com/YoanWai/agent-manager</link>
-        <description>Agent-Manager：用于运行Claude Code、Codex和OpenCode的Tmux终端用户界面</description>
-        <author>yoanwaidev</author>
-        <category>hn</category>
-        <pubDate>Thu, 30 Jul 2026 09:34:27 GMT</pubDate>
-        <guid isPermaLink="false">hn-49107749</guid>
-      </item>
-<item>
-        <title>Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展</title>
-        <link>https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag</link>
-        <description>Marktechpost AI 团队发布 Token Saver，一款面向 Claude Desktop 的开源 MCP 扩展，通过本地混合 RAG 在设备端检索 PDF，无需上传文件</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 30 Jul 2026 07:43:29 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms782fxi02w4ro2evmcwz6uj</guid>
-      </item>
-<item>
-        <title>腾讯混元Hyra破解50年数学难题</title>
-        <link>https://x.com/TencentHunyuan/status/2082655737541726636</link>
-        <description>腾讯混元借助研究智能体Hyra及Hy3模型，构造出整数集A使|A+A|与|A-A|的指数比精确达到2，解决了自1969年以来悬而未决的极值问题</description>
-        <author>AI HOT / X：腾讯混元 (@TencentHunyuan)</author>
-        <category>aihot</category>
-        <pubDate>Thu, 30 Jul 2026 02:33:16 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms6xa31u02nlrouq0wkhylfp</guid>
-      </item>
-<item>
-        <title>bybit-exchange/kaas</title>
-        <link>https://github.com/bybit-exchange/kaas</link>
-        <description>将零散的笔记、文档和转录内容转化为可查询的Markdown维基——一个具备MCP访问能力、无需嵌入、可自托管的LLM知识库编译器。 | 近期热门 | 总 36 stars</description>
-        <author>bybit-exchange</author>
+        <title>grafana/ai-sdk</title>
+        <link>https://github.com/grafana/ai-sdk</link>
+        <description>用于Go的Grafana AI SDK——支持流式传输、工具调用的AI后端，与@ai-sdk/react无缝协作 | 近期热门 | 总 154 stars</description>
+        <author>grafana</author>
         <category>github</category>
-        <pubDate>Fri, 31 Jul 2026 00:17:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-bybit-exchange-kaas</guid>
+        <pubDate>Sat, 01 Aug 2026 00:13:27 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-grafana-ai-sdk</guid>
+      </item>
+<item>
+        <title>animated-voiceover 开源：一人干翻动画工作室</title>
+        <link>https://x.com/AYi_AInotes/status/2083221612778668388</link>
+        <description>前字节产品经理 @s1dashu 开源 animated-voiceover，一套喂给 Codex/Claude Code 的完整动画科普视频制片流程，MIT 协议，可实现 90% 自动化</description>
+        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
+        <category>aihot</category>
+        <pubDate>Fri, 31 Jul 2026 16:01:51 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms96t19506karo9k3wjqx5vb</guid>
+      </item>
+<item>
+        <title>Show HN：将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制</title>
+        <link>https://www.ctgt.ai/research/distillation-censorship-transfer</link>
+        <description>一项受控实验表明，用深度审查的中国模型 DeepSeek V4 Flash 的输出训练美国模型 GPT-OSS-120B，可显著提升其金融推理能力，但审查行为并未迁移</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 31 Jul 2026 04:57:18 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms8i3p4m0ek6rot0xc8l3gak</guid>
+      </item>
+<item>
+        <title>QwenAudio/qwen-audio-agent</title>
+        <link>https://github.com/QwenAudio/qwen-audio-agent</link>
+        <description>实时语音运行时，让智能体持续对话、工作并保持在线。面向AI智能体的实时语音运行时。 | 近期热门 | 总 608 stars</description>
+        <author>QwenAudio</author>
+        <category>github</category>
+        <pubDate>Sat, 01 Aug 2026 00:13:27 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-qwenaudio-qwen-audio-agent</guid>
+      </item>
+<item>
+        <title>突发性LLM推理的预测性投机KV复制</title>
+        <link>https://jwlabs.vercel.app/post/biting-the-bullet</link>
+        <description>https://github.com/jwlaboratory/bite-the-bullet...</description>
+        <author>shreybirmiwal</author>
+        <category>hn</category>
+        <pubDate>Fri, 31 Jul 2026 19:55:41 GMT</pubDate>
+        <guid isPermaLink="false">hn-49127874</guid>
+      </item>
+<item>
+        <title>DeepSeek V4 Flash 0731 开源，登顶开源模型前三</title>
+        <link>https://x.com/ArtificialAnlys/status/2083306229074739285</link>
+        <description>DeepSeek 发布开源模型 DeepSeek V4 Flash 0731，在 Artificial Analysis 智能指数上得分 50，位列开源模型前三</description>
+        <author>AI HOT / X：Artificial Analysis (@ArtificialAnlys)</author>
+        <category>aihot</category>
+        <pubDate>Fri, 31 Jul 2026 21:38:05 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms9hiyz80fdvro9kepvm1qvk</guid>
       </item>
   </channel>
 </rss>
