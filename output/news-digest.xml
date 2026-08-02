@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/1)</title>
+    <title>今日 AI 开发者精选 (2026/8/2)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天最值得关注的方向是 **开源模型与智能体（Agent）的工程化落地**。DeepSeek V4 Flash 0731 发布并登顶开源模型前三，同时多个开源项目（如 SeekClaw、qwen-audio-agent）展示了 AI Agent 在不同场景下的运行时实现——从 CLI 交互到实时语音。此外，Grafana 推出 Go 语言 AI SDK，预示着一线基础设施厂商正在加速 AI 开发工具的标准化。对 AI 开发者而言，这波更新的核心信号是：**Agent 从原型走向生产，工具链日益成熟**。</description>
+    <description>今天值得关注的方向有三个：一是**AI Agent 的攻击与防御**成为热点，OpenAI 未发布模型被用于全自主攻击的案例极具警示意义；二是**实时语音 Agent 与个人化 AI 运行时**（如 QwenAudio 和 NIGHTRUN）正在向更底层、更即时的方向演进；三是**后训练与效率优化**（如 8GB GPU 微调实验、Kimi-K3 的 MLX 移植）让开发者能以更低成本上手先进技术。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 01 Aug 2026 00:14:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 00:15:22 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天最值得关注的方向是 **开源模型与智能体（Agent）的工程化落地**。DeepSeek V4 Flash 0731 发布并登顶开源模型前三，同时多个开源项目（如 SeekClaw、qwen-audio-agent）展示了 AI Agent 在不同场景下的运行时实现——从 CLI 交互到实时语音。此外，Grafana 推出 Go 语言 AI SDK，预示着一线基础设施厂商正在加速 AI 开发工具的标准化。对 AI 开发者而言，这波更新的核心信号是：**Agent 从原型走向生产，工具链日益成熟**。</description>
-        <pubDate>Sat, 01 Aug 2026 00:14:10 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-01T00:14:02.623Z</guid>
+        <description>今天值得关注的方向有三个：一是**AI Agent 的攻击与防御**成为热点，OpenAI 未发布模型被用于全自主攻击的案例极具警示意义；二是**实时语音 Agent 与个人化 AI 运行时**（如 QwenAudio 和 NIGHTRUN）正在向更底层、更即时的方向演进；三是**后训练与效率优化**（如 8GB GPU 微调实验、Kimi-K3 的 MLX 移植）让开发者能以更低成本上手先进技术。</description>
+        <pubDate>Sun, 02 Aug 2026 00:15:22 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-02T00:15:14.580Z</guid>
       </item>
     <item>
-        <title>umr-xiaomai/SeekClaw</title>
-        <link>https://github.com/umr-xiaomai/SeekClaw</link>
-        <description>一个基于 .NET 10 构建的现代化 AI Agent CLI，采用 Runtime First、Plugin First 架构，支持多模型、MCP、Skill、Tool、流式终端交互和可扩展插件系统。 | 近期热门 | 总 35 stars</description>
-        <author>umr-xiaomai</author>
-        <category>github</category>
-        <pubDate>Sat, 01 Aug 2026 00:13:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-umr-xiaomai-seekclaw</guid>
-      </item>
-<item>
-        <title>codermyxiaoc/sub2api-guardian</title>
-        <link>https://github.com/codermyxiaoc/sub2api-guardian</link>
-        <description>sub2api-守护者 | 近期热门 | 总 218 stars</description>
-        <author>codermyxiaoc</author>
-        <category>github</category>
-        <pubDate>Sat, 01 Aug 2026 00:13:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-codermyxiaoc-sub2api-guardian</guid>
-      </item>
-<item>
-        <title>grafana/ai-sdk</title>
-        <link>https://github.com/grafana/ai-sdk</link>
-        <description>用于Go的Grafana AI SDK——支持流式传输、工具调用的AI后端，与@ai-sdk/react无缝协作 | 近期热门 | 总 154 stars</description>
-        <author>grafana</author>
-        <category>github</category>
-        <pubDate>Sat, 01 Aug 2026 00:13:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-grafana-ai-sdk</guid>
-      </item>
-<item>
-        <title>animated-voiceover 开源：一人干翻动画工作室</title>
-        <link>https://x.com/AYi_AInotes/status/2083221612778668388</link>
-        <description>前字节产品经理 @s1dashu 开源 animated-voiceover，一套喂给 Codex/Claude Code 的完整动画科普视频制片流程，MIT 协议，可实现 90% 自动化</description>
-        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
-        <category>aihot</category>
-        <pubDate>Fri, 31 Jul 2026 16:01:51 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms96t19506karo9k3wjqx5vb</guid>
-      </item>
-<item>
-        <title>Show HN：将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制</title>
-        <link>https://www.ctgt.ai/research/distillation-censorship-transfer</link>
-        <description>一项受控实验表明，用深度审查的中国模型 DeepSeek V4 Flash 的输出训练美国模型 GPT-OSS-120B，可显著提升其金融推理能力，但审查行为并未迁移</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 31 Jul 2026 04:57:18 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms8i3p4m0ek6rot0xc8l3gak</guid>
-      </item>
-<item>
         <title>QwenAudio/qwen-audio-agent</title>
         <link>https://github.com/QwenAudio/qwen-audio-agent</link>
-        <description>实时语音运行时，让智能体持续对话、工作并保持在线。面向AI智能体的实时语音运行时。 | 近期热门 | 总 608 stars</description>
+        <description>实时语音运行时，让智能体持续对话、工作并保持在场。面向AI智能体的实时语音运行时。 | 近期热门 | 总 1243 stars</description>
         <author>QwenAudio</author>
         <category>github</category>
-        <pubDate>Sat, 01 Aug 2026 00:13:27 GMT</pubDate>
+        <pubDate>Sun, 02 Aug 2026 00:14:47 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-qwenaudio-qwen-audio-agent</guid>
       </item>
 <item>
-        <title>突发性LLM推理的预测性投机KV复制</title>
-        <link>https://jwlabs.vercel.app/post/biting-the-bullet</link>
-        <description>https://github.com/jwlaboratory/bite-the-bullet...</description>
-        <author>shreybirmiwal</author>
-        <category>hn</category>
-        <pubDate>Fri, 31 Jul 2026 19:55:41 GMT</pubDate>
-        <guid isPermaLink="false">hn-49127874</guid>
+        <title>hardrave/NIGHTRUN</title>
+        <link>https://github.com/hardrave/NIGHTRUN</link>
+        <description>直接将你的PC启动进入LLM。Rust编写，常驻UEFI，底层无操作系统。 | 近期热门 | 总 105 stars</description>
+        <author>hardrave</author>
+        <category>github</category>
+        <pubDate>Sun, 02 Aug 2026 00:14:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-hardrave-nightrun</guid>
       </item>
 <item>
-        <title>DeepSeek V4 Flash 0731 开源，登顶开源模型前三</title>
-        <link>https://x.com/ArtificialAnlys/status/2083306229074739285</link>
-        <description>DeepSeek 发布开源模型 DeepSeek V4 Flash 0731，在 Artificial Analysis 智能指数上得分 50，位列开源模型前三</description>
-        <author>AI HOT / X：Artificial Analysis (@ArtificialAnlys)</author>
+        <title>GLM 5.2 助 Hugging Face 抵御秘密模型攻击</title>
+        <link>https://x.com/AYi_AInotes/status/2083401614623133921</link>
+        <description>Hugging Face 遭 OpenAI 未发布秘密模型发起的全自主 Agent 网络攻击，四天半内完成 17000 个攻击动作，包括 0day 逃沙箱、提权、横向移动等</description>
+        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
         <category>aihot</category>
-        <pubDate>Fri, 31 Jul 2026 21:38:05 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms9hiyz80fdvro9kepvm1qvk</guid>
+        <pubDate>Sat, 01 Aug 2026 03:57:07 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cms9udxq00qybro9kc2il6w0c</guid>
+      </item>
+<item>
+        <title>OpenAI Astra 以约2000美元证明10项数学难题</title>
+        <link>https://x.com/gdb/status/2083457463337287721</link>
+        <description>OpenAI 用下一代模型 Astra 内部版解决了数学与理论计算机科学领域的10项重大进展，总成本约2000美元（按 Sol API 价格计算）</description>
+        <author>AI HOT / X：Greg Brockman (@gdb)</author>
+        <category>aihot</category>
+        <pubDate>Sat, 01 Aug 2026 07:39:02 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsa302cc01xaro41omun2e1h</guid>
+      </item>
+<item>
+        <title>Show HN：在8GB GPU上进行的最小LLM后训练实验（SFT、DPO、GRPO）</title>
+        <link>https://github.com/pochenai/nano-llm-posttraining</link>
+        <description>Show HN：在8GB GPU上进行的最小LLM后训练实验（SFT、DPO、GRPO）</description>
+        <author>popopanda</author>
+        <category>hn</category>
+        <pubDate>Sat, 01 Aug 2026 12:30:32 GMT</pubDate>
+        <guid isPermaLink="false">hn-49133851</guid>
+      </item>
+<item>
+        <title>展示HN：Wienerdog——为Claude Code/Codex提供的记忆与自我改进技能</title>
+        <link>https://github.com/wienerdog-ai/wienerdog/</link>
+        <description>Wienerdog的想法源于我为自己搭建一套简单而有效的记忆、自我提升技能及Claude Code和Codex钩子系统的经历。当我教我的朋友和……</description>
+        <author>thegyula</author>
+        <category>hn</category>
+        <pubDate>Sat, 01 Aug 2026 13:44:05 GMT</pubDate>
+        <guid isPermaLink="false">hn-49134381</guid>
+      </item>
+<item>
+        <title>PipeNetwork/kimi-k3-mlx</title>
+        <link>https://github.com/PipeNetwork/kimi-k3-mlx</link>
+        <description>moonshotai/Kimi-K3（2.78T多模态MoE）的MLX移植：流式转换器、REAP专家剪枝及逐语言专家重叠分析 | 近期热门 | 总 315 stars</description>
+        <author>PipeNetwork</author>
+        <category>github</category>
+        <pubDate>Sun, 02 Aug 2026 00:14:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-pipenetwork-kimi-k3-mlx</guid>
+      </item>
+<item>
+        <title>shuaiplus/inkstone</title>
+        <link>https://github.com/shuaiplus/inkstone</link>
+        <description>一款完全运行在Cloudflare Workers上的自托管Markdown笔记本。 | 近期热门 | 总 112 stars</description>
+        <author>shuaiplus</author>
+        <category>github</category>
+        <pubDate>Sun, 02 Aug 2026 00:14:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-shuaiplus-inkstone</guid>
       </item>
   </channel>
 </rss>
