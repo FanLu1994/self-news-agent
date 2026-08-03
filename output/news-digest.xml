@@ -1,89 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/2)</title>
+    <title>今日 AI 开发者精选 (2026/8/3)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天值得关注的方向有三个：一是**AI Agent 的攻击与防御**成为热点，OpenAI 未发布模型被用于全自主攻击的案例极具警示意义；二是**实时语音 Agent 与个人化 AI 运行时**（如 QwenAudio 和 NIGHTRUN）正在向更底层、更即时的方向演进；三是**后训练与效率优化**（如 8GB GPU 微调实验、Kimi-K3 的 MLX 移植）让开发者能以更低成本上手先进技术。</description>
+    <description>今天的核心方向是 **AI 编程智能体（Coding Agent）的精细化与工程化**。一方面，开源社区在快速迭代更轻量、更专用的编码代理（如小于 1MB 的 C++ 重实现 MicroCodex）；另一方面，高阶玩家开始在真实工作流中用「代理管理代理」来玩转 Codex，通过子代理配置有效控制成本并提升产出。同时，OpenAI 内部 Astra 模型在数学上的突破引发了关于「模型能力边界」的讨论——擅长数学，不等于擅长一切。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 02 Aug 2026 00:15:22 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 00:15:41 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天值得关注的方向有三个：一是**AI Agent 的攻击与防御**成为热点，OpenAI 未发布模型被用于全自主攻击的案例极具警示意义；二是**实时语音 Agent 与个人化 AI 运行时**（如 QwenAudio 和 NIGHTRUN）正在向更底层、更即时的方向演进；三是**后训练与效率优化**（如 8GB GPU 微调实验、Kimi-K3 的 MLX 移植）让开发者能以更低成本上手先进技术。</description>
-        <pubDate>Sun, 02 Aug 2026 00:15:22 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-02T00:15:14.580Z</guid>
+        <description>今天的核心方向是 **AI 编程智能体（Coding Agent）的精细化与工程化**。一方面，开源社区在快速迭代更轻量、更专用的编码代理（如小于 1MB 的 C++ 重实现 MicroCodex）；另一方面，高阶玩家开始在真实工作流中用「代理管理代理」来玩转 Codex，通过子代理配置有效控制成本并提升产出。同时，OpenAI 内部 Astra 模型在数学上的突破引发了关于「模型能力边界」的讨论——擅长数学，不等于擅长一切。</description>
+        <pubDate>Mon, 03 Aug 2026 00:15:41 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-03T00:15:36.137Z</guid>
       </item>
     <item>
-        <title>QwenAudio/qwen-audio-agent</title>
-        <link>https://github.com/QwenAudio/qwen-audio-agent</link>
-        <description>实时语音运行时，让智能体持续对话、工作并保持在场。面向AI智能体的实时语音运行时。 | 近期热门 | 总 1243 stars</description>
-        <author>QwenAudio</author>
+        <title>trycompai/crm</title>
+        <link>https://github.com/trycompai/crm</link>
+        <description>开源、智能体优先的CRM。 | 近期热门 | 总 1801 stars</description>
+        <author>trycompai</author>
         <category>github</category>
-        <pubDate>Sun, 02 Aug 2026 00:14:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-qwenaudio-qwen-audio-agent</guid>
+        <pubDate>Mon, 03 Aug 2026 00:14:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-trycompai-crm</guid>
       </item>
 <item>
-        <title>hardrave/NIGHTRUN</title>
-        <link>https://github.com/hardrave/NIGHTRUN</link>
-        <description>直接将你的PC启动进入LLM。Rust编写，常驻UEFI，底层无操作系统。 | 近期热门 | 总 105 stars</description>
-        <author>hardrave</author>
+        <title>arcships/aimux</title>
+        <link>https://github.com/arcships/aimux</link>
+        <description>统一 LLM 服务接入层 — 一套 API 接入 172+ 家 AI 服务商 | 近期热门 | 总 140 stars</description>
+        <author>arcships</author>
         <category>github</category>
-        <pubDate>Sun, 02 Aug 2026 00:14:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-hardrave-nightrun</guid>
+        <pubDate>Mon, 03 Aug 2026 00:14:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-arcships-aimux</guid>
       </item>
 <item>
-        <title>GLM 5.2 助 Hugging Face 抵御秘密模型攻击</title>
-        <link>https://x.com/AYi_AInotes/status/2083401614623133921</link>
-        <description>Hugging Face 遭 OpenAI 未发布秘密模型发起的全自主 Agent 网络攻击，四天半内完成 17000 个攻击动作，包括 0day 逃沙箱、提权、横向移动等</description>
+        <title>Codex 用 Sol 指挥 Luna Max 省额度翻倍产出</title>
+        <link>https://x.com/AYi_AInotes/status/2083867265179537565</link>
+        <description>Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码...</description>
         <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
         <category>aihot</category>
-        <pubDate>Sat, 01 Aug 2026 03:57:07 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cms9udxq00qybro9kc2il6w0c</guid>
+        <pubDate>Sun, 02 Aug 2026 10:47:27 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsbowa0l0m77rohvw8s15ia1</guid>
       </item>
 <item>
-        <title>OpenAI Astra 以约2000美元证明10项数学难题</title>
-        <link>https://x.com/gdb/status/2083457463337287721</link>
-        <description>OpenAI 用下一代模型 Astra 内部版解决了数学与理论计算机科学领域的10项重大进展，总成本约2000美元（按 Sol API 价格计算）</description>
-        <author>AI HOT / X：Greg Brockman (@gdb)</author>
+        <title>展示HN：Sprocket——硬件与软件开发的最佳AI代理</title>
+        <link>https://sprocket-demo.spikonado.com</link>
+        <description>嘿，HN，
+我16岁，一直在开发Sprocket有一阵子了。它是一个开源AI代理，在硬件和软件方面都胜过其他所有代理。这里是最棒的...</description>
+        <author>amronos</author>
+        <category>hn</category>
+        <pubDate>Sun, 02 Aug 2026 16:26:19 GMT</pubDate>
+        <guid isPermaLink="false">hn-49145934</guid>
+      </item>
+<item>
+        <title>OpenAI内部Astra模型解决了10个重大的开放数学和计算机科学问题</title>
+        <link>https://twitter.com/polynoamial/status/2083467194663571701</link>
+        <description>OpenAI内部Astra模型解决了10个重大的开放数学和计算机科学问题</description>
+        <author>wa5ina</author>
+        <category>hn</category>
+        <pubDate>Sun, 02 Aug 2026 12:01:37 GMT</pubDate>
+        <guid isPermaLink="false">hn-49143688</guid>
+      </item>
+<item>
+        <title>OpenAI 新模型 Astra 数学表现出色，但被过度吹捧</title>
+        <link>https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold</link>
+        <description>OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了&quot;合成谬误&quot;：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务</description>
+        <author>AI HOT / Gary Marcus：The Road to AI We Can Trust（RSS）</author>
         <category>aihot</category>
-        <pubDate>Sat, 01 Aug 2026 07:39:02 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsa302cc01xaro41omun2e1h</guid>
+        <pubDate>Sun, 02 Aug 2026 21:25:27 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmscc62eo033broeusw72isi0</guid>
       </item>
 <item>
-        <title>Show HN：在8GB GPU上进行的最小LLM后训练实验（SFT、DPO、GRPO）</title>
-        <link>https://github.com/pochenai/nano-llm-posttraining</link>
-        <description>Show HN：在8GB GPU上进行的最小LLM后训练实验（SFT、DPO、GRPO）</description>
-        <author>popopanda</author>
+        <title>展示HN：MicroCodex编码代理——OpenAI/codex在C++中的重新实现，二进制文件小于1MB</title>
+        <link>https://github.com/paoloanzn/microcodex</link>
+        <description>展示HN：MicroCodex编码代理——用C++重新实现的OpenAI/codex，二进制文件小于1MB</description>
+        <author>paoloanzn</author>
         <category>hn</category>
-        <pubDate>Sat, 01 Aug 2026 12:30:32 GMT</pubDate>
-        <guid isPermaLink="false">hn-49133851</guid>
+        <pubDate>Sun, 02 Aug 2026 20:11:35 GMT</pubDate>
+        <guid isPermaLink="false">hn-49147842</guid>
       </item>
 <item>
-        <title>展示HN：Wienerdog——为Claude Code/Codex提供的记忆与自我改进技能</title>
-        <link>https://github.com/wienerdog-ai/wienerdog/</link>
-        <description>Wienerdog的想法源于我为自己搭建一套简单而有效的记忆、自我提升技能及Claude Code和Codex钩子系统的经历。当我教我的朋友和……</description>
-        <author>thegyula</author>
+        <title>我的个人AI基准测试：“生成一个带有哈布斯堡下颌的青蛙SVG。”</title>
+        <link>https://frogs.vaguespac.es/</link>
+        <description>我的个人AI基准测试：“生成一只带有哈布斯堡下颌的青蛙的SVG。”</description>
+        <author>thebigship</author>
         <category>hn</category>
-        <pubDate>Sat, 01 Aug 2026 13:44:05 GMT</pubDate>
-        <guid isPermaLink="false">hn-49134381</guid>
-      </item>
-<item>
-        <title>PipeNetwork/kimi-k3-mlx</title>
-        <link>https://github.com/PipeNetwork/kimi-k3-mlx</link>
-        <description>moonshotai/Kimi-K3（2.78T多模态MoE）的MLX移植：流式转换器、REAP专家剪枝及逐语言专家重叠分析 | 近期热门 | 总 315 stars</description>
-        <author>PipeNetwork</author>
-        <category>github</category>
-        <pubDate>Sun, 02 Aug 2026 00:14:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-pipenetwork-kimi-k3-mlx</guid>
-      </item>
-<item>
-        <title>shuaiplus/inkstone</title>
-        <link>https://github.com/shuaiplus/inkstone</link>
-        <description>一款完全运行在Cloudflare Workers上的自托管Markdown笔记本。 | 近期热门 | 总 112 stars</description>
-        <author>shuaiplus</author>
-        <category>github</category>
-        <pubDate>Sun, 02 Aug 2026 00:14:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-shuaiplus-inkstone</guid>
+        <pubDate>Sun, 02 Aug 2026 19:42:08 GMT</pubDate>
+        <guid isPermaLink="false">hn-49147622</guid>
       </item>
   </channel>
 </rss>
