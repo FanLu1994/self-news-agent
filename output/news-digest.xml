@@ -1,90 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/3)</title>
+    <title>今日 AI 开发者精选 (2026/8/4)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的核心方向是 **AI 编程智能体（Coding Agent）的精细化与工程化**。一方面，开源社区在快速迭代更轻量、更专用的编码代理（如小于 1MB 的 C++ 重实现 MicroCodex）；另一方面，高阶玩家开始在真实工作流中用「代理管理代理」来玩转 Codex，通过子代理配置有效控制成本并提升产出。同时，OpenAI 内部 Astra 模型在数学上的突破引发了关于「模型能力边界」的讨论——擅长数学，不等于擅长一切。</description>
+    <description>今天的资讯集中在**开源智能体生态的爆发**与**开源模型能力的跃升**两个方向。Google 开源了 Agent Skills 技能库并分享了规模化治理经验，微软也推出了智能体训练框架 Orchard；模型侧，Qwen 首次开源 Max 级权重、MiniMax 开源 2K 视频生成模型、商汤发布轻量级统一多模态模型，三者在同一天接连放出，密度相当高。对开发者来说，无论是做 Agent 应用还是想基于开源模型做私有化部署，今天都有实打实能上手的东西。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 03 Aug 2026 00:15:41 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 00:18:23 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的核心方向是 **AI 编程智能体（Coding Agent）的精细化与工程化**。一方面，开源社区在快速迭代更轻量、更专用的编码代理（如小于 1MB 的 C++ 重实现 MicroCodex）；另一方面，高阶玩家开始在真实工作流中用「代理管理代理」来玩转 Codex，通过子代理配置有效控制成本并提升产出。同时，OpenAI 内部 Astra 模型在数学上的突破引发了关于「模型能力边界」的讨论——擅长数学，不等于擅长一切。</description>
-        <pubDate>Mon, 03 Aug 2026 00:15:41 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-03T00:15:36.137Z</guid>
+        <description>今天的资讯集中在**开源智能体生态的爆发**与**开源模型能力的跃升**两个方向。Google 开源了 Agent Skills 技能库并分享了规模化治理经验，微软也推出了智能体训练框架 Orchard；模型侧，Qwen 首次开源 Max 级权重、MiniMax 开源 2K 视频生成模型、商汤发布轻量级统一多模态模型，三者在同一天接连放出，密度相当高。对开发者来说，无论是做 Agent 应用还是想基于开源模型做私有化部署，今天都有实打实能上手的东西。</description>
+        <pubDate>Tue, 04 Aug 2026 00:18:23 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-04T00:18:13.030Z</guid>
       </item>
     <item>
         <title>trycompai/crm</title>
         <link>https://github.com/trycompai/crm</link>
-        <description>开源、智能体优先的CRM。 | 近期热门 | 总 1801 stars</description>
+        <description>开源、智能体优先的CRM。 | 近期热门 | 总 3232 stars</description>
         <author>trycompai</author>
         <category>github</category>
-        <pubDate>Mon, 03 Aug 2026 00:14:57 GMT</pubDate>
+        <pubDate>Tue, 04 Aug 2026 00:17:33 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-trycompai-crm</guid>
       </item>
 <item>
-        <title>arcships/aimux</title>
-        <link>https://github.com/arcships/aimux</link>
-        <description>统一 LLM 服务接入层 — 一套 API 接入 172+ 家 AI 服务商 | 近期热门 | 总 140 stars</description>
-        <author>arcships</author>
+        <title>Google Agent Skills 幕后：如何构建、测试与规模化</title>
+        <link>https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5</link>
+        <description>Google Agent Skills 团队详解其开源技能库的构建与治理流程：项目始于 Google Cloud Next 2026 前的&quot;swarm&quot;冲刺，发布后 GitHub 星标超 15，000</description>
+        <author>AI HOT / Google AI：DEV 作者专属（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Mon, 03 Aug 2026 14:33:20 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsddya2a01t3rotjo94tdap8</guid>
+      </item>
+<item>
+        <title>ArchAstro/scopey</title>
+        <link>https://github.com/ArchAstro/scopey</link>
+        <description>让Claude/Codex/Grok/Pi/OpenCode会话保持在范围内 | 近期热门 | 总 107 stars</description>
+        <author>ArchAstro</author>
         <category>github</category>
-        <pubDate>Mon, 03 Aug 2026 00:14:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-arcships-aimux</guid>
+        <pubDate>Tue, 04 Aug 2026 00:17:33 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-archastro-scopey</guid>
       </item>
 <item>
-        <title>Codex 用 Sol 指挥 Luna Max 省额度翻倍产出</title>
-        <link>https://x.com/AYi_AInotes/status/2083867265179537565</link>
-        <description>Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码...</description>
-        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
+        <title>AirLLM 实现单块 4GB GPU 运行 70B 模型推理</title>
+        <link>https://github.com/lyogavin/airllm</link>
+        <description>AirLLM 项目支持在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存配置</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Sun, 02 Aug 2026 10:47:27 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsbowa0l0m77rohvw8s15ia1</guid>
+        <pubDate>Mon, 03 Aug 2026 16:24:45 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsdg55m700l4roca3x3gtfb1</guid>
       </item>
 <item>
-        <title>展示HN：Sprocket——硬件与软件开发的最佳AI代理</title>
-        <link>https://sprocket-demo.spikonado.com</link>
-        <description>嘿，HN，
-我16岁，一直在开发Sprocket有一阵子了。它是一个开源AI代理，在硬件和软件方面都胜过其他所有代理。这里是最棒的...</description>
-        <author>amronos</author>
-        <category>hn</category>
-        <pubDate>Sun, 02 Aug 2026 16:26:19 GMT</pubDate>
-        <guid isPermaLink="false">hn-49145934</guid>
-      </item>
-<item>
-        <title>OpenAI内部Astra模型解决了10个重大的开放数学和计算机科学问题</title>
-        <link>https://twitter.com/polynoamial/status/2083467194663571701</link>
-        <description>OpenAI内部Astra模型解决了10个重大的开放数学和计算机科学问题</description>
-        <author>wa5ina</author>
-        <category>hn</category>
-        <pubDate>Sun, 02 Aug 2026 12:01:37 GMT</pubDate>
-        <guid isPermaLink="false">hn-49143688</guid>
-      </item>
-<item>
-        <title>OpenAI 新模型 Astra 数学表现出色，但被过度吹捧</title>
-        <link>https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold</link>
-        <description>OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了&quot;合成谬误&quot;：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务</description>
-        <author>AI HOT / Gary Marcus：The Road to AI We Can Trust（RSS）</author>
+        <title>微软开源 Orchard 智能体训练框架</title>
+        <link>https://x.com/MSFTResearch/status/2084364547142418722</link>
+        <description>Orchard 是一个面向研究社区的开源框架，用于跨任务类型训练和评估 AI 智能体</description>
+        <author>AI HOT / X：Microsoft Research (@MSFTResearch)</author>
         <category>aihot</category>
-        <pubDate>Sun, 02 Aug 2026 21:25:27 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmscc62eo033broeusw72isi0</guid>
+        <pubDate>Mon, 03 Aug 2026 19:43:28 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsdnp8wy035jro0oflgpii8f</guid>
       </item>
 <item>
-        <title>展示HN：MicroCodex编码代理——OpenAI/codex在C++中的重新实现，二进制文件小于1MB</title>
-        <link>https://github.com/paoloanzn/microcodex</link>
-        <description>展示HN：MicroCodex编码代理——用C++重新实现的OpenAI/codex，二进制文件小于1MB</description>
-        <author>paoloanzn</author>
-        <category>hn</category>
-        <pubDate>Sun, 02 Aug 2026 20:11:35 GMT</pubDate>
-        <guid isPermaLink="false">hn-49147842</guid>
+        <title>商汤发布 SenseNova U1.5-Lite-Preview 开源模型</title>
+        <link>https://x.com/SenseTime_AI/status/2084288424236782073</link>
+        <description>商汤推出 SenseNova U1.5-Lite-Preview，一个基于 NEO-Unify 架构的轻量级原生统一多模态模型，仅 8B-MoT 参数即可达到商业闭源模型的生成与编辑质量</description>
+        <author>AI HOT / X：商汤 SenseTime (@SenseTime_AI)</author>
+        <category>aihot</category>
+        <pubDate>Mon, 03 Aug 2026 14:40:59 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsdczxnl0138rotj8fjenm4b</guid>
       </item>
 <item>
-        <title>我的个人AI基准测试：“生成一个带有哈布斯堡下颌的青蛙SVG。”</title>
-        <link>https://frogs.vaguespac.es/</link>
-        <description>我的个人AI基准测试：“生成一只带有哈布斯堡下颌的青蛙的SVG。”</description>
-        <author>thebigship</author>
-        <category>hn</category>
-        <pubDate>Sun, 02 Aug 2026 19:42:08 GMT</pubDate>
-        <guid isPermaLink="false">hn-49147622</guid>
+        <title>MiniMax H3 正式开源：通用全模态生成系统支持 2K 视频与原生立体声</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ%3D%3D&amp;mid=2247488931&amp;idx=1&amp;sn=0506e1d52edd5166becf35f5ebd83a07</link>
+        <description>MiniMax 正式开源新一代通用视频模型 H3，可统一理解文本、图像、视频和音频，生成最高 2K 分辨率、最长 15 秒、带 32 kHz 原生立体声音频的视频</description>
+        <author>AI HOT / 公众号：MiniMax（稀宇科技）</author>
+        <category>aihot</category>
+        <pubDate>Mon, 03 Aug 2026 02:44:09 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsdu3hyr015xrofzqxuosm3y</guid>
+      </item>
+<item>
+        <title>Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数</title>
+        <link>https://qwen.ai/blog?id=qwen3.8</link>
+        <description>Qwen 正式发布 Qwen3.8-Max，这是 Qwen 家族迄今最强的模型，拥有 2.4T 参数（95B 激活），并首次开源 Qwen-Max 级权重，开放权重将于下周发布</description>
+        <author>AI HOT / Qwen：Blog Retrieval（API）</author>
+        <category>aihot</category>
+        <pubDate>Mon, 03 Aug 2026 02:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmscldw820c4kroeu7bw1kb27</guid>
       </item>
   </channel>
 </rss>
