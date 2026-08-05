@@ -2806,19 +2806,19 @@
   },
   {
     "date": "2026-08-05",
-    "total": 79,
+    "total": 56,
     "byTopic": {
-      "AI": 65,
-      "Frontend": 2,
-      "Backend": 2,
-      "DevOps": 2,
-      "Data": 0,
-      "Security": 1,
-      "Cloud": 0,
-      "Mobile": 0,
-      "Startup": 1,
-      "OpenSource": 2,
-      "Other": 4
+      "AI": 38,
+      "Frontend": 0,
+      "Backend": 0,
+      "DevOps": 0,
+      "Data": 2,
+      "Security": 4,
+      "Cloud": 2,
+      "Mobile": 1,
+      "Startup": 0,
+      "OpenSource": 4,
+      "Other": 5
     }
   }
 ]

@@ -3,87 +3,87 @@
   <channel>
     <title>今日 AI 开发者精选 (2026/8/5)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天资讯的核心关键词是 **开源模型密集发布** 和 **AI Agent 基础设施加速成型**。NVIDIA、商汤、蚂蚁百灵等纷纷拿出开源新作，覆盖自动驾驶推理和统一多模态等前沿方向；同时，从 **Codex 视觉增强** 到 **数据库智能体**，Agent 在编码和运维场景中正快速落地，并且社区开始重视用“技能”将团队规范固化到这些 Agent 中。</description>
+    <description>今天的资讯集中在两个方向：一是 **AI 智能体的基础设施与安全模型**——Cloudflare 连发两文，提出面向智能体的访问控制模型（AAM）并开源 Cloudflare OS，这是智能体大规模落地前必须解决的关键问题；二是 **开源模型与工具链的实用化**——NVIDIA 发布可商用的 34B 自动驾驶 VLA 模型，Simon Willison 的 LLM CLI 迎来重大更新，另有多个&quot;去 AI 味&quot;写作 Skill 登上 GitHub 热榜，说明开发者正在认真打磨 AI 输出的质感。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 05 Aug 2026 00:17:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 23:39:42 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天资讯的核心关键词是 **开源模型密集发布** 和 **AI Agent 基础设施加速成型**。NVIDIA、商汤、蚂蚁百灵等纷纷拿出开源新作，覆盖自动驾驶推理和统一多模态等前沿方向；同时，从 **Codex 视觉增强** 到 **数据库智能体**，Agent 在编码和运维场景中正快速落地，并且社区开始重视用“技能”将团队规范固化到这些 Agent 中。</description>
-        <pubDate>Wed, 05 Aug 2026 00:17:51 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-05T00:17:38.479Z</guid>
+        <description>今天的资讯集中在两个方向：一是 **AI 智能体的基础设施与安全模型**——Cloudflare 连发两文，提出面向智能体的访问控制模型（AAM）并开源 Cloudflare OS，这是智能体大规模落地前必须解决的关键问题；二是 **开源模型与工具链的实用化**——NVIDIA 发布可商用的 34B 自动驾驶 VLA 模型，Simon Willison 的 LLM CLI 迎来重大更新，另有多个&quot;去 AI 味&quot;写作 Skill 登上 GitHub 热榜，说明开发者正在认真打磨 AI 输出的质感。</description>
+        <pubDate>Wed, 05 Aug 2026 23:39:42 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-05T23:39:33.862Z</guid>
       </item>
     <item>
-        <title>Anionex/codex-vision-proxy</title>
-        <link>https://github.com/Anionex/codex-vision-proxy</link>
-        <description>让纯文本模型在 Codex 中无障碍看图(view_image)的更优方案，附为纯文本 LLM 设计的视觉工具包&amp;skill ｜  A superior approach for enabling text-only models to seamlessly use Codex’s built-in view_image, plus a vision toolkit &amp; skill designed for pure-text LLMs. | 近期热门 | 总 273 stars</description>
-        <author>Anionex</author>
+        <title>Binaryify/open-kimi-ppt-skill</title>
+        <link>https://github.com/Binaryify/open-kimi-ppt-skill</link>
+        <description>非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor | 近期热门 | 总 564 stars</description>
+        <author>Binaryify</author>
         <category>github</category>
-        <pubDate>Wed, 05 Aug 2026 00:17:00 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-anionex-codex-vision-proxy</guid>
+        <pubDate>Wed, 05 Aug 2026 23:38:55 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-binaryify-open-kimi-ppt-skill</guid>
       </item>
 <item>
-        <title>NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型</title>
-        <link>https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available</link>
-        <description>NVIDIA Alpamayo 2 Super 现已开放商用，基于 Cosmos 3 Super Reasoner 构建，采用强化学习后训练，支持轨迹预测、因果链推理、元动作、自动标注及视觉问答等多任务输出</description>
-        <author>AI HOT / NVIDIA Blog（RSS）</author>
+        <title>Cloudflare 提出智能体访问模型（Agent Access Model）</title>
+        <link>https://blog.cloudflare.com/the-agent-access-model</link>
+        <description>Cloudflare 发布《The Agent Access Model》论文，提出面向 AI 智能体的访问控制模型 AAM，核心规则是&quot;不信任运行&quot;，对任务执行图中的每个动作基于智能体身份、授权任务及已触达资源进行实时授权</description>
+        <author>AI HOT / Cloudflare Blog</author>
         <category>aihot</category>
-        <pubDate>Tue, 04 Aug 2026 15:00:49 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsesrlcn15j6ro2ecpj577wj</guid>
+        <pubDate>Wed, 05 Aug 2026 13:00:41 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsg5h9ax06dsrolg11p7nhvv</guid>
       </item>
 <item>
-        <title>商汤 SenseNova U1 开源：统一推理与图像生成</title>
-        <link>https://x.com/SenseTime_AI/status/2084667189479837741</link>
-        <description>商汤发布开源模型 SenseNova U1，可在统一流程中同时进行推理与图像生成</description>
-        <author>AI HOT / X：商汤 SenseTime (@SenseTime_AI)</author>
+        <title>NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型</title>
+        <link>https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving</link>
+        <description>NVIDIA 发布 Alpamayo 2 Super，一款 34B 参数的视觉-语言-动作（VLA）模型，专为自动驾驶长尾事件设计，权重采用 Linux 基金会 OpenMDW-1.1 许可，代码为 Apache 2.0，发布首日即可商用</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 04 Aug 2026 15:46:03 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmseuq5vh17o9ro2eomueivmi</guid>
+        <pubDate>Wed, 05 Aug 2026 08:25:11 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsfu19g30eg5rochm0d4q3po</guid>
       </item>
 <item>
-        <title>SpecForge v0.3.0 发布：统一解耦与共置投机解码栈，新增开放 SpecBundle 草稿模型</title>
-        <link>https://www.lmsys.org/blog/2026-08-04-specforge-v0-3</link>
-        <description>SpecForge v0.3.0 将目标模型推理与草稿模型训练分离，支持 EAGLE3、EAGLE3.1、P-EAGLE、DFlash、Domino、DSpark 等多种投机解码算法，并统一在线、离线与解耦工作流</description>
-        <author>AI HOT / LMSYS：Blog（Chatbot Arena 团队）</author>
+        <title>KKKKhazix/human-writing</title>
+        <link>https://github.com/KKKKhazix/human-writing</link>
+        <description>让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。 | 近期热门 | 总 1019 stars</description>
+        <author>KKKKhazix</author>
+        <category>github</category>
+        <pubDate>Wed, 05 Aug 2026 23:38:55 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kkkkhazix-human-writing</guid>
+      </item>
+<item>
+        <title>LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志</title>
+        <link>https://simonwillison.net/2026/Aug/4/new-release-of-llm</link>
+        <description>Simon Willison 发布 LLM 0.32，这是该项目自启动以来最重要的新版本</description>
+        <author>AI HOT / Simon Willison 博客</author>
         <category>aihot</category>
-        <pubDate>Tue, 04 Aug 2026 17:51:09 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmseyfjcz1au8ro2enx0b7os6</guid>
+        <pubDate>Tue, 04 Aug 2026 23:58:24 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsfdkkcs1ocxro2ed4z3s131</guid>
       </item>
 <item>
-        <title>将团队编码标准引入Claude Code和Codex的代理技能</title>
-        <link>https://github.com/tikalk/adlc-team-skills</link>
-        <description>将团队编码标准带给Claude Code和Codex的智能体技能</description>
-        <author>kanfilior</author>
+        <title>Cloudflare OS：面向智能体、应用与工作的开放平台</title>
+        <link>https://blog.cloudflare.com/cloudflare-os</link>
+        <description>Cloudflare 开源新版 Cloudflare OS，任何组织均可部署并连接内部系统</description>
+        <author>AI HOT / Cloudflare Blog</author>
+        <category>aihot</category>
+        <pubDate>Wed, 05 Aug 2026 13:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsg5h9ay06durolg6bwl0p8e</guid>
+      </item>
+<item>
+        <title>开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647684946&amp;idx=1&amp;sn=ae7edcc572b998dc4e1ac3591977aa85</link>
+        <description>数字生命卡兹克开源「活人感写作.skill」（英文名 human Writing.skill），旨在去除AI味、帮用户写出有真实生活感的文字</description>
+        <author>AI HOT / 公众号：数字生命卡兹克</author>
+        <category>aihot</category>
+        <pubDate>Wed, 05 Aug 2026 01:35:42 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsff72yv1q6nro2etf4cmbuj</guid>
+      </item>
+<item>
+        <title>Prime Agent：一种自我改进的RLM智能体</title>
+        <link>https://www.primeintellect.ai/blog/prime-agent</link>
+        <description>Prime Agent：一种自我改进的RLM代理</description>
+        <author>Xeophon</author>
         <category>hn</category>
-        <pubDate>Tue, 04 Aug 2026 14:38:31 GMT</pubDate>
-        <guid isPermaLink="false">hn-49169640</guid>
-      </item>
-<item>
-        <title>Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT</title>
-        <link>https://developers.googleblog.com/a-unified-api-for-ai-model-routing</link>
-        <description>Google Cloud API Gateway 新增模型路由功能（Public Preview），开发者可在 OpenAPI 3.x 规范中配置虚拟模型名到后端目标的映射，无需硬编码端点或管理开源代理</description>
-        <author>AI HOT / Google Developers Blog（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Tue, 04 Aug 2026 16:45:02 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsew3l4y18qhro2edk0yaat8</guid>
-      </item>
-<item>
-        <title>蚂蚁百灵发布Ling-3.0-flash开源权重</title>
-        <link>https://x.com/AntLingAGI/status/2084656533489754475</link>
-        <description>今天，我们发布了 Ling-3.0-flash 的开源权重</description>
-        <author>AI HOT / X：蚂蚁百灵 (@AntLingAGI)</author>
-        <category>aihot</category>
-        <pubDate>Tue, 04 Aug 2026 15:03:43 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsesgyzp159kro2efe58vs2u</guid>
-      </item>
-<item>
-        <title>Google Cloud 推出 Database Operations Agents，实现自主数据库管理</title>
-        <link>https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents</link>
-        <description>Google Cloud 在 Agentic Data Cloud 发布中推出两款 AI 数据库智能体：Database Onboarding Agent 负责 Day 0 的配置与部署，Database Observability Age...</description>
-        <author>AI HOT / Google Cloud：Databases（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Tue, 04 Aug 2026 16:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsevo5m118dmro2e9d1ven6v</guid>
+        <pubDate>Wed, 05 Aug 2026 21:11:57 GMT</pubDate>
+        <guid isPermaLink="false">hn-49189075</guid>
       </item>
   </channel>
 </rss>
