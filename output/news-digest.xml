@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/4)</title>
+    <title>今日 AI 开发者精选 (2026/8/5)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的资讯集中在**开源智能体生态的爆发**与**开源模型能力的跃升**两个方向。Google 开源了 Agent Skills 技能库并分享了规模化治理经验，微软也推出了智能体训练框架 Orchard；模型侧，Qwen 首次开源 Max 级权重、MiniMax 开源 2K 视频生成模型、商汤发布轻量级统一多模态模型，三者在同一天接连放出，密度相当高。对开发者来说，无论是做 Agent 应用还是想基于开源模型做私有化部署，今天都有实打实能上手的东西。</description>
+    <description>今天资讯的核心关键词是 **开源模型密集发布** 和 **AI Agent 基础设施加速成型**。NVIDIA、商汤、蚂蚁百灵等纷纷拿出开源新作，覆盖自动驾驶推理和统一多模态等前沿方向；同时，从 **Codex 视觉增强** 到 **数据库智能体**，Agent 在编码和运维场景中正快速落地，并且社区开始重视用“技能”将团队规范固化到这些 Agent 中。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 04 Aug 2026 00:18:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 00:17:51 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的资讯集中在**开源智能体生态的爆发**与**开源模型能力的跃升**两个方向。Google 开源了 Agent Skills 技能库并分享了规模化治理经验，微软也推出了智能体训练框架 Orchard；模型侧，Qwen 首次开源 Max 级权重、MiniMax 开源 2K 视频生成模型、商汤发布轻量级统一多模态模型，三者在同一天接连放出，密度相当高。对开发者来说，无论是做 Agent 应用还是想基于开源模型做私有化部署，今天都有实打实能上手的东西。</description>
-        <pubDate>Tue, 04 Aug 2026 00:18:23 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-04T00:18:13.030Z</guid>
+        <description>今天资讯的核心关键词是 **开源模型密集发布** 和 **AI Agent 基础设施加速成型**。NVIDIA、商汤、蚂蚁百灵等纷纷拿出开源新作，覆盖自动驾驶推理和统一多模态等前沿方向；同时，从 **Codex 视觉增强** 到 **数据库智能体**，Agent 在编码和运维场景中正快速落地，并且社区开始重视用“技能”将团队规范固化到这些 Agent 中。</description>
+        <pubDate>Wed, 05 Aug 2026 00:17:51 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-05T00:17:38.479Z</guid>
       </item>
     <item>
-        <title>trycompai/crm</title>
-        <link>https://github.com/trycompai/crm</link>
-        <description>开源、智能体优先的CRM。 | 近期热门 | 总 3232 stars</description>
-        <author>trycompai</author>
+        <title>Anionex/codex-vision-proxy</title>
+        <link>https://github.com/Anionex/codex-vision-proxy</link>
+        <description>让纯文本模型在 Codex 中无障碍看图(view_image)的更优方案，附为纯文本 LLM 设计的视觉工具包&amp;skill ｜  A superior approach for enabling text-only models to seamlessly use Codex’s built-in view_image, plus a vision toolkit &amp; skill designed for pure-text LLMs. | 近期热门 | 总 273 stars</description>
+        <author>Anionex</author>
         <category>github</category>
-        <pubDate>Tue, 04 Aug 2026 00:17:33 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-trycompai-crm</guid>
+        <pubDate>Wed, 05 Aug 2026 00:17:00 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-anionex-codex-vision-proxy</guid>
       </item>
 <item>
-        <title>Google Agent Skills 幕后：如何构建、测试与规模化</title>
-        <link>https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5</link>
-        <description>Google Agent Skills 团队详解其开源技能库的构建与治理流程：项目始于 Google Cloud Next 2026 前的&quot;swarm&quot;冲刺，发布后 GitHub 星标超 15，000</description>
-        <author>AI HOT / Google AI：DEV 作者专属（RSS）</author>
+        <title>NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型</title>
+        <link>https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available</link>
+        <description>NVIDIA Alpamayo 2 Super 现已开放商用，基于 Cosmos 3 Super Reasoner 构建，采用强化学习后训练，支持轨迹预测、因果链推理、元动作、自动标注及视觉问答等多任务输出</description>
+        <author>AI HOT / NVIDIA Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Mon, 03 Aug 2026 14:33:20 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsddya2a01t3rotjo94tdap8</guid>
+        <pubDate>Tue, 04 Aug 2026 15:00:49 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsesrlcn15j6ro2ecpj577wj</guid>
       </item>
 <item>
-        <title>ArchAstro/scopey</title>
-        <link>https://github.com/ArchAstro/scopey</link>
-        <description>让Claude/Codex/Grok/Pi/OpenCode会话保持在范围内 | 近期热门 | 总 107 stars</description>
-        <author>ArchAstro</author>
-        <category>github</category>
-        <pubDate>Tue, 04 Aug 2026 00:17:33 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-archastro-scopey</guid>
-      </item>
-<item>
-        <title>AirLLM 实现单块 4GB GPU 运行 70B 模型推理</title>
-        <link>https://github.com/lyogavin/airllm</link>
-        <description>AirLLM 项目支持在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存配置</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Mon, 03 Aug 2026 16:24:45 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsdg55m700l4roca3x3gtfb1</guid>
-      </item>
-<item>
-        <title>微软开源 Orchard 智能体训练框架</title>
-        <link>https://x.com/MSFTResearch/status/2084364547142418722</link>
-        <description>Orchard 是一个面向研究社区的开源框架，用于跨任务类型训练和评估 AI 智能体</description>
-        <author>AI HOT / X：Microsoft Research (@MSFTResearch)</author>
-        <category>aihot</category>
-        <pubDate>Mon, 03 Aug 2026 19:43:28 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsdnp8wy035jro0oflgpii8f</guid>
-      </item>
-<item>
-        <title>商汤发布 SenseNova U1.5-Lite-Preview 开源模型</title>
-        <link>https://x.com/SenseTime_AI/status/2084288424236782073</link>
-        <description>商汤推出 SenseNova U1.5-Lite-Preview，一个基于 NEO-Unify 架构的轻量级原生统一多模态模型，仅 8B-MoT 参数即可达到商业闭源模型的生成与编辑质量</description>
+        <title>商汤 SenseNova U1 开源：统一推理与图像生成</title>
+        <link>https://x.com/SenseTime_AI/status/2084667189479837741</link>
+        <description>商汤发布开源模型 SenseNova U1，可在统一流程中同时进行推理与图像生成</description>
         <author>AI HOT / X：商汤 SenseTime (@SenseTime_AI)</author>
         <category>aihot</category>
-        <pubDate>Mon, 03 Aug 2026 14:40:59 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsdczxnl0138rotj8fjenm4b</guid>
+        <pubDate>Tue, 04 Aug 2026 15:46:03 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmseuq5vh17o9ro2eomueivmi</guid>
       </item>
 <item>
-        <title>MiniMax H3 正式开源：通用全模态生成系统支持 2K 视频与原生立体声</title>
-        <link>https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ%3D%3D&amp;mid=2247488931&amp;idx=1&amp;sn=0506e1d52edd5166becf35f5ebd83a07</link>
-        <description>MiniMax 正式开源新一代通用视频模型 H3，可统一理解文本、图像、视频和音频，生成最高 2K 分辨率、最长 15 秒、带 32 kHz 原生立体声音频的视频</description>
-        <author>AI HOT / 公众号：MiniMax（稀宇科技）</author>
+        <title>SpecForge v0.3.0 发布：统一解耦与共置投机解码栈，新增开放 SpecBundle 草稿模型</title>
+        <link>https://www.lmsys.org/blog/2026-08-04-specforge-v0-3</link>
+        <description>SpecForge v0.3.0 将目标模型推理与草稿模型训练分离，支持 EAGLE3、EAGLE3.1、P-EAGLE、DFlash、Domino、DSpark 等多种投机解码算法，并统一在线、离线与解耦工作流</description>
+        <author>AI HOT / LMSYS：Blog（Chatbot Arena 团队）</author>
         <category>aihot</category>
-        <pubDate>Mon, 03 Aug 2026 02:44:09 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsdu3hyr015xrofzqxuosm3y</guid>
+        <pubDate>Tue, 04 Aug 2026 17:51:09 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmseyfjcz1au8ro2enx0b7os6</guid>
       </item>
 <item>
-        <title>Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数</title>
-        <link>https://qwen.ai/blog?id=qwen3.8</link>
-        <description>Qwen 正式发布 Qwen3.8-Max，这是 Qwen 家族迄今最强的模型，拥有 2.4T 参数（95B 激活），并首次开源 Qwen-Max 级权重，开放权重将于下周发布</description>
-        <author>AI HOT / Qwen：Blog Retrieval（API）</author>
+        <title>将团队编码标准引入Claude Code和Codex的代理技能</title>
+        <link>https://github.com/tikalk/adlc-team-skills</link>
+        <description>将团队编码标准带给Claude Code和Codex的智能体技能</description>
+        <author>kanfilior</author>
+        <category>hn</category>
+        <pubDate>Tue, 04 Aug 2026 14:38:31 GMT</pubDate>
+        <guid isPermaLink="false">hn-49169640</guid>
+      </item>
+<item>
+        <title>Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT</title>
+        <link>https://developers.googleblog.com/a-unified-api-for-ai-model-routing</link>
+        <description>Google Cloud API Gateway 新增模型路由功能（Public Preview），开发者可在 OpenAPI 3.x 规范中配置虚拟模型名到后端目标的映射，无需硬编码端点或管理开源代理</description>
+        <author>AI HOT / Google Developers Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Mon, 03 Aug 2026 02:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmscldw820c4kroeu7bw1kb27</guid>
+        <pubDate>Tue, 04 Aug 2026 16:45:02 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsew3l4y18qhro2edk0yaat8</guid>
+      </item>
+<item>
+        <title>蚂蚁百灵发布Ling-3.0-flash开源权重</title>
+        <link>https://x.com/AntLingAGI/status/2084656533489754475</link>
+        <description>今天，我们发布了 Ling-3.0-flash 的开源权重</description>
+        <author>AI HOT / X：蚂蚁百灵 (@AntLingAGI)</author>
+        <category>aihot</category>
+        <pubDate>Tue, 04 Aug 2026 15:03:43 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsesgyzp159kro2efe58vs2u</guid>
+      </item>
+<item>
+        <title>Google Cloud 推出 Database Operations Agents，实现自主数据库管理</title>
+        <link>https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents</link>
+        <description>Google Cloud 在 Agentic Data Cloud 发布中推出两款 AI 数据库智能体：Database Onboarding Agent 负责 Day 0 的配置与部署，Database Observability Age...</description>
+        <author>AI HOT / Google Cloud：Databases（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 04 Aug 2026 16:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsevo5m118dmro2e9d1ven6v</guid>
       </item>
   </channel>
 </rss>
