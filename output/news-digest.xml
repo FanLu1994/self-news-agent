@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/5)</title>
+    <title>今日 AI 开发者精选 (2026/8/7)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的资讯集中在两个方向：一是 **AI 智能体的基础设施与安全模型**——Cloudflare 连发两文，提出面向智能体的访问控制模型（AAM）并开源 Cloudflare OS，这是智能体大规模落地前必须解决的关键问题；二是 **开源模型与工具链的实用化**——NVIDIA 发布可商用的 34B 自动驾驶 VLA 模型，Simon Willison 的 LLM CLI 迎来重大更新，另有多个&quot;去 AI 味&quot;写作 Skill 登上 GitHub 热榜，说明开发者正在认真打磨 AI 输出的质感。</description>
+    <description>今天的内容聚焦在 AI 开发者的**生产工具链**上：OpenAI 开源了 Codex 安全扫描插件（为 Vibe Coding 产品补齐了安全短板），谷歌联合多家大厂推出了统一的 Agent 插件规范 1.0（试图解决 Agent 生态碎片化问题）。此外，macOS 上出现了能并行调度多个编码 Agent 的编排器、vLLM 的深度解析文章也值得一读——前者代表了 Coding Agent 从&quot;单个工具&quot;走向&quot;协同工作流&quot;的趋势，后者则帮你理解推理性能的底层原理。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 05 Aug 2026 23:39:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 00:56:59 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的资讯集中在两个方向：一是 **AI 智能体的基础设施与安全模型**——Cloudflare 连发两文，提出面向智能体的访问控制模型（AAM）并开源 Cloudflare OS，这是智能体大规模落地前必须解决的关键问题；二是 **开源模型与工具链的实用化**——NVIDIA 发布可商用的 34B 自动驾驶 VLA 模型，Simon Willison 的 LLM CLI 迎来重大更新，另有多个&quot;去 AI 味&quot;写作 Skill 登上 GitHub 热榜，说明开发者正在认真打磨 AI 输出的质感。</description>
-        <pubDate>Wed, 05 Aug 2026 23:39:42 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-05T23:39:33.862Z</guid>
+        <description>今天的内容聚焦在 AI 开发者的**生产工具链**上：OpenAI 开源了 Codex 安全扫描插件（为 Vibe Coding 产品补齐了安全短板），谷歌联合多家大厂推出了统一的 Agent 插件规范 1.0（试图解决 Agent 生态碎片化问题）。此外，macOS 上出现了能并行调度多个编码 Agent 的编排器、vLLM 的深度解析文章也值得一读——前者代表了 Coding Agent 从&quot;单个工具&quot;走向&quot;协同工作流&quot;的趋势，后者则帮你理解推理性能的底层原理。</description>
+        <pubDate>Fri, 07 Aug 2026 00:56:59 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-07T00:56:45.035Z</guid>
       </item>
     <item>
+        <title>AMD收购Taalas，通过将模型蚀刻于硅片中提升推理性能</title>
+        <link>https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344</link>
+        <description>&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;ir.amd.com&amp;#x2F;news-events&amp;#x2F;press-releases&amp;#x2F;detail&amp;#x2F;1296&amp;#x2F;amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market&quot; rel=&quot;nof...</description>
+        <author>itvision</author>
+        <category>hn</category>
+        <pubDate>Thu, 06 Aug 2026 20:23:11 GMT</pubDate>
+        <guid isPermaLink="false">hn-49201970</guid>
+      </item>
+<item>
+        <title>OpenAI 开源 Codex Security：Vibe Coding 产品必备的安全扫描插件</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647684990&amp;idx=1&amp;sn=86a6d71b133589916b49a9d57046c127</link>
+        <description>OpenAI 将安全插件 Codex Security 开源，外部 Agent 均可调用，并已支持通过 OpenRouter 和 Fireworks 接入第三方模型</description>
+        <author>AI HOT / 公众号：数字生命卡兹克</author>
+        <category>aihot</category>
+        <pubDate>Thu, 06 Aug 2026 01:15:29 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsgua3ax0hqgro5qo4wr6g7y</guid>
+      </item>
+<item>
+        <title>cristicretu/diri</title>
+        <link>https://github.com/cristicretu/diri</link>
+        <description>macOS 原生编码代理编排器——在 git worktrees 和远程主机上并行运行 Claude Code、Codex、Cursor、Gemini 及 shell | 近期热门 | 总 215 stars</description>
+        <author>cristicretu</author>
+        <category>github</category>
+        <pubDate>Fri, 07 Aug 2026 00:56:01 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-cristicretu-diri</guid>
+      </item>
+<item>
+        <title>Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范</title>
+        <link>https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more</link>
+        <description>Agent Plugins 1.0.0 是一项由谷歌、亚马逊、微软等支持的中立目录规范，将 Agent Skills 和 MCP 服务器打包为单一可移植单元</description>
+        <author>AI HOT / Google Developers Blog（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 06 Aug 2026 16:53:12 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmshra4es0oycronk0wcvjv03</guid>
+      </item>
+<item>
         <title>Binaryify/open-kimi-ppt-skill</title>
         <link>https://github.com/Binaryify/open-kimi-ppt-skill</link>
-        <description>非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor | 近期热门 | 总 564 stars</description>
+        <description>非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor | 近期热门 | 总 1337 stars</description>
         <author>Binaryify</author>
         <category>github</category>
-        <pubDate>Wed, 05 Aug 2026 23:38:55 GMT</pubDate>
+        <pubDate>Fri, 07 Aug 2026 00:56:01 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-binaryify-open-kimi-ppt-skill</guid>
       </item>
 <item>
-        <title>Cloudflare 提出智能体访问模型（Agent Access Model）</title>
-        <link>https://blog.cloudflare.com/the-agent-access-model</link>
-        <description>Cloudflare 发布《The Agent Access Model》论文，提出面向 AI 智能体的访问控制模型 AAM，核心规则是&quot;不信任运行&quot;，对任务执行图中的每个动作基于智能体身份、授权任务及已触达资源进行实时授权</description>
-        <author>AI HOT / Cloudflare Blog</author>
-        <category>aihot</category>
-        <pubDate>Wed, 05 Aug 2026 13:00:41 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsg5h9ax06dsrolg11p7nhvv</guid>
+        <title>深入解析vLLM：高吞吐量LLM推理系统的解剖（2025）</title>
+        <link>https://www.aleksagordic.com/blog/vllm</link>
+        <description>深入解析vLLM：高吞吐量LLM推理系统的解剖（2025）</description>
+        <author>sebg</author>
+        <category>hn</category>
+        <pubDate>Thu, 06 Aug 2026 21:30:21 GMT</pubDate>
+        <guid isPermaLink="false">hn-49202852</guid>
       </item>
 <item>
-        <title>NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型</title>
-        <link>https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving</link>
-        <description>NVIDIA 发布 Alpamayo 2 Super，一款 34B 参数的视觉-语言-动作（VLA）模型，专为自动驾驶长尾事件设计，权重采用 Linux 基金会 OpenMDW-1.1 许可，代码为 Apache 2.0，发布首日即可商用</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
+        <title>NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿</title>
+        <link>https://blogs.nvidia.com/blog/open-world-models-physical-ai</link>
+        <description>NVIDIA 发布 Cosmos 3，一个基于混合 Transformer 架构的开放物理 AI 基础全模态模型，整合视觉推理、世界生成与动作预测</description>
+        <author>AI HOT / NVIDIA Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 05 Aug 2026 08:25:11 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsfu19g30eg5rochm0d4q3po</guid>
+        <pubDate>Thu, 06 Aug 2026 13:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmshjdgsn0gf5ronkj2dwsbwh</guid>
       </item>
 <item>
         <title>KKKKhazix/human-writing</title>
         <link>https://github.com/KKKKhazix/human-writing</link>
-        <description>让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。 | 近期热门 | 总 1019 stars</description>
+        <description>让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。 | 近期热门 | 总 1574 stars</description>
         <author>KKKKhazix</author>
         <category>github</category>
-        <pubDate>Wed, 05 Aug 2026 23:38:55 GMT</pubDate>
+        <pubDate>Fri, 07 Aug 2026 00:56:01 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kkkkhazix-human-writing</guid>
-      </item>
-<item>
-        <title>LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志</title>
-        <link>https://simonwillison.net/2026/Aug/4/new-release-of-llm</link>
-        <description>Simon Willison 发布 LLM 0.32，这是该项目自启动以来最重要的新版本</description>
-        <author>AI HOT / Simon Willison 博客</author>
-        <category>aihot</category>
-        <pubDate>Tue, 04 Aug 2026 23:58:24 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsfdkkcs1ocxro2ed4z3s131</guid>
-      </item>
-<item>
-        <title>Cloudflare OS：面向智能体、应用与工作的开放平台</title>
-        <link>https://blog.cloudflare.com/cloudflare-os</link>
-        <description>Cloudflare 开源新版 Cloudflare OS，任何组织均可部署并连接内部系统</description>
-        <author>AI HOT / Cloudflare Blog</author>
-        <category>aihot</category>
-        <pubDate>Wed, 05 Aug 2026 13:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsg5h9ay06durolg6bwl0p8e</guid>
-      </item>
-<item>
-        <title>开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能</title>
-        <link>https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647684946&amp;idx=1&amp;sn=ae7edcc572b998dc4e1ac3591977aa85</link>
-        <description>数字生命卡兹克开源「活人感写作.skill」（英文名 human Writing.skill），旨在去除AI味、帮用户写出有真实生活感的文字</description>
-        <author>AI HOT / 公众号：数字生命卡兹克</author>
-        <category>aihot</category>
-        <pubDate>Wed, 05 Aug 2026 01:35:42 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsff72yv1q6nro2etf4cmbuj</guid>
-      </item>
-<item>
-        <title>Prime Agent：一种自我改进的RLM智能体</title>
-        <link>https://www.primeintellect.ai/blog/prime-agent</link>
-        <description>Prime Agent：一种自我改进的RLM代理</description>
-        <author>Xeophon</author>
-        <category>hn</category>
-        <pubDate>Wed, 05 Aug 2026 21:11:57 GMT</pubDate>
-        <guid isPermaLink="false">hn-49189075</guid>
       </item>
   </channel>
 </rss>
