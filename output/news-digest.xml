@@ -3,87 +3,87 @@
   <channel>
     <title>今日 AI 开发者精选 (2026/8/7)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的内容聚焦在 AI 开发者的**生产工具链**上：OpenAI 开源了 Codex 安全扫描插件（为 Vibe Coding 产品补齐了安全短板），谷歌联合多家大厂推出了统一的 Agent 插件规范 1.0（试图解决 Agent 生态碎片化问题）。此外，macOS 上出现了能并行调度多个编码 Agent 的编排器、vLLM 的深度解析文章也值得一读——前者代表了 Coding Agent 从&quot;单个工具&quot;走向&quot;协同工作流&quot;的趋势，后者则帮你理解推理性能的底层原理。</description>
+    <description>今天最值得关注的方向是**开源模型与推理性能的密集发力**。蚂蚁百灵开源了 124B 参数的 MoE 模型，腾讯混元则把高性能算子库直接合入 SGLang 主分支，两者都指向同一个目标：让大模型在真实生产环境里跑得更快、部署更灵活。与此同时，OpenAI 因安全风险延缓 Astra 模型发布，提醒我们前沿模型的进展并非只有技术维度的考量。对 AI 开发者而言，今天的内容集中在“怎么把模型用起来、用得好”这个层面。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 07 Aug 2026 00:56:59 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 23:32:18 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的内容聚焦在 AI 开发者的**生产工具链**上：OpenAI 开源了 Codex 安全扫描插件（为 Vibe Coding 产品补齐了安全短板），谷歌联合多家大厂推出了统一的 Agent 插件规范 1.0（试图解决 Agent 生态碎片化问题）。此外，macOS 上出现了能并行调度多个编码 Agent 的编排器、vLLM 的深度解析文章也值得一读——前者代表了 Coding Agent 从&quot;单个工具&quot;走向&quot;协同工作流&quot;的趋势，后者则帮你理解推理性能的底层原理。</description>
-        <pubDate>Fri, 07 Aug 2026 00:56:59 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-07T00:56:45.035Z</guid>
+        <description>今天最值得关注的方向是**开源模型与推理性能的密集发力**。蚂蚁百灵开源了 124B 参数的 MoE 模型，腾讯混元则把高性能算子库直接合入 SGLang 主分支，两者都指向同一个目标：让大模型在真实生产环境里跑得更快、部署更灵活。与此同时，OpenAI 因安全风险延缓 Astra 模型发布，提醒我们前沿模型的进展并非只有技术维度的考量。对 AI 开发者而言，今天的内容集中在“怎么把模型用起来、用得好”这个层面。</description>
+        <pubDate>Fri, 07 Aug 2026 23:32:18 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-07T23:32:07.792Z</guid>
       </item>
     <item>
-        <title>AMD收购Taalas，通过将模型蚀刻于硅片中提升推理性能</title>
-        <link>https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344</link>
-        <description>&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;ir.amd.com&amp;#x2F;news-events&amp;#x2F;press-releases&amp;#x2F;detail&amp;#x2F;1296&amp;#x2F;amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market&quot; rel=&quot;nof...</description>
-        <author>itvision</author>
-        <category>hn</category>
-        <pubDate>Thu, 06 Aug 2026 20:23:11 GMT</pubDate>
-        <guid isPermaLink="false">hn-49201970</guid>
-      </item>
-<item>
-        <title>OpenAI 开源 Codex Security：Vibe Coding 产品必备的安全扫描插件</title>
-        <link>https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647684990&amp;idx=1&amp;sn=86a6d71b133589916b49a9d57046c127</link>
-        <description>OpenAI 将安全插件 Codex Security 开源，外部 Agent 均可调用，并已支持通过 OpenRouter 和 Fireworks 接入第三方模型</description>
-        <author>AI HOT / 公众号：数字生命卡兹克</author>
+        <title>蚂蚁百灵开源 Ling-3.0-flash：124B 总参数 MoE 模型，支持 API、单机与高性能三种部署</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&amp;mid=2247487457&amp;idx=1&amp;sn=24ad4a355d81291e53fbe680ca987112</link>
+        <description>蚂蚁百灵正式开源新一代原生混合推理模型 Ling-3.0-flash，采用 124B 总参数、5.1B 激活参数的 MoE 架构，并提供 FP8、FP4、INT4 等多个版本</description>
+        <author>AI HOT / 公众号：蚂蚁百灵（Ling）</author>
         <category>aihot</category>
-        <pubDate>Thu, 06 Aug 2026 01:15:29 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsgua3ax0hqgro5qo4wr6g7y</guid>
+        <pubDate>Fri, 07 Aug 2026 12:02:16 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsixbbry1x0qronkhbbjukhr</guid>
       </item>
 <item>
         <title>cristicretu/diri</title>
         <link>https://github.com/cristicretu/diri</link>
-        <description>macOS 原生编码代理编排器——在 git worktrees 和远程主机上并行运行 Claude Code、Codex、Cursor、Gemini 及 shell | 近期热门 | 总 215 stars</description>
+        <description>macOS 原生编码代理编排器——在 git worktrees 和远程主机上并行运行 Claude Code、Codex、Cursor、Gemini 及 shell | 近期热门 | 总 222 stars</description>
         <author>cristicretu</author>
         <category>github</category>
-        <pubDate>Fri, 07 Aug 2026 00:56:01 GMT</pubDate>
+        <pubDate>Fri, 07 Aug 2026 23:31:30 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-cristicretu-diri</guid>
       </item>
 <item>
-        <title>Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范</title>
-        <link>https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more</link>
-        <description>Agent Plugins 1.0.0 是一项由谷歌、亚马逊、微软等支持的中立目录规范，将 Agent Skills 和 MCP 服务器打包为单一可移植单元</description>
-        <author>AI HOT / Google Developers Blog（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 06 Aug 2026 16:53:12 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmshra4es0oycronk0wcvjv03</guid>
-      </item>
-<item>
-        <title>Binaryify/open-kimi-ppt-skill</title>
-        <link>https://github.com/Binaryify/open-kimi-ppt-skill</link>
-        <description>非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor | 近期热门 | 总 1337 stars</description>
-        <author>Binaryify</author>
+        <title>SandAI-org/MAGI-2-preview</title>
+        <link>https://github.com/SandAI-org/MAGI-2-preview</link>
+        <description>MAGI-2-preview：高效扩展视频生成模型 | 近期热门 | 总 418 stars</description>
+        <author>SandAI-org</author>
         <category>github</category>
-        <pubDate>Fri, 07 Aug 2026 00:56:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-binaryify-open-kimi-ppt-skill</guid>
+        <pubDate>Fri, 07 Aug 2026 23:31:30 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-sandai-org-magi-2-preview</guid>
       </item>
 <item>
-        <title>深入解析vLLM：高吞吐量LLM推理系统的解剖（2025）</title>
-        <link>https://www.aleksagordic.com/blog/vllm</link>
-        <description>深入解析vLLM：高吞吐量LLM推理系统的解剖（2025）</description>
-        <author>sebg</author>
-        <category>hn</category>
-        <pubDate>Thu, 06 Aug 2026 21:30:21 GMT</pubDate>
-        <guid isPermaLink="false">hn-49202852</guid>
-      </item>
-<item>
-        <title>NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿</title>
-        <link>https://blogs.nvidia.com/blog/open-world-models-physical-ai</link>
-        <description>NVIDIA 发布 Cosmos 3，一个基于混合 Transformer 架构的开放物理 AI 基础全模态模型，整合视觉推理、世界生成与动作预测</description>
-        <author>AI HOT / NVIDIA Blog（RSS）</author>
+        <title>OpenAI：因网络安全风险，延缓 Astra 模型发布</title>
+        <link>https://www.ithome.com/0/987/221.htm</link>
+        <description>OpenAI 因内部与专家评估显示 Astra 在智能体编程和网络安全领域取得重大突破，依据《准备框架》将其列为旗下首个网络安全风险达&quot;关键&quot;级别的模型，决定延缓发布</description>
+        <author>AI HOT / IT之家（RSS）</author>
         <category>aihot</category>
-        <pubDate>Thu, 06 Aug 2026 13:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmshjdgsn0gf5ronkj2dwsbwh</guid>
+        <pubDate>Fri, 07 Aug 2026 23:08:56 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsjk6eiz0byoroo5cc4bcwg6</guid>
       </item>
 <item>
-        <title>KKKKhazix/human-writing</title>
-        <link>https://github.com/KKKKhazix/human-writing</link>
-        <description>让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。 | 近期热门 | 总 1574 stars</description>
-        <author>KKKKhazix</author>
+        <title>HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子</title>
+        <link>https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang</link>
+        <description>腾讯混元开源算子库 HPC-Ops 已集成至 SGLang 主分支，其 Dynamic Attention 与 Fused MoE 在 Hy3 模型上最高降低 TPOT 48.8%</description>
+        <author>AI HOT / LMSYS：Blog（Chatbot Arena 团队）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 07 Aug 2026 17:51:24 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsj8rfkl02ruroo5uvyqiqiq</guid>
+      </item>
+<item>
+        <title>小红书联合浙大、复旦提出 CULTURE-MT：首个面向社媒翻译的「文化有效性」评测基准，入选 ICML 2026</title>
+        <link>https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&amp;mid=2247496008&amp;idx=1&amp;sn=08f2ce717483f63bc00a2181e59e3f40</link>
+        <description>小红书联合浙江大学、复旦大学提出 CULTURE-MT，这是首个面向中英社媒笔记翻译、兼顾文化符号传递与情感共鸣的评测基准，并首次提出「文化有效性」评估标准与自动评估模型 JUDGER（准确率 86.03%）</description>
+        <author>AI HOT / 公众号：小红书技术（dots.llm）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 07 Aug 2026 09:59:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsiry2eo1r4tronkt9qv2twu</guid>
+      </item>
+<item>
+        <title>eticmedya/vibecodingex</title>
+        <link>https://github.com/eticmedya/vibecodingex</link>
+        <description>AI驱动的本地商户发现与实地销售工具。通过Google Places查找周边商户，利用Gemini为每个商户生成定制软件方案及销售话术。基于Nuxt 4、SQLite构建，100%本地运行。 | 近期热门 | 总 68 stars</description>
+        <author>eticmedya</author>
         <category>github</category>
-        <pubDate>Fri, 07 Aug 2026 00:56:01 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kkkkhazix-human-writing</guid>
+        <pubDate>Fri, 07 Aug 2026 23:31:30 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-eticmedya-vibecodingex</guid>
+      </item>
+<item>
+        <title>独立开发者用 VoxCPM 克隆网红声音，让 AI 终于&quot;会聊天&quot;了</title>
+        <link>https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&amp;mid=2247498927&amp;idx=1&amp;sn=c5fbfaac5ede8b1008d17337a1bdc70b</link>
+        <description>独立开发者叶小叔用面壁智能开源的 VoxCPM 克隆千万粉丝网红声音，搭建 STT → LLM → VoxCPM（TTS）三段式实时对话管道，TTS 首包延迟不到 1 秒，端到端体感 2 到 3 秒</description>
+        <author>AI HOT / 公众号：面壁智能（MiniCPM）</author>
+        <category>aihot</category>
+        <pubDate>Fri, 07 Aug 2026 06:41:21 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsil63w11iawronkshdpjgy5</guid>
       </item>
   </channel>
 </rss>

@@ -2823,19 +2823,19 @@
   },
   {
     "date": "2026-08-07",
-    "total": 75,
+    "total": 68,
     "byTopic": {
-      "AI": 49,
-      "Frontend": 1,
-      "Backend": 2,
+      "AI": 56,
+      "Frontend": 2,
+      "Backend": 3,
       "DevOps": 0,
       "Data": 0,
-      "Security": 6,
-      "Cloud": 2,
-      "Mobile": 2,
-      "Startup": 5,
-      "OpenSource": 4,
-      "Other": 4
+      "Security": 2,
+      "Cloud": 0,
+      "Mobile": 1,
+      "Startup": 1,
+      "OpenSource": 2,
+      "Other": 1
     }
   }
 ]
