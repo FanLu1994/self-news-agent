@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/10)</title>
+    <title>今日 AI 开发者精选 (2026/8/11)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>Meta 与 NVIDIA 同日发布新模型，开源阵营在智能体工作流上再度加码：Muse Glimmer 主打本地常驻运行的 30B 模型，NVIDIA 的 VoiceChat 11B 则把实时语音交互和工具调用打通。另一边，GitHub 上出现了像 shuohao-skills 这样面向具体场景的 agent 技能集，说明智能体的落地正在从通用框架走向领域工作流。对开发者来说，关注点可以放在这些新模型能否跑在自己的设备上，以及 agent 工具链是否已经成熟到可以支撑真实业务。</description>
+    <description>今天的头条属于模型发布：蚂蚁百灵开源了原生混合推理模型 Ling-3.0-tiny，而 NVIDIA 则推出了专为本地智能体设计的 Nemotron 3.5 Lightning，且 SGLang 已宣布 Day-0 支持。两个模型都主打“效率”——以更少的激活参数完成推理任务，这呼应了当前 AI 开发者对低成本、可本地部署模型的强烈需求。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 10 Aug 2026 23:32:52 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 23:33:42 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>Meta 与 NVIDIA 同日发布新模型，开源阵营在智能体工作流上再度加码：Muse Glimmer 主打本地常驻运行的 30B 模型，NVIDIA 的 VoiceChat 11B 则把实时语音交互和工具调用打通。另一边，GitHub 上出现了像 shuohao-skills 这样面向具体场景的 agent 技能集，说明智能体的落地正在从通用框架走向领域工作流。对开发者来说，关注点可以放在这些新模型能否跑在自己的设备上，以及 agent 工具链是否已经成熟到可以支撑真实业务。</description>
-        <pubDate>Mon, 10 Aug 2026 23:32:52 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-10T23:32:43.104Z</guid>
+        <description>今天的头条属于模型发布：蚂蚁百灵开源了原生混合推理模型 Ling-3.0-tiny，而 NVIDIA 则推出了专为本地智能体设计的 Nemotron 3.5 Lightning，且 SGLang 已宣布 Day-0 支持。两个模型都主打“效率”——以更少的激活参数完成推理任务，这呼应了当前 AI 开发者对低成本、可本地部署模型的强烈需求。</description>
+        <pubDate>Tue, 11 Aug 2026 23:33:42 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-11T23:33:29.837Z</guid>
       </item>
     <item>
-        <title>eternityspring/shuohao-skills</title>
-        <link>https://github.com/eternityspring/shuohao-skills</link>
-        <description>AI 短剧制作的 skill 集合：拆角色、出设定图、排大纲 | Agent skills for AI short-drama production — character bibles, model sheets, adaptation outlines. Runs in Claude Code &amp; codex. | 近期热门 | 总 645 stars</description>
-        <author>eternityspring</author>
-        <category>github</category>
-        <pubDate>Mon, 10 Aug 2026 23:32:05 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-eternityspring-shuohao-skills</guid>
-      </item>
-<item>
-        <title>MengMengCode/VoCat</title>
-        <link>https://github.com/MengMengCode/VoCat</link>
-        <description>Vocat是一个面向移远EC20/EC25系列蜂窝调制解调器的开源Web控制面板和工程工具包。它将调制解调器发现、实时无线电状态、AT和USSD终端、短信、WiFi通话、eSIM管理、网络选择、代理路由、通知、审计日志和发布自动化整合于一个自包含服务中。 | 近期热门 | 总 151 stars</description>
-        <author>MengMengCode</author>
-        <category>github</category>
-        <pubDate>Mon, 10 Aug 2026 23:32:05 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-mengmengcode-vocat</guid>
-      </item>
-<item>
-        <title>Show HN：Needle2：适用于手机、可穿戴设备、智能家居和机器人的14MB智能体大语言模型</title>
-        <link>https://cactuscompute.com/needle</link>
-        <description>嘿，HN，我是Cactus的Henry！我们之前发布了Cactus Needle，一个14MB的智能体LLM，用于工具调用、设备使用，以及面向手机、可穿戴设备、智能家居、小型机器人和……的结构化提取。</description>
-        <author>HenryNdubuaku</author>
-        <category>hn</category>
-        <pubDate>Mon, 10 Aug 2026 17:22:07 GMT</pubDate>
-        <guid isPermaLink="false">hn-49246804</guid>
-      </item>
-<item>
         <title>sv-number/mcp-server</title>
         <link>https://github.com/sv-number/mcp-server</link>
-        <description>为需要电话号码的AI代理提供MCP服务器：在200多个国家订购私人号码，读取短信验证码，并将其交回。该类别中覆盖国家最广，一次API调用即可查询。 | 近期热门 | 总 544 stars</description>
+        <description>为需要电话号码的AI代理提供MCP服务器：在200多个国家订购私人号码，读取短信验证码，并将其交回。该类别中最广泛的国家覆盖范围，一次API调用即可查询。 | 近期热门 | 总 615 stars</description>
         <author>sv-number</author>
         <category>github</category>
-        <pubDate>Mon, 10 Aug 2026 23:32:05 GMT</pubDate>
+        <pubDate>Tue, 11 Aug 2026 23:32:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-sv-number-mcp-server</guid>
       </item>
 <item>
-        <title>马克·扎克伯格抨击“封闭”的AI竞争对手，Meta回归开源模型</title>
-        <link>https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878</link>
-        <description>https://archive.is/20LOJ&lt;a href=&quot;https://www.meta.com/thefutureisforeveryone/&quot; rel=&quot;nofollow&quot;...</description>
-        <author>root-parent</author>
-        <category>hn</category>
-        <pubDate>Mon, 10 Aug 2026 14:06:22 GMT</pubDate>
-        <guid isPermaLink="false">hn-49243880</guid>
+        <title>surya-koritala/loomfeed</title>
+        <link>https://github.com/surya-koritala/loomfeed</link>
+        <description>为AI代理和人类构建的开源Reddit替代品——溯源追踪、声誉、认知状态标签和代理辩论。使用docker compose自托管。 | 近期热门 | 总 156 stars</description>
+        <author>surya-koritala</author>
+        <category>github</category>
+        <pubDate>Tue, 11 Aug 2026 23:32:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-surya-koritala-loomfeed</guid>
       </item>
 <item>
-        <title>SGLang 为 Muse Glimmer 提供 Day-0 支持，针对本地智能体工作流优化推理</title>
-        <link>https://www.lmsys.org/blog/2026-08-10-meta-muse-glimmer</link>
-        <description>SGLang 与 Meta Superintelligence Labs 合作，为 30B 参数多模态模型 Muse Glimmer 提供 Day-0 支持，该模型拥有 128k+ token 上下文窗口</description>
+        <title>JohnKinyanjui/sprite-maker</title>
+        <link>https://github.com/JohnKinyanjui/sprite-maker</link>
+        <description>一个开源的AI精灵制作器 | 近期热门 | 总 112 stars</description>
+        <author>JohnKinyanjui</author>
+        <category>github</category>
+        <pubDate>Tue, 11 Aug 2026 23:32:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-johnkinyanjui-sprite-maker</guid>
+      </item>
+<item>
+        <title>Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&amp;mid=2247487491&amp;idx=1&amp;sn=fcb14aceb054f9a24e22525d3dae6fa0</link>
+        <description>蚂蚁百灵开源 Ling-3.0-tiny，一款总参数 7.9B、推理时仅激活 1.3B 参数的原生混合推理模型，同步提供 BF16、FP8 和 INT4 三个版本</description>
+        <author>AI HOT / 公众号：蚂蚁百灵（Ling）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 11 Aug 2026 09:20:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsogatbh0qdgrofwzm7gdk0a</guid>
+      </item>
+<item>
+        <title>NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务</title>
+        <link>https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron</link>
+        <description>NVIDIA 发布 Nemotron 3.5 Lightning，一款可定制的开源 30B 混合专家（MoE）模型，专为常驻智能体设计</description>
+        <author>AI HOT / NVIDIA Blog（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 11 Aug 2026 13:00:25 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsoolxde07isrop2eb5rrtvq</guid>
+      </item>
+<item>
+        <title>研究人员发现可读取ChatGPT等模型加密推理过程的API漏洞</title>
+        <link>https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning</link>
+        <description>Alexander Panfilov团队发现OpenAI、Anthropic、Google等主要AI提供商API存在漏洞，可读取推理模型的加密思考过程</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 11 Aug 2026 17:38:49 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsoydypn029yro3yvsi036au</guid>
+      </item>
+<item>
+        <title>SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning</title>
+        <link>https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning</link>
+        <description>SGLang 宣布对 NVIDIA Nemotron 3.5 Lightning 提供 Day-0 支持，该开源模型为 30B 总参数、3B 激活参数的混合专家架构，支持最长 1M token 上下文，可从 Hugging Face 下载...</description>
         <author>AI HOT / LMSYS：Blog（Chatbot Arena 团队）</author>
         <category>aihot</category>
-        <pubDate>Mon, 10 Aug 2026 11:51:38 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsn68brx03q2ron5vwp3pwta</guid>
+        <pubDate>Tue, 11 Aug 2026 13:51:45 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsopyoum028urohdhqzve6ba</guid>
       </item>
 <item>
-        <title>Meta 发布开源模型 Muse Glimmer</title>
-        <link>https://x.com/AIatMeta/status/2086757844544811485</link>
-        <description>推出 Muse Glimmer，一款开放权重、300 亿参数的模型，专为本地、常驻运行的智能体工作流优化</description>
-        <author>AI HOT / X：AI at Meta (@AIatMeta)</author>
-        <category>aihot</category>
-        <pubDate>Mon, 10 Aug 2026 10:13:34 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsn2u3mt067ero8opidmwvz7</guid>
-      </item>
-<item>
-        <title>NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用</title>
-        <link>https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling</link>
-        <description>NVIDIA 发布开源端到端全双工语音对话模型 NemotronLabs VoiceChat 11B，在统一网络中完成流式语音理解与生成，实测轮换延迟 448 毫秒</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Sun, 09 Aug 2026 23:58:34 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsmhbu4w0338ronxh92vej2u</guid>
+        <title>SaladDay/pi-from-scratch</title>
+        <link>https://github.com/SaladDay/pi-from-scratch</link>
+        <description>600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent | 近期热门 | 总 517 stars</description>
+        <author>SaladDay</author>
+        <category>github</category>
+        <pubDate>Tue, 11 Aug 2026 23:32:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-saladday-pi-from-scratch</guid>
       </item>
   </channel>
 </rss>
