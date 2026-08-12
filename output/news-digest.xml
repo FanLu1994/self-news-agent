@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/11)</title>
+    <title>今日 AI 开发者精选 (2026/8/12)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的头条属于模型发布：蚂蚁百灵开源了原生混合推理模型 Ling-3.0-tiny，而 NVIDIA 则推出了专为本地智能体设计的 Nemotron 3.5 Lightning，且 SGLang 已宣布 Day-0 支持。两个模型都主打“效率”——以更少的激活参数完成推理任务，这呼应了当前 AI 开发者对低成本、可本地部署模型的强烈需求。</description>
+    <description>今天是“模型发布日”。微软、阿里、Cursor 与 SpaceXAI 在同一天分别亮出自研推理模型、旗舰级开源 MoE 和智能体编程模型，三家同时发力，方向却惊人地一致：都冲着“让模型能长时间、多步骤地干活”而来。对开发者来说，这意味着接下来几周可选的基座模型和智能体方案会明显变多。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Aug 2026 23:33:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 23:33:07 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的头条属于模型发布：蚂蚁百灵开源了原生混合推理模型 Ling-3.0-tiny，而 NVIDIA 则推出了专为本地智能体设计的 Nemotron 3.5 Lightning，且 SGLang 已宣布 Day-0 支持。两个模型都主打“效率”——以更少的激活参数完成推理任务，这呼应了当前 AI 开发者对低成本、可本地部署模型的强烈需求。</description>
-        <pubDate>Tue, 11 Aug 2026 23:33:42 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-11T23:33:29.837Z</guid>
+        <description>今天是“模型发布日”。微软、阿里、Cursor 与 SpaceXAI 在同一天分别亮出自研推理模型、旗舰级开源 MoE 和智能体编程模型，三家同时发力，方向却惊人地一致：都冲着“让模型能长时间、多步骤地干活”而来。对开发者来说，这意味着接下来几周可选的基座模型和智能体方案会明显变多。</description>
+        <pubDate>Wed, 12 Aug 2026 23:33:07 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-12T23:32:57.617Z</guid>
       </item>
     <item>
-        <title>sv-number/mcp-server</title>
-        <link>https://github.com/sv-number/mcp-server</link>
-        <description>为需要电话号码的AI代理提供MCP服务器：在200多个国家订购私人号码，读取短信验证码，并将其交回。该类别中最广泛的国家覆盖范围，一次API调用即可查询。 | 近期热门 | 总 615 stars</description>
-        <author>sv-number</author>
+        <title>jundizhou/easy-stock</title>
+        <link>https://github.com/jundizhou/easy-stock</link>
+        <description>A 股行情分析与AI智能投研智能体--基于大模型 | 近期热门 | 总 130 stars</description>
+        <author>jundizhou</author>
         <category>github</category>
-        <pubDate>Tue, 11 Aug 2026 23:32:49 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-sv-number-mcp-server</guid>
+        <pubDate>Wed, 12 Aug 2026 23:32:25 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-jundizhou-easy-stock</guid>
       </item>
 <item>
         <title>surya-koritala/loomfeed</title>
         <link>https://github.com/surya-koritala/loomfeed</link>
-        <description>为AI代理和人类构建的开源Reddit替代品——溯源追踪、声誉、认知状态标签和代理辩论。使用docker compose自托管。 | 近期热门 | 总 156 stars</description>
+        <description>开源Reddit替代品，专为AI代理与人类打造——具备来源追踪、声誉系统、认知状态标签及代理辩论功能。可通过docker compose自托管。 | 近期热门 | 总 165 stars</description>
         <author>surya-koritala</author>
         <category>github</category>
-        <pubDate>Tue, 11 Aug 2026 23:32:49 GMT</pubDate>
+        <pubDate>Wed, 12 Aug 2026 23:32:25 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-surya-koritala-loomfeed</guid>
       </item>
 <item>
         <title>JohnKinyanjui/sprite-maker</title>
         <link>https://github.com/JohnKinyanjui/sprite-maker</link>
-        <description>一个开源的AI精灵制作器 | 近期热门 | 总 112 stars</description>
+        <description>一个开源的AI精灵制作器 | 近期热门 | 总 130 stars</description>
         <author>JohnKinyanjui</author>
         <category>github</category>
-        <pubDate>Tue, 11 Aug 2026 23:32:49 GMT</pubDate>
+        <pubDate>Wed, 12 Aug 2026 23:32:25 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-johnkinyanjui-sprite-maker</guid>
       </item>
 <item>
-        <title>Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务</title>
-        <link>https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&amp;mid=2247487491&amp;idx=1&amp;sn=fcb14aceb054f9a24e22525d3dae6fa0</link>
-        <description>蚂蚁百灵开源 Ling-3.0-tiny，一款总参数 7.9B、推理时仅激活 1.3B 参数的原生混合推理模型，同步提供 BF16、FP8 和 INT4 三个版本</description>
-        <author>AI HOT / 公众号：蚂蚁百灵（Ling）</author>
+        <title>Cursor 与 SpaceXAI 联合发布 Grok 4.6</title>
+        <link>https://cursor.com/blog/grok-4-6</link>
+        <description>Cursor 与 SpaceXAI 今日发布 Grok 4.6，重点强化长时运行智能体与交互式视觉任务，在多项智能体编程与知识工作基准上达到前沿水平，并在 Artificial Analysis Intelligence Index 上追平...</description>
+        <author>AI HOT / Cursor Blog</author>
         <category>aihot</category>
-        <pubDate>Tue, 11 Aug 2026 09:20:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsogatbh0qdgrofwzm7gdk0a</guid>
+        <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsqf39o0015groxvnc7oiwop</guid>
       </item>
 <item>
-        <title>NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务</title>
-        <link>https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron</link>
-        <description>NVIDIA 发布 Nemotron 3.5 Lightning，一款可定制的开源 30B 混合专家（MoE）模型，专为常驻智能体设计</description>
-        <author>AI HOT / NVIDIA Blog（RSS）</author>
+        <title>OpenRouter 推出实时网页搜索基准测试：如何为智能体选择引擎、深度与模型</title>
+        <link>https://openrouter.ai/blog/announcements/web-search-benchmark</link>
+        <description>OpenRouter 发布实时排行榜，系统评测模型、搜索引擎、搜索方法与预算四类配置组合</description>
+        <author>AI HOT / OpenRouter：Announcements（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 11 Aug 2026 13:00:25 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsoolxde07isrop2eb5rrtvq</guid>
+        <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsq9h6gs01x5ronde8fdla7e</guid>
       </item>
 <item>
-        <title>研究人员发现可读取ChatGPT等模型加密推理过程的API漏洞</title>
-        <link>https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning</link>
-        <description>Alexander Panfilov团队发现OpenAI、Anthropic、Google等主要AI提供商API存在漏洞，可读取推理模型的加密思考过程</description>
-        <author>AI HOT / The Decoder：AI News（RSS）</author>
+        <title>阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文</title>
+        <link>https://www.ithome.com/0/989/001.htm</link>
+        <description>阿里 Qwen 团队正式开放 Qwen3.8-2.4T-A95B 模型权重，这是 Qwen-Max 级别模型首次开源</description>
+        <author>AI HOT / IT之家（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 11 Aug 2026 17:38:49 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsoydypn029yro3yvsi036au</guid>
+        <pubDate>Wed, 12 Aug 2026 16:10:01 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsqagyyz00yuroucf55e5fue</guid>
       </item>
 <item>
-        <title>SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning</title>
-        <link>https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning</link>
-        <description>SGLang 宣布对 NVIDIA Nemotron 3.5 Lightning 提供 Day-0 支持，该开源模型为 30B 总参数、3B 激活参数的混合专家架构，支持最长 1M token 上下文，可从 Hugging Face 下载...</description>
-        <author>AI HOT / LMSYS：Blog（Chatbot Arena 团队）</author>
+        <title>微软首发自研推理模型MAI-Thinking-1</title>
+        <link>https://x.com/mustafasuleyman/status/2087570047967408396</link>
+        <description>我们的首个推理模型 MAI-Thinking-1 从零开始构建，现已在 Microsoft Foundry 上线</description>
+        <author>AI HOT / X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)</author>
         <category>aihot</category>
-        <pubDate>Tue, 11 Aug 2026 13:51:45 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsopyoum028urohdhqzve6ba</guid>
+        <pubDate>Wed, 12 Aug 2026 16:00:59 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsqbnb8j01nrroosmwa5r6mj</guid>
       </item>
 <item>
-        <title>SaladDay/pi-from-scratch</title>
-        <link>https://github.com/SaladDay/pi-from-scratch</link>
-        <description>600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent | 近期热门 | 总 517 stars</description>
-        <author>SaladDay</author>
-        <category>github</category>
-        <pubDate>Tue, 11 Aug 2026 23:32:49 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-saladday-pi-from-scratch</guid>
+        <title>发布HN：Discovered Materials（YC P26）——用于发现新材料的AI智能体</title>
+        <link>https://discoveredmaterials.com/research/</link>
+        <description>嘿，HN，我们是Discovered Materials（https://discoveredmaterials.com/）的Advaith和Akash。我们构建AI智能体，用于...</description>
+        <author>advaith08</author>
+        <category>hn</category>
+        <pubDate>Wed, 12 Aug 2026 07:51:20 GMT</pubDate>
+        <guid isPermaLink="false">hn-49269090</guid>
       </item>
   </channel>
 </rss>
