@@ -1,89 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/14)</title>
+    <title>今日 AI 开发者精选 (2026/8/15)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息量不大，但密度很高：**开源模型是绝对主角**。小红书、智谱、通义千问、DeepSeek 相继发布或上线新模型，且都聚焦在**编程能力和 Agent 工作流**上——这几乎是今天所有重要发布的核心关键词。如果你只关注一件事，**GLM-5.3 的编程能力跃升**和 **DeepSeek V4 Pro 上线硅基流动**这两条值得优先看。</description>
+    <description>今天的开发者情报围绕一个核心主题：**LLM 正在从“对话工具”向“可工程化的基础设施”演进**。多个项目在解决同一个问题——如何让 AI 更深度地嵌入开发者的日常工作流，无论是通过 Claude Code 技能化知识库、DSH 的终端交互体验，还是为 Codex 构建可复用的上下文管理。此外，Debian 社区正在投票决定 AI/LLM 贡献的未来，这是开源基础设施层面对 AI 的一次重要制度性回应。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Aug 2026 23:30:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 23:29:26 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息量不大，但密度很高：**开源模型是绝对主角**。小红书、智谱、通义千问、DeepSeek 相继发布或上线新模型，且都聚焦在**编程能力和 Agent 工作流**上——这几乎是今天所有重要发布的核心关键词。如果你只关注一件事，**GLM-5.3 的编程能力跃升**和 **DeepSeek V4 Pro 上线硅基流动**这两条值得优先看。</description>
-        <pubDate>Fri, 14 Aug 2026 23:30:33 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-14T23:30:26.784Z</guid>
+        <description>今天的开发者情报围绕一个核心主题：**LLM 正在从“对话工具”向“可工程化的基础设施”演进**。多个项目在解决同一个问题——如何让 AI 更深度地嵌入开发者的日常工作流，无论是通过 Claude Code 技能化知识库、DSH 的终端交互体验，还是为 Codex 构建可复用的上下文管理。此外，Debian 社区正在投票决定 AI/LLM 贡献的未来，这是开源基础设施层面对 AI 的一次重要制度性回应。
+
+---</description>
+        <pubDate>Sat, 15 Aug 2026 23:29:26 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-15T23:29:20.241Z</guid>
       </item>
     <item>
-        <title>dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理</title>
-        <link>https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&amp;mid=2247496140&amp;idx=1&amp;sn=5239a5fbb115c58d2ae0056bb32789ff</link>
-        <description>小红书技术开源 dots3-note Preview，这是 dots3 系列最轻量模型，总参数 280B、激活参数 16B，支持 512K 上下文及文本、视觉、语音多模态理解，并针对复杂推理和长程 Agent 任务优化</description>
-        <author>AI HOT / 公众号：小红书技术（dots.llm）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 14 Aug 2026 11:25:29 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmssv94cg0h4mroffsb9e7a88</guid>
-      </item>
-<item>
-        <title>DeepSeek V4 Pro 登陆硅基流动，1M 上下文</title>
-        <link>https://x.com/SiliconFlowAI/status/2088127458558271885</link>
-        <description>DeepSeek-V4-Pro-0813 正式上线硅基流动 SiliconFlow，提供 Day-0 支持，具备 1M 上下文窗口及低/高/最大三档推理强度，更侧重编码、工具调用与智能体工作流，仍保持 MIT 开源协议</description>
-        <author>AI HOT / X：硅基流动 SiliconFlow (@SiliconFlowAI)</author>
-        <category>aihot</category>
-        <pubDate>Fri, 14 Aug 2026 04:55:56 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmssi38vn03o9rofffr0z8lyb</guid>
-      </item>
-<item>
         <title>Leutenegger/book-to-skill</title>
         <link>https://github.com/Leutenegger/book-to-skill</link>
-        <description>将任何技术书籍PDF转化为Claude Code技能——随时可供学习、参考并在工作中使用。 | 近期热门 | 总 1066 stars</description>
+        <description>将任何技术书籍PDF转化为Claude Code技能——随时可供学习、参考并在工作中使用。 | 近期热门 | 总 1122 stars</description>
         <author>Leutenegger</author>
         <category>github</category>
-        <pubDate>Fri, 14 Aug 2026 23:29:42 GMT</pubDate>
+        <pubDate>Sat, 15 Aug 2026 23:28:50 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-leutenegger-book-to-skill</guid>
-      </item>
-<item>
-        <title>GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力</title>
-        <link>https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&amp;mid=2247494084&amp;idx=1&amp;sn=a2e5cd9a534a4825feb3633ea1b6d492</link>
-        <description>智谱发布GLM-5.3，基于与GLM-5.2相同的基座，通过极致的后训练Scaling提升智能上界，编程能力较前代提升50%，在Terminal Bench 3.0等公开基准中取得开源第一，并接近Claude Fable 5</description>
-        <author>AI HOT / 公众号：智谱（GLM）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 14 Aug 2026 05:31:04 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmssir12d047oroffnpn5pcx1</guid>
       </item>
 <item>
         <title>ccch1mneyyy/dsh-TUI</title>
         <link>https://github.com/ccch1mneyyy/dsh-TUI</link>
-        <description>解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。npm 一键安装。 | 近期热门 | 总 894 stars</description>
+        <description>解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。npm 一键安装。 | 近期热门 | 总 1258 stars</description>
         <author>ccch1mneyyy</author>
         <category>github</category>
-        <pubDate>Fri, 14 Aug 2026 23:29:42 GMT</pubDate>
+        <pubDate>Sat, 15 Aug 2026 23:28:50 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-ccch1mneyyy-dsh-tui</guid>
       </item>
 <item>
-        <title>通义千问开源 Qwen3.8 系列模型</title>
-        <link>https://x.com/Alibaba_Qwen/status/2088280182356611304</link>
-        <description>通义千问兑现承诺，开源 Qwen3.8 系列模型</description>
-        <author>AI HOT / X：通义千问 / Qwen (@Alibaba_Qwen)</author>
-        <category>aihot</category>
-        <pubDate>Fri, 14 Aug 2026 15:02:48 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmst3j53e03ncro068tgsr4xn</guid>
+        <title>Awaker-OTE/WakeGPT</title>
+        <link>https://github.com/Awaker-OTE/WakeGPT</link>
+        <description>一款本地优先的桌面应用，用于快速捕获、管理Markdown笔记本，以及可复用的ChatGPT/Codex上下文。目前已在macOS上验证通过。 | 近期热门 | 总 168 stars</description>
+        <author>Awaker-OTE</author>
+        <category>github</category>
+        <pubDate>Sat, 15 Aug 2026 23:28:50 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-awaker-ote-wakegpt</guid>
       </item>
 <item>
-        <title>2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量</title>
-        <link>https://huggingface.co/blog/state-of-open-models-summer-2026</link>
-        <description>2026年1至8月，Hugging Face公开模型仓库从243万增至296万，但85.6%的模型下载量不足200次，1.5%的仓库占据99.2%下载量</description>
-        <author>AI HOT / Hugging Face：Blog（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmst4z2qp05boro06ce7kxtgd</guid>
-      </item>
-<item>
-        <title>AI模型图谱——将机器学习模型群体可视化为互联的三维图</title>
-        <link>https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0</link>
-        <description>AI模型图谱——将机器学习模型群体可视化为互联的三维图</description>
-        <author>bj-rn</author>
+        <title>Debian已开始就AI/LLM贡献的未来进行投票</title>
+        <link>https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html</link>
+        <description>Debian已开始就AI/LLM贡献的未来进行投票</description>
+        <author>matheusmoreira</author>
         <category>hn</category>
-        <pubDate>Fri, 14 Aug 2026 14:22:39 GMT</pubDate>
-        <guid isPermaLink="false">hn-49299102</guid>
+        <pubDate>Sat, 15 Aug 2026 09:20:07 GMT</pubDate>
+        <guid isPermaLink="false">hn-49309050</guid>
+      </item>
+<item>
+        <title>展示HN：ThoughtDAG——用于LLM对话的可编辑上下文图</title>
+        <link>https://chenxiachan.github.io/thoughtdag/</link>
+        <description>展示HN：ThoughtDAG——用于LLM对话的可编辑上下文图</description>
+        <author>chatchan</author>
+        <category>hn</category>
+        <pubDate>Sat, 15 Aug 2026 04:42:07 GMT</pubDate>
+        <guid isPermaLink="false">hn-49307700</guid>
+      </item>
+<item>
+        <title>pgrundev/pgbot</title>
+        <link>https://github.com/pgrundev/pgbot</link>
+        <description>pgbot - 面向AI代理与应用的后置智能 | 近期热门 | 总 151 stars</description>
+        <author>pgrundev</author>
+        <category>github</category>
+        <pubDate>Sat, 15 Aug 2026 23:28:50 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-pgrundev-pgbot</guid>
+      </item>
+<item>
+        <title>vibeinging/deepseek-harness-desktop-app</title>
+        <link>https://github.com/vibeinging/deepseek-harness-desktop-app</link>
+        <description>DeepSeek Harness桌面应用：一个用于DSH会话、项目、文件、网络研究、插件和Office工件的本地AI桌面工作空间。 | 近期热门 | 总 116 stars</description>
+        <author>vibeinging</author>
+        <category>github</category>
+        <pubDate>Sat, 15 Aug 2026 23:28:50 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vibeinging-deepseek-harness-desktop-app</guid>
+      </item>
+<item>
+        <title>Cursor 正式被 SpaceX 收购</title>
+        <link>https://cursor.com/blog/joining-spacex</link>
+        <description>Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Sat, 15 Aug 2026 20:05:54 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmsuto7hk0912rouhodiiywlk</guid>
       </item>
   </channel>
 </rss>
