@@ -1,93 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/15)</title>
+    <title>今日 AI 开发者精选 (2026/8/16)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的开发者情报围绕一个核心主题：**LLM 正在从“对话工具”向“可工程化的基础设施”演进**。多个项目在解决同一个问题——如何让 AI 更深度地嵌入开发者的日常工作流，无论是通过 Claude Code 技能化知识库、DSH 的终端交互体验，还是为 Codex 构建可复用的上下文管理。此外，Debian 社区正在投票决定 AI/LLM 贡献的未来，这是开源基础设施层面对 AI 的一次重要制度性回应。
-
----</description>
+    <description>今天的资讯里有一个值得开发者注意的信号：开源大模型在性能上继续逼近闭源产品（Qwen 3.8 27B 已超越自家闭源版本），但“过度思考”问题开始成为实际使用中的新痛点；与此同时，围绕 DeepSeek 的桌面工具链正在快速成型，连续出现多个轻量级启动器/桌面客户端项目，说明本地化部署 AI 工具链的需求正在从极客圈扩散到普通开发者。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 15 Aug 2026 23:29:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 23:30:36 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的开发者情报围绕一个核心主题：**LLM 正在从“对话工具”向“可工程化的基础设施”演进**。多个项目在解决同一个问题——如何让 AI 更深度地嵌入开发者的日常工作流，无论是通过 Claude Code 技能化知识库、DSH 的终端交互体验，还是为 Codex 构建可复用的上下文管理。此外，Debian 社区正在投票决定 AI/LLM 贡献的未来，这是开源基础设施层面对 AI 的一次重要制度性回应。
-
----</description>
-        <pubDate>Sat, 15 Aug 2026 23:29:26 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-15T23:29:20.241Z</guid>
+        <description>今天的资讯里有一个值得开发者注意的信号：开源大模型在性能上继续逼近闭源产品（Qwen 3.8 27B 已超越自家闭源版本），但“过度思考”问题开始成为实际使用中的新痛点；与此同时，围绕 DeepSeek 的桌面工具链正在快速成型，连续出现多个轻量级启动器/桌面客户端项目，说明本地化部署 AI 工具链的需求正在从极客圈扩散到普通开发者。</description>
+        <pubDate>Sun, 16 Aug 2026 23:30:36 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-16T23:30:31.096Z</guid>
       </item>
     <item>
-        <title>Leutenegger/book-to-skill</title>
-        <link>https://github.com/Leutenegger/book-to-skill</link>
-        <description>将任何技术书籍PDF转化为Claude Code技能——随时可供学习、参考并在工作中使用。 | 近期热门 | 总 1122 stars</description>
-        <author>Leutenegger</author>
-        <category>github</category>
-        <pubDate>Sat, 15 Aug 2026 23:28:50 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-leutenegger-book-to-skill</guid>
-      </item>
-<item>
-        <title>ccch1mneyyy/dsh-TUI</title>
-        <link>https://github.com/ccch1mneyyy/dsh-TUI</link>
-        <description>解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。npm 一键安装。 | 近期热门 | 总 1258 stars</description>
-        <author>ccch1mneyyy</author>
-        <category>github</category>
-        <pubDate>Sat, 15 Aug 2026 23:28:50 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-ccch1mneyyy-dsh-tui</guid>
+        <title>Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考</title>
+        <link>https://simonwillison.net/2026/Aug/16/qwen-38-27b</link>
+        <description>阿里 Qwen 实验室发布 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B，官方基准显示其超越前代 Qwen 3.6 27B 及闭源 Qwen 3.7-Plus</description>
+        <author>AI HOT / Simon Willison 博客</author>
+        <category>aihot</category>
+        <pubDate>Sun, 16 Aug 2026 22:00:39 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmswesk6a0r2hrovml2edcl2c</guid>
       </item>
 <item>
         <title>Awaker-OTE/WakeGPT</title>
         <link>https://github.com/Awaker-OTE/WakeGPT</link>
-        <description>一款本地优先的桌面应用，用于快速捕获、管理Markdown笔记本，以及可复用的ChatGPT/Codex上下文。目前已在macOS上验证通过。 | 近期热门 | 总 168 stars</description>
+        <description>一款本地优先的桌面应用，用于快速捕获、管理Markdown笔记本，以及复用ChatGPT/Codex上下文。目前已在macOS上验证。 | 近期热门 | 总 169 stars</description>
         <author>Awaker-OTE</author>
         <category>github</category>
-        <pubDate>Sat, 15 Aug 2026 23:28:50 GMT</pubDate>
+        <pubDate>Sun, 16 Aug 2026 23:29:28 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-awaker-ote-wakegpt</guid>
       </item>
 <item>
-        <title>Debian已开始就AI/LLM贡献的未来进行投票</title>
-        <link>https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html</link>
-        <description>Debian已开始就AI/LLM贡献的未来进行投票</description>
-        <author>matheusmoreira</author>
-        <category>hn</category>
-        <pubDate>Sat, 15 Aug 2026 09:20:07 GMT</pubDate>
-        <guid isPermaLink="false">hn-49309050</guid>
+        <title>何夕2077 AI 深度信号周报 (2026-W33) | 智能体失控危机与开源大模型百团大战</title>
+        <link>https://hex2077.dev/zh-CN/blog/weekly/2026-08-16-hexi-2077-ai-weekly-2026-w33/</link>
+        <description>本期聚焦智能体失控危机（亚马逊Token账单超支、安全防线失守与自进化AI）、开源大模型降本战、OpenAI与Anthropic最新动态，以及具身智能产业落地与AI生成活性病毒等宏观趋势。...</description>
+        <author>HEX2077</author>
+        <category>hex2077</category>
+        <pubDate>Sun, 16 Aug 2026 03:15:09 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-1212017250</guid>
       </item>
 <item>
-        <title>展示HN：ThoughtDAG——用于LLM对话的可编辑上下文图</title>
-        <link>https://chenxiachan.github.io/thoughtdag/</link>
-        <description>展示HN：ThoughtDAG——用于LLM对话的可编辑上下文图</description>
-        <author>chatchan</author>
-        <category>hn</category>
-        <pubDate>Sat, 15 Aug 2026 04:42:07 GMT</pubDate>
-        <guid isPermaLink="false">hn-49307700</guid>
-      </item>
-<item>
-        <title>pgrundev/pgbot</title>
-        <link>https://github.com/pgrundev/pgbot</link>
-        <description>pgbot - 面向AI代理与应用的后置智能 | 近期热门 | 总 151 stars</description>
-        <author>pgrundev</author>
+        <title>Ruler4396/dsh-launcher</title>
+        <link>https://github.com/Ruler4396/dsh-launcher</link>
+        <description>DeepSeek Harness（dsh）Windows 轻量启动器：双击即用，克制的原生体验 / Lightweight Windows launcher for DeepSeek Harness (dsh) — double-click to run, native &amp; restrained | 近期热门 | 总 125 stars</description>
+        <author>Ruler4396</author>
         <category>github</category>
-        <pubDate>Sat, 15 Aug 2026 23:28:50 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-pgrundev-pgbot</guid>
+        <pubDate>Sun, 16 Aug 2026 23:29:28 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-ruler4396-dsh-launcher</guid>
       </item>
 <item>
-        <title>vibeinging/deepseek-harness-desktop-app</title>
-        <link>https://github.com/vibeinging/deepseek-harness-desktop-app</link>
-        <description>DeepSeek Harness桌面应用：一个用于DSH会话、项目、文件、网络研究、插件和Office工件的本地AI桌面工作空间。 | 近期热门 | 总 116 stars</description>
-        <author>vibeinging</author>
+        <title>询问HN：你知道有哪家公司重新回到手写代码吗？</title>
+        <link>https://news.ycombinator.com/item?id=49318906</link>
+        <description>这意在探讨LLM炒作周期的当前阶段，同时也是一种现实检验，即对于普通开发者而言，不愿依赖LLM在经济上是否可行。</description>
+        <author>antipurist</author>
+        <category>hn</category>
+        <pubDate>Sun, 16 Aug 2026 11:05:47 GMT</pubDate>
+        <guid isPermaLink="false">hn-49318906</guid>
+      </item>
+<item>
+        <title>展示HN：用于Hermes Agent的Grafana代理可观测性</title>
+        <link>https://github.com/alexander-akhmetov/grafana-agento11y-hermes</link>
+        <description>展示HN：用于Hermes Agent的Grafana代理可观测性</description>
+        <author>eventuallyacat</author>
+        <category>hn</category>
+        <pubDate>Sun, 16 Aug 2026 08:40:50 GMT</pubDate>
+        <guid isPermaLink="false">hn-49318128</guid>
+      </item>
+<item>
+        <title>The median company is spending lunch money on AI while the top 1% is burning real budget</title>
+        <link>https://www.reddit.com/r/artificial/comments/1vpxa46/the_median_company_is_spending_lunch_money_on_ai/</link>
+        <description>Chart uses Ramp AI Index data, discussed by a16z. Spend includes LLM subscriptions, coding agents, API usage and GPU cloud spend. 
+ The top 1% line is wild but the median is almost more interesting. Looks like most companies are still exper...</description>
+        <author>Reddit</author>
+        <category>reddit</category>
+        <pubDate>Sun, 16 Aug 2026 13:37:33 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-968719690</guid>
+      </item>
+<item>
+        <title>hairyf/deepseek-harness-desktop</title>
+        <link>https://github.com/hairyf/deepseek-harness-desktop</link>
+        <description>DeepSeek Harness Tauri 桌面版 | Only 5mb installer, zero environment setup. Windows / macOS / Linux. | 近期热门 | 总 286 stars</description>
+        <author>hairyf</author>
         <category>github</category>
-        <pubDate>Sat, 15 Aug 2026 23:28:50 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vibeinging-deepseek-harness-desktop-app</guid>
-      </item>
-<item>
-        <title>Cursor 正式被 SpaceX 收购</title>
-        <link>https://cursor.com/blog/joining-spacex</link>
-        <description>Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Sat, 15 Aug 2026 20:05:54 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsuto7hk0912rouhodiiywlk</guid>
+        <pubDate>Sun, 16 Aug 2026 23:29:28 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-hairyf-deepseek-harness-desktop</guid>
       </item>
   </channel>
 </rss>
