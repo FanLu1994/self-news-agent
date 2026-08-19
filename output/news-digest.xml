@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/18)</title>
+    <title>今日 AI 开发者精选 (2026/8/19)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的资讯有一个明确的信号：**AI 开发者的工具链正在加速“开源化”和“工程化”**。Mojo 语言正式开源、Sentence Transformers 发布 v6.0 支持 ColBERT 多向量模型、Hugging Face 上出现关于智能体记忆容量的实证评测——这三件事分别指向底层语言、检索基础设施和 Agent 行为校准，恰好覆盖了从“写代码”到“跑 Agent”的完整链路。另外 OpenAI 因安全框架暂停模型训练这件事，值得每一位依赖前沿模型的开发者留意后续走向。</description>
+    <description>今天资讯的核心集中在两个方向：一是 AI 编程代理生态的加速成型，出现了像 cumora 和 agy-staff 这样让多模型代理协作的基础设施；二是开源模型的竞争进入白热化，GLM-5.3 在综合智能上追平闭源旗舰，DeepSeek-V4-Pro 的推理优化也有了新突破。对开发者来说，现在是用更低的成本构建强大 Agent 工作流的好时机。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 18 Aug 2026 23:31:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 23:30:47 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的资讯有一个明确的信号：**AI 开发者的工具链正在加速“开源化”和“工程化”**。Mojo 语言正式开源、Sentence Transformers 发布 v6.0 支持 ColBERT 多向量模型、Hugging Face 上出现关于智能体记忆容量的实证评测——这三件事分别指向底层语言、检索基础设施和 Agent 行为校准，恰好覆盖了从“写代码”到“跑 Agent”的完整链路。另外 OpenAI 因安全框架暂停模型训练这件事，值得每一位依赖前沿模型的开发者留意后续走向。</description>
-        <pubDate>Tue, 18 Aug 2026 23:31:09 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-18T23:31:01.287Z</guid>
+        <description>今天资讯的核心集中在两个方向：一是 AI 编程代理生态的加速成型，出现了像 cumora 和 agy-staff 这样让多模型代理协作的基础设施；二是开源模型的竞争进入白热化，GLM-5.3 在综合智能上追平闭源旗舰，DeepSeek-V4-Pro 的推理优化也有了新突破。对开发者来说，现在是用更低的成本构建强大 Agent 工作流的好时机。</description>
+        <pubDate>Wed, 19 Aug 2026 23:30:47 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-19T23:30:42.318Z</guid>
       </item>
     <item>
-        <title>b-nnett/codex-subscription-router</title>
-        <link>https://github.com/b-nnett/codex-subscription-router</link>
-        <description> | 近期热门 | 总 326 stars</description>
-        <author>b-nnett</author>
+        <title>yetone/cumora</title>
+        <link>https://github.com/yetone/cumora</link>
+        <description>代理团队聚集地。跨平台团队聊天，AI代理是一等队友——支持云端或自带（Claude Code / Codex）大脑。 | 近期热门 | 总 2677 stars</description>
+        <author>yetone</author>
         <category>github</category>
-        <pubDate>Tue, 18 Aug 2026 23:30:07 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-b-nnett-codex-subscription-router</guid>
+        <pubDate>Wed, 19 Aug 2026 23:29:50 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yetone-cumora</guid>
       </item>
 <item>
-        <title>智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准</title>
-        <link>https://huggingface.co/blog/ibm-research/altk-evolve-hmm</link>
-        <description>智能体记忆并非可随意开启的功能，而是需按模型能力校准的剂量</description>
+        <title>GLM-5.3上线：AA智能指数60分并列开源第一，成本更低</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&amp;mid=2247494105&amp;idx=1&amp;sn=8d7409e0fb846a3c7803c142b5d1a8e7</link>
+        <description>GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一</description>
+        <author>AI HOT / 公众号：智谱（GLM）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 19 Aug 2026 01:03:29 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmszeb2mx0b3srodpef1ub0j0</guid>
+      </item>
+<item>
+        <title>Leutenegger/watermarks-remover</title>
+        <link>https://github.com/Leutenegger/watermarks-remover</link>
+        <description>移除多供应商AI溯源痕迹：Unicode文本净化、统计重写技术，以及从PNG/JPEG/SVG/PDF/DOCX/HTML/MD文件中剥离C2PA/元数据 | 近期热门 | 总 911 stars</description>
+        <author>Leutenegger</author>
+        <category>github</category>
+        <pubDate>Wed, 19 Aug 2026 23:29:50 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-leutenegger-watermarks-remover</guid>
+      </item>
+<item>
+        <title>突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法</title>
+        <link>https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20</link>
+        <description>LMSYS 团队针对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro，在 H20 GPU 上通过场景化服务配置逼近 B300 性能</description>
+        <author>AI HOT / LMSYS：Blog（Chatbot Arena 团队）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 19 Aug 2026 17:56:13 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmt0e7sxo01eiro2o4l4y9jmh</guid>
+      </item>
+<item>
+        <title>Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失</title>
+        <link>https://huggingface.co/blog/LiquidAI/qad</link>
+        <description>Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的...</description>
         <author>AI HOT / Hugging Face：Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 18 Aug 2026 18:09:38 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsz1974l06hbro20gosn5d78</guid>
+        <pubDate>Wed, 19 Aug 2026 13:48:49 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmt05zhyg139trodp6bxsy9e2</guid>
       </item>
 <item>
-        <title>设计 AI 评测：先求清晰，再谈可视化</title>
-        <link>https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii</link>
-        <description>本文演示如何用开源评测框架 Inspect AI 和 Harbor 评估 agent 技能，并借助 Google Sheets 和 Data Studio 进行可视化分析</description>
-        <author>AI HOT / Google AI：DEV 作者专属（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Tue, 18 Aug 2026 07:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsycmgww0rkrroz0nfma0z05</guid>
-      </item>
-<item>
-        <title>Mojo 语言正式开源，编译器与工具链全面开放</title>
-        <link>https://www.modular.com/blog/mojo-open-source</link>
-        <description>Mojo🔥 语言现已正式开源，采用 Apache 2.0 许可证（含 LLVM 例外），编译器、工具链及全部源码已发布至 modular GitHub 仓库</description>
+        <title>Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护</title>
+        <link>https://openai.com/index/pacing-model-development-cyber-capabilities</link>
+        <description>Anthropic 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到&quot;关键网络安全能力阈值&quot;，暂时放缓模型扩展速度，包括暂停最新模型两周的强化学习（RL）训练</description>
         <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Tue, 18 Aug 2026 21:26:01 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsz79zol04j8rodpvun6zobl</guid>
+        <pubDate>Wed, 19 Aug 2026 21:42:09 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmt0mqceo08lzro2o6xi3rlk4</guid>
       </item>
 <item>
-        <title>OpenAI 在&quot;关键网络能力&quot;时代放缓模型开发节奏</title>
-        <link>https://openai.com/index/pacing-model-development-cyber-capabilities</link>
-        <description>OpenAI 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到《预备框架》下的&quot;关键网络安全能力&quot;阈值，暂时放缓了模型扩展速度，包括暂停最新部署模型的强化学习训练两周，并搁置最大规模前沿 RL 运行</description>
-        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
-        <category>aihot</category>
-        <pubDate>Tue, 18 Aug 2026 11:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsz0hbsg05l0ro204080cotv</guid>
-      </item>
-<item>
-        <title>Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型</title>
-        <link>https://huggingface.co/blog/multi-vector-encoder</link>
-        <description>Sentence Transformers v6.0 新增第四种模型类型 MultiVectorEncoder，可直接加载 PyLate、Stanford-NLP ColBERT 及 colpali-engine 检查点，用于 ColBER...</description>
-        <author>AI HOT / Hugging Face：Blog（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmsyqip4o14umroz0ch5iv0iv</guid>
-      </item>
-<item>
-        <title>Claude Code 教 macOS 原生打印到 HP Laser 1008a</title>
-        <link>https://cdn.kuber.studio/chat/hp-laser-1008a-driver</link>
-        <description>Claude Code教macOS原生打印到HP Laser 1008a</description>
-        <author>amrrs</author>
+        <title>大语言模型时代的可扩展软件</title>
+        <link>https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/</link>
+        <description>LLM时代中的可扩展软件</description>
+        <author>coloneltcb</author>
         <category>hn</category>
-        <pubDate>Tue, 18 Aug 2026 21:14:21 GMT</pubDate>
-        <guid isPermaLink="false">hn-49352806</guid>
+        <pubDate>Wed, 19 Aug 2026 16:26:05 GMT</pubDate>
+        <guid isPermaLink="false">hn-49363668</guid>
       </item>
 <item>
-        <title>Claude Code 2026年5月至8月每周限额推广活动</title>
-        <link>https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion</link>
-        <description>Claude Code 2026年5月至8月每周限额推广活动</description>
-        <author>tyre</author>
-        <category>hn</category>
-        <pubDate>Tue, 18 Aug 2026 17:02:15 GMT</pubDate>
-        <guid isPermaLink="false">hn-49348751</guid>
+        <title>[开源软件] [开源] agy-staff: 让 Gemini 成为 Codex / Claude Code 的员工</title>
+        <link>https://www.v2ex.com/t/1235732#reply0</link>
+        <description>[开源软件] [开源] agy-staff: 让 Gemini 成为 Codex / Claude Code 的员工 — Repo: https://github.com/keli-wen/agy-staff 其实是把 Antigravity 做成了 Codex / Claude 的 subagent...</description>
+        <author>Ve2x</author>
+        <category>ve2x</category>
+        <pubDate>Wed, 19 Aug 2026 16:23:32 GMT</pubDate>
+        <guid isPermaLink="false">rss-6-1364791432</guid>
       </item>
   </channel>
 </rss>
