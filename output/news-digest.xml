@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/21)</title>
+    <title>今日 AI 开发者精选 (2026/8/22)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天有几个方向值得 AI 开发者留意：一是**开源编码代理**持续火热，Proliferate 和 OpenBot 都试图让 AI 编码助手更可控、更可自托管；二是**模型侧**有新动作，DeepSeek 推出了视觉实验模型，面壁智能则在数学推理的 Lean 4 路线上下注；三是**围绕编码代理的工具链**正在快速成型，包括可视化调试、质量门禁、token 优化等周边工具，说明这个生态正在从“能用”走向“好用”。</description>
+    <description>今天的项目集中在 **AI 编程代理（Coding Agent）的工作流增强** 上：从 Claude Code 的会话可视化、提交质量门禁，到面向代理的组件化设计语言。社区正在为“代理驱动开发”补齐工具链——让 AI 写代码这件事变得更可控、更可观测、更专业化。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 21 Aug 2026 23:31:23 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 23:29:19 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天有几个方向值得 AI 开发者留意：一是**开源编码代理**持续火热，Proliferate 和 OpenBot 都试图让 AI 编码助手更可控、更可自托管；二是**模型侧**有新动作，DeepSeek 推出了视觉实验模型，面壁智能则在数学推理的 Lean 4 路线上下注；三是**围绕编码代理的工具链**正在快速成型，包括可视化调试、质量门禁、token 优化等周边工具，说明这个生态正在从“能用”走向“好用”。</description>
-        <pubDate>Fri, 21 Aug 2026 23:31:23 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-21T23:31:13.377Z</guid>
+        <description>今天的项目集中在 **AI 编程代理（Coding Agent）的工作流增强** 上：从 Claude Code 的会话可视化、提交质量门禁，到面向代理的组件化设计语言。社区正在为“代理驱动开发”补齐工具链——让 AI 写代码这件事变得更可控、更可观测、更专业化。</description>
+        <pubDate>Sat, 22 Aug 2026 23:29:19 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-22T23:29:13.797Z</guid>
       </item>
     <item>
-        <title>展示HN：Proliferate——开源、可自托管的Codex，适用于任何编码代理</title>
-        <link>https://github.com/proliferate-ai/proliferate</link>
-        <description>嗨，HN——我是Pablo，Proliferate（YC S25）的创始人！Proliferate（https://github.com/...）</description>
-        <author>pablo24602</author>
-        <category>hn</category>
-        <pubDate>Fri, 21 Aug 2026 16:47:15 GMT</pubDate>
-        <guid isPermaLink="false">hn-49390739</guid>
-      </item>
-<item>
-        <title>CopilotKit/OpenBot</title>
-        <link>https://github.com/CopilotKit/OpenBot</link>
-        <description>开源AI同事，各自拥有一台专属电脑：浏览器、文件和工具，每项操作均在执行前决定，并在执行后记录。支持接入任意AG-UI代理。 | 近期热门 | 总 2112 stars</description>
-        <author>CopilotKit</author>
+        <title>OpenLabs-so/oa-design</title>
+        <link>https://github.com/OpenLabs-so/oa-design</link>
+        <description>开放分析设计语言作为代理技能：带有类型检查源码、令牌CSS和CLI的组件配方。适用于Claude Code、Cursor或任何代理。 | 近期热门 | 总 113 stars</description>
+        <author>OpenLabs-so</author>
         <category>github</category>
-        <pubDate>Fri, 21 Aug 2026 23:30:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-copilotkit-openbot</guid>
-      </item>
-<item>
-        <title>面壁智能 OpenBMB 推出 MathForm，面向 Lean 4 数学自动形式化的开源框架、数据集与模型</title>
-        <link>https://x.com/OpenBMB/status/2090786300194590816</link>
-        <description>面壁智能 OpenBMB 推出 MathForm，一个面向 Lean 4 数学自动形式化的开源框架、数据集与模型</description>
-        <author>AI HOT / X：面壁智能 OpenBMB (@OpenBMB)</author>
-        <category>aihot</category>
-        <pubDate>Fri, 21 Aug 2026 13:01:13 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmt2yscvm0ca8ro6t0u6vtfnt</guid>
+        <pubDate>Sat, 22 Aug 2026 23:28:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-openlabs-so-oa-design</guid>
       </item>
 <item>
         <title>furkankly/zoetrope</title>
         <link>https://github.com/furkankly/zoetrope</link>
-        <description>在终端或浏览器中，将Claude Code会话实时可视化为动态流程图。 | 近期热门 | 总 97 stars</description>
+        <description>在终端或浏览器中，将Claude Code会话实时可视化为流程图。 | 近期热门 | 总 168 stars</description>
         <author>furkankly</author>
         <category>github</category>
-        <pubDate>Fri, 21 Aug 2026 23:30:23 GMT</pubDate>
+        <pubDate>Sat, 22 Aug 2026 23:28:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-furkankly-zoetrope</guid>
       </item>
 <item>
-        <title>wang2122/sprix-sage-router</title>
-        <link>https://github.com/wang2122/sprix-sage-router</link>
-        <description>Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks. | 近期热门 | 总 1009 stars</description>
-        <author>wang2122</author>
+        <title>standardagents/ssh-clipboard</title>
+        <link>https://github.com/standardagents/ssh-clipboard</link>
+        <description>适用于macOS和Linux的基于SSH的原生加密剪贴板同步 | 近期热门 | 总 117 stars</description>
+        <author>standardagents</author>
         <category>github</category>
-        <pubDate>Fri, 21 Aug 2026 23:30:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-wang2122-sprix-sage-router</guid>
+        <pubDate>Sat, 22 Aug 2026 23:28:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-standardagents-ssh-clipboard</guid>
       </item>
 <item>
         <title>azrtydxb/procoder</title>
         <link>https://github.com/azrtydxb/procoder</link>
-        <description>面向AI编码代理的高级开发者纪律。一个将未检查项视为失败的提交门禁，拒绝将未完成工作视为完成的质量控制器，以及一个闭环每个逃逸缺陷类别的经验教训循环。单个Go二进制文件，无运行时依赖，兼容20多种代理。 | 近期热门 | 总 127 stars</description>
+        <description>面向AI编程代理的高级开发者纪律。一个将未检查项视为失败的提交门禁，拒绝将未完成工作视为完成的质量控制器，以及一个关闭每个逃逸缺陷类别的经验教训循环。一个Go二进制文件，无运行时依赖，兼容20多种代理。 | 近期热门 | 总 140 stars</description>
         <author>azrtydxb</author>
         <category>github</category>
-        <pubDate>Fri, 21 Aug 2026 23:30:23 GMT</pubDate>
+        <pubDate>Sat, 22 Aug 2026 23:28:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-azrtydxb-procoder</guid>
       </item>
 <item>
-        <title>zachahn/vomit</title>
-        <link>https://github.com/zachahn/vomit</link>
-        <description>使用单独的LLM清理Claude 5的token呕吐物。节省你的token，Claude 5已无可救药。 | 近期热门 | 总 127 stars</description>
-        <author>zachahn</author>
-        <category>github</category>
-        <pubDate>Fri, 21 Aug 2026 23:30:23 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-zachahn-vomit</guid>
+        <title>Anthropic似乎在Claude Code中对降低的投入水平进行A/B测试。</title>
+        <link>https://twitter.com/argofowl/status/2091150597374537729</link>
+        <description>Anthropic似乎正在对Claude Code中的降低努力级别进行A/B测试。</description>
+        <author>matthieu_bl</author>
+        <category>hn</category>
+        <pubDate>Sat, 22 Aug 2026 16:58:49 GMT</pubDate>
+        <guid isPermaLink="false">hn-49401549</guid>
       </item>
 <item>
-        <title>DeepSeek-V4-Flash-Vision-Exp 发布</title>
-        <link>https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21</link>
-        <description>DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model=&apos;deepseek-v4-flash-vision-exp&apos; 在 API 平台访问</description>
-        <author>AI HOT / DeepSeek：API 更新日志</author>
-        <category>aihot</category>
-        <pubDate>Fri, 21 Aug 2026 09:26:04 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmt2qvfnj03zxro6tehwcikx4</guid>
+        <title>挖掘我的技能坟墓：好莱坞创意人员训练AI来做他们的工作</title>
+        <link>https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs</link>
+        <description>挖掘我的技能坟墓：好莱坞创意人员训练AI来做他们的工作</description>
+        <author>theanonymousone</author>
+        <category>hn</category>
+        <pubDate>Sat, 22 Aug 2026 14:13:05 GMT</pubDate>
+        <guid isPermaLink="false">hn-49399941</guid>
+      </item>
+<item>
+        <title>ChenShuo2004/cs-board</title>
+        <link>https://github.com/ChenShuo2004/cs-board</link>
+        <description>将参考声音和中文文案自动生成白板动画视频的本地 AI 工具。 | 近期热门 | 总 108 stars</description>
+        <author>ChenShuo2004</author>
+        <category>github</category>
+        <pubDate>Sat, 22 Aug 2026 23:28:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-chenshuo2004-cs-board</guid>
+      </item>
+<item>
+        <title>展示HN：让您的标志在HDR屏幕上更加明亮</title>
+        <link>https://www.soverybright.com/</link>
+        <description>LinkedIn上有些logo开始显得比周围其他内容更亮/更白，引起了我的注意。我深入调查后发现，这是通过在现有JPEG中添加增益图（gain-map）实现的，而...</description>
+        <author>telecuda</author>
+        <category>hn</category>
+        <pubDate>Sat, 22 Aug 2026 18:43:03 GMT</pubDate>
+        <guid isPermaLink="false">hn-49402521</guid>
       </item>
   </channel>
 </rss>
