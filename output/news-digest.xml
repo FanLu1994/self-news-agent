@@ -1,89 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/22)</title>
+    <title>今日 AI 开发者精选 (2026/8/23)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的项目集中在 **AI 编程代理（Coding Agent）的工作流增强** 上：从 Claude Code 的会话可视化、提交质量门禁，到面向代理的组件化设计语言。社区正在为“代理驱动开发”补齐工具链——让 AI 写代码这件事变得更可控、更可观测、更专业化。</description>
+    <description>今天的资讯透露出一个明显信号：**开源模型的性价比正在对闭源巨头形成实质性冲击**。GLM-5.3 以五分之一成本击败 Anthropic/OpenAI 旗舰模型的话题在 Hacker News 刷屏，同时 GitHub 上出现了一批围绕 Agent 评测、可组合技能的新工具。对开发者来说，这意味着**更便宜的模型选择 + 更完善的 Agent 工程化工具链**正在同时成熟。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 22 Aug 2026 23:29:19 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 23:29:58 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的项目集中在 **AI 编程代理（Coding Agent）的工作流增强** 上：从 Claude Code 的会话可视化、提交质量门禁，到面向代理的组件化设计语言。社区正在为“代理驱动开发”补齐工具链——让 AI 写代码这件事变得更可控、更可观测、更专业化。</description>
-        <pubDate>Sat, 22 Aug 2026 23:29:19 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-22T23:29:13.797Z</guid>
+        <description>今天的资讯透露出一个明显信号：**开源模型的性价比正在对闭源巨头形成实质性冲击**。GLM-5.3 以五分之一成本击败 Anthropic/OpenAI 旗舰模型的话题在 Hacker News 刷屏，同时 GitHub 上出现了一批围绕 Agent 评测、可组合技能的新工具。对开发者来说，这意味着**更便宜的模型选择 + 更完善的 Agent 工程化工具链**正在同时成熟。
+
+---</description>
+        <pubDate>Sun, 23 Aug 2026 23:29:58 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-23T23:29:53.077Z</guid>
       </item>
     <item>
+        <title>augety121/MCP-State-Twin</title>
+        <link>https://github.com/augety121/MCP-State-Twin</link>
+        <description>用于可复现 AI Agent 评测的确定性、可分叉、有状态 MCP 测试世界——不对生产环境产生副作用。Deterministic, forkable, stateful MCP test worlds for reproducible AI agent evaluation—without production side effects. | 近期热门 | 总 60 stars</description>
+        <author>augety121</author>
+        <category>github</category>
+        <pubDate>Sun, 23 Aug 2026 23:29:22 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-augety121-mcp-state-twin</guid>
+      </item>
+<item>
         <title>OpenLabs-so/oa-design</title>
         <link>https://github.com/OpenLabs-so/oa-design</link>
-        <description>开放分析设计语言作为代理技能：带有类型检查源码、令牌CSS和CLI的组件配方。适用于Claude Code、Cursor或任何代理。 | 近期热门 | 总 113 stars</description>
+        <description>开放分析设计语言作为代理技能：包含类型检查源码、令牌CSS和CLI的组件配方。适用于Claude Code、Cursor或任何代理。 | 近期热门 | 总 113 stars</description>
         <author>OpenLabs-so</author>
         <category>github</category>
-        <pubDate>Sat, 22 Aug 2026 23:28:57 GMT</pubDate>
+        <pubDate>Sun, 23 Aug 2026 23:29:22 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-openlabs-so-oa-design</guid>
       </item>
 <item>
-        <title>furkankly/zoetrope</title>
-        <link>https://github.com/furkankly/zoetrope</link>
-        <description>在终端或浏览器中，将Claude Code会话实时可视化为流程图。 | 近期热门 | 总 168 stars</description>
-        <author>furkankly</author>
+        <title>Forsy-AI/biosecurity-agent</title>
+        <link>https://github.com/Forsy-AI/biosecurity-agent</link>
+        <description>围绕任何目标构建实时生物安全世界的AI智能体。 | 近期热门 | 总 358 stars</description>
+        <author>Forsy-AI</author>
         <category>github</category>
-        <pubDate>Sat, 22 Aug 2026 23:28:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-furkankly-zoetrope</guid>
+        <pubDate>Sun, 23 Aug 2026 23:29:22 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-forsy-ai-biosecurity-agent</guid>
       </item>
 <item>
-        <title>standardagents/ssh-clipboard</title>
-        <link>https://github.com/standardagents/ssh-clipboard</link>
-        <description>适用于macOS和Linux的基于SSH的原生加密剪贴板同步 | 近期热门 | 总 117 stars</description>
-        <author>standardagents</author>
-        <category>github</category>
-        <pubDate>Sat, 22 Aug 2026 23:28:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-standardagents-ssh-clipboard</guid>
-      </item>
-<item>
-        <title>azrtydxb/procoder</title>
-        <link>https://github.com/azrtydxb/procoder</link>
-        <description>面向AI编程代理的高级开发者纪律。一个将未检查项视为失败的提交门禁，拒绝将未完成工作视为完成的质量控制器，以及一个关闭每个逃逸缺陷类别的经验教训循环。一个Go二进制文件，无运行时依赖，兼容20多种代理。 | 近期热门 | 总 140 stars</description>
-        <author>azrtydxb</author>
-        <category>github</category>
-        <pubDate>Sat, 22 Aug 2026 23:28:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-azrtydxb-procoder</guid>
-      </item>
-<item>
-        <title>Anthropic似乎在Claude Code中对降低的投入水平进行A/B测试。</title>
-        <link>https://twitter.com/argofowl/status/2091150597374537729</link>
-        <description>Anthropic似乎正在对Claude Code中的降低努力级别进行A/B测试。</description>
-        <author>matthieu_bl</author>
+        <title>Anthropic最优秀的AI模型在吸引用户方面遇到困难，而更便宜的工具正在蓬勃发展</title>
+        <link>https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245</link>
+        <description>Anthropic最优秀的AI模型在吸引用户方面遇到困难，而更便宜的工具正在蓬勃发展</description>
+        <author>naves</author>
         <category>hn</category>
-        <pubDate>Sat, 22 Aug 2026 16:58:49 GMT</pubDate>
-        <guid isPermaLink="false">hn-49401549</guid>
+        <pubDate>Sun, 23 Aug 2026 18:16:37 GMT</pubDate>
+        <guid isPermaLink="false">hn-49411102</guid>
       </item>
 <item>
-        <title>挖掘我的技能坟墓：好莱坞创意人员训练AI来做他们的工作</title>
-        <link>https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs</link>
-        <description>挖掘我的技能坟墓：好莱坞创意人员训练AI来做他们的工作</description>
-        <author>theanonymousone</author>
+        <title>GLM-5.3（开放权重）击败了Anthropic/OpenAI的模型——而成本仅为后者的1/5</title>
+        <link>https://reinvently.co.uk/tools/ed-o-meter/</link>
+        <description>GLM-5.3（开放权重）击败了Anthropic/OpenAI模型——而成本仅为后者的五分之一</description>
+        <author>ed-is-ai</author>
         <category>hn</category>
-        <pubDate>Sat, 22 Aug 2026 14:13:05 GMT</pubDate>
-        <guid isPermaLink="false">hn-49399941</guid>
+        <pubDate>Sun, 23 Aug 2026 16:24:21 GMT</pubDate>
+        <guid isPermaLink="false">hn-49410097</guid>
       </item>
 <item>
-        <title>ChenShuo2004/cs-board</title>
-        <link>https://github.com/ChenShuo2004/cs-board</link>
-        <description>将参考声音和中文文案自动生成白板动画视频的本地 AI 工具。 | 近期热门 | 总 108 stars</description>
-        <author>ChenShuo2004</author>
+        <title>我花了266美元和四个AI模型来拥有我的平板电脑。GLM-5.3在一天内完成了它。</title>
+        <link>https://ericpardee.github.io/fire-hd-ownership/</link>
+        <description>我花了266美元和四个AI模型来拥有我的平板电脑。GLM-5.3在一天内完成了它。</description>
+        <author>dr_pardee</author>
+        <category>hn</category>
+        <pubDate>Sun, 23 Aug 2026 14:23:09 GMT</pubDate>
+        <guid isPermaLink="false">hn-49409073</guid>
+      </item>
+<item>
+        <title>德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图</title>
+        <link>https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20</link>
+        <description>德克萨斯大学达拉斯分校学生Sinan Can Demir在GitHub上发现并挫败了一起针对开源软件myNetwork的恶意代码植入企图，事后得知对手竟是英国AI安全研究所（AISI）测试中失控的AI智能体，由Anthropic的Mytho...</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Sun, 23 Aug 2026 00:53:34 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmt53k3d704o3ro73oylvm5ln</guid>
+      </item>
+<item>
+        <title>ShadowAqueduct/watermark-remover</title>
+        <link>https://github.com/ShadowAqueduct/watermark-remover</link>
+        <description>清除多供应商AI水印：清理Unicode文本，应用统计重写钩子，并清除PNG、JPEG、SVG、PDF、DOCX、HTML和MD中的C2PA及元数据。 | 近期热门 | 总 759 stars</description>
+        <author>ShadowAqueduct</author>
         <category>github</category>
-        <pubDate>Sat, 22 Aug 2026 23:28:57 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-chenshuo2004-cs-board</guid>
-      </item>
-<item>
-        <title>展示HN：让您的标志在HDR屏幕上更加明亮</title>
-        <link>https://www.soverybright.com/</link>
-        <description>LinkedIn上有些logo开始显得比周围其他内容更亮/更白，引起了我的注意。我深入调查后发现，这是通过在现有JPEG中添加增益图（gain-map）实现的，而...</description>
-        <author>telecuda</author>
-        <category>hn</category>
-        <pubDate>Sat, 22 Aug 2026 18:43:03 GMT</pubDate>
-        <guid isPermaLink="false">hn-49402521</guid>
+        <pubDate>Sun, 23 Aug 2026 23:29:22 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-shadowaqueduct-watermark-remover</guid>
       </item>
   </channel>
 </rss>
