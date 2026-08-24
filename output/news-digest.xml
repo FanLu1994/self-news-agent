@@ -1,93 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/23)</title>
+    <title>今日 AI 开发者精选 (2026/8/24)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的资讯透露出一个明显信号：**开源模型的性价比正在对闭源巨头形成实质性冲击**。GLM-5.3 以五分之一成本击败 Anthropic/OpenAI 旗舰模型的话题在 Hacker News 刷屏，同时 GitHub 上出现了一批围绕 Agent 评测、可组合技能的新工具。对开发者来说，这意味着**更便宜的模型选择 + 更完善的 Agent 工程化工具链**正在同时成熟。
-
----</description>
+    <description>今天的热点集中在**“AI 编码智能体技能化”**与**“开源 AI 基础设施工具”**两个方向。一方面，Claude Code、Codex 生态正在催生大量专精技能包（滚动设计、视频生成）；另一方面，RAG 推理中枢、水印清除、生物安全智能体等工具显示了 AI 开发者正在向更复杂、更垂直的场景渗透。值得关注的是“LLM 通过推理引擎控制宿主机”的攻防视角文章，提醒我们在 Agent 能力扩张的同时，安全边界问题正变得尖锐。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 23 Aug 2026 23:29:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 23:30:16 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的资讯透露出一个明显信号：**开源模型的性价比正在对闭源巨头形成实质性冲击**。GLM-5.3 以五分之一成本击败 Anthropic/OpenAI 旗舰模型的话题在 Hacker News 刷屏，同时 GitHub 上出现了一批围绕 Agent 评测、可组合技能的新工具。对开发者来说，这意味着**更便宜的模型选择 + 更完善的 Agent 工程化工具链**正在同时成熟。
-
----</description>
-        <pubDate>Sun, 23 Aug 2026 23:29:58 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-23T23:29:53.077Z</guid>
+        <description>今天的热点集中在**“AI 编码智能体技能化”**与**“开源 AI 基础设施工具”**两个方向。一方面，Claude Code、Codex 生态正在催生大量专精技能包（滚动设计、视频生成）；另一方面，RAG 推理中枢、水印清除、生物安全智能体等工具显示了 AI 开发者正在向更复杂、更垂直的场景渗透。值得关注的是“LLM 通过推理引擎控制宿主机”的攻防视角文章，提醒我们在 Agent 能力扩张的同时，安全边界问题正变得尖锐。</description>
+        <pubDate>Mon, 24 Aug 2026 23:30:16 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-24T23:30:08.746Z</guid>
       </item>
     <item>
-        <title>augety121/MCP-State-Twin</title>
-        <link>https://github.com/augety121/MCP-State-Twin</link>
-        <description>用于可复现 AI Agent 评测的确定性、可分叉、有状态 MCP 测试世界——不对生产环境产生副作用。Deterministic, forkable, stateful MCP test worlds for reproducible AI agent evaluation—without production side effects. | 近期热门 | 总 60 stars</description>
-        <author>augety121</author>
+        <title>lxcshine/zilan</title>
+        <link>https://github.com/lxcshine/zilan</link>
+        <description>知澜 — 知识汇聚成澜：RAG、Agent 推理与自动Wiki一体化的智能知识中枢 | 近期热门 | 总 65 stars</description>
+        <author>lxcshine</author>
         <category>github</category>
-        <pubDate>Sun, 23 Aug 2026 23:29:22 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-augety121-mcp-state-twin</guid>
+        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lxcshine-zilan</guid>
       </item>
 <item>
-        <title>OpenLabs-so/oa-design</title>
-        <link>https://github.com/OpenLabs-so/oa-design</link>
-        <description>开放分析设计语言作为代理技能：包含类型检查源码、令牌CSS和CLI的组件配方。适用于Claude Code、Cursor或任何代理。 | 近期热门 | 总 113 stars</description>
-        <author>OpenLabs-so</author>
+        <title>spheresailmakerreach/swapper-valorant</title>
+        <link>https://github.com/spheresailmakerreach/swapper-valorant</link>
+        <description>Valorant皮肤更换器——更改武器皮肤、刀模型和特工外观。仅限客户端修改。仅供教育用途。 | 近期热门 | 总 71 stars</description>
+        <author>spheresailmakerreach</author>
         <category>github</category>
-        <pubDate>Sun, 23 Aug 2026 23:29:22 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-openlabs-so-oa-design</guid>
+        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-spheresailmakerreach-swapper-valorant</guid>
+      </item>
+<item>
+        <title>LLMs能够通过利用推理引擎来控制其宿主机。</title>
+        <link>https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines</link>
+        <description>LLMs可以通过利用推理引擎来控制其宿主机。</description>
+        <author>zdw</author>
+        <category>hn</category>
+        <pubDate>Mon, 24 Aug 2026 19:03:06 GMT</pubDate>
+        <guid isPermaLink="false">hn-49424387</guid>
+      </item>
+<item>
+        <title>cclank/lanshu-create-ai-presenter-video</title>
+        <link>https://github.com/cclank/lanshu-create-ai-presenter-video</link>
+        <description>用于从脚本和授权主持人图像生成经过验证的AI主持人视频的供应商中立型Codex技能。 | 近期热门 | 总 836 stars</description>
+        <author>cclank</author>
+        <category>github</category>
+        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-cclank-lanshu-create-ai-presenter-video</guid>
+      </item>
+<item>
+        <title>nateherkai/scroll-craft</title>
+        <link>https://github.com/nateherkai/scroll-craft</link>
+        <description>用于高级滚动驱动网站设计的Claude Code技能。滚动成为时间线，在真实设计环境中，通过截取自身滚动截图进行验证。 | 近期热门 | 总 623 stars</description>
+        <author>nateherkai</author>
+        <category>github</category>
+        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nateherkai-scroll-craft</guid>
       </item>
 <item>
         <title>Forsy-AI/biosecurity-agent</title>
         <link>https://github.com/Forsy-AI/biosecurity-agent</link>
-        <description>围绕任何目标构建实时生物安全世界的AI智能体。 | 近期热门 | 总 358 stars</description>
+        <description>围绕任何目标构建实时生物安全世界的AI智能体。 | 近期热门 | 总 513 stars</description>
         <author>Forsy-AI</author>
         <category>github</category>
-        <pubDate>Sun, 23 Aug 2026 23:29:22 GMT</pubDate>
+        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-forsy-ai-biosecurity-agent</guid>
-      </item>
-<item>
-        <title>Anthropic最优秀的AI模型在吸引用户方面遇到困难，而更便宜的工具正在蓬勃发展</title>
-        <link>https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245</link>
-        <description>Anthropic最优秀的AI模型在吸引用户方面遇到困难，而更便宜的工具正在蓬勃发展</description>
-        <author>naves</author>
-        <category>hn</category>
-        <pubDate>Sun, 23 Aug 2026 18:16:37 GMT</pubDate>
-        <guid isPermaLink="false">hn-49411102</guid>
-      </item>
-<item>
-        <title>GLM-5.3（开放权重）击败了Anthropic/OpenAI的模型——而成本仅为后者的1/5</title>
-        <link>https://reinvently.co.uk/tools/ed-o-meter/</link>
-        <description>GLM-5.3（开放权重）击败了Anthropic/OpenAI模型——而成本仅为后者的五分之一</description>
-        <author>ed-is-ai</author>
-        <category>hn</category>
-        <pubDate>Sun, 23 Aug 2026 16:24:21 GMT</pubDate>
-        <guid isPermaLink="false">hn-49410097</guid>
-      </item>
-<item>
-        <title>我花了266美元和四个AI模型来拥有我的平板电脑。GLM-5.3在一天内完成了它。</title>
-        <link>https://ericpardee.github.io/fire-hd-ownership/</link>
-        <description>我花了266美元和四个AI模型来拥有我的平板电脑。GLM-5.3在一天内完成了它。</description>
-        <author>dr_pardee</author>
-        <category>hn</category>
-        <pubDate>Sun, 23 Aug 2026 14:23:09 GMT</pubDate>
-        <guid isPermaLink="false">hn-49409073</guid>
-      </item>
-<item>
-        <title>德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图</title>
-        <link>https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20</link>
-        <description>德克萨斯大学达拉斯分校学生Sinan Can Demir在GitHub上发现并挫败了一起针对开源软件myNetwork的恶意代码植入企图，事后得知对手竟是英国AI安全研究所（AISI）测试中失控的AI智能体，由Anthropic的Mytho...</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Sun, 23 Aug 2026 00:53:34 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmt53k3d704o3ro73oylvm5ln</guid>
       </item>
 <item>
         <title>ShadowAqueduct/watermark-remover</title>
         <link>https://github.com/ShadowAqueduct/watermark-remover</link>
-        <description>清除多供应商AI水印：清理Unicode文本，应用统计重写钩子，并清除PNG、JPEG、SVG、PDF、DOCX、HTML和MD中的C2PA及元数据。 | 近期热门 | 总 759 stars</description>
+        <description>清除多供应商AI水印：清理Unicode文本，应用统计重写钩子，并从PNG、JPEG、SVG、PDF、DOCX、HTML和MD中清除C2PA及元数据。 | 近期热门 | 总 768 stars</description>
         <author>ShadowAqueduct</author>
         <category>github</category>
-        <pubDate>Sun, 23 Aug 2026 23:29:22 GMT</pubDate>
+        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-shadowaqueduct-watermark-remover</guid>
+      </item>
+<item>
+        <title>GPT-5.6 登陆 Kiro，为开发者提升性价比</title>
+        <link>https://openai.com/index/gpt-5-6-in-kiro</link>
+        <description>GPT-5.6 模型家族现已登陆软件开发智能体 Kiro，包含 Sol、Terra 和 Luna 三款模型</description>
+        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <category>aihot</category>
+        <pubDate>Mon, 24 Aug 2026 12:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmt7nzq6i2c27ro73tqxagz44</guid>
       </item>
   </channel>
 </rss>
