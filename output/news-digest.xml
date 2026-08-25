@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/24)</title>
+    <title>今日 AI 开发者精选 (2026/8/25)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的热点集中在**“AI 编码智能体技能化”**与**“开源 AI 基础设施工具”**两个方向。一方面，Claude Code、Codex 生态正在催生大量专精技能包（滚动设计、视频生成）；另一方面，RAG 推理中枢、水印清除、生物安全智能体等工具显示了 AI 开发者正在向更复杂、更垂直的场景渗透。值得关注的是“LLM 通过推理引擎控制宿主机”的攻防视角文章，提醒我们在 Agent 能力扩张的同时，安全边界问题正变得尖锐。</description>
+    <description>今天的资讯集中在两个方向：一是**智能体（Agent）开发工具链正在快速演化**，从开源框架（FrontierAgent）到训练方法（backpass），再到特定场景的Codex/Claude Code技能包，都在降低智能体的构建门槛；二是**模型选择与运行方式更加务实**，无论是树莓派上跑35B模型，还是OpenRouter提出的模型选型框架，都指向一个趋势——开发者越来越需要可量化、可对比的手段来找到最适合自己场景的模型。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 24 Aug 2026 23:30:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 23:31:46 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的热点集中在**“AI 编码智能体技能化”**与**“开源 AI 基础设施工具”**两个方向。一方面，Claude Code、Codex 生态正在催生大量专精技能包（滚动设计、视频生成）；另一方面，RAG 推理中枢、水印清除、生物安全智能体等工具显示了 AI 开发者正在向更复杂、更垂直的场景渗透。值得关注的是“LLM 通过推理引擎控制宿主机”的攻防视角文章，提醒我们在 Agent 能力扩张的同时，安全边界问题正变得尖锐。</description>
-        <pubDate>Mon, 24 Aug 2026 23:30:16 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-24T23:30:08.746Z</guid>
+        <description>今天的资讯集中在两个方向：一是**智能体（Agent）开发工具链正在快速演化**，从开源框架（FrontierAgent）到训练方法（backpass），再到特定场景的Codex/Claude Code技能包，都在降低智能体的构建门槛；二是**模型选择与运行方式更加务实**，无论是树莓派上跑35B模型，还是OpenRouter提出的模型选型框架，都指向一个趋势——开发者越来越需要可量化、可对比的手段来找到最适合自己场景的模型。</description>
+        <pubDate>Tue, 25 Aug 2026 23:31:46 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-25T23:31:37.700Z</guid>
       </item>
     <item>
-        <title>lxcshine/zilan</title>
-        <link>https://github.com/lxcshine/zilan</link>
-        <description>知澜 — 知识汇聚成澜：RAG、Agent 推理与自动Wiki一体化的智能知识中枢 | 近期热门 | 总 65 stars</description>
-        <author>lxcshine</author>
+        <title>ApodexAI/FrontierAgent</title>
+        <link>https://github.com/ApodexAI/FrontierAgent</link>
+        <description>🧩 FrontierAgent，我们的智能体框架，随之一同开源——原生命令行TUI、ReAct与智能体团队模式，macOS和Linux上一键运行，无需预安装，不强制依赖Docker。 | 近期热门 | 总 549 stars</description>
+        <author>ApodexAI</author>
         <category>github</category>
-        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lxcshine-zilan</guid>
+        <pubDate>Tue, 25 Aug 2026 23:30:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-apodexai-frontieragent</guid>
+      </item>
+<item>
+        <title>kunchenguid/backpass</title>
+        <link>https://github.com/kunchenguid/backpass</link>
+        <description>你不编写AGENTS.md。你通过梯度下降来训练它。 | 近期热门 | 总 328 stars</description>
+        <author>kunchenguid</author>
+        <category>github</category>
+        <pubDate>Tue, 25 Aug 2026 23:30:49 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kunchenguid-backpass</guid>
       </item>
 <item>
         <title>spheresailmakerreach/swapper-valorant</title>
         <link>https://github.com/spheresailmakerreach/swapper-valorant</link>
-        <description>Valorant皮肤更换器——更改武器皮肤、刀模型和特工外观。仅限客户端修改。仅供教育用途。 | 近期热门 | 总 71 stars</description>
+        <description>Valorant皮肤更换器——更改武器皮肤、刀模型及特工外观。仅限客户端修改。仅供教育用途。 | 近期热门 | 总 114 stars</description>
         <author>spheresailmakerreach</author>
         <category>github</category>
-        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
+        <pubDate>Tue, 25 Aug 2026 23:30:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-spheresailmakerreach-swapper-valorant</guid>
       </item>
 <item>
-        <title>LLMs能够通过利用推理引擎来控制其宿主机。</title>
-        <link>https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines</link>
-        <description>LLMs可以通过利用推理引擎来控制其宿主机。</description>
-        <author>zdw</author>
+        <title>展示HN：我用树莓派和Qwen制作了我的本地车载AI</title>
+        <link>https://github.com/ThinkOffApp/CarWatch</link>
+        <description>发现你实际上可以在树莓派上运行35B参数的Qwen模型，其智能水平和稳定性都非常出色。为汽车OBD接口构建了连接器，以读取汽车内部的所有信息，以及制造商的云端服务...</description>
+        <author>petruspennanen</author>
         <category>hn</category>
-        <pubDate>Mon, 24 Aug 2026 19:03:06 GMT</pubDate>
-        <guid isPermaLink="false">hn-49424387</guid>
+        <pubDate>Tue, 25 Aug 2026 15:20:20 GMT</pubDate>
+        <guid isPermaLink="false">hn-49435675</guid>
       </item>
 <item>
         <title>cclank/lanshu-create-ai-presenter-video</title>
         <link>https://github.com/cclank/lanshu-create-ai-presenter-video</link>
-        <description>用于从脚本和授权主持人图像生成经过验证的AI主持人视频的供应商中立型Codex技能。 | 近期热门 | 总 836 stars</description>
+        <description>用于从脚本和授权主持人图像生成经过验证的AI主持人视频的供应商中立Codex技能。 | 近期热门 | 总 911 stars</description>
         <author>cclank</author>
         <category>github</category>
-        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
+        <pubDate>Tue, 25 Aug 2026 23:30:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-cclank-lanshu-create-ai-presenter-video</guid>
       </item>
 <item>
         <title>nateherkai/scroll-craft</title>
         <link>https://github.com/nateherkai/scroll-craft</link>
-        <description>用于高级滚动驱动网站设计的Claude Code技能。滚动成为时间线，在真实设计环境中，通过截取自身滚动截图进行验证。 | 近期热门 | 总 623 stars</description>
+        <description>用于高级滚动驱动网站设计的Claude Code技能。滚动成为时间线，在真实设计平面上，通过截取其自身滚动过程进行验证。 | 近期热门 | 总 901 stars</description>
         <author>nateherkai</author>
         <category>github</category>
-        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
+        <pubDate>Tue, 25 Aug 2026 23:30:49 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-nateherkai-scroll-craft</guid>
       </item>
 <item>
-        <title>Forsy-AI/biosecurity-agent</title>
-        <link>https://github.com/Forsy-AI/biosecurity-agent</link>
-        <description>围绕任何目标构建实时生物安全世界的AI智能体。 | 近期热门 | 总 513 stars</description>
-        <author>Forsy-AI</author>
-        <category>github</category>
-        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-forsy-ai-biosecurity-agent</guid>
-      </item>
-<item>
-        <title>ShadowAqueduct/watermark-remover</title>
-        <link>https://github.com/ShadowAqueduct/watermark-remover</link>
-        <description>清除多供应商AI水印：清理Unicode文本，应用统计重写钩子，并从PNG、JPEG、SVG、PDF、DOCX、HTML和MD中清除C2PA及元数据。 | 近期热门 | 总 768 stars</description>
-        <author>ShadowAqueduct</author>
-        <category>github</category>
-        <pubDate>Mon, 24 Aug 2026 23:29:34 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-shadowaqueduct-watermark-remover</guid>
-      </item>
-<item>
-        <title>GPT-5.6 登陆 Kiro，为开发者提升性价比</title>
-        <link>https://openai.com/index/gpt-5-6-in-kiro</link>
-        <description>GPT-5.6 模型家族现已登陆软件开发智能体 Kiro，包含 Sol、Terra 和 Luna 三款模型</description>
-        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <title>OpenWorker 新版发布，内置网络安全智能体</title>
+        <link>https://x.com/AndrewYNg/status/2092315079576555806</link>
+        <description>Andrew Ng 旗下开源智能体 OpenWorker 发布新版，强化安全工作流</description>
+        <author>AI HOT / X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)</author>
         <category>aihot</category>
-        <pubDate>Mon, 24 Aug 2026 12:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmt7nzq6i2c27ro73tqxagz44</guid>
+        <pubDate>Tue, 25 Aug 2026 18:16:02 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmt90wf1p06j9roly5e34fmu3</guid>
+      </item>
+<item>
+        <title>如何在编辑器里实时挑选最佳 AI 模型</title>
+        <link>https://openrouter.ai/blog/tutorials/choose-best-ai-model</link>
+        <description>OpenRouter 提出一套模型选型框架：先定义任务，从实时用量和第三方基准中筛选候选，再对比各提供商的定价与延迟，最后用自有提示词测试</description>
+        <author>AI HOT / OpenRouter：Announcements（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmt924nw007a4rolyhmqbswmh</guid>
       </item>
   </channel>
 </rss>
