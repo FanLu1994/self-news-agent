@@ -1,89 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/25)</title>
+    <title>今日 AI 开发者精选 (2026/8/27)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的资讯集中在两个方向：一是**智能体（Agent）开发工具链正在快速演化**，从开源框架（FrontierAgent）到训练方法（backpass），再到特定场景的Codex/Claude Code技能包，都在降低智能体的构建门槛；二是**模型选择与运行方式更加务实**，无论是树莓派上跑35B模型，还是OpenRouter提出的模型选型框架，都指向一个趋势——开发者越来越需要可量化、可对比的手段来找到最适合自己场景的模型。</description>
+    <description>今天的核心信号是**开源模型进入“平价高配”时代**：智谱和阿里通义双双发布高性价比开源模型，GLM-5.3-Flash 以 Opus 4.8 的 1/40 定价对标其性能，Qwen3.8-Flash 则作为 Qwen4 架构的早期预览开放权重。与此同时，GitHub 上出现了一批围绕 **Agent 工作流和代码交付优化**的实用工具，值得开发者上手一试。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Aug 2026 23:31:46 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 00:31:01 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的资讯集中在两个方向：一是**智能体（Agent）开发工具链正在快速演化**，从开源框架（FrontierAgent）到训练方法（backpass），再到特定场景的Codex/Claude Code技能包，都在降低智能体的构建门槛；二是**模型选择与运行方式更加务实**，无论是树莓派上跑35B模型，还是OpenRouter提出的模型选型框架，都指向一个趋势——开发者越来越需要可量化、可对比的手段来找到最适合自己场景的模型。</description>
-        <pubDate>Tue, 25 Aug 2026 23:31:46 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-25T23:31:37.700Z</guid>
+        <description>今天的核心信号是**开源模型进入“平价高配”时代**：智谱和阿里通义双双发布高性价比开源模型，GLM-5.3-Flash 以 Opus 4.8 的 1/40 定价对标其性能，Qwen3.8-Flash 则作为 Qwen4 架构的早期预览开放权重。与此同时，GitHub 上出现了一批围绕 **Agent 工作流和代码交付优化**的实用工具，值得开发者上手一试。
+
+---</description>
+        <pubDate>Thu, 27 Aug 2026 00:31:01 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-27T00:30:52.123Z</guid>
       </item>
     <item>
         <title>ApodexAI/FrontierAgent</title>
         <link>https://github.com/ApodexAI/FrontierAgent</link>
-        <description>🧩 FrontierAgent，我们的智能体框架，随之一同开源——原生命令行TUI、ReAct与智能体团队模式，macOS和Linux上一键运行，无需预安装，不强制依赖Docker。 | 近期热门 | 总 549 stars</description>
+        <description>🧩 FrontierAgent，我们的智能体框架，随之一同开源——原生命令行TUI、ReAct与智能体团队模式，macOS和Linux上一键运行，无需预安装，不强制依赖Docker。 | 近期热门 | 总 916 stars</description>
         <author>ApodexAI</author>
         <category>github</category>
-        <pubDate>Tue, 25 Aug 2026 23:30:49 GMT</pubDate>
+        <pubDate>Thu, 27 Aug 2026 00:30:17 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-apodexai-frontieragent</guid>
       </item>
 <item>
         <title>kunchenguid/backpass</title>
         <link>https://github.com/kunchenguid/backpass</link>
-        <description>你不编写AGENTS.md。你通过梯度下降来训练它。 | 近期热门 | 总 328 stars</description>
+        <description>你不编写AGENTS.md。你通过梯度下降来训练它。 | 近期热门 | 总 418 stars</description>
         <author>kunchenguid</author>
         <category>github</category>
-        <pubDate>Tue, 25 Aug 2026 23:30:49 GMT</pubDate>
+        <pubDate>Thu, 27 Aug 2026 00:30:17 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kunchenguid-backpass</guid>
       </item>
 <item>
-        <title>spheresailmakerreach/swapper-valorant</title>
-        <link>https://github.com/spheresailmakerreach/swapper-valorant</link>
-        <description>Valorant皮肤更换器——更改武器皮肤、刀模型及特工外观。仅限客户端修改。仅供教育用途。 | 近期热门 | 总 114 stars</description>
-        <author>spheresailmakerreach</author>
-        <category>github</category>
-        <pubDate>Tue, 25 Aug 2026 23:30:49 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-spheresailmakerreach-swapper-valorant</guid>
-      </item>
-<item>
-        <title>展示HN：我用树莓派和Qwen制作了我的本地车载AI</title>
-        <link>https://github.com/ThinkOffApp/CarWatch</link>
-        <description>发现你实际上可以在树莓派上运行35B参数的Qwen模型，其智能水平和稳定性都非常出色。为汽车OBD接口构建了连接器，以读取汽车内部的所有信息，以及制造商的云端服务...</description>
-        <author>petruspennanen</author>
+        <title>Z.ai确认Ox Alpha是GLM系列的新模型，并将发布其权重。</title>
+        <link>https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek</link>
+        <description>Z.ai确认Ox Alpha是GLM系列的新模型，并将发布其权重。</description>
+        <author>garo-pro</author>
         <category>hn</category>
-        <pubDate>Tue, 25 Aug 2026 15:20:20 GMT</pubDate>
-        <guid isPermaLink="false">hn-49435675</guid>
+        <pubDate>Wed, 26 Aug 2026 10:04:55 GMT</pubDate>
+        <guid isPermaLink="false">hn-49446422</guid>
       </item>
 <item>
-        <title>cclank/lanshu-create-ai-presenter-video</title>
-        <link>https://github.com/cclank/lanshu-create-ai-presenter-video</link>
-        <description>用于从脚本和授权主持人图像生成经过验证的AI主持人视频的供应商中立Codex技能。 | 近期热门 | 总 911 stars</description>
-        <author>cclank</author>
+        <title>LB623/no-negative-echo</title>
+        <link>https://github.com/LB623/no-negative-echo</link>
+        <description>让 Codex 根据最终结果生成标题、注释、commit 和 PR，减少被否决方案在交付中的残留。 | 近期热门 | 总 490 stars</description>
+        <author>LB623</author>
         <category>github</category>
-        <pubDate>Tue, 25 Aug 2026 23:30:49 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-cclank-lanshu-create-ai-presenter-video</guid>
+        <pubDate>Thu, 27 Aug 2026 00:30:17 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lb623-no-negative-echo</guid>
       </item>
 <item>
-        <title>nateherkai/scroll-craft</title>
-        <link>https://github.com/nateherkai/scroll-craft</link>
-        <description>用于高级滚动驱动网站设计的Claude Code技能。滚动成为时间线，在真实设计平面上，通过截取其自身滚动过程进行验证。 | 近期热门 | 总 901 stars</description>
-        <author>nateherkai</author>
-        <category>github</category>
-        <pubDate>Tue, 25 Aug 2026 23:30:49 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nateherkai-scroll-craft</guid>
-      </item>
-<item>
-        <title>OpenWorker 新版发布，内置网络安全智能体</title>
-        <link>https://x.com/AndrewYNg/status/2092315079576555806</link>
-        <description>Andrew Ng 旗下开源智能体 OpenWorker 发布新版，强化安全工作流</description>
-        <author>AI HOT / X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)</author>
+        <title>Qwen3.8-Flash 开源，Qwen4 架构预览</title>
+        <link>https://x.com/Alibaba_Qwen/status/2092636376990990503</link>
+        <description>通义千问发布 Qwen3.8-Flash，一款多模态 MoE 模型，作为 Qwen4 架构的早期预览并开放权重</description>
+        <author>AI HOT / X：通义千问 / Qwen (@Alibaba_Qwen)</author>
         <category>aihot</category>
-        <pubDate>Tue, 25 Aug 2026 18:16:02 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmt90wf1p06j9roly5e34fmu3</guid>
+        <pubDate>Wed, 26 Aug 2026 15:32:46 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmta9ciqt07c1roj219h5liie</guid>
       </item>
 <item>
-        <title>如何在编辑器里实时挑选最佳 AI 模型</title>
-        <link>https://openrouter.ai/blog/tutorials/choose-best-ai-model</link>
-        <description>OpenRouter 提出一套模型选型框架：先定义任务，从实时用量和第三方基准中筛选候选，再对比各提供商的定价与延迟，最后用自有提示词测试</description>
-        <author>AI HOT / OpenRouter：Announcements（RSS）</author>
+        <title>GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&amp;mid=2247494157&amp;idx=1&amp;sn=6837b15a07d2518842eb6c6b53a3eb3c</link>
+        <description>智谱上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分，与 Claude Opus 4.8 持平</description>
+        <author>AI HOT / 公众号：智谱（GLM）</author>
         <category>aihot</category>
-        <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmt924nw007a4rolyhmqbswmh</guid>
+        <pubDate>Wed, 26 Aug 2026 14:11:33 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmta7bh1k04u6roj2e4pt7bob</guid>
+      </item>
+<item>
+        <title>Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览</title>
+        <link>https://qwen.ai/blog?id=qwen3.8-flash-next</link>
+        <description>通义千问开源 Qwen3.8-Flash-Next，一款多模态 MoE 模型，也是 Qwen4 架构的早期预览</description>
+        <author>AI HOT / Qwen：Blog Retrieval（API）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 26 Aug 2026 12:30:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmta2veap03nmrolwxllvp4ay</guid>
+      </item>
+<item>
+        <title>Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型</title>
+        <link>https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe</link>
+        <description>Google DeepMind 推出 Gemini 3.5 Transcribe 语音转文本模型，支持流式与非流式两种 API</description>
+        <author>AI HOT / Google DeepMind：Blog（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 26 Aug 2026 17:01:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtacq8vz0aedroj24bcix9go</guid>
       </item>
   </channel>
 </rss>
