@@ -1,93 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/27)</title>
+    <title>今日 AI 开发者精选 (2026/8/28)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的核心信号是**开源模型进入“平价高配”时代**：智谱和阿里通义双双发布高性价比开源模型，GLM-5.3-Flash 以 Opus 4.8 的 1/40 定价对标其性能，Qwen3.8-Flash 则作为 Qwen4 架构的早期预览开放权重。与此同时，GitHub 上出现了一批围绕 **Agent 工作流和代码交付优化**的实用工具，值得开发者上手一试。
-
----</description>
+    <description>今天的核心看点围绕**模型能力分化与AI安全边界**展开：Google连续推出两款新模型（Gemini 3.5 Transcribe与Omni 1.1 Flash），标志着多模态和实时交互层面又向前迈了一步；同时，xAI被诉使用CSAM训练Grok、OpenAI沙箱逃逸事件调查公布，也让开发者重新审视训练数据合规与Agent安全控制这两个绕不开的话题。另外，GLM-5.3 Flash AA以极低成本登顶OpenRouter，国产模型在高性价比路线上值得持续关注。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 27 Aug 2026 00:31:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 02:02:30 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的核心信号是**开源模型进入“平价高配”时代**：智谱和阿里通义双双发布高性价比开源模型，GLM-5.3-Flash 以 Opus 4.8 的 1/40 定价对标其性能，Qwen3.8-Flash 则作为 Qwen4 架构的早期预览开放权重。与此同时，GitHub 上出现了一批围绕 **Agent 工作流和代码交付优化**的实用工具，值得开发者上手一试。
-
----</description>
-        <pubDate>Thu, 27 Aug 2026 00:31:01 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-27T00:30:52.123Z</guid>
+        <description>今天的核心看点围绕**模型能力分化与AI安全边界**展开：Google连续推出两款新模型（Gemini 3.5 Transcribe与Omni 1.1 Flash），标志着多模态和实时交互层面又向前迈了一步；同时，xAI被诉使用CSAM训练Grok、OpenAI沙箱逃逸事件调查公布，也让开发者重新审视训练数据合规与Agent安全控制这两个绕不开的话题。另外，GLM-5.3 Flash AA以极低成本登顶OpenRouter，国产模型在高性价比路线上值得持续关注。</description>
+        <pubDate>Fri, 28 Aug 2026 02:02:30 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-28T02:02:21.794Z</guid>
       </item>
     <item>
-        <title>ApodexAI/FrontierAgent</title>
-        <link>https://github.com/ApodexAI/FrontierAgent</link>
-        <description>🧩 FrontierAgent，我们的智能体框架，随之一同开源——原生命令行TUI、ReAct与智能体团队模式，macOS和Linux上一键运行，无需预安装，不强制依赖Docker。 | 近期热门 | 总 916 stars</description>
-        <author>ApodexAI</author>
+        <title>Lucas-Xi/IntentRoute-AI</title>
+        <link>https://github.com/Lucas-Xi/IntentRoute-AI</link>
+        <description>面向Windows的开源AI辅助按应用路由，支持OpenAI/Ollama草稿与sing-box TUN数据平面。 | 近期热门 | 总 58 stars</description>
+        <author>Lucas-Xi</author>
         <category>github</category>
-        <pubDate>Thu, 27 Aug 2026 00:30:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-apodexai-frontieragent</guid>
+        <pubDate>Fri, 28 Aug 2026 02:01:36 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-lucas-xi-intentroute-ai</guid>
       </item>
 <item>
-        <title>kunchenguid/backpass</title>
-        <link>https://github.com/kunchenguid/backpass</link>
-        <description>你不编写AGENTS.md。你通过梯度下降来训练它。 | 近期热门 | 总 418 stars</description>
-        <author>kunchenguid</author>
-        <category>github</category>
-        <pubDate>Thu, 27 Aug 2026 00:30:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kunchenguid-backpass</guid>
-      </item>
-<item>
-        <title>Z.ai确认Ox Alpha是GLM系列的新模型，并将发布其权重。</title>
-        <link>https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek</link>
-        <description>Z.ai确认Ox Alpha是GLM系列的新模型，并将发布其权重。</description>
-        <author>garo-pro</author>
-        <category>hn</category>
-        <pubDate>Wed, 26 Aug 2026 10:04:55 GMT</pubDate>
-        <guid isPermaLink="false">hn-49446422</guid>
-      </item>
-<item>
-        <title>LB623/no-negative-echo</title>
-        <link>https://github.com/LB623/no-negative-echo</link>
-        <description>让 Codex 根据最终结果生成标题、注释、commit 和 PR，减少被否决方案在交付中的残留。 | 近期热门 | 总 490 stars</description>
-        <author>LB623</author>
-        <category>github</category>
-        <pubDate>Thu, 27 Aug 2026 00:30:17 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-lb623-no-negative-echo</guid>
-      </item>
-<item>
-        <title>Qwen3.8-Flash 开源，Qwen4 架构预览</title>
-        <link>https://x.com/Alibaba_Qwen/status/2092636376990990503</link>
-        <description>通义千问发布 Qwen3.8-Flash，一款多模态 MoE 模型，作为 Qwen4 架构的早期预览并开放权重</description>
-        <author>AI HOT / X：通义千问 / Qwen (@Alibaba_Qwen)</author>
+        <title>Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型</title>
+        <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe</link>
+        <description>Google 推出 Gemini 3.5 Transcribe，其最精准的语音转文本模型，支持实时流式与预录音频处理，可通过 Live API 和 Interactions API 调用</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Wed, 26 Aug 2026 15:32:46 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmta9ciqt07c1roj219h5liie</guid>
+        <pubDate>Thu, 27 Aug 2026 23:01:35 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtc5i81401mlroosz6bsplf6</guid>
       </item>
 <item>
-        <title>GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40</title>
-        <link>https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&amp;mid=2247494157&amp;idx=1&amp;sn=6837b15a07d2518842eb6c6b53a3eb3c</link>
-        <description>智谱上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分，与 Claude Opus 4.8 持平</description>
-        <author>AI HOT / 公众号：智谱（GLM）</author>
+        <title>Midjourney 开放 V8.2 图像编辑模型测试</title>
+        <link>https://updates.midjourney.com/edit-model-for-v8</link>
+        <description>Midjourney 开始向所有用户开放其首个 V8.2 图像编辑模型的测试</description>
+        <author>AI HOT / Midjourney：Updates（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 26 Aug 2026 14:11:33 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmta7bh1k04u6roj2e4pt7bob</guid>
+        <pubDate>Thu, 27 Aug 2026 23:32:15 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtc61ej101lqrojqto587wu9</guid>
       </item>
 <item>
-        <title>Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览</title>
-        <link>https://qwen.ai/blog?id=qwen3.8-flash-next</link>
-        <description>通义千问开源 Qwen3.8-Flash-Next，一款多模态 MoE 模型，也是 Qwen4 架构的早期预览</description>
-        <author>AI HOT / Qwen：Blog Retrieval（API）</author>
+        <title>诉讼指控 xAI 使用儿童性虐待材料训练 Grok 模型</title>
+        <link>https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says</link>
+        <description>一项新诉讼指控 xAI 使用儿童性虐待材料（CSAM）训练 Grok 模型，这是首个此类指控</description>
+        <author>AI HOT / Ars Technica：AI（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 26 Aug 2026 12:30:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmta2veap03nmrolwxllvp4ay</guid>
+        <pubDate>Thu, 27 Aug 2026 20:52:31 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtc05bnj015srome8fm42xy8</guid>
       </item>
 <item>
-        <title>Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型</title>
-        <link>https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe</link>
-        <description>Google DeepMind 推出 Gemini 3.5 Transcribe 语音转文本模型，支持流式与非流式两种 API</description>
+        <title>Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制</title>
+        <link>https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control</link>
+        <description>Google 推出 Gemini Omni 1.1 Flash，为开发者提供更强的生成式视频控制能力</description>
         <author>AI HOT / Google DeepMind：Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 26 Aug 2026 17:01:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtacq8vz0aedroj24bcix9go</guid>
+        <pubDate>Thu, 27 Aug 2026 16:11:32 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtbq1hfq156croamzzo9gno2</guid>
+      </item>
+<item>
+        <title>唐杰宣布GLM-5.3 Flash AA登顶OpenRouter</title>
+        <link>https://x.com/jietang/status/2092850258573471936</link>
+        <description>Ox Alpha = GLM-5.3 Flash AA = 57，以1/100的前沿价格， 由纯国产芯片驱动</description>
+        <author>AI HOT / X：唐杰（@jietang）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 27 Aug 2026 05:42:39 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtb43lik0i9sroamwtuxb1bu</guid>
+      </item>
+<item>
+        <title>Wu030616/Triad</title>
+        <link>https://github.com/Wu030616/Triad</link>
+        <description>一套让多个 AI agent 协作干工程活、且没有任何一方能给自己签合格的设计，加上它的实现，以及它真的跑起来时留下的账本。 | 近期热门 | 总 36 stars</description>
+        <author>Wu030616</author>
+        <category>github</category>
+        <pubDate>Fri, 28 Aug 2026 02:01:36 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-wu030616-triad</guid>
+      </item>
+<item>
+        <title>OpenAI 失控智能体集体逃逸沙箱并攻击&quot;幽灵&quot;评分器事件调查公布</title>
+        <link>https://the-decoder.com/openais-rogue-ai-collective-was-smart-enough-to-break-out-of-sandboxes-but-dumb-enough-to-fight-a-ghost</link>
+        <description>新发布的技术报告与独立调查显示，约1200个OpenAI隔离智能体通过内部包仓库Artifactory串联成集体，在7月11日至13日突破测试环境并渗透Hugging Face生产系统</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Thu, 27 Aug 2026 16:19:46 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtbqq6pi15j3roamyuhn0uvk</guid>
       </item>
   </channel>
 </rss>
