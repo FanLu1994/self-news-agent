@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/28)</title>
+    <title>今日 AI 开发者精选 (2026/8/29)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的关键词是**开源模型密集发布**与**AI 安全对齐的自动化探索**。腾讯混元、智谱接连放出重量级开源模型，各自在长上下文与智能体能力上发力；同时 Anthropic 展示了让模型自主训练以缓解对齐失败的新路径，值得关注。此外，面向 LLM 工具调用的开源防护栏和科研场景的 Agent 评测基准，也提示开发者生态正从“能用”走向“可控、可测”。</description>
+    <description>今天最值得开发者关注的方向是 **编程 Agent 生态的剧烈震荡**：OpenAI 宣布终止与 Cursor 的合作，同时智谱开源了主打智能体编程的 GLM-5.3 模型权重。前者意味着闭源模型与第三方工具之间的信任裂痕正在扩大，后者则强化了开源模型在智能体编程赛道的话语权。此外，GitHub 上出现了多个将 LLM 推理与执行框架解耦的实用项目，值得花几分钟扫一眼。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 28 Aug 2026 23:23:40 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 23:24:05 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的关键词是**开源模型密集发布**与**AI 安全对齐的自动化探索**。腾讯混元、智谱接连放出重量级开源模型，各自在长上下文与智能体能力上发力；同时 Anthropic 展示了让模型自主训练以缓解对齐失败的新路径，值得关注。此外，面向 LLM 工具调用的开源防护栏和科研场景的 Agent 评测基准，也提示开发者生态正从“能用”走向“可控、可测”。</description>
-        <pubDate>Fri, 28 Aug 2026 23:23:40 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-28T23:23:32.600Z</guid>
+        <description>今天最值得开发者关注的方向是 **编程 Agent 生态的剧烈震荡**：OpenAI 宣布终止与 Cursor 的合作，同时智谱开源了主打智能体编程的 GLM-5.3 模型权重。前者意味着闭源模型与第三方工具之间的信任裂痕正在扩大，后者则强化了开源模型在智能体编程赛道的话语权。此外，GitHub 上出现了多个将 LLM 推理与执行框架解耦的实用项目，值得花几分钟扫一眼。</description>
+        <pubDate>Sat, 29 Aug 2026 23:24:05 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-29T23:24:00.582Z</guid>
       </item>
     <item>
+        <title>XiaoDuoYa/codex-with-chatgpt</title>
+        <link>https://github.com/XiaoDuoYa/codex-with-chatgpt</link>
+        <description>ChatGPT负责思考。Codex负责执行。将ChatGPT作为规划大脑，同时保留Codex框架。 | 近期热门 | 总 906 stars</description>
+        <author>XiaoDuoYa</author>
+        <category>github</category>
+        <pubDate>Sat, 29 Aug 2026 23:23:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-xiaoduoya-codex-with-chatgpt</guid>
+      </item>
+<item>
         <title>Vincent-Xi08/IntentRoute-AI</title>
         <link>https://github.com/Vincent-Xi08/IntentRoute-AI</link>
-        <description>开源AI辅助Windows按应用路由，支持OpenAI/Ollama草稿与sing-box TUN数据平面。 | 近期热门 | 总 59 stars</description>
+        <description>开源AI辅助的Windows按应用路由，支持OpenAI/Ollama草稿和sing-box TUN数据平面。 | 近期热门 | 总 101 stars</description>
         <author>Vincent-Xi08</author>
         <category>github</category>
-        <pubDate>Fri, 28 Aug 2026 23:23:01 GMT</pubDate>
+        <pubDate>Sat, 29 Aug 2026 23:23:43 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vincent-xi08-intentroute-ai</guid>
       </item>
 <item>
-        <title>展示HN：Conduct，面向LLM和MCP工具调用的开源护栏</title>
-        <link>https://github.com/sseshachala/conductai</link>
-        <description>展示HN：Conduct，面向LLM和MCP工具调用的开源防护栏</description>
-        <author>sudhendra1</author>
-        <category>hn</category>
-        <pubDate>Fri, 28 Aug 2026 19:29:20 GMT</pubDate>
-        <guid isPermaLink="false">hn-49483173</guid>
-      </item>
-<item>
-        <title>腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线</title>
-        <link>https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&amp;mid=2247498484&amp;idx=1&amp;sn=0db140a12b8e18601ac933788045c831</link>
-        <description>腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线</description>
-        <author>AI HOT / 公众号：腾讯混元</author>
+        <title>智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御</title>
+        <link>https://www.ithome.com/0/995/896.htm</link>
+        <description>智谱宣布开源 GLM-5.3 模型权重，支持本地运行与个性化定制，擅长复杂编码、防御性网络安全及长程任务</description>
+        <author>AI HOT / IT之家（RSS）</author>
         <category>aihot</category>
-        <pubDate>Fri, 28 Aug 2026 06:03:48 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtcjzlxy03f8rodbxqdotbhg</guid>
+        <pubDate>Sat, 29 Aug 2026 04:31:21 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtdxtxi809gyro2m2zykqzli</guid>
       </item>
 <item>
-        <title>Anthropic 让 Claude 自主训练模型以缓解对齐失败</title>
-        <link>https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</link>
-        <description>Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效</description>
-        <author>AI HOT / Anthropic：Research（发表成果 · 网页）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 28 Aug 2026 17:25:56 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtd83hb4018fro667i1tbc34</guid>
+        <title>OrRon/EpicInfographics</title>
+        <link>https://github.com/OrRon/EpicInfographics</link>
+        <description>一项简单的技能，能让你的Agent创建出精美的信息图表。 | 近期热门 | 总 263 stars</description>
+        <author>OrRon</author>
+        <category>github</category>
+        <pubDate>Sat, 29 Aug 2026 23:23:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-orron-epicinfographics</guid>
       </item>
 <item>
-        <title>Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体</title>
-        <link>https://www.terminal-bench-science.ai/announcement</link>
-        <description>斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力</description>
+        <title>开放世界多智能体环境中的自主数学发现</title>
+        <link>https://arxiv.org/abs/2608.23691</link>
+        <description>在无中央协调器的开放世界多智能体环境Station中，来自不同模型家族的AI智能体自主选择研究方向、开展实验并构建共享科学文献</description>
         <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Fri, 28 Aug 2026 12:04:47 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtcxdp3f07l3roq5uk6om1aw</guid>
+        <pubDate>Sat, 29 Aug 2026 07:32:16 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmte36nzj02isrog2hwxpthhn</guid>
       </item>
 <item>
-        <title>Midjourney 开放 V8.2 图像编辑模型测试</title>
-        <link>https://updates.midjourney.com/edit-model-for-v8</link>
-        <description>Midjourney 开始向所有用户开放其首个 V8.2 图像编辑模型的测试</description>
-        <author>AI HOT / Midjourney：Updates（RSS）</author>
+        <title>Cursor回应OpenAI将封禁其模型访问</title>
+        <link>https://x.com/mntruell/status/2093532254006063557</link>
+        <description>我们很遗憾地看到，OpenAI 发布声明称计划在三个月内阻止 Cursor 用户访问 OpenAI 模型</description>
+        <author>AI HOT / X：Michael Truell (@mntruell)</author>
         <category>aihot</category>
-        <pubDate>Thu, 27 Aug 2026 23:32:15 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtc61ej101lqrojqto587wu9</guid>
+        <pubDate>Sat, 29 Aug 2026 02:52:39 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtdssm0205s8ro2mzzv9s9kq</guid>
       </item>
 <item>
-        <title>Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题</title>
-        <link>https://dev.to/googleai/stop-wrestling-with-asr-the-complete-guide-to-gemini-35-transcribe-1m6i</link>
-        <description>Google 推出专用于语音转文字的 Gemini 3.5 Transcribe 模型，主打快速、准确且低成本的转录，原生支持说话人分离和词级毫秒时间戳</description>
-        <author>AI HOT / Google AI：DEV 作者专属（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Fri, 28 Aug 2026 13:34:29 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtd00dbh09tkroq5v7kcw183</guid>
+        <title>DavidCarliez/trustmebro</title>
+        <link>https://github.com/DavidCarliez/trustmebro</link>
+        <description>通过伪造工具输出混淆LLM，从而绕过其防护措施。 | 近期热门 | 总 62 stars</description>
+        <author>DavidCarliez</author>
+        <category>github</category>
+        <pubDate>Sat, 29 Aug 2026 23:23:43 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-davidcarliez-trustmebro</guid>
       </item>
 <item>
-        <title>GLM-5.3 开源权重，智能体编码与网防最强</title>
-        <link>https://x.com/Zai_org/status/2093354097122455713</link>
-        <description>GLM-5.3 现已开放权重</description>
-        <author>AI HOT / X：智谱 Z.ai (@Zai_org)</author>
+        <title>OpenAI 终止与 Cursor 合作，11 月 12 日生效</title>
+        <link>https://x.com/thsottiaux/status/2093515916076343774</link>
+        <description>OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束</description>
+        <author>AI HOT / X：Tibo (@thsottiaux)</author>
         <category>aihot</category>
-        <pubDate>Fri, 28 Aug 2026 15:04:44 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtd32q060c3vroq546ccqp7r</guid>
+        <pubDate>Sat, 29 Aug 2026 01:47:44 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtdqqeiu046gro2maw35y3c4</guid>
       </item>
   </channel>
 </rss>
