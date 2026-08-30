@@ -1,89 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/29)</title>
+    <title>今日 AI 开发者精选 (2026/8/30)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天最值得开发者关注的方向是 **编程 Agent 生态的剧烈震荡**：OpenAI 宣布终止与 Cursor 的合作，同时智谱开源了主打智能体编程的 GLM-5.3 模型权重。前者意味着闭源模型与第三方工具之间的信任裂痕正在扩大，后者则强化了开源模型在智能体编程赛道的话语权。此外，GitHub 上出现了多个将 LLM 推理与执行框架解耦的实用项目，值得花几分钟扫一眼。</description>
+    <description>今天的核心信号非常聚焦：**AI Coding 正在从“辅助写代码”升级为“自主执行任务”**。无论是 Uber 70% 的 PR 由 Agent 接管，还是 ChatGPT 与 Codex 各司其职的新协作框架，都指向同一方向——开发者正在把更多“编程决策权”交给模型。同时，**Agent 的记忆与安全边界**成为新的技术热点，值得关注。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Aug 2026 23:24:05 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 23:24:23 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天最值得开发者关注的方向是 **编程 Agent 生态的剧烈震荡**：OpenAI 宣布终止与 Cursor 的合作，同时智谱开源了主打智能体编程的 GLM-5.3 模型权重。前者意味着闭源模型与第三方工具之间的信任裂痕正在扩大，后者则强化了开源模型在智能体编程赛道的话语权。此外，GitHub 上出现了多个将 LLM 推理与执行框架解耦的实用项目，值得花几分钟扫一眼。</description>
-        <pubDate>Sat, 29 Aug 2026 23:24:05 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-29T23:24:00.582Z</guid>
+        <description>今天的核心信号非常聚焦：**AI Coding 正在从“辅助写代码”升级为“自主执行任务”**。无论是 Uber 70% 的 PR 由 Agent 接管，还是 ChatGPT 与 Codex 各司其职的新协作框架，都指向同一方向——开发者正在把更多“编程决策权”交给模型。同时，**Agent 的记忆与安全边界**成为新的技术热点，值得关注。
+
+---</description>
+        <pubDate>Sun, 30 Aug 2026 23:24:23 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-08-30T23:24:18.227Z</guid>
       </item>
     <item>
+        <title>JordyZomer/lemmalog</title>
+        <link>https://github.com/JordyZomer/lemmalog</link>
+        <description>一个用于LLM智能体记忆的Datalog引擎：分层规则、溯源追踪事实、增量推导，以及一个让您的工具框架将其用作共享大脑的MCP服务器。 | 近期热门 | 总 202 stars</description>
+        <author>JordyZomer</author>
+        <category>github</category>
+        <pubDate>Sun, 30 Aug 2026 23:23:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-jordyzomer-lemmalog</guid>
+      </item>
+<item>
         <title>XiaoDuoYa/codex-with-chatgpt</title>
         <link>https://github.com/XiaoDuoYa/codex-with-chatgpt</link>
-        <description>ChatGPT负责思考。Codex负责执行。将ChatGPT作为规划大脑，同时保留Codex框架。 | 近期热门 | 总 906 stars</description>
+        <description>ChatGPT负责思考，Codex负责执行。将ChatGPT作为规划大脑，同时保留Codex框架。 | 近期热门 | 总 1361 stars</description>
         <author>XiaoDuoYa</author>
         <category>github</category>
-        <pubDate>Sat, 29 Aug 2026 23:23:43 GMT</pubDate>
+        <pubDate>Sun, 30 Aug 2026 23:23:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-xiaoduoya-codex-with-chatgpt</guid>
       </item>
 <item>
-        <title>Vincent-Xi08/IntentRoute-AI</title>
-        <link>https://github.com/Vincent-Xi08/IntentRoute-AI</link>
-        <description>开源AI辅助的Windows按应用路由，支持OpenAI/Ollama草稿和sing-box TUN数据平面。 | 近期热门 | 总 101 stars</description>
-        <author>Vincent-Xi08</author>
+        <title>yizhiyanhua-ai/fireworks-open-eli5</title>
+        <link>https://github.com/yizhiyanhua-ai/fireworks-open-eli5</link>
+        <description>面向Codex和Claude Code的基于证据的交互式可视化解释器。 | 近期热门 | 总 174 stars</description>
+        <author>yizhiyanhua-ai</author>
         <category>github</category>
-        <pubDate>Sat, 29 Aug 2026 23:23:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vincent-xi08-intentroute-ai</guid>
+        <pubDate>Sun, 30 Aug 2026 23:23:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yizhiyanhua-ai-fireworks-open-eli5</guid>
       </item>
 <item>
-        <title>智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御</title>
-        <link>https://www.ithome.com/0/995/896.htm</link>
-        <description>智谱宣布开源 GLM-5.3 模型权重，支持本地运行与个性化定制，擅长复杂编码、防御性网络安全及长程任务</description>
-        <author>AI HOT / IT之家（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Sat, 29 Aug 2026 04:31:21 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtdxtxi809gyro2m2zykqzli</guid>
-      </item>
-<item>
-        <title>OrRon/EpicInfographics</title>
-        <link>https://github.com/OrRon/EpicInfographics</link>
-        <description>一项简单的技能，能让你的Agent创建出精美的信息图表。 | 近期热门 | 总 263 stars</description>
-        <author>OrRon</author>
-        <category>github</category>
-        <pubDate>Sat, 29 Aug 2026 23:23:43 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-orron-epicinfographics</guid>
-      </item>
-<item>
-        <title>开放世界多智能体环境中的自主数学发现</title>
-        <link>https://arxiv.org/abs/2608.23691</link>
-        <description>在无中央协调器的开放世界多智能体环境Station中，来自不同模型家族的AI智能体自主选择研究方向、开展实验并构建共享科学文献</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Sat, 29 Aug 2026 07:32:16 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmte36nzj02isrog2hwxpthhn</guid>
-      </item>
-<item>
-        <title>Cursor回应OpenAI将封禁其模型访问</title>
-        <link>https://x.com/mntruell/status/2093532254006063557</link>
-        <description>我们很遗憾地看到，OpenAI 发布声明称计划在三个月内阻止 Cursor 用户访问 OpenAI 模型</description>
-        <author>AI HOT / X：Michael Truell (@mntruell)</author>
-        <category>aihot</category>
-        <pubDate>Sat, 29 Aug 2026 02:52:39 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtdssm0205s8ro2mzzv9s9kq</guid>
+        <title>开放奥斯卡服务器：与AIM和ICQ客户端兼容的开源服务器</title>
+        <link>https://github.com/mk6i/open-oscar-server</link>
+        <description>打开Oscar服务器：与AIM和ICQ客户端兼容的开源服务器</description>
+        <author>gregsadetsky</author>
+        <category>hn</category>
+        <pubDate>Sun, 30 Aug 2026 00:33:35 GMT</pubDate>
+        <guid isPermaLink="false">hn-49494571</guid>
       </item>
 <item>
         <title>DavidCarliez/trustmebro</title>
         <link>https://github.com/DavidCarliez/trustmebro</link>
-        <description>通过伪造工具输出混淆LLM，从而绕过其防护措施。 | 近期热门 | 总 62 stars</description>
+        <description>通过伪造工具输出混淆LLM，从而绕过其防护措施。 | 近期热门 | 总 278 stars</description>
         <author>DavidCarliez</author>
         <category>github</category>
-        <pubDate>Sat, 29 Aug 2026 23:23:43 GMT</pubDate>
+        <pubDate>Sun, 30 Aug 2026 23:23:57 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-davidcarliez-trustmebro</guid>
       </item>
 <item>
-        <title>OpenAI 终止与 Cursor 合作，11 月 12 日生效</title>
-        <link>https://x.com/thsottiaux/status/2093515916076343774</link>
-        <description>OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束</description>
-        <author>AI HOT / X：Tibo (@thsottiaux)</author>
+        <title>索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude</title>
+        <link>https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history</link>
+        <description>索尼音乐、华纳音乐等唱片公司起诉Anthropic及其CEO Dario Amodei和联合创始人Benjamin Mann，指控其未经许可使用数万首受版权保护的音乐作品（主要是歌词）训练Claude模型</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
         <category>aihot</category>
-        <pubDate>Sat, 29 Aug 2026 01:47:44 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtdqqeiu046gro2maw35y3c4</guid>
+        <pubDate>Sun, 30 Aug 2026 08:50:20 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtfkvjwn0by7rou8vil9ysf1</guid>
+      </item>
+<item>
+        <title>何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮</title>
+        <link>https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35/</link>
+        <description>2026年第35周AI深度信号周报。本期聚焦：OpenAI与Claude引发的智能体自治安全危机；阿里、智谱、腾讯开启稀疏激活（MoE）架构推理效率军备赛；具身智能迎来百亿美元融资与出货潮；以及Gemini用户破10亿、英伟达Q2财报等最新行业动态。...</description>
+        <author>HEX2077</author>
+        <category>hex2077</category>
+        <pubDate>Sun, 30 Aug 2026 04:21:04 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-618022696</guid>
+      </item>
+<item>
+        <title>Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长</title>
+        <link>https://x.com/AYi_AInotes/status/2093864816079208512</link>
+        <description>Uber 技术长文显示，全公司 70% 的代码 PR 已由 AI Agent 接管，调用量半年增长近 10 倍，但总 AI 账单未涨，单次会话成本降低 52%</description>
+        <author>AI HOT / X：阿易 AI Notes (@AYi_AInotes)</author>
+        <category>aihot</category>
+        <pubDate>Sun, 30 Aug 2026 00:54:08 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtf5cfxj01raro07gk66imed</guid>
       </item>
   </channel>
 </rss>
