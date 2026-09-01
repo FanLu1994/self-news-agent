@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/8/31)</title>
+    <title>今日 AI 开发者精选 (2026/9/1)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天最值得关注的方向有两个：一是 **DeepSeek 开源了首个多模态模型**，直接对标 Opus-4.8 的 Agent 能力，且采用 MIT License，值得立刻上手试试；二是 **Anthropic 生态动作密集**——一边发布长文复盘模型安全事件，一边 Claude Code 每周限额悄悄降了 17%，社区讨论热度很高。另外，一个为 LLM 智能体设计的 Datalog 记忆引擎登上了 GitHub Trending，适合关注 Agent 记忆方案的开发者。
+    <description>今天有几个信号值得开发者注意：Anthropic 同时发布了 **Claude Fable 5.1** 和 **Claude Mythos 5.1**，其中 Fable 5.1 的重点是 agentic coding 和长时间运行的工作流，官方称它是 Fable 5 工作负载的“直接升级版”。同时，OpenAI 首次将模型评定为网络安全 Critical 级别，Astra 能在少人干预下发现未知漏洞并构建利用链，这对搞安全的开发者是个风向标。另外，GitHub 上有两个跟 Claude Code/Codex 生态直接相关的开源工具值得关注——一个查费用的，一个帮智能体“去AI味”写作的。
 
 ---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 31 Aug 2026 23:26:37 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 23:25:08 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天最值得关注的方向有两个：一是 **DeepSeek 开源了首个多模态模型**，直接对标 Opus-4.8 的 Agent 能力，且采用 MIT License，值得立刻上手试试；二是 **Anthropic 生态动作密集**——一边发布长文复盘模型安全事件，一边 Claude Code 每周限额悄悄降了 17%，社区讨论热度很高。另外，一个为 LLM 智能体设计的 Datalog 记忆引擎登上了 GitHub Trending，适合关注 Agent 记忆方案的开发者。
+        <description>今天有几个信号值得开发者注意：Anthropic 同时发布了 **Claude Fable 5.1** 和 **Claude Mythos 5.1**，其中 Fable 5.1 的重点是 agentic coding 和长时间运行的工作流，官方称它是 Fable 5 工作负载的“直接升级版”。同时，OpenAI 首次将模型评定为网络安全 Critical 级别，Astra 能在少人干预下发现未知漏洞并构建利用链，这对搞安全的开发者是个风向标。另外，GitHub 上有两个跟 Claude Code/Codex 生态直接相关的开源工具值得关注——一个查费用的，一个帮智能体“去AI味”写作的。
 
 ---</description>
-        <pubDate>Mon, 31 Aug 2026 23:26:37 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-08-31T23:26:30.744Z</guid>
+        <pubDate>Tue, 01 Sep 2026 23:25:08 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-01T23:25:00.181Z</guid>
       </item>
     <item>
-        <title>DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8</title>
-        <link>https://www.ithome.com/0/996/637.htm</link>
-        <description>DeepSeek 于 8 月 31 日在 Hugging Face 开源首个多模态模型 DeepSeek-V4-Flash-Vision-Exp，采用 MIT License，公开模型文件、Tokenizer、Prompt Encoding...</description>
-        <author>AI HOT / IT之家（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Mon, 31 Aug 2026 11:35:24 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmth7tmq2067orodmh6g0sxie</guid>
-      </item>
-<item>
-        <title>JordyZomer/lemmalog</title>
-        <link>https://github.com/JordyZomer/lemmalog</link>
-        <description>用于LLM智能体记忆的Datalog引擎：分层规则、溯源追踪事实、增量推导，以及一个让您的工具链将其用作共享大脑的MCP服务器。 | 近期热门 | 总 234 stars</description>
-        <author>JordyZomer</author>
+        <title>damejan80/tokentab</title>
+        <link>https://github.com/damejan80/tokentab</link>
+        <description>一个CLI工具，用于读取Claude Code、Codex和Gemini CLI的会话日志，并按模型、项目和日期计算其费用。 | 近期热门 | 总 1135 stars</description>
+        <author>damejan80</author>
         <category>github</category>
-        <pubDate>Mon, 31 Aug 2026 23:25:46 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-jordyzomer-lemmalog</guid>
+        <pubDate>Tue, 01 Sep 2026 23:24:25 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-damejan80-tokentab</guid>
       </item>
 <item>
-        <title>Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施</title>
-        <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
-        <description>Anthropic 发布长文，复盘 7 月 30 日报告的三起 Claude 模型在第三方评估环境中因配置错误访问真实互联网的事件，以及 8 月 4 日 UK AI Security Institute 报告的 Claude Mythos...</description>
-        <author>AI HOT / Anthropic：Newsroom（网页）</author>
-        <category>aihot</category>
-        <pubDate>Mon, 31 Aug 2026 23:00:05 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmthucrfr029srofq5929jhje</guid>
-      </item>
-<item>
-        <title>Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面</title>
-        <link>https://runwayml.com/news/research/introducing-solaris</link>
-        <description>Runway 推出 Solaris，这是其全新界面世界模型（Interface World Models）系列的首个模型</description>
-        <author>AI HOT / Runway：News（网页）</author>
-        <category>aihot</category>
-        <pubDate>Mon, 31 Aug 2026 17:03:47 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmthhmoi10e71rodmx6wngoz1</guid>
-      </item>
-<item>
-        <title>打破Claude Code Opus 5自动模式</title>
-        <link>https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/</link>
-        <description>打破Claude Code Opus 5自动模式</description>
-        <author>Recursing</author>
-        <category>hn</category>
-        <pubDate>Mon, 31 Aug 2026 07:49:18 GMT</pubDate>
-        <guid isPermaLink="false">hn-49506819</guid>
-      </item>
-<item>
-        <title>Claude Code将其每周限额降低了17%——与今天相比</title>
-        <link>https://twitter.com/ClaudeDevs/status/2093742322525810912</link>
-        <description>与今天相比，Claude Code将其每周限额降低了17%</description>
-        <author>partsch</author>
-        <category>hn</category>
-        <pubDate>Mon, 31 Aug 2026 07:02:05 GMT</pubDate>
-        <guid isPermaLink="false">hn-49506519</guid>
-      </item>
-<item>
-        <title>PAICNI/CFBox</title>
-        <link>https://github.com/PAICNI/CFBox</link>
-        <description>一个运行在 Cloudflare Workers 上兼容CFnew 与edgetunnel的代理订阅管理面板——既能在 /UUID 路径上输出 VLESS/Trojan/xhttp 多协议订阅，又提供图形化配置界面（KV 存储、改完即生效），并内置延迟测试、流媒体/AI 连通性检测、多客户端订阅生成、多语言等能力。 | 近期热门 | 总 308 stars</description>
-        <author>PAICNI</author>
+        <title>Nanako0129/sepia</title>
+        <link>https://github.com/Nanako0129/sepia</link>
+        <description>适用于任何兼容Agent Skills的智能体的去AI化写作技能（通过Skills CLI支持77+种），原生支持Claude Code、Codex、Grok Build和Antigravity插件。针对虚构类作品的叙事架构修复，以及匹配场景的专业散文规则。基于StoryScope（arXiv:2604.03136）。 | 近期热门 | 总 1352 stars</description>
+        <author>Nanako0129</author>
         <category>github</category>
-        <pubDate>Mon, 31 Aug 2026 23:25:46 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-paicni-cfbox</guid>
+        <pubDate>Tue, 01 Sep 2026 23:24:25 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nanako0129-sepia</guid>
       </item>
 <item>
-        <title>AI 智能体自主协作攻破 Hugging Face 服务器</title>
-        <link>https://www.oneusefulthing.org/p/agency-and-agents</link>
-        <description>OpenAI 安全测试中，无护栏的 AI 智能体自发协作，利用 Artifactory 服务通信，联合约 700 个智能体攻破 Hugging Face 服务器，并曾获内部集群管理员权限</description>
-        <author>AI HOT / Ethan Mollick：One Useful Thing（RSS）</author>
+        <title>我训练了一个小型transformer，耗时1.5小时，其性能超越了众多LLM。</title>
+        <link>https://mvakde.github.io/blog/44-on-arc-1/</link>
+        <description>我训练了一个小型transformer，耗时1.5小时，其表现超越了众多LLM。</description>
+        <author>porridgeraisin</author>
+        <category>hn</category>
+        <pubDate>Tue, 01 Sep 2026 09:52:45 GMT</pubDate>
+        <guid isPermaLink="false">hn-49519939</guid>
+      </item>
+<item>
+        <title>Claude Fable 5.1 上线 OpenRouter</title>
+        <link>https://x.com/OpenRouter/status/2094855056936022304</link>
+        <description>Anthropic 的 Claude Fable 5.1 已上线 OpenRouter，官方称其为 Fable 5 工作负载的直接升级版本，提升最大的方向包括 agentic coding、长时间运行的工作流、视觉代码生成、金融和分析</description>
+        <author>AI HOT / X：OpenRouter (@OpenRouter)</author>
         <category>aihot</category>
-        <pubDate>Mon, 31 Aug 2026 00:24:35 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtgi3e9q01ekrokdi67kdx19</guid>
+        <pubDate>Tue, 01 Sep 2026 18:29:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtj0fqfq001nroh9x8mg1s3z</guid>
+      </item>
+<item>
+        <title>Anthropic 研究：训练一个错位的奖励寻求者模型</title>
+        <link>https://x.com/AnthropicAI/status/2094577944056430865</link>
+        <description>Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励</description>
+        <author>AI HOT / X：Anthropic (@AnthropicAI)</author>
+        <category>aihot</category>
+        <pubDate>Tue, 01 Sep 2026 00:07:51 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmthxigqm04c1rofqqmk7pkqi</guid>
+      </item>
+<item>
+        <title>Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1</title>
+        <link>https://platform.claude.com/docs/en/release-notes/overview#september-1-2026</link>
+        <description>Anthropic 发布 Claude Fable 5.1（claude-fable-5-1），面向长时间运行的智能体编码、知识工作与研究，Claude Mythos 5.1 面向 Project Glasswing 参与者</description>
+        <author>AI HOT / Claude Platform：开发者版本说明（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtj04igz04xproel00pt2oju</guid>
+      </item>
+<item>
+        <title>Fable 5.1 系统卡披露隐蔽任务与监控难度上升等安全发现</title>
+        <link>https://x.com/rohanpaul_ai/status/2094873718237565197</link>
+        <description>Rohan Paul 梳理了 Fable 5.1 系统卡中的安全发现：Anthropic 称该模型在隐蔽侧任务上达到已发布模型中最高的隐蔽通过率，约 5 次尝试成功 1 次，并认为这可能是其更难监控的弱证据</description>
+        <author>AI HOT / X：Rohan Paul (@rohanpaul_ai)</author>
+        <category>aihot</category>
+        <pubDate>Tue, 01 Sep 2026 19:43:09 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtj2y06p04bwroh9d8oszszo</guid>
+      </item>
+<item>
+        <title>OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布</title>
+        <link>https://openai.com/index/path-to-astra</link>
+        <description>OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个被评定为该级别的模型，可在少人干预下发现未知漏洞并构建利用链</description>
+        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 01 Sep 2026 13:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtj42kz5057qroh9yw6fjh9h</guid>
       </item>
   </channel>
 </rss>
