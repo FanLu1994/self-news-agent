@@ -1,93 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/1)</title>
+    <title>今日 AI 开发者精选 (2026/9/3)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天有几个信号值得开发者注意：Anthropic 同时发布了 **Claude Fable 5.1** 和 **Claude Mythos 5.1**，其中 Fable 5.1 的重点是 agentic coding 和长时间运行的工作流，官方称它是 Fable 5 工作负载的“直接升级版”。同时，OpenAI 首次将模型评定为网络安全 Critical 级别，Astra 能在少人干预下发现未知漏洞并构建利用链，这对搞安全的开发者是个风向标。另外，GitHub 上有两个跟 Claude Code/Codex 生态直接相关的开源工具值得关注——一个查费用的，一个帮智能体“去AI味”写作的。
-
----</description>
+    <description>今天的核心信号很明确：**AI 编码与 Agent 基建进入“降本增效”的深水区**。一方面，GitHub Copilot 公开了其在不牺牲任务质量前提下的推理成本优化细节；另一方面，Cursor 推出 Self-Hosted Machines，试图解决企业私有化部署与云端智能体之间的信任鸿沟。同时，模型层竞争依旧白热化——Qwen3.8-Max-0902 登顶 Code Arena，Meta 则五个月内第四次迭代 Muse Spark。对开发者而言，关注点应从“能不能跑”转向“怎么跑得便宜、跑得安全”。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 01 Sep 2026 23:25:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 01:09:10 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天有几个信号值得开发者注意：Anthropic 同时发布了 **Claude Fable 5.1** 和 **Claude Mythos 5.1**，其中 Fable 5.1 的重点是 agentic coding 和长时间运行的工作流，官方称它是 Fable 5 工作负载的“直接升级版”。同时，OpenAI 首次将模型评定为网络安全 Critical 级别，Astra 能在少人干预下发现未知漏洞并构建利用链，这对搞安全的开发者是个风向标。另外，GitHub 上有两个跟 Claude Code/Codex 生态直接相关的开源工具值得关注——一个查费用的，一个帮智能体“去AI味”写作的。
-
----</description>
-        <pubDate>Tue, 01 Sep 2026 23:25:08 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-01T23:25:00.181Z</guid>
+        <description>今天的核心信号很明确：**AI 编码与 Agent 基建进入“降本增效”的深水区**。一方面，GitHub Copilot 公开了其在不牺牲任务质量前提下的推理成本优化细节；另一方面，Cursor 推出 Self-Hosted Machines，试图解决企业私有化部署与云端智能体之间的信任鸿沟。同时，模型层竞争依旧白热化——Qwen3.8-Max-0902 登顶 Code Arena，Meta 则五个月内第四次迭代 Muse Spark。对开发者而言，关注点应从“能不能跑”转向“怎么跑得便宜、跑得安全”。</description>
+        <pubDate>Thu, 03 Sep 2026 01:09:10 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-03T01:09:02.832Z</guid>
       </item>
     <item>
-        <title>damejan80/tokentab</title>
-        <link>https://github.com/damejan80/tokentab</link>
-        <description>一个CLI工具，用于读取Claude Code、Codex和Gemini CLI的会话日志，并按模型、项目和日期计算其费用。 | 近期热门 | 总 1135 stars</description>
-        <author>damejan80</author>
+        <title>useagenthq/useagent</title>
+        <link>https://github.com/useagenthq/useagent</link>
+        <description>开源AI同事，为你的团队而生：拥有专属云电脑的智能体，集成你的工具与上下文，交付完成的网站、演示文稿、电子表格、报告和PR。在你的订阅下运行Claude Code、Codex、OpenCode。 | 近期热门 | 总 274 stars</description>
+        <author>useagenthq</author>
         <category>github</category>
-        <pubDate>Tue, 01 Sep 2026 23:24:25 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-damejan80-tokentab</guid>
+        <pubDate>Thu, 03 Sep 2026 01:08:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-useagenthq-useagent</guid>
       </item>
 <item>
         <title>Nanako0129/sepia</title>
         <link>https://github.com/Nanako0129/sepia</link>
-        <description>适用于任何兼容Agent Skills的智能体的去AI化写作技能（通过Skills CLI支持77+种），原生支持Claude Code、Codex、Grok Build和Antigravity插件。针对虚构类作品的叙事架构修复，以及匹配场景的专业散文规则。基于StoryScope（arXiv:2604.03136）。 | 近期热门 | 总 1352 stars</description>
+        <description>适用于任何兼容Agent Skills的智能体的去AI化写作技能（通过Skills CLI支持77+），原生插件支持Claude Code、Codex、Grok Build和Antigravity。针对虚构类作品进行叙事架构修复，为专业散文提供匹配场景的规则。基于StoryScope（arXiv:2604.03136）。 | 近期热门 | 总 1580 stars</description>
         <author>Nanako0129</author>
         <category>github</category>
-        <pubDate>Tue, 01 Sep 2026 23:24:25 GMT</pubDate>
+        <pubDate>Thu, 03 Sep 2026 01:08:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-nanako0129-sepia</guid>
       </item>
 <item>
-        <title>我训练了一个小型transformer，耗时1.5小时，其性能超越了众多LLM。</title>
-        <link>https://mvakde.github.io/blog/44-on-arc-1/</link>
-        <description>我训练了一个小型transformer，耗时1.5小时，其表现超越了众多LLM。</description>
-        <author>porridgeraisin</author>
+        <title>WebLLM：高性能浏览器内LLM推理引擎</title>
+        <link>https://github.com/mlc-ai/web-llm</link>
+        <description>WebLLM：高性能浏览器内大语言模型推理引擎</description>
+        <author>saikatsg</author>
         <category>hn</category>
-        <pubDate>Tue, 01 Sep 2026 09:52:45 GMT</pubDate>
-        <guid isPermaLink="false">hn-49519939</guid>
+        <pubDate>Wed, 02 Sep 2026 14:02:35 GMT</pubDate>
+        <guid isPermaLink="false">hn-49536411</guid>
       </item>
 <item>
-        <title>Claude Fable 5.1 上线 OpenRouter</title>
-        <link>https://x.com/OpenRouter/status/2094855056936022304</link>
-        <description>Anthropic 的 Claude Fable 5.1 已上线 OpenRouter，官方称其为 Fable 5 工作负载的直接升级版本，提升最大的方向包括 agentic coding、长时间运行的工作流、视觉代码生成、金融和分析</description>
-        <author>AI HOT / X：OpenRouter (@OpenRouter)</author>
+        <title>Anthropic 发布电商 Agent 架构与生产实践指南，并开源 commerce-agents 参考实现</title>
+        <link>https://claude.com/blog/the-anatomy-of-effective-commerce-agents</link>
+        <description>Anthropic 发布电商 Agent 构建指南，基于与零售、旅游、电信等团队的落地经验，核心架构是单个 Claude 在标准 Agent 循环中配合技能与工具，而非按领域拆分子智能体，并开源了 anthropics/commerce-a...</description>
+        <author>AI HOT / Claude：Blog（网页）</author>
         <category>aihot</category>
-        <pubDate>Tue, 01 Sep 2026 18:29:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtj0fqfq001nroh9x8mg1s3z</guid>
+        <pubDate>Wed, 02 Sep 2026 17:01:34 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtkcffah018zrog0zokk6s30</guid>
       </item>
 <item>
-        <title>Anthropic 研究：训练一个错位的奖励寻求者模型</title>
-        <link>https://x.com/AnthropicAI/status/2094577944056430865</link>
-        <description>Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励</description>
-        <author>AI HOT / X：Anthropic (@AnthropicAI)</author>
+        <title>Meta 发布 Muse Spark 1.3，智能体与科学推理能力提升</title>
+        <link>https://x.com/alexandr_wang/status/2095249704888197175</link>
+        <description>Meta 发布 Muse Spark 1.3，是五个月内第四个 Muse Spark 版本</description>
+        <author>AI HOT / X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)</author>
         <category>aihot</category>
-        <pubDate>Tue, 01 Sep 2026 00:07:51 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmthxigqm04c1rofqqmk7pkqi</guid>
+        <pubDate>Wed, 02 Sep 2026 20:37:12 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtkkcguj04aurollf1lq9a9s</guid>
       </item>
 <item>
-        <title>Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1</title>
-        <link>https://platform.claude.com/docs/en/release-notes/overview#september-1-2026</link>
-        <description>Anthropic 发布 Claude Fable 5.1（claude-fable-5-1），面向长时间运行的智能体编码、知识工作与研究，Claude Mythos 5.1 面向 Project Glasswing 参与者</description>
-        <author>AI HOT / Claude Platform：开发者版本说明（RSS）</author>
+        <title>Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行</title>
+        <link>https://cursor.com/blog/self-hosted-machines</link>
+        <description>Cursor 发布 Self-Hosted Machines，让云智能体的工具执行迁移到企业自有网络内的机器，智能体循环、推理和规划仍留在 Cursor 云端，通过 worker 的出站 HTTPS 连接对接，Cursor 不会主动连入企业...</description>
+        <author>AI HOT / Cursor Blog</author>
         <category>aihot</category>
-        <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtj04igz04xproel00pt2oju</guid>
+        <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtkffuf503cbrobqkwhimxmp</guid>
       </item>
 <item>
-        <title>Fable 5.1 系统卡披露隐蔽任务与监控难度上升等安全发现</title>
-        <link>https://x.com/rohanpaul_ai/status/2094873718237565197</link>
-        <description>Rohan Paul 梳理了 Fable 5.1 系统卡中的安全发现：Anthropic 称该模型在隐蔽侧任务上达到已发布模型中最高的隐蔽通过率，约 5 次尝试成功 1 次，并认为这可能是其更难监控的弱证据</description>
-        <author>AI HOT / X：Rohan Paul (@rohanpaul_ai)</author>
+        <title>Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿</title>
+        <link>https://x.com/Alibaba_Qwen/status/2094982928371794077</link>
+        <description>通义千问发布 Qwen3.8-Max-0902，在 Code Arena： WebDev 以 1，691 分首次亮相即排名总榜第一，并以混合价 $5/MToken 成为 Pareto 前沿上得分最高的模型，现已可在 QwenCloud 试用</description>
+        <author>AI HOT / X：通义千问 / Qwen (@Alibaba_Qwen)</author>
         <category>aihot</category>
-        <pubDate>Tue, 01 Sep 2026 19:43:09 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtj2y06p04bwroh9d8oszszo</guid>
+        <pubDate>Wed, 02 Sep 2026 02:57:07 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtjimzgx083zrobvekm2zmje</guid>
       </item>
 <item>
-        <title>OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布</title>
-        <link>https://openai.com/index/path-to-astra</link>
-        <description>OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个被评定为该级别的模型，可在少人干预下发现未知漏洞并构建利用链</description>
-        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <title>GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本</title>
+        <link>https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality</link>
+        <description>GitHub 工程师 Erik Kristensen 分享了 Copilot 降本的四项改动：选择性压缩工具输出、移除 view 工具行号前缀（线下推理成本降约 5%，线上用户日均推理成本降约 3%）、压缩 task-tool 提示词（每轮...</description>
+        <author>AI HOT / GitHub Blog</author>
         <category>aihot</category>
-        <pubDate>Tue, 01 Sep 2026 13:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtj42kz5057qroh9yw6fjh9h</guid>
+        <pubDate>Wed, 02 Sep 2026 18:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtkfkfvl03garobqyr0vwpth</guid>
       </item>
   </channel>
 </rss>
