@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/3)</title>
+    <title>今日 AI 开发者精选 (2026/9/4)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的核心信号很明确：**AI 编码与 Agent 基建进入“降本增效”的深水区**。一方面，GitHub Copilot 公开了其在不牺牲任务质量前提下的推理成本优化细节；另一方面，Cursor 推出 Self-Hosted Machines，试图解决企业私有化部署与云端智能体之间的信任鸿沟。同时，模型层竞争依旧白热化——Qwen3.8-Max-0902 登顶 Code Arena，Meta 则五个月内第四次迭代 Muse Spark。对开发者而言，关注点应从“能不能跑”转向“怎么跑得便宜、跑得安全”。</description>
+    <description>Agent 与 Coding 的融合依然是绝对主线，但焦点已从“能用”转向“好用且可信”。OpenAI 发布 GPT-6 Astra，官方基准宣称 ARC-AGI-3 得分 99.9%，不过独立评测显示其 Coding Agent 追平现有顶级模型，但价格涨至 2.5 倍——性能与成本的平衡成为开发者最现实的关切。与此同时，开源生态持续发力：IFM 一口气放出 6 个 Apache 2.0 模型，GitHub 上多个 Agent 基建项目（智能体同事、API 网关、防幻觉工具）热度飙升，值得抽出时间逐一过一遍。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 03 Sep 2026 01:09:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 01:06:51 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的核心信号很明确：**AI 编码与 Agent 基建进入“降本增效”的深水区**。一方面，GitHub Copilot 公开了其在不牺牲任务质量前提下的推理成本优化细节；另一方面，Cursor 推出 Self-Hosted Machines，试图解决企业私有化部署与云端智能体之间的信任鸿沟。同时，模型层竞争依旧白热化——Qwen3.8-Max-0902 登顶 Code Arena，Meta 则五个月内第四次迭代 Muse Spark。对开发者而言，关注点应从“能不能跑”转向“怎么跑得便宜、跑得安全”。</description>
-        <pubDate>Thu, 03 Sep 2026 01:09:10 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-03T01:09:02.832Z</guid>
+        <description>Agent 与 Coding 的融合依然是绝对主线，但焦点已从“能用”转向“好用且可信”。OpenAI 发布 GPT-6 Astra，官方基准宣称 ARC-AGI-3 得分 99.9%，不过独立评测显示其 Coding Agent 追平现有顶级模型，但价格涨至 2.5 倍——性能与成本的平衡成为开发者最现实的关切。与此同时，开源生态持续发力：IFM 一口气放出 6 个 Apache 2.0 模型，GitHub 上多个 Agent 基建项目（智能体同事、API 网关、防幻觉工具）热度飙升，值得抽出时间逐一过一遍。</description>
+        <pubDate>Fri, 04 Sep 2026 01:06:51 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-04T01:06:39.311Z</guid>
       </item>
     <item>
         <title>useagenthq/useagent</title>
         <link>https://github.com/useagenthq/useagent</link>
-        <description>开源AI同事，为你的团队而生：拥有专属云电脑的智能体，集成你的工具与上下文，交付完成的网站、演示文稿、电子表格、报告和PR。在你的订阅下运行Claude Code、Codex、OpenCode。 | 近期热门 | 总 274 stars</description>
+        <description>开源AI同事，为你的团队而生：配备专属云电脑的智能体，掌握你的工具与上下文，交付成品网站、演示文稿、电子表格、报告及PR。在你的订阅下运行Claude Code、Codex、OpenCode。 | 近期热门 | 总 282 stars</description>
         <author>useagenthq</author>
         <category>github</category>
-        <pubDate>Thu, 03 Sep 2026 01:08:35 GMT</pubDate>
+        <pubDate>Fri, 04 Sep 2026 01:06:05 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-useagenthq-useagent</guid>
       </item>
 <item>
-        <title>Nanako0129/sepia</title>
-        <link>https://github.com/Nanako0129/sepia</link>
-        <description>适用于任何兼容Agent Skills的智能体的去AI化写作技能（通过Skills CLI支持77+），原生插件支持Claude Code、Codex、Grok Build和Antigravity。针对虚构类作品进行叙事架构修复，为专业散文提供匹配场景的规则。基于StoryScope（arXiv:2604.03136）。 | 近期热门 | 总 1580 stars</description>
-        <author>Nanako0129</author>
+        <title>basketikun/claude2api</title>
+        <link>https://github.com/basketikun/claude2api</link>
+        <description> Claude2API 是基于 Go + Docker 构建的 Claude.ai API 兼容网关、账号池与网页镜像服务，支持 OpenAI Chat Completions、Responses 和 Anthropic Messages 接口，可接   入 Claude Code、Codex CLI 等客户端，并提供账号轮询、流式输出、多轮对话、多模态图片、Thinking、Function Calling、Tool Use、API Key 鉴权、调用日志和后台管理。 | 近期热门 | 总 54 stars</description>
+        <author>basketikun</author>
         <category>github</category>
-        <pubDate>Thu, 03 Sep 2026 01:08:35 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nanako0129-sepia</guid>
+        <pubDate>Fri, 04 Sep 2026 01:06:05 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-basketikun-claude2api</guid>
       </item>
 <item>
-        <title>WebLLM：高性能浏览器内LLM推理引擎</title>
-        <link>https://github.com/mlc-ai/web-llm</link>
-        <description>WebLLM：高性能浏览器内大语言模型推理引擎</description>
-        <author>saikatsg</author>
-        <category>hn</category>
-        <pubDate>Wed, 02 Sep 2026 14:02:35 GMT</pubDate>
-        <guid isPermaLink="false">hn-49536411</guid>
+        <title>2akouwu/reverify</title>
+        <link>https://github.com/2akouwu/reverify</link>
+        <description>针对读取二进制文件的AI代理的反幻觉机制。模型提出假设，确定性工具做出裁决：每项声明都依据真实字节被验证或驳斥，并附有证据，基于事实的结论在上下文重置后依然保留。支持MCP服务器与命令行界面。 | 近期热门 | 总 782 stars</description>
+        <author>2akouwu</author>
+        <category>github</category>
+        <pubDate>Fri, 04 Sep 2026 01:06:05 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-2akouwu-reverify</guid>
       </item>
 <item>
-        <title>Anthropic 发布电商 Agent 架构与生产实践指南，并开源 commerce-agents 参考实现</title>
-        <link>https://claude.com/blog/the-anatomy-of-effective-commerce-agents</link>
-        <description>Anthropic 发布电商 Agent 构建指南，基于与零售、旅游、电信等团队的落地经验，核心架构是单个 Claude 在标准 Agent 循环中配合技能与工具，而非按领域拆分子智能体，并开源了 anthropics/commerce-a...</description>
-        <author>AI HOT / Claude：Blog（网页）</author>
+        <title>OpenAI 发布 GPT-6 Astra，官方基准显示 ARC-AGI-3 得分 99.9%</title>
+        <link>https://x.com/kimmonismus/status/2095585966102614182</link>
+        <description>Official GPT-6 Astra Benchmarks from OpenAIs website &quot;Astra also saturates ARC-AGI-3 with a 99.9% s…</description>
+        <author>AI HOT / X：Kim (@kimmonismus)</author>
         <category>aihot</category>
-        <pubDate>Wed, 02 Sep 2026 17:01:34 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtkcffah018zrog0zokk6s30</guid>
+        <pubDate>Thu, 03 Sep 2026 18:53:23 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtlwgygo0pnorow5q12m2p9j</guid>
       </item>
 <item>
-        <title>Meta 发布 Muse Spark 1.3，智能体与科学推理能力提升</title>
-        <link>https://x.com/alexandr_wang/status/2095249704888197175</link>
-        <description>Meta 发布 Muse Spark 1.3，是五个月内第四个 Muse Spark 版本</description>
-        <author>AI HOT / X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)</author>
+        <title>IFM 发布 K2 Horizon 六款开源模型，覆盖 0.9B 到 375B-A23B 并开放完整训练生命周期</title>
+        <link>https://ifm.ai/blog/k2</link>
+        <description>IFM 发布 K2 Horizon 模型系列，共六个模型：375B-A23B、36B-A4B、32B、7B、3.7B 和 0.9B，均以 Apache 2.0 开源，其中 0.9B、3.7B 和 7B 宣称在其规模上达到 SOTA，36B-...</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
         <category>aihot</category>
-        <pubDate>Wed, 02 Sep 2026 20:37:12 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtkkcguj04aurollf1lq9a9s</guid>
+        <pubDate>Thu, 03 Sep 2026 17:35:09 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtlu0yka0neurow5as9e6jtu</guid>
       </item>
 <item>
-        <title>Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行</title>
-        <link>https://cursor.com/blog/self-hosted-machines</link>
-        <description>Cursor 发布 Self-Hosted Machines，让云智能体的工具执行迁移到企业自有网络内的机器，智能体循环、推理和规划仍留在 Cursor 云端，通过 worker 的出站 HTTPS 连接对接，Cursor 不会主动连入企业...</description>
-        <author>AI HOT / Cursor Blog</author>
-        <category>aihot</category>
-        <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtkffuf503cbrobqkwhimxmp</guid>
+        <title>anthropics/commerce-agents</title>
+        <link>https://github.com/anthropics/commerce-agents</link>
+        <description>使用Claude构建购物和商户代理的参考蓝图。包含零售、商业、电信和娱乐领域的示例。 | 近期热门 | 总 1564 stars</description>
+        <author>anthropics</author>
+        <category>github</category>
+        <pubDate>Fri, 04 Sep 2026 01:06:05 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-anthropics-commerce-agents</guid>
       </item>
 <item>
-        <title>Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿</title>
-        <link>https://x.com/Alibaba_Qwen/status/2094982928371794077</link>
-        <description>通义千问发布 Qwen3.8-Max-0902，在 Code Arena： WebDev 以 1，691 分首次亮相即排名总榜第一，并以混合价 $5/MToken 成为 Pareto 前沿上得分最高的模型，现已可在 QwenCloud 试用</description>
-        <author>AI HOT / X：通义千问 / Qwen (@Alibaba_Qwen)</author>
+        <title>Artificial Analysis 评测 GPT-6 Astra：编码智能体追平 Fable 5 但价格涨至 2.5 倍</title>
+        <link>https://x.com/ArtificialAnlys/status/2095595489031000350</link>
+        <description>Artificial Analysis 发布 GPT-6 Astra 评测，其 Coding Agent Index 得分 67，约等于 Claude Opus 5 和 Fable 5，且成本不到 Fable 5 的一半；token 效率比...</description>
+        <author>AI HOT / X：Artificial Analysis (@ArtificialAnlys)</author>
         <category>aihot</category>
-        <pubDate>Wed, 02 Sep 2026 02:57:07 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtjimzgx083zrobvekm2zmje</guid>
+        <pubDate>Thu, 03 Sep 2026 19:31:13 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtly53c50r9srow5ux7p8arw</guid>
       </item>
 <item>
-        <title>GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本</title>
-        <link>https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality</link>
-        <description>GitHub 工程师 Erik Kristensen 分享了 Copilot 降本的四项改动：选择性压缩工具输出、移除 view 工具行号前缀（线下推理成本降约 5%，线上用户日均推理成本降约 3%）、压缩 task-tool 提示词（每轮...</description>
-        <author>AI HOT / GitHub Blog</author>
+        <title>OpenAI 发布 GPT-6 Astra，主打 Computer Use 与 Agent 对齐进展</title>
+        <link>https://x.com/markchen90/status/2095597534412673109</link>
+        <description>OpenAI 首席研究官 Mark Chen 宣布 GPT-6 Astra 发布，称其为团队多年预训练、强化学习和后训练工作的成果，是迄今能力最强、对齐最好的模型</description>
+        <author>AI HOT / X：Mark Chen（OpenAI 首席研究官，@markchen90）</author>
         <category>aihot</category>
-        <pubDate>Wed, 02 Sep 2026 18:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtkfkfvl03garobqyr0vwpth</guid>
+        <pubDate>Thu, 03 Sep 2026 19:39:21 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtlxtppp0qqprow5v4bb80ng</guid>
       </item>
   </channel>
 </rss>
