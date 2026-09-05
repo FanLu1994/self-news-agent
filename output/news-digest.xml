@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/4)</title>
+    <title>今日 AI 开发者精选 (2026/9/5)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>Agent 与 Coding 的融合依然是绝对主线，但焦点已从“能用”转向“好用且可信”。OpenAI 发布 GPT-6 Astra，官方基准宣称 ARC-AGI-3 得分 99.9%，不过独立评测显示其 Coding Agent 追平现有顶级模型，但价格涨至 2.5 倍——性能与成本的平衡成为开发者最现实的关切。与此同时，开源生态持续发力：IFM 一口气放出 6 个 Apache 2.0 模型，GitHub 上多个 Agent 基建项目（智能体同事、API 网关、防幻觉工具）热度飙升，值得抽出时间逐一过一遍。</description>
+    <description>AI 开发者的战场正在快速从“单模型调用”向“多模型编排”和“Agent 运行时”转移，这几乎是今天所有重磅消息的共同底色。一方面，OpenAI 和 GitHub 等平台玩家正在将前沿模型能力嵌入到编程工具与工作流中；另一方面，开源社区则在集中火力构建让 Agent 真正稳定、可观测、可落地的运行时基础设施。同时，以大模型为“大脑”的 GUI Agent 正在从 DEMO 走向真实业务场景，“AI 帮你下单”这类事情已经成为值得动手的工程方向。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Sep 2026 01:06:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 01:00:15 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>Agent 与 Coding 的融合依然是绝对主线，但焦点已从“能用”转向“好用且可信”。OpenAI 发布 GPT-6 Astra，官方基准宣称 ARC-AGI-3 得分 99.9%，不过独立评测显示其 Coding Agent 追平现有顶级模型，但价格涨至 2.5 倍——性能与成本的平衡成为开发者最现实的关切。与此同时，开源生态持续发力：IFM 一口气放出 6 个 Apache 2.0 模型，GitHub 上多个 Agent 基建项目（智能体同事、API 网关、防幻觉工具）热度飙升，值得抽出时间逐一过一遍。</description>
-        <pubDate>Fri, 04 Sep 2026 01:06:51 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-04T01:06:39.311Z</guid>
+        <description>AI 开发者的战场正在快速从“单模型调用”向“多模型编排”和“Agent 运行时”转移，这几乎是今天所有重磅消息的共同底色。一方面，OpenAI 和 GitHub 等平台玩家正在将前沿模型能力嵌入到编程工具与工作流中；另一方面，开源社区则在集中火力构建让 Agent 真正稳定、可观测、可落地的运行时基础设施。同时，以大模型为“大脑”的 GUI Agent 正在从 DEMO 走向真实业务场景，“AI 帮你下单”这类事情已经成为值得动手的工程方向。</description>
+        <pubDate>Sat, 05 Sep 2026 01:00:15 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-05T01:00:06.551Z</guid>
       </item>
     <item>
-        <title>useagenthq/useagent</title>
-        <link>https://github.com/useagenthq/useagent</link>
-        <description>开源AI同事，为你的团队而生：配备专属云电脑的智能体，掌握你的工具与上下文，交付成品网站、演示文稿、电子表格、报告及PR。在你的订阅下运行Claude Code、Codex、OpenCode。 | 近期热门 | 总 282 stars</description>
-        <author>useagenthq</author>
+        <title>cocoyes/zhizhi-agent-runtime</title>
+        <link>https://github.com/cocoyes/zhizhi-agent-runtime</link>
+        <description>一种模型无关、无状态的Go智能体运行时，具备双IR规划、依赖感知的批量调度、能力驱动的MCP/工具编排、基于策略的故障恢复、条件性重新规划、副作用控制以及端到端执行可观测性。 | 近期热门 | 总 67 stars</description>
+        <author>cocoyes</author>
         <category>github</category>
-        <pubDate>Fri, 04 Sep 2026 01:06:05 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-useagenthq-useagent</guid>
+        <pubDate>Sat, 05 Sep 2026 00:59:39 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-cocoyes-zhizhi-agent-runtime</guid>
       </item>
 <item>
-        <title>basketikun/claude2api</title>
-        <link>https://github.com/basketikun/claude2api</link>
-        <description> Claude2API 是基于 Go + Docker 构建的 Claude.ai API 兼容网关、账号池与网页镜像服务，支持 OpenAI Chat Completions、Responses 和 Anthropic Messages 接口，可接   入 Claude Code、Codex CLI 等客户端，并提供账号轮询、流式输出、多轮对话、多模态图片、Thinking、Function Calling、Tool Use、API Key 鉴权、调用日志和后台管理。 | 近期热门 | 总 54 stars</description>
-        <author>basketikun</author>
+        <title>Albert-Weasker/niubigeo</title>
+        <link>https://github.com/Albert-Weasker/niubigeo</link>
+        <description>开源AI品牌知名度与竞争对手报告 | 近期热门 | 总 405 stars</description>
+        <author>Albert-Weasker</author>
         <category>github</category>
-        <pubDate>Fri, 04 Sep 2026 01:06:05 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-basketikun-claude2api</guid>
+        <pubDate>Sat, 05 Sep 2026 00:59:39 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-albert-weasker-niubigeo</guid>
       </item>
 <item>
-        <title>2akouwu/reverify</title>
-        <link>https://github.com/2akouwu/reverify</link>
-        <description>针对读取二进制文件的AI代理的反幻觉机制。模型提出假设，确定性工具做出裁决：每项声明都依据真实字节被验证或驳斥，并附有证据，基于事实的结论在上下文重置后依然保留。支持MCP服务器与命令行界面。 | 近期热门 | 总 782 stars</description>
-        <author>2akouwu</author>
-        <category>github</category>
-        <pubDate>Fri, 04 Sep 2026 01:06:05 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-2akouwu-reverify</guid>
-      </item>
-<item>
-        <title>OpenAI 发布 GPT-6 Astra，官方基准显示 ARC-AGI-3 得分 99.9%</title>
-        <link>https://x.com/kimmonismus/status/2095585966102614182</link>
-        <description>Official GPT-6 Astra Benchmarks from OpenAIs website &quot;Astra also saturates ARC-AGI-3 with a 99.9% s…</description>
-        <author>AI HOT / X：Kim (@kimmonismus)</author>
+        <title>OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放</title>
+        <link>https://x.com/OpenAI/status/2095968413646737608</link>
+        <description>OpenAI 宣布 GPT-6 Astra 现已向所有 Pro、Enterprise 和 Business Premium 用户开放，可在 ChatGPT Work 和 Codex 中使用，同时已上线 API</description>
+        <author>AI HOT / X：OpenAI (@OpenAI)</author>
         <category>aihot</category>
-        <pubDate>Thu, 03 Sep 2026 18:53:23 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtlwgygo0pnorow5q12m2p9j</guid>
+        <pubDate>Fri, 04 Sep 2026 20:13:05 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtne97cd058urog1zpa39wm7</guid>
       </item>
 <item>
-        <title>IFM 发布 K2 Horizon 六款开源模型，覆盖 0.9B 到 375B-A23B 并开放完整训练生命周期</title>
-        <link>https://ifm.ai/blog/k2</link>
-        <description>IFM 发布 K2 Horizon 模型系列，共六个模型：375B-A23B、36B-A4B、32B、7B、3.7B 和 0.9B，均以 Apache 2.0 开源，其中 0.9B、3.7B 和 7B 宣称在其规模上达到 SOTA，36B-...</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 03 Sep 2026 17:35:09 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtlu0yka0neurow5as9e6jtu</guid>
+        <title>“下一个词元预测器”是对大语言模型的错误心智模型。</title>
+        <link>https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html</link>
+        <description>“下一个词元预测器”是对LLM的错误心智模型</description>
+        <author>garrinm</author>
+        <category>hn</category>
+        <pubDate>Fri, 04 Sep 2026 17:09:24 GMT</pubDate>
+        <guid isPermaLink="false">hn-49567310</guid>
       </item>
 <item>
         <title>anthropics/commerce-agents</title>
         <link>https://github.com/anthropics/commerce-agents</link>
-        <description>使用Claude构建购物和商户代理的参考蓝图。包含零售、商业、电信和娱乐领域的示例。 | 近期热门 | 总 1564 stars</description>
+        <description>使用Claude构建购物和商家代理的参考蓝图。包含零售、商务、电信和娱乐领域的示例。 | 近期热门 | 总 1928 stars</description>
         <author>anthropics</author>
         <category>github</category>
-        <pubDate>Fri, 04 Sep 2026 01:06:05 GMT</pubDate>
+        <pubDate>Sat, 05 Sep 2026 00:59:39 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-anthropics-commerce-agents</guid>
       </item>
 <item>
-        <title>Artificial Analysis 评测 GPT-6 Astra：编码智能体追平 Fable 5 但价格涨至 2.5 倍</title>
-        <link>https://x.com/ArtificialAnlys/status/2095595489031000350</link>
-        <description>Artificial Analysis 发布 GPT-6 Astra 评测，其 Coding Agent Index 得分 67，约等于 Claude Opus 5 和 Fable 5，且成本不到 Fable 5 的一半；token 效率比...</description>
-        <author>AI HOT / X：Artificial Analysis (@ArtificialAnlys)</author>
-        <category>aihot</category>
-        <pubDate>Thu, 03 Sep 2026 19:31:13 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtly53c50r9srow5ux7p8arw</guid>
+        <title>展示HN：开源电子墨水自行车电脑</title>
+        <link>https://opentrailpaper.com</link>
+        <description>大家好，我刚刚启动了我的电子墨水屏自行车码表项目，觉得它很酷。另外一个小趣闻，在AI所做的那些疯狂事情中……它帮助创建了ANT（一种常用的传感器无线协议，用于……）</description>
+        <author>stingrae</author>
+        <category>hn</category>
+        <pubDate>Fri, 04 Sep 2026 17:18:08 GMT</pubDate>
+        <guid isPermaLink="false">hn-49567437</guid>
       </item>
 <item>
-        <title>OpenAI 发布 GPT-6 Astra，主打 Computer Use 与 Agent 对齐进展</title>
-        <link>https://x.com/markchen90/status/2095597534412673109</link>
-        <description>OpenAI 首席研究官 Mark Chen 宣布 GPT-6 Astra 发布，称其为团队多年预训练、强化学习和后训练工作的成果，是迄今能力最强、对齐最好的模型</description>
-        <author>AI HOT / X：Mark Chen（OpenAI 首席研究官，@markchen90）</author>
+        <title>GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本</title>
+        <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration</link>
+        <description>GitHub 推出 Project HydraFusion 研究预览，通过运行时多模型编排，在 Single、Cascade、Critique 三种执行模式间为每个任务选择工作流，以平衡质量、成本和延迟</description>
+        <author>AI HOT / GitHub Blog</author>
         <category>aihot</category>
-        <pubDate>Thu, 03 Sep 2026 19:39:21 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtlxtppp0qqprow5v4bb80ng</guid>
+        <pubDate>Fri, 04 Sep 2026 16:04:14 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtn66b6s0o0eromy3rzdsvat</guid>
+      </item>
+<item>
+        <title>BoardUI/boardui</title>
+        <link>https://github.com/BoardUI/boardui</link>
+        <description>用于智能体界面的React设计系统。所有免费的BoardUI组件均提供源代码，首页是一个基于您自己的模型密钥运行的AI聊天应用。 | 近期热门 | 总 102 stars</description>
+        <author>BoardUI</author>
+        <category>github</category>
+        <pubDate>Sat, 05 Sep 2026 00:59:39 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-boardui-boardui</guid>
       </item>
   </channel>
 </rss>
