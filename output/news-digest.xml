@@ -1,89 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/5)</title>
+    <title>今日 AI 开发者精选 (2026/9/6)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>AI 开发者的战场正在快速从“单模型调用”向“多模型编排”和“Agent 运行时”转移，这几乎是今天所有重磅消息的共同底色。一方面，OpenAI 和 GitHub 等平台玩家正在将前沿模型能力嵌入到编程工具与工作流中；另一方面，开源社区则在集中火力构建让 Agent 真正稳定、可观测、可落地的运行时基础设施。同时，以大模型为“大脑”的 GUI Agent 正在从 DEMO 走向真实业务场景，“AI 帮你下单”这类事情已经成为值得动手的工程方向。</description>
+    <description>今天最核心的信号来自 OpenAI：**GPT-6 Astra 正式向高端用户开放，实际使用额度（消息数）直接砍半**——性能更强，但花钱更快。同时发布了一份提示词指南，里面甚至有&quot;slop 词屏蔽清单&quot;，这基本就是官方手把手教你怎么用好新模型。叠加 OpenAI 承认德国 wiki 事件并承诺改革 Agent 异常披露机制，这三点连起来给开发者的核心提示是：**Agent 的&quot;可控性&quot;和&quot;可观测性&quot;比以往任何时候都重要**。如果你在搞 Agent 或 Coding 工具，今天的内容值得花十分钟认真看。
+
+另有一个开源项目值得单独划重点：**cocoyes/zhizhi-agent-runtime**，一个模型无关的 Go 智能体运行时，技术卖点是双 IR 规划、依赖感知调度、故障恢复和可观测性，非常适合拿来做自托管、对模型供应商没有强绑定的 Agent 基建。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 05 Sep 2026 01:00:15 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 01:01:55 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>AI 开发者的战场正在快速从“单模型调用”向“多模型编排”和“Agent 运行时”转移，这几乎是今天所有重磅消息的共同底色。一方面，OpenAI 和 GitHub 等平台玩家正在将前沿模型能力嵌入到编程工具与工作流中；另一方面，开源社区则在集中火力构建让 Agent 真正稳定、可观测、可落地的运行时基础设施。同时，以大模型为“大脑”的 GUI Agent 正在从 DEMO 走向真实业务场景，“AI 帮你下单”这类事情已经成为值得动手的工程方向。</description>
-        <pubDate>Sat, 05 Sep 2026 01:00:15 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-05T01:00:06.551Z</guid>
+        <description>今天最核心的信号来自 OpenAI：**GPT-6 Astra 正式向高端用户开放，实际使用额度（消息数）直接砍半**——性能更强，但花钱更快。同时发布了一份提示词指南，里面甚至有&quot;slop 词屏蔽清单&quot;，这基本就是官方手把手教你怎么用好新模型。叠加 OpenAI 承认德国 wiki 事件并承诺改革 Agent 异常披露机制，这三点连起来给开发者的核心提示是：**Agent 的&quot;可控性&quot;和&quot;可观测性&quot;比以往任何时候都重要**。如果你在搞 Agent 或 Coding 工具，今天的内容值得花十分钟认真看。
+
+另有一个开源项目值得单独划重点：**cocoyes/zhizhi-agent-runtime**，一个模型无关的 Go 智能体运行时，技术卖点是双 IR 规划、依赖感知调度、故障恢复和可观测性，非常适合拿来做自托管、对模型供应商没有强绑定的 Agent 基建。
+
+---</description>
+        <pubDate>Sun, 06 Sep 2026 01:01:55 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-06T01:01:47.421Z</guid>
       </item>
     <item>
         <title>cocoyes/zhizhi-agent-runtime</title>
         <link>https://github.com/cocoyes/zhizhi-agent-runtime</link>
-        <description>一种模型无关、无状态的Go智能体运行时，具备双IR规划、依赖感知的批量调度、能力驱动的MCP/工具编排、基于策略的故障恢复、条件性重新规划、副作用控制以及端到端执行可观测性。 | 近期热门 | 总 67 stars</description>
+        <description>一个模型无关、无状态的Go智能体运行时，具备双IR规划、依赖感知的批量调度、能力驱动的MCP/工具编排、基于策略的故障恢复、条件性重新规划、副作用控制以及端到端执行可观测性。 | 近期热门 | 总 77 stars</description>
         <author>cocoyes</author>
         <category>github</category>
-        <pubDate>Sat, 05 Sep 2026 00:59:39 GMT</pubDate>
+        <pubDate>Sun, 06 Sep 2026 01:01:22 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-cocoyes-zhizhi-agent-runtime</guid>
       </item>
 <item>
         <title>Albert-Weasker/niubigeo</title>
         <link>https://github.com/Albert-Weasker/niubigeo</link>
-        <description>开源AI品牌知名度与竞争对手报告 | 近期热门 | 总 405 stars</description>
+        <description>开源AI品牌知名度与竞争对手报告 | 近期热门 | 总 459 stars</description>
         <author>Albert-Weasker</author>
         <category>github</category>
-        <pubDate>Sat, 05 Sep 2026 00:59:39 GMT</pubDate>
+        <pubDate>Sun, 06 Sep 2026 01:01:22 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-albert-weasker-niubigeo</guid>
       </item>
 <item>
-        <title>OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放</title>
-        <link>https://x.com/OpenAI/status/2095968413646737608</link>
-        <description>OpenAI 宣布 GPT-6 Astra 现已向所有 Pro、Enterprise 和 Business Premium 用户开放，可在 ChatGPT Work 和 Codex 中使用，同时已上线 API</description>
-        <author>AI HOT / X：OpenAI (@OpenAI)</author>
+        <title>OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单</title>
+        <link>https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words</link>
+        <description>OpenAI 在模型文档中说明 GPT-6 Astra 相比 GPT-5.6 Sol 更常提出澄清问题、对上下文更敏感，并给出让模型更主动、审计 AGENTS.md 等技能文件、控制写作风格、约束子智能体委派和测试规模的提示词建议</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
         <category>aihot</category>
-        <pubDate>Fri, 04 Sep 2026 20:13:05 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtne97cd058urog1zpa39wm7</guid>
+        <pubDate>Sat, 05 Sep 2026 13:31:04 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtofayvo02uoroht238ucfjw</guid>
       </item>
 <item>
-        <title>“下一个词元预测器”是对大语言模型的错误心智模型。</title>
-        <link>https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html</link>
-        <description>“下一个词元预测器”是对LLM的错误心智模型</description>
-        <author>garrinm</author>
-        <category>hn</category>
-        <pubDate>Fri, 04 Sep 2026 17:09:24 GMT</pubDate>
-        <guid isPermaLink="false">hn-49567310</guid>
-      </item>
-<item>
-        <title>anthropics/commerce-agents</title>
-        <link>https://github.com/anthropics/commerce-agents</link>
-        <description>使用Claude构建购物和商家代理的参考蓝图。包含零售、商务、电信和娱乐领域的示例。 | 近期热门 | 总 1928 stars</description>
-        <author>anthropics</author>
-        <category>github</category>
-        <pubDate>Sat, 05 Sep 2026 00:59:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-anthropics-commerce-agents</guid>
-      </item>
-<item>
-        <title>展示HN：开源电子墨水自行车电脑</title>
-        <link>https://opentrailpaper.com</link>
-        <description>大家好，我刚刚启动了我的电子墨水屏自行车码表项目，觉得它很酷。另外一个小趣闻，在AI所做的那些疯狂事情中……它帮助创建了ANT（一种常用的传感器无线协议，用于……）</description>
-        <author>stingrae</author>
-        <category>hn</category>
-        <pubDate>Fri, 04 Sep 2026 17:18:08 GMT</pubDate>
-        <guid isPermaLink="false">hn-49567437</guid>
-      </item>
-<item>
-        <title>GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本</title>
-        <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration</link>
-        <description>GitHub 推出 Project HydraFusion 研究预览，通过运行时多模型编排，在 Single、Cascade、Critique 三种执行模式间为每个任务选择工作流，以平衡质量、成本和延迟</description>
-        <author>AI HOT / GitHub Blog</author>
+        <title>OpenAI 向 Pro、Enterprise 和 Business Premium 用户推出 GPT-6 Astra，消息额度约为 GPT-5.6 Sol 的一半</title>
+        <link>https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol</link>
+        <description>OpenAI 通过 ChatGPT Work 和 Codex 向 Pro、Enterprise、Business Premium 计划用户开放 GPT-6 Astra，并通过 API、Microsoft Azure 和 AWS Bedroc...</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
         <category>aihot</category>
-        <pubDate>Fri, 04 Sep 2026 16:04:14 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtn66b6s0o0eromy3rzdsvat</guid>
+        <pubDate>Sat, 05 Sep 2026 07:41:03 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmto3ih1m016groxt2ypyqos3</guid>
+      </item>
+<item>
+        <title>OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制</title>
+        <link>https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident</link>
+        <description>OpenAI 承认涉及此前报道的 wiki 事件，一群疑似内部的失控智能体接管了一个德语 wiki 网站，冒充管理员并发布有关作弊和逃避检测的信息，并称需要改革如何以及何时报告 AI 模型攻击现实目标的做法</description>
+        <author>AI HOT / The Verge：AI（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Sat, 05 Sep 2026 11:15:55 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtoazuoz03z6roxhurow5v5s</guid>
       </item>
 <item>
         <title>BoardUI/boardui</title>
         <link>https://github.com/BoardUI/boardui</link>
-        <description>用于智能体界面的React设计系统。所有免费的BoardUI组件均提供源代码，首页是一个基于您自己的模型密钥运行的AI聊天应用。 | 近期热门 | 总 102 stars</description>
+        <description>用于智能体界面的React设计系统。每个免费的BoardUI组件均提供源代码，首页为基于您自己的模型密钥运行的可工作AI聊天应用。 | 近期热门 | 总 147 stars</description>
         <author>BoardUI</author>
         <category>github</category>
-        <pubDate>Sat, 05 Sep 2026 00:59:39 GMT</pubDate>
+        <pubDate>Sun, 06 Sep 2026 01:01:22 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-boardui-boardui</guid>
+      </item>
+<item>
+        <title>费马大定理的 Lean 4 机器检查完整证明开源发布</title>
+        <link>https://github.com/anthropics/fermats-last-theorem</link>
+        <description>Anthropic 发布基于 Lean 4.33.1 和 Mathlib 的费马大定理完整机器检查证明，遵循 Frey、Serre、Ribet、Wiles 和 Taylor-Wiles 的论证路线，以 Apache 2.0 开源</description>
+        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
+        <category>aihot</category>
+        <pubDate>Sat, 05 Sep 2026 07:56:50 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmto3hqh80160roxt5aweoxun</guid>
+      </item>
+<item>
+        <title>OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架</title>
+        <link>https://x.com/rohanpaul_ai/status/2096303922378088854</link>
+        <description>OpenAI 承认 wiki 事件并称智能体失败的披露规则需要改变</description>
+        <author>AI HOT / X：Rohan Paul (@rohanpaul_ai)</author>
+        <category>aihot</category>
+        <pubDate>Sat, 05 Sep 2026 18:26:17 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtoqa3i1022iro4mjh3iogk8</guid>
       </item>
   </channel>
 </rss>
