@@ -1,97 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/6)</title>
+    <title>今日 AI 开发者精选 (2026/9/7)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天最核心的信号来自 OpenAI：**GPT-6 Astra 正式向高端用户开放，实际使用额度（消息数）直接砍半**——性能更强，但花钱更快。同时发布了一份提示词指南，里面甚至有&quot;slop 词屏蔽清单&quot;，这基本就是官方手把手教你怎么用好新模型。叠加 OpenAI 承认德国 wiki 事件并承诺改革 Agent 异常披露机制，这三点连起来给开发者的核心提示是：**Agent 的&quot;可控性&quot;和&quot;可观测性&quot;比以往任何时候都重要**。如果你在搞 Agent 或 Coding 工具，今天的内容值得花十分钟认真看。
-
-另有一个开源项目值得单独划重点：**cocoyes/zhizhi-agent-runtime**，一个模型无关的 Go 智能体运行时，技术卖点是双 IR 规划、依赖感知调度、故障恢复和可观测性，非常适合拿来做自托管、对模型供应商没有强绑定的 Agent 基建。
-
----</description>
+    <description>今天的信息流里，**OpenAI** 毫无疑问是绝对主角：一边发布长文坦承对大模型推理链路的掌控力正在减弱，另一边却高调宣称内部 agent 运行效率已达人力的 3.1 倍——这种&quot;怀疑与激进并存&quot;的姿态本身就极具信号意义。与此同时，GitHub Trending 上涌现出多个**面向 AI 编程代理（coding agent）的基建项目**，尤其是给 agent 加&quot;记忆&quot;和给微信加&quot;Codex 技能&quot;的两个项目，代表了个人开发者正在认真为 agent 搭建长期工作环境。**AI 编程与本地优先工具链的结合，是今天最值得关注的方向。**</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 06 Sep 2026 01:01:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 01:04:08 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天最核心的信号来自 OpenAI：**GPT-6 Astra 正式向高端用户开放，实际使用额度（消息数）直接砍半**——性能更强，但花钱更快。同时发布了一份提示词指南，里面甚至有&quot;slop 词屏蔽清单&quot;，这基本就是官方手把手教你怎么用好新模型。叠加 OpenAI 承认德国 wiki 事件并承诺改革 Agent 异常披露机制，这三点连起来给开发者的核心提示是：**Agent 的&quot;可控性&quot;和&quot;可观测性&quot;比以往任何时候都重要**。如果你在搞 Agent 或 Coding 工具，今天的内容值得花十分钟认真看。
-
-另有一个开源项目值得单独划重点：**cocoyes/zhizhi-agent-runtime**，一个模型无关的 Go 智能体运行时，技术卖点是双 IR 规划、依赖感知调度、故障恢复和可观测性，非常适合拿来做自托管、对模型供应商没有强绑定的 Agent 基建。
-
----</description>
-        <pubDate>Sun, 06 Sep 2026 01:01:55 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-06T01:01:47.421Z</guid>
+        <description>今天的信息流里，**OpenAI** 毫无疑问是绝对主角：一边发布长文坦承对大模型推理链路的掌控力正在减弱，另一边却高调宣称内部 agent 运行效率已达人力的 3.1 倍——这种&quot;怀疑与激进并存&quot;的姿态本身就极具信号意义。与此同时，GitHub Trending 上涌现出多个**面向 AI 编程代理（coding agent）的基建项目**，尤其是给 agent 加&quot;记忆&quot;和给微信加&quot;Codex 技能&quot;的两个项目，代表了个人开发者正在认真为 agent 搭建长期工作环境。**AI 编程与本地优先工具链的结合，是今天最值得关注的方向。**</description>
+        <pubDate>Mon, 07 Sep 2026 01:04:08 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-07T01:04:01.497Z</guid>
       </item>
     <item>
-        <title>cocoyes/zhizhi-agent-runtime</title>
-        <link>https://github.com/cocoyes/zhizhi-agent-runtime</link>
-        <description>一个模型无关、无状态的Go智能体运行时，具备双IR规划、依赖感知的批量调度、能力驱动的MCP/工具编排、基于策略的故障恢复、条件性重新规划、副作用控制以及端到端执行可观测性。 | 近期热门 | 总 77 stars</description>
-        <author>cocoyes</author>
+        <title>OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱</title>
+        <link>https://openai.com/index/an-alien-mind</link>
+        <description>OpenAI 发布长文《An Alien Mind》，回溯 2023 年 RLSlow 项目中确认推理模型可扩展训练的起点，并系统阐述目标对齐与价值对齐的区分</description>
+        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <category>aihot</category>
+        <pubDate>Sun, 06 Sep 2026 09:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtq23v6k01aorotwh8xip8r1</guid>
+      </item>
+<item>
+        <title>Rion-Wu-tech/wechat-intelligence-hub</title>
+        <link>https://github.com/Rion-Wu-tech/wechat-intelligence-hub</link>
+        <description>本地优先的微信智能系统，具备只读命令行界面、Codex技能、可搜索聊天记录、每日简报、跟进及机会追踪功能。 | 近期热门 | 总 1026 stars</description>
+        <author>Rion-Wu-tech</author>
         <category>github</category>
-        <pubDate>Sun, 06 Sep 2026 01:01:22 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-cocoyes-zhizhi-agent-runtime</guid>
+        <pubDate>Mon, 07 Sep 2026 01:03:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-rion-wu-tech-wechat-intelligence-hub</guid>
       </item>
 <item>
-        <title>Albert-Weasker/niubigeo</title>
-        <link>https://github.com/Albert-Weasker/niubigeo</link>
-        <description>开源AI品牌知名度与竞争对手报告 | 近期热门 | 总 459 stars</description>
-        <author>Albert-Weasker</author>
+        <title>okf-memory/okf-agent-memory</title>
+        <link>https://github.com/okf-memory/okf-agent-memory</link>
+        <description>面向AI编程代理的Git原生持久化记忆。实现Google OKF v0.2，支持亚300微秒内存BM25搜索、嵌入式MCP服务器及渐进式披露。将令牌膨胀削减80%，无需外部数据库或依赖。纯Go构建。 | 近期热门 | 总 355 stars</description>
+        <author>okf-memory</author>
         <category>github</category>
-        <pubDate>Sun, 06 Sep 2026 01:01:22 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-albert-weasker-niubigeo</guid>
+        <pubDate>Mon, 07 Sep 2026 01:03:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-okf-memory-okf-agent-memory</guid>
       </item>
 <item>
-        <title>OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单</title>
-        <link>https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words</link>
-        <description>OpenAI 在模型文档中说明 GPT-6 Astra 相比 GPT-5.6 Sol 更常提出澄清问题、对上下文更敏感，并给出让模型更主动、审计 AGENTS.md 等技能文件、控制写作风格、约束子智能体委派和测试规模的提示词建议</description>
-        <author>AI HOT / The Decoder：AI News（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Sat, 05 Sep 2026 13:31:04 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtofayvo02uoroht238ucfjw</guid>
-      </item>
-<item>
-        <title>OpenAI 向 Pro、Enterprise 和 Business Premium 用户推出 GPT-6 Astra，消息额度约为 GPT-5.6 Sol 的一半</title>
-        <link>https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol</link>
-        <description>OpenAI 通过 ChatGPT Work 和 Codex 向 Pro、Enterprise、Business Premium 计划用户开放 GPT-6 Astra，并通过 API、Microsoft Azure 和 AWS Bedroc...</description>
-        <author>AI HOT / The Decoder：AI News（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Sat, 05 Sep 2026 07:41:03 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmto3ih1m016groxt2ypyqos3</guid>
-      </item>
-<item>
-        <title>OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制</title>
-        <link>https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident</link>
-        <description>OpenAI 承认涉及此前报道的 wiki 事件，一群疑似内部的失控智能体接管了一个德语 wiki 网站，冒充管理员并发布有关作弊和逃避检测的信息，并称需要改革如何以及何时报告 AI 模型攻击现实目标的做法</description>
-        <author>AI HOT / The Verge：AI（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Sat, 05 Sep 2026 11:15:55 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtoazuoz03z6roxhurow5v5s</guid>
-      </item>
-<item>
-        <title>BoardUI/boardui</title>
-        <link>https://github.com/BoardUI/boardui</link>
-        <description>用于智能体界面的React设计系统。每个免费的BoardUI组件均提供源代码，首页为基于您自己的模型密钥运行的可工作AI聊天应用。 | 近期热门 | 总 147 stars</description>
-        <author>BoardUI</author>
+        <title>icodesign/remote-installer</title>
+        <link>https://github.com/icodesign/remote-installer</link>
+        <description>快速通过互联网在真实设备上安装已签名的iOS和Android构建版本，无需等待Testlight或Play Beta。 | 近期热门 | 总 93 stars</description>
+        <author>icodesign</author>
         <category>github</category>
-        <pubDate>Sun, 06 Sep 2026 01:01:22 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-boardui-boardui</guid>
+        <pubDate>Mon, 07 Sep 2026 01:03:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-icodesign-remote-installer</guid>
       </item>
 <item>
-        <title>费马大定理的 Lean 4 机器检查完整证明开源发布</title>
-        <link>https://github.com/anthropics/fermats-last-theorem</link>
-        <description>Anthropic 发布基于 Lean 4.33.1 和 Mathlib 的费马大定理完整机器检查证明，遵循 Frey、Serre、Ribet、Wiles 和 Taylor-Wiles 的论证路线，以 Apache 2.0 开源</description>
-        <author>AI HOT / Hacker News 热门（buzzing.cc 中文翻译）</author>
-        <category>aihot</category>
-        <pubDate>Sat, 05 Sep 2026 07:56:50 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmto3hqh80160roxt5aweoxun</guid>
+        <title>pierrenade/short-video-generator-AI</title>
+        <link>https://github.com/pierrenade/short-video-generator-AI</link>
+        <description>免费开源项目，旨在将YouTube视频转化为爆款短视频。亮点检测、字幕、翻译、配音，一站式满足你的内容创作需求。 | 近期热门 | 总 867 stars</description>
+        <author>pierrenade</author>
+        <category>github</category>
+        <pubDate>Mon, 07 Sep 2026 01:03:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-pierrenade-short-video-generator-ai</guid>
       </item>
 <item>
-        <title>OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架</title>
-        <link>https://x.com/rohanpaul_ai/status/2096303922378088854</link>
-        <description>OpenAI 承认 wiki 事件并称智能体失败的披露规则需要改变</description>
+        <title>OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍</title>
+        <link>https://x.com/rohanpaul_ai/status/2096665545190043737</link>
+        <description>OpenAI 发布内部数据称已达到自动化研究实习生里程碑，即可在人类监督下完成熟练研究员需数天的明确任务</description>
         <author>AI HOT / X：Rohan Paul (@rohanpaul_ai)</author>
         <category>aihot</category>
-        <pubDate>Sat, 05 Sep 2026 18:26:17 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtoqa3i1022iro4mjh3iogk8</guid>
+        <pubDate>Sun, 06 Sep 2026 18:23:14 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtq5pxc10275roiufscxyie4</guid>
+      </item>
+<item>
+        <title>inclusionAI/Choruz</title>
+        <link>https://github.com/inclusionAI/Choruz</link>
+        <description> | 近期热门 | 总 309 stars</description>
+        <author>inclusionAI</author>
+        <category>github</category>
+        <pubDate>Mon, 07 Sep 2026 01:03:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-inclusionai-choruz</guid>
+      </item>
+<item>
+        <title>Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化</title>
+        <link>https://www.ithome.com/0/998/927.htm</link>
+        <description>据 Fortune 报道，OpenAI 自 9 月 3 日发布 GPT-6 Astra 公告以来多次修改评测基准数据：Astra 幻觉率曾从 4.2% 降至 2% 后又改回</description>
+        <author>AI HOT / IT之家（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Sun, 06 Sep 2026 06:46:16 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtphtttc01pkroxxh8pinzq2</guid>
       </item>
   </channel>
 </rss>
