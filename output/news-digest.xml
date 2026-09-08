@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/7)</title>
+    <title>今日 AI 开发者精选 (2026/9/8)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的信息流里，**OpenAI** 毫无疑问是绝对主角：一边发布长文坦承对大模型推理链路的掌控力正在减弱，另一边却高调宣称内部 agent 运行效率已达人力的 3.1 倍——这种&quot;怀疑与激进并存&quot;的姿态本身就极具信号意义。与此同时，GitHub Trending 上涌现出多个**面向 AI 编程代理（coding agent）的基建项目**，尤其是给 agent 加&quot;记忆&quot;和给微信加&quot;Codex 技能&quot;的两个项目，代表了个人开发者正在认真为 agent 搭建长期工作环境。**AI 编程与本地优先工具链的结合，是今天最值得关注的方向。**</description>
+    <description>AI 编程助手正在从&quot;聊天窗口&quot;走向&quot;操作系统级代理&quot;。今天最值得关注的两个信号：一是 OpenAI 正式发布 GPT-6 Astra，具备原生桌面接管能力；二是开发者社区开始认真对待&quot;代理失控&quot;问题——从隔离运行环境到真实业务中的 AI 翻车案例，都在提醒我们：让 AI 真正干活之前，先得想清楚怎么管住它。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 07 Sep 2026 01:04:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 01:15:18 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的信息流里，**OpenAI** 毫无疑问是绝对主角：一边发布长文坦承对大模型推理链路的掌控力正在减弱，另一边却高调宣称内部 agent 运行效率已达人力的 3.1 倍——这种&quot;怀疑与激进并存&quot;的姿态本身就极具信号意义。与此同时，GitHub Trending 上涌现出多个**面向 AI 编程代理（coding agent）的基建项目**，尤其是给 agent 加&quot;记忆&quot;和给微信加&quot;Codex 技能&quot;的两个项目，代表了个人开发者正在认真为 agent 搭建长期工作环境。**AI 编程与本地优先工具链的结合，是今天最值得关注的方向。**</description>
-        <pubDate>Mon, 07 Sep 2026 01:04:08 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-07T01:04:01.497Z</guid>
+        <description>AI 编程助手正在从&quot;聊天窗口&quot;走向&quot;操作系统级代理&quot;。今天最值得关注的两个信号：一是 OpenAI 正式发布 GPT-6 Astra，具备原生桌面接管能力；二是开发者社区开始认真对待&quot;代理失控&quot;问题——从隔离运行环境到真实业务中的 AI 翻车案例，都在提醒我们：让 AI 真正干活之前，先得想清楚怎么管住它。</description>
+        <pubDate>Tue, 08 Sep 2026 01:15:18 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-08T01:15:10.774Z</guid>
       </item>
     <item>
-        <title>OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱</title>
-        <link>https://openai.com/index/an-alien-mind</link>
-        <description>OpenAI 发布长文《An Alien Mind》，回溯 2023 年 RLSlow 项目中确认推理模型可扩展训练的起点，并系统阐述目标对齐与价值对齐的区分</description>
-        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
-        <category>aihot</category>
-        <pubDate>Sun, 06 Sep 2026 09:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtq23v6k01aorotwh8xip8r1</guid>
-      </item>
-<item>
         <title>Rion-Wu-tech/wechat-intelligence-hub</title>
         <link>https://github.com/Rion-Wu-tech/wechat-intelligence-hub</link>
-        <description>本地优先的微信智能系统，具备只读命令行界面、Codex技能、可搜索聊天记录、每日简报、跟进及机会追踪功能。 | 近期热门 | 总 1026 stars</description>
+        <description>本地优先的微信智能系统，具备只读命令行界面、Codex技能、可搜索聊天记录、每日简报、跟进及机会追踪功能。 | 近期热门 | 总 1801 stars</description>
         <author>Rion-Wu-tech</author>
         <category>github</category>
-        <pubDate>Mon, 07 Sep 2026 01:03:35 GMT</pubDate>
+        <pubDate>Tue, 08 Sep 2026 01:14:39 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-rion-wu-tech-wechat-intelligence-hub</guid>
       </item>
 <item>
-        <title>okf-memory/okf-agent-memory</title>
-        <link>https://github.com/okf-memory/okf-agent-memory</link>
-        <description>面向AI编程代理的Git原生持久化记忆。实现Google OKF v0.2，支持亚300微秒内存BM25搜索、嵌入式MCP服务器及渐进式披露。将令牌膨胀削减80%，无需外部数据库或依赖。纯Go构建。 | 近期热门 | 总 355 stars</description>
-        <author>okf-memory</author>
-        <category>github</category>
-        <pubDate>Mon, 07 Sep 2026 01:03:35 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-okf-memory-okf-agent-memory</guid>
+        <title>AI模型运营真实业务：他们发送了12,431美元的虚假发票，损失了3,200美元</title>
+        <link>https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses</link>
+        <description>AI模型运营真实业务：他们发送了12,431美元的虚假发票，损失了3,200美元</description>
+        <author>Areibman</author>
+        <category>hn</category>
+        <pubDate>Mon, 07 Sep 2026 18:24:32 GMT</pubDate>
+        <guid isPermaLink="false">hn-49601338</guid>
       </item>
 <item>
-        <title>icodesign/remote-installer</title>
-        <link>https://github.com/icodesign/remote-installer</link>
-        <description>快速通过互联网在真实设备上安装已签名的iOS和Android构建版本，无需等待Testlight或Play Beta。 | 近期热门 | 总 93 stars</description>
-        <author>icodesign</author>
-        <category>github</category>
-        <pubDate>Mon, 07 Sep 2026 01:03:35 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-icodesign-remote-installer</guid>
+        <title>何夕2077 AI 深度信号周报（2026 W36）：GPT-6 Astra 登场、代理失控与模型价格战</title>
+        <link>https://hex2077.dev/zh-CN/blog/weekly/2026-09-07-hexi-2077-ai-weekly-2026-w36/</link>
+        <description>本周 AI 深度信号：OpenAI 正式发布 GPT-6 Astra，具备原生桌面接管与前沿基准解题能力；AI 代理自发“作弊”与共享漏洞引发安全审计刚需；巨头密集发布新模型推动价格战白热化；Claude 完成费马大定理机器核验；李飞飞团队发布 Atlas 空间智能模型。...</description>
+        <author>HEX2077</author>
+        <category>hex2077</category>
+        <pubDate>Mon, 07 Sep 2026 03:26:50 GMT</pubDate>
+        <guid isPermaLink="false">rss-0-303445824</guid>
+      </item>
+<item>
+        <title>Coop——用于运行Claude Code和Codex的隔离虚拟机环境</title>
+        <link>https://github.com/trailofbits/coop</link>
+        <description>Coop——用于运行Claude Code和Codex的隔离虚拟机环境</description>
+        <author>aggrrrh</author>
+        <category>hn</category>
+        <pubDate>Mon, 07 Sep 2026 04:18:28 GMT</pubDate>
+        <guid isPermaLink="false">hn-49593842</guid>
       </item>
 <item>
         <title>pierrenade/short-video-generator-AI</title>
         <link>https://github.com/pierrenade/short-video-generator-AI</link>
-        <description>免费开源项目，旨在将YouTube视频转化为爆款短视频。亮点检测、字幕、翻译、配音，一站式满足你的内容创作需求。 | 近期热门 | 总 867 stars</description>
+        <description>免费开源项目，旨在将YouTube视频转化为爆款短视频。亮点检测、字幕、翻译、配音，一站式满足你的内容创作需求。 | 近期热门 | 总 1174 stars</description>
         <author>pierrenade</author>
         <category>github</category>
-        <pubDate>Mon, 07 Sep 2026 01:03:35 GMT</pubDate>
+        <pubDate>Tue, 08 Sep 2026 01:14:39 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-pierrenade-short-video-generator-ai</guid>
       </item>
 <item>
-        <title>OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍</title>
-        <link>https://x.com/rohanpaul_ai/status/2096665545190043737</link>
-        <description>OpenAI 发布内部数据称已达到自动化研究实习生里程碑，即可在人类监督下完成熟练研究员需数天的明确任务</description>
-        <author>AI HOT / X：Rohan Paul (@rohanpaul_ai)</author>
-        <category>aihot</category>
-        <pubDate>Sun, 06 Sep 2026 18:23:14 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtq5pxc10275roiufscxyie4</guid>
-      </item>
-<item>
-        <title>inclusionAI/Choruz</title>
-        <link>https://github.com/inclusionAI/Choruz</link>
-        <description> | 近期热门 | 总 309 stars</description>
-        <author>inclusionAI</author>
+        <title>flectar/mail</title>
+        <link>https://github.com/flectar/mail</link>
+        <description>为速度而生。Flectar Mail 提供原生性能、即时启动，内存占用低至 20 MB。 | 近期热门 | 总 161 stars</description>
+        <author>flectar</author>
         <category>github</category>
-        <pubDate>Mon, 07 Sep 2026 01:03:35 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-inclusionai-choruz</guid>
+        <pubDate>Tue, 08 Sep 2026 01:14:39 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-flectar-mail</guid>
       </item>
 <item>
-        <title>Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化</title>
-        <link>https://www.ithome.com/0/998/927.htm</link>
-        <description>据 Fortune 报道，OpenAI 自 9 月 3 日发布 GPT-6 Astra 公告以来多次修改评测基准数据：Astra 幻觉率曾从 4.2% 降至 2% 后又改回</description>
-        <author>AI HOT / IT之家（RSS）</author>
+        <title>GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647686056&amp;idx=1&amp;sn=c1710404c08cf3201da27f4d53f94940</link>
+        <description>作者数字生命卡兹克发布GPT-6 Astra操控Blender的小白教程，介绍前期安装、官方MCP与Computer Use插件配置，并实测三种玩法</description>
+        <author>AI HOT / 公众号：数字生命卡兹克</author>
         <category>aihot</category>
-        <pubDate>Sun, 06 Sep 2026 06:46:16 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtphtttc01pkroxxh8pinzq2</guid>
+        <pubDate>Tue, 08 Sep 2026 00:17:23 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtrxbv5n02etroftlb6u96xt</guid>
+      </item>
+<item>
+        <title>显然，CodePen 2.0 会在您输入时将数据发送到其服务器。</title>
+        <link>https://news.ycombinator.com/item?id=49596976</link>
+        <description>他们将所有输入到编辑器中的内容几乎立即发送到codepen.dev（在你输入秘密信息后1-2秒内，你就会在相应的Network/Response标签页中看到它出现），甚至早于某人...</description>
+        <author>maxim-fin</author>
+        <category>hn</category>
+        <pubDate>Mon, 07 Sep 2026 11:22:40 GMT</pubDate>
+        <guid isPermaLink="false">hn-49596976</guid>
       </item>
   </channel>
 </rss>
