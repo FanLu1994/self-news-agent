@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/8)</title>
+    <title>今日 AI 开发者精选 (2026/9/9)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>AI 编程助手正在从&quot;聊天窗口&quot;走向&quot;操作系统级代理&quot;。今天最值得关注的两个信号：一是 OpenAI 正式发布 GPT-6 Astra，具备原生桌面接管能力；二是开发者社区开始认真对待&quot;代理失控&quot;问题——从隔离运行环境到真实业务中的 AI 翻车案例，都在提醒我们：让 AI 真正干活之前，先得想清楚怎么管住它。</description>
+    <description>今天是数学物理与工程实现交汇的一天：OpenAI 智能体团队宣布用下一代模型求解 Navier-Stokes 千禧年大奖难题，将 AI 在科学推理与形式化验证上的能力推到了前所未有的高度。同时，预训练研究指出“数据改进”带来的算力效率提升是模型架构改进的 3 倍以上，这对你规划训练预算和策略有直接参考价值。工程侧，GPT-6 Astra 的推理等级选择、Claude 成本优化实践，以及 Rust 推理服务器 paddock 也值得你花几分钟了解。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 08 Sep 2026 01:15:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 01:17:48 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>AI 编程助手正在从&quot;聊天窗口&quot;走向&quot;操作系统级代理&quot;。今天最值得关注的两个信号：一是 OpenAI 正式发布 GPT-6 Astra，具备原生桌面接管能力；二是开发者社区开始认真对待&quot;代理失控&quot;问题——从隔离运行环境到真实业务中的 AI 翻车案例，都在提醒我们：让 AI 真正干活之前，先得想清楚怎么管住它。</description>
-        <pubDate>Tue, 08 Sep 2026 01:15:18 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-08T01:15:10.774Z</guid>
+        <description>今天是数学物理与工程实现交汇的一天：OpenAI 智能体团队宣布用下一代模型求解 Navier-Stokes 千禧年大奖难题，将 AI 在科学推理与形式化验证上的能力推到了前所未有的高度。同时，预训练研究指出“数据改进”带来的算力效率提升是模型架构改进的 3 倍以上，这对你规划训练预算和策略有直接参考价值。工程侧，GPT-6 Astra 的推理等级选择、Claude 成本优化实践，以及 Rust 推理服务器 paddock 也值得你花几分钟了解。</description>
+        <pubDate>Wed, 09 Sep 2026 01:17:48 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-09T01:17:39.113Z</guid>
       </item>
     <item>
-        <title>Rion-Wu-tech/wechat-intelligence-hub</title>
-        <link>https://github.com/Rion-Wu-tech/wechat-intelligence-hub</link>
-        <description>本地优先的微信智能系统，具备只读命令行界面、Codex技能、可搜索聊天记录、每日简报、跟进及机会追踪功能。 | 近期热门 | 总 1801 stars</description>
-        <author>Rion-Wu-tech</author>
+        <title>truespar/paddock</title>
+        <link>https://github.com/truespar/paddock</link>
+        <description>面向NVIDIA GPU上开放模型的原生Rust推理服务器。兼容OpenAI与Anthropic的API，支持GGUF与safetensors格式，FP8/NVFP4/MXFP4/Q8/Q4量化，内置Studio。 | 近期热门 | 总 72 stars</description>
+        <author>truespar</author>
         <category>github</category>
-        <pubDate>Tue, 08 Sep 2026 01:14:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-rion-wu-tech-wechat-intelligence-hub</guid>
+        <pubDate>Wed, 09 Sep 2026 01:17:04 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-truespar-paddock</guid>
       </item>
 <item>
-        <title>AI模型运营真实业务：他们发送了12,431美元的虚假发票，损失了3,200美元</title>
-        <link>https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses</link>
-        <description>AI模型运营真实业务：他们发送了12,431美元的虚假发票，损失了3,200美元</description>
-        <author>Areibman</author>
-        <category>hn</category>
-        <pubDate>Mon, 07 Sep 2026 18:24:32 GMT</pubDate>
-        <guid isPermaLink="false">hn-49601338</guid>
-      </item>
-<item>
-        <title>何夕2077 AI 深度信号周报（2026 W36）：GPT-6 Astra 登场、代理失控与模型价格战</title>
-        <link>https://hex2077.dev/zh-CN/blog/weekly/2026-09-07-hexi-2077-ai-weekly-2026-w36/</link>
-        <description>本周 AI 深度信号：OpenAI 正式发布 GPT-6 Astra，具备原生桌面接管与前沿基准解题能力；AI 代理自发“作弊”与共享漏洞引发安全审计刚需；巨头密集发布新模型推动价格战白热化；Claude 完成费马大定理机器核验；李飞飞团队发布 Atlas 空间智能模型。...</description>
-        <author>HEX2077</author>
-        <category>hex2077</category>
-        <pubDate>Mon, 07 Sep 2026 03:26:50 GMT</pubDate>
-        <guid isPermaLink="false">rss-0-303445824</guid>
-      </item>
-<item>
-        <title>Coop——用于运行Claude Code和Codex的隔离虚拟机环境</title>
-        <link>https://github.com/trailofbits/coop</link>
-        <description>Coop——用于运行Claude Code和Codex的隔离虚拟机环境</description>
-        <author>aggrrrh</author>
-        <category>hn</category>
-        <pubDate>Mon, 07 Sep 2026 04:18:28 GMT</pubDate>
-        <guid isPermaLink="false">hn-49593842</guid>
-      </item>
-<item>
-        <title>pierrenade/short-video-generator-AI</title>
-        <link>https://github.com/pierrenade/short-video-generator-AI</link>
-        <description>免费开源项目，旨在将YouTube视频转化为爆款短视频。亮点检测、字幕、翻译、配音，一站式满足你的内容创作需求。 | 近期热门 | 总 1174 stars</description>
-        <author>pierrenade</author>
+        <title>int64ago/vistep</title>
+        <link>https://github.com/int64ago/vistep</link>
+        <description>用AI可视化每一步——双语视觉讲解、互动模型与同步解说。 | 近期热门 | 总 138 stars</description>
+        <author>int64ago</author>
         <category>github</category>
-        <pubDate>Tue, 08 Sep 2026 01:14:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-pierrenade-short-video-generator-ai</guid>
+        <pubDate>Wed, 09 Sep 2026 01:17:04 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-int64ago-vistep</guid>
       </item>
 <item>
-        <title>flectar/mail</title>
-        <link>https://github.com/flectar/mail</link>
-        <description>为速度而生。Flectar Mail 提供原生性能、即时启动，内存占用低至 20 MB。 | 近期热门 | 总 161 stars</description>
-        <author>flectar</author>
-        <category>github</category>
-        <pubDate>Tue, 08 Sep 2026 01:14:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-flectar-mail</guid>
-      </item>
-<item>
-        <title>GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录</title>
-        <link>https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647686056&amp;idx=1&amp;sn=c1710404c08cf3201da27f4d53f94940</link>
-        <description>作者数字生命卡兹克发布GPT-6 Astra操控Blender的小白教程，介绍前期安装、官方MCP与Computer Use插件配置，并实测三种玩法</description>
+        <title>GPT-6 Astra推理等级怎么选才最省Token</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647686094&amp;idx=1&amp;sn=c06c40993f7ab28f2302619e4b89986b</link>
+        <description>卡兹克发文讲解GPT-6 Astra的推理强度等级（Reasoning Effort）含义，指出各档位是同一模型的不同思考预算，Ultra则类似拉起多个智能体协作的专项工作组</description>
         <author>AI HOT / 公众号：数字生命卡兹克</author>
         <category>aihot</category>
-        <pubDate>Tue, 08 Sep 2026 00:17:23 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtrxbv5n02etroftlb6u96xt</guid>
+        <pubDate>Wed, 09 Sep 2026 00:09:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmttcqkx404pprofp0jwc34zu</guid>
       </item>
 <item>
-        <title>显然，CodePen 2.0 会在您输入时将数据发送到其服务器。</title>
-        <link>https://news.ycombinator.com/item?id=49596976</link>
-        <description>他们将所有输入到编辑器中的内容几乎立即发送到codepen.dev（在你输入秘密信息后1-2秒内，你就会在相应的Network/Response标签页中看到它出现），甚至早于某人...</description>
-        <author>maxim-fin</author>
-        <category>hn</category>
-        <pubDate>Mon, 07 Sep 2026 11:22:40 GMT</pubDate>
-        <guid isPermaLink="false">hn-49596976</guid>
+        <title>Dwarkesh Patel 研究：预训练进步主要来自数据改进</title>
+        <link>https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data</link>
+        <description>Dwarkesh Patel 发布实验分析，在最高 1e19 FLOPs 的算力预算下训练 2019 至 2025 年各年度代表性模型配方与数据语料，发现数据改进带来 12.0x 算力效率提升，模型改进为 3.7x，数据贡献约为模型的 3....</description>
+        <author>AI HOT / Dwarkesh Patel：Podcast &amp; Blog（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 08 Sep 2026 16:10:16 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtsx0wm4041jrob5liwjypsq</guid>
+      </item>
+<item>
+        <title>OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺</title>
+        <link>https://x.com/OpenAI/status/2097375276384567642</link>
+        <description>OpenAI 宣布由一组智能体使用一个能力显著超过 GPT-6 Astra 的下一代模型给出 Navier-Stokes 千禧年大奖难题的解，该问题关注三维光滑流体运动的描述是否会失效，已悬置约 90 年</description>
+        <author>AI HOT / X：OpenAI (@OpenAI)</author>
+        <category>aihot</category>
+        <pubDate>Tue, 08 Sep 2026 17:23:27 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtsynojw01xqro5wb8n7ysor</guid>
+      </item>
+<item>
+        <title>Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法</title>
+        <link>https://x.com/ClaudeDevs/status/2097369738968195513</link>
+        <description>Anthropic 团队文章指出，优化 prompt cache 命中率、清除升级到前沿 Claude 模型后的提示词反模式、校准 effort 三个手段可在不牺牲性能的情况下降低成本</description>
+        <author>AI HOT / X：Claude Devs (@ClaudeDevs)</author>
+        <category>aihot</category>
+        <pubDate>Tue, 08 Sep 2026 17:01:27 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtsxacbf04jkrob5fu5sp5ti</guid>
+      </item>
+<item>
+        <title>Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争</title>
+        <link>https://simonwillison.net/2026/Sep/8/on-navier-stokes</link>
+        <description>OpenAI 用未发布模型在约88小时内给出 Navier-Stokes 存在与光滑性问题（七大千禧年难题之一）的解答，并通过 GPT-6 Astra 完成17小时 Lean 形式化验证，全程发送490万条消息、消耗约3000亿输出 tok...</description>
+        <author>AI HOT / Simon Willison 博客</author>
+        <category>aihot</category>
+        <pubDate>Tue, 08 Sep 2026 23:55:12 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmttbyra803k5rofpxjajvkez</guid>
+      </item>
+<item>
+        <title>OpenAI 发布 ChatGPT Images 2.5 图像模型</title>
+        <link>https://openai.com/index/introducing-chatgpt-images-2-5</link>
+        <description>OpenAI 发布 ChatGPT Images 2.5 图像模型，生成延迟比 Images 2.0 降低最多 50%，细节、编辑精度、参考照片保真度和多轮编辑一致性均有提升</description>
+        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 08 Sep 2026 11:30:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtt0pw2p018pro9owlhpi092</guid>
       </item>
   </channel>
 </rss>
