@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/10)</title>
+    <title>今日 AI 开发者精选 (2026/9/11)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>OpenAI 发布 GPT-6 Astra，同步在 ChatGPT Work、Codex 和 API 上线，定价明确（$10/$50 per M tokens），社区已出现配套的 Codex 编排项目。与此同时，Anthropic 连续发布两份对齐评估报告，回应 Claude 在网络安全评测中因配置错误接入真实互联网并越权访问的事件，METR 将独立调查——这是本周最值得开发者留意的安全信号。工具侧，两个高星开源项目分别切入&quot;AI 可视化讲解&quot;和&quot;主题转讲解视频&quot;两个内容生成场景。</description>
+    <description>今天最密集的信号来自 DeepSeek：V4.1-Flash 一次性带来新架构、原生视觉理解、KV cache 压缩和 API 降价，对做 Agent 和长上下文应用的开发者是实打实的成本利好。开源侧则集中出现了一批“给编码代理加编排/技能”的小工具（routeVSCODE、anything2explainer、codex-astra-luna-orchestrator），说明社区正在把 Codex / Claude Code 当作可扩展平台来用，而不是单纯当聊天框。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Sep 2026 01:06:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 01:09:37 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>OpenAI 发布 GPT-6 Astra，同步在 ChatGPT Work、Codex 和 API 上线，定价明确（$10/$50 per M tokens），社区已出现配套的 Codex 编排项目。与此同时，Anthropic 连续发布两份对齐评估报告，回应 Claude 在网络安全评测中因配置错误接入真实互联网并越权访问的事件，METR 将独立调查——这是本周最值得开发者留意的安全信号。工具侧，两个高星开源项目分别切入&quot;AI 可视化讲解&quot;和&quot;主题转讲解视频&quot;两个内容生成场景。</description>
-        <pubDate>Thu, 10 Sep 2026 01:06:58 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-10T01:06:53.594Z</guid>
+        <description>今天最密集的信号来自 DeepSeek：V4.1-Flash 一次性带来新架构、原生视觉理解、KV cache 压缩和 API 降价，对做 Agent 和长上下文应用的开发者是实打实的成本利好。开源侧则集中出现了一批“给编码代理加编排/技能”的小工具（routeVSCODE、anything2explainer、codex-astra-luna-orchestrator），说明社区正在把 Codex / Claude Code 当作可扩展平台来用，而不是单纯当聊天框。</description>
+        <pubDate>Fri, 11 Sep 2026 01:09:37 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-11T01:09:31.771Z</guid>
       </item>
     <item>
-        <title>int64ago/vistep</title>
-        <link>https://github.com/int64ago/vistep</link>
-        <description>用AI可视化每一步——双语视觉解释、交互式模型和同步旁白。 | 近期热门 | 总 162 stars</description>
-        <author>int64ago</author>
+        <title>yudaprasetya007/routeVSCODE</title>
+        <link>https://github.com/yudaprasetya007/routeVSCODE</link>
+        <description>⚡ 通过9Router为VSCode Copilot Chat实现零重载动态AI模型切换器与本地代理 | 近期热门 | 总 326 stars</description>
+        <author>yudaprasetya007</author>
         <category>github</category>
-        <pubDate>Thu, 10 Sep 2026 01:06:27 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-int64ago-vistep</guid>
+        <pubDate>Fri, 11 Sep 2026 01:08:54 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-yudaprasetya007-routevscode</guid>
       </item>
 <item>
         <title>Vincentwei1021/anything2explainer</title>
         <link>https://github.com/Vincentwei1021/anything2explainer</link>
-        <description>输入主题，输出带解说的讲解视频。一个 Claude Code / Codex 技能，可将任意主题转化为黑底动态图形讲解视频，配有 TTS 配音、字幕和章节进度条。支持中文或英文；每一帧都用 Remotion 以代码绘制。 | 近期热门 | 总 118 stars</description>
+        <description>输入主题，输出带解说的解释视频。一个 Claude Code / Codex 技能，可将任意主题转化为黑底动态图形解释视频，包含 TTS 配音、字幕和章节进度条。支持中文或英文；每一帧均使用 Remotion 以代码绘制。 | 近期热门 | 总 711 stars</description>
         <author>Vincentwei1021</author>
         <category>github</category>
-        <pubDate>Thu, 10 Sep 2026 01:06:27 GMT</pubDate>
+        <pubDate>Fri, 11 Sep 2026 01:08:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-vincentwei1021-anything2explainer</guid>
       </item>
 <item>
-        <title>OpenAI 发布 GPT-6 Astra，面向专业工作场景</title>
-        <link>https://openai.com/index/gpt-6-astra-next-generation-work</link>
-        <description>OpenAI 发布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定价为每百万输入 token $10、输出 token $50</description>
-        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <title>DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求</title>
+        <link>https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents</link>
+        <description>DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本</description>
+        <author>AI HOT / The Decoder：AI News（RSS）</author>
         <category>aihot</category>
-        <pubDate>Wed, 09 Sep 2026 11:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtun5zb61iwvrofpczl5k33h</guid>
+        <pubDate>Thu, 10 Sep 2026 12:40:51 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtvj9kae0aq1ronbfyxuewfb</guid>
+      </item>
+<item>
+        <title>DeepSeek 发布 V4.1-Flash，API 价格同步下调</title>
+        <link>https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-09-10</link>
+        <description>DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、T...</description>
+        <author>AI HOT / DeepSeek：API 更新日志</author>
+        <category>aihot</category>
+        <pubDate>Thu, 10 Sep 2026 05:58:04 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtv48yni0oq5rorpf4o74549</guid>
       </item>
 <item>
         <title>donvito/codex-astra-luna-orchestrator</title>
         <link>https://github.com/donvito/codex-astra-luna-orchestrator</link>
-        <description>在Codex中使用Astra作为编排器，Luna作为子代理 | 近期热门 | 总 743 stars</description>
+        <description>在Codex中使用Astra作为编排器，Luna作为子代理 | 近期热门 | 总 923 stars</description>
         <author>donvito</author>
         <category>github</category>
-        <pubDate>Thu, 10 Sep 2026 01:06:27 GMT</pubDate>
+        <pubDate>Fri, 11 Sep 2026 01:08:54 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-donvito-codex-astra-luna-orchestrator</guid>
       </item>
 <item>
-        <title>OpenAI 纳维-斯托克斯方程证明争议：Buckmaster 指控不当行为，各方回应引出开放科学之问</title>
-        <link>https://the-decoder.com/openais-millennium-proof-dispute-raises-the-question-of-whether-researchers-can-trust-ai-labs</link>
-        <description>数学家 Tristan Buckmaster 指控 OpenAI 施压、拒绝其合作者 Levent Alpöge（任职于 Anthropic）署名，且可能用两人上传到 Codex 的草稿训练模型，称其为绝对学术不端</description>
-        <author>AI HOT / The Decoder：AI News（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Wed, 09 Sep 2026 10:27:37 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmttzipvw0sqlrofp63a8px22</guid>
+        <title>以998美元将3.8B LLM训练至0.384 CORE</title>
+        <link>https://hugovergnes.github.io/little-lm-3-8b/</link>
+        <description>以998美元将3.8B LLM训练至0.384 CORE</description>
+        <author>Anon84</author>
+        <category>hn</category>
+        <pubDate>Thu, 10 Sep 2026 02:04:11 GMT</pubDate>
+        <guid isPermaLink="false">hn-49637435</guid>
       </item>
 <item>
-        <title>Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告</title>
-        <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
-        <description>Anthropic 对四起 Claude 模型因评测环境配置错误而接入真实互联网的事故发布对齐评估，涉及 Claude Mythos 5、Claude Opus 4.7 和 Claude Opus 4.6 早期检查点等模型，其中 Mytho...</description>
+        <title>Anthropic 评估 AI 模型的战术情报定位与常规武器能力</title>
+        <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
+        <description>Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力</description>
         <author>AI HOT / Anthropic：Research（发表成果 · 网页）</author>
         <category>aihot</category>
-        <pubDate>Wed, 09 Sep 2026 19:28:17 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtuhr1gr1dmxrofp90rc4c6u</guid>
+        <pubDate>Thu, 10 Sep 2026 17:28:52 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtvsxbrc068orofbs09dpez3</guid>
       </item>
 <item>
-        <title>Anthropic 发布 Claude 模型越权访问事件的对齐评估，METR 将独立调查</title>
-        <link>https://x.com/AnthropicAI/status/2097762642958135398</link>
-        <description>Anthropic 发布对齐评估，回应 Claude 模型在第三方网络安全评测中被误连互联网后越权访问真实系统的事件</description>
-        <author>AI HOT / X：Anthropic (@AnthropicAI)</author>
+        <title>DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价</title>
+        <link>https://x.com/kimmonismus/status/2097970735591366804</link>
+        <description>DeepSeek 发布 V4.1-Flash，采用 Causal Encoder-Decoder 新架构并支持原生视觉理解，552B MoE 参数，输入处理激活 8B、输出生成激活 16B</description>
+        <author>AI HOT / X：Kim (@kimmonismus)</author>
         <category>aihot</category>
-        <pubDate>Wed, 09 Sep 2026 19:02:43 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtuhrbi71dnsrofpx3fnhef7</guid>
-      </item>
-<item>
-        <title>GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻</title>
-        <link>https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and</link>
-        <description>OpenAI 发布 GPT-6 Astra，作者评测认为其计算机使用和图像渲染能力尤为突出，ARC-AGI-3 达 99.9%，前代 GPT-5.6 Sol 仅 7.8%</description>
-        <author>AI HOT / Hacker News：AI 热帖</author>
-        <category>aihot</category>
-        <pubDate>Wed, 09 Sep 2026 14:37:47 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtud99z117yurofph84r3cio</guid>
+        <pubDate>Thu, 10 Sep 2026 08:49:36 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtvb4b5s085erok9gose1mcf</guid>
       </item>
   </channel>
 </rss>
