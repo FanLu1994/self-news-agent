@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/11)</title>
+    <title>今日 AI 开发者精选 (2026/9/12)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天最密集的信号来自 DeepSeek：V4.1-Flash 一次性带来新架构、原生视觉理解、KV cache 压缩和 API 降价，对做 Agent 和长上下文应用的开发者是实打实的成本利好。开源侧则集中出现了一批“给编码代理加编排/技能”的小工具（routeVSCODE、anything2explainer、codex-astra-luna-orchestrator），说明社区正在把 Codex / Claude Code 当作可扩展平台来用，而不是单纯当聊天框。</description>
+    <description>今天 GitHub Trending 上开发者工具集中爆发，核心信号很明确：**AI 编码代理的&quot;可观测性&quot;和&quot;模型自由度&quot;正在成为刚需**。一边是 tracecrate 帮你追踪 Claude Code / Codex 的实际运行轨迹，另一边 routeVSCODE 让你在 VSCode 里免重启切模型。同时 DeepSeek 官方放出 recipe、MCP 开始接管远程桌面——代理从&quot;写代码&quot;走向&quot;控环境&quot;的趋势越来越清晰。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 11 Sep 2026 01:09:37 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 01:10:27 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天最密集的信号来自 DeepSeek：V4.1-Flash 一次性带来新架构、原生视觉理解、KV cache 压缩和 API 降价，对做 Agent 和长上下文应用的开发者是实打实的成本利好。开源侧则集中出现了一批“给编码代理加编排/技能”的小工具（routeVSCODE、anything2explainer、codex-astra-luna-orchestrator），说明社区正在把 Codex / Claude Code 当作可扩展平台来用，而不是单纯当聊天框。</description>
-        <pubDate>Fri, 11 Sep 2026 01:09:37 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-11T01:09:31.771Z</guid>
+        <description>今天 GitHub Trending 上开发者工具集中爆发，核心信号很明确：**AI 编码代理的&quot;可观测性&quot;和&quot;模型自由度&quot;正在成为刚需**。一边是 tracecrate 帮你追踪 Claude Code / Codex 的实际运行轨迹，另一边 routeVSCODE 让你在 VSCode 里免重启切模型。同时 DeepSeek 官方放出 recipe、MCP 开始接管远程桌面——代理从&quot;写代码&quot;走向&quot;控环境&quot;的趋势越来越清晰。</description>
+        <pubDate>Sat, 12 Sep 2026 01:10:27 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-12T01:10:22.761Z</guid>
       </item>
     <item>
+        <title>FankChen/tracecrate</title>
+        <link>https://github.com/FankChen/tracecrate</link>
+        <description>本地优先的AI代理追踪工作台。检查Claude Code、Codex和OTLP日志，比较运行结果，并导出注重隐私的报告。无需后端或API密钥。 | 近期热门 | 总 102 stars</description>
+        <author>FankChen</author>
+        <category>github</category>
+        <pubDate>Sat, 12 Sep 2026 01:09:42 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-fankchen-tracecrate</guid>
+      </item>
+<item>
         <title>yudaprasetya007/routeVSCODE</title>
         <link>https://github.com/yudaprasetya007/routeVSCODE</link>
-        <description>⚡ 通过9Router为VSCode Copilot Chat实现零重载动态AI模型切换器与本地代理 | 近期热门 | 总 326 stars</description>
+        <description>⚡ 通过9Router实现VSCode Copilot Chat的零重载动态AI模型切换器与本地代理 | 近期热门 | 总 327 stars</description>
         <author>yudaprasetya007</author>
         <category>github</category>
-        <pubDate>Fri, 11 Sep 2026 01:08:54 GMT</pubDate>
+        <pubDate>Sat, 12 Sep 2026 01:09:42 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-yudaprasetya007-routevscode</guid>
       </item>
 <item>
-        <title>Vincentwei1021/anything2explainer</title>
-        <link>https://github.com/Vincentwei1021/anything2explainer</link>
-        <description>输入主题，输出带解说的解释视频。一个 Claude Code / Codex 技能，可将任意主题转化为黑底动态图形解释视频，包含 TTS 配音、字幕和章节进度条。支持中文或英文；每一帧均使用 Remotion 以代码绘制。 | 近期热门 | 总 711 stars</description>
-        <author>Vincentwei1021</author>
+        <title>VaderChen/YourDesk</title>
+        <link>https://github.com/VaderChen/YourDesk</link>
+        <description>跨平台远程桌面，适用于macOS和Windows，支持硬件加速、多显示器、文本、图像、文件和文件夹的剪贴板传输，以及MCP集成，使AI代理能够连接并控制远程计算机。 | 近期热门 | 总 183 stars</description>
+        <author>VaderChen</author>
         <category>github</category>
-        <pubDate>Fri, 11 Sep 2026 01:08:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vincentwei1021-anything2explainer</guid>
+        <pubDate>Sat, 12 Sep 2026 01:09:42 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-vaderchen-yourdesk</guid>
       </item>
 <item>
-        <title>DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求</title>
-        <link>https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents</link>
-        <description>DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本</description>
-        <author>AI HOT / The Decoder：AI News（RSS）</author>
+        <title>Beren Millidge、John Schulman、Charlie O&apos;Neill 对谈递归自我改进离我们还有多远</title>
+        <link>https://www.dwarkesh.com/p/john-beren-charlie</link>
+        <description>Dwarkesh Patel 与 Zyphra CTO Beren Millidge、Thinking Machines 首席科学家 John Schulman、Baseten 模型训练负责人 Charlie O&apos;Neill 三位研究者对谈...</description>
+        <author>AI HOT / Dwarkesh Patel：Podcast &amp; Blog（RSS）</author>
         <category>aihot</category>
-        <pubDate>Thu, 10 Sep 2026 12:40:51 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtvj9kae0aq1ronbfyxuewfb</guid>
+        <pubDate>Fri, 11 Sep 2026 16:28:11 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtx7e9sn09mmroedph6hkyx4</guid>
       </item>
 <item>
-        <title>DeepSeek 发布 V4.1-Flash，API 价格同步下调</title>
-        <link>https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-09-10</link>
-        <description>DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、T...</description>
-        <author>AI HOT / DeepSeek：API 更新日志</author>
-        <category>aihot</category>
-        <pubDate>Thu, 10 Sep 2026 05:58:04 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtv48yni0oq5rorpf4o74549</guid>
-      </item>
-<item>
-        <title>donvito/codex-astra-luna-orchestrator</title>
-        <link>https://github.com/donvito/codex-astra-luna-orchestrator</link>
-        <description>在Codex中使用Astra作为编排器，Luna作为子代理 | 近期热门 | 总 923 stars</description>
-        <author>donvito</author>
-        <category>github</category>
-        <pubDate>Fri, 11 Sep 2026 01:08:54 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-donvito-codex-astra-luna-orchestrator</guid>
-      </item>
-<item>
-        <title>以998美元将3.8B LLM训练至0.384 CORE</title>
-        <link>https://hugovergnes.github.io/little-lm-3-8b/</link>
-        <description>以998美元将3.8B LLM训练至0.384 CORE</description>
-        <author>Anon84</author>
+        <title>中央情报局发布总统每日简报以纪念9/11</title>
+        <link>https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/</link>
+        <description>&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;www.cia.gov&amp;#x2F;stories&amp;#x2F;story&amp;#x2F;cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11&amp;#x2F;seventy-one-declassified-presidents-daily...</description>
+        <author>stmw</author>
         <category>hn</category>
-        <pubDate>Thu, 10 Sep 2026 02:04:11 GMT</pubDate>
-        <guid isPermaLink="false">hn-49637435</guid>
+        <pubDate>Fri, 11 Sep 2026 18:30:07 GMT</pubDate>
+        <guid isPermaLink="false">hn-49663054</guid>
       </item>
 <item>
-        <title>Anthropic 评估 AI 模型的战术情报定位与常规武器能力</title>
-        <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
-        <description>Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力</description>
-        <author>AI HOT / Anthropic：Research（发表成果 · 网页）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 10 Sep 2026 17:28:52 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtvsxbrc068orofbs09dpez3</guid>
+        <title>Edge0-AI/Edge0</title>
+        <link>https://github.com/Edge0-AI/Edge0</link>
+        <description> | 近期热门 | 总 1350 stars</description>
+        <author>Edge0-AI</author>
+        <category>github</category>
+        <pubDate>Sat, 12 Sep 2026 01:09:42 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-edge0-ai-edge0</guid>
       </item>
 <item>
-        <title>DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价</title>
-        <link>https://x.com/kimmonismus/status/2097970735591366804</link>
-        <description>DeepSeek 发布 V4.1-Flash，采用 Causal Encoder-Decoder 新架构并支持原生视觉理解，552B MoE 参数，输入处理激活 8B、输出生成激活 16B</description>
-        <author>AI HOT / X：Kim (@kimmonismus)</author>
+        <title>deepseek-ai/deepseek-recipe</title>
+        <link>https://github.com/deepseek-ai/deepseek-recipe</link>
+        <description> | 近期热门 | 总 301 stars</description>
+        <author>deepseek-ai</author>
+        <category>github</category>
+        <pubDate>Sat, 12 Sep 2026 01:09:42 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-deepseek-ai-deepseek-recipe</guid>
+      </item>
+<item>
+        <title>GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化</title>
+        <link>https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github</link>
+        <description>GitHub 日韩地区营销负责人 Tomoko Tanaka 分享如何不写代码，把活动运营交给 GitHub Copilot 自动化</description>
+        <author>AI HOT / GitHub Blog</author>
         <category>aihot</category>
-        <pubDate>Thu, 10 Sep 2026 08:49:36 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtvb4b5s085erok9gose1mcf</guid>
+        <pubDate>Fri, 11 Sep 2026 18:26:10 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtxbm8dp037xrouueja171wr</guid>
       </item>
   </channel>
 </rss>
