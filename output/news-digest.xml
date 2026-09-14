@@ -1,89 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/13)</title>
+    <title>今日 AI 开发者精选 (2026/9/14)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天最值得开发者关注的，是 AI 代理（Agent）正在从“对话”走向“可观测、可控制、可连接”的工程化阶段。一边是 tracecrate 这类本地追踪工具，让 Claude Code、Codex 的运行过程变得可检查；另一边是 YourDesk 通过 MCP 让 AI 代理直接控制远程桌面。与此同时，语音模型开放 API、确定性 LLM 推理、企业私有代码库基准测试等进展，都在提示我们：AI 开发者工具链正在快速补齐“最后一公里”。</description>
+    <description>今天的技术信号集中在两个方向：一是 **Agent 长任务工程化**开始从“能跑”走向“怎么跑得稳”，上下文管理成为核心议题；二是 **AI 安全与地缘政治的交集**越来越具体——胡塞组织用 Claude Code 开发导弹软件这条，是本周最值得开发者留意的现实案例。开源侧，text-humanizer 用 731 stars 说明“反 AI 检测”仍是刚需，而 viserys-agent 代表 agent 赛道持续有新项目涌入。
+
+---</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 13 Sep 2026 01:04:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 01:09:14 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天最值得开发者关注的，是 AI 代理（Agent）正在从“对话”走向“可观测、可控制、可连接”的工程化阶段。一边是 tracecrate 这类本地追踪工具，让 Claude Code、Codex 的运行过程变得可检查；另一边是 YourDesk 通过 MCP 让 AI 代理直接控制远程桌面。与此同时，语音模型开放 API、确定性 LLM 推理、企业私有代码库基准测试等进展，都在提示我们：AI 开发者工具链正在快速补齐“最后一公里”。</description>
-        <pubDate>Sun, 13 Sep 2026 01:04:15 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-13T01:04:13.175Z</guid>
+        <description>今天的技术信号集中在两个方向：一是 **Agent 长任务工程化**开始从“能跑”走向“怎么跑得稳”，上下文管理成为核心议题；二是 **AI 安全与地缘政治的交集**越来越具体——胡塞组织用 Claude Code 开发导弹软件这条，是本周最值得开发者留意的现实案例。开源侧，text-humanizer 用 731 stars 说明“反 AI 检测”仍是刚需，而 viserys-agent 代表 agent 赛道持续有新项目涌入。
+
+---</description>
+        <pubDate>Mon, 14 Sep 2026 01:09:14 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-14T01:09:11.600Z</guid>
       </item>
     <item>
-        <title>FankChen/tracecrate</title>
-        <link>https://github.com/FankChen/tracecrate</link>
-        <description>本地优先的AI代理追踪工作台。检查Claude Code、Codex和OTLP日志，比较运行结果，并导出注重隐私的报告。无需后端或API密钥。 | 近期热门 | 总 111 stars</description>
-        <author>FankChen</author>
+        <title>SpaceDudem/text-humanizer</title>
+        <link>https://github.com/SpaceDudem/text-humanizer</link>
+        <description>text-humanizer 是一个开源项目，旨在将 AI 生成的文本转换为其“人性化”版本。绕过大多数 AI 检测器，如 Turnitin 或 GPTZero | 近期热门 | 总 731 stars</description>
+        <author>SpaceDudem</author>
         <category>github</category>
-        <pubDate>Sun, 13 Sep 2026 01:03:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-fankchen-tracecrate</guid>
+        <pubDate>Mon, 14 Sep 2026 01:08:37 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-spacedudem-text-humanizer</guid>
       </item>
 <item>
-        <title>Real-SWE：在私有、真实世界的企业代码库上对AI模型进行基准测试</title>
-        <link>https://withspecific.com/benchmarks/real-swe</link>
-        <description>Real-SWE：在私有、真实世界的企业代码库上对AI模型进行基准测试</description>
-        <author>theanonymousone</author>
+        <title>大卫·萨克斯：OpenAI和Anthropic不需要监管来调整前沿模型的步伐</title>
+        <link>https://twitter.com/DavidSacks/status/2098973625252708460</link>
+        <description>大卫·萨克斯：OpenAI和Anthropic不需要监管来调整前沿模型的步伐</description>
+        <author>kolanos</author>
         <category>hn</category>
-        <pubDate>Sat, 12 Sep 2026 20:25:48 GMT</pubDate>
-        <guid isPermaLink="false">hn-49676820</guid>
+        <pubDate>Sun, 13 Sep 2026 16:52:33 GMT</pubDate>
+        <guid isPermaLink="false">hn-49685991</guid>
       </item>
 <item>
-        <title>VaderChen/YourDesk</title>
-        <link>https://github.com/VaderChen/YourDesk</link>
-        <description>跨平台远程桌面，适用于macOS和Windows，具备硬件加速、多显示器支持、文本、图像、文件和文件夹的剪贴板传输，以及MCP集成，使AI代理能够连接并控制远程计算机。 | 近期热门 | 总 196 stars</description>
-        <author>VaderChen</author>
+        <title>Garry Tan也希望美国开放权重AI实验室“蒸馏”前沿模型</title>
+        <link>https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/</link>
+        <description>Garry Tan也希望美国开放权重AI实验室“蒸馏”前沿模型</description>
+        <author>TheJCDenton</author>
+        <category>hn</category>
+        <pubDate>Sun, 13 Sep 2026 15:44:38 GMT</pubDate>
+        <guid isPermaLink="false">hn-49685253</guid>
+      </item>
+<item>
+        <title>rizqinrr/viserys-agent</title>
+        <link>https://github.com/rizqinrr/viserys-agent</link>
+        <description> | 近期热门 | 总 628 stars</description>
+        <author>rizqinrr</author>
         <category>github</category>
-        <pubDate>Sun, 13 Sep 2026 01:03:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-vaderchen-yourdesk</guid>
+        <pubDate>Mon, 14 Sep 2026 01:08:37 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-rizqinrr-viserys-agent</guid>
       </item>
 <item>
-        <title>OpenAI 将 GPT-Live-1 语音模型开放至 API</title>
-        <link>https://x.com/OpenAIDevs/status/2098913661993603215</link>
-        <description>OpenAI 宣布 GPT-Live-1 正式登陆 API，即 1-800-ChatGPT 背后的语音能力</description>
-        <author>AI HOT / X：OpenAI Developers (@OpenAIDevs)</author>
-        <category>aihot</category>
-        <pubDate>Sat, 12 Sep 2026 23:16:27 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtz1a2f10pr2roupq2k1944c</guid>
-      </item>
-<item>
-        <title>Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码</title>
-        <link>https://www.minitap.ai/blog/i-expected-better-from-google</link>
-        <description>Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三...</description>
+        <title>Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件</title>
+        <link>https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo</link>
+        <description>Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件</description>
         <author>AI HOT / Hacker News：AI 热帖</author>
         <category>aihot</category>
-        <pubDate>Sat, 12 Sep 2026 02:39:39 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtxvt03h068vrous6ilk8ds7</guid>
+        <pubDate>Sun, 13 Sep 2026 14:15:40 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu01iavi08reroymepsxnar2</guid>
       </item>
 <item>
-        <title>Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本</title>
-        <link>https://suno.com/blog/introducing-v6</link>
-        <description>Suno 发布新一代音乐模型 v6，与 Warner Music Group、BMG、Believe 等行业伙伴合作开发，后续将全面替换旧模型</description>
-        <author>AI HOT / Suno：Blog（网页）</author>
-        <category>aihot</category>
-        <pubDate>Sat, 12 Sep 2026 16:39:24 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtym1wo1039krodl7j8164q8</guid>
-      </item>
-<item>
-        <title>Show HN：以最低价格实现确定性LLM推理，Gemma 4，搭载Windows XP</title>
-        <link>https://www.tokendelivery.ai/</link>
-        <description>Show HN：以最低价格对 Gemma 4 进行确定性 LLM 推理，并支持 Windows XP</description>
-        <author>carsonpoole</author>
+        <title>AI模型不会杀人——人才会杀人</title>
+        <link>https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368</link>
+        <description>AI模型不会杀人——人才会杀人</description>
+        <author>Bender</author>
         <category>hn</category>
-        <pubDate>Sat, 12 Sep 2026 16:45:14 GMT</pubDate>
-        <guid isPermaLink="false">hn-49674280</guid>
+        <pubDate>Sun, 13 Sep 2026 13:33:34 GMT</pubDate>
+        <guid isPermaLink="false">hn-49683834</guid>
       </item>
 <item>
-        <title>Smart-Paocai/VioletToolBox</title>
-        <link>https://github.com/Smart-Paocai/VioletToolBox</link>
-        <description>一款面向安卓开发的多功能玩机工具箱 | 近期热门 | 总 99 stars</description>
-        <author>Smart-Paocai</author>
-        <category>github</category>
-        <pubDate>Sun, 13 Sep 2026 01:03:39 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-smart-paocai-violettoolbox</guid>
+        <title>Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失</title>
+        <link>https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks</link>
+        <description>文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Sun, 13 Sep 2026 05:56:03 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmtzezuk0077wrowyi7a4qy7v</guid>
+      </item>
+<item>
+        <title>AI递归自我改进或许终究不会来得那么快</title>
+        <link>https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/</link>
+        <description>人工智能递归式自我改进或许终究不会来得那么快</description>
+        <author>dgellow</author>
+        <category>hn</category>
+        <pubDate>Sun, 13 Sep 2026 18:49:44 GMT</pubDate>
+        <guid isPermaLink="false">hn-49687334</guid>
       </item>
   </channel>
 </rss>
