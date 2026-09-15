@@ -1,93 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/14)</title>
+    <title>今日 AI 开发者精选 (2026/9/15)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的技术信号集中在两个方向：一是 **Agent 长任务工程化**开始从“能跑”走向“怎么跑得稳”，上下文管理成为核心议题；二是 **AI 安全与地缘政治的交集**越来越具体——胡塞组织用 Claude Code 开发导弹软件这条，是本周最值得开发者留意的现实案例。开源侧，text-humanizer 用 731 stars 说明“反 AI 检测”仍是刚需，而 viserys-agent 代表 agent 赛道持续有新项目涌入。
-
----</description>
+    <description>今天开源 Agent 生态迎来一波密集更新：小红书把 Search Agent 模型 Iris 开源，DeepSeek-V4.1-Flash 在 Agent Arena 冲上开源第三、又被 Fireworks 评测出接近 GPT-6 Astra 的编码水准。开发者侧，AgentVerse-OS 把「个人 AI 云操作系统」做成一键安装的开源项目，值得上手试。整体看，Agent 的能力基线在往上走，成本却在往下走。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 14 Sep 2026 01:09:14 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 01:31:43 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的技术信号集中在两个方向：一是 **Agent 长任务工程化**开始从“能跑”走向“怎么跑得稳”，上下文管理成为核心议题；二是 **AI 安全与地缘政治的交集**越来越具体——胡塞组织用 Claude Code 开发导弹软件这条，是本周最值得开发者留意的现实案例。开源侧，text-humanizer 用 731 stars 说明“反 AI 检测”仍是刚需，而 viserys-agent 代表 agent 赛道持续有新项目涌入。
-
----</description>
-        <pubDate>Mon, 14 Sep 2026 01:09:14 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-14T01:09:11.600Z</guid>
+        <description>今天开源 Agent 生态迎来一波密集更新：小红书把 Search Agent 模型 Iris 开源，DeepSeek-V4.1-Flash 在 Agent Arena 冲上开源第三、又被 Fireworks 评测出接近 GPT-6 Astra 的编码水准。开发者侧，AgentVerse-OS 把「个人 AI 云操作系统」做成一键安装的开源项目，值得上手试。整体看，Agent 的能力基线在往上走，成本却在往下走。</description>
+        <pubDate>Tue, 15 Sep 2026 01:31:43 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-15T01:31:37.964Z</guid>
       </item>
     <item>
-        <title>SpaceDudem/text-humanizer</title>
-        <link>https://github.com/SpaceDudem/text-humanizer</link>
-        <description>text-humanizer 是一个开源项目，旨在将 AI 生成的文本转换为其“人性化”版本。绕过大多数 AI 检测器，如 Turnitin 或 GPTZero | 近期热门 | 总 731 stars</description>
-        <author>SpaceDudem</author>
+        <title>agentverse-os/AgentVerse-OS</title>
+        <link>https://github.com/agentverse-os/AgentVerse-OS</link>
+        <description>面向开发者及其AI代理的个人云操作系统，运行于单台服务器。在Ubuntu上一键安装，随后一切都在浏览器中：窗口化桌面、隔离工作区（含VS Code、Claude Code和Codex）、944个自托管应用商店、备份与更新。仅通过Tailscale访问，不向互联网暴露任何内容。Rust核心，Svelte界面。 | 近期热门 | 总 280 stars</description>
+        <author>agentverse-os</author>
         <category>github</category>
-        <pubDate>Mon, 14 Sep 2026 01:08:37 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-spacedudem-text-humanizer</guid>
+        <pubDate>Tue, 15 Sep 2026 01:30:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-agentverse-os-agentverse-os</guid>
       </item>
 <item>
-        <title>大卫·萨克斯：OpenAI和Anthropic不需要监管来调整前沿模型的步伐</title>
-        <link>https://twitter.com/DavidSacks/status/2098973625252708460</link>
-        <description>大卫·萨克斯：OpenAI和Anthropic不需要监管来调整前沿模型的步伐</description>
-        <author>kolanos</author>
-        <category>hn</category>
-        <pubDate>Sun, 13 Sep 2026 16:52:33 GMT</pubDate>
-        <guid isPermaLink="false">hn-49685991</guid>
+        <title>小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先</title>
+        <link>https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&amp;mid=2247496383&amp;idx=1&amp;sn=2db8607f797615a3647d9fec7e54f448</link>
+        <description>小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布</description>
+        <author>AI HOT / 公众号：小红书技术（dots.llm）</author>
+        <category>aihot</category>
+        <pubDate>Mon, 14 Sep 2026 09:59:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu12ocst0b6nro2nypi25zyq</guid>
       </item>
 <item>
-        <title>Garry Tan也希望美国开放权重AI实验室“蒸馏”前沿模型</title>
-        <link>https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/</link>
-        <description>Garry Tan也希望美国开放权重AI实验室“蒸馏”前沿模型</description>
-        <author>TheJCDenton</author>
-        <category>hn</category>
-        <pubDate>Sun, 13 Sep 2026 15:44:38 GMT</pubDate>
-        <guid isPermaLink="false">hn-49685253</guid>
-      </item>
-<item>
-        <title>rizqinrr/viserys-agent</title>
-        <link>https://github.com/rizqinrr/viserys-agent</link>
-        <description> | 近期热门 | 总 628 stars</description>
-        <author>rizqinrr</author>
+        <title>kruzovic7/ai-data-extractor</title>
+        <link>https://github.com/kruzovic7/ai-data-extractor</link>
+        <description>免费开源提取器，用于AI编程助手聊天历史。支持Claude Code、Cursor、Windsurf、Aider、Cline/Roo Code等。 | 近期热门 | 总 811 stars</description>
+        <author>kruzovic7</author>
         <category>github</category>
-        <pubDate>Mon, 14 Sep 2026 01:08:37 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-rizqinrr-viserys-agent</guid>
+        <pubDate>Tue, 15 Sep 2026 01:30:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-kruzovic7-ai-data-extractor</guid>
       </item>
 <item>
-        <title>Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件</title>
-        <link>https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo</link>
-        <description>Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件</description>
-        <author>AI HOT / Hacker News：AI 热帖</author>
+        <title>DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名</title>
+        <link>https://x.com/arena/status/2099549108013006958</link>
+        <description>DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿</description>
+        <author>AI HOT / X：Arena (@arena)</author>
         <category>aihot</category>
-        <pubDate>Sun, 13 Sep 2026 14:15:40 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu01iavi08reroymepsxnar2</guid>
+        <pubDate>Mon, 14 Sep 2026 17:21:29 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu1jhejj0njbrocn5llfnktp</guid>
       </item>
 <item>
-        <title>AI模型不会杀人——人才会杀人</title>
-        <link>https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368</link>
-        <description>AI模型不会杀人——人才会杀人</description>
-        <author>Bender</author>
-        <category>hn</category>
-        <pubDate>Sun, 13 Sep 2026 13:33:34 GMT</pubDate>
-        <guid isPermaLink="false">hn-49683834</guid>
-      </item>
-<item>
-        <title>Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失</title>
-        <link>https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks</link>
-        <description>文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆</description>
-        <author>AI HOT / MarkTechPost（RSS）</author>
+        <title>硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文</title>
+        <link>https://x.com/SiliconFlowAI/status/2099536759168352634</link>
+        <description>硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台</description>
+        <author>AI HOT / X：硅基流动 SiliconFlow (@SiliconFlowAI)</author>
         <category>aihot</category>
-        <pubDate>Sun, 13 Sep 2026 05:56:03 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmtzezuk0077wrowyi7a4qy7v</guid>
+        <pubDate>Mon, 14 Sep 2026 16:32:25 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu1gt8gn097trocnxxvdhxli</guid>
       </item>
 <item>
-        <title>AI递归自我改进或许终究不会来得那么快</title>
-        <link>https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/</link>
-        <description>人工智能递归式自我改进或许终究不会来得那么快</description>
-        <author>dgellow</author>
+        <title>展示 HN：Pelican 自行车的替代方案</title>
+        <link>https://gally.net/temp/20260914pelican-alternatives/index.html</link>
+        <description>2025年11月和12月，受Simon Willison的“骑自行车的鹈鹕”基准测试启发，我让当时的一些LLM根据三十个类似的提示词生成SVG，例如“生成一个章鱼的SVG……</description>
+        <author>tkgally</author>
         <category>hn</category>
-        <pubDate>Sun, 13 Sep 2026 18:49:44 GMT</pubDate>
-        <guid isPermaLink="false">hn-49687334</guid>
+        <pubDate>Mon, 14 Sep 2026 13:20:22 GMT</pubDate>
+        <guid isPermaLink="false">hn-49696402</guid>
+      </item>
+<item>
+        <title>Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15</title>
+        <link>https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra</link>
+        <description>Fireworks 发布 DeepSeek-V4.1-Flash 并公布完整基准结果：在 DeepSWE 上以 max 档取得 74.34% pass@1，与 GPT-6 Astra 同一水平，但每任务成本 $0.43，约为 Astra 的...</description>
+        <author>AI HOT / Fireworks AI（网页）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 15 Sep 2026 00:36:35 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu1xyw1004hvromg5m4jf131</guid>
+      </item>
+<item>
+        <title>nftechie/stonkfly</title>
+        <link>https://github.com/nftechie/stonkfly</link>
+        <description>一个完整保留的果蝇连接组模拟，具有实验性记忆和受保护的Coinbase AgentKit交易操作。 | 近期热门 | 总 651 stars</description>
+        <author>nftechie</author>
+        <category>github</category>
+        <pubDate>Tue, 15 Sep 2026 01:30:57 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-nftechie-stonkfly</guid>
       </item>
   </channel>
 </rss>
