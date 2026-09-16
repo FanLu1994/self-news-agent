@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/15)</title>
+    <title>今日 AI 开发者精选 (2026/9/16)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天开源 Agent 生态迎来一波密集更新：小红书把 Search Agent 模型 Iris 开源，DeepSeek-V4.1-Flash 在 Agent Arena 冲上开源第三、又被 Fireworks 评测出接近 GPT-6 Astra 的编码水准。开发者侧，AgentVerse-OS 把「个人 AI 云操作系统」做成一键安装的开源项目，值得上手试。整体看，Agent 的能力基线在往上走，成本却在往下走。</description>
+    <description>今天的候选内容集中在两件事上：一是围绕编码代理（coding agent）的桌面端工具链正在快速补齐——从统一启动器到 3D 场景生成技能，再到聊天历史提取，开发者周边工具越来越&quot;细活化&quot;；二是 Google 在模型侧继续推进多语言和实时语音智能体，翻译与语音交互的可用性又往前走了一步。此外，GitHub 上出现了把&quot;个人云操作系统&quot;和代理结合的项目，值得关注其形态是否会被更多人跟进。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 15 Sep 2026 01:31:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 01:28:57 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天开源 Agent 生态迎来一波密集更新：小红书把 Search Agent 模型 Iris 开源，DeepSeek-V4.1-Flash 在 Agent Arena 冲上开源第三、又被 Fireworks 评测出接近 GPT-6 Astra 的编码水准。开发者侧，AgentVerse-OS 把「个人 AI 云操作系统」做成一键安装的开源项目，值得上手试。整体看，Agent 的能力基线在往上走，成本却在往下走。</description>
-        <pubDate>Tue, 15 Sep 2026 01:31:43 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-15T01:31:37.964Z</guid>
+        <description>今天的候选内容集中在两件事上：一是围绕编码代理（coding agent）的桌面端工具链正在快速补齐——从统一启动器到 3D 场景生成技能，再到聊天历史提取，开发者周边工具越来越&quot;细活化&quot;；二是 Google 在模型侧继续推进多语言和实时语音智能体，翻译与语音交互的可用性又往前走了一步。此外，GitHub 上出现了把&quot;个人云操作系统&quot;和代理结合的项目，值得关注其形态是否会被更多人跟进。</description>
+        <pubDate>Wed, 16 Sep 2026 01:28:57 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-16T01:28:52.792Z</guid>
       </item>
     <item>
         <title>agentverse-os/AgentVerse-OS</title>
         <link>https://github.com/agentverse-os/AgentVerse-OS</link>
-        <description>面向开发者及其AI代理的个人云操作系统，运行于单台服务器。在Ubuntu上一键安装，随后一切都在浏览器中：窗口化桌面、隔离工作区（含VS Code、Claude Code和Codex）、944个自托管应用商店、备份与更新。仅通过Tailscale访问，不向互联网暴露任何内容。Rust核心，Svelte界面。 | 近期热门 | 总 280 stars</description>
+        <description>面向开发者及其AI代理的个人云操作系统，运行于单台服务器。在Ubuntu上一键安装，随后一切都在浏览器中：窗口化桌面、隔离工作区（含VS Code、Claude Code和Codex）、944个自托管应用商店、备份与更新。仅通过Tailscale访问，不向互联网暴露任何内容。Rust核心，Svelte界面。 | 近期热门 | 总 589 stars</description>
         <author>agentverse-os</author>
         <category>github</category>
-        <pubDate>Tue, 15 Sep 2026 01:30:57 GMT</pubDate>
+        <pubDate>Wed, 16 Sep 2026 01:28:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-agentverse-os-agentverse-os</guid>
       </item>
 <item>
-        <title>小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先</title>
-        <link>https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&amp;mid=2247496383&amp;idx=1&amp;sn=2db8607f797615a3647d9fec7e54f448</link>
-        <description>小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布</description>
-        <author>AI HOT / 公众号：小红书技术（dots.llm）</author>
-        <category>aihot</category>
-        <pubDate>Mon, 14 Sep 2026 09:59:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu12ocst0b6nro2nypi25zyq</guid>
+        <title>viettranx/3dviz-pro-max</title>
+        <link>https://github.com/viettranx/3dviz-pro-max</link>
+        <description>创意3D可视化智能体技能：将想法转化为值得探索的Three.js/Blender场景。Claude Code + Codex插件，223个配方，440条知识记录，22个已验证工具包，37个可运行研究。 | 近期热门 | 总 401 stars</description>
+        <author>viettranx</author>
+        <category>github</category>
+        <pubDate>Wed, 16 Sep 2026 01:28:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-viettranx-3dviz-pro-max</guid>
+      </item>
+<item>
+        <title>agent-launch/agent-launcher</title>
+        <link>https://github.com/agent-launch/agent-launcher</link>
+        <description>在一个桌面应用中配置和运行现有的编码代理命令行界面。 | 近期热门 | 总 180 stars</description>
+        <author>agent-launch</author>
+        <category>github</category>
+        <pubDate>Wed, 16 Sep 2026 01:28:20 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-agent-launch-agent-launcher</guid>
       </item>
 <item>
         <title>kruzovic7/ai-data-extractor</title>
         <link>https://github.com/kruzovic7/ai-data-extractor</link>
-        <description>免费开源提取器，用于AI编程助手聊天历史。支持Claude Code、Cursor、Windsurf、Aider、Cline/Roo Code等。 | 近期热门 | 总 811 stars</description>
+        <description>免费开源提取器，用于AI编程助手聊天历史。支持Claude Code、Cursor、Windsurf、Aider、Cline/Roo Code等。 | 近期热门 | 总 822 stars</description>
         <author>kruzovic7</author>
         <category>github</category>
-        <pubDate>Tue, 15 Sep 2026 01:30:57 GMT</pubDate>
+        <pubDate>Wed, 16 Sep 2026 01:28:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-kruzovic7-ai-data-extractor</guid>
       </item>
 <item>
-        <title>DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名</title>
-        <link>https://x.com/arena/status/2099549108013006958</link>
-        <description>DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿</description>
-        <author>AI HOT / X：Arena (@arena)</author>
-        <category>aihot</category>
-        <pubDate>Mon, 14 Sep 2026 17:21:29 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu1jhejj0njbrocn5llfnktp</guid>
-      </item>
-<item>
-        <title>硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文</title>
-        <link>https://x.com/SiliconFlowAI/status/2099536759168352634</link>
-        <description>硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台</description>
-        <author>AI HOT / X：硅基流动 SiliconFlow (@SiliconFlowAI)</author>
-        <category>aihot</category>
-        <pubDate>Mon, 14 Sep 2026 16:32:25 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu1gt8gn097trocnxxvdhxli</guid>
-      </item>
-<item>
-        <title>展示 HN：Pelican 自行车的替代方案</title>
-        <link>https://gally.net/temp/20260914pelican-alternatives/index.html</link>
-        <description>2025年11月和12月，受Simon Willison的“骑自行车的鹈鹕”基准测试启发，我让当时的一些LLM根据三十个类似的提示词生成SVG，例如“生成一个章鱼的SVG……</description>
-        <author>tkgally</author>
+        <title>为什么在纳维-斯托克斯之后我仍然看空LLM</title>
+        <link>https://dank.systems/posts/2026-09-15-ai-bear.html</link>
+        <description>为什么在纳维-斯托克斯之后我仍然看空大型语言模型</description>
+        <author>jaykru</author>
         <category>hn</category>
-        <pubDate>Mon, 14 Sep 2026 13:20:22 GMT</pubDate>
-        <guid isPermaLink="false">hn-49696402</guid>
+        <pubDate>Tue, 15 Sep 2026 17:37:12 GMT</pubDate>
+        <guid isPermaLink="false">hn-49715927</guid>
       </item>
 <item>
-        <title>Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15</title>
-        <link>https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra</link>
-        <description>Fireworks 发布 DeepSeek-V4.1-Flash 并公布完整基准结果：在 DeepSWE 上以 max 档取得 74.34% pass@1，与 GPT-6 Astra 同一水平，但每任务成本 $0.43，约为 Astra 的...</description>
-        <author>AI HOT / Fireworks AI（网页）</author>
+        <title>Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言</title>
+        <link>https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language</link>
+        <description>Google 宣布其语言技术已支持超过 300 种语言、覆盖全球 86% 人口，并发布 TranslateGemma 轻量开源翻译模型（基于 Gemini 训练、支持 55 种语言、可离线运行）</description>
+        <author>AI HOT / Google Blog：AI（RSS）</author>
         <category>aihot</category>
-        <pubDate>Tue, 15 Sep 2026 00:36:35 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu1xyw1004hvromg5m4jf131</guid>
+        <pubDate>Tue, 15 Sep 2026 16:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu2vlgqe03sxrowkkyx8bc1s</guid>
       </item>
 <item>
         <title>nftechie/stonkfly</title>
         <link>https://github.com/nftechie/stonkfly</link>
-        <description>一个完整保留的果蝇连接组模拟，具有实验性记忆和受保护的Coinbase AgentKit交易操作。 | 近期热门 | 总 651 stars</description>
+        <description>一个完整保留的果蝇连接组模拟，具有实验性记忆和受保护的Coinbase AgentKit交易操作。 | 近期热门 | 总 690 stars</description>
         <author>nftechie</author>
         <category>github</category>
-        <pubDate>Tue, 15 Sep 2026 01:30:57 GMT</pubDate>
+        <pubDate>Wed, 16 Sep 2026 01:28:20 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-nftechie-stonkfly</guid>
+      </item>
+<item>
+        <title>Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking</title>
+        <link>https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking</link>
+        <description>Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行</description>
+        <author>AI HOT / Google DeepMind：Blog（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Tue, 15 Sep 2026 17:05:57 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu2xqfxz02zhroc1hxuzi6jm</guid>
       </item>
   </channel>
 </rss>
