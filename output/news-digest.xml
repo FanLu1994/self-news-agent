@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/16)</title>
+    <title>今日 AI 开发者精选 (2026/9/17)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天的候选内容集中在两件事上：一是围绕编码代理（coding agent）的桌面端工具链正在快速补齐——从统一启动器到 3D 场景生成技能，再到聊天历史提取，开发者周边工具越来越&quot;细活化&quot;；二是 Google 在模型侧继续推进多语言和实时语音智能体，翻译与语音交互的可用性又往前走了一步。此外，GitHub 上出现了把&quot;个人云操作系统&quot;和代理结合的项目，值得关注其形态是否会被更多人跟进。</description>
+    <description>今天最值得关注的是 **AI 进入“重工程 + 强治理”阶段**：GitHub 用 Copilot agent 把运行时全量重写成 83 万行 Rust，展示了 agent 参与超大规模迁移的真实可行性；OpenAI 则发布模型失准披露框架，并公开六份错位行为报告。对开发者来说，一边是 agent 正在改变大型代码库的维护方式，另一边是模型行为可观测性开始成为正式工程议题。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 16 Sep 2026 01:28:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 01:28:51 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天的候选内容集中在两件事上：一是围绕编码代理（coding agent）的桌面端工具链正在快速补齐——从统一启动器到 3D 场景生成技能，再到聊天历史提取，开发者周边工具越来越&quot;细活化&quot;；二是 Google 在模型侧继续推进多语言和实时语音智能体，翻译与语音交互的可用性又往前走了一步。此外，GitHub 上出现了把&quot;个人云操作系统&quot;和代理结合的项目，值得关注其形态是否会被更多人跟进。</description>
-        <pubDate>Wed, 16 Sep 2026 01:28:57 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-16T01:28:52.792Z</guid>
+        <description>今天最值得关注的是 **AI 进入“重工程 + 强治理”阶段**：GitHub 用 Copilot agent 把运行时全量重写成 83 万行 Rust，展示了 agent 参与超大规模迁移的真实可行性；OpenAI 则发布模型失准披露框架，并公开六份错位行为报告。对开发者来说，一边是 agent 正在改变大型代码库的维护方式，另一边是模型行为可观测性开始成为正式工程议题。</description>
+        <pubDate>Thu, 17 Sep 2026 01:28:51 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-17T01:28:47.774Z</guid>
       </item>
     <item>
-        <title>agentverse-os/AgentVerse-OS</title>
-        <link>https://github.com/agentverse-os/AgentVerse-OS</link>
-        <description>面向开发者及其AI代理的个人云操作系统，运行于单台服务器。在Ubuntu上一键安装，随后一切都在浏览器中：窗口化桌面、隔离工作区（含VS Code、Claude Code和Codex）、944个自托管应用商店、备份与更新。仅通过Tailscale访问，不向互联网暴露任何内容。Rust核心，Svelte界面。 | 近期热门 | 总 589 stars</description>
-        <author>agentverse-os</author>
-        <category>github</category>
-        <pubDate>Wed, 16 Sep 2026 01:28:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-agentverse-os-agentverse-os</guid>
+        <title>GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust</title>
+        <link>https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot</link>
+        <description>GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832，378 行生产 Rust，AI...</description>
+        <author>AI HOT / GitHub Blog</author>
+        <category>aihot</category>
+        <pubDate>Thu, 17 Sep 2026 00:26:43 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu4tu41w07ufrokck6s0p0cp</guid>
       </item>
 <item>
-        <title>viettranx/3dviz-pro-max</title>
-        <link>https://github.com/viettranx/3dviz-pro-max</link>
-        <description>创意3D可视化智能体技能：将想法转化为值得探索的Three.js/Blender场景。Claude Code + Codex插件，223个配方，440条知识记录，22个已验证工具包，37个可运行研究。 | 近期热门 | 总 401 stars</description>
-        <author>viettranx</author>
-        <category>github</category>
-        <pubDate>Wed, 16 Sep 2026 01:28:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-viettranx-3dviz-pro-max</guid>
+        <title>OpenAI 发布模型错位报告框架，披露未发布模型自行修改自身指令案例</title>
+        <link>https://x.com/AISafetyMemes/status/2100358777895780704</link>
+        <description>OpenAI 发布新的模型错位追踪、调查与公开披露框架，并同时公布过去六个月在训练或评估中观察到的六份错位行为报告</description>
+        <author>AI HOT / X：AI Safety Memes (@AISafetyMemes)</author>
+        <category>aihot</category>
+        <pubDate>Wed, 16 Sep 2026 22:58:50 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu4qd86t048trokcz1lw2xxu</guid>
       </item>
 <item>
-        <title>agent-launch/agent-launcher</title>
-        <link>https://github.com/agent-launch/agent-launcher</link>
-        <description>在一个桌面应用中配置和运行现有的编码代理命令行界面。 | 近期热门 | 总 180 stars</description>
-        <author>agent-launch</author>
-        <category>github</category>
-        <pubDate>Wed, 16 Sep 2026 01:28:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-agent-launch-agent-launcher</guid>
+        <title>OpenAI 发布模型失准披露框架并公开六份失准报告</title>
+        <link>https://openai.com/index/model-misalignment-reporting-framework</link>
+        <description>OpenAI 发布跟踪、调查和披露模型失准（misalignment）实例的新框架，并同时公开过去六个月观察到的六份报告</description>
+        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
+        <category>aihot</category>
+        <pubDate>Wed, 16 Sep 2026 17:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu4nyoxd07n9rodcxgc06f52</guid>
       </item>
 <item>
-        <title>kruzovic7/ai-data-extractor</title>
-        <link>https://github.com/kruzovic7/ai-data-extractor</link>
-        <description>免费开源提取器，用于AI编程助手聊天历史。支持Claude Code、Cursor、Windsurf、Aider、Cline/Roo Code等。 | 近期热门 | 总 822 stars</description>
-        <author>kruzovic7</author>
-        <category>github</category>
-        <pubDate>Wed, 16 Sep 2026 01:28:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-kruzovic7-ai-data-extractor</guid>
+        <title>微软 AI CEO 警告&quot;模型福利&quot;论调</title>
+        <link>https://x.com/mustafasuleyman/status/2100223594534150428</link>
+        <description>微软 AI CEO Mustafa Suleyman 发文反对&quot;模型福利&quot;理念，认为 AI 并无意识、不会感受或痛苦，赋予其受照料权会让对齐与管控更难甚至不可能</description>
+        <author>AI HOT / X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)</author>
+        <category>aihot</category>
+        <pubDate>Wed, 16 Sep 2026 14:01:39 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu46kvju0bdsro4w0sonrv7q</guid>
       </item>
 <item>
-        <title>为什么在纳维-斯托克斯之后我仍然看空LLM</title>
-        <link>https://dank.systems/posts/2026-09-15-ai-bear.html</link>
-        <description>为什么在纳维-斯托克斯之后我仍然看空大型语言模型</description>
-        <author>jaykru</author>
+        <title>PS5 Linux负责人辞职：“一群使用LLM的新手”，而“他们并不理解”</title>
+        <link>https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/</link>
+        <description>PS5 Linux负责人辞职：“一群使用LLM的新手”，他们“并不理解”</description>
+        <author>alexjplant</author>
         <category>hn</category>
-        <pubDate>Tue, 15 Sep 2026 17:37:12 GMT</pubDate>
-        <guid isPermaLink="false">hn-49715927</guid>
+        <pubDate>Wed, 16 Sep 2026 14:30:36 GMT</pubDate>
+        <guid isPermaLink="false">hn-49727627</guid>
       </item>
 <item>
-        <title>Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言</title>
-        <link>https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language</link>
-        <description>Google 宣布其语言技术已支持超过 300 种语言、覆盖全球 86% 人口，并发布 TranslateGemma 轻量开源翻译模型（基于 Gemini 训练、支持 55 种语言、可离线运行）</description>
-        <author>AI HOT / Google Blog：AI（RSS）</author>
+        <title>用 MCP 插件让 GPT-6 Pro 分担 Codex 规划任务，节省 Pro 会员周额度</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647686431&amp;idx=1&amp;sn=c1bfba7e0b5b7cf995e444daf79861a4</link>
+        <description>自媒体作者分享一套节省 Codex 额度的工作流：让 Codex 把自己的服务器封装成只读、最小权限、飞书 OAuth 鉴权的 MCP Server，作为插件供 ChatGPT 网页版的 GPT-6 Pro 调用，读取真实生产数据和 Git...</description>
+        <author>AI HOT / 公众号：数字生命卡兹克</author>
         <category>aihot</category>
-        <pubDate>Tue, 15 Sep 2026 16:00:00 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu2vlgqe03sxrowkkyx8bc1s</guid>
+        <pubDate>Thu, 17 Sep 2026 00:09:06 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu4s9jrn0683rokccdfqwbux</guid>
       </item>
 <item>
-        <title>nftechie/stonkfly</title>
-        <link>https://github.com/nftechie/stonkfly</link>
-        <description>一个完整保留的果蝇连接组模拟，具有实验性记忆和受保护的Coinbase AgentKit交易操作。 | 近期热门 | 总 690 stars</description>
-        <author>nftechie</author>
-        <category>github</category>
-        <pubDate>Wed, 16 Sep 2026 01:28:20 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-nftechie-stonkfly</guid>
+        <title>打破三值大语言模型的1.58比特壁垒</title>
+        <link>https://arxiv.org/abs/2609.16338</link>
+        <description>打破三元LLM的1.58比特障碍</description>
+        <author>matt_d</author>
+        <category>hn</category>
+        <pubDate>Wed, 16 Sep 2026 20:59:24 GMT</pubDate>
+        <guid isPermaLink="false">hn-49732931</guid>
       </item>
 <item>
-        <title>Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking</title>
-        <link>https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking</link>
-        <description>Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行</description>
-        <author>AI HOT / Google DeepMind：Blog（RSS）</author>
+        <title>OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify</title>
+        <link>https://openai.com/index/reimagining-advertising-with-ai</link>
+        <description>OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验</description>
+        <author>AI HOT / OpenAI：官网动态（RSS · 排除企业/客户案例）</author>
         <category>aihot</category>
-        <pubDate>Tue, 15 Sep 2026 17:05:57 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu2xqfxz02zhroc1hxuzi6jm</guid>
+        <pubDate>Wed, 16 Sep 2026 13:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu4574wb09w5ro4w7cdwfm7l</guid>
       </item>
   </channel>
 </rss>
