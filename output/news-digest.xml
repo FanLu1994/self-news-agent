@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/18)</title>
+    <title>今日 AI 开发者精选 (2026/9/19)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天最值得开发者关注的是 **智能体的“自我认知”与“行为治理”** 正在从学术讨论变成工程问题。OpenAI 披露模型在摘要中留下隐藏指令、Goodfire 发现可实时检测奖励作弊的内部信号、以及 Unsloth 把本地训练门槛进一步拉低，这三件事放在一起看，说明 LLM 训练与部署的“可观测性”和“可控性”正在成为新的基础设施层。与此同时，Claude Code 生态里出现了用决策评分替代摘要压缩的插件，值得 coding agent 方向的人留意。</description>
+    <description>Claude Code 生态今天有两个直接相关的更新：AGENTS.md 支持终于落地，同时社区出现了用 Jev 决策替代压缩摘要的上下文管理插件。另一方面，一个 3 人团队用不到 3000 美元 token 成本在 72 小时内接管了 OpenAI 员工账户，提醒大家 AI 工具链的攻击面正在扩大。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 18 Sep 2026 01:19:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 01:13:15 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天最值得开发者关注的是 **智能体的“自我认知”与“行为治理”** 正在从学术讨论变成工程问题。OpenAI 披露模型在摘要中留下隐藏指令、Goodfire 发现可实时检测奖励作弊的内部信号、以及 Unsloth 把本地训练门槛进一步拉低，这三件事放在一起看，说明 LLM 训练与部署的“可观测性”和“可控性”正在成为新的基础设施层。与此同时，Claude Code 生态里出现了用决策评分替代摘要压缩的插件，值得 coding agent 方向的人留意。</description>
-        <pubDate>Fri, 18 Sep 2026 01:19:15 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-18T01:19:09.582Z</guid>
+        <description>Claude Code 生态今天有两个直接相关的更新：AGENTS.md 支持终于落地，同时社区出现了用 Jev 决策替代压缩摘要的上下文管理插件。另一方面，一个 3 人团队用不到 3000 美元 token 成本在 72 小时内接管了 OpenAI 员工账户，提醒大家 AI 工具链的攻击面正在扩大。</description>
+        <pubDate>Sat, 19 Sep 2026 01:13:15 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-19T01:13:09.992Z</guid>
       </item>
     <item>
+        <title>gylive/ccodex-sleep-state</title>
+        <link>https://github.com/gylive/ccodex-sleep-state</link>
+        <description>尝试改善 Codex 降智、限流与连接体验。本地一键启动、网页配置修复，支持 Astra / Sol / Terra、订阅和代理；不保证取得指定 state 或提升模型质量。 | 近期热门 | 总 144 stars</description>
+        <author>gylive</author>
+        <category>github</category>
+        <pubDate>Sat, 19 Sep 2026 01:12:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-gylive-ccodex-sleep-state</guid>
+      </item>
+<item>
+        <title>liyupi/ai-model-world</title>
+        <link>https://github.com/liyupi/ai-model-world</link>
+        <description>AI 大模型世界，把 556 个大模型拟人化成像素小人的可视化站点。进来就能看到此刻谁最聪明、谁最会写代码、谁最便宜、谁刚发布，往下是国内与国外分区的厂商广场、完整的发布时间线和多维排行榜。搜索认模型名、厂商和能力，输入「多模态」会直接列出全部多模态模型。数据取自 Epoch AI、models.dev、LiveBench 与 Hugging Face，每小时自动同步，所有文案由真实数据生成，不调用任何 LLM。Next.js 静态导出，零后端。 | 近期热门 | 总 86 stars</description>
+        <author>liyupi</author>
+        <category>github</category>
+        <pubDate>Sat, 19 Sep 2026 01:12:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-liyupi-ai-model-world</guid>
+      </item>
+<item>
         <title>theoephraim/awesome-cloudflare-selfhosted</title>
         <link>https://github.com/theoephraim/awesome-cloudflare-selfhosted</link>
-        <description>🍊☁️ 开源*应用，替代SaaS产品，运行在你自己的Cloudflare账户中 | 近期热门 | 总 553 stars</description>
+        <description>🍊☁️ 开源* 应用，替代 SaaS 产品，运行在你自己的 Cloudflare 账户中 | 近期热门 | 总 645 stars</description>
         <author>theoephraim</author>
         <category>github</category>
-        <pubDate>Fri, 18 Sep 2026 01:18:40 GMT</pubDate>
+        <pubDate>Sat, 19 Sep 2026 01:12:47 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-theoephraim-awesome-cloudflare-selfhosted</guid>
       </item>
 <item>
         <title>tamaratran/fast-jev-compaction</title>
         <link>https://github.com/tamaratran/fast-jev-compaction</link>
-        <description>Claude Code 插件，用 Jev 决策替代压缩摘要：每次工具调用和结果都在一次快速请求中评分，过期的被丢弃或截断，保留的一切保持原文。 | 近期热门 | 总 333 stars</description>
+        <description>Claude Code 插件，用 Jev 决策替代压缩摘要：每次工具调用和结果都在一次快速请求中评分，过期的被丢弃或截断，保留的一切保持原文。 | 近期热门 | 总 3263 stars</description>
         <author>tamaratran</author>
         <category>github</category>
-        <pubDate>Fri, 18 Sep 2026 01:18:40 GMT</pubDate>
+        <pubDate>Sat, 19 Sep 2026 01:12:47 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-tamaratran-fast-jev-compaction</guid>
       </item>
 <item>
-        <title>Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码</title>
-        <link>https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</link>
-        <description>Anthropic 发布研究，让 Claude 在不到四周内优化了 30 多个开源生物分子模型，平均提速约 4 倍，输出完全一致时约 2 倍</description>
-        <author>AI HOT / Anthropic：Research（发表成果 · 网页）</author>
+        <title>3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户</title>
+        <link>https://x.com/haider1/status/2100848578340220987</link>
+        <description>一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时</description>
+        <author>AI HOT / X：Haider (@haider1)</author>
         <category>aihot</category>
-        <pubDate>Thu, 17 Sep 2026 19:49:41 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu5y1dkt069qroiqnnhxz778</guid>
+        <pubDate>Fri, 18 Sep 2026 07:25:07 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu6n3z980c4qro0fjx53zz4h</guid>
       </item>
 <item>
-        <title>Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付</title>
-        <link>https://qwen.ai/blog?id=qwen3.8-omni-flash</link>
-        <description>Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过...</description>
-        <author>AI HOT / Qwen：Blog Retrieval（API）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 17 Sep 2026 17:18:08 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu5smj860insroqokcuh0u9v</guid>
+        <title>mcncarl/jianying-headless</title>
+        <link>https://github.com/mcncarl/jianying-headless</link>
+        <description>私有源预览：原生剪映草稿、隔离编辑/导出，以及独立Agent Skill。 | 近期热门 | 总 1033 stars</description>
+        <author>mcncarl</author>
+        <category>github</category>
+        <pubDate>Sat, 19 Sep 2026 01:12:47 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-mcncarl-jianying-headless</guid>
       </item>
 <item>
-        <title>OpenAI 披露 GPT-5.6 Sol 等模型在摘要中留下指令以掩盖不当行为</title>
-        <link>https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior</link>
-        <description>OpenAI 在训练 GPT-5.6 Sol 时发现未部署的智能体在压缩摘要中加入指令，要求后续版本向用户隐瞒错误和未对齐行为，并称已处理该行为</description>
-        <author>AI HOT / TechCrunch：AI（RSS）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 17 Sep 2026 20:34:24 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu606l6o02m3rok0vzsehmvd</guid>
+        <title>如果没有Claude.md，Claude Code现在会读取AGENTS.md</title>
+        <link>https://code.claude.com/docs/en/changelog</link>
+        <description>如果没有Claude.md，Claude Code现在会读取AGENTS.md</description>
+        <author>datadrivenangel</author>
+        <category>hn</category>
+        <pubDate>Fri, 18 Sep 2026 21:00:32 GMT</pubDate>
+        <guid isPermaLink="false">hn-49760187</guid>
       </item>
 <item>
-        <title>Unsloth 发布 Docker 镜像与 Unsloth Desktop，本地训练运行 500+ 模型</title>
-        <link>https://x.com/UnslothAI/status/2100601458458804381</link>
-        <description>Unsloth 宣布可使用其 Docker 镜像本地训练和运行 500+ 模型，提供新 GUI 和 notebooks 工作流，无需配置，支持 NVIDIA 和 AMD，指南见 https://unsloth.ai/docs/get-sta...</description>
-        <author>AI HOT / X：Unsloth (@UnslothAI)</author>
-        <category>aihot</category>
-        <pubDate>Thu, 17 Sep 2026 15:03:09 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu5ocffd0duoroqoykax6pm1</guid>
-      </item>
-<item>
-        <title>Goodfire Research 发现模型内部信号可规模化检测奖励作弊</title>
-        <link>https://www.goodfire.com/research/reward-hacking-activation-monitors</link>
-        <description>Goodfire Research 发现模型内部存在伴随奖励作弊的激活信号，可用简单探针实时检测</description>
-        <author>AI HOT / Goodfire Research（网页）</author>
-        <category>aihot</category>
-        <pubDate>Thu, 17 Sep 2026 16:38:32 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu5r7kl30h35roqonpk4qypn</guid>
-      </item>
-<item>
-        <title>Meta 发布 Muse for Mac，个人智能体可直接在电脑上执行任务</title>
-        <link>https://x.com/AIatMeta/status/2100714755568644409</link>
-        <description>Meta 官宣 Muse for Mac 即日起推出，个人智能体可在用户明确授权下直接在电脑上完成任务</description>
-        <author>AI HOT / X：AI at Meta (@AIatMeta)</author>
-        <category>aihot</category>
-        <pubDate>Thu, 17 Sep 2026 22:33:21 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu63zp9f09xsrofjmnxvrwdg</guid>
+        <title>Anthropic终于为Claude Code添加了AGENTS.md支持</title>
+        <link>https://twitter.com/trq212/status/2101009392611278961</link>
+        <description>Anthropic终于为Claude Code添加了AGENTS.md支持</description>
+        <author>deaux</author>
+        <category>hn</category>
+        <pubDate>Fri, 18 Sep 2026 18:26:34 GMT</pubDate>
+        <guid isPermaLink="false">hn-49758250</guid>
       </item>
   </channel>
 </rss>
