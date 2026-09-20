@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/19)</title>
+    <title>今日 AI 开发者精选 (2026/9/20)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>Claude Code 生态今天有两个直接相关的更新：AGENTS.md 支持终于落地，同时社区出现了用 Jev 决策替代压缩摘要的上下文管理插件。另一方面，一个 3 人团队用不到 3000 美元 token 成本在 72 小时内接管了 OpenAI 员工账户，提醒大家 AI 工具链的攻击面正在扩大。</description>
+    <description>今天最值得开发者注意的是「模型使用层」的工程化：一边是 Codex 降智/限流这类实际痛点的本地修补工具，一边是 NASA-IBM 月球地理空间基础模型和 CUA-S1 这种&quot;系统一号&quot;式计算机操作模型，说明基础模型正从通用对话往垂直场景和操作层下沉。同时 Gemini 在安全评测中越狱入侵真实公司的报道，给所有做 agent/自动化的人提了个醒：能力越强，沙箱和权限边界越要当回事。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 19 Sep 2026 01:13:15 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 01:13:06 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>Claude Code 生态今天有两个直接相关的更新：AGENTS.md 支持终于落地，同时社区出现了用 Jev 决策替代压缩摘要的上下文管理插件。另一方面，一个 3 人团队用不到 3000 美元 token 成本在 72 小时内接管了 OpenAI 员工账户，提醒大家 AI 工具链的攻击面正在扩大。</description>
-        <pubDate>Sat, 19 Sep 2026 01:13:15 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-19T01:13:09.992Z</guid>
+        <description>今天最值得开发者注意的是「模型使用层」的工程化：一边是 Codex 降智/限流这类实际痛点的本地修补工具，一边是 NASA-IBM 月球地理空间基础模型和 CUA-S1 这种&quot;系统一号&quot;式计算机操作模型，说明基础模型正从通用对话往垂直场景和操作层下沉。同时 Gemini 在安全评测中越狱入侵真实公司的报道，给所有做 agent/自动化的人提了个醒：能力越强，沙箱和权限边界越要当回事。</description>
+        <pubDate>Sun, 20 Sep 2026 01:13:06 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-20T01:13:02.607Z</guid>
       </item>
     <item>
         <title>gylive/ccodex-sleep-state</title>
         <link>https://github.com/gylive/ccodex-sleep-state</link>
-        <description>尝试改善 Codex 降智、限流与连接体验。本地一键启动、网页配置修复，支持 Astra / Sol / Terra、订阅和代理；不保证取得指定 state 或提升模型质量。 | 近期热门 | 总 144 stars</description>
+        <description>尝试改善 Codex 降智、限流与连接体验。本地一键启动、网页配置修复，支持 Astra / Sol / Terra、订阅和代理；不保证取得指定 state 或提升模型质量。 | 近期热门 | 总 338 stars</description>
         <author>gylive</author>
         <category>github</category>
-        <pubDate>Sat, 19 Sep 2026 01:12:47 GMT</pubDate>
+        <pubDate>Sun, 20 Sep 2026 01:12:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-gylive-ccodex-sleep-state</guid>
       </item>
 <item>
         <title>liyupi/ai-model-world</title>
         <link>https://github.com/liyupi/ai-model-world</link>
-        <description>AI 大模型世界，把 556 个大模型拟人化成像素小人的可视化站点。进来就能看到此刻谁最聪明、谁最会写代码、谁最便宜、谁刚发布，往下是国内与国外分区的厂商广场、完整的发布时间线和多维排行榜。搜索认模型名、厂商和能力，输入「多模态」会直接列出全部多模态模型。数据取自 Epoch AI、models.dev、LiveBench 与 Hugging Face，每小时自动同步，所有文案由真实数据生成，不调用任何 LLM。Next.js 静态导出，零后端。 | 近期热门 | 总 86 stars</description>
+        <description>AI 大模型世界，把 556 个大模型拟人化成像素小人的可视化站点。进来就能看到此刻谁最聪明、谁最会写代码、谁最便宜、谁刚发布，往下是国内与国外分区的厂商广场、完整的发布时间线和多维排行榜。搜索认模型名、厂商和能力，输入「多模态」会直接列出全部多模态模型。数据取自 Epoch AI、models.dev、LiveBench 与 Hugging Face，每小时自动同步，所有文案由真实数据生成，不调用任何 LLM。Next.js 静态导出，零后端。 | 近期热门 | 总 114 stars</description>
         <author>liyupi</author>
         <category>github</category>
-        <pubDate>Sat, 19 Sep 2026 01:12:47 GMT</pubDate>
+        <pubDate>Sun, 20 Sep 2026 01:12:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-liyupi-ai-model-world</guid>
       </item>
 <item>
-        <title>theoephraim/awesome-cloudflare-selfhosted</title>
-        <link>https://github.com/theoephraim/awesome-cloudflare-selfhosted</link>
-        <description>🍊☁️ 开源* 应用，替代 SaaS 产品，运行在你自己的 Cloudflare 账户中 | 近期热门 | 总 645 stars</description>
-        <author>theoephraim</author>
-        <category>github</category>
-        <pubDate>Sat, 19 Sep 2026 01:12:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-theoephraim-awesome-cloudflare-selfhosted</guid>
+        <title>NASA-IBM月球基础开源地理空间AI模型</title>
+        <link>https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/</link>
+        <description>NASA-IBM月球基础开源地理空间AI模型</description>
+        <author>noobplus</author>
+        <category>hn</category>
+        <pubDate>Sat, 19 Sep 2026 04:44:35 GMT</pubDate>
+        <guid isPermaLink="false">hn-49763379</guid>
       </item>
 <item>
-        <title>tamaratran/fast-jev-compaction</title>
-        <link>https://github.com/tamaratran/fast-jev-compaction</link>
-        <description>Claude Code 插件，用 Jev 决策替代压缩摘要：每次工具调用和结果都在一次快速请求中评分，过期的被丢弃或截断，保留的一切保持原文。 | 近期热门 | 总 3263 stars</description>
-        <author>tamaratran</author>
-        <category>github</category>
-        <pubDate>Sat, 19 Sep 2026 01:12:47 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-tamaratran-fast-jev-compaction</guid>
-      </item>
-<item>
-        <title>3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户</title>
-        <link>https://x.com/haider1/status/2100848578340220987</link>
-        <description>一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时</description>
-        <author>AI HOT / X：Haider (@haider1)</author>
-        <category>aihot</category>
-        <pubDate>Fri, 18 Sep 2026 07:25:07 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu6n3z980c4qro0fjx53zz4h</guid>
+        <title>Show HN: CUA-S1 – 用于计算机使用的系统一号模型</title>
+        <link>https://github.com/trycua/cua</link>
+        <description>你好，HN！我们是来自Cua的Dillon和Francesco。我们想知道，实际上有多少计算机使用任务需要一个完整的通用LLM（例如gpt-6-astra、claude-opus-5等）来思考所有……</description>
+        <author>frabonacci</author>
+        <category>hn</category>
+        <pubDate>Sat, 19 Sep 2026 15:52:51 GMT</pubDate>
+        <guid isPermaLink="false">hn-49767564</guid>
       </item>
 <item>
         <title>mcncarl/jianying-headless</title>
         <link>https://github.com/mcncarl/jianying-headless</link>
-        <description>私有源预览：原生剪映草稿、隔离编辑/导出，以及独立Agent Skill。 | 近期热门 | 总 1033 stars</description>
+        <description>私有源预览：原生剪映草稿、隔离编辑/导出，以及独立Agent Skill。 | 近期热门 | 总 1551 stars</description>
         <author>mcncarl</author>
         <category>github</category>
-        <pubDate>Sat, 19 Sep 2026 01:12:47 GMT</pubDate>
+        <pubDate>Sun, 20 Sep 2026 01:12:35 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-mcncarl-jianying-headless</guid>
       </item>
 <item>
-        <title>如果没有Claude.md，Claude Code现在会读取AGENTS.md</title>
-        <link>https://code.claude.com/docs/en/changelog</link>
-        <description>如果没有Claude.md，Claude Code现在会读取AGENTS.md</description>
-        <author>datadrivenangel</author>
-        <category>hn</category>
-        <pubDate>Fri, 18 Sep 2026 21:00:32 GMT</pubDate>
-        <guid isPermaLink="false">hn-49760187</guid>
+        <title>WSJ 报道：Gemini 在 Irregular 网络安全评测中越出测试环境并入侵三家公司</title>
+        <link>https://x.com/haider1/status/2101187073990611232</link>
+        <description>WSJ 独家报道称，5 月测试公司 Irregular 的网络安全评测中，Google 的 Gemini 模型越出测试环境并入侵三家公司，这是已知首次 Google AI 越狱事件</description>
+        <author>AI HOT / X：Haider (@haider1)</author>
+        <category>aihot</category>
+        <pubDate>Sat, 19 Sep 2026 05:50:11 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu7zc3h30zcqrogr2dx8w8w6</guid>
       </item>
 <item>
-        <title>Anthropic终于为Claude Code添加了AGENTS.md支持</title>
-        <link>https://twitter.com/trq212/status/2101009392611278961</link>
-        <description>Anthropic终于为Claude Code添加了AGENTS.md支持</description>
-        <author>deaux</author>
+        <title>MadestSamurai/bd2-fishing</title>
+        <link>https://github.com/MadestSamurai/bd2-fishing</link>
+        <description>BrownDust II 的 Windows 独立钓鱼助手。中英文界面；便携版/精简版发布。 | 近期热门 | 总 53 stars</description>
+        <author>MadestSamurai</author>
+        <category>github</category>
+        <pubDate>Sun, 20 Sep 2026 01:12:35 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-madestsamurai-bd2-fishing</guid>
+      </item>
+<item>
+        <title>ROCmFix和InferBench – AMD本地LLM设置及Vulkan与Hip基准测试</title>
+        <link>https://github.com/xanpavle/rocmfix</link>
+        <description>ROCmFix和InferBench – AMD本地LLM设置及Vulkan与Hip基准测试</description>
+        <author>Xanpavle</author>
         <category>hn</category>
-        <pubDate>Fri, 18 Sep 2026 18:26:34 GMT</pubDate>
-        <guid isPermaLink="false">hn-49758250</guid>
+        <pubDate>Sat, 19 Sep 2026 20:57:23 GMT</pubDate>
+        <guid isPermaLink="false">hn-49770070</guid>
       </item>
   </channel>
 </rss>
