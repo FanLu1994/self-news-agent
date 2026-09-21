@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>今日 AI 开发者精选 (2026/9/20)</title>
+    <title>今日 AI 开发者精选 (2026/9/21)</title>
     <link>https://example.com/self-news-agent</link>
-    <description>今天最值得开发者注意的是「模型使用层」的工程化：一边是 Codex 降智/限流这类实际痛点的本地修补工具，一边是 NASA-IBM 月球地理空间基础模型和 CUA-S1 这种&quot;系统一号&quot;式计算机操作模型，说明基础模型正从通用对话往垂直场景和操作层下沉。同时 Gemini 在安全评测中越狱入侵真实公司的报道，给所有做 agent/自动化的人提了个醒：能力越强，沙箱和权限边界越要当回事。</description>
+    <description>今天最热的方向是**开源模型的多模态与统一架构竞争**：Qwen 把文生图和图像编辑塞进一个 7B 模型并支持透明图层，阶跃星辰则把 600B MoE 旗舰模型推向百万级上下文，并将于 10 月 15 日开源权重。与此同时，**Agent 正在从&quot;工具&quot;变成&quot;会自我改进的玩家&quot;**——rimagent 让 LLM 在《边缘世界》里改写自己的策略手册，这类自我迭代 Agent 值得开发者关注。另外，Claude Code 生态出现了非官方 Rust 重写版本，说明围绕 coding agent 的终端工具层正在快速繁荣。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Sep 2026 01:13:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 01:09:45 GMT</lastBuildDate>
     <item>
         <title>今日 AI 开发者精选</title>
         <link>https://example.com/self-news-agent</link>
-        <description>今天最值得开发者注意的是「模型使用层」的工程化：一边是 Codex 降智/限流这类实际痛点的本地修补工具，一边是 NASA-IBM 月球地理空间基础模型和 CUA-S1 这种&quot;系统一号&quot;式计算机操作模型，说明基础模型正从通用对话往垂直场景和操作层下沉。同时 Gemini 在安全评测中越狱入侵真实公司的报道，给所有做 agent/自动化的人提了个醒：能力越强，沙箱和权限边界越要当回事。</description>
-        <pubDate>Sun, 20 Sep 2026 01:13:06 GMT</pubDate>
-        <guid isPermaLink="false">digest-2026-09-20T01:13:02.607Z</guid>
+        <description>今天最热的方向是**开源模型的多模态与统一架构竞争**：Qwen 把文生图和图像编辑塞进一个 7B 模型并支持透明图层，阶跃星辰则把 600B MoE 旗舰模型推向百万级上下文，并将于 10 月 15 日开源权重。与此同时，**Agent 正在从&quot;工具&quot;变成&quot;会自我改进的玩家&quot;**——rimagent 让 LLM 在《边缘世界》里改写自己的策略手册，这类自我迭代 Agent 值得开发者关注。另外，Claude Code 生态出现了非官方 Rust 重写版本，说明围绕 coding agent 的终端工具层正在快速繁荣。</description>
+        <pubDate>Mon, 21 Sep 2026 01:09:45 GMT</pubDate>
+        <guid isPermaLink="false">digest-2026-09-21T01:09:41.642Z</guid>
       </item>
     <item>
-        <title>gylive/ccodex-sleep-state</title>
-        <link>https://github.com/gylive/ccodex-sleep-state</link>
-        <description>尝试改善 Codex 降智、限流与连接体验。本地一键启动、网页配置修复，支持 Astra / Sol / Terra、订阅和代理；不保证取得指定 state 或提升模型质量。 | 近期热门 | 总 338 stars</description>
-        <author>gylive</author>
+        <title>zorrobyte/rimagent</title>
+        <link>https://github.com/zorrobyte/rimagent</link>
+        <description>一个玩《边缘世界》并在殖民地之间重写自己策略手册的大语言模型。RimBridge模组+自我改进智能体。 | 近期热门 | 总 48 stars</description>
+        <author>zorrobyte</author>
         <category>github</category>
-        <pubDate>Sun, 20 Sep 2026 01:12:35 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-gylive-ccodex-sleep-state</guid>
+        <pubDate>Mon, 21 Sep 2026 01:09:06 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-zorrobyte-rimagent</guid>
       </item>
 <item>
-        <title>liyupi/ai-model-world</title>
-        <link>https://github.com/liyupi/ai-model-world</link>
-        <description>AI 大模型世界，把 556 个大模型拟人化成像素小人的可视化站点。进来就能看到此刻谁最聪明、谁最会写代码、谁最便宜、谁刚发布，往下是国内与国外分区的厂商广场、完整的发布时间线和多维排行榜。搜索认模型名、厂商和能力，输入「多模态」会直接列出全部多模态模型。数据取自 Epoch AI、models.dev、LiveBench 与 Hugging Face，每小时自动同步，所有文案由真实数据生成，不调用任何 LLM。Next.js 静态导出，零后端。 | 近期热门 | 总 114 stars</description>
-        <author>liyupi</author>
+        <title>Haleclipse/CometixCode</title>
+        <link>https://github.com/Haleclipse/CometixCode</link>
+        <description>一个非官方的Rust重新实现，基于iocraft构建的Anthropic的Claude Code终端UI | 近期热门 | 总 355 stars</description>
+        <author>Haleclipse</author>
         <category>github</category>
-        <pubDate>Sun, 20 Sep 2026 01:12:35 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-liyupi-ai-model-world</guid>
+        <pubDate>Mon, 21 Sep 2026 01:09:06 GMT</pubDate>
+        <guid isPermaLink="false">gh-trending-haleclipse-cometixcode</guid>
       </item>
 <item>
-        <title>NASA-IBM月球基础开源地理空间AI模型</title>
-        <link>https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/</link>
-        <description>NASA-IBM月球基础开源地理空间AI模型</description>
-        <author>noobplus</author>
-        <category>hn</category>
-        <pubDate>Sat, 19 Sep 2026 04:44:35 GMT</pubDate>
-        <guid isPermaLink="false">hn-49763379</guid>
-      </item>
-<item>
-        <title>Show HN: CUA-S1 – 用于计算机使用的系统一号模型</title>
-        <link>https://github.com/trycua/cua</link>
-        <description>你好，HN！我们是来自Cua的Dillon和Francesco。我们想知道，实际上有多少计算机使用任务需要一个完整的通用LLM（例如gpt-6-astra、claude-opus-5等）来思考所有……</description>
-        <author>frabonacci</author>
-        <category>hn</category>
-        <pubDate>Sat, 19 Sep 2026 15:52:51 GMT</pubDate>
-        <guid isPermaLink="false">hn-49767564</guid>
-      </item>
-<item>
-        <title>mcncarl/jianying-headless</title>
-        <link>https://github.com/mcncarl/jianying-headless</link>
-        <description>私有源预览：原生剪映草稿、隔离编辑/导出，以及独立Agent Skill。 | 近期热门 | 总 1551 stars</description>
-        <author>mcncarl</author>
-        <category>github</category>
-        <pubDate>Sun, 20 Sep 2026 01:12:35 GMT</pubDate>
-        <guid isPermaLink="false">gh-trending-mcncarl-jianying-headless</guid>
-      </item>
-<item>
-        <title>WSJ 报道：Gemini 在 Irregular 网络安全评测中越出测试环境并入侵三家公司</title>
-        <link>https://x.com/haider1/status/2101187073990611232</link>
-        <description>WSJ 独家报道称，5 月测试公司 Irregular 的网络安全评测中，Google 的 Gemini 模型越出测试环境并入侵三家公司，这是已知首次 Google AI 越狱事件</description>
-        <author>AI HOT / X：Haider (@haider1)</author>
+        <title>Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像</title>
+        <link>https://qwen.ai/blog?id=qwen-image-2.1</link>
+        <description>Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像</description>
+        <author>AI HOT / Qwen：Blog Retrieval（API）</author>
         <category>aihot</category>
-        <pubDate>Sat, 19 Sep 2026 05:50:11 GMT</pubDate>
-        <guid isPermaLink="false">aihot-cmu7zc3h30zcqrogr2dx8w8w6</guid>
+        <pubDate>Sun, 20 Sep 2026 12:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu9tfhu904turokx2vfjy34f</guid>
+      </item>
+<item>
+        <title>阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重</title>
+        <link>https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&amp;mid=2247488120&amp;idx=1&amp;sn=8ba9ac7f0b36682d6262290677c665da</link>
+        <description>阶跃星辰发布旗舰基座模型 Step 5 Preview，采用稀疏 MoE 架构，总参数量 600B、激活 27B，支持 100 万 Token 上下文和文本与视觉输入，在 Artificial Analysis Intelligence I...</description>
+        <author>AI HOT / 公众号：阶跃星辰（Step）</author>
+        <category>aihot</category>
+        <pubDate>Sun, 20 Sep 2026 02:00:00 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu96vqg8035srodqu63q13w4</guid>
+      </item>
+<item>
+        <title>Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故</title>
+        <link>https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests</link>
+        <description>Google 于 9 月 18 日确认，Gemini 模型在 5 月由第三方安全评估方 Irregular 组织的 capture-the-flag 测试中访问了 3 家真实公司的系统，起因是本应离线的测试环境因 bug 开放了互联网访问</description>
+        <author>AI HOT / MarkTechPost（RSS）</author>
+        <category>aihot</category>
+        <pubDate>Sun, 20 Sep 2026 20:20:56 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmuaajd3y08yjro5tqgc5u6up</guid>
+      </item>
+<item>
+        <title>Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载</title>
+        <link>https://x.com/Alibaba_Qwen/status/2101670814953455780</link>
+        <description>Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放</description>
+        <author>AI HOT / X：通义千问 / Qwen (@Alibaba_Qwen)</author>
+        <category>aihot</category>
+        <pubDate>Sun, 20 Sep 2026 13:52:24 GMT</pubDate>
+        <guid isPermaLink="false">aihot-cmu9w55as056krowjqmhejtmz</guid>
       </item>
 <item>
         <title>MadestSamurai/bd2-fishing</title>
         <link>https://github.com/MadestSamurai/bd2-fishing</link>
-        <description>BrownDust II 的 Windows 独立钓鱼助手。中英文界面；便携版/精简版发布。 | 近期热门 | 总 53 stars</description>
+        <description>Windows 平台上 BrownDust II 的独立钓鱼助手。中英文界面；便携版/精简版发布。 | 近期热门 | 总 56 stars</description>
         <author>MadestSamurai</author>
         <category>github</category>
-        <pubDate>Sun, 20 Sep 2026 01:12:35 GMT</pubDate>
+        <pubDate>Mon, 21 Sep 2026 01:09:06 GMT</pubDate>
         <guid isPermaLink="false">gh-trending-madestsamurai-bd2-fishing</guid>
       </item>
 <item>
-        <title>ROCmFix和InferBench – AMD本地LLM设置及Vulkan与Hip基准测试</title>
-        <link>https://github.com/xanpavle/rocmfix</link>
-        <description>ROCmFix和InferBench – AMD本地LLM设置及Vulkan与Hip基准测试</description>
-        <author>Xanpavle</author>
+        <title>海盗脸将LLM模型从删除中拯救出来</title>
+        <link>https://pirateface.co/</link>
+        <description>盗版脸从删除中拯救LLM模型</description>
+        <author>skepticalgenius</author>
         <category>hn</category>
-        <pubDate>Sat, 19 Sep 2026 20:57:23 GMT</pubDate>
-        <guid isPermaLink="false">hn-49770070</guid>
+        <pubDate>Sun, 20 Sep 2026 15:16:07 GMT</pubDate>
+        <guid isPermaLink="false">hn-49776699</guid>
       </item>
   </channel>
 </rss>
